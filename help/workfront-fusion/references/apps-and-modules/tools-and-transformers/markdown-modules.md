@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u de modules 
 author: Becky
 feature: Workfront Fusion
 exl-id: f1134bbf-c244-4f52-8744-f97453b2ce8a
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 1e95c93213c48aea9297a82669fb2012dbb27601
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '262'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL GitHub Flavored Markdown] </td> 
-   <td> <p>Schakel deze optie in om de GitHub-gearomatiseerde markering om te zetten in HTML.</p> <p>Voor meer informatie, zie Mar [!DNL ] kdown cheatsheet in de [!DNL GitHub] documentatie.</p> </td> 
+   <td> <p>Schakel deze optie in om de GitHub-gearomatiseerde markering om te zetten in HTML.</p> <p>Zie het vervolgkeuzemenu Markering in de [!DNL GitHub] -documentatie voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sanitize]</td> 

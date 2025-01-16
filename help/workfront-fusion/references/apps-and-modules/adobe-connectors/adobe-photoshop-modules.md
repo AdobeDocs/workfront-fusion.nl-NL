@@ -4,9 +4,9 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 371adb5a5558674ecb8aa38b503b8a958c9fc5f5
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3714'
 ht-degree: 0%
 
 ---
@@ -143,7 +143,7 @@ Verbinding maken voor uw [!DNL Adobe Photoshop] -modules:
               <p>Voer het wachtwoord voor het bestand in.</p>
             </li>
             <li value="5">
-              <p>Klik <b> sparen </b> om het dossier te halen en aan de [!UICONTROL ] verbindingsopstelling terug te keren.</p>
+              <p>Klik <b> sparen </b> om het dossier te halen en aan de verbindingsopstelling terug te keren.</p>
             </li>
           </ol>
         </td>

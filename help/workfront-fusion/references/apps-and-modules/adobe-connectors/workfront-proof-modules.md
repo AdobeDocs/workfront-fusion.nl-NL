@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: 9e556ae5-e672-4872-9c40-8c8e5f0305be
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: b1b206a0554832aadc9c42ce0b4f952301474086
 workflow-type: tm+mt
-source-wordcount: '2730'
+source-wordcount: '2727'
 ht-degree: 0%
 
 ---
@@ -696,8 +696,8 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Workfront Proof] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Zoeken naar</td> 
-   <td> <p>Se [!UICONTROL ] selecteer het type van verslag u de module wilt zoeken naar.</p> 
+   <td>[!UICONTROL Search for]</td> 
+   <td> <p>Selecteer het type record waarnaar de module moet zoeken.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Proof]</strong> </p> <p>Voer de proefdruknaam in van de proefdrukproef waarnaar u wilt zoeken.</p> </li> 
      <li> <p><strong>[!UICONTROL Recipient]</strong> </p> <p>Voer het e-mailadres in van de ontvanger waarnaar u wilt zoeken.</p> </li> 

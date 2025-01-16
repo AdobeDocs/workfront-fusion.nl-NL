@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 62269eca-c3cf-42fe-a866-fb66d2363b8d
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 0581601a254a9492f4166d78eb0f11868d390f24
 workflow-type: tm+mt
-source-wordcount: '1532'
+source-wordcount: '1527'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Als u [!DNL Gmail] -modules wilt gebruiken, moet u een [!DNL Gmail] -account heb
 
 ### Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL  Google Workspace] {#connect-gmail-to-workfront-fusion-using-g-suite}
 
-Voor instructies over het verbinden van uw [!DNL Google Workspace] rekening met [!UICONTROL Workfront Fusion], zie [ een verbinding - Basisinstructies ] (/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md.
+Voor instructies over het verbinden van uw [!DNL Google Workspace] rekening met [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
 
 ### Verbind [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL gmail.com] of [!DNL googlemail].com {#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com}
 

@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e514204-cd8e-4f30-bbbb-b8fbe48fc670
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 9cf9ccb282514efc0de7a836f0433f2db2f9caf1
 workflow-type: tm+mt
-source-wordcount: '3312'
+source-wordcount: '3307'
 ht-degree: 0%
 
 ---
@@ -747,7 +747,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### Iteratoren (afgekeurd)
 
-De modules [!UICONTROL iterate attachments] en [!UICONTROL iterate attendees] zijn vervangen. Gebruik de module [!UICONTROL Flow Control] > [!UICONTROL Iterator] om bijlagen of deelnemers te doorlopen. Voor meer informatie, zie {de module van de Teller 0} ] (/help/workfront-fusion/references/modules/iterator-module.md[
+De modules [!UICONTROL iterate attachments] en [!UICONTROL iterate attendees] zijn vervangen. Gebruik de module [!UICONTROL Flow Control] > [!UICONTROL Iterator] om bijlagen of deelnemers te doorlopen. Voor meer informatie, zie {de module van de Teller 0} ](/help/workfront-fusion/references/modules/iterator-module.md)[
 
 ### Overige
 

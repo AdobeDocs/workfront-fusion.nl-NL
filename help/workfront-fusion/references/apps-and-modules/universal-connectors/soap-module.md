@@ -4,7 +4,7 @@ description: U kunt de SOAP module gebruiken om verbinding te maken met SOAP API
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: bf9af473f08463c00578a1a8b07c800239225f09
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -106,7 +106,7 @@ Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschi
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">[!UICONTROL Body type]</td> 
-      <td> <p>[!UICONTROL Raw]</p> </td> [!UICONTROL ]
+      <td> <p>[!UICONTROL Raw]</p> </td>
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Content type]</td> 

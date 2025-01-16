@@ -3,9 +3,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 99f2e558db3d2b126adf748d7e013a4a39735bcd
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1617'
 ht-degree: 0%
 
 ---
@@ -456,8 +456,8 @@ Deze zoekmodule retourneert alle toegankelijke records van het geselecteerde typ
        <li> <p><b>[!UICONTROL Line items]</b> </p> <p>Selecteer of wijs identiteitskaart van het Model toe dat de [!DNL line] punten bevat u wilt terugwinnen.</p> </li> 
        <li> <p><b>[!UICONTROL Model lists]</b> </p> <p>Selecteer of wijs identiteitskaart van Workspace en Model identiteitskaart toe die de Modellijsten bevatten u wilt terugwinnen.</p> </li> 
        <li> <p><b>[!UICONTROL Model calendar]</b> </p> <p>Selecteer of wijs identiteitskaart van Workspace toe die de Model kalender bevat u wilt terugwinnen.</p> </li> 
-       <li> <p><b> Modelversies </b> </p> </li> 
-       <li> <p>Selecteer of kaart [!UICONTROL ] identiteitskaart van het Model dat de Modelversies bevat u wilt terugwinnen.</p> </li> 
+       <li> <p><b>[!UICONTROL Model versions]</b> </p> </li> 
+       <li> <p>Selecteer of wijs identiteitskaart van het Model toe dat de Modelversies bevat u wilt terugwinnen.</p> </li> 
        <li> <p><b>[!UICONTROL Users]</b> </p> </li> 
        <li> <p><b>[!UICONTROL Views]</b> </p> <p>Selecteer of u de mening door Module of door Model wilt kiezen, dan selecteer of kaart identiteitskaart van de Module of het Model dat de mening bevat u wilt terugwinnen.</p> </li> 
       </ul> 

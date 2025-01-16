@@ -5,9 +5,9 @@ description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema
 author: Becky
 feature: Workfront Fusion
 exl-id: 77237a1b-2acd-4350-9cc0-ec43b8b08137
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 8bd08379fc88c4d4f31ba1faba922869d7957b4a
 workflow-type: tm+mt
-source-wordcount: '891'
+source-wordcount: '888'
 ht-degree: 0%
 
 ---
@@ -166,7 +166,7 @@ Deze actiemodule maakt één record in [!DNL Workday] .
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Zie <a href="#Connect" class="MCXref xre[!DNL ]f" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met Workfront Fusion.</td>
+            <td>Zie <a href="#Connect" class="MCXref xref" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met Workfront Fusion.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record Type]</td>
@@ -195,7 +195,7 @@ Deze actiemodule verwijdert één record in [!DNL Workday] .
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Zie <a href="#Connect" class="MCXref xre[!DNL ]f" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met [!DNL Workfront Fusion] .</td>
+            <td>Zie <a href="#Connect" class="MCXref xref" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met [!DNL Workfront Fusion] .</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record type]</td>
@@ -231,7 +231,7 @@ De module keert een statuscode, samen met de kopballen en het lichaam van de API
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>Zie <a href="#Connect" class="MCXref xre[!DNL ]f" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met [!DNL Workfront Fusion] .</td>
+            <td>Zie <a href="#Connect" class="MCXref xref" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met [!DNL Workfront Fusion] .</td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -272,8 +272,8 @@ Deze actiemodule werkt één record bij in [!DNL Workday] .
             <td>Voor instructies over het aansluiten van uw [!DNL Workday] rekening aan Workfront Fusion, zie <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect [!DNL Workday] aan Workfront Fusion] </a></td>
         </tr>
         <tr>
-            <td  role="rowheader">Recordtype</td>
-            <td>Selecteer het type van verslag aan [!UICONTROL ] dat u wilt bijwerken.</td>
+            <td  role="rowheader">[!UICONTROL Record Type]</td>
+            <td>Selecteer het type record dat u wilt bijwerken.</td>
         </tr>
         <tr>
             <td role="rowheader">[!UICONTROL ID] </td>
