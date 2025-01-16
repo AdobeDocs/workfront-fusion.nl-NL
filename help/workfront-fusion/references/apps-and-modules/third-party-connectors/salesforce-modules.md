@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: c4696ad91dd0a2cf753147bffbb6e7b74bb99b02
 workflow-type: tm+mt
-source-wordcount: '2457'
+source-wordcount: '2604'
 ht-degree: 0%
 
 ---
@@ -234,6 +234,7 @@ Deze triggermodule start een scenario wanneer een veld wordt bijgewerkt in [!DNL
 * [[!UICONTROL Custom API Call]](#custom-api-call)
 * [[!UICONTROL Upload Attachment/Document]](#upload-attachmentdocument)
 * [[!UICONTROL Download Attachment/Document]](#download-attachmentdocument)
+* [Bestand uploaden](#upload-file)
 
 #### [!UICONTROL Create a Record]
 
@@ -498,6 +499,41 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
  </tbody> 
 </table>
+
+#### Bestand uploaden
+
+Deze actiemodule uploadt één bestand naar Salesforce.
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Document linking]</td> 
+   <td>Selecteer of u een koppeling naar een inhoudsdocument wilt toepassen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL linkedEntityId]</td> 
+   <td>Als u documentkoppelingen gebruikt, voert u de id van het gekoppelde object in of wijst u deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL ShareType]</td> 
+   <td>Selecteer machtigingen voor het bestand als u documentkoppelingen gebruikt.<ul><li><b>Viewer-machtiging</b><p>De gebruiker kan het bestand weergeven.</p></li><li><b>Machtiging voor deelnemer</b><p>De gebruiker kan het bestand weergeven en bewerken.</p></li><li><b>Overgenomen machtigingen</b><p>Machtigingen zijn gebaseerd op de machtigingen van de gebruiker voor de verwante record, zoals een bibliotheek.</p></li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Visibility]</td> 
+   <td>Als u documentkoppelingen gebruikt, voert u de zichtbaarheid van het document in of wijst u deze toe.<ul><li><b>AllUsers</b><p>Beschikbaar voor alle gebruikers met machtigingen</p></li><li><b>InternalUsers</b><p>Beschikbaar voor interne gebruikers met machtigingen.</p></li><li><b>SharedUsers</b><p>Beschikbaar voor gebruikers die de feed kunnen zien waarnaar het bestand is gepost.</p></li></ul></td> 
+  </tr>
 
 ### Zoekopdrachten
 
