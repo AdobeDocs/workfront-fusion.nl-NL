@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: 3ba5d67806e0d495bd4a91589d06cfb9adb25c0c
+source-git-commit: 9e560995ff9f58a76bbecc521f7d2eef9d47fa48
 workflow-type: tm+mt
-source-wordcount: '1286'
+source-wordcount: '1228'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
-   <td> <p>[!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p> </td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>of</p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td> 
-  </tr> <!--
-   <tr> 
-    <td role="rowheader">Access level configurations*</td> 
-    <td> 
-      <p>You must be a Workfront Fusion administrator for your organization.</p>
-     --> <!--
-      <p>You must be a Workfront Fusion administrator for your team.</p>
-     --> </td> 
-   </tr>
+   <td>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
+   <p>of</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -133,11 +137,6 @@ In het document ziet het telefoonnummer er als volgt uit:
 
 U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. Plaats de tekst tussen de openings- en sluitingslustags. De naam van een openingstag wordt voorafgegaan door een hash-teken #. De naam van een afsluitende tag wordt voorafgegaan door een slash /.
 
-* [ markering van de Lijn met Vul een documentmodule ](#loop-tag-with-fill-out-a-document-module)
-  <!-- [Loop tag with Fill a document with a batch of data module](#loop-tag-with-fill-a-document-with-a-batch-of-data-module)-->
-
-#### Tag herhalen met een documentmodule invullen {#loop-tag-with-fill-out-a-document-module}
-
 **Voorbeeld:** om een document te veroorzaken dat van de naam en het telefoonaantal van elk contact in een klantenlijst een lijst maakt, kon u a [!DNL Microsoft Word Template] module gebruiken en het volgende malplaatje creëren:
 
 ```
@@ -158,29 +157,6 @@ In de module wordt het volgende document gemaakt:
 > Eduard Salo, 4445552345
 ```
 
-<!--
-
-#### Loop tag with Fill a document with a batch of data module {#loop-tag-with-fill-a-document-with-a-batch-of-data-module}
-
-**Example:** You can export Google contacts into a table that you create using loop tags.
-
-The first module loads the template. The next module retrieves all contacts from the group you specify in [!DNL Google Contacts]. The aggregator module aggregates all values retrieved from Google Contacts and merges them into the template. And the last module saves the filled template to the desired location.
-
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-batch-scenario-350x124.png)
-
-You could use this scenario with the following template:
-
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-batch-template-350x26.png)
-
-To do this, you would set up the module as follows:
-
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-batch-module-setup-350x323.png)
-
-The module would create the following document:
-
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-batch-document-350x46.png)
--->
-
 ## [!DNL Microsoft Word Template] modules
 
 Deze modules vereisen geen verbinding.
@@ -198,15 +174,15 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>&#91;&#91;</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga <code>&#91;&#91;</code> binnen om <code>[[replace_me]]</code> te vervangen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>&#93;&#93;</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>&#93;&#93;</code> om te vervangen <code>[[replace_me]]</code></p>. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p> Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld HTTP &gt; Een bestand of Dropbox ophalen &gt; Een bestandsmodule ophalen). U kunt het gegevensbestand ook handmatig invoeren.</p> </td> 
+   <td> <p> Selecteer een bronbestand uit een vorige module of wijs de gegevens van het bronbestand toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name of filled out file]</td> 
@@ -260,11 +236,11 @@ Deze aggregatormodule is vooral handig voor het maken van lijsten of rapporten.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start delimiter of the text being replaced]</td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>&#91;&#91;</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het begin van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga <code>&#91;&#91;</code> binnen om <code>[[replace_me]]</code> te vervangen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL End delimiter of the text being replaced]</p> </td> 
-   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga binnen <code>&#93;&#93;</code> als u een tekst gelijkend op dit wilt vervangen: <code>[[replace_me]]</code></p> </td> 
+   <td> <p>Voer de tekens in die u wilt markeren aan het einde van de tekst die wordt vervangen. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span> ga <code>&#93;&#93;</code> binnen om <code>[[replace_me]]</code> te vervangen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Group by]</td> 
@@ -276,15 +252,11 @@ Deze aggregatormodule is vooral handig voor het maken van lijsten of rapporten.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p> Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld HTTP &gt; Een bestand of Dropbox ophalen &gt; Een bestandsmodule ophalen). U kunt het gegevensbestand ook handmatig invoeren.</p> </td> 
+   <td> <p> Selecteer een bronbestand uit een vorige module of wijs de gegevens van het bronbestand toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name of filled out file]</td> 
    <td>Voer een bestandsnaam (inclusief extensie) in voor het doeluitvoerbestand.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Data source]</td> 
-   <td> <p>Selecteer een optie om aan te geven of de gegevens die u gebruikt afkomstig zijn uit een formulier of uit een Raw-gegevensverzameling (onverwerkte computergegevens).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Values]</td> 
