@@ -4,9 +4,9 @@ description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: c4696ad91dd0a2cf753147bffbb6e7b74bb99b02
+source-git-commit: 12620e137d2e536b90eb322de93fd39bb8374e51
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1021'
 ht-degree: 0%
 
 ---
@@ -27,15 +27,26 @@ Voor het verwerken van grotere bestanden moeten uw scenario&#39;s worden bijgewe
 
 ## Connectors die grote bestanden ondersteunen
 
-Voor de eerste release ondersteunen de volgende connectors grote bestanden.
+Momenteel, steunen de volgende schakelaars grote dossiers.
 
-* Workfront > Document uploaden
-* Adobe Experience Manager Assets > Document uploaden
-* Workfront Proof > Bestand uploaden
-* Adobe Authenticator > Een aangepaste API-aanroep maken
-* SharePoint > Create a file and SharePoint > Get a file
-* Salesforce > Bestand uploaden
-* AWS S3 > Upload File and AWS S3 > Get File
+* Workfront
+   * Document uploaden
+   * Document downloaden
+* Adobe Experience Manager Assets
+   * Document uploaden
+* Workfront Proof
+   * Bestand uploaden
+   * Proef downloaden
+* Adobe Authenticator
+   * Aangepaste API-aanroep maken
+* SharePoint
+   * Een bestand maken
+   * Een bestand ophalen
+* Salesforce
+   * Bestand uploaden
+* AWS S3
+   * Bestand uploaden
+   * Bestand ophalen
 * HTTP
 
 Andere schakelaars zullen in toekomstige versies worden gesteund.
@@ -74,7 +85,7 @@ Nee, het aantal bewerkingen dat door een module wordt uitgevoerd, is hetzelfde.
 
 ### Wanneer wordt de gebruikersinterface van Fusion bijgewerkt om gegevens over bestandsoverdracht weer te geven?
 
-Wij werken actief aan updates aan UI van Fusion voor dossieroverdracht op het dashboard en de detailpagina van de scenariouitvoering, met een gerichte versie in Q1 2025.
+Deze functie is al voltooid en geïmplementeerd voor productie.
 
 ### Wat zijn sommige manieren om over de nieuwe grenzen van de dossierverwerking te denken die me ontwerpscenario&#39;s zullen helpen?
 
