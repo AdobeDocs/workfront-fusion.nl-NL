@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 4e45e691ed453cec5af1fa7b52204031af83f869
 workflow-type: tm+mt
-source-wordcount: '1809'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -15,50 +15,54 @@ ht-degree: 0%
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Jira Software] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
+Deze instructies zijn van toepassing op de modules Jira Cloud en Jira Server.
+
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
 Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
-<!-- Bob Fix this compared to original -->
-
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -110,10 +114,10 @@ Als u [!DNL Jira Software] wilt verbinden met [!DNL Workfront Fusion] , moet u e
 
 #### Een API-token maken in [!DNL Jira]
 
-1. Ga naar [ https://id.atlassian.com/manage/api-tokens ](https://id.atlassian.com/manage/api-tokens) en login.
-1. Klik op **[!UICONTROL Create API token]**.
-1. Typ een naam voor het teken, zoals *de Fusie van Workfront*.
-1. Kopieer het token met de knop **[!UICONTROL Copy to clipboard]** .
+1. Maak een API-token in Jira.
+
+   Voor instructies raden we u aan te zoeken naar &quot;Een API-token maken&quot; in de documentatie van Jira.
+1. Kopieer het token na het maken van het token naar een beveiligde locatie.
 
    >[!IMPORTANT]
    >
@@ -123,9 +127,11 @@ Als u [!DNL Jira Software] wilt verbinden met [!DNL Workfront Fusion] , moet u e
 
 #### De API-token [!DNL Jira] configureren in [!DNL Workfront Fusion]
 
-1. Voeg in [!DNL Workfront Fusion] een [!DNL Jira] -module toe aan een scenario om het vak **[!UICONTROL Create a connection]** te openen.
+1. Klik in een willekeurige [!DNL Jira Cloud] -module in [!DNL Workfront Fusion] op **[!UICONTROL Add]** naast het [!UICONTROL connection] -veld.
 1. Geef de volgende informatie op:
 
+   * **Milieu**
+   * **Type**
    * **[!UICONTROL Service URL]:** dit is de basis-URL die u gebruikt om toegang te krijgen tot uw Jira-account. Voorbeeld: `yourorganization.atlassian.net`
    * **[!UICONTROL Username]**
    * **[!UICONTROL API token]:** dit is het API teken u in [ creeerde een API teken in  [!DNL Jira]](#create-an-api-token-in-jira) sectie van dit artikel.
@@ -133,10 +139,6 @@ Als u [!DNL Jira Software] wilt verbinden met [!DNL Workfront Fusion] , moet u e
 1. Klik op [!UICONTROL Continue] om de verbinding te maken en terug te keren naar de module.
 
 ### Verbinden [!DNL Jira Server] met [!DNL Workfront Fusion]
-
-<!--
-<p style="color: #ff1493;">Becky: Find out and document how to find these things</p>
--->
 
 Als u een verbinding tussen [!DNL Workfront Fusion] en [!DNL Jira Server] wilt autoriseren, hebt u uw gebruikersnaam, persoonlijke sleutel en service-URL nodig. Mogelijk moet u contact opnemen met de [!DNL Jira] -beheerder voor deze informatie.
 
@@ -160,8 +162,7 @@ Als u een persoonlijke sleutel voor uw [!DNL Workfront Fusion Jira] -verbinding 
 
    * `openssl pkcs8 -topk8 -nocrypt -in jira_privatekey.pem -out jira_privatekey.pcks8`
 
-     Met deze opdracht haalt u de persoonlijke sleutel (PKCS8-indeling) uit naar de `jira_privatekey.pcks8`
-bestand.
+     Met deze opdracht extraheert u de persoonlijke sleutel (PKCS8-indeling) naar het `jira_privatekey.pcks8` -bestand.
 
    * `openssl x509 -pubkey -noout -in jira_publickey.cer  > jira_publickey.pem`
 
@@ -175,7 +176,7 @@ bestand.
      >   
      >   `openssl x509 -pubkey -noout -in jira_publickey.cer`
      >   
-     >1. Kopieer de terminaluitvoer (inclusief `-------BEGIN PUBLIC KEY--------` en `-------END PUBLIC KEY--------` )
+     >1. Kopieer de einduitvoer, inclusief `-------BEGIN PUBLIC KEY--------` en `-------END PUBLIC KEY--------` .
      >   
      >1. Plak de einduitvoer in een bestand met de naam `jira_publickey.pem` .
 
@@ -251,6 +252,14 @@ bestand.
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
       <td> <p>Geef een naam op voor de verbinding</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Environment]</p> </td> 
+      <td> <p>Selecteer of u een productie- of niet-productieomgeving gebruikt.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Type]</p> </td> 
+      <td> <p>Selecteer of u een serviceaccount of een persoonlijke account gebruikt.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Consumer Key]</td> 
@@ -340,7 +349,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Issue ID or Keys]</td> 
-   <td>Voeg een Issue ID of Key toe voor elke uitgave die u aan de sprint wilt toevoegen.</td> 
+   <td>Voor elke uitgave of sleutel die u de ervaring wilt zien, klikt u op <b>[!UICONTROL Add item]</b> en voert u de toepassings-id of -sleutel in. U kunt maximaal 50 invoeren in één module.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -363,7 +372,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>Selecteer het type record dat de module moet maken. Wanneer u een recordtype selecteert, worden andere velden die specifiek zijn voor dat recordtype, weergegeven in de module.</p> 
+   <td> <p>Selecteer het type record dat u wilt maken in de module en vul vervolgens de andere velden in die specifiek zijn voor dat recordtype in de module.</p> 
     <ul> 
      <li>[!UICONTROL Attachment]</li> 
      <li>[!UICONTROL Comment]</li> 
@@ -378,7 +387,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Custom API Call]
 
-Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Jira Software] API maken. Op deze manier kunt u een automatisering van de gegevensstroom maken die niet door de andere [!DNL Jira Software] -modules kan worden uitgevoerd.
+Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL Jira Software] API maken. Gebruik deze module om een automatisering van de gegevensstroom tot stand te brengen die niet door andere [!DNL Jira Software] modules kan worden verwezenlijkt.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -416,7 +425,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Delete a record]
 
-Deze actiemodule verwijdert een bepaalde record.
+Deze actiemodule verwijdert de opgegeven record.
 
 U geeft de id van de record op.
 
@@ -542,7 +551,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID or Key]</td> 
-   <td>Voer de id of sleutel in of wijs deze toe aan de record die u wilt bijwerken.</td> 
+   <td>Voer de id of sleutel van de record die u wilt bijwerken in of wijs deze toe en vul vervolgens de andere velden in die specifiek zijn voor dat recordtype, die worden weergegeven in de module.</td> 
   </tr> 
  </tbody> 
 </table>
