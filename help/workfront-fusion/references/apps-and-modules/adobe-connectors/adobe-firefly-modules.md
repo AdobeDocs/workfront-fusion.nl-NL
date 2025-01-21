@@ -4,7 +4,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 200907bb8d80f874227493b489ef1ea450198dc6
 workflow-type: tm+mt
 source-wordcount: '1203'
 ht-degree: 0%
@@ -64,9 +64,9 @@ Voordat u de [!DNL Adobe Firefly] -connector kunt gebruiken, moet u controleren 
 
 * U moet een actieve [!DNL Adobe Firefly] account hebben.
 
-## Adobe Campaign API-informatie
+## API-informatie voor Adobe Firefly
 
-De Adobe Campaign-connector gebruikt het volgende:
+De verbindingslijn van de Adobe Firefly gebruikt het volgende:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,11 +109,11 @@ Verbinding maken voor uw [!DNL Adobe Firefly] -modules:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials] Details van [!DNL Adobe Developer Console] .</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials] Details van [!DNL Adobe Developer Console] .</td>
         </tr>
       </tbody>
     </table>
