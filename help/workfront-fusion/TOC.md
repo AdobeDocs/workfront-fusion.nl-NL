@@ -1,16 +1,16 @@
 ---
-user-guide-title: Adobe Workfront Fusion-documentatie
+user-guide-title: Documentatie voor Adobe Workfront Fusion
 breadcrumb-title: Adobe Workfront Fusion
-user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen voor informatie over het implementeren en effectief gebruiken van Adobe Workfront Fusion in uw organisatie.
+user-guide-description: Gebruik de documenten, tutorials en aanvullende bronnen om te leren hoe u Adobe Workfront Fusion in uw organisatie kunt implementeren en effectief kunt gebruiken.
 source-git-commit: cf2a4515ecd5e239e3370a6a0a3ffe70ecce3770
 workflow-type: tm+mt
 source-wordcount: '1632'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# Adobe Workfront Fusion-documentatie {#using}
+# Documentatie voor Adobe Workfront Fusion {#using}
 
 * [Adobe Workfront Fusion-documentatie](home.md)
 * Fusion-releaseactiviteit {#fusion-release-activity}
