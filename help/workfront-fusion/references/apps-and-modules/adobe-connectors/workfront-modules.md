@@ -4,7 +4,7 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 3ba5d67806e0d495bd4a91589d06cfb9adb25c0c
+source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
 workflow-type: tm+mt
 source-wordcount: '6208'
 ht-degree: 0%
@@ -104,7 +104,7 @@ U kunt rechtstreeks vanuit een Workfront Fusion-module een verbinding maken met 
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw Workfront-client-id in. Dit is te vinden in het gebied van Toepassingen OAuth2 van het gebied van de Opstelling in Workfront. Als u geen geheim van de Cliënt voor uw toepassing OAuth2 in Workfront hebt, kunt u een andere produceren. Raadpleeg de documentatie bij Workfront voor instructies.</td>
+        <td>Voer uw Workfront-clientgeheim in. Dit is te vinden in het gebied van Toepassingen OAuth2 van het gebied van de Opstelling in Workfront. Als u geen geheim van de Cliënt voor uw toepassing OAuth2 in Workfront hebt, kunt u een andere produceren. Raadpleeg de documentatie bij Workfront voor instructies.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>

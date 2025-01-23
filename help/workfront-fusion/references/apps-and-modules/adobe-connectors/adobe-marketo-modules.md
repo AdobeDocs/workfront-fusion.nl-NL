@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: da417ac7-e532-45f7-86d9-3643b5f9f203
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
 workflow-type: tm+mt
-source-wordcount: '1740'
+source-wordcount: '1814'
 ht-degree: 0%
 
 ---
@@ -25,42 +25,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -87,11 +91,51 @@ De Marketo-connector gebruikt het volgende:
 
 ## Verbinden [!DNL Marketo] met Workfront Fusion {#connect-marketo-to-workfront-fusion}
 
-U kunt rechtstreeks vanuit de module [!DNL Marketo] verbinding maken met uw [!DNL Marketo] -account.
+U kunt rechtstreeks vanuit een [!DNL Marketo] -module verbinding maken met uw [!DNL Marketo] -account.
 
-1. Klik in een willekeurige [!DNL Marketo] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
-1. Voer uw [!DNL Marketo] account of [!DNL Marketo] [!UICONTROL Munchkin] id in. Dit is het unieke gedeelte van de basis-URL of het eindpunt dat aan uw account is toegewezen en dat u gebruikt om via de [!UICONTROL REST] -API toegang te krijgen tot [!DNL Marketo] . Voor instructies bij het bepalen van de plaats van dit, zie [ Basis URL ](https://developers.marketo.com/rest-api/base-url/) in de [!DNL Marketo] documentatie.
-1. Voer de [!UICONTROL Client ID] en [!UICONTROL Client secret] in. Voor instructies bij de plaats bepalen van deze, zie [ Authentificatie ](https://developers.marketo.com/rest-api/authentication/) in de [!DNL Marketo] documentatie.
+1. In om het even welke module van Marketo, voegt de klik **naast het gebied van de Verbinding toe.**
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Voer een naam in voor de nieuwe verbinding.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een productieomgeving of niet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Account / Munchkin ID]</td>
+        <td>
+          <p>Voer uw [!DNL Marketo] account of [!DNL Marketo] [!UICONTROL Munchkin] id in. Dit is het unieke gedeelte van de basis-URL of het eindpunt dat aan uw account is toegewezen en dat u gebruikt om via de [!UICONTROL REST] -API toegang te krijgen tot [!DNL Marketo] . Zie [Basis-URL] (https://developers.marketo.com/rest-api/base-url/) in de [!DNL Marketo] documentatie voor instructies over het zoeken naar deze URL.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Voer uw Marketo-client-id in. Zie [Verificatie](https://developers.marketo.com/rest-api/authentication/) in de [!DNL Marketo] -documentatie voor instructies over het zoeken naar deze functie.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Voer uw Marketo Client-insteekmodule in. Zie [Verificatie](https://developers.marketo.com/rest-api/authentication/) in de [!DNL Marketo] -documentatie voor instructies over de locatie van deze instructies.</td>
+      </tr>
+     </tbody>
+    </table>
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
 ## [!DNL Marketo] Modules en de bijbehorende velden
@@ -121,7 +165,7 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Webhook]</p> </td> 
-   <td> <p>Ga webhaak in die u de module wilt gebruiken.</p> <p>Zie <!--<a href="For instructions, see [Instant triggers (webhooks) in Adobe Workfront Fusion](/help/workfront-fusion/).-->" class="MCXref xref"&gt;Instant triggers (webhaken) in [!DNL Adobe Workfront Fusion]</a> voor meer informatie over websites.</p> </td> 
+   <td> <p>Ga webhaak in die u de module wilt gebruiken.</p> <p>Voor meer informatie over webhooks, zie <a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md" class="MCXref xref"> Webhooks </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -147,13 +191,13 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
    <td> <p>Selecteer het type record dat u wilt maken.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Activity]</strong> </p> <p>Selecteer het type activiteit dat u wilt controleren. </p> <p>De module kijkt slechts voor nieuwe activiteiten.<br></p> </li> 
-     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Selecteer of u op nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
-     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Selecteer of u naar nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.</p> </li> 
+     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. <b> Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
+     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.<b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Outputs]</td> 
-   <td> <p>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen.</p> </td> 
+   <td> <p>Selecteer de velden die u wilt opnemen in de uitvoerbundel voor deze module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -177,7 +221,7 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
 
 #### [!UICONTROL Add Leads to a List]
 
-Met deze actiemodule voegt u een of meer leads toe aan een lijst met de lead-id.
+Met deze actiemodule voegt u een of meer leads toe aan een lijst met de lead-id. U kunt maximaal 300 leads tegelijk toevoegen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -300,7 +344,7 @@ Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL M
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref"> HTTP-aanvraagmethoden in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref"> HTTP- verzoekmethodes </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
@@ -311,15 +355,8 @@ Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL M
    <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal verslagen in u de module wilt werken met tijdens elke cyclus van de scenariouitvoering.</p> </td> 
+   <td role="rowheader">[!UICONTROL Fields]</td> 
+   <td> <p>Voor elk gebied dat u aan uw API vraag wilt toevoegen, <b> klikt toevoegt punt </b> en gaat de sleutel en de waarde van het gebied in.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -338,7 +375,7 @@ Deze actiemodule downloadt een bestand met de bestands-id.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Wijs de id toe van het bestand dat u wilt downloaden.</td> 
+   <td>Voer de id in van het bestand dat u wilt downloaden of wijs deze toe.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -379,7 +416,7 @@ Deze actiemodule leest informatie over een verslag door zijn identiteitskaart te
 
 #### [!UICONTROL Remove Leads from a List]
 
-Deze actiemodule verwijdert een of meer leads uit een lijst met behulp van de lead-id.
+Deze actiemodule verwijdert een of meer leads uit een lijst met behulp van de lead-id. U kunt maximaal 300 leads tegelijk verwijderen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +432,7 @@ Deze actiemodule verwijdert een of meer leads uit een lijst met behulp van de le
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Lead IDs]</td> 
-   <td> <p>Voor elke lead die u uit de lijst wilt verwijderen, klikt u op <b>[!UICONTROL Add]</b> en voert u de id in van de lead die u wilt verwijderen. U kunt maximaal 300 leads toevoegen die de module uit de lijst kan verwijderen. </p> <p>Klik op de kaartovergang om een bestaande verzameling leads toe te wijzen die u uit de lijst wilt verwijderen.</p> </td> 
+   <td> <p>Voor elke lead die u uit de lijst wilt verwijderen, klikt u op <b>[!UICONTROL Add item]</b> en voert u de id in van de lead die u wilt verwijderen. U kunt maximaal 300 leads toevoegen die de module uit de lijst kan verwijderen. </p> <p>Klik op de kaartovergang om een bestaande verzameling leads toe te wijzen die u uit de lijst wilt verwijderen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -418,7 +455,7 @@ Deze actiemodule plant een bestaande campagne voor een bepaalde datum.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Schedule for Date]</p> </td> 
-   <td>Selecteer de datum waarop de campagne moet worden uitgevoerd. Als dit gebied leeg wordt gelaten, loopt de campagne vijf minuten nadat het scenario begon.</td> 
+   <td>Selecteer de datum waarop de campagne moet worden uitgevoerd. Als dit gebied leeg wordt gelaten, loopt de campagne vijf minuten nadat het scenario begint.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -570,11 +607,11 @@ Deze zoekmodule haalt een lijst op met records die voldoen aan specifieke zoekcr
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Field]</p> </td> 
-   <td> <p>Geef op of u wilt zoeken op naam, naam van het programma of naam van de werkruimte.</p> </td> 
+   <td> <p>Selecteer het veld waarop u wilt zoeken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Values]</td> 
-   <td>Klik voor elke waarde die u wilt zoeken op <b>[!UICONTROL Add item]</b> en voer de waarde in.</td> 
+   <td role="rowheader">[!UICONTROL Value / values]</td> 
+   <td>Voer de waarde in van het veld waarnaar u wilt zoeken. Als u in het veld naar meerdere waarden kunt zoeken, klikt u voor elke waarde die u wilt zoeken op <b>[!UICONTROL Add item]</b> en voert u de waarde in.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output]</td> 
