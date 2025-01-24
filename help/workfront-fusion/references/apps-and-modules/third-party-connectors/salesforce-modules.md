@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 17ac09a19562839a9fdfc11bd274a6ed11f6d8f5
 workflow-type: tm+mt
-source-wordcount: '2603'
+source-wordcount: '2704'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ De Salesforce-connector gebruikt het volgende:
   </tr> 
   <tr> 
    <td role="rowheader">API-versie</td> 
-   <td> v46,0 </td> 
+   <td> v62,0 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">API-tag</td> 
@@ -104,6 +104,60 @@ Bij het zoeken naar objecten kunt u afzonderlijke zoekwoorden invoeren of een co
 * Gebruik de operator voor aanhalingstekens (&quot; &quot;) om een exacte woordovereenkomst te zoeken. Bijvoorbeeld: &quot;Maandvergadering&quot;
 
 Zie de [!DNL Salesforce] documentatie voor ontwikkelaars over SOQL en SOSL voor meer informatie over zoekmogelijkheden.
+
+## Verbinding maken met [!DNL Salesforce]
+
+Verbinding maken voor uw [!DNL Salesforce] -modules:
+
+1. Klik in een willekeurige [!DNL Salesforce] -module op **[!UICONTROL Add]** naast het vak Verbinding.
+
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Voer een naam in voor de nieuwe verbinding.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een productieomgeving of niet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Voer uw Salesforce-client-id in.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Voer uw Salesforce-clientgeheim in. </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Sandbox]</td>
+        <td>Schakel deze optie in als dit een Sandbox-omgeving is.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL API Version]</td>
+        <td>Voer de versie in van de Salesforce API die u wilt gebruiken. De standaardversie is 62.0.</td>
+      </tr>
+    </tbody>
+    </table>
+
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+
 
 ## [!DNL Salesforce] modules en hun velden
 
