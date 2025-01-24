@@ -4,9 +4,9 @@ description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: 12620e137d2e536b90eb322de93fd39bb8374e51
+source-git-commit: 0e69dfa23fc12cb20c3fed772d72ef348536ea24
 workflow-type: tm+mt
-source-wordcount: '1021'
+source-wordcount: '991'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Grote bestandsmogelijkheden zijn alleen beschikbaar voor Workfront Ultimate-klanten en worden geleidelijk geïmplementeerd. Alle Fusion-organisaties met een Workfront Ultimate-plan hebben in januari 2025 een grote bestandscapaciteit.
+>Grote bestandsmogelijkheden zijn alleen beschikbaar voor organisaties in het Workfront Ultimate-pakket.
 
 De verbeterde mogelijkheden voor gegevensoverdracht zijn nu beschikbaar in Workfront Fusion, waardoor scenario&#39;s aanzienlijk grotere bestanden kunnen verwerken.
 
 Voor het verwerken van grotere bestanden moeten uw scenario&#39;s worden bijgewerkt.
-
->[!NOTE]
->
->Deze functionaliteit is alleen beschikbaar voor gebruikers in het Ultimate Workfront-pakket.
 
 ## Connectors die grote bestanden ondersteunen
 
