@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Tools]  sectie omvat verscheidene 
 author: Becky
 feature: Workfront Fusion
 exl-id: d9425f5b-4f4a-42da-9aca-1c1783be5fa7
-source-git-commit: 757580687ff5d1617f83432952d9870bd697925e
+source-git-commit: 7d5188d1ee4e40f74c750e3ce3dcbd0e08bc6606
 workflow-type: tm+mt
-source-wordcount: '1962'
+source-wordcount: '1994'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ U kunt deze module, bijvoorbeeld, voor contacten of een andere lijst gebruiken d
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bundle]</td> 
-   <td> <p>Aangepaste bundels maken door arrayitems toe te voegen. De array bestaat uit naam-waardeparen.</p> </td> 
+   <td> <p>Aangepaste bundels maken door arrayitems toe te voegen. Voor elk punt wilt u aan de bundel toevoegen, <b> punt </b> toevoegen en de naam en de waarde van het punt ingaan.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -97,32 +97,30 @@ U kunt deze module, bijvoorbeeld, voor contacten of een andere lijst gebruiken d
 
 Deze module haalt waarden op die eerder door de module [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] zijn gemaakt.
 
-Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Multiple Variables] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ module van de Router in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/add-modules/router-module.md).
+Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Multiple Variables] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ een module van de Router toevoegen en routes ](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
 
 <table style="table-layout:auto">
     <tr>
         <td>[!UICONTROL Variables]</td>
-        <td>Voeg de variabelen toe die u de module wilt krijgen.</td>
-    </tr>
-    <tr>
-        <td>[!UICONTROL Variable name]</td>
-        <td>Wijs voor elke variabele die u toevoegt de naam toe van de variabele die u wilt ophalen.</td>
+        <td>Voor elke variabele die u de module wilt krijgen, klik <b> toevoegen punt </b> en ga de naam van de variabele in.</td>
     </tr>
 </table>
 
->[!INFO]
->
->**Voorbeelden:** het volgende is mogelijk gebruik van de [!UICONTROL Set] [!UICONTROL Get (multiple) variable(s)] modules:
->
->* Een berekende waarde opslaan voor later gebruik, zelfs in een verschillende route. Dit is handig wanneer de waarde in meerdere modules wordt gebruikt en de formule voor het berekenen van de waarde te complex is.
->* Fouten opsporen in een formule. Als een in een module gebruikte formule ogenschijnlijk geen correct resultaat oplevert, kopieert u de formule en plakt u deze in een [!UICONTROL Set Variable] -module die u vóór de relevante module invoegt. Koppel de module(s) los na de module [!UICONTROL Set Variable] en voer het scenario uit. Verifieer de output van de module [!UICONTROL Set Variable], pas of vereenvoudig de formule aan, voer opnieuw het scenario uit, en ga zo te werk tot de kwestie is opgelost.
+>[!BEGINSHADEBOX]
+
+**Voorbeelden:** het volgende is mogelijk gebruik van de [!UICONTROL Set] [!UICONTROL Get (multiple) variable(s)] modules:
+
+* Een berekende waarde opslaan voor later gebruik, zelfs in een verschillende route. Dit is handig wanneer de waarde in meerdere modules wordt gebruikt en de formule voor het berekenen van de waarde te complex is.
+* Fouten opsporen in een formule. Als een in een module gebruikte formule ogenschijnlijk geen correct resultaat oplevert, kopieert u de formule en plakt u deze in een [!UICONTROL Set Variable] -module die u vóór de relevante module invoegt. Koppel de module(s) los na de module [!UICONTROL Set Variable] en voer het scenario uit. Verifieer de output van de module [!UICONTROL Set Variable], pas of vereenvoudig de formule aan, voer opnieuw het scenario uit, en ga zo te werk tot de kwestie is opgelost.
+
+>[!ENDSHADEBOX]
 
 
 #### [!UICONTROL Get Variable]
 
 Deze module haalt een waarde op die eerder door de module [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] is gemaakt.
 
-Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Variable] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Variable] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ module van de Router in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/add-modules/router-module.md).
+Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Variable] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Variable] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ een module van de Router toevoegen en routes ](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -137,7 +135,7 @@ Deze module kan variabelen lezen die overal in het scenario werden geplaatst, ze
 
 #### [!UICONTROL Increment function]
 
-Deze module keert een waarde terug die door 1 na de verrichting van elke module wordt verhoogd.
+Deze module keert een waarde terug die door 1 na elke cyclus of elke scenario looppas wordt verhoogd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,7 +143,7 @@ Deze module keert een waarde terug die door 1 na de verrichting van elke module 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reset a value]</td> 
-   <td> <p>Selecteer wanneer u de module de waarde wilt verhogen. </p> 
+   <td> <p>Selecteer wanneer u de module de waarde wilt terugstellen. Dit is wanneer u de waarde bij de eerste waarde opnieuw wilt beginnen.</p> 
     <ul> 
      <li>[!UICONTROL After one cycle]</li> 
      <li>[!UICONTROL After one scenario run]</li> 
@@ -155,27 +153,30 @@ Deze module keert een waarde terug die door 1 na de verrichting van elke module 
  </tbody> 
 </table>
 
->[!INFO]
->
->**Voorbeeld:**
->
->Een van de toepassingen van de module is het implementeren van een &#39;round robin&#39;-toewijzing van taken, leads, e-mails, enzovoort, aan gebruikers in een groep. Het algoritme kiest de toewijzen van een groep in een rationele volgorde, meestal van boven naar beneden in een lijst. Wanneer het algoritme het eind van de lijst bereikt, zou het dan de volgende taak aan de gebruiker bij de bovenkant van de lijst geven en blijven taken onderaan de lijst maken.
->
->Het volgende scenario verzendt een e-mail naar de eerste ontvanger na elk oneven genummerd scenario in werking gesteld, en naar de tweede ontvanger na elk even genummerd scenario in werking gesteld.
->
->![](/help/workfront-fusion/references/apps-and-modules/assets/example-email-350x246.gif)
->
->1. Dit scenario maken:
->1. Stel het veld **[!UICONTROL Reset a value]** van de module in op Nooit.
->1. Stel de route in voor oneven waarden. Stel het filter voor deze route in met de rekenkundige modulusfunctie die gelijk is aan `1` :
->
->   ![](/help/workfront-fusion/references/apps-and-modules/assets/odd-350x459.png)
->
->  **Nota**: Vergeet niet om de [!UICONTROL Equal to] exploitant van de standaard [!UICONTROL Text] exploitant in de [!UICONTROL Numeric] exploitant te veranderen.
->
->1. Stel de route voor even waarden in met de wiskundige functie &#39;restbepaling bij deling&#39; die gelijk is aan `0` :
->
->De verhogingsfunctie voegt één toe telkens als het scenario loopt. De filters controleren de verhoging en handelen op zijn waarde, die ervoor zorgt dat de e-mails gelijkelijk worden verdeeld.
+>[!BEGINSHADEBOX]
+
+**Voorbeeld:**
+
+Deze module kan worden gebruikt om een &quot;ronde robin&quot;taak van taken uit te voeren, leidt, e-mail, etc., aan gebruikers in een groep. Het algoritme kiest de toewijzen van een groep in een rationele volgorde, meestal van boven naar beneden in een lijst. Wanneer het algoritme het eind van de lijst bereikt, zou het dan de volgende taak aan de gebruiker bij de bovenkant van de lijst geven en blijven taken onderaan de lijst maken.
+
+Het volgende scenario verzendt een e-mail naar de eerste ontvanger na elk oneven genummerd scenario in werking gesteld, en naar de tweede ontvanger na elk even genummerd scenario in werking gesteld.
+
+![](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
+
+Dit scenario maken:
+
+1. Stel het veld **[!UICONTROL Reset a value]** van de module in op Nooit.
+1. Stel de route in voor oneven waarden. Stel het filter voor deze route in met de rekenkundige modulusfunctie die gelijk is aan `1` :
+
+   ![](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
+
+**Nota**: Vergeet niet om de [!UICONTROL Equal to] exploitant van de standaard [!UICONTROL Text] exploitant in de [!UICONTROL Numeric] exploitant te veranderen.
+
+1. Stel de route voor even waarden in met de wiskundige functie &#39;restbepaling bij deling&#39; die gelijk is aan `0` :
+
+De verhogingsfunctie voegt één toe telkens als het scenario loopt. De filters controleren de verhoging en handelen op zijn waarde, die ervoor zorgt dat de e-mails gelijkelijk worden verdeeld.
+
+>[!ENDSHADEBOX]
 
 #### [!UICONTROL Set Multiple Variables]
 
@@ -187,21 +188,13 @@ Deze module leidt tot variabelen die door andere modules in de route kunnen word
  <tbody> 
   <tr> 
    <td>[!UICONTROL Variables]</td> 
-   <td>Voeg de variabelen toe die u de module wilt plaatsen.</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Variable name] </td> 
-   <td>Voer voor elke variabele de naam van de variabele in. Deze naam zal worden getoond wanneer het in kaart brengen van de variabele in andere modules. </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Variable value] </td> 
-   <td>Voer voor elke variabele de waarde voor de variabele in. </td> 
+   <td>Voor elke variabele die u wilt toevoegen, <b> toevoegen punt </b> en ga de naam en de waarde van de variabele in.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Variable lifetime] </td> 
    <td> <p>Selecteer hoe lang de variabelen geldig moeten blijven (dezelfde waarde behouden).</p> 
     <ul> 
-     <li><strong>[!UICONTROL One cycle]</strong>: De variabele is geldig voor één cyclus. Nuttig wanneer meerdere webhaken in één scenario worden ontvangen (meer webhooks = meer cycli). </li> 
+     <li><strong>[!UICONTROL One cycle]</strong>: De variabele is geldig voor één cyclus. Dit is handig wanneer meerdere webhaken in één scenario worden ontvangen, omdat meer webhaken meer cycli maken. </li> 
      <li><strong>[!UICONTROL One execution]</strong>: De variabele is geldig voor één scenario-uitvoering. Een uitvoering kan een of meer cycli bevatten.</li> 
     </ul> </td> 
   </tr> 
@@ -254,7 +247,7 @@ Deze functie kan bijvoorbeeld nuttig zijn als u de belasting van de [!DNL target
 
 >[!TIP]
 >
->Als u de stroom voor langere periodes wilt pauzeren, adviseren wij om uw scenario in twee scenario&#39;s te verdelen:
+>Als u de stroom voor langere periodes wilt pauzeren, adviseren wij dat u uw scenario in twee scenario&#39;s splitst:
 >
 >* Het eerste scenario zou het deel vóór de pauze bevatten.
 >* Het tweede scenario zou het deel na het bevatten.
@@ -358,19 +351,21 @@ In deze module worden waarden uit de geselecteerde velden met ontvangen bundels 
    <td> <p>Definieer een expressie die een of meer in kaart gebrachte items bevat. De samengevoegde gegevens worden gescheiden onder Groepen met de waarde van dezelfde expressie. Elke groep voert als afzonderlijke bundel uit die een Sleutel met de geëvalueerde uitdrukking en de samengevoegde tekst bevat. Door dit te doen, kunt u Sleutel als filter in verdere modules gebruiken.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Text]</td> 
-   <td> <p> Typ of wijs de tekst toe die u in de module wilt samenvoegen.</p> </td> 
-  </tr> 
-  <tr> 
    <td>[!UICONTROL Stop processing after an empty aggregation]</td> 
    <td>Selecteer deze optie om het scenario te stoppen als er geen resultaten zijn.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Text]</td> 
+   <td> <p> Typ of wijs de tekst toe die u in de module wilt samenvoegen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!INFO]
->
->**Voorbeeld:** u kunt de tekstaggregator gebruiken om meer waarden (bijvoorbeeld, klantennamen of nota&#39;s) in één enkele bundel op te nemen en een e-mail te verzenden die alle waarden in het e-maillichaam of het e-mailonderwerp bevat.
+>[!BEGINSHADEBOX]
+
+**Voorbeeld:** u kunt de tekstaggregator gebruiken om meer waarden (bijvoorbeeld, klantennamen of nota&#39;s) in één enkele bundel op te nemen en een e-mail te verzenden die alle waarden in het e-maillichaam of het e-mailonderwerp bevat.
+
+>[!ENDSHADEBOX]
 
 ### Transformatoren
 
@@ -380,7 +375,7 @@ In deze module worden waarden uit de geselecteerde velden met ontvangen bundels 
 
 #### [!UICONTROL Compose a string]
 
-Zet om het even welke waarde in een type van koordgegevens (tekst). Het maakt de afbeelding gemakkelijker wanneer het in kaart brengen, bijvoorbeeld, binaire gegevens.
+Zet om het even welke waarde in een type van koordgegevens (tekst). Hierdoor wordt het makkelijker om gegevens toe te wijzen, bijvoorbeeld binaire gegevens.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -443,7 +438,7 @@ Controleert de invoerwaarde voor een overeenkomst met de opgegeven lijst met waa
   </tr> 
   <tr> 
    <td>[!UICONTROL Cases] </td> 
-   <td> <p>Als de invoer een waarde bevat die is ingevoerd in het veld [!UICONTROL Pattern] , wordt de waarde die is ingevoerd in het veld [!UICONTROL Output] geretourneerd.</p> <p>Als de invoer niet overeenkomt met een van de waarden die u in een [!UICONTROL Pattern] -veld hebt ingesteld, vindt een van de volgende gebeurtenissen plaats:</p> 
+   <td> Voor elk geval wilt u toevoegen, <b> punt </b> toevoegen en het patroon en de output van het punt ingaan. <p>Als de invoer een waarde bevat die is ingevoerd in het veld [!UICONTROL Pattern] , wordt de waarde die is ingevoerd in het veld [!UICONTROL Output] geretourneerd.</p> <p>Als de invoer niet overeenkomt met een van de waarden die u in een [!UICONTROL Pattern] -veld hebt ingesteld, vindt een van de volgende gebeurtenissen plaats:</p> 
     <ul> 
      <li>De waarde van het veld [!UICONTROL Else] wordt geretourneerd</li> 
      <li>Wanneer het veld [!UICONTROL Else] geen waarde bevat, wordt geen uitvoer geretourneerd.</li> 
