@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 1219642306c03cb0aa6037493ce2f02ced80b99d
 workflow-type: tm+mt
-source-wordcount: '1202'
+source-wordcount: '1269'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -28,27 +30,27 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Verouderd: alle </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
  </tbody> 
@@ -57,6 +59,8 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -128,49 +132,6 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-### Een aangepaste API-aanroep maken
-
-Deze actiemodule doet een douanevraag aan de Firefly API.
-
-Voor specifieke beschikbare APIs, zie [ Adobe Firefly API ](https://developer.adobe.com/firefly-services/docs/firefly-api/) in de documentatie van Adobe Developer.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly] .</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL URL]</td>
-      <td>
-        <p>Voer een pad in dat relatief is ten opzichte van <code>https://firefly-api-enterprise-stage.adobe.io/</code> .</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Method]</p>
-      </td>
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Headers]</td>
-      <td>
-        <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
-        <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td>     </tr>
-  </tbody>
-</table>
-
 ### Een afbeelding uitbreiden
 
 Deze actiemodule breidt een afbeelding uit, optioneel met inhoud van een vraag die u opgeeft.
@@ -206,7 +167,7 @@ Deze actiemodule breidt een afbeelding uit, optioneel met inhoud van een vraag d
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Voer een geheel getal in of wijs een geheel getal toe. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. </td> 
+   <td>Voor elk zaad wilt u gebruiken, <b> toevoegen punt </b> en ingaan of een geheel in kaart brengen. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -238,12 +199,12 @@ Deze actiemodule vult het gemaskeerde gebied van een afbeelding, optioneel met i
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Image]</td> 
-   <td>  <p> Klik <b> toevoegen een beeld </b>. Selecteer een bronbestand uit een vorige module of wijs de bestandsnaam en de afbeeldingsgegevens van het bronbestand toe.</p> </td> 
+   <td>  <p> Voor elk beeld wilt u vullen, <b> een beeld </b> toevoegen, dan een brondossier van een vorige module selecteren of de het dossiernaam en gegevens van het Beeld van het brondossier in kaart brengen.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mask]</td> 
-   <td>  <p> Klik <b> toevoegen een masker </b>. Selecteer een bronbestand uit een vorige module of wijs de naam en het masker van het bronbestand toe. Het maskerbestand vertegenwoordigt het aangepaste masker dat wordt gevuld met gegenereerde inhoud.</p> </td> 
+   <td>  <p>  Voor elk masker wilt u gebruiken, <b> toevoegen een masker </b>. Selecteer een bronbestand uit een vorige module of wijs de naam en het masker van het bronbestand toe. Het maskerbestand vertegenwoordigt het aangepaste masker dat wordt gevuld met gegenereerde inhoud.</p> </td> 
 </td> 
   </tr> 
   <tr> 
@@ -320,3 +281,49 @@ Deze actiemodule genereert een afbeelding op basis van een vraag die u opgeeft. 
   </tr> 
  </tbody> 
 </table>
+
+
+
+### Een aangepaste API-aanroep maken
+
+Deze actiemodule doet een douanevraag aan de Firefly API.
+
+Voor specifieke beschikbare APIs, zie [ Adobe Firefly API ](https://developer.adobe.com/firefly-services/docs/firefly-api/) in de documentatie van Adobe Developer.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly] .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL URL]</td>
+      <td>
+        <p>Voer een pad in dat relatief is ten opzichte van <code>https://firefly-api.adobe.io/</code> .</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+      </td>
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
+        <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
+        <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body]</td>
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td>     </tr>
+  </tbody>
+</table>
+
