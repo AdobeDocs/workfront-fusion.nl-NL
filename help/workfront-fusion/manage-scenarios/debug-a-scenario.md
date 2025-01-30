@@ -4,9 +4,9 @@ description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en p
 author: Becky
 feature: Workfront Fusion
 exl-id: 34215370-27e3-4c28-8bd1-a16268900b86
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1316'
+source-wordcount: '1324'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Workfront Fusion Devtool bestaat uit drie hoofdsecties. Deze vindt u in het link
 
 Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal in uw scenario op Uitvoeren klikt.
 
-1. Klik op het pictogram **[!UICONTROL Live Stream]** ![](assets/live-stream-icon.png) om de sectie Live stream te openen.
+1. Klik het **[!UICONTROL Live Stream]** pictogram ![ Actieve stroompictogram ](assets/live-stream-icon.png) om de Levende sectie van de Stream te openen.
 1. Voer een van de volgende handelingen uit:
 
    <table style="table-layout:auto"> 
@@ -153,7 +153,7 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
 
 Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschiedenis van de scenario looppas en laat u toe om modules door hun naam of identiteitskaart te zoeken.
 
-1. Klik op het pictogram **[!UICONTROL Scenario Debugger]** ![](assets/scenario-debugger-icon.png) om Scenario Debugger te openen.
+1. Klik het **[!UICONTROL Scenario Debugger]** pictogram ![ Debugger pictogram ](assets/scenario-debugger-icon.png) om debugger van het Scenario te openen.
 1. (Optioneel) Voer de zoekterm (naam of module-id) in het zoekveld in.
 1. Klik op de modulenaam.
 1. Klik op de bewerking om de aanvraagdetails weer te geven.
@@ -162,7 +162,7 @@ Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschie
 
 In [!DNL Workfront Fusion] Devtool zijn gereedschappen beschikbaar waarmee u uw scenario gemakkelijker kunt instellen.
 
-1. Klik op het pictogram **[!UICONTROL Tools]** ![](assets/console-tools-icon.png) om de gereedschappen te openen.
+1. Klik het **[!UICONTROL Tools]** pictogram van de pictogramhulpmiddelen van de pictogram ![ Console ](assets/console-tools-icon.png) om de Hulpmiddelen te openen.
 1. Selecteer het gewenste gereedschap
 1. Configureer de velden zoals hieronder wordt beschreven.
 1. Klik op **[!UICONTROL Run]**.

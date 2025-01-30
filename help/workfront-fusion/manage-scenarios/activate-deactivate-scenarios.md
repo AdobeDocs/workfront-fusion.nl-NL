@@ -4,9 +4,9 @@ description: In dit artikel wordt beschreven waarom actieve of gedeactiveerde sc
 author: Becky
 feature: Workfront Fusion
 exl-id: ecfcab45-5492-4e20-af8d-63ec9d233046
-source-git-commit: d79f8ac6d678a874e05e606d7b9ff7c812d93db1
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '298'
+source-wordcount: '303'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Voor instructies bij het creëren van een scenario, zie [ Werkschema voor het cr
 
 ## Een scenario activeren of deactiveren:
 
-1. Klik op **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster en klik vervolgens op het scenario om het te openen.
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel, dan klik het scenario om het te openen.![
 1. Klik op de schakeloptie Aan/Uit in de rechterbovenhoek van de pagina Scenario-details.
 
    ![ de activeringsknevel van Details ](assets/active-toggle-details-page.png)
@@ -96,4 +96,4 @@ Voor instructies bij het creëren van een scenario, zie [ Werkschema voor het cr
 
    Klik op het diagram om de Scenario-editor in te voeren en klik vervolgens op de **[!UICONTROL On/Off]** -schakeloptie in de linkerbenedenhoek van het venster.
 
-   ![](assets/on-off-switch.jpg)
+   ![ Aan van schakelaar ](assets/on-off-switch.jpg)

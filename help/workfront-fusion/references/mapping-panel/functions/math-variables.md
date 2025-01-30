@@ -4,9 +4,9 @@ description: De volgende wiskundige variabelen zijn beschikbaar in het  [!DNL Ad
 author: Becky
 feature: Workfront Fusion
 exl-id: b309f035-4d46-473b-b915-6938587b0bcf
-source-git-commit: 24a6c1558fd6349c022df8a1847a7f39fafddd67
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '50'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Retourneert een pseudo-willekeurig getal met drijvende komma in het bereik [`0` 
 
 Gebruik de volgende formule om een geheel pseudo-willekeurig aantal in de waaier [`min`, `max`] (met inbegrip van zowel `min` als `max`) te produceren:
 
-![](assets/math-variable-random-350x61.png)
+![ Willekeurig ](assets/math-variable-random-350x61.png)
 
 ```
 floor(random * (1.max - 1.min + 1)) + 1.min

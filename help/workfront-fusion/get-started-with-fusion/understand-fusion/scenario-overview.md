@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: de81ad4c-27e5-4b6c-acf0-f01a8c85922e
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Met Workfront Fusion kunt u eenvoudige of complexe workflows in Workfront automa
 
 In dit voorbeeld wordt het scenario geactiveerd wanneer een opgegeven veld in een taak of probleem in [!DNL Workfront] verandert. Wanneer teweeggebracht, krijgt het scenario informatie in het verwante project en leidt tot een op maat gemaakte update voor een persoon die aan een specifieke rol op het project wordt toegewezen.
 
-![](assets/fusion-template-example.png)
+![ voorbeeld van het Malplaatje ](assets/fusion-template-example.png)
 
 +++
 
@@ -90,7 +90,7 @@ Veel toepassingen hebben toegewezen [!DNL Workfront Fusion] -connectors. Als er 
 
 In dit voorbeeld wordt het scenario geactiveerd wanneer een gebruiker aan een [!DNL Excel] -spreadsheet wordt toegevoegd. Het scenario controleert of de gebruiker zich in [!DNL Workfront] bevindt. Als dat niet het geval is, wordt de gebruiker in [!DNL Workfront] gemaakt en wordt de Workfront-gebruikersnaam weer aan het werkblad toegevoegd.
 
-![](assets/fusion-integration-example.png)
+![ het voorbeeld van de Integratie ](assets/fusion-integration-example.png)
 
 Voor een lijst van specifieke schakelaars, zie [ toepassingen van de Fusie en hun moduleverwijzingen: artikelindex ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
 

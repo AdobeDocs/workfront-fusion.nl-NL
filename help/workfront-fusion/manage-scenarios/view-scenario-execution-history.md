@@ -4,9 +4,9 @@ description: In de map [!UICONTROL Incomplete executions] worden scenario-uitvoe
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '821'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Het tabblad [!UICONTROL History] bevat meer details dan beschikbaar zijn op de p
 
    of
 
-   Als u aan het scenario in de redacteur Scenario werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
+   Als u aan het scenario in de redacteur van het Scenario werkt, klik de linkerpijl ![ Uitgang die pijl ](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
 
 1. Klik **Geschiedenis** dichtbij de naam van het scenario.
    ![ geschiedenislusje ](assets/history-tab.png)
@@ -115,7 +115,7 @@ Het tabblad [!UICONTROL History] bevat meer details dan beschikbaar zijn op de p
 
    of
 
-   Als u aan het scenario in de redacteur Scenario werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
+   Als u aan het scenario in de redacteur van het Scenario werkt, klik de linkerpijl ![ Uitgang die pijl ](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
 
 1. Klik op de tab **[!UICONTROL History]** in het rechterdeelvenster.
 1. (Optioneel) Klik op de uitvoering in het rechterdeelvenster voor gedetailleerde informatie over een geselecteerd scenario.
@@ -133,7 +133,7 @@ Het tabblad [!UICONTROL History] bevat meer details dan beschikbaar zijn op de p
 U kunt de uitvoeringshistorie filteren om alleen uitvoeringen met de opgegeven waarden weer te geven.
 
 1. Open de full-page geschiedenis voor een scenario zoals die in [ de uitvoeringshistorie van het scenario van de Mening op het [!UICONTROL History] lusje ](#view-scenario-history-on-the-history-tab) in dit artikel wordt beschreven.
-1. Klik op het pictogram [!UICONTROL filter] ![](assets/fusion-scenario-filter-icon.png) in de koptekst van de kolom waarop u wilt filteren.
+1. Klik het [!UICONTROL filter] pictogram van de het filterfilter van het pictogram ![ Scenario ](assets/fusion-scenario-filter-icon.png) in de kopbal van de kolom u wilt filtreren door.
 1. Voer in het dialoogvenster [!UICONTROL filter] de waarden in waarop u wilt filteren.
 1. Klik op **[!UICONTROL Save]**.
 

@@ -4,9 +4,9 @@ description: Met de  [!DNL Adobe Acrobat Sign]  modules, kunt u een  [!DNL Adobe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0ef9d40e-8ad6-434e-8fa0-076920ff29ea
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '5488'
+source-wordcount: '5501'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Nieuwe gebruikers van [!DNL Adobe Sign] moeten bepaalde beperkingen rond het bij
 
 [!DNL Adobe Sign] -overeenkomsten hebben een veld nodig om mee te werken. Er zijn enkele opties om dit te doen, maar de eenvoudigste en meest voorkomende is het uploaden van een tijdelijk document en het vervolgens toewijzen van dat document aan uw overeenkomst.
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
+![ aanbevelingen van Adobe Sign ](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
 
 ## [!DNL Adobe Acrobat Sign] modules en hun velden
 
@@ -941,11 +941,11 @@ Upload een tijdelijk document. Een tijdelijk document is 7 dagen na het uploaden
 
 **Voorbeeld:** In dit werkschema, wordt het document om (eerder gedownload van Workfront) te ondertekenen geupload als transient document.
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-1-350x308.png)
+/help/workfront-fusion/references/apps-and-modules/assets/sign-example-1-350x308.png)
 
 In de module [!UICONTROL Upload document] krijgt het document een [!DNL Adobe Acrobat Sign] -id waarnaar in latere modules kan worden verwezen. Wanneer de overeenkomst is gemaakt, wordt de id van het geüploade document opgenomen in het veld [!UICONTROL Files to send] .
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-2-350x356.png)
+![ Voorbeeld van het Teken ](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-2-350x356.png)
 
 +++
 

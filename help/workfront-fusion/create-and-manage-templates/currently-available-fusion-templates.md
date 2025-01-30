@@ -4,9 +4,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: b14bed4d-3503-42cf-a8c3-618d3b2448b4
-source-git-commit: ba205314949f2b061ba483efa8b972367928f8fe
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1279'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe Workfront Fus
 
 Uw team of organisatie kan andere team-gecreeerde malplaatjes beschikbaar hebben.
 
-Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes** ![](assets/templates-icon.png) in het zijnavigatiemenu in Fusion.
+Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het zijnavigatiemenu in Fusion.**
 
 ## Workfront-sjablonen
 

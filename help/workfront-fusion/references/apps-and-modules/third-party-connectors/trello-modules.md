@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 5df5cd2b-ad4c-4a02-9d0c-7cee35232f93
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '4256'
+source-wordcount: '4259'
 ht-degree: 0%
 
 ---
@@ -1212,7 +1212,7 @@ Deze actiemodule voegt een opmerking toe aan een geselecteerde kaart.
 
 Als u een kaart wilt bewerken of een nieuwe opmerking wilt maken, moet u de id van de kaart of de bijbehorende snelkoppeling weten. U kunt deze informatie ophalen uit de uitvoer van de trigger [!UICONTROL New Card] . U kunt de snelkoppeling voor een kaart ook verkrijgen door de kaart te openen en op de knop [!UICONTROL Share] te klikken. De snelkoppeling vindt u in het vak [!UICONTROL Link to this card] aan het einde van de URL na `https://trello.com/c/` .
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/share-and-more-350x575.png)
+![ Aandeel en meer ](/help/workfront-fusion/references/apps-and-modules/assets/share-and-more-350x575.png)
 
 ### Id&#39;s van andere objecten zoeken in [!DNL Trello]
 

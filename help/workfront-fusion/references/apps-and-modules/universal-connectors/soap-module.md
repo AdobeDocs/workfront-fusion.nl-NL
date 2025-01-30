@@ -4,7 +4,7 @@ description: U kunt de SOAP module gebruiken om verbinding te maken met SOAP API
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: bf9af473f08463c00578a1a8b07c800239225f09
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
 source-wordcount: '425'
 ht-degree: 0%
@@ -119,7 +119,7 @@ Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschi
     </tbody> 
    </table>
 
-   <!--![](/help/workfront-fusion/references/apps-and-modules/assets/workaround-350x443.png)-->
+   <!--![Workaround](/help/workfront-fusion/references/apps-and-modules/assets/workaround-350x443.png)-->
 
 1. Open een nieuw webbrowservenster of tabblad.
 1. Plak de URL van WSDL in de adresbalk van de webbrowser en haal het XML-bestand op.
@@ -129,7 +129,7 @@ Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschi
 1. Als het WSDL-bestand niet rechtstreeks in de webbrowser wordt weergegeven, opent u het gedownloade bestand in een teksteditor.
 1. Zoek naar de tag `<service>` of `<wsdl:service>` :
 
-   <!--![](/help/workfront-fusion/references/apps-and-modules/assets/service-350x65.png)-->
+   <!--![Service](/help/workfront-fusion/references/apps-and-modules/assets/service-350x65.png)-->
 
 1. Kopieer de URL van het kenmerk `location` wanneer u deze hebt gevonden.
 1. Plak in [!DNL Workfront Fusion] de URL in het veld URL van de module HTTP.
@@ -141,7 +141,7 @@ Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschi
 1. Plak de gekopieerde inhoud in [!UICONTROL Workfront Fusion] in het URL-veld van de module.
 1. Geef waarden op voor de geselecteerde parameters door de vraagtekens te vervangen door werkelijke waarden:
 
-   <!--![](/help/workfront-fusion/references/apps-and-modules/assets/request-xml-350x172.png)-->
+   <!--![Request](/help/workfront-fusion/references/apps-and-modules/assets/request-xml-350x172.png)-->
 
 1. Sluit de configuratie van de module door op **[!UICONTROL OK]** te klikken.
 1. Voer het scenario of de module uit.

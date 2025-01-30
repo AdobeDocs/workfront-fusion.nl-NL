@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Google Forms]  modules staan u toe
 author: Becky
 feature: Workfront Fusion
 exl-id: dc017957-c0f8-4206-916f-21ccda346fb9
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1185'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Als u wilt werken met formulierreacties, moet u het werkblad met de reacties mak
 
 1. Open het formulier.
 1. Ga naar de tab **[!UICONTROL Responses]** .
-1. Klik op het pictogram **[!UICONTROL Create Spreadsheet]** ![](/help/workfront-fusion/references/apps-and-modules/assets/spreadsheet-icon.png) .
+1. Klik het **[!UICONTROL Create Spreadsheet]** pictogram ![ pictogram van de Spreadsheet ](/help/workfront-fusion/references/apps-and-modules/assets/spreadsheet-icon.png).
 
 1. Selecteer of u een nieuw spreadsheet of een bestaand spreadsheet wilt creëren
 1. Klik op **[!UICONTROL Create]**.

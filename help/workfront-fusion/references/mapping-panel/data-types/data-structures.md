@@ -4,9 +4,9 @@ description: Een gegevensstructuur is een document waarin de indeling van de geg
 author: Becky
 feature: Workfront Fusion
 exl-id: 93abf8a5-a3a1-448e-834b-1cc81b88036b
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '213'
+source-wordcount: '216'
 ht-degree: 0%
 
 ---
@@ -24,4 +24,4 @@ De gesteunde gegevenstypes worden beschreven in het [ types van Gegevens ](/help
 
 Gegevensstructuren hoeven niet altijd gemaakt te worden. U kunt het gemakkelijker maken door een malplaatje van onze ingebouwde generator te gebruiken. Door een gegevenssteekproef te verstrekken, zal de generator automatisch tot een gegevensstructuur leiden die op de gegevenssteekproef wordt gebaseerd u inging. De gemaakte gegevensstructuur kan vervolgens handmatig worden gewijzigd.
 
-![](assets/data-structure-generator-350x341.jpg)
+![ de structuurgenerator van Gegevens ](assets/data-structure-generator-350x341.jpg)

@@ -4,9 +4,9 @@ description: Sommige modules kunnen bestanden verwerken. Deze modules kunnen een
 author: Becky
 feature: Workfront Fusion
 exl-id: 25c632f4-169e-4d3c-989a-f57b398bd3f0
-source-git-commit: 839f6edf93df8a935b2c5d0a520bdc125fe60288
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -92,10 +92,10 @@ Een bestand toewijzen:
 1. In de doelmodule, die het doel is u aan in kaart brengt, bepaal de plaats van het **dossier van Source** gebied.
 1. Als u een bestandsuitvoer wilt toewijzen door een vorige module, selecteert u de module die het bestand uitvoert.
 
-   ![](assets/wf-download-document.png)
+   ![ Workfront downloaddocument ](assets/wf-download-document.png)
 
 1. Als u de naam en gegevens handmatig wilt toewijzen, selecteert u Kaart en voert u de naam en gegevens van het bestand in of wijst u deze toe.
 
-   ![](assets/use-the-map-option.png)
+   ![ Gebruik de kaartoptie ](assets/use-the-map-option.png)
 
 1. Ga verder vormend de module, of klik **O.K.**.

@@ -4,9 +4,9 @@ description: Bij sommige services is het niet mogelijk om met integratieoplossin
 author: Becky
 feature: Workfront Fusion
 exl-id: 4a8ac816-52de-41e8-96d7-1c8cde2ebe32
-source-git-commit: 362952ec85b0df2306ba117ba530e95201330cca
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '956'
+source-wordcount: '958'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Voor meer informatie over de modules JSON, zie [ modules JSON ](/help/workfront-
 
 1. Voer de waarden in waarvan u JSON wilt maken of wijs deze toe.
 
-   ![](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
+   ![ JSON waarden ](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
 
 1. Sluit de JSON > JSON-module maken aan op HTTP > Een aanvraag maken.
 1. Wijs de JSON-tekenreeks van de module Create JSON toe aan het veld Request-inhoud in HTTP > Een aanvraag maken.

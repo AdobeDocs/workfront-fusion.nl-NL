@@ -5,9 +5,9 @@ description: U kunt specifieke montages voor scenario's in het paneel van scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
-source-git-commit: 3afa631a44c6dae8b1e6def6f842a9ced9de741e
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1198'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 1. Klik overal op het scenario om de scenarioredacteur in te gaan.
 1. Klik op het tandwielpictogram links onder op de pagina.
 
-   ![](assets/scenario-settings-350x221.png)
+   ![ montages van het Scenario ](assets/scenario-settings-350x221.png)
 
    In het deelvenster [!UICONTROL Scenario settings] dat wordt weergegeven, kunt u verschillende geavanceerde instellingen voor het scenario configureren.
 1. Schakel indien nodig de Scenario-instellingen in of uit. Zie [ de montagesopties van het Scenario ](#scenario-settings-options) hieronder.
@@ -162,13 +162,13 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 
 **Voorbeelden:** [!DNL Workfront] > [!UICONTROL Watch record] horloges voor nieuwe kwesties die binnen komen, en [!DNL Workfront] > [!UICONTROL Convert object] zet het nieuwe verzoek in een project om en wijst het het aangewezen malplaatje toe.
 
-![](assets/scenario-settings-ex-1-350x157.png)
+![ montages van het Scenario ](assets/scenario-settings-ex-1-350x157.png)
 
 Een instelling [!UICONTROL more cycles] wordt alleen toegepast wanneer u de uitvoering van het scenario plant. Wanneer u de knop [!UICONTROL Run once] gebruikt, wordt rekening gehouden met de cyclusinstellingen.
 
 #### Max. aantal cycli is ingesteld op 1 (standaardwaarde)
 
-![](assets/max-number-cycles-1-350x201.png)
+![ Maximum aantal cycli ](assets/max-number-cycles-1-350x201.png)
 
 Het Max aantal cycli in de module Workfront > Watch records is ingesteld op `10` .
 Als 100 verzoeken worden voorgelegd aan [!DNL Workfront], en het Max aantal cyclusgebied wordt geplaatst aan 10, dan worden 90 dossiers verlaten onverwerkt na één scenario looppas. De volgende 10 dossiers worden verwerkt in de volgende geplande scenario uitvoering.
@@ -183,7 +183,7 @@ Alle bestanden worden verwerkt binnen 1 scenario-uitvoering.
 
 U kunt de reeds in werking gestelde cycli in de details van het Scenario zien:
 
-![](assets/scenario-detail-350x207.png)
+![ het detail van het Scenario ](assets/scenario-detail-350x207.png)
 
 Voor meer informatie over deze pagina, zie {de details van 0} Scenario ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).[
 

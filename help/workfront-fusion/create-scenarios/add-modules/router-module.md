@@ -4,9 +4,9 @@ description: De module van de Router staat u toe om uw stroom in verscheidene ro
 author: Becky
 feature: Workfront Fusion
 exl-id: 8344cde4-df3e-4b72-9d10-46ff4b186400
-source-git-commit: 839f6edf93df8a935b2c5d0a520bdc125fe60288
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '829'
 ht-degree: 0%
 
 ---
@@ -71,13 +71,13 @@ U moet een module van de Router toevoegen alvorens routes te vormen.
 1. In de scenario redacteur, klik op het juiste handvat van de module waarna u de router wilt toevoegen.
 1. Selecteer **[!UICONTROL Flow Control]** > **Router** in de lijst van modules die toont.
 
-   ![](assets/connect-the-router-350x108.png)
+   ![ verbind de route ](assets/connect-the-router-350x108.png)
 
    of
 
    Om de module van de Router tussen twee modules op te nemen, klik op het moersleutelpictogram onder de route die de twee modules verbindt en selecteer **[!UICONTROL Add a router]** van het menu.
 
-   ![](assets/insert-router-350x191.png)
+   ![ de router van het Tussenvoegsel ](assets/insert-router-350x191.png)
 1. Voeg de eerste route aan de router toe door op het juiste handvat van de router te klikken en een module toe te voegen, gelijkend op het toevoegen van om het even welke module.
 1. Om een andere route toe te voegen, klik de routermodule. Er wordt een route weergegeven. Voeg modules aan deze route toe zoals gewenst.
 
@@ -125,13 +125,13 @@ U kunt een terugvalroute in het filterpaneel toelaten.
 1. Voeg een label toe in het labelveld van het deelvenster dat wordt weergegeven. Dit etiket toont in het scenario.
 1. Schakel het selectievakje voor de terugvalroute in.
 
-   ![](assets/fallback-route-350x260.png)
+   ![ route van de Fallback ](assets/fallback-route-350x260.png)
 
 1. Klik op **[!UICONTROL OK]** om de filterinstelling op te slaan.
 
 De route van de Fallback is duidelijk met een verschillende pijl in de module van de Router:
 
-![](assets/arrow-sign-in-router-module-350x361.png)
+![ het teken van de Pijl in router ](assets/arrow-sign-in-router-module-350x361.png)
 
 ## Voorbeeld: `if/else` use case
 
@@ -141,10 +141,10 @@ Een typisch gebruiksgeval van de reserveroute moet de stroom met één route voo
 
 In dit voorbeeld, wordt de eerste route gevormd met een filter. Dit vertegenwoordigt de component `if` .
 
-![](assets/set-up-a-filter-2-350x242.png)
+![ Opstelling een filter in route ](assets/set-up-a-filter-2-350x242.png)
 
 De tweede route wordt gevormd als reserveroute. Dit vertegenwoordigt de component `else` .
 
-![](assets/enable-fallback-route-option-350x238.png)
+![ laat reserveoptie ](assets/enable-fallback-route-option-350x238.png) toe
 
 >[!ENDSHADEBOX]

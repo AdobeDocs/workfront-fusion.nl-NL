@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 473dba8b-faa4-432f-9357-c2146e86b261
-source-git-commit: 86b0d7b16a4ed7e15888f6ee1a58f0279e96fb70
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '685'
+source-wordcount: '693'
 ht-degree: 0%
 
 ---
@@ -73,13 +73,13 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 1. Klik op **[!UICONTROL All Templates]** in het navigatievenster aan de linkerkant.
 1. Klik op **[!UICONTROL Detail]** rechts van de sjabloon die u wilt bewerken.
 1. (Facultatief) verander het malplaatje door **Opties** in de hoger-juiste hoek te klikken en **te selecteren anders noemen**.
-1. (Optioneel) Als u de taal van de sjabloon wilt wijzigen, klikt u op **[!UICONTROL Create a new template]** ![](assets/fusion-scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
+1. (Facultatief) om de taal van uw malplaatje te veranderen, klik **[!UICONTROL Create a new template]** ![ de montagespictogram van het Scenario ](assets/fusion-scenario-settings-icon.png), en selecteer de taal van de drop-down Taal.
 
    >[!IMPORTANT]
    >
    >De taalselectie komt overeen met de talen die beschikbaar zijn in de systeeminstellingen en heeft alleen betrekking op de naam van de openbare sjabloon en de beschrijving ervan. U kunt een sjabloontaal niet wijzigen nadat de sjabloon is opgeslagen.
 
-1. (Optioneel) Als u de sjabloonbeschrijving wilt bewerken, klikt u op **[!UICONTROL Set up a template]** ![](assets/fusion-scenario-settings-icon.png) en voert u de beschrijving in.
+1. (Facultatief) om de malplaatjebeschrijving uit te geven, klik **[!UICONTROL Set up a template]** ![ de montagespictogram van het Scenario ](assets/fusion-scenario-settings-icon.png), en ga de beschrijving in.
 1. U kunt apps, modules en gereedschappen op dezelfde manier toevoegen of bewerken als bij het maken van een standaardscenario.
 
    Om contextafhankelijke hulp aan de modules toe te voegen, zie [ Opstelling [!UICONTROL Wizard] functionaliteit ](#set-up-wizard-functionality) in dit artikel.
@@ -91,7 +91,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
    >Als uw malplaatje modules omvat die vereisen toevoegend de verbinding, geloofsbrieven, of andere privacy-gevoelige informatie, wordt deze informatie niet gedeeld met de malplaatjegebruikers.
 
 1. (Optioneel) Klik op **[!UICONTROL Run once]** om de sjabloon te testen.
-1. Klik op het pictogram **[!UICONTROL Save]** ![](assets/save-icon.png) .
+1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png).
 
 
 ## [!UICONTROL Wizard] -functionaliteit instellen

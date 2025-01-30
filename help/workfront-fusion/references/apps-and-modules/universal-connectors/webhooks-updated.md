@@ -4,9 +4,9 @@ description: Een webhaak is een HTTP-aanroep die door een gebeurtenis wordt geac
 author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
-source-git-commit: d5ab7dc135206a7269ad4fa0b5c02bf77b97d873
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1313'
+source-wordcount: '1331'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ U kunt de voorbeeldgegevens ook verzenden via de module [!UICONTROL HTTP] > [!UI
     </tbody> 
    </table>
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
+   ![ Nieuwe het schermopstelling ](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
 
 1. Open het scenario met de module [!UICONTROL Webhooks] in een afzonderlijk browsertabblad of venster.
 1. Klik in de module Webhooks op **[!UICONTROL Redetermine data structure]** .
@@ -132,7 +132,7 @@ U kunt de voorbeeldgegevens ook verzenden via de module [!UICONTROL HTTP] > [!UI
 
    Een &quot;[!UICONTROL Successfully determined]&quot;bericht betekent dat de module met succes de gegevensstructuur heeft bepaald.
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/successfully-determined-350x175.png)
+   ![ met succes bepaalde ](/help/workfront-fusion/references/apps-and-modules/assets/successfully-determined-350x175.png)
 
 1. Klik op **[!UICONTROL OK]** om de gegevensstructuur op te slaan.
 
@@ -241,7 +241,7 @@ U kunt een bepaalde headerwaarde extraheren met de combinatie van `map()` - en `
 >
 >In het onderstaande voorbeeld ziet u een formule die de waarde van de header `authorization` extraheert uit de array `Headers[]` . De formule wordt gebruikt in een filter dat de geëxtraheerde waarde met de gegeven tekst vergelijkt om slechts webhooks over te gaan als er een gelijke is.
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/set-up-a-filter-350x169.png)
+>![ Opstelling een filter ](/help/workfront-fusion/references/apps-and-modules/assets/set-up-a-filter-350x169.png)
 >
 >Voor verdere informatie bij het verkrijgen van het element van een serie met een bepaalde sleutel, zie [ een element van een serie met een bepaalde sleutel ](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md#map-an-arrays-element-with-a-given-key) in de artikelKaart een serie in kaart brengen.
 
@@ -311,11 +311,11 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 &gt; </tbody> 
 &gt;</table>
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
+>![ de Kopballen van de Douane ](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
 >Hierdoor wordt een HTML-reactie gegenereerd die in een webbrowser wordt weergegeven:
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/html-response-350x70.png)
+>![ reactie HEML ](/help/workfront-fusion/references/apps-and-modules/assets/html-response-350x70.png)
 
 ### Voorbeeld van omleiding
 
@@ -342,7 +342,7 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 &gt; </tbody> 
 &gt;</table>
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
+>![ reactie Webhaak ](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 
 ## Webhaak-deactivering
 
@@ -360,6 +360,6 @@ gedeactiveerde webhaken worden automatisch verwijderd en niet geregistreerd als 
 
 Als sommige items ontbreken in het deelvenster Toewijzing tijdens het instellen van de modules na de module [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] , klikt u op de module **[!UICONTROL Webhooks]>[!UICONTROL Custom Webhook]** om de installatie te openen en klikt u op **[!UICONTROL Re-determine data structure]** :
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/redetermine-data-structure-btn-350x195.png)
+![ bepaalt gegevensstructuur ](/help/workfront-fusion/references/apps-and-modules/assets/redetermine-data-structure-btn-350x195.png) opnieuw
 
 Dan volg de stappen die in de sectie [ worden beschreven vormen de de gegevensstructuur van de webhaak ](#configure-the-webhook-s-data-structure) in dit artikel.

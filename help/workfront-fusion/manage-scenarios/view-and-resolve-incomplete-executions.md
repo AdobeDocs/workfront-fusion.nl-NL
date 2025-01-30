@@ -4,9 +4,9 @@ description: In de map [!UICONTROL Incomplete executions] worden scenario-uitvoe
 author: Becky
 feature: Workfront Fusion
 exl-id: 8891b4d7-a39a-4f14-8521-8c2ca186ca6e
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Als een module een fout tijdens zijn verrichting ontmoet, wordt een nieuwe onvol
 
 <!--
 
-![](assets/incomplete-executions-tab-350x102.png)
+![Incomplete executions tab](assets/incomplete-executions-tab-350x102.png)
 
 -->
 
@@ -113,7 +113,7 @@ Als u het logboek van alle verrichtingen van de module wilt zien alvorens u prob
 1. Open het logboek van de module waar alle verrichtingen van de module worden getoond.
 1. Zoek de mislukte bewerking en klik op **[!UICONTROL Resolve]** :
 
-   ![](assets/resolve-btn-350x188.png)
+   ![ Los knoop ](assets/resolve-btn-350x188.png) op
 
 ## Opties in verband met onvolledige uitvoeringen
 

@@ -4,9 +4,9 @@ description: De Adobe Workfront Fusion JSON-app biedt modules voor het verwerken
 author: Becky
 feature: Workfront Fusion
 exl-id: f8b281c5-bb63-4412-98c5-d82f45f8eafc
-source-git-commit: c895d496de66b475f907effaaf43fe2f7b7b457e
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1122'
+source-wordcount: '1129'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Als het JSON-tekenreeksveld een verzameling `{ ... }` bevat, bestaat de uitvoer 
 ```
 
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
+![ inzameling JSON ](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
 
 >[!ENDSHADEBOX]
 
@@ -115,7 +115,7 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 ]
 ```
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
+![ serie JSON ](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
 
 >[!ENDSHADEBOX]
 
@@ -303,6 +303,6 @@ Wanneer u voorwaardelijke instructies gebruikt, zoals `if` in uw JSON, plaatst u
 
 **Voorbeeld:**
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
+![ Citaten in JSON ](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
 
 >[!ENDSHADEBOX]

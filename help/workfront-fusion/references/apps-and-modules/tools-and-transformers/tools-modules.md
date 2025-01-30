@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Tools]  sectie omvat verscheidene 
 author: Becky
 feature: Workfront Fusion
 exl-id: d9425f5b-4f4a-42da-9aca-1c1783be5fa7
-source-git-commit: 7d5188d1ee4e40f74c750e3ce3dcbd0e08bc6606
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1994'
+source-wordcount: '2000'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De sectie [!DNL Adobe Workfront Fusion Tools] bevat verschillende nuttige modules die uw scenario kunnen verbeteren.
 
-[!UICONTROL Tools] -modules zijn beschikbaar via de lijst met toepassingen of via het [!UICONTROL Tools] pictogram ![](/help/workfront-fusion/references/apps-and-modules/assets/tools-icon-small.png) onder aan het scherm.
+[!UICONTROL Tools] modules zijn beschikbaar bij de lijst van apps, of van het [!UICONTROL Tools] pictogram van pictogram ![ Hulpmiddelen ](/help/workfront-fusion/references/apps-and-modules/assets/tools-icon-small.png) bij de bodem van het scherm.
 
 ## Toegangsvereisten
 
@@ -161,14 +161,14 @@ Deze module kan worden gebruikt om een &quot;ronde robin&quot;taak van taken uit
 
 Het volgende scenario verzendt een e-mail naar de eerste ontvanger na elk oneven genummerd scenario in werking gesteld, en naar de tweede ontvanger na elk even genummerd scenario in werking gesteld.
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
+![ E-mail van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
 
 Dit scenario maken:
 
 1. Stel het veld **[!UICONTROL Reset a value]** van de module in op Nooit.
 1. Stel de route in voor oneven waarden. Stel het filter voor deze route in met de rekenkundige modulusfunctie die gelijk is aan `1` :
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
+   ![ Oneven aantallen ](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
 
 **Nota**: Vergeet niet om de [!UICONTROL Equal to] exploitant van de standaard [!UICONTROL Text] exploitant in de [!UICONTROL Numeric] exploitant te veranderen.
 

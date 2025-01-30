@@ -4,9 +4,9 @@ description: U kunt een array of afzonderlijke arrayelementen toewijzen aan een 
 author: Becky
 feature: Workfront Fusion
 exl-id: 0534ad8a-af80-46d2-857d-de882a235edb
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '849'
+source-wordcount: '875'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Elementen toevoegen aan de array:
 
 Array-elementen worden tussen vierkante haakjes weergegeven als een getal na de naam van de array. Met dit indexnummer kunt u een afzonderlijk element van een array in een veld toewijzen.
 
-![](assets/map-array-1st-element.png)
+![ Kaart eerste element ](assets/map-array-1st-element.png)
 
 >[!NOTE]
 >
@@ -126,7 +126,7 @@ Een arrayelement toewijzen:
 
 1. Om een verschillend element van de serie in kaart te brengen, klik op [ 1 ] en ga het indexaantal van het serieelement in dat u wilt in kaart brengen.
 
-   ![](assets/access-another-element.png)
+   ![ toegang tot een ander element ](assets/access-another-element.png)
 
 ### Het element van een array toewijzen met een bepaalde sleutel
 
@@ -138,13 +138,13 @@ Sommige arrays bevatten verzamelingen met sleutelwaardeitems, zoals metagegevens
 
 In het volgende voorbeeld wordt de uitvoer van de [!DNL Jira] App getoond.
 
-![](assets/output-of-jira-app-350x100.png)
+![ Output van module Jira ](assets/output-of-jira-app-350x100.png)
 
 In dit voorbeeld wordt een bestandsnaam opgehaald uit een array van bijlagen, voor de specifieke bijlage met een id van 10108.
 
 In dit voorbeeld wordt de volgende uitvoer gegenereerd:
 
-![](assets/output-from-jira-350x261.png)
+![ Output van module Jira ](assets/output-from-jira-350x261.png)
 
 De formule kan als volgt worden toegelicht:
 
@@ -153,7 +153,7 @@ De formule kan als volgt worden toegelicht:
    1. De eerste parameter van de functie `map()` is het gehele arrayitem.
    1. De tweede parameter is de onbewerkte naam van het waardeitem. Als u de onbewerkte naam wilt verkrijgen, plaatst u de muisaanwijzer op het item in het deelvenster [!UICONTROL mapping] :
 
-      ![](assets/obtain-raw-name-350x124.png)
+      ![ verkrijgt ruwe naam ](assets/obtain-raw-name-350x124.png)
 
       >[!NOTE]
       >
@@ -161,7 +161,7 @@ De formule kan als volgt worden toegelicht:
 
    1. De derde parameter is de onbewerkte naam van het sleutelitem:
 
-      ![](assets/3rd-parameter-350x166.png)
+      ![ Derde parameter ](assets/3rd-parameter-350x166.png)
 
    1. De vierde parameter is de opgegeven sleutelwaarde.
 
@@ -175,7 +175,7 @@ De formule kan als volgt worden toegelicht:
 
 In dit voorbeeld wordt de volgende uitvoer gegenereerd:
 
-![](assets/output-from-jira-350x261.png)
+![ Output van de module van Jira ](assets/output-from-jira-350x261.png)
 
 >[!ENDSHADEBOX]
 
@@ -187,4 +187,4 @@ Voor meer informatie over de `get()` functie, zie [ Algemene functies ](/help/wo
 
 Arrays kunnen met de module [!UICONTROL Iterator] worden omgezet in een reeks bundels. Zie [[!UICONTROL Iterator] module ](/help/workfront-fusion/references/modules/iterator-module.md) voor meer informatie.
 
-![](assets/series-of-bundles.png)
+![ Reeks bundels ](assets/series-of-bundles.png)

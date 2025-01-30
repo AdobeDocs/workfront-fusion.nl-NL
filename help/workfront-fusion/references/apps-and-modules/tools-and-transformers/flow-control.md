@@ -4,9 +4,9 @@ description: Wanneer u een scenario creeert of uitgeeft, kunt u montages vormen 
 author: Becky
 feature: Workfront Fusion
 exl-id: b3aed366-c399-44fa-8967-54ecb8647d96
-source-git-commit: ce2f13866fef97b5687991dfcf5d9579a5e539e4
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '585'
 ht-degree: 0%
 
 ---
@@ -62,13 +62,13 @@ Bijvoorbeeld, kon u een [!UICONTROL Repeater] module gebruiken om vijf e-mails m
 
 Een module [!UICONTROL Repeater] gebruiken:
 
-1. Klik op het pictogram [!UICONTROL Flow Control] ![](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif) onder aan het scherm en klik vervolgens op **[!UICONTROL Repeater]** in het menu dat wordt weergegeven.
+1. Klik het [!UICONTROL Flow Control] pictogram van de de controlepictogram van de Stroom ![ ](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif) bij de bodem van het scherm, dan klik **[!UICONTROL Repeater]** in het menu dat toont.
 1. Klik op de bundel [!UICONTROL Repeater] en klik vervolgens op **[!UICONTROL Connect automatically]** in het vak dat wordt weergegeven.
 1. Typ in het vak [!UICONTROL Flow Control] dat wordt weergegeven het gewenste aantal herhalingen (outputbundels) in het vak **[!UICONTROL Repeats]** .
 
    In ons e-mailvoorbeeld typt u 5.
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
+   ![ Repeater ](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
 
    De waarde van het item neemt in elke herhaling toe met de waarde die is opgegeven in het veld **[!UICONTROL Step]** . U kunt deze waarde weergeven door **[!UICONTROL Show advanced settings]** te selecteren. Dit getal is standaard 1.
 
@@ -79,7 +79,7 @@ Een module [!UICONTROL Repeater] gebruiken:
 
    In ons e-mailvoorbeeld typt u Hello in het vak [!UICONTROL Subject] en wijst u vervolgens `i` toe vanuit de herhalingsmodule.
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
+   ![ Repeater ](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
 
 | Item | Beschrijving |
 |---|---|

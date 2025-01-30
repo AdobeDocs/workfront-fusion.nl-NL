@@ -4,9 +4,9 @@ description: Wanneer de fouten tijdens de uitvoering van een scenario voorkomen,
 author: Becky
 feature: Workfront Fusion
 exl-id: 82ddaf73-ecf9-4fd6-8f8e-909351023c77
-source-git-commit: 0668441df8405610488e3e33658635e4cc7db270
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Om een foutenmanager aan een module toe te voegen:
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
 1. Klik met de rechtermuisknop op de module waarna u een fouthandlerroute wilt toevoegen en selecteer **[!UICONTROL Add error handler]** :
 
-   ![](assets/error-handler-route.png)
+   ![ de managerroute van de Fout ](assets/error-handler-route.png)
 
    Een route van de foutenmanager wordt toegevoegd aan de module. Als de module de laatste module in een route is, volgt de foutenmanager direct de module. Als de module meer modules na het heeft, wordt een afzonderlijke route van de foutenmanager toegevoegd.
 

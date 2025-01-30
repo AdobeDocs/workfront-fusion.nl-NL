@@ -4,9 +4,9 @@ description: De volgende datum- en tijdfuncties zijn beschikbaar in het Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-source-git-commit: 2c732659f3f3e81e13b7b12a5df5bde19c0e0928
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1773'
+source-wordcount: '1800'
 ht-degree: 0%
 
 ---
@@ -333,7 +333,7 @@ De functie `formatDate` retourneert een tekstrepresentatie van de opgegeven waar
 
 **Voorbeelden:** Scenario en timezone van het Web werden allebei geplaatst aan `Europe/Prague` in deze voorbeelden.
 
-![](assets/date&time-functions-examples-350x61.png)
+![ de functievoorbeeld van de tijd van de Datum ](assets/date&time-functions-examples-350x61.png)
 
 * `formatDate(1. Date created;MM/DD/YYYY)`
 
@@ -463,7 +463,7 @@ Deze sectie is aangepast voor [!DNL Workfront Fusion] op de [!DNL Exceljet] -web
 
 Als u een datum wilt berekenen die overeenkomt met de n-de dag van de week in de maand (bijvoorbeeld, eerste dinsdag, derde vrijdag, enzovoort), kunt u de volgende formule gebruiken:
 
-![](assets/date&time-functions-calc-nth-day-350x31.png)
+![ berekent nde dag ](assets/date&time-functions-calc-nth-day-350x31.png)
 
 ```
 {{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}
@@ -510,7 +510,7 @@ Als u bijvoorbeeld slechts één specifiek geval wilt berekenen, kunt u de items
 * `1.dow` = `3`
 * `1.date` = `now`
 
-![](assets/nth-day-variable-value-350x33.png)
+![ de veranderlijke waarde van de Nde dag ](assets/nth-day-variable-value-350x33.png)
 
 #### Uitleg:
 
@@ -521,7 +521,7 @@ Als u bijvoorbeeld slechts één specifiek geval wilt berekenen, kunt u de items
 
 Een mogelijkheid is om de volgende expressie te gebruiken:
 
-![](assets/calculate-days-between-dates-350x68.png)
+![ berekent dagen tussen data ](assets/calculate-days-between-dates-350x68.png)
 
 ```
 {{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}
@@ -541,7 +541,7 @@ Wanneer u een datumwaaier, bijvoorbeeld in een onderzoeksmodule specificeert, al
 
 In de onderstaande formule wordt een manier getoond om de laatste dag van de voorgaande maand te berekenen:
 
-![](assets/last-day-prev-month.png)
+![ Laatste dag van vorige maand ](assets/last-day-prev-month.png)
 
 ```
 {{addDays(setDate(now; 1); -1)}}
@@ -553,7 +553,7 @@ In sommige gevallen moet u niet alleen de laatste dag van de maand berekenen, ma
 
 Deze formule toont één manier hoe te om laatste milliseconden van de vorige maand te berekenen:
 
-![](assets/last-millisecond-prev-month-350x45.png)
+![ Laatste milliseconde van vorige maand ](assets/last-millisecond-prev-month-350x45.png)
 
 ```
 {{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}
@@ -561,7 +561,7 @@ Deze formule toont één manier hoe te om laatste milliseconden van de vorige ma
 
 Laat het UTC-argument weg als u het resultaat nodig hebt om de tijdzoneinstelling te gebruiken:
 
-![](assets/omit-utc-argument-350x45.png)
+![ laat UTC ](assets/omit-utc-argument-350x45.png) weg
 
 `{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD") - 1; "x")}}`
 

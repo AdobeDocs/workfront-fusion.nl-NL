@@ -4,9 +4,9 @@ description: Met de XML-toepassing kunt u tekst met XML-opmaak parseren via XML 
 author: Becky
 feature: Workfront Fusion
 exl-id: ab323361-cd04-4dcc-ab02-0fb468334fdb
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1302'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ De module [!UICONTROL XML] > [!UICONTROL Parse XML] parseert een tekst met XML-o
 >
 >   **URL**: URL van het dossier van XML (b.v. `https://siftrss.com/f/rqLy05ayMBJ`)
 >
->   ![](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)
+>   ![ URL van het dossier van XML voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)
 >
 >1. Klik op **[!UICONTROL OK]** &#x200B; om de configuratie van de module op te slaan en te sluiten.
 1. Voeg [!UICONTROL XML] > [!UICONTROL Parse XML] -module toe, sluit deze aan na de module [!UICONTROL HTTP] > [!UICONTROL Get a file] en configureer deze als volgt:
@@ -143,7 +143,7 @@ Standaard plaatst de module [!UICONTROL XML] > [!UICONTROL Parse XML] kenmerken 
 
 wordt omgezet in deze bundel:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png)
+![ XML die in bundel ](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png) wordt omgezet
 
 ## XML maken
 
@@ -198,7 +198,7 @@ De opstelling van de module vereist een gegevensstructuur die de structuur van d
 >
 1. Klik op de knop **[!UICONTROL Generator]** en plak het XML-voorbeeld in het veld [!UICONTROL Sample data] :
 >
-![](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
+![ het gegevensgebied van de Steekproef ](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
 >
 1. Klik op **[!UICONTROL Save]**. Het veld Specificatie in de gegevensstructuur bevat nu de gegenereerde structuur.
 1. Wijzig de naam van de gegevensstructuur in een specifiekere naam en klik op **[!UICONTROL Save]** . Een veld dat overeenkomt met het kenmerk van de hoofdarray wordt als een toewijzingsveld weergegeven in de instellingen van de JSON-module.

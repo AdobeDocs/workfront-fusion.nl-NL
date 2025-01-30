@@ -4,9 +4,9 @@ description: De scenario redacteur staat u toe om scenario's in een visuele inte
 author: Becky
 feature: Workfront Fusion
 exl-id: 47ccecf0-751c-4026-96a9-329c33cb6801
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De scenario redacteur staat u toe om scenario&#39;s in een visuele interface tot stand te brengen en uit te geven.
 
-![](assets/scenario-editor.jpg)
+![ redacteur Scenario ](assets/scenario-editor.jpg)
 
 ## Toegangsvereisten
 
@@ -71,7 +71,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ## Open de scenario-editor en voeg een module toe:
 
-1. Klik op **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel.![
 1. Klik het pictogram van het vraagteken ![ vraagpictogram ](assets/question-mark-full-size.png), dan vind en klik app of de dienst die u met wilt beginnen. Voor gedetailleerde informatie over het vormen van een module, zie [ een module ](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
 
 ## Beschikbare scenario-editoracties

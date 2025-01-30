@@ -4,9 +4,9 @@ description: U kunt een vorige versie van een scenario herstellen. Op deze manie
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Een versie van een scenario herstellen
 
 1. Open uw scenario.
-1. Klik op het [!UICONTROL More] pictogram ![](assets/more-icon.png) onder aan het scherm en klik vervolgens op **[!UICONTROL Previous Versions]** .
+1. Klik het [!UICONTROL More] pictogram ![ Meer pictogram ](assets/more-icon.png) bij de bodem van het scherm, dan klik **[!UICONTROL Previous Versions]**.
 
 1. Klik op **[!UICONTROL Pick the version]** en klik vervolgens op de versie die u wilt herstellen.
 1. Klik op **[!UICONTROL OK]**.

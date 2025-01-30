@@ -4,9 +4,9 @@ description: U kunt  [!DNL Adobe Workfront Fusion]  gebruiken om met de Server v
 author: Becky
 feature: Workfront Fusion
 exl-id: 8f3293f7-8b45-4e42-8ad8-f9d4969b63fd
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,6 @@ Als een andere module probeert om tot de zelfde gegevens toegang te hebben, moet
 
 Schakel Automatisch vastleggen in. Automatisch vastleggen voltooit (legt) elke transactie direct nadat de module is uitgevoerd.
 
-1. Klik op het [!UICONTROL Scenario settings] pictogram ![](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png) onder aan het scherm.
+1. Klik het [!UICONTROL Scenario settings] pictogram van de de montagespictogram van het pictogram ![ Scenario ](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png) bij de bodem van het scherm.
 1. Klik op het selectievakje **[!UICONTROL Auto commit]** .
 1. Klik op **[!UICONTROL OK]** om de scenario-instellingen op te slaan.

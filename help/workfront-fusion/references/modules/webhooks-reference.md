@@ -4,9 +4,9 @@ description: Veel services bieden websites voor het direct verzenden van melding
 author: Becky
 feature: Workfront Fusion
 exl-id: 5bfda2b2-dc1c-4ff6-9236-b480bfda2e58
-source-git-commit: 4c0f050e40d28f236d6086e7dccea53d49252aa8
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Veel services bieden websites voor het direct verzenden van meldingen wanneer zich een bepaalde wijziging (gebeurtenis) in de service voordoet. Om deze gebeurtenissen te verwerken, raden we u aan om onmiddellijk triggers te gebruiken. Met instant-triggers wordt de tag `Instant` weergegeven in de lijst met modules voor een bepaalde connector.
 
-![](assets/instant.png)
+![ Onmiddellijk ](assets/instant.png)
 
 >[!TIP]
 >
@@ -39,7 +39,7 @@ Ga voor een video-introductie over websites in Workfront Fusion naar:
 
 Wanneer u een onmiddellijke trekker vormt, wordt u ertoe aangezet om te selecteren wanneer het loopt.
 
-![](assets/schedule-setting.png)
+![ Programma plaatsend ](assets/schedule-setting.png)
 
 Selecteer `Immediately` om het scenario onmiddellijk uit te voeren wanneer [!DNL Workfront Fusion] nieuwe gebeurtenissen van de service ontvangt. Deze gebeurtenissen worden onmiddellijk verzonden naar een rij, en dan verwerkt in het scenario één voor één, in de zelfde orde dat de gegevens worden ontvangen.
 
@@ -62,7 +62,7 @@ Voor meer informatie over cycli, zie [ uitvoering Scenario, cycli, en fasen ](/h
 
 Als u een andere planningsinstelling gebruikt dan [!UICONTROL Immediately] , wordt het scenario uitgevoerd met de opgegeven intervallen. Omdat er tijdens het interval meerdere webhooks in de wachtrij kunnen worden opgehaald, raden we u aan de optie [!UICONTROL Maximum number of cycles] in te stellen op een hogere waarde dan de standaardwaarde 1 om meer webhooks in één scenario uit te voeren:
 
-1. Klik op het pictogram [!UICONTROL Scenario settings] ![](assets/scenario-settings-icon.png) onder aan het scenario.
+1. Klik het [!UICONTROL Scenario settings] pictogram van de de montagespictogram van het pictogram ![ Scenario ](assets/scenario-settings-icon.png) bij de bodem van uw scenario.
 1. Voer in het deelvenster **[!UICONTROL Scenario settings]** dat wordt weergegeven een getal in het veld **[!UICONTROL Max number of cycles]** in om het aantal gebeurtenissen in de wachtrij aan te geven dat u wilt uitvoeren telkens wanneer u het scenario uitvoert.
 
 De gebeurtenissen die in de rij blijven zullen worden verwerkt volgende tijd het scenario in werking wordt gesteld, tot het aantal dat in het Max aantal cyclusgebied wordt geplaatst.

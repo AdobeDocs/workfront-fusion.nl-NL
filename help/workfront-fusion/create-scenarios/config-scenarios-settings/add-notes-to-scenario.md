@@ -5,9 +5,9 @@ description: Wij adviseren de facultatieve maar nuttige praktijk om nota's over 
 author: Becky
 feature: Workfront Fusion
 exl-id: 754601fa-b572-42c2-96a3-3c36a8ed2c56
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '92'
+source-wordcount: '100'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,6 @@ Wij adviseren de facultatieve maar nuttige praktijk om nota&#39;s over elke modu
 
 1. Sluit het **[!UICONTROL Notes]** -gebied.
 
-   Nadat u een notitie aan een scenario hebt toegevoegd, wordt een oranje stip weergegeven op het **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) onder aan de scenario-editor.
+   Nadat u een nota aan een scenario toevoegt, toont een oranje punt op het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
 
-1. Klik op het pictogram **[!UICONTROL Notes]** ![](assets/notes-icon-w-dot.png) om uw notities weer te geven.
+1. Klik het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) om uw nota&#39;s te bekijken.

@@ -4,9 +4,9 @@ description: U kunt nieuwe scenario malplaatjes in  [!DNL Adobe]  de Fusie van W
 author: Becky
 feature: Workfront Fusion
 exl-id: 9cb9bd04-e9ae-4162-a1b9-d71566582b7a
-source-git-commit: 7acc27ab2ce80b964b7f9fbb302816aa75964ab5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '745'
 ht-degree: 0%
 
 ---
@@ -71,16 +71,16 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 
 ### Een sjabloon maken
 
-1. Klik op **[!UICONTROL Templates]** ![](assets/templates-icon.png) in het navigatievenster aan de linkerkant.
+1. Klik **[!UICONTROL Templates]** ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het linkernavigatievenster.
 1. Klik op **[!UICONTROL Create a new template]** in de rechterbovenhoek.
 1. (Optioneel) Wijzig de naam van de sjabloon door de standaardwaarde **[!UICONTROL New template name]** in de linkerbovenhoek te vervangen.
-1. (Optioneel) Als u de taal van de sjabloon wilt wijzigen, klikt u op **[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
+1. (Facultatief) om de taal van uw malplaatje te veranderen, klik **[!UICONTROL Set up a template]** ![ de montagespictogram van het Scenario ](assets/scenario-settings-icon.png) en selecteer de taal van de drop-down Taal.
 
    >[!IMPORTANT]
    >
    >De taalselectie komt overeen met de talen die beschikbaar zijn in de systeeminstellingen en heeft alleen betrekking op de naam van de openbare sjabloon en de beschrijving ervan. U kunt een sjabloontaal niet wijzigen nadat de sjabloon is opgeslagen.
 
-1. (Optioneel) Als u een beschrijving van de sjabloon wilt invoeren, klikt u op **[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png) en voert u de beschrijving in.
+1. (Facultatief) om een beschrijving van het malplaatje in te gaan, klik **[!UICONTROL Set up a template]** ![ de montagespictogram van het Scenario ](assets/scenario-settings-icon.png) en ga de beschrijving in.
 1. Voeg apps, modules, en hulpmiddelen toe, gebruikend de zelfde processen zoals het toevoegen van modules aan een scenario.
 
    Voor instructies, zie de artikelen onder [ modules ](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md) toevoegen.
@@ -94,7 +94,7 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
    >Als uw malplaatje modules omvat die vereisen toevoegend de verbinding, geloofsbrieven, of andere privacy-gevoelige informatie, wordt deze informatie niet gedeeld met de malplaatjegebruikers.
 
 1. (Optioneel) Klik op **[!UICONTROL Run once]** om de sjabloon te testen.
-1. Klik op het **[!UICONTROL Save]** pictogram ![](assets/save-icon.png) om de sjabloon op te slaan.
+1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png) om het malplaatje te bewaren.
 
 Wanneer u uw sjabloon opslaat, wordt deze zichtbaar voor uw teamleden. Als u wilt dat uw sjabloon toegankelijk is buiten uw team, moet u een verzoek indienen om de sjabloon te laten goedkeuren en publiceren. Het verzoek wordt ter goedkeuring naar het Adobe Workfront Fusion-team gestuurd. Nadat het wordt goedgekeurd, is het malplaatje toegankelijk door anderen buiten uw team.
 
@@ -113,13 +113,13 @@ Voor informatie bij het publiceren van malplaatjes, zie [ Publish en deel  [!DNL
 
    Het scenario wordt gekopieerd naar een Nieuwe sjabloonpagina.
 1. (Optioneel) Wijzig de naam van de sjabloon door de standaardwaarde **[!UICONTROL New template name]** in de linkerbovenhoek te vervangen.
-1. (Optioneel) Als u de taal van de sjabloon wilt wijzigen, klikt u op **[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png) en selecteert u de taal in het keuzemenu Taal.
+1. (Facultatief) om de taal van uw malplaatje te veranderen, klik **[!UICONTROL Set up a template]** ![ de montagespictogram van het Scenario ](assets/scenario-settings-icon.png) en selecteer de taal van de drop-down Taal.
 
    >[!IMPORTANT]
    >
    >De taalselectie komt overeen met de talen die beschikbaar zijn in de systeeminstellingen en heeft alleen betrekking op de naam van de openbare sjabloon en de beschrijving ervan. U kunt een sjabloontaal niet wijzigen nadat de sjabloon is opgeslagen.
 
-1. (Optioneel) Als u een beschrijving van de sjabloon wilt invoeren, klikt u op **[!UICONTROL Set up a template]** ![](assets/scenario-settings-icon.png) en voert u de beschrijving in.
+1. (Facultatief) om een beschrijving van het malplaatje in te gaan, klik **[!UICONTROL Set up a template]** ![ de montagespictogram van het Scenario ](assets/scenario-settings-icon.png) en ga de beschrijving in.
 1. Bewerk apps, modules en gereedschappen naar wens met dezelfde processen als het toevoegen van modules aan een scenario.
 
    Voor instructies, zie de artikelen onder [ modules ](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md) toevoegen.
@@ -131,7 +131,7 @@ Voor informatie bij het publiceren van malplaatjes, zie [ Publish en deel  [!DNL
    >Als uw malplaatje modules omvat die vereisen toevoegend de verbinding, geloofsbrieven, of andere privacy-gevoelige informatie, wordt deze informatie niet gedeeld met de malplaatjegebruikers.
 
 1. (Optioneel) Klik op **[!UICONTROL Run once]** om de sjabloon te testen.
-1. Klik op het pictogram **[!UICONTROL Save]** ![](assets/save-icon.png) .
+1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png).
 
 ## [!UICONTROL Wizard] -functionaliteit instellen {#set-up-wizard-functionality}
 

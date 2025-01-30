@@ -4,9 +4,9 @@ description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u een archief, 
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b5ff3d5-601c-4119-ad70-3612ad5ba1ab
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '494'
+source-wordcount: '498'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
 >
 >**Voorbeeld:** krijg het dossier van het PIT van de bepaalde [!DNL Dropbox] omslag (bijvoorbeeld, Archives), haalt het uit gebruikend de [!UICONTROL Archive] module en verzendt geciteerde dossiers naar het gewenste e-mailadres als gehechtheid met [!UICONTROL Email] of [!DNL Gmail] module.
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/example-dropbox-350x134.png)
+>![ Dropbox van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-dropbox-350x134.png)
 
 ## [!UICONTROL Create an archive]
 
@@ -98,7 +98,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 >
 >**Voorbeeld:** bekijk inkomende e-mails gebruikend [!DNL Gmail] > [!UICONTROL Watch emails] module. Als een e-mail wordt ontvangen, worden de bijlagen herhaald in afzonderlijke bundels, vervolgens naar het [!DNL ZIP] -bestand gearchiveerd en in de gedefinieerde map Dropbox opgeslagen.
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/example-gmail-350x102.png)
+>![ Gmail van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-gmail-350x102.png)
 
 ## [!UICONTROL Inflate]
 

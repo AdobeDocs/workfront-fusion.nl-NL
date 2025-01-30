@@ -4,9 +4,9 @@ description: Scenario-details in  [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: a6d07ed9-aa55-4993-9f78-7e691aa61049
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '539'
 ht-degree: 0%
 
 ---
@@ -77,11 +77,11 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
    of
 
-   Als u aan het scenario in de scenarioredacteur werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
+   Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![ Uitgaan die pijl ](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
 
 1. Op de pagina die wordt weergegeven, kunt u de elementen bekijken die in de onderstaande tabel worden vermeld:
 
-   ![](assets/scenario-detail-350x207.png)
+   ![ het detail van het Scenario ](assets/scenario-detail-350x207.png)
 
    <table style="table-layout:auto"> 
     <col> 

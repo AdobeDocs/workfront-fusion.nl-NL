@@ -4,9 +4,9 @@ description: U kunt geavanceerde technieken voor foutafhandeling toevoegen aan u
 author: Becky
 feature: Workfront Fusion
 exl-id: 745bfdc4-1327-4a28-a863-c217f15a7fc5
-source-git-commit: 0668441df8405610488e3e33658635e4cc7db270
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '902'
 ht-degree: 0%
 
 ---
@@ -89,11 +89,11 @@ In dit voorbeeldscenario wordt getoond hoe deze filters werken voor foutafhandel
 
 Als u de Dropbox > een omslagmodule creeert gebruikt, en een omslag met de zelfde naam reeds bestaat, genereert de module een DataError:
 
-![](assets/dropbox.png)
+![ Fout in Dropbox ](assets/dropbox.png)
 
 Het volledige scenario werkt als volgt:
 
-![](assets/dropbox-scenario.png)
+![ scenario van de Dropbox ](assets/dropbox-scenario.png)
 
 1. De module Opties > Variabele instellen bevat de mapnaam
 1. Met HTTP > Een bestandsmodule ophalen haalt u het bestand op dat u naar de map wilt uploaden
@@ -111,19 +111,19 @@ Hieronder volgt een gedetailleerde uitleg van de route DataError.
 
 Om de bestaande omslag in uw verdere modules, zoals te gebruiken upload een dossier, moet u een route van de foutenmanager aan de module toevoegen en de omslagweg halen die in de module moet worden in kaart gebracht van de richtlijn van het Hervatten die volgt:
 
-![](assets/add-error-handler-route.png)
+![ voeg foutenmanager route ](assets/add-error-handler-route.png) toe
 
 Het filter op de eerste route wordt geplaatst om de bepaalde fout (DataError) slechts te behandelen die verschijnt wanneer een omslag met de zelfde naam reeds bestaat:
 
-![](assets/condition.png)
+![ Voorwaarde ](assets/condition.png)
 
 De Dropbox > Alle bestanden in een mapmodule weergeven is geconfigureerd om alle mappen in de doelmap te retourneren. Het volgende filter geeft alleen het filter door dat we oorspronkelijk probeerden te maken. (De mapnaam wordt opgeslagen in de map 33. Mapnaam, item.)
 
-![](assets/condition2.png)
+![ Voorwaarde ](assets/condition2.png)
 
 De richtlijn van het Hervatten dan levert de weg van de Omslag als output voor de ontbroken module. De map-id is leeg gelaten omdat deze niet nodig is in de module Een bestand uploaden.
 
-![](assets/flow-control.png)
+![ controle van de Stroom ](assets/flow-control.png)
 
 >[!ENDSHADEBOX]
 
@@ -137,7 +137,7 @@ Voorbeeld:
 
 Een geneste fouthandlerroute met filters:
 
-![](assets/nested-error-handling-route.png)
+![ Geneste fout behandelende route ](assets/nested-error-handling-route.png)
 
 In dit scenario, wordt de tweede route van de foutenmanager genest onder de eerste route van de foutenmanager.
 

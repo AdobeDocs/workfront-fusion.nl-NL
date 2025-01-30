@@ -4,9 +4,9 @@ description: U kunt modules, groepen modules, of volledige scenario's in de Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: 5cece7d4-b2c7-4276-8a6f-f65bad799c7a
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '848'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Het klonen van een scenario leidt tot een exemplaar van het scenario, dat u dan 
 
       of
 
-      Als u aan het scenario in de scenarioredacteur werkt, klik de linkerpijl ![](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster.
+      Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![ Uitgaan die pijl ](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
 
 1. Klik met de rechtermuisknop **[!UICONTROL Options]** rechtsboven op de pagina.
 1. Selecteer **[!UICONTROL Clone]** .

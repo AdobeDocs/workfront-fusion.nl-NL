@@ -5,9 +5,9 @@ description: In dit artikel wordt uitgelegd hoe een scenario wordt uitgevoerd en
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-source-git-commit: fe503c27bc4e3beb5645f0efa7c2097297f19190
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '723'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ De eerste stap van het scenario, die door de eerste module wordt uitgevoerd, moe
 
 Als de eerste module een bundel terugkeert, gaat de bundel door de rest van het scenario. In dit voorbeeld, zou de bundel naar de tweede module gaan, die het verzoek in een project omzet.
 
-![](assets/example-execution-flow-wf-only.png)
+![ stroom van de Uitvoering van het scenario van Workfront ](assets/example-execution-flow-wf-only.png)
 
 >[!ENDSHADEBOX]
 
@@ -50,7 +50,7 @@ De eerste stap van het scenario, die door de eerste module wordt uitgevoerd, is 
 
 Als een bundel is teruggekeerd, gaat de bundel door de rest van het scenario. In dit voorbeeld bestaat de rest van het scenario uit de tweede module, die de bundel naar de [!DNL Dropbox] -map uploadt.
 
-![](assets/example-execution-flow-wf-dropbox.png)
+![ stroom van de Uitvoering van integratiescenario ](assets/example-execution-flow-wf-dropbox.png)
 
 Als de eerste module meerdere bundels retourneert, wordt de eerste bundel geüpload naar [!DNL Dropbox] voordat de tweede bundel wordt geüpload. Vervolgens uploadt de tweede bundel, vervolgens de derde, enzovoort.
 
@@ -71,7 +71,7 @@ Voor elke module, gaat de bundel door een proces in vier stappen alvorens naar d
 
 Nadat een scenario looppas volledig is, toont elke module een pictogram dat het aantal uitgevoerde verrichtingen toont. U kunt op dit pictogram klikken om de gedetailleerde informatie over de verwerkte bundels voor elke stap in het proces weer te geven. U kunt zien welke modulemontages werden gebruikt, en welke bundels door elke module werden teruggekeerd.
 
-![](assets/Info-processed-bundles.png)
+![ Verwerkte bundels ](assets/Info-processed-bundles.png)
 
 In dit voorbeeld ontving de module inputinformatie zoals:
 

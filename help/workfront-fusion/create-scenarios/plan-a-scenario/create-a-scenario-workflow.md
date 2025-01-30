@@ -4,9 +4,9 @@ description: Volg deze algemene workflow om een scenario te maken
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: f190217891c1d583e49cacb820e2076b995f6a3d
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '723'
 ht-degree: 0%
 
 ---
@@ -34,19 +34,19 @@ Sneltoetsen
 ## Het scenario maken en een naam geven
 
 1. Meld u aan bij uw [!DNL Workfront Fusion] -account.
-1. Klik op **[!UICONTROL Scenarios]** ![](assets/scenarios-icon.png) in het linkerdeelvenster.
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel.![
 
    >[!NOTE]
    >
    >Als u niet het linkernavigatievenster of zijn pictogrammen ziet, klik het pictogram van het Menu ![ Menu ](assets/main-menu-icon-left-nav.png).
 
-1. (Facultatief) in het [!UICONTROL **paneel van Omslagen**], klik het **[!UICONTROL Add folder]** pictogram ![](assets/add-folder-icon.png), dan typ een naam als &quot;scenario&#39;s van de Praktijk&quot;voor uw eerste omslag.
+1. (Facultatief) in het [!UICONTROL **paneel van Omslagen**], klik het **[!UICONTROL Add folder]** pictogram ![ voeg omslagpictogram ](assets/add-folder-icon.png) toe, dan typ een naam als &quot;scenario&#39;s van de Praktijk&quot;voor uw eerste omslag.
 
 1. (Optioneel) Open de map en klik vervolgens op **[!UICONTROL Create a new scenario]** rechtsboven op de pagina.
 
 1. Selecteer de naam van de tijdelijke aanduiding **[!UICONTROL New scenario]** in de linkerbovenhoek en typ een naam zoals &quot;Praktisch scenario 1&quot;.
 
-   ![](assets/name-the-scenario.png)
+   ![ Naam het scenario ](assets/name-the-scenario.png)
 
 1. Ga met [ verder verbind de eerste module ](#2-connect-the-first-module) hieronder.
 
@@ -106,7 +106,7 @@ Het testen van uw scenario laat u toe om te bepalen als uw scenario zoals bedoel
    * Voor algemene informatie bij het lezen van de informatie van de scenariouitvoering, zie [ de uitvoeringsstroom van het scenario ](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md).
    * Voor informatie over verwerkte bundels, zie [ uitvoering Scenario, cycli, en fasen in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
 
-1. Klik in [!DNL Workfront Fusion] in de linkerbenedenhoek op **[!UICONTROL Save]** ![](assets/save-icon.png) om de voortgang van het scenario op te slaan.
+1. In [!DNL Workfront Fusion], klik **[!UICONTROL Save]** ![ sparen pictogram ](assets/save-icon.png) dichtbij de laag-linkerhoek om uw vooruitgang op het scenario te bewaren.
 
    >[!IMPORTANT]
    >

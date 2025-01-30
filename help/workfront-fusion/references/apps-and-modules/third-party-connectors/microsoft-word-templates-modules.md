@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: 9e560995ff9f58a76bbecc521f7d2eef9d47fa48
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1245'
 ht-degree: 0%
 
 ---
@@ -84,11 +84,11 @@ Met een module [!DNL Microsoft Word Template] kunt u gegevens van meerdere webse
 
 U kunt bijvoorbeeld deze [!DNL Microsoft Word] -sjabloon gebruiken:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)
+![ malplaatje van Word vóór ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)
 
 Dit document maken:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-exampled-filled-350x85.png)
+![ Gevuld malplaatje van Word ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-exampled-filled-350x85.png)
 
 ## Waardetags
 
@@ -110,7 +110,7 @@ Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waar
 
 Hiervoor stelt u de module als volgt in:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-simple-value-350x286.png)
+![ het malplaatje van Word eenvoudige waarde ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-simple-value-350x286.png)
 
 ### Voorwaardetag {#condition-tag}
 
@@ -125,7 +125,7 @@ U kunt een voorwaardelabel gebruiken om tekst te laten omlopen die alleen moet w
 
 Hiervoor stelt u de module als volgt in:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-conditional-350x501.png)
+![ voorwaardelijk malplaatje van Word ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-conditional-350x501.png)
 
 In het document ziet het telefoonnummer er als volgt uit:
 
@@ -148,7 +148,7 @@ U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. 
 Hiervoor stelt u de module als volgt in:
 
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/word-template-fill-out-a-document-350x732.png)
+![ Vul een document ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-fill-out-a-document-350x732.png)
 
 In de module wordt het volgende document gemaakt:
 

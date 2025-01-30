@@ -4,9 +4,9 @@ description: Met bepaalde triggermodules kunt u de eerste bundel selecteren waar
 author: Becky
 feature: Workfront Fusion
 exl-id: 83628fa5-82e2-4f67-bfed-70a4c3c19f7f
-source-git-commit: 9ec972ef7677874965d6b4cb646e87c0b2240214
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '321'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
    Klik het pictogram voor de trekkermodule met de rechtermuisknop aan, en selecteer **kiezen waar te beginnen**.
 
-   ![](assets/choose-where-to-start.png)
+   ![ kies waar te beginnen ](assets/choose-where-to-start.png)
 
 1. Selecteer een optie in het vak **[!UICONTROL Choose where to start]** dat wordt weergegeven.
 

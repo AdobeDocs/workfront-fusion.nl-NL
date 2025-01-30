@@ -4,9 +4,9 @@ description: Een aggregatormodule is een type module dat is ontworpen om verschi
 author: Becky
 feature: Workfront Fusion
 exl-id: 93cde0d0-4013-463a-b19c-d58180632739
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '717'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Wanneer een module [!UICONTROL Aggregator] wordt uitgevoerd, doet deze het volge
 
 In de volgende afbeelding ziet u een standaard instelling van de module [!UICONTROL Aggregator] :
 
-![](assets/array-aggregator.png)
+![ de aggregator van de Serie ](assets/array-aggregator.png)
 
 <table style="table-layout:auto">
  <col> 
@@ -113,7 +113,7 @@ In de volgende afbeelding ziet u een standaard instelling van de module [!UICONT
 
 In dit voorbeeldscenario wordt getoond hoe u alle e-mailbijlagen kunt comprimeren en de ZIP naar [!DNL Dropbox] kunt uploaden.
 
-![](assets/dropbox-archive.png)
+![ het archiefvoorbeeld van de Dropbox ](assets/dropbox-archive.png)
 
 In het onderstaande scenario wordt getoond hoe u:
 
@@ -129,4 +129,4 @@ In het onderstaande scenario wordt getoond hoe u:
 
 Hieronder ziet u een voorbeeldinstelling van de aggregator [!UICONTROL Archive] > [!UICONTROL Create an archive] :
 
-![](assets/archive-create-an-archive.png)
+![ creeer een archief ](assets/archive-create-an-archive.png)

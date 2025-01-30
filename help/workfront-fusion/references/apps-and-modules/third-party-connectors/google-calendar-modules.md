@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e514204-cd8e-4f30-bbbb-b8fbe48fc670
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '3306'
+source-wordcount: '3314'
 ht-degree: 0%
 
 ---
@@ -829,7 +829,7 @@ U kunt een scenario een gespecificeerde tijd vóór een gebeurtenis met de hulp 
 
 1. Met de module [!UICONTROL Google Calendar] > [!UICONTROL Update an event] kunt u een e-mailherinnering aan de gebeurtenis toevoegen:
 
-   ![](/help/workfront-fusion/references/apps-and-modules/assets/trigger-scen-before-event-350x209.png)
+   ![ het scenario van de Trekker vóór gebeurtenis ](/help/workfront-fusion/references/apps-and-modules/assets/trigger-scen-before-event-350x209.png)
 
 1. Creeer een nieuw scenario dat met [!UICONTROL Webhooks] > [!UICONTROL Custom mailhook] module begint.
 
@@ -847,11 +847,11 @@ U kunt een scenario een gespecificeerde tijd vóór een gebeurtenis met de hulp 
    1. Klik de bel boven de module om de output van de module te inspecteren.
    1. Vouw het item `Text` uit en kopieer de bevestigingscode:
 
-      ![](/help/workfront-fusion/references/apps-and-modules/assets/confirmation-code-350x252.png)
+      ![ Bevestigingscode ](/help/workfront-fusion/references/apps-and-modules/assets/confirmation-code-350x252.png)
 
    1. Plak in Gmail de bevestigingscode in het bewerkingsvak en klik op &#x200B;**[!UICONTROL Verify]** :
 
-      ![](/help/workfront-fusion/references/apps-and-modules/assets/paste-code-350x46.png)
+      ![ de code van het Deeg ](/help/workfront-fusion/references/apps-and-modules/assets/paste-code-350x46.png)
 
    1. Open de tab **[!UICONTROL Filters and Blocked Addresses]** .
    1. Klik op **[!UICONTROL Create a new filter]**.

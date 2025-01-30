@@ -4,9 +4,9 @@ description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoud
 author: Becky
 feature: Workfront Fusion
 exl-id: 8bfa3201-45db-49d7-985d-9c324acd56b6
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1206'
+source-wordcount: '1215'
 ht-degree: 0%
 
 ---
@@ -197,8 +197,8 @@ U kunt de eigenschappen en inhoud van een bestaande gegevensopslag bewerken in h
 
 De eigenschappen van een gegevensopslag omvatten de gegevensstructuur die de gegevensopslag gebruikt, evenals de grootte van de gegevensopslag.
 
-1. Klik op **[!UICONTROL Data stores]** ![](assets/data-store-icon.png) in het navigatievenster aan de linkerkant om het [!UICONTROL Data stores] -gebied te openen.
-1. Klik op **[!UICONTROL Edit]** ![](assets/data-store-edit.png) naast de gegevensopslagruimte die u wilt bewerken.
+1. Klik **[!UICONTROL Data stores]** {het pictogram van de 1} opslag van Gegevens ](assets/data-store-icon.png) in het linkernavigatievenster om het [!UICONTROL Data stores] gebied te openen.![
+1. Klik **[!UICONTROL Edit]** ![ uitgeeft gegevensopslag ](assets/data-store-edit.png) naast de gegevensopslag die u wilt uitgeven.
 1. (Optioneel) Als u de gegevensstructuur die door deze gegevensopslag wordt gebruikt, wilt wijzigen in een andere bestaande gegevensstructuur, selecteert u deze in de vervolgkeuzelijst **[!UICONTROL Data structure]** .
 
    of
@@ -210,7 +210,7 @@ De eigenschappen van een gegevensopslag omvatten de gegevensstructuur die de geg
 
 ### De inhoud van een gegevensopslagruimte bewerken
 
-1. Klik op het pictogram **[!UICONTROL Data Store]** ![](assets/data-store-icon.png) in het navigatievenster aan de linkerkant om het [!UICONTROL Data Store] -gebied te openen.
+1. Klik het **[!UICONTROL Data Store]** pictogram van de de opslagplaats van 1} Gegevens ](assets/data-store-icon.png) in het linkernavigatievenster om het [!UICONTROL Data Store] gebied te openen.![
 1. Klik op **[!UICONTROL Browse]** naast de gegevensopslagruimte die u wilt bewerken.
 1. (Optioneel) U kunt kolommen opnieuw ordenen door deze naar de gewenste locatie te slepen.
 1. (Optioneel) [!UICONTROL Edit] één cel door op het pictogram **[!UICONTROL Edit]** in die cel te klikken en vervolgens de gewenste waarde in te voeren.

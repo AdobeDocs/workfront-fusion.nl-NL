@@ -4,9 +4,9 @@ description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 29ce5940-4d71-4719-ab5e-f03c44b28c8c
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '2868'
+source-wordcount: '2876'
 ht-degree: 0%
 
 ---
@@ -744,15 +744,15 @@ Als u de URL automatisch wilt wijzigen, kunt u de functie `replace()` twee keer 
 
 * www door dl vervangen
 
-  ![](/help/workfront-fusion/references/apps-and-modules/assets/www-to-dl-350x32.png)
+  ![ vervang www met dl ](/help/workfront-fusion/references/apps-and-modules/assets/www-to-dl-350x32.png)
 
 * En om ?dl=0 te verwijderen
 
-  ![](/help/workfront-fusion/references/apps-and-modules/assets/remove-dl0-350x33.png)
+  ![ verwijder DL ](/help/workfront-fusion/references/apps-and-modules/assets/remove-dl0-350x33.png)
 
 U kunt dit in één stap doen door de volgende functies te combineren:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/replace-both-350x47.png)
+![ vervang allebei ](/help/workfront-fusion/references/apps-and-modules/assets/replace-both-350x47.png)
 
 U kunt het ook kopiëren en in het veld plakken. Vervang `1.url` door de URL.
 

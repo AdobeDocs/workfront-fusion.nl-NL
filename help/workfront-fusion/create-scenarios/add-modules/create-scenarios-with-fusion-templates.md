@@ -4,9 +4,9 @@ description: Met de functie Adobe Workfront Fusion Templates kunt u bestaande sj
 author: Becky
 feature: Workfront Fusion
 exl-id: 9bc5f195-c406-45e9-9a1e-5c8a2a0e0ded
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '429'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Openbare sjablonen zijn beschikbaar zonder voorwaarden.
 
 ## Een scenario maken op basis van een sjabloon
 
-1. Klik de **Malplaatjes** lusje ![](assets/templates-icon.png) in het linkernavigatievenster.
+1. Klik het **lusje ![ pictogram van Malplaatjes 1} van Malplaatjes ](assets/templates-icon.png) in het linkernavigatievenster.**
 1. Klik op het lusje dat het malplaatje bevat u wilt gebruiken (**Openbare malplaatjes** of **malplaatjes van het Team**).
 1. Zoek naar een specifieke malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik op de sjabloon die u wilt gebruiken om een scenario te maken.
@@ -84,6 +84,6 @@ Openbare sjablonen zijn beschikbaar zonder voorwaarden.
 
 1. Wanneer u alle montages hebt gevormd die voor het malplaatje worden vereist, ontvangt u een bericht dat uw malplaatje klaar is te gaan, en de standaardscenario opties verschijnen bij de bodem van het scherm. U kunt nu doorgaan met het samenstellen van uw scenario.
 
-1. Klik **sparen** pictogram ![](assets/save-icon.png) dichtbij de bodem van het scherm om uw scenario te bewaren.
+1. Klik **sparen** pictogram ![ sparen pictogram ](assets/save-icon.png) dichtbij de bodem van het scherm om uw scenario te bewaren.
 
    Het scenario wordt opgeslagen in het gebied Scenario&#39;s van Workfront Fusion.

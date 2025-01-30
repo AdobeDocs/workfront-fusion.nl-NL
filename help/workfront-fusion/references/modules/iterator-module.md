@@ -4,9 +4,9 @@ description: Een iteratormodule is een speciaal type module dat een array omzet 
 author: Becky
 feature: Workfront Fusion
 exl-id: 43d39955-3dd7-453d-8eb0-3253a768e114
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '546'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -63,11 +63,11 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [[!DN
 
 De algemene Iterator-module heeft één veld, het veld [!UICONTROL Array] . Dit veld bevat de array die moet worden omgezet of gesplitst in afzonderlijke bundels.
 
-![](assets/set-up-iterator.jpg)
+![ de iterator van de opstelling ](assets/set-up-iterator.jpg)
 
 Andere connectors kunnen iteratormodules omvatten specifiek voor die iterator. Deze bevatten een Source-moduleveld waarmee u de module kunt selecteren die de array uitvoert die u wilt herhalen.
 
-![](assets/specialized-iterators.jpg)
+![ Gespecialiseerde iterators ](assets/specialized-iterators.jpg)
 
 Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
 
@@ -79,7 +79,7 @@ Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios
 
   E-mails kunnen een array met bijlagen bevatten. De [!UICONTROL Iterator] module na de eerste module laat het scenario toe om elke gehechtheid afzonderlijk te behandelen. De module [!UICONTROL Iterator] splitst de array van bijlagen in afzonderlijke bundels. Elke bundel, met één bijlage, wordt vervolgens één voor één opgeslagen in een geselecteerde [!DNL Dropbox] -map. Het veld [!UICONTROL Array] in de module Iterator moet de array `Attachments` bevatten.
 
-  ![](assets/attachments-array.jpg)
+  ![ serie van Gehechtheid ](assets/attachments-array.jpg)
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +90,7 @@ Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios
 
 Wanneer een module [!UICONTROL Iterator] geen informatie heeft over de structuur van de items van de array, worden in het deelvenster Toewijzing in de modules die volgen op de module [!UICONTROL Iterator] alleen twee items weergegeven onder de module [!UICONTROL Iterator] : `Total number of bundles` en `Bundle order position` .
 
-![](assets/mapping-panel-doesnt-display.png)
+![ het paneel van de Toewijzing toont niet ](assets/mapping-panel-doesnt-display.png)
 
 Dit komt omdat elke module voor het verstrekken van informatie over punten verantwoordelijk is het output, zodat deze punten behoorlijk in het mappingpaneel in de verdere modules kunnen worden getoond. Het is echter mogelijk dat verschillende modules deze informatie in sommige gevallen niet kunnen verstrekken. [!UICONTROL JSON] > [!UICONTROL Parse JSON] of [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] modules met ontbrekende gegevensstructuur geven de informatie bijvoorbeeld niet op.
 
@@ -100,11 +100,11 @@ De oplossing is het scenario manueel uit te voeren. Hierdoor wordt de module ged
 
 Een scenario bevat bijvoorbeeld een module [!UICONTROL JSON] > [!UICONTROL Parse JSON] zonder gegevensstructuur.
 
-![](assets/json-parse-json.png)
+![ ontleed JSON ](assets/json-parse-json.png)
 
 Een [!UICONTROL Iterator] -module die op deze JSON-module is aangesloten, kan de uitvoer van de module niet toewijzen aan het veld Array in het instellingenvenster van de [!UICONTROL Iterator] -module.
 
-![](assets/connect-iterator-module.png)
+![ verbindt iteratormodule ](assets/connect-iterator-module.png)
 
 Dit probleem oplossen:
 
@@ -120,8 +120,8 @@ Begin manueel het scenario in de scenarioredacteur.
 
 Nadat [!UICONTROL JSON] > [!UICONTROL Parse JSON] wordt uitgevoerd, kan het informatie over zijn output aan alle verdere modules, met inbegrip van de module van de Iterator verstrekken. In het deelvenster Toewijzing in de setup van de iterator worden vervolgens de items weergegeven:
 
-![](assets/mapping-panel-displays-items.png)
+![ het paneelvertoningen van de Toewijzing punten ](assets/mapping-panel-displays-items.png)
 
 bovendien worden in het deelvenster Toewijzing in de modules die na de module [!UICONTROL Iterator] worden verbonden, de items weergegeven die zich in de array bevinden:
 
-![](assets/items-contained-in-array.png)
+![ Punten bevat in serie ](assets/items-contained-in-array.png)

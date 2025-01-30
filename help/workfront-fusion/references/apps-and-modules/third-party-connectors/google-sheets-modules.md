@@ -4,9 +4,9 @@ description: Om  [!DNL Google Sheets]  met  [!DNL Adobe Workfront Fusion],you ne
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 80965570-2937-4ac8-97c0-54f7a813ec50
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '3366'
+source-wordcount: '3372'
 ht-degree: 0%
 
 ---
@@ -726,7 +726,7 @@ Gebruik de module [!UICONTROL Search Rows (Advanced)] en gebruik deze formule om
 1. Voer het scenario uit.
 1. Kies in Google Sheets **[!UICONTROL Insert]** > **[!UICONTROL Drawing]** ... in de hoofdmenubalk.
 
-1. Klik in het [!UICONTROL Drawing] -venster op het **[!UICONTROL Text box]** pictogram ![](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png) boven in het venster.
+1. In het [!UICONTROL Drawing] venster, klik het **[!UICONTROL Text box]** pictogram ![ vakje van de Tekst ](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png) dichtbij de bovenkant van het venster.
 1. Ontwerp een knop en klik op de knop **[!UICONTROL Save and Close]** in de rechterbovenhoek:
 1. De knop wordt in uw werkblad geplaatst. Klik op de drie verticale stippen in de rechterbovenhoek van de knop:
 1. Kies **[!UICONTROL Assign script..].** in het menu.
@@ -750,7 +750,7 @@ Gebruik de module [!UICONTROL Search Rows (Advanced)] en gebruik deze formule om
 
 Als u een Date-waarde opslaat in een spreadsheet zonder opmaak, wordt deze waarde in de spreadsheet weergegeven als tekst in de ISO 8601-indeling. In [!DNL Google Sheets] echter worden formules of functies die werken met datums die deze tekst niet begrijpen (bijvoorbeeld: formule `=A1+10` ) de volgende fout weergegeven:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/mceclip6-350x87.png)
+![ Fout ](/help/workfront-fusion/references/apps-and-modules/assets/mceclip6-350x87.png)
 
 Om [!DNL Google Sheets] toe te staan om de datum te begrijpen, formatteer het met de [[!UICONTROL formatDate] (datum; formaat; [timezone]) ](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md#formatda) functie. De juiste indeling die als het tweede argument aan de functie wordt doorgegeven, is afhankelijk van de landinstellingen van het werkblad.
 
@@ -764,7 +764,7 @@ U kunt als volgt de juiste indeling bepalen:
 
 **Voorbeeld:** het gebruik van `MM/DD/YYYY HH:mm:ss` formaat voor de scène van de Verenigde Staten:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/locale-time-350x83.png)
+![ de tijdformule van de Landinstelling ](/help/workfront-fusion/references/apps-and-modules/assets/locale-time-350x83.png)
 
 ## [!DNL Google Sheets] -functies gebruiken
 

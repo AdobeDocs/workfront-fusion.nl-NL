@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion]  modules van HubSpot CRM laten u 
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '5655'
+source-wordcount: '5661'
 ht-degree: 0%
 
 ---
@@ -1969,13 +1969,13 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
 >
 >**Methode**: `GET`
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-config.png)
+>![ Hubspot API configuratie ](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-config.png)
 >
 >Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL contacts] .
 >
 >In ons voorbeeld, zijn 3 contacten teruggekeerd:
 >
->![](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-output.png)
+>![ Uitvoer van hubspot API ](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-output.png)
 
 +++
 

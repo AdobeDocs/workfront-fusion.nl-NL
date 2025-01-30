@@ -7,9 +7,9 @@ description: Leer hoe u een eenvoudig automatiseringsscenario maakt met Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: 8884aef2237ad358c774110b81ac17b9efb386d4
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1305'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
    De naam wordt net onder de module weergegeven. Hieronder bevat [!DNL Workfront Fusion] een korte beschrijving van het type actie dat door de module wordt uitgevoerd.
 
-   ![](assets/module-renamed-wf.png)
+   ![ anders genoemd module ](assets/module-renamed-wf.png)
 
 1. Ga met [ verder toevoegen en vormen de tweede module ](#add-and-configure-the-second-module).
 
@@ -191,9 +191,9 @@ Voor dit scenario, zou een succesvolle test in het bepalen van het verzoek resul
 >
 >1. Sluit het **[!UICONTROL Notes]** -gebied.
 >
->     Nadat u een notitie aan een scenario hebt toegevoegd, wordt een oranje stip weergegeven op het **[!UICONTROL Notes]** pictogram ![](assets/notes-icon-w-dot.png) onder aan de scenario-editor.
+>     Nadat u een nota aan een scenario toevoegt, toont een oranje punt op het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
 >
->1. Klik op het pictogram **[!UICONTROL Notes]** ![](assets/notes-icon-w-dot.png) om uw notities weer te geven.
+>1. Klik het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) om uw nota&#39;s te bekijken.
 >
 
 ## Het scenario activeren

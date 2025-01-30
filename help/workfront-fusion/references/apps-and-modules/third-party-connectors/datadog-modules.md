@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: c8c5f2e3-5af1-4957-bb6f-6c19c35102c5
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
@@ -213,10 +213,10 @@ URL: `/v1/dashboard`
 
 Methode: `GET`
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/datadog-api-example.png)
+![ Datadog API vraagvoorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/datadog-api-example.png)
 
 Het resultaat is te vinden in de Uitvoer van de module onder Bundel > Tekst > dashboards.
 
 In ons voorbeeld werden 3 dashboards geretourneerd:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/datadog-api-response-example.png)
+![ Datadog API reactie ](/help/workfront-fusion/references/apps-and-modules/assets/datadog-api-response-example.png)

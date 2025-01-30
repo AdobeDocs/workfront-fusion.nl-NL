@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion]  app van HTTP verstrekt diverse m
 author: Becky
 feature: Workfront Fusion
 exl-id: 7db97e6e-262d-4be2-823b-423f56a7d886
-source-git-commit: 6398261775584e33515c546de4e7a72d5830ebe0
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '394'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Het is mogelijk om een token JWT te genereren met behulp van ingebouwde functies
 
 Koptekst:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/jwt-header-350x19.png)
+![ kopbal JWT ](/help/workfront-fusion/references/apps-and-modules/assets/jwt-header-350x19.png)
 
 Code voor kopiëren en plakken:
 
@@ -115,7 +115,7 @@ Code voor kopiëren en plakken:
 
 Payload:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/jwt-payload-350x17.png)
+![ JWT nuttige lading ](/help/workfront-fusion/references/apps-and-modules/assets/jwt-payload-350x17.png)
 
 Code voor kopiëren en plakken:
 
@@ -125,7 +125,7 @@ Code voor kopiëren en plakken:
 
 Token:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/jwt-token-350x15.png)
+![ het teken van JWT ](/help/workfront-fusion/references/apps-and-modules/assets/jwt-token-350x15.png)
 
 Code voor kopiëren en plakken:
 

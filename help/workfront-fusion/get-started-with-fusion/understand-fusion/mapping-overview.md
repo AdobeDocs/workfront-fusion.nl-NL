@@ -4,9 +4,9 @@ description: Toewijzing is het proces om de output van een module, gestructureer
 author: Becky
 feature: Workfront Fusion
 exl-id: 9208ce20-0757-427a-9669-ce4274d05522
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Als u in een scenario op een veld klikt waarin u een waarde kunt invoegen die is
 
 Eén item
 
-![](assets/map-single.png)
+![ Kaart enig punt ](assets/map-single.png)
 
 Meerdere items met tekst
 
-![](assets/map-multiple-with-text.png)
+![ Kaart veelvoudige punten ](assets/map-multiple-with-text.png)
 
 Functie met meerdere items en tekst
 
-![](assets/map-formula-with-text.png)
+![ formule van de Kaart met tekst ](assets/map-formula-with-text.png)
 
 
 >[!ENDSHADEBOX]
@@ -56,11 +56,11 @@ Voor instructies op afbeelding, zie de artikelen onder [ gegevens van de Kaart: 
 
 Wanneer u in een veld klikt waarin u gegevens kunt toewijzen, wordt het deelvenster Toewijzing geopend.
 
-Het eerste tabblad ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) geeft de items weer die u vanuit andere modules kunt toewijzen.
+Het eerste lusje ![ Kaart van andere modules ](assets/toolbar-icon-functions-you-map-from-other-modules.png) toont de punten die u van andere modules kunt in kaart brengen.
 
 De andere tabbladen bevatten functies, operatoren en trefwoorden die u kunt gebruiken om formules te maken. Deze worden in verschillende tabbladen gesorteerd op basis van het type gegevens dat ze verwerken.
 
-![](assets/mapping-panel-blank.png)
+![ het paneel van de Toewijzing ](assets/mapping-panel-blank.png)
 
 
 Voor meer informatie over functielusjes, zie [ Overzicht van de Functie ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md).
@@ -73,13 +73,13 @@ Items kunnen meerdere waarden van verschillende typen bevatten. Dit zijn verzame
 
 Het verzameling-type bundels geeft `(Collection)` weer naast het bundellabel in de moduleuitvoer.
 
-![](assets/collection.png)
+![ Inzameling ](assets/collection.png)
 
 In de meeste gevallen, wijst u de elementen van de inzameling in kaart in plaats van het punt in kaart te brengen dat de volledige inzameling vertegenwoordigt.
 
 Als u het element van een verzameling wilt zoeken in het deelvenster Toewijzing, klikt u op de pijl naast de verzameling.
 
-![](assets/collection-dropdown.png)
+![ dropdown van de Inzameling ](assets/collection-dropdown.png)
 
 Voor meer informatie over inzamelingen, zie {de gegevenstypes van 0} Punt ](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).[
 
@@ -93,6 +93,6 @@ Array-type bundels worden weergegeven `(Array)` naast het bundellabel in de modu
 
 In het deelvenster Toewijzing worden arrays weergegeven met vierkante haakjes. U kunt een arraytype-item herkennen aan de vierkante haakjes aan het einde van het label van het item. Als u een specifiek arrayelement wilt zoeken in het deelvenster Toewijzing, klikt u op de pijl naast de array.
 
-![](assets/array.png)
+![ Serie ](assets/array.png)
 
 Voor informatie en instructies over afbeeldingsseries en serieelementen, zie [ de series van de Kaart en serieelementen ](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md).

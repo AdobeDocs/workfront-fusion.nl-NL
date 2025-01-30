@@ -4,9 +4,9 @@ description: Dit artikel beschrijft gebeurtenissen die voorkomen terwijl een  [!
 author: Becky
 feature: Workfront Fusion
 exl-id: abf41be5-df32-4eaf-b3f4-93ddf005bfe3
-source-git-commit: fe503c27bc4e3beb5645f0efa7c2097297f19190
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '460'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ Als een fout tijdens de verrichting voorkomt of fase op om het even welke module
 >
 >Alle [!DNL Workfront Fusion] -modules die rollback (ook wel transactie genoemd) ondersteunen, worden gemarkeerd met de ACID-tag.
 >
->![](assets/acid-modules.png)
+>![ de modules van de Zuur ](assets/acid-modules.png)
 >
 >Modules die niet met deze tag zijn gemarkeerd, kunnen niet worden teruggezet naar de oorspronkelijke status wanneer er fouten optreden in andere modules. Een typisch voorbeeld van een niet-ACID module is de [!UICONTROL Email] > [!UICONTROL Send an Email] actie. Nadat het e-mailbericht is verzonden, kunt u het verzenden niet meer ongedaan maken.
 

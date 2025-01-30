@@ -4,9 +4,9 @@ description: Met de Adobe Workfront FusionTemplates-functie kunt u bestaande sja
 author: Becky
 feature: Workfront Fusion
 exl-id: 560c20b7-155c-40db-9018-5a51b40d6fb0
-source-git-commit: 7acc27ab2ce80b964b7f9fbb302816aa75964ab5
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '338'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ U moet een sjabloon maken voordat u deze kunt gebruiken.
 
 ## Een scenario maken op basis van een sjabloon
 
-1. Klik op het pictogram **[!UICONTROL Templates]** ![](assets/templates-icon.png) in het navigatievenster aan de linkerkant.
+1. Klik het **[!UICONTROL Templates]** pictogram ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het linkernavigatievenster.
 1. Klik het lusje dat het malplaatje bevat u (Openbare malplaatjes of de malplaatjes van het Team) wilt gebruiken.
 1. Klik op de sjabloon die u wilt gebruiken om een scenario te maken. U kunt het zoekvak in de rechterbovenhoek gebruiken om de sjabloon te zoeken op naam of naam van de toepassing die in de sjabloon is opgenomen.
 1. (Voorwaardelijk) Als u lid bent van meer dan één organisatie of team, selecteert u voor welke organisatie of team u uw scenario wilt maken en klikt u op **[!UICONTROL Continue]** .
@@ -78,4 +78,4 @@ U moet een sjabloon maken voordat u deze kunt gebruiken.
 
    Voor informatie bij de bouw van een scenario, zie [ werkstroom voor het creëren van een scenario ](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md).
 
-1. Klik op het pictogram **[!UICONTROL Save]** ![](assets/save-icon.png) om het scenario op te slaan. Het scenario wordt opgeslagen in het gebied Scenario van Workfront Fusion.
+1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png) om uw scenario te bewaren. Het scenario wordt opgeslagen in het gebied Scenario van Workfront Fusion.

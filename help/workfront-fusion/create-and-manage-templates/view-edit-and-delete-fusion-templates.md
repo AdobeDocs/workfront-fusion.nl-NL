@@ -7,9 +7,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
-source-git-commit: a252de430a3c712c48c1677433ce6176292bc6ce
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '833'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -117,7 +117,7 @@ Voor instructies bij het creëren van een scenario van een malplaatje, zie [ sce
 
 U kunt alle sjablonen bewerken die beschikbaar zijn op het tabblad [!UICONTROL Team templates] .
 
-1. Klik op het pictogram **[!UICONTROL Templates]** ![](assets/templates-icon.png) in het zijnavigatiemenu.
+1. Klik het **[!UICONTROL Templates]** pictogram ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het menu van de zijnavigatie.
 1. Klik op de tab **[!UICONTROL Team templates]** .
 1. Klik op de tab **[!UICONTROL Private]** .
 1. Klik op de sjabloon die u wilt bewerken.
@@ -128,7 +128,7 @@ U kunt alle sjablonen bewerken die beschikbaar zijn op het tabblad [!UICONTROL T
    Klik op het sjabloondiagram.
 
 1. Breng wijzigingen aan in de sjabloon. U hebt toegang tot alle opties die beschikbaar waren toen u de sjabloon maakte. Om deze opties te zien, zie [ nieuwe malplaatjes ](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md) creëren.
-1. Klik op het pictogram **[!UICONTROL Save]** ![](assets/save-icon.png) .
+1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png).
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ U kunt alleen sjablonen verwijderen die nog niet zijn goedgekeurd. Neem contact 
 
 Nadat u een sjabloon hebt verwijderd, kan deze niet worden hersteld. De malplaatjes van het team zijn beschikbaar voor alle leden van uw team, zo alvorens een malplaatje te schrappen adviseren wij dat u met uw teams controleert om ervoor te zorgen dat het malplaatje niet nodig is.
 
-1. Klik op het pictogram **[!UICONTROL Templates]** ![](assets/templates-icon.png) in het zijnavigatiemenu.
+1. Klik het **[!UICONTROL Templates]** pictogram ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het menu van de zijnavigatie.
 1. Klik op de tab **[!UICONTROL Team templates]** .
 1. Klik op **[!UICONTROL Delete]** naast de sjabloonnaam
 

@@ -4,9 +4,9 @@ description: CloudConvert-modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 52c4d18a-8bee-44d6-9a2c-cc9e157e1dde
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '2486'
+source-wordcount: '2498'
 ht-degree: 0%
 
 ---
@@ -541,7 +541,7 @@ Triggers worden geactiveerd wanneer een taak in uw account of taak wordt gemaakt
 >* Als u met de Arrayaggregator werkt (u hebt bijvoorbeeld veel bestanden in verschillende indelingen die moeten worden omgezet), gebruikt u de optie **[!UICONTROL I don't know the input format]** in het dialoogvenster [!UICONTROL Add a task] . Anders wordt de fout geretourneerd.
 >* Taken in de taak koppelen (naam > invoer, naam > invoer,...):
 >
->  ![](/help/workfront-fusion/references/apps-and-modules/assets/linking-name-across-jobs-350x808.png)>
+>  ![ het Verbinden naam over banen ](/help/workfront-fusion/references/apps-and-modules/assets/linking-name-across-jobs-350x808.png)>
 
 ### Taken
 
@@ -745,13 +745,13 @@ URL: `/v2/tasks`
 
 Methode: `GET`
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-input.png)
+![ API voorbeeldinput ](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-input.png)
 
 Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL data] .
 
 In ons voorbeeld werden 6 taken geretourneerd:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-output.png)
+![ API voorbeeldoutput ](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-output.png)
 
 ## Problemen oplossen {#troubleshooting}
 
@@ -817,6 +817,6 @@ Zie de volgende tabel voor mogelijke fouten en de bijbehorende oplossingen:
 >1. Open de instellingen van de module.
 >1. Configureer de module zoals hieronder wordt weergegeven:
 >
->   ![](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-mp4-example.png)
+>   ![ CloudConvert voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-mp4-example.png)
 >
 >1. Zorg ervoor dat u alle instellingen opneemt in het veld Conversie en motorspecifieke opties: zoek voor elke instelling in stap 5 de corresponderende parameter uit stap 13 en de bijbehorende waarde.

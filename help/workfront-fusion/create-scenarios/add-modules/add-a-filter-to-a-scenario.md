@@ -4,9 +4,9 @@ description: In sommige scenario's, moet u slechts met bundels werken die aan sp
 author: Becky
 feature: Workfront Fusion
 exl-id: b507dca0-0e85-4ab7-8310-b6e6bcb7ae12
-source-git-commit: 839f6edf93df8a935b2c5d0a520bdc125fe60288
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ U moet beide modules aan een scenario toevoegen alvorens u een filter tussen hen
 
    Als u bijvoorbeeld wilt dat het filter bestanden doorgeeft in [!DNL Adobe Workfront] die eindigen met XML, typt u **[!UICONTROL File name]** in het eerste vak en.**[!UICONTROL xml]** in het tweede vak. In het vervolgkeuzemenu ertussen selecteert u **[!UICONTROL Ends with (case insensitive)]** . Dit filter wordt toegepast op binnenkomende bundels uit de eerste module (Workfront). Alleen pakketten met XML-bestanden worden doorgegeven aan de volgende module.
 
-   ![](assets/set-up-filter-box.png)
+   ![ Opstelling een filter ](assets/set-up-filter-box.png)
 
 1. Klik op **[!DNL OK]**.
 
@@ -110,7 +110,7 @@ Als u een filter wilt kopiëren zonder modules te kopiëren, kunt u het gereedsc
 
    Als u niet het DevTool pictogram ziet, zie [ zuivert een scenario ](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md) voor instructies bij het openen van DevTool.
 
-1. Klik op het pictogram **[!UICONTROL Tools]** ![](assets/devtools-tools-icon.png) in de linkerzijbalk.
+1. Klik het **[!UICONTROL Tools]** pictogram ![ DevTool hulpmiddelen ](assets/devtools-tools-icon.png) in de linkerzijbar.
 
 1. Klik op **[!UICONTROL Copy Filter]** en configureer het gereedschap **[!UICONTROL Copy Filter]** in het rechterdeelvenster:
 

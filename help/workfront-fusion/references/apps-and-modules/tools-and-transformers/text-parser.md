@@ -4,9 +4,9 @@ description: U kunt het parserhulpmiddel van de Tekst gebruiken om tekst voor ge
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 885d714e-fc09-41a2-89dc-ebe29a355e43
-source-git-commit: 4fa892b7875af2fcabaf26b375925af7a8cad2a0
+source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1156'
 ht-degree: 0%
 
 ---
@@ -267,21 +267,21 @@ Deze reguliere expressie resulteert normaal gesproken in een volledige overeenko
 
 Het implementeren van deze expressie in uw tekstparser resulteert echter niet in een overeenkomst:
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-you-dont-get-a-match-350x365.png)
+![ Geen gelijke ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-you-dont-get-a-match-350x365.png)
 
 De reden hiervoor is dat &quot;i&quot;slechts het aantal gelijken per gelijke toont zodat in dit geval, hebben wij 2 gelijken, daarom nadat &quot;i&quot;er een numerieke waarde 1 en 2 is. Het gebruik hiervan is dat als u ooit gegevens via een filter moet aanpassen of doorgeven, alleen de tweede overeenkomende waarde kan worden opgegeven welke waarde wordt vertegenwoordigd door de numerieke waarde.
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-matches-350x355.png)
+![ Gelijke ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-matches-350x355.png)
 
 Als u de overeenkomende waarden wilt ophalen die u nodig hebt om haakjes toe te voegen aan het onderdeel dat u wilt parseren (bijvoorbeeld als u wilt extraheren uit &quot;filename.docx&quot; - alleen &quot;docx&quot;), moeten de haakjes volgens de regex-expressie die we in dit casescenario gebruiken, worden toegepast op \.(.+)
 
 Hierdoor wordt de DOCX vastgelegd, in een groep geplaatst en de &quot;.&quot; van het.
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-get-matches-350x592.png)
+![ krijgt gelijken ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-get-matches-350x592.png)
 
 In de uitvoer die in de onderstaande afbeelding wordt weergegeven, komt de vastgelegde groep overeen met elk willekeurig teken (behalve regeleinde).
 
-![](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-output-350x389.png)
+![ Output ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-output-350x389.png)
 
 Een andere oplossing die ook regex opneemt, gebruikt de vervangingsfunctie
 
