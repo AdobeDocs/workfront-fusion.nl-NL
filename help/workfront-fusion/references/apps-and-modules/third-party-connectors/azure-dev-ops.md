@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: c0919a9a-ce99-485c-9627-45353741f6d8
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 66378d6f937f3b3b173447bd36fdef991d9956af
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1546'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -28,35 +30,37 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -104,6 +108,7 @@ De Azure DevOps-connector gebruikt het volgende:
         </tr>
     </table>
 
+1. Om een Azure App ID DevOps of Geheim van de Cliënt in te gaan, klik <b> toon geavanceerde montages </b> en ga hen op de gebieden in die openen.
 1. Klik op **[!UICONTROL Continue]** om het instellen van de verbinding te voltooien en door te gaan met het maken van uw scenario.
 
 ## [!UICONTROL Azure DevOps] modules en hun velden
@@ -134,7 +139,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td> <p>Selecteer of voeg een webhaak voor de module toe.</p> <!--<p>For more information on webhooks in trigger modules, see <a href="For instructions, see [Instant triggers (webhooks) in Adobe Workfront Fusion](/help/workfront-fusion/)." class="MCXref xref">Instant triggers (webhooks) in [!DNL Adobe Workfront Fusion]</a>.</p> <p>For information on how to create a webhook, see <a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md" class="MCXref xref">Webhooks</a>.--></p> </td> 
+   <td> <p>Selecteer of voeg een webhaak voor de module toe.</p> <p>Voor meer informatie over websites in trekkermodules, zie <a href="/help/workfront-fusion/references/modules/webhooks-reference.md" class="MCXref xref"> Onmiddellijke trekkers (webhooks) </a>.</p> <p>Voor informatie over hoe te om een webhaak tot stand te brengen, zie <a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md" class="MCXref xref"> Webhooks </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -148,6 +153,43 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 * [Record lezen](#read-record)
 * [Een tijdelijk item bijwerken](#update-a-work-item)
 * [[!UICONTROL Upload an attachment]](#upload-an-attachment)
+
+#### [!UICONTROL Create a record]
+
+Deze actiemodule leidt tot een nieuw project of het werkpunt.
+
+De module geeft de object-id weer voor het nieuwe werkitem of de URL en statuscode van een nieuw gemaakt project.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Record type]</td> 
+   <td> <p>Selecteer of u een het werkpunt of een project wilt tot stand brengen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Project]</strong> </p> <p>Vul de volgende velden in:</p> 
+      <ul> 
+       <li> <p><strong>[!UICONTROL Name]</strong>: Voer een naam voor het nieuwe project in of wijs een naam toe.</p> </li> 
+       <li> <p><strong>[!UICONTROL Description]</strong>: Voer een beschrijving voor het nieuwe project in of wijs deze toe. </p> </li> 
+       <li> <p><strong>[!UICONTROL Visibility]</strong>: Selecteer of u wilt dat uw project openbaar of privé is. De gebruikers moeten in uw organisatie worden ondertekend en moeten toegang tot het project hebben verleend om met een privé project in wisselwerking te staan. De openbare projecten zijn zichtbaar aan gebruikers die niet binnen aan uw organisatie worden ondertekend.</p> </li> 
+       <li> <p><strong>[!UICONTROL Version control]</strong>: Selecteer of u het project [!DNL Git] of [!UICONTROL Team Foundation Version Control (TFCV)] wilt gebruiken voor versiebeheer.</p> </li> 
+       <li> <p><strong>[!UICONTROL Work item process]</strong>: Selecteer het werkproces dat u voor het project wilt gebruiken. De opties zijn [!UICONTROL Basic] , [!UICONTROL Scrum] , [!UICONTROL Capability Maturity Model Integration (CMMI)] en [!UICONTROL Agile] .</p> <p>Voor meer informatie over [!DNL Azure DevOps] processen, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process"> Standaardprocessen en procesmalplaatjes </a> in de [!DNL Azure DevOps] Documentatie.</p> </li> 
+      </ul> </li> 
+     <li> <p><strong>[!UICONTROL Work item]</strong> </p> <p>Vul de volgende velden in:</p> 
+      <ul> 
+       <li> <p><strong>[!UICONTROL Project]</strong>: Selecteer het project waar u het het werkpunt wilt tot stand brengen.</p> </li> 
+       <li> <p><strong>[!UICONTROL Work item type]</strong>: Selecteer het type werkitem dat u wilt maken.</p> </li> 
+       <li> <p><strong>[!UICONTROL Other fields]</strong>: Voer in deze velden de waarde in die het werkitem moet hebben voor een bepaalde eigenschap. Beschikbare velden zijn afhankelijk van het type werkitem.</p> </li> 
+      </ul> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Custom API Call]
 
@@ -169,7 +211,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Relative URL]</td> 
-   <td> <p>Voer de relatieve URL in waarmee u verbinding wilt maken voor deze API-aanroep.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b> Voorbeeld: </b></span></span><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
+   <td> <p>Voer de relatieve URL in waarmee u verbinding wilt maken voor deze API-aanroep.</p> <p><b> Voorbeeld: </b><code>{organization}/_apis[/{area}]/{resource}</code> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL API Version]</td> 
@@ -193,43 +235,6 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Create a record]
-
-Deze actiemodule leidt tot een nieuw project of het werkpunt.
-
-De module geeft de object-id weer voor het nieuwe werkitem of de URL en statuscode van een nieuw gemaakt project.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-azure-devops-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Azure DevOps] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Azure DevOps] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Record type]</td> 
-   <td> <p>Selecteer of u een het werkpunt of een project wilt tot stand brengen.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Project]</strong> </p> <p>Vul de volgende velden in:</p> 
-      <ul> 
-       <li> <p><strong>[!UICONTROL Name]</strong>:Ga of kaart een naam voor het nieuwe project in.</p> </li> 
-       <li> <p><strong>[!UICONTROL Description]</strong>:Ga of kaart een beschrijving voor het nieuwe project in. </p> </li> 
-       <li> <p><strong>[!UICONTROL Visibility]</strong>: Selecteer of u wilt dat uw project openbaar of privé is. De gebruikers moeten in uw organisatie worden ondertekend en moeten toegang tot het project hebben verleend om met een privé project in wisselwerking te staan. De openbare projecten zijn zichtbaar aan gebruikers die niet binnen aan uw organisatie worden ondertekend.</p> </li> 
-       <li> <p><strong>[!UICONTROL Version control]</strong>: Selecteer of u het project [!DNL Git] of [!UICONTROL Team Foundation Version Control (TFCV)] wilt gebruiken voor versiebeheer.</p> </li> 
-       <li> <p><strong>[!UICONTROL Work item process]</strong>: Selecteer het werkproces dat u voor het project wilt gebruiken. De opties zijn [!UICONTROL Basic] , [!UICONTROL Scrum] , [!UICONTROL Capability Maturity Model Integration (CMMI)] en [!UICONTROL Agile] .</p> <p>Voor meer informatie over [!DNL Azure DevOps] processen, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process"> een Proces </a> in de [!DNL Azure DevOps] Documentatie kiezen.</p> </li> 
-      </ul> </li> 
-     <li> <p><strong>[!UICONTROL Work item]</strong> </p> <p>Vul de volgende velden in:</p> 
-      <ul> 
-       <li> <p><strong>[!UICONTROL Project]</strong>: Selecteer het project waar u het het werkpunt wilt tot stand brengen.</p> </li> 
-       <li> <p><strong>[!UICONTROL Work item type]</strong>: Selecteer het type werkitem dat u wilt maken.</p> </li> 
-       <li> <p><strong>[!UICONTROL Other fields]</strong>:Op deze gebieden, ga de waarde in die u het het werkpunt voor een bepaalde bezit wilt hebben. Beschikbare velden zijn afhankelijk van het type werkitem.</p> </li> 
-      </ul> </li> 
-    </ul> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,10 +264,6 @@ De module retourneert de bestandsinhoud van de bijlage.
 
 Deze actiemodule verbindt twee het werkpunten en bepaalt het verband tussen hen.
 
-De module retourneert de id van het hoofdwerkitem en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
 <table style="table-layout:auto">
  <col> 
  <col> 
@@ -281,7 +282,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Link Type]</td> 
-   <td> <p>Bepaal de verhouding tussen de het werkpunten die u wilt verbinden.</p> <p>Voor meer informatie, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops"> Verwijzing van het Type van Verbinding </a> in de [!UICONTROL Azure DevOps] Documentatie.</p> </td> 
+   <td> <p>Bepaal de verhouding tussen de het werkpunten die u wilt verbinden.</p> <p>Voor meer informatie, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/queries/link-type-reference?view=azure-devops"> gids van de Verwijzing voor verbindingstypes </a> in de [!UICONTROL Azure DevOps] Documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comment]</td> 
