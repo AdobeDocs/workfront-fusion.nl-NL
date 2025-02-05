@@ -4,9 +4,9 @@ description: De opties voor e-mailmeldingen worden ingesteld op teamniveau.
 author: Becky
 feature: Workfront Fusion
 exl-id: 570a09fc-01a9-4952-8a2b-8bfdd86d0bd8
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 410676b7def1e36de12fee9d6df79feba566d741
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '240'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ De opties voor e-mailmeldingen worden ingesteld op teamniveau.
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Scenario deactivation]</p> </td> 
-      <td><p>Ontvang een e-mail wanneer een scenario deactiveert.</p><p><b> Nota:</b> u wordt op de hoogte gebracht over scenario deactivatie slechts wanneer het scenario automatisch wegens fouten is gedeactiveerd. U ontvangt geen meldingen over scenario's die handmatig worden gedeactiveerd.</p><p>In sommige gevallen wordt een scenario mogelijk gedeactiveerd door het engineeringteam van [!DNL Workfront Fusion] omdat het scenario prestaties of andere problemen veroorzaakt. In deze gevallen ontvangt u geen meldingen in [!DNL Workfront Fusion] . </p></td>
+      <td><p>Ontvang een e-mail wanneer een scenario deactiveert.</p><p>In sommige gevallen wordt een scenario mogelijk gedeactiveerd door het engineeringteam van [!DNL Workfront Fusion] omdat het scenario prestaties of andere problemen veroorzaakt. In deze gevallen ontvangt u geen meldingen in [!DNL Workfront Fusion] . </p></td>
 
 </tr>
 </tbody>
