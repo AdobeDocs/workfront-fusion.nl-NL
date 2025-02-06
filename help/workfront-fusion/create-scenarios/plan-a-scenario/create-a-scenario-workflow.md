@@ -4,9 +4,9 @@ description: Volg deze algemene workflow om een scenario te maken
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: c34adf455ce01da52c321d3f997a58f8251d97bf
+source-git-commit: 394f80a2d7c124bbd00e1a5b51ad3dc6e73a996b
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ De scenario&#39;s worden gebouwd om aan de behoeften van uw organisatie, met toe
 * [Scenario-instellingen configureren](#onfigure-scenario-settings)
 * [Testen en herzien](#test-and-revise)
 * [Het scenario activeren](#activate-the-scenario)
+* [Sneltoetsen voor Workfront Fusion-scenario](#workfront-fusion-scenario-keyboard-shortcuts)
 
 Sneltoetsen
 
