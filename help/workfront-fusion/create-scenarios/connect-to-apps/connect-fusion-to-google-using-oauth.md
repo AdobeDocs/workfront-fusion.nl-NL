@@ -4,7 +4,7 @@ description: Met Adobe Workfront Fusion kunt u verbinding maken met Google Servi
 author: Becky
 feature: Workfront Fusion
 exl-id: 2f0bc289-4ecf-4a31-9d7b-641bbca6fc95
-source-git-commit: 362952ec85b0df2306ba117ba530e95201330cca
+source-git-commit: 5971b2210eaac8f8a75fd7a4aac5a9f7954d27ef
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -84,7 +84,7 @@ Een project maken op het Google Cloud-platform:
 
 1. Beginnen met het maken van een project op het Google Cloud Platform.
 
-   Voor instructies, zie [ tot een project van de Wolk van Google ](https://developers.google.com/workspace/guides/create-project) in de documentatie van de Gogle leiden.
+   Voor instructies, zie [ tot een project van de Wolk van Google ](https://developers.google.com/workspace/guides/create-project) in de documentatie van Google leiden.
 1. Wanneer u API&#39;s inschakelt, moet u de Google Drive API en de API van alle Google-toepassingen die u wilt gebruiken (zoals de Google Sheets API) inschakelen.
 1. Voltooi het maken van het project.
 1. Ga aan de sectie [ verder vormen OAuth toestemmingsmontages ](#configure-oauth-consent-settings) in dit artikel.
