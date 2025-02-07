@@ -4,9 +4,9 @@ description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u uw E-mailreke
 author: Becky
 feature: Workfront Fusion
 exl-id: 28a04bad-d3ef-4f3a-be93-8b04761a75e4
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: add63edf94cc430113bf2cfd0c389cca04aa92f8
 workflow-type: tm+mt
-source-wordcount: '2103'
+source-wordcount: '2023'
 ht-degree: 0%
 
 ---
@@ -17,47 +17,51 @@ In een [!DNL Adobe Workfront Fusion] -scenario kunt u uw e-mailaccount verbinden
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Sluit uw e-mail aan op Workfront Fusion {#connect-your-email-to-workfront-fusion}
 
 * [Verbinding maken met Google](#connect-to-google)
-* [Verbinding maken met andere e-mailservices (SMAP)](#connect-to-other-email-services-smap)
+* [Verbinding maken met andere e-mailservices (IMAP)](#connect-to-other-email-services-smap)
 
 ### Verbinden met [!DNL Google]
 
@@ -71,17 +75,28 @@ U kunt rechtstreeks vanuit een e-mailmodule een verbinding maken met uw [!DNL Go
 1. (Optioneel) Voer uw [!UICONTROL [!DNL Google] Client ID] en [!UICONTROL Client Secret] in.
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
-### Verbinding maken met andere e-mailservices (SMAP)
+### Verbinding maken met andere e-mailservices (IMAP)
 
-De verbinding van SMAP staat u toe om tot uw brievenbus ver toegang te hebben en berichten in uw brievenbus te lezen of te manipuleren. De SMAP-verbinding wordt door de meeste e-mailmodules gebruikt.
+De verbinding IMAP staat u toe om tot uw brievenbus ver toegang te hebben en berichten in uw brievenbus te lezen of te manipuleren. De verbinding IMAP wordt gebruikt door de meeste modules E-mail.
 
 1. Klik in een willekeurige e-mailmodule op **[!UICONTROL Add]** naast het veld [!UICONTROL Connection] .
 1. Selecteer **[!UICONTROL Others (SMTP)]** als verbindingstype.
 1. Voer een **[!UICONTROL Name]** in voor de verbinding.
 1. Selecteer de **[!UICONTROL Email provider]** in de lijst. Selecteer Overige als uw e-mailprovider niet in de lijst voorkomt.
-1. Voer uw **[!UICONTROL Email address]** , **[!UICONTROL Your full name]** , uw **[!UICONTROL User name]** en uw **[!UICONTROL Password]** in.
+1. Voer **[!UICONTROL User name]** en uw **[!UICONTROL Password]** in voor het e-mailaccount.
 1. (Voorwaardelijk) Als uw provider zich niet in de lijst bevindt, voert u uw **[!UICONTROL SMTP server]** en **[!UICONTROL Port]** in en geeft u op of u **[!UICONTROL Use a secure connection (TLS)]** wilt gebruiken. Om deze informatie te vinden, controleer de [!UICONTROL Help] sectie voor uw brievenbus. Neem contact op met uw e-mailprovider als deze gegevens niet beschikbaar zijn.
+1. Om een zelf-ondertekend certificaat te gebruiken, laat **toe verwerp onbevoegde certificaten** optie en upload uw zelf-ondertekend certificaat. Voor instructies, zie [ een zelf-ondertekend certificaat ](#upload-a-self-signed-certificate) uploaden
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
+
+#### Een zelfondertekend certificaat uploaden
+
+Een zelfondertekend certificaat toevoegen:
+
+1. Klik **Extraheren**.
+1. Selecteer het type bestand dat u extraheert.
+1. Selecteer het bestand dat het certificaat of certificaat bevat.
+1. Voer het wachtwoord voor het bestand in.
+1. Klik **sparen** om het dossier te halen en aan de moduleopstelling terug te keren.
 
 ## [!UICONTROL Email] modules en hun velden
 
@@ -105,7 +120,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Watch Emails]
 
-Triggers wanneer een nieuw e-mailbericht wordt ontvangen voor verwerking volgens opgegeven criteria.
+Deze triggermodule start een scenario wanneer een nieuwe e-mail wordt ontvangen voor verwerking volgens opgegeven criteria.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -132,17 +147,13 @@ Triggers wanneer een nieuw e-mailbericht wordt ontvangen voor verwerking volgens
    <td role="rowheader">[!UICONTROL Sender Email Address] </td> 
    <td> <p>Voer het e-mailadres in van de afzender wiens e-mails u wilt volgen.</p> </td> 
   </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Recipient Email Address]</td> 
-   <td> <p> Voer het e-mailadres in van de ontvanger van wie u de e-mails wilt bekijken.</p> </td> 
-  </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subject] </td> 
    <td> <p>Voer het onderwerp in van het e-mailbericht dat u wilt bekijken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Phrase] </td> 
-   <td> <p>Voer trefwoorden in om alleen die e-mailberichten met specifieke zinsdelen te bekijken.</p> </td> 
+   <td> <p>Voer trefwoorden in om alleen die e-mails met de trefwoorden te bekijken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Mark message(s) as read when fetched]</td> 
@@ -150,21 +161,301 @@ Triggers wanneer een nieuw e-mailbericht wordt ontvangen voor verwerking volgens
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
-   <td> <p> Het maximumaantal e-mailberichten [!DNL Workfront Fusion] moet worden geretourneerd tijdens de uitvoeringscyclus van één scenario.</p> </td> 
+   <td> <p> Voer het maximale aantal e-mailberichten in dat [!DNL Workfront Fusion] tijdens één cyclus van uitvoering van het scenario moet retourneren of toewijzen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Handelingen
 
-* [[!UICONTROL Send an Email]](#send-an-email)
+* [[!UICONTROL Copy an Email]](#copy-an-email)
 * [[!UICONTROL Create a Draft]](#create-a-draft)
+* [[!UICONTROL Delete an Email]](#delete-an-email)
+* [[!UICONTROL Get Emails]](#get-emails)
 * [[!UICONTROL Mark an Email as Read]](#mark-an-email-as-read)
 * [[!UICONTROL Mark an Email as Unread]](#mark-an-email-as-unread)
 * [[!UICONTROL Move an Email]](#move-an-email)
-* [[!UICONTROL Copy an Email]](#copy-an-email)
-* [[!UICONTROL Delete an Email]](#delete-an-email)
-* [[!UICONTROL Get Emails]](#get-emails)
+* [[!UICONTROL Send an Email]](#send-an-email)
+
+#### [!UICONTROL Copy an Email]
+
+Deze actiemodule kopieert een e-mail of een concept naar een geselecteerde map.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
+   <td>Selecteer de map waaruit u de e-mail wilt kopiëren. Voorbeeld: Primair.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
+   <td> <p> Selecteer de map waarnaar u de e-mail wilt kopiëren. Voorbeeld: werken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u naar de doelmap wilt kopiëren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Create a Draft]
+
+Deze actiemodule maakt een nieuw concept en voegt dit toe aan een geselecteerde map.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>Selecteer de map waarin u het concept-e-mailbericht wilt maken.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL To] </td> 
+   <td> <p>Voer het e-mailadres in of wijs het toe waarnaar u de e-mail wilt verzenden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
+   <td> <p>Voer de onderwerpregel van de e-mail in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Content] </td> 
+   <td> <p>Voer de e-mailinhoud in of wijs deze toe in HTML-indeling met behulp van HTML-tags of in de normale tekst.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
+   <td> <p>Voor elke gehechtheid wilt u toevoegen, <b> toevoegen punt </b> en ga het volgende in:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Voer de bestandsnaam in, inclusief de extensie. </p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Voer het pad in naar de map waarnaar u de bijlage wilt uploaden.</p> </li> 
+     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Voer de inhoud-id in om de bijlage (afbeelding) in de inhoud in te voegen.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Copy Recipient] </td> 
+   <td> <p>Voor elk e-mailadres waarnaar u een exemplaar van deze e-mail wilt verzenden klikt <b> punt </b> toevoegen en gaat het e-mailadres in. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Blind Copy Recipient]</td> 
+   <td> <p> Voor elk e-mailadres waarnaar u een exemplaar van deze e-mail wilt verzenden zonder het hebben van het e-mailadres in e-mail verschijnen, klik <b> toevoegen punt </b> en ga het e-mailadres in.</p> </td> 
+  </tr> 
+  <!--<tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL From] </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront Fusion] uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
+   <td> <p>Enter or map the email address that appears in the [!UICONTROL Sender] field in the email.</p> <p>Tip:  If you are unsure whether to use this field or the From field, we recommend choosing the From field.</p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code></p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Reply-To]</td> 
+   <td> <p> If you want replies to this email sent to a different address than the "[!UICONTROL from]" address, enter the email address where you want replies to this email sent.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL In-Reply-To]</td> 
+   <td> <p> If you are replying to a specific email, enter or map the ID of the email you are replying to.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL References] </td> 
+   <td> <p>Enter the message IDs of all the replies in the thread.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>[!UICONTROL Priority]</p> </td> 
+   <td> <p>Select the priority of the email:</p> 
+    <ul> 
+     <li>[!UICONTROL High]</li> 
+     <li>[!UICONTROL Normal]</li> 
+     <li>[!UICONTROL Low]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
+   <td> <p>Add the headers:</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Add the key. For example, Sender, Date, To, and so on.</p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Enter the value for the key.</p> </li> 
+    </ul> </td> 
+  </tr> -->
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete an Email]
+
+Deze actiemodule verwijdert een e-mail of een concept uit de geselecteerde map.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>Selecteer de map met het e-mailbericht dat u wilt verwijderen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u wilt verwijderen.</p> <p>U kunt de UID van de e-mail ophalen via de module E-mail &gt; E-mail controleren of de module [!UICONTROL Search Email] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Expunge]</td> 
+   <td> <p>Schakel deze optie in om alle berichten die als [!UICONTROL Deleted] zijn gemarkeerd, permanent te verwijderen in de momenteel geopende postbus.</p> <p>Opmerking: in [!DNL Gmail] wordt dit gedrag aangestuurd door de instelling in de sectie [!UICONTROL Settings] &gt; [!UICONTROL Forwarding POP/IMAP in IMAP access] .</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get Emails]
+
+Deze module retourneert e-mailberichten die voldoen aan de opgegeven criteria.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder] </td> 
+   <td> <p>Selecteer de map met de e-mails die u wilt ophalen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Mark message(s) as read when fetched] </td> 
+   <td> <p>Schakel deze optie in als u de ongelezen e-mail wilt markeren zoals deze is gelezen nadat u de details hebt opgehaald.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Criteria]</p> </td> 
+   <td> <p>Selecteer de criteria voor de e-mails die u wilt ophalen:</p> 
+    <ul> 
+     <li>[!UICONTROL All Emails]</li> 
+     <li>[!UICONTROL Only Read Emails]</li> 
+     <li>[!UICONTROL Only Unread Emails]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Sender Email Address] </td> 
+   <td> <p>Voer het e-mailadres in of wijs het e-mailadres toe van de afzender van wie u de e-mails wilt ophalen.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">[!UICONTROL Recipient Email]</td> 
+   <td> <p> Voer het e-mailadres in of wijs het e-mailadres toe van de ontvanger van wie u de e-mails wilt ophalen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL From date] </td> 
+   <td> <p>Voer de datum in of wijs de datum toe waarop de e-mails die op of na de opgegeven datum zijn verwerkt, moeten worden opgehaald.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Before date]</td> 
+   <td> <p> Voer de datum in of wijs de datum toe waarop de e-mails die op of voor de opgegeven datum zijn verwerkt, moeten worden opgehaald.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subject] </td> 
+   <td> <p>Voer het onderwerp in van de e-mail die u wilt ophalen of wijs het onderwerp ervan toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Phrase] </td> 
+   <td> <p>Voer trefwoorden in of wijs deze toe om alleen die e-mails met die trefwoorden op te halen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
+   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL  Watch Email] of [!UICONTROL Search Email] van [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
+   <td> <p> Het maximumaantal e-mailberichten [!DNL Workfront Fusion] moet worden geretourneerd tijdens de uitvoeringscyclus van één scenario.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
+   <td> <p> Selecteer deze optie als u de module wilt blijven uitvoeren, zelfs als er geen resultaten worden geretourneerd.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Mark an Email as Read]
+
+Deze actiemodule markeert een e-mail of een concept in een geselecteerde map als gelezen door de markering [!UICONTROL Read] in te stellen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>Selecteer de map met het e-mailbericht dat u als gelezen wilt markeren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u als gelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen via de module E-mail &gt; E-mail controleren of de module [!UICONTROL Search Email] .</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Mark an Email as Unread]
+
+Hiermee markeert u een e-mail of concept in een geselecteerde map als ongelezen door de markering Ongelezen in te stellen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>Selecteer de map met het e-mailbericht dat u als ongelezen wilt markeren. Voorbeeld: Primair.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u als ongelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen via de module E-mail &gt; E-mail controleren of de module [!UICONTROL Search Email] .</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Move an Email]
+
+Hiermee verplaatst u een gekozen e-mail of concept naar een geselecteerde map.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source Folder]</td> 
+   <td>Selecteer de map met het e-mailbericht dat u wilt verplaatsen. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
+   <td> <p> Selecteer de map waaraan u de e-mail wilt toevoegen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
+   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u naar de doelmap wilt verplaatsen.</p> <p>U kunt de UID van de e-mail ophalen via de module E-mail &gt; E-mail controleren of de module [!UICONTROL Search Email] .</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Send an Email]
 
@@ -204,24 +495,20 @@ Hiermee verzendt u een nieuwe e-mail.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
-   <td> <p>Een bijlage toevoegen:</p> 
+   <td> <p>Voor elke gehechtheid wilt u toevoegen, <b> toevoegen punt </b> en ga het volgende in:</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Voer de bestandsnaam in. Bijvoorbeeld voorbeeld voorbeeld voorbeeld.doc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Voer het pad naar de map in waar u de bijlage wilt uploaden.</p> </li> 
-     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Voer de [!UICONTROL content ID] in om de bijlage (afbeelding) in de inhoud in te voegen.</p> </li> 
+     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Voer de bestandsnaam in, inclusief de extensie. </p> </li> 
+     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Voer het pad in naar de map waarnaar u de bijlage wilt uploaden.</p> </li> 
+     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Voer de inhoud-id in om de bijlage (afbeelding) in de inhoud in te voegen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Copy Recipient] </td> 
-   <td> <p>Voer een of meer e-mailadressen in of wijs deze toe waarnaar u een kopie van deze e-mail wilt verzenden. </p> </td> 
+   <td> <p>Voor elk e-mailadres waarnaar u een exemplaar van deze e-mail wilt verzenden klikt <b> punt </b> toevoegen en gaat het e-mailadres in. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Blind Copy Recipient]</td> 
-   <td> <p> Voer een of meer e-mailadressen in of wijs deze toe waarnaar u een kopie van deze e-mail wilt verzenden zonder dat het e-mailadres in de e-mail wordt weergegeven.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL From] </td> 
-   <td> <p>Voer het e-mailadres (en de naam, indien nodig) dat in het veld [!UICONTROL From] in de e-mail wordt weergegeven in of wijs dit toe. </p> <p>Belangrijk: gebruik de juiste syntaxis: <code>name@email.com</code> of <code>"Name" name@email.com</code> .</p> <p>Opmerking: doorgaans gebruikt [!DNL Workfront Fusion] het e-mailadres dat u hebt ingevoerd bij het maken van de verbinding als het verzendadres. Als u een ander e-mailadres opgeeft, kan er een fout optreden bij het verzenden van een bericht omdat uw account geen toestemming heeft om e-mails van een ander adres te verzenden dan uw eigen adres. Bijvoorbeeld <code>test@mail.com</code> of "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p> Voor elk e-mailadres waarnaar u een exemplaar van deze e-mail wilt verzenden zonder het hebben van het e-mailadres in e-mail verschijnen, klik <b> toevoegen punt </b> en ga het e-mailadres in.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
@@ -256,293 +543,9 @@ Hiermee verzendt u een nieuwe e-mail.
      <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Voer de waarde voor de toets in.</p> </li> 
     </ul> </td> 
   </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Create a Draft]
-
-Hiermee maakt u een nieuw concept en voegt u dit toe aan een geselecteerde map.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td>Selecteer de map waarin u het concept-e-mailbericht wilt maken.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL To] </td> 
-   <td> <p>Voer het e-mailadres in of wijs het toe waarnaar u de e-mail wilt verzenden.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Subject] </td> 
-   <td> <p>Voer de onderwerpregel van de e-mail in of wijs deze toe.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Content Type]</p> </td> 
-   <td> <p>Selecteer het inhoudstype voor de e-mail:</p> 
-    <ul> 
-     <li>HTML</li> 
-     <li>[!UICONTROL Plain Text]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Content] </td> 
-   <td> <p>Typ of wijs de e-mailinhoud in HTML-indeling toe met behulp van HTML-tags of in de normale tekst, afhankelijk van wat u hebt gekozen in het veld [!UICONTROL Content Type] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
-   <td> <p>Een bijlage toevoegen:</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL File name]</strong> </p> <p>Voer de bestandsnaam in. Bijvoorbeeld voorbeeld voorbeeld voorbeeld.doc.</p> </li> 
-     <li> <p><strong>[!UICONTROL Data]</strong> </p> <p>Voer het pad naar de map in waar u de bijlage wilt uploaden.</p> </li> 
-     <li> <p><strong>[!UICONTROL Content-ID]</strong> </p> <p>Voer de inhoud-id in om de bijlage (afbeelding) in de inhoud in te voegen.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Copy Recipient] </td> 
-   <td> <p>Voer een of meer e-mailadressen in of wijs deze toe waarnaar u een kopie van deze e-mail wilt verzenden. </p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Blind Copy Recipient]</td> 
-   <td> <p> Voer een of meer e-mailadressen in of wijs deze toe waarnaar u een kopie van deze e-mail wilt verzenden zonder dat het e-mailadres in de e-mail wordt weergegeven.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
+<tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL From] </td> 
    <td> <p>Voer het e-mailadres (en de naam, indien nodig) dat in het veld [!UICONTROL From] in de e-mail wordt weergegeven in of wijs dit toe. </p> <p>Belangrijk: gebruik de juiste syntaxis: <code>name@email.com</code> of <code>"Name" name@email.com</code> .</p> <p>Opmerking: doorgaans gebruikt [!DNL Workfront Fusion] het e-mailadres dat u hebt ingevoerd bij het maken van de verbinding als het verzendadres. Als u een ander e-mailadres opgeeft, kan er een fout optreden bij het verzenden van een bericht omdat uw account geen toestemming heeft om e-mails van een ander adres te verzenden dan uw eigen adres. Bijvoorbeeld <code>test@mail.com</code> of "<code>John Bush" test@email.com</code>.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
-   <td> <p>Typ of wijs het e-mailadres toe dat in het veld [!UICONTROL Sender] in de e-mail wordt weergegeven.</p> <p>Tip: als u niet zeker weet of u dit veld of het veld Van wilt gebruiken, raden we u aan het veld Van te kiezen.</p> <p>Belangrijk: gebruik de juiste syntaxis: <code>name@email.com</code> of <code>"Name" name@email.com</code></p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Reply-To]</td> 
-   <td> <p> Als u wilt dat antwoorden op deze e-mail naar een ander adres worden verzonden dan het adres "[!UICONTROL from]", voert u het e-mailadres in waarnaar u antwoorden op deze e-mail wilt verzenden.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL In-Reply-To]</td> 
-   <td> <p> Als u een specifieke e-mail beantwoordt, voert u de id in van het e-mailbericht waarop u reageert of wijst u deze toe.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL References] </td> 
-   <td> <p>Voer de bericht-id's in van alle reacties in de thread.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Priority]</p> </td> 
-   <td> <p>Selecteer de prioriteit van de e-mail:</p> 
-    <ul> 
-     <li>[!UICONTROL High]</li> 
-     <li>[!UICONTROL Normal]</li> 
-     <li>[!UICONTROL Low]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>[!UICONTROL Headers]</p> </td> 
-   <td> <p>Voeg de kopteksten toe:</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Key]</strong> </p> <p>Voeg de toets toe. Bijvoorbeeld Afzender, Datum, Aan, enzovoort.</p> </li> 
-     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Voer de waarde voor de toets in.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Mark an Email as Read]
-
-Hiermee markeert u een e-mail of concept in een geselecteerde map zoals gelezen door de markering [!UICONTROL Read] in te stellen.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td>Selecteer de map van het e-mailbericht dat u als gelezen wilt markeren. Voorbeeld: Primair.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u als gelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Mark an Email as Unread]
-
-Hiermee markeert u een e-mail of concept in een geselecteerde map als ongelezen door de markering Ongelezen in te stellen.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td>Selecteer de map van het e-mailbericht dat u als ongelezen wilt markeren. Voorbeeld: Primair.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u als ongelezen wilt markeren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Move an Email]
-
-Hiermee verplaatst u een gekozen e-mail of concept naar een geselecteerde map.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source Folder]</td> 
-   <td>Selecteer de map met het e-mailbericht waaruit u het e-mailbericht wilt verplaatsen. Voorbeeld: Primair.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
-   <td> <p> Selecteer de map waaraan u de e-mail wilt toevoegen. Voorbeeld: werken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u naar de doelmap wilt verplaatsen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Copy an Email]
-
-Hiermee kopieert u een e-mail of concept naar een geselecteerde map.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source Folder]</td> 
-   <td>Selecteer de map waaruit u de e-mail wilt kopiëren. Voorbeeld: Primair.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Destination Folder]</td> 
-   <td> <p> Selecteer de map waarnaar u de e-mail wilt kopiëren. Voorbeeld: werken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u naar de doelmap wilt kopiëren.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete an Email]
-
-Hiermee verwijdert u een e-mail of concept uit de geselecteerde map.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td>Selecteer de map van het e-mailbericht dat u wilt verwijderen. Voorbeeld: Primair.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Email ID (UID)]</p> </td> 
-   <td> <p>Voer de UID-mailadres in van het e-mailbericht dat u wilt verwijderen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL Email] &gt; [!UICONTROL Watch Email] of [!UICONTROL Search Email] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Expunge]</td> 
-   <td> <p>Schakel deze optie in als u wilt dat de module alle berichten die als [!UICONTROL Deleted] zijn gemarkeerd, permanent kan verwijderen in het momenteel geopende postvak.</p> <p>Opmerking: in [!DNL Gmail] wordt dit gedrag aangestuurd door de instelling in de sectie [!UICONTROL Settings] &gt; [!UICONTROL Forwarding POP/IMAP in IMAP access] .</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get Emails]
-
-Retourneert e-mailberichten die voldoen aan de opgegeven criteria.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder] </td> 
-   <td> <p>Selecteer de map met de e-mails die u wilt ophalen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Mark message(s) as read when fetched] </td> 
-   <td> <p>Schakel deze optie in als u de ongelezen e-mail wilt markeren zoals deze is gelezen nadat u de details hebt opgehaald.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Criteria]</p> </td> 
-   <td> <p>Selecteer de criteria voor de e-mails die u wilt ophalen:</p> 
-    <ul> 
-     <li>[!UICONTROL All Emails]</li> 
-     <li>[!UICONTROL Only Read Emails]</li> 
-     <li>[!UICONTROL Only Unread Emails]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Sender Email Address] </td> 
-   <td> <p>Voer het e-mailadres in of wijs het e-mailadres toe van de afzender van wie u de e-mails wilt ophalen.</p> </td> 
-  </tr> 
-  <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL Recipient Email Address]</td> 
-   <td> <p> Voer het e-mailadres in of wijs het e-mailadres toe van de ontvanger van wie u de e-mails wilt ophalen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL From date] </td> 
-   <td> <p>Voer de datum in of wijs de datum toe waarop de e-mails die op of na de opgegeven datum zijn verwerkt, moeten worden opgehaald.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Before date]</td> 
-   <td> <p> Voer de datum in of wijs de datum toe waarop de e-mails die op of voor de opgegeven datum zijn verwerkt, moeten worden opgehaald.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Subject] </td> 
-   <td> <p>Voer het onderwerp in van de e-mail die u wilt ophalen of wijs het onderwerp ervan toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Phrase] </td> 
-   <td> <p>Voer trefwoorden in of wijs deze toe om alleen die e-mails met specifieke woordgroepen op te halen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL  Watch Email] of [!UICONTROL Search Email] van [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
-   <td> <p> Het maximumaantal e-mailberichten [!DNL Workfront Fusion] moet worden geretourneerd tijdens de uitvoeringscyclus van één scenario.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
-   <td> <p> Selecteer deze optie als u de module wilt blijven uitvoeren, zelfs als er geen resultaten worden geretourneerd.</p> </td> 
   </tr> 
  </tbody> 
 </table>
