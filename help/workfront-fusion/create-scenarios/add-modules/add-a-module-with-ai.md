@@ -4,9 +4,9 @@ description: U kunt AI gebruiken om een tekstherinnering in te gaan beschrijvend
 author: Becky
 feature: Workfront Fusion
 exl-id: d231e33a-6033-4e3c-b1d4-7034797c45a5
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: 9d29abc82a3bb09affc4d17d7ea214d7bb850294
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '600'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,15 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 +++
 
+## Vereisten
+
+Uw organisatie moet aan de volgende voorwaarden voldoen om deze functionaliteit te kunnen gebruiken:
+
+* Uw organisatie moet hebben deelgenomen aan het Workfront AI Assistant Beta-programma.
+* De Adobe moet een ondertekende Adobe-gen. AI-overeenkomst in het bestand hebben voor uw organisatie.
+
+  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de Adobe Gen AI overeenkomst ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht in de documentatie van Workfront.
+
 ## Momenteel ondersteunde AI-moduletoepassingen
 
 De Fusion AI kan momenteel modules genereren die verbinding maken met de volgende toepassingen:
@@ -95,15 +104,8 @@ De Fusion AI kan momenteel modules genereren die verbinding maken met de volgend
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waar u een module wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik produceren met AI pictogram ![ produceert met AI ](assets/generate-with-ai-icon-beta.png) dichtbij de bodem van de pagina van de scenarioredacteur.
-
-   of
-
-   Begin toevoegend een module en selecteer **met AI** van de lijst van toepassingen produceren. Deze optie wordt niet weergegeven wanneer u de eerste (trigger)module aan een scenario toevoegt.
-
-   Het deelvenster AI-assistent wordt geopend.
-1. (Voorwaardelijk) als dit de eerste keer gebruikend AI is om een scenariosegment toe te voegen, lees de Overeenkomst die verschijnt en klik **ga** overeen.
-1. Typ een tekstprompt in het vak.
+1. Klik het **pictogram AI van de Medewerker ![ AI Medewerker pictogram ](assets/ai-assistant-icon.png) dichtbij de hoger-juiste hoek van het scherm.**
+1. Typ een tekstprompt in het deelvenster AI-assistent.
 
    Voor uiteinden op herinneringen, zie [ Uiteinden voor het creëren van herinneringen voor scenario segmenten ](#tips-for-creating-prompts-for-scenario-segments) in dit artikel.
 
