@@ -4,7 +4,7 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
-source-git-commit: 1be98b5f6d869f93e1786b1c2be7a325037d7c02
+source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 0%
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 De HTTP-toepassing biedt verschillende modules voor communicatie op basis van het HTTP-protocol (Hypertext Transfer Protocol). HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina&#39;s en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
 
-De juiste keuze van de module is afhankelijk van het verificatie-/verificatiemechanisme waartoe de bron waartoe u toegang wilt hebben, behoort.
+De juiste keuze van de module is afhankelijk van het verificatie-/verificatiemechanisme dat wordt gebruikt door de bron waartoe u toegang wilt hebben.
 
 >[!NOTE]
 >
->Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
 >Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
 Zie de volgende artikelen voor specifieke moduleinstructies:
 
-* [HTTP >[!UICONTROL Make a request] module](/help/workfront-fusion/references/apps-and-modules/http-modules/http-module-make-a-request.md)
+* [http > [!UICONTROL Make a request] module](/help/workfront-fusion/references/apps-and-modules/http-modules/http-module-make-a-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL Make a Basic Authorization request] module](/help/workfront-fusion/references/apps-and-modules/http-modules/http-module-make-a-basic-auth-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](/help/workfront-fusion/references/apps-and-modules/http-modules/http-module-make-an-oauth-2-request.md)
 * [[!UICONTROL HTTP] > [!UICONTROL Make a Client Certificate Authorization request] module](/help/workfront-fusion/references/apps-and-modules/http-modules/http-module-make-a-client-cert-auth-request.md)

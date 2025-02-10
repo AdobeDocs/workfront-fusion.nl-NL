@@ -4,7 +4,7 @@ description: Om een  [!DNL Adobe Workfront Fusion]  HTTP(S) verzoek aan servers 
 author: Becky
 feature: Workfront Fusion
 exl-id: a302a1d4-fddf-4a71-adda-6b87ff7dba4b
-source-git-commit: d9d3f21279ba89f544adc0ffa9345543907aa777
+source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
 workflow-type: tm+mt
 source-wordcount: '1980'
 ht-degree: 0%
@@ -30,7 +30,7 @@ Voor meer informatie over OAuth 2.0 authentificatie, zie [ het Kader van de Verg
 
 >[!NOTE]
 >
->Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
 >Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
@@ -80,7 +80,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Verbinding maken voor een [!DNL OAuth] -aanvraag
 
 * [Algemene instructies voor het maken van een verbinding in HTTP > Een OAuth 2.0-aanvraagmodule maken](#general-instructions-for-creating-a-connection-in-the-http--make-an-oauth-20-request-module)
-* [Instructies voor het creëren van een verbinding aan Google in HTTP > [!UICONTROL Make] een OAuth 2.0 verzoekmodule](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
+* [Instructies voor het maken van een verbinding met Google in de HTTP > [!UICONTROL Make] OAuth 2.0-aanvraagmodule](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
 * [Instructies voor verbinding met de Microsoft Graph API via HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-microsoft-graph-api-via-the-http--make-an-oauth-20-request-module)
 
 ### Algemene instructies voor het maken van een verbinding in de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]
@@ -333,7 +333,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
    <td> <p>De hoofdtekst van HTTP is de gegevensbytes die in een HTTP- transactiebericht onmiddellijk na de kopballen worden overgebracht als er om het even welk zijn om worden gebruikt.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Het type Raw-hoofdtekst is over het algemeen geschikt voor de meeste HTTP-hoofdtekstaanvragen, zelfs in situaties waarin in de documentatie van de ontwikkelaar geen gegevens zijn opgegeven die moeten worden verzonden.</p> <p>Geef een vorm voor het parseren van de gegevens op in het veld [!UICONTROL Content type] .</p> <p>Ondanks het geselecteerde inhoudstype, worden de gegevens ingevoerd in om het even welk formaat dat door de ontwikkelaarsdocumentatie wordt bepaald of wordt vereist.</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dit hoofdtype is het POSTEN van gegevens met <code>[!UICONTROL application/x-www-form-urlencoded]</code> .</p> <p>Voor <code>[!UICONTROL application/x-www-form-urlencoded]</code> is de hoofdtekst van het HTTP-bericht dat naar de server wordt verzonden, in wezen één queryreeks. De sleutels en waarden worden gecodeerd in sleutel-waardeparen die door <code>&amp;</code> worden gescheiden en met een <code>=</code> tussen de sleutel en de waarde. </p> <p><code>use [!UICONTROL multipart/form-data]</code> voor binaire gegevens.</p> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dit type body is voor POST-gegevens met <code>[!UICONTROL application/x-www-form-urlencoded]</code> .</p> <p>Voor <code>[!UICONTROL application/x-www-form-urlencoded]</code> is de hoofdtekst van het HTTP-bericht dat naar de server wordt verzonden, in wezen één queryreeks. De sleutels en waarden worden gecodeerd in sleutel-waardeparen die door <code>&amp;</code> worden gescheiden en met een <code>=</code> tussen de sleutel en de waarde. </p> <p><code>use [!UICONTROL multipart/form-data]</code> voor binaire gegevens.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b> Voorbeeld: </b></span></span> 
        <p>Voorbeeld van de resulterende HTTP-aanvraagindeling:</p> 

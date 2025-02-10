@@ -2,7 +2,7 @@
 user-guide-title: Documentatie voor Adobe Workfront Fusion
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: Gebruik de documenten, tutorials en aanvullende bronnen om te leren hoe u Adobe Workfront Fusion in uw organisatie kunt implementeren en effectief kunt gebruiken.
-source-git-commit: e3ec0cf05665559790e4ae96c875e181a1ee36ff
+source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
 workflow-type: tm+mt
 source-wordcount: '1641'
 ht-degree: 1%
@@ -229,7 +229,7 @@ ht-degree: 1%
    * [Nieuwe sjablonen maken](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md)
    * [Scènes maken met sjablonen](/help/workfront-fusion/create-and-manage-templates/create-scenarios-with-fusion-templates.md)
    * [Sjablonen weergeven, bewerken en verwijderen](/help/workfront-fusion/create-and-manage-templates/view-edit-and-delete-fusion-templates.md)
-   * [Publish en gedeelde sjablonen](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md)
+   * [Sjablonen publiceren en delen](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md)
    * [Momenteel beschikbare Adobe Workfront Fusion-sjablonen](/help/workfront-fusion/create-and-manage-templates/currently-available-fusion-templates.md)
    * [[!DNL Adobe Workfront Fusion] sjablonen - Veelgestelde vragen](/help/workfront-fusion/create-and-manage-templates/fusion-templates-faqs.md)
 * Verwijzingen {#references}
@@ -278,34 +278,34 @@ ht-degree: 1%
    * Apps en hun modules {#apps-and-their-modules}
       * [Apps en modules daarvan](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)
       * Universele connectors {#universal-connectors}
-         * [HTTP >[!UICONTROL Make a request] module](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-request.md)
+         * [HTTP > module [!UICONTROL Make a request]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-request.md)
          * [[!UICONTROL HTTP] > [!UICONTROL Make a Basic Authorization request] module](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-basic-auth-request.md)
          * [[!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md)
          * [[!UICONTROL HTTP] > [!UICONTROL Make a Client Certificate Authorization request] module](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-client-cert-auth-request.md)
-         * [[!UICONTROL HTTP] >[!UICONTROL Make an API Key Authorization request]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-api-key-auth-request.md)
+         * [[!UICONTROL HTTP] > [!UICONTROL Make an API Key Authorization request]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-api-key-auth-request.md)
          * [[!UICONTROL HTTP] > Overige modules](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-modules.md)
-         * [SOAP](/help/workfront-fusion/references/apps-and-modules/universal-connectors/soap-module.md)
+         * [SOAP-module](/help/workfront-fusion/references/apps-and-modules/universal-connectors/soap-module.md)
          * [FTP-modules](/help/workfront-fusion/references/apps-and-modules/universal-connectors/ftp-modules.md)
          * [SFTP-modules](/help/workfront-fusion/references/apps-and-modules/universal-connectors/sftp.md)
          * [Webhaken](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md)
          * [Wederzijdse TLS gebruiken in HTTP-modules in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
-      * Adobe connectors {#adobe-connectors}
+      * Adobe-connectors {#adobe-connectors}
          * [Adobe Acrobat Sign-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-sign-modules.md)
          * [Adobe Authenticator-module](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md)
          * [Adobe Campaign-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-campaign-classic-connector.md)
          * [Adobe Creative Cloud-bibliotheekmodules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/creative-cloud-libraries-modules.md)
          * [Adobe Experience Manager Assets-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
          * [Adobe Experience Manager Forms-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
-         * [Adobe Firefly](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
+         * [Adobe Firefly-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
          * [Adobe Frame.io-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
          * [Adobe I/O Events-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
          * [Adobe Journey Optimizer-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
          * [Adobe Lightroom-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
-         * [Marketo-modules Adoben](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
+         * [Adobe Marketo-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-marketo-modules.md)
          * [Adobe PDF Services-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
          * [Adobe Photoshop-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
          * [Adobe Target-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
-         * [Gebruikersbeheermodules voor Adoben](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
+         * [Adobe-gebruikersbeheermodules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
          * [Adobe Workfront-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md)
          * [Adobe Workfront-planningsmodules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-planning-modules.md)
          * [Workfront Boards-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-boards-modules.md)
@@ -323,7 +323,7 @@ ht-degree: 1%
          * [Cilummodules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/cvent-modules.md)
          * [Datadog-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/datadog-modules.md)
          * [DocuSign-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/docusign-modules.md)
-         * [Dropbox](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/dropbox-modules.md)
+         * [Dropbox-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/dropbox-modules.md)
          * [E-mailmodules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/email-modules.md)
          * [Figuurmodules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/figma-modules.md)
          * [Github-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/github.md)
@@ -357,7 +357,7 @@ ht-degree: 1%
          * [Salesforce-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/salesforce-modules.md)
          * [Door SDL beheerde vertaalmodules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/sdl-managed-translation-modules.md)
          * [ServiceNow-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/servicenow-modules.md)
-         * [Slack](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md)
+         * [Slack-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md)
          * [Split.io-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/split-io-modules.md)
          * [Trello-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/trello-modules.md)
          * [Breedte-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/widen-modules.md)
