@@ -4,7 +4,7 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: 3b445b50-5812-4ded-9788-f467991e0b52
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 7404dafc0b368a8f1785be7b6a65fe45c0f12172
 workflow-type: tm+mt
 source-wordcount: '1858'
 ht-degree: 0%
@@ -83,7 +83,7 @@ De Airtable schakelaar gebruikt het volgende:
 -->
 1. Open de Fusie van Workfront en **creeer een verbinding** dialoog van de gewenste module.
 1. Voer een naam in voor de verbinding.
-1. (Optioneel) Klik op Geavanceerde instellingen tonen en voer uw Airtable client-id en clientgeheim in.
+1. (Optioneel) Klik op Geavanceerde instellingen tonen en voer uw Airtable Client ID en Client Secret in.
 1. Klik op de knop **Doorgaan** om de verbinding te maken en terug te keren naar de module.
 
 ## Airtable-modules en hun velden

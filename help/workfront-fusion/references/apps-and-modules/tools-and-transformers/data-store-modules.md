@@ -4,9 +4,9 @@ description: Een  [!DNL Adobe Workfront Fusion]  gegevensopslag, gelijkend op ee
 author: Becky
 feature: Workfront Fusion
 exl-id: 0338b822-b345-429e-850d-3978b692231d
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 7404dafc0b368a8f1785be7b6a65fe45c0f12172
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1028'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ Ga voor een video-introductie over gegevensopslag in Workfront Fusion naar:
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -32,60 +34,61 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
-   <p>of</p>
-   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Geen Workfront Fusion-licentievereiste.</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
 Als u [!UICONTROL Data Store] -modules wilt gebruiken, moet u eerst een gegevensopslag maken.
 
-<!--For information on creating data stores, see [Data Stores in [!UICONTROL Adobe Workfront Fusion]]()-->
+Voor informatie bij het creëren van gegevensopslag, zie [ gegevensopslag ](/help/workfront-fusion/create-scenarios/map-data/data-stores.md) creëren en beheren.
 
-## [!UICONTROL Data Store] modules en hun velden
+## [!UICONTROL Data store] modules en hun velden
 
 Wanneer u de modules van de Opslag van Gegevens vormt, [!DNL Workfront Fusion] toont de hieronder vermelde gebieden. Naast deze opties worden mogelijk extra gegevensopslagvelden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+
+U hoeft geen verbinding te maken om gegevensopslagruimten te gebruiken.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
 ![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-Alle [!UICONTROL Data Store] -modules zijn ActionScript-modules.
 
 * [Een record toevoegen/vervangen](#addreplace-a-record)
-* [Een record bijwerken](#update-a-record)
-* [Een record ophalen](#get-a-record)
 * [Controleren of een record bestaat](#check-the-existence-of-a-record)
+* [Telrecords](#count-records)
 * [Een record verwijderen](#delete-a-record)
 * [Alle records verwijderen](#delete-all-records)
+* [Een record ophalen](#get-a-record)
 * [Zoeken in records](#search-records)
-* [Telrecords](#count-records)
+* [Een record bijwerken](#update-a-record)
 
 ### [!UICONTROL Add/Replace a Record]
 
@@ -97,7 +100,7 @@ De module retourneert de id van de record en de bijbehorende velden, samen met a
 
 >[!NOTE]
 >
->De module genereert een fout wanneer u de record probeert toe te voegen die zich al onder dezelfde naam in de gegevensopslag bevindt en de optie [!UICONTROL Overwrite an existing record] is uitgeschakeld.
+>De module genereert een fout wanneer u een record probeert toe te voegen die zich al onder dezelfde naam in de gegevensopslag bevindt en de optie [!UICONTROL Overwrite an existing record] is uitgeschakeld.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -124,62 +127,6 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-### [!UICONTROL Update a Record]
-
-Deze actiemodule werkt een record bij.
-
-U geeft de gegevensopslag en de sleutel van de record op.
-
-De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Data store]</td> 
-   <td> <p> Selecteer of voeg de gegevensopslag toe waar u een verslag wilt creëren. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Key] </td> 
-   <td> <p>Voer de unieke sleutel in van de record die de module moet bijwerken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Insert missing record] </td> 
-   <td> <p>Schakel deze optie in om een nieuwe record te maken als de record met de opgegeven sleutel nog niet bestaat.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Record]</td> 
-   <td> <p> Voer de gewenste waarden in voor de velden van de record die u wilt bijwerken.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### [!UICONTROL Get a Record]
-
-Deze actiemodule haalt een record op.
-
-U geeft de gegevensopslag en de sleutel van de record op.
-
-De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Data store]</td> 
-   <td> <p> Selecteer de gegevensopslagruimte waarvan u een record wilt ophalen</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Key] </td> 
-   <td> <p>Voer de unieke sleutel in van de record die de module moet ophalen.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### [!UICONTROL Check the Existence of a Record]
 
 In deze actiemodule wordt opgegeven of een bepaalde record bestaat.
@@ -197,6 +144,25 @@ U geeft de gegevensopslag en de sleutel van de record op.
   <tr> 
    <td>[!UICONTROL Key] </td> 
    <td> <p>Voer de unieke sleutel in van de record die de module moet controleren op het bestaan.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Count Records]
+
+Deze actiemodule nummert de verslagen in een gegevensopslag.
+
+U geeft de gegevensopslag op.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Data store] </td> 
+   <td> <p>Selecteer de gegevensopslagruimte die de records bevat die u wilt tellen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -241,6 +207,29 @@ U geeft de gegevensopslag op.
  </tbody> 
 </table>
 
+### [!UICONTROL Get a Record]
+
+Deze actiemodule haalt een record op.
+
+U geeft de gegevensopslag en de sleutel van de record op.
+
+De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Data store]</td> 
+   <td> <p> Selecteer de gegevensopslagruimte waarvan u een record wilt ophalen</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Key] </td> 
+   <td> <p>Voer de unieke sleutel in van de record die de module moet ophalen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### [!UICONTROL Search Records]
 
 Deze zoekmodule zoekt naar records in een object in de gegevensopslag dat overeenkomt met de zoekquery die u opgeeft.
@@ -276,21 +265,35 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-### [!UICONTROL Count Records]
+### [!UICONTROL Update a Record]
 
-Deze actiemodule nummert de verslagen in een gegevensopslag.
+Deze actiemodule werkt een record bij.
 
-U geeft de gegevensopslag op.
+U geeft de gegevensopslag en de sleutel van de record op.
+
+De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Data store] </td> 
-   <td> <p>Selecteer de gegevensopslagruimte die de records bevat die u wilt tellen.</p> </td> 
+   <td>[!UICONTROL Data store]</td> 
+   <td> <p> Selecteer of voeg de gegevensopslag toe waar u een verslag wilt creëren. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Key] </td> 
+   <td> <p>Voer de unieke sleutel in van de record die de module moet bijwerken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Insert missing record] </td> 
+   <td> <p>Schakel deze optie in om een nieuwe record te maken als de record met de opgegeven sleutel nog niet bestaat.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record]</td> 
+   <td> <p> Voer de gewenste waarden in voor de velden van de record die u wilt bijwerken.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 0a45f8a7-12cc-41cc-9135-92f4779afac0
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 024176956d5ca9c88112a67c6948d6297f53810e
 workflow-type: tm+mt
-source-wordcount: '1425'
+source-wordcount: '1467'
 ht-degree: 0%
 
 ---
@@ -83,6 +83,10 @@ De verbindingslijn Bynder gebruikt het volgende:
 
 ## Verbinden [!DNL Bynder] met Workfront Fusion  {#connect-bynder-to-workfront-fusion}
 
+>[!NOTE]
+>
+>Bynder gebruikt de code van de Toekenning van de Vergunning / vernieuw symbolische subsidietype. Dit is het enige subsidietype dat de schakelaar van de Bynder van de Fusie gebruikt.
+
 * [Creeer een verbinding aan  [!DNL Bynder]  van  [!DNL Workfront Fusion]](#create-a-connection-to-bynder-from-workfront-fusion)
 * [Een [!UICONTROL Client ID] en [!UICONTROL Client Secret] in  [!DNL Bynder]  genereren (optioneel)](#generate-a-client-id-and-client-secret-in-bynder-optional)
 
@@ -107,9 +111,10 @@ Voor instructies voor het creëren van een app in [!DNL Bynder], zie [ Oauth 2.0
 
 >[!NOTE]
 >
->Wanneer u de app maakt in [!DNL Bynder] , voert u het volgende in als de `redirect uri` :
+>* Wanneer u de app maakt in [!DNL Bynder] , voert u het volgende in als de `redirect uri` :
 >
->`https://app.workfrontfusion.com/oauth/cb/workfront-bynder`
+>   `https://app.workfrontfusion.com/oauth/cb/workfront-bynder`
+>* Bynder gebruikt de code van de Toekenning van de Vergunning / vernieuw symbolische subsidietype. Dit is het enige subsidietype dat de schakelaar van de Bynder van de Fusie gebruikt.
 
 ## [!DNL Bynder] modules en hun velden
 
