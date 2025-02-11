@@ -4,7 +4,7 @@ description: De  [!DNL Adobe Workfront Fusion Google Team Drive]  modules laten 
 author: Becky
 feature: Workfront Fusion
 exl-id: 95dd9d23-1df9-40da-8fd0-646cc697bfc8
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: cca7aa6e15df0fd313e9d4ca391994a8ef4c974a
 workflow-type: tm+mt
 source-wordcount: '1059'
 ht-degree: 0%
@@ -162,7 +162,7 @@ Uploadt een bestand naar het opgegeven gedeelde station.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Source File]</p> </td> 
-   <td> <p>Geef het bestand op dat u naar het gedeelde station wilt uploaden.</p> <p>Wijs het dossier toe u van de vorige module (b.v. [!UICONTROL HTTP] &gt; [!UICONTROL Get a File] of [!UICONTROL Dropbox] &gt; [!UICONTROL Get a file)] wilt uploaden, of de dossier - naam en gegevens manueel ingaan.</p> </td> 
+   <td> <p>Geef het bestand op dat u naar het gedeelde station wilt uploaden.</p> <p>Wijs het bestand toe dat u uit de vorige module wilt uploaden (bijvoorbeeld [!UICONTROL HTTP] &gt; [!UICONTROL Get a File] of [!UICONTROL Dropbox] &gt; [!UICONTROL Get a file)] of voer de bestandsnaam en de bestandsgegevens handmatig in.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Title]</td> 

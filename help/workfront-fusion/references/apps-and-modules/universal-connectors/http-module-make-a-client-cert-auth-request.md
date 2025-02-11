@@ -1,12 +1,12 @@
 ---
-title: HTTP&gt; een aanvraagmodule voor clientcertificaten maken
+title: HTTP > Een aanvraagmodule voor een clientcertificaat maken
 description: Deze  [!DNL Adobe Workfront Fusion]  module laat u toe om een verzoek van HTTP met de vergunning van het de cliëntcertificaat van HTTP te vormen en het voor te leggen aan een server. De ontvangen HTTP-respons wordt vervolgens opgenomen in de uitvoerbundel.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc33530c-3010-4955-8819-5eb8373a0e10
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '806'
+source-wordcount: '804'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Met deze [!DNL Adobe Workfront Fusion] -module kunt u een HTTP-aanvraag configur
 
 >[!NOTE]
 >
->Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
 >Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 

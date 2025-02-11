@@ -1,37 +1,76 @@
 ---
-title: HTTP&gt; Overige modules
+title: HTTP > Overige modules
 description: De  [!DNL Adobe Workfront Fusion]  app van HTTP verstrekt diverse modules voor mededeling die op het protocol van de Overdracht van de Hypertext (HTTP) wordt gebaseerd. HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina's en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7db97e6e-262d-4be2-823b-423f56a7d886
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '525'
 ht-degree: 0%
 
 ---
 
 # HTTP > Overige modules
 
->[!NOTE]
->
->[!UICONTROL Adobe Workfront Fusion] vereist een [!UICONTROL Adobe Workfront Fusion] licentie naast een [!UICONTROL Adobe Workfront] licentie.
-
 De app [!DNL Adobe Workfront Fusion] [!UICONTROL HTTP] biedt verschillende modules voor communicatie op basis van het HTTP-protocol (Hypertext Transfer Protocol). HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina&#39;s en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
 
 De juiste keuze van de module is afhankelijk van het verificatie-/verificatiemechanisme waartoe de bron waartoe u toegang wilt hebben, behoort. Hieronder volgen voorbeelden van modules
 
-* Voer een verzoek in:universele module hoofdzakelijk bedoeld voor middelen die geen enkele vorm van authentificatie/vergunning gebruiken
-* Voer een Basic Auth-verzoek uit:voor bronnen die gebruikmaken van [!DNL HTTP] Basic authentication (BA)
-* Maak een OAuth 2.0 verzoek: voor middelen die OAuth 2.0 vergunningsprotocol gebruiken
-* Maak een verzoek van de Auteur van het Certificaat van de Cliënt: voor middelen die vergunningsprotocol gebruiken dat een cliënt-zijcertificaat vereist.
-* Maak een aanvraag voor een API-sleutelautorisatie: voor bronnen die API-sleutels gebruiken voor autorisatie.
+* **doe een verzoek**: Primair bedoeld voor middelen die geen type van authentificatie of vergunning gebruiken
+* **maak een Basis verzoek van de Auth**: Voor middelen die [!DNL HTTP] Basisauthentificatie (BA) gebruiken
+* **maak een OAuth 2.0 verzoek**: Voor middelen die het OAuth 2.0 vergunningsprotocol gebruiken
+* **maak een verzoek van de Auteur van het Certificaat van de Cliënt**: Voor middelen die vergunningsprotocol gebruiken dat een cliënt-zijcertificaat vereist
+* **maak een API Zeer belangrijke vergunningsverzoek**: Voor middelen die API Sleutels voor vergunning gebruiken
 
 >[!NOTE]
 >
->Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
 >Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>of</p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
+   <p>of</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Aanvraagmodules
 
@@ -57,8 +96,16 @@ Deze actiemodule downloadt een bestand van de opgegeven URL. Nadat het bestand i
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Evaluate all states as errors (except for 2xx and 3xx )] </td> 
+   <td> <p>Gebruik deze optie om foutafhandeling in te stellen.</p> <p>Voor meer informatie, zie <a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref"> de behandeling van de Fout in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL URL] </td> 
    <td> <p>Voer de URL in van het bestand dat u wilt downloaden of wijs deze toe. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Share cookies with other HTTP modules] </td> 
+   <td> <p>Schakel deze optie in als u de cookies voor deze site beschikbaar wilt maken voor andere modules. </p> </td> 
   </tr> 
  </tbody> 
 </table>

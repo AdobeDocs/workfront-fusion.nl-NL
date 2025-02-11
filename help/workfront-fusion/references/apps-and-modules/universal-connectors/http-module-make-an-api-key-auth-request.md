@@ -1,12 +1,12 @@
 ---
-title: HTTP&gt; een aanvraag voor een API-sleutelautorisatie indienen
+title: HTTP > Een aanvraag voor een API-sleutelautorisatie indienen
 description: Deze  [!DNL Adobe Workfront Fusion]  actiemodule verzendt een HTTPS- verzoek naar gespecificeerde URL die een zeer belangrijke vergunning van de Auteur van API vereist, en de reactie verwerkt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 362b80b5-42f4-4b82-b06c-39c7c5a1eb1a
-source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data] is een multipart HTTP-aanvraag die wordt gebruikt om bestanden en gegevens te verzenden. Het wordt doorgaans gebruikt om bestanden naar de server te uploaden.</p> <p>Voeg velden toe die in de aanvraag moeten worden verzonden. Elk veld moet een sleutelwaardepaar bevatten.</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>Voer de sleutel en waarde in die binnen de aanvraaginstantie moeten worden verzonden.</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Voer de sleutel in en geef het bronbestand op dat u wilt verzenden in de hoofdtekst van de aanvraag.</p> <p>Wijs het dossier toe u van de vorige module (zoals [!UICONTROL HTTP] &gt; [!UICONTROL Get a File] of [!UICONTROL Google Drive] &gt; [!UICONTROL Download a File)] wilt uploaden, of ga de dossier - naam en gegevens manueel in.</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Voer de sleutel in en geef het bronbestand op dat u wilt verzenden in de hoofdtekst van de aanvraag.</p> <p>Wijs het dossier toe u van de vorige module (zoals [!UICONTROL HTTP] &gt; [!UICONTROL Get a File] of [!UICONTROL Google Drive] &gt; [!UICONTROL Download a File]) wilt uploaden, of ga de dossier - naam en gegevens manueel in.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

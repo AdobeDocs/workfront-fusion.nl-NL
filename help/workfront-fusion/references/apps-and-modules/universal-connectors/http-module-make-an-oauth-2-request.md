@@ -1,12 +1,12 @@
 ---
-title: HTTP &gt; een OAuth 2.0-aanvraagmodule maken
+title: HTTP > Een OAuth 2.0-aanvraagmodule maken
 description: Om een  [!DNL Adobe Workfront Fusion]  HTTP(S) verzoek aan servers te maken die een vergunning OAuth 2.0 vereisen, moet u eerst een verbinding OAuth tot stand brengen. [!DNL Adobe Workfront Fusion]  zorgt ervoor dat alle vraag die met deze verbinding wordt gemaakt de aangewezen vergunningskopballen heeft en automatisch bijbehorende tokens verfrist wanneer vereist.
 author: Becky
 feature: Workfront Fusion
 exl-id: a302a1d4-fddf-4a71-adda-6b87ff7dba4b
-source-git-commit: 1a42567e93b4fae67c92720b7642186919e4c93d
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '1980'
+source-wordcount: '1978'
 ht-degree: 0%
 
 ---
@@ -227,7 +227,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 1. Ga aan [ te werk vormen doe een OAuth 2.0 verzoekmodule ](#configure-the-make-an-oauth-20-request-module).
 
-### Instructies voor het maken van een verbinding met [!DNL Google] in [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request module]
+### Instructies voor het maken van een verbinding met [!DNL Google] in het dialoogvenster [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request module]
 
 In het volgende voorbeeld ziet u hoe u de aanvraagmodule [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0] gebruikt om verbinding te maken met [!DNL Google] .
 
@@ -342,7 +342,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
      <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data] is een multipart HTTP-aanvraag die wordt gebruikt om bestanden en gegevens te verzenden. Het wordt doorgaans gebruikt om bestanden naar de server te uploaden.</p> <p>Voeg velden toe die in de aanvraag moeten worden verzonden. Elk veld moet een sleutelwaardepaar bevatten.</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>Voer de sleutel en waarde in die binnen de aanvraaginstantie moeten worden verzonden.</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Voer de sleutel in en geef het bronbestand op dat u wilt verzenden in de hoofdtekst van de aanvraag.</p> <p>Wijs het dossier toe u van de vorige module (zoals [!UICONTROL HTTP] &gt; [!UICONTROL Get a File]) wilt uploaden, of ga de dossier - naam en dossiergegevens manueel in.</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Voer de sleutel in en geef het bronbestand op dat u wilt verzenden in de hoofdtekst van de aanvraag.</p> <p>Wijs het bestand dat u uit de vorige module wilt uploaden (bijvoorbeeld [!UICONTROL HTTP] &gt; [!UICONTROL Get a File] ) toe of voer de bestandsnaam en de bestandsgegevens handmatig in.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 

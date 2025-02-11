@@ -1,12 +1,12 @@
 ---
-title: HTTP&gt; een aanvraagmodule maken
-description: De HTTP&gt van de Fusie van Adobe Workfront; Maak een verzoekmodule is een universele module die u toelaat om een HTTP- verzoek te vormen en het voor te leggen aan een server. De ontvangen HTTP-respons wordt vervolgens opgenomen in de uitvoerbundel.
+title: HTTP > Een aanvraagmodule maken
+description: De Adobe Workfront Fusion HTTP > Make a request module is een universele module waarmee u een HTTP-aanvraag kunt configureren en naar een server kunt verzenden. De ontvangen HTTP-respons wordt vervolgens opgenomen in de uitvoerbundel.
 author: Becky
 feature: Workfront Fusion
 exl-id: 42f6176e-86e0-489e-868b-66823a932daf
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
 workflow-type: tm+mt
-source-wordcount: '819'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Als u verbinding maakt met een product van de Adobe dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
+>Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
 >Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
