@@ -4,9 +4,9 @@ description: Met de  [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 85607e4e-538a-427f-8a99-a0ab65a75ac2
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: fedf8f3f4031faaad9f81ed38fbc77e40e3a85b6
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -25,47 +25,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-      <td>
-        <p>[!UICONTROL Pro] of hoger</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-      <td>
-        <p>[!UICONTROL Plan], [!UICONTROL Work]</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
-      <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
-   </td>
-    </tr>
-    <tr>
-      <td role="rowheader">Product</td>
-      <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
-   </td>
-    </tr>
-  </tbody>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   </td> 
+  </tr>
+ </tbody> 
 </table>
 
-
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -135,11 +134,11 @@ Deze actiemodule archiveert een element uit een bibliotheek.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Selecteer de bibliotheek die het element bevat dat u wilt archiveren.</td>
+      <td >Selecteer of wijs de bibliotheek toe die het element bevat u wilt archiveren.</td>
     </tr>
     <tr>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL Element ID]</td>
-      <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-LightGray">Selecteer het element dat u wilt archiveren.</td>
+      <td role="rowheader">[!UICONTROL Element ID]</td>
+      <td>Selecteer of wijs het element toe dat u wilt archiveren.</td>
     </tr>
   </tbody>
 </table>
@@ -158,7 +157,7 @@ Deze actiemodule retourneert één element uit een bibliotheek.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Selecteer de bibliotheek met het element dat u wilt ophalen.</td>
+      <td>Selecteer of wijs de bibliotheek toe die het element bevat u wilt terugwinnen.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Element ID]</td>
@@ -204,7 +203,7 @@ Deze actiemodule wint een lijst van elementen in een bibliotheek terug.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Selecteer de bibliotheek waarvan u elementen wilt weergeven.</td>
+      <td >Selecteer of wijs de bibliotheek toe waarvan u elementen wilt een lijst maken.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Order by]</td>
@@ -212,7 +211,7 @@ Deze actiemodule wint een lijst van elementen in een bibliotheek terug.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Type]</td>
-      <td >Voer een MIME-type in om de resultaten te beperken tot elementen die met het opgegeven MIME-type zijn geïdentificeerd. Voorbeeld: <code>string</code> .</td>
+      <td >Voer een MIME-type in of wijs dit toe om de resultaten te beperken tot elementen die met het opgegeven MIME-type zijn geïdentificeerd. Voorbeeld: <code>string</code> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Selector]</td>
@@ -240,57 +239,6 @@ Deze actiemodule wint een lijst van elementen in een bibliotheek terug.
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
       <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td>
-    </tr>
-  </tbody>
-</table>
-
-#### [!UICONTROL Upload an Element]
-
-Deze actiemodule uploadt een klein bestandsmiddel naar een bestaande bibliotheek. De maximale bestandsgrootte is 1 GB.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Library ID]</td>
-      <td >Selecteer de bibliotheek waarvan u elementen wilt weergeven.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Invocation Mode]</td>
-      <td>
-        <p>Selecteer de verwerkingsmodus om dit aanvraagproces aan te roepen.</p>
-        <ul>
-          <li>
-            <p><b>[!UICONTROL sync]</b>
-            </p>
-            <p>De API-aanroep wordt synchroon verwerkt. De reactie wordt geleverd wanneer de verwerking volledig is (tenzij de vraagtijden uit.)</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL async]</b>
-            </p>
-            <p>De asynchrone monitorreactie wordt onmiddellijk teruggekeerd, en de verzoekverwerking komt asynchroon voor. Het roepen is verantwoordelijk voor het opiniepeilen van het eindpunt tot voltooiing.</p>
-          </li>
-          <li>
-            <p><b>[!UICONTROL sync,async]</b> (Standaard)</p>
-            <p>Er wordt geprobeerd het verzoek synchroon te verwerken. Wanneer de verwerking langer dan 5000 ms duurt, wordt de asynchrone monitorreactie geretourneerd. De URL van de monitor moet worden opgevraagd totdat het verzoek is voltooid.</p>
-          </li>
-        </ul>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Type File]</td>
-      <td >Voer het MIME-type van het geüploade bestand in of wijs dit toe.</td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Source File]</td>
-      <td>
-        <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p>
-      </td>
     </tr>
   </tbody>
 </table>
@@ -389,6 +337,9 @@ Deze triggermodule start een scenario wanneer een bestaande bibliotheek wordt bi
 
 ### Overige
 
+* [Maak een API Vraag](#make-an-api-call)
+* [Een element uploaden](#upload-an-asset)
+
 #### [!UICONTROL Make an API Call]
 
 Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Creative Cloud Libraries] API.
@@ -445,6 +396,66 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Creative Cloud 
       <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p>
     </td>
     </tr>
-
 </tbody>
 </table>
+
+
+#### [!UICONTROL Upload an Asset]
+
+Deze actiemodule uploadt een klein bestandsmiddel naar een bestaande bibliotheek. De maximale bestandsgrootte is 1 GB.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Selecteer een bestaande Creative Cloud Libraries-verbinding. Verbindingsontwerp is momenteel niet beschikbaar in de Creative Cloud Libraries-connector. Bestaande verbindingen werken zoals verwacht.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Library ID]</td>
+      <td >Selecteer de bibliotheek waarnaar u elementen wilt uploaden.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Invocation Mode]</td>
+      <td>
+        <p>Selecteer de verwerkingsmodus om dit aanvraagproces aan te roepen.</p>
+        <ul>
+          <li>
+            <p><b>[!UICONTROL sync]</b>
+            </p>
+            <p>De API-aanroep wordt synchroon verwerkt. De reactie wordt geleverd wanneer de verwerking volledig is (tenzij de vraagtijden uit.)</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL async]</b>
+            </p>
+            <p>De asynchrone monitorreactie wordt onmiddellijk teruggekeerd, en de verzoekverwerking komt asynchroon voor. Het roepen is verantwoordelijk voor het opiniepeilen van het eindpunt tot voltooiing.</p>
+          </li>
+          <li>
+            <p><b>[!UICONTROL sync,async]</b> (Standaard)</p>
+            <p>Er wordt geprobeerd het verzoek synchroon te verwerken. Wanneer de verwerking langer dan 5000 ms duurt, wordt de asynchrone monitorreactie geretourneerd. De URL van de monitor moet worden opgevraagd totdat het verzoek is voltooid.</p>
+          </li>
+        </ul>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Element Type]</td>
+      <td >Selecteer het type element dat u wilt uploaden</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL File Type]</td>
+      <td >Voer het MIME-type van het geüploade bestand in of wijs dit toe.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Source File]</td>
+      <td>
+        <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p>
+      </td>
+    </tr>
+  </tbody>
+</table>
+
+
+
+
+

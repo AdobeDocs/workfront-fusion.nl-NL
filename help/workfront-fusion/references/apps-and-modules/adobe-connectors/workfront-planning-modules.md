@@ -4,9 +4,9 @@ description: Met de  [!DNL Adobe Workfront Planning]  modules, kunt u een  [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 06ba97ec4245f9620f013711df9a77b76abb20be
 workflow-type: tm+mt
-source-wordcount: '1099'
+source-wordcount: '1395'
 ht-degree: 0%
 
 ---
@@ -17,42 +17,54 @@ Met de [!DNL Adobe Workfront Planning] -modules kunt u een scenario activeren wa
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
-   </td>  
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
+
+## Vereisten
+
+U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
+
+* Een nieuw Workfront-pakket en -licentie. Workfront Planning is niet beschikbaar voor verouderde Workfront-pakketten of -licenties.
+* Een Workfront-planningspakket.
+* Het geval van Workfront van uw organisatie moet aan de Verenigde Ervaring van Adobe worden genegeerd.
 
 ## Informatie over Adobe Workfront Planning API
 
@@ -110,7 +122,7 @@ U kunt rechtstreeks vanuit een [!DNL Workfront Fusion] -module verbinding maken 
           <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
         </tr>
         <tr>
-          <td role="rowheader">[!UICONTROL Authentication URL]<p>(Optioneel)</p></td>
+          <td role="rowheader">[!UICONTROL Authentication URL]</td>
           <td>Voer de URL in die uw instantie van Workfront gebruikt om deze verbinding te verifiëren. <p>De standaardwaarde is <code>https://oauth.my.workfront.com/integrations/oauth2</code> .</p>
         </tr>
         <tr>
@@ -119,9 +131,22 @@ U kunt rechtstreeks vanuit een [!DNL Workfront Fusion] -module verbinding maken 
         </tr>
       </tbody>
     </table>
+
 1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## [!DNL Adobe Workfront Planning] modules en hun velden
+
+Wanneer u Workfront-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er aanvullende Workfront-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+
+
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+
+* [Triggers](#triggers)
+* [Handelingen](#actions)
+* [Zoekopdrachten](#searches)
+* [Niet gecategoriseerd](#uncategorized)
 
 ### Triggers
 
@@ -199,7 +224,7 @@ Deze actiemodule schrapt één enkel verslagtype in de Planning van Workfront do
       <td role="rowheader">
         <p>[!UICONTROL Record type ID]</p>
       </td>
-      <td>Voer de id in van het veld dat u wilt verwijderen of wijs deze toe.</td> 
+      <td>Voer de id in van het recordtype dat u wilt verwijderen of wijs deze toe.</td> 
       </tr>
   </tbody>
 </table>
@@ -253,14 +278,54 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Workfront Plann
   </tbody>
 </table>
 
-<!--
-### Searches
 
-#### Search records
+### Zoekopdrachten
 
-This action module retrieves a list of records based on criteria you specify.
+#### Zoeken in records
 
--->
+Deze actiemodule wint een lijst van verslagen terug die op criteria worden gebaseerd u specificeert.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+    </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Workspace]</p>
+      </td>
+      <td>Typ of wijs de Workspace toe die de records bevat die u wilt doorzoeken.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Record type]</p>
+      </td>
+      <td>Selecteer het recordtype dat u wilt zoeken.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Record Fields]</p>
+      </td>
+      <td>Zoek voor elk veld dat u in de zoekopdracht wilt gebruiken dat veld, selecteer de operator en voer de waarde in die u wilt zoeken of wijs de waarde toe. Veld is beschikbaar op basis van het geselecteerde recordtype.</td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Condition for filters]</p>
+      </td>
+      <td>Selecteer de voorwaarde voor uw filters:<ul><li><b>EN</b><p>De module keert verslagen terug die <b> allen </b> van de gebiedswaarden ontmoeten u selecteerde.</p></li><li><b>OF</b><p>De module keert verslagen terug die <b> om het even welke </b> van de gebiedswaarden ontmoeten u selecteerde.</p></li></ul></td> 
+      </tr>
+     <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Limit]</p>
+      </td>
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+      </tr>
+  </tbody>
+</table>
+
 
 ### Niet gecategoriseerd
 
@@ -287,7 +352,7 @@ Met deze actie maakt u één record in Workfront Planning.
       <td role="rowheader">
         <p>Overige velden</p>
       </td>
-      <td>Deze velden zijn gebaseerd op het geselecteerde recordtype.</td> 
+      <td>Voer de waarden in die u voor de nieuwe record wilt gebruiken. Deze velden zijn gebaseerd op het geselecteerde recordtype.</td> 
       </tr>
      <tr>
   </tbody>
@@ -313,31 +378,6 @@ Deze actiemodule schrapt het gespecificeerde verslag in de Planning van Workfron
       </tr>
   </tbody>
 </table>
-
-<!--
-
-### Get all records
-
-This action module retrieves all records from an [!DNL Adobe Workfront Planning] account.
-
-<table style="table-layout:auto"> 
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>For instructions on creating a connection to [!DNL Adobe Workfront Planning], see <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" >Create a connection to [!DNL Adobe Workfront Planning]</a> in this article.</td>
-    </tr>
-     <tr>
-      <td role="rowheader">
-        <p>[!UICONTROL Maximum number of returned records]</p>
-      </td>
-      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> 
-      </tr>
-  </tbody>
-</table>
-
--->
 
 ### Een record ophalen
 
@@ -378,11 +418,11 @@ Deze actiemodule wint alle verslagen van het gespecificeerde type terug.
       <td role="rowheader">[!UICONTROL Record type]</td>
       <td>Selecteer het type record dat u wilt ophalen.</td>
     </tr>
-     <tr>
+     <!--<tr>
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned records]</p>
       </td>
-      <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> -->
   </tbody>
 </table>
 
@@ -397,6 +437,10 @@ Deze actiemodule haalt een lijst met recordtypen op in een [!DNL Adobe Workfront
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Workspace]</td>
+      <td>Selecteer of wijs de werkruimte toe die de recordtypes bevat u wilt terugwinnen.</td>
     </tr>
   </tbody>
 </table>
@@ -423,7 +467,7 @@ Deze actie werkt één enkel verslag in de Planning van Workfront bij.
       <td role="rowheader">
         <p>Overige velden</p>
       </td>
-      <td>Deze velden zijn gebaseerd op het geselecteerde recordtype.</td> 
+      <td>Voer de nieuwe waarden in die u voor de record wilt gebruiken. Deze velden zijn gebaseerd op het geselecteerde recordtype.</td> 
       </tr>
      <tr>
   </tbody>
