@@ -1,12 +1,12 @@
 ---
-title: Dropbox
-description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Dropbox gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.Dit staat u toe om activiteiten zoals controle, het zoeken, het terugwinnen van, het een lijst maken van, en het uitgeven van dossiers en omslagen in uw Dropbox te automatiseren.
+title: Dropbox-modules
+description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Dropbox gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.Dit staat u toe om activiteiten zoals controle, het zoeken, het terugwinnen van, het lijst van een lijst maken van, en het uitgeven van dossiers en omslagen in uw Dropbox te automatiseren.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 29ce5940-4d71-4719-ab5e-f03c44b28c8c
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 04f0678b67cf6bffdb791a9ab38be27a6417370c
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2870'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,8 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -28,35 +30,37 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -66,11 +70,11 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 >
 >Dropbox moet toepassingen met meer dan 50 gebruikers goedkeuren.
 >
->Voor meer informatie, zoek naar &quot;Goedkeuring van de Productie&quot;in de Dropbox ontwikkelaarsgids.
+>Zoek naar &quot;Productietoestemming&quot; in de Dropbox-handleiding voor ontwikkelaars voor meer informatie.
 
-## API-informatie voor Dropbox
+## Dropbox API-informatie
 
-De verbindingslijn van de Dropbox gebruikt het volgende:
+De Dropbox-connector gebruikt het volgende:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -129,7 +133,11 @@ Verbinding maken voor uw [!DNL Dropbox] -modules:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Account Type]</td>
-        <td>Selecteer of u met een persoonlijke rekening van de Dropbox of een bedrijfsrekening (de Zaken van de Dropbox) verbindt.</td>
+        <td>Selecteer of u verbinding maakt met een persoonlijke Dropbox-account of een zakelijke account (Dropbox Business).</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Exclude dropbox-api-path-root header]</td>
+        <td>Schakel deze optie in om de header dropbox-api-path-root uit te sluiten voor Dropbox Apps met toegang tot App Folder</td>
         </tr>
       </tbody>
     </table>
@@ -180,52 +188,11 @@ Deze triggertypemodule retourneert bestandsgegevens wanneer het bestand in een o
 
 ### Modules voor het ophalen van [!DNL Dropbox] bestanden en mappen
 
-* [[!UICONTROL Search Files/Folders]](#search-filesfolders)
 * [[!UICONTROL Download a File]](#download-a-file)
 * [[!UICONTROL Get a Folder Metadata]](#get-a-folder-metadata)
 * [[!UICONTROL List All Files/Subfolders in a Folder]](#list-all-filessubfolders-in-a-folder)
 * [[!UICONTROL List File Revisions]](#list-file-revisions)
-
-#### [!UICONTROL Search Files/Folders]
-
-Deze zoekmodule zoekt naar records in een object in [!DNL Dropbox] dat overeenkomt met de zoekquery die u opgeeft.
-
-U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#create-a-connection-to-dropbox" class="MCXref xref"> Verbinding maken met [!DNL Dropbox]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Dropbox] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Search] </td> 
-   <td> <p>Voer de zoekterm in.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Folder] </td> 
-   <td> <p>Selecteer de map die u wilt doorzoeken. Deze module zoekt de volledige [!DNL Dropbox] als u geen map selecteert.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Bestandsstatus</td> 
-   <td> <p> Selecteer de bestandsstatus om de zoekopdracht te beperken tot de geselecteerde bestandsstatus.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Bestandscategorieën</td> 
-   <td> <p> Selecteer de bestandscategorieën om de zoekopdracht te beperken tot de geselecteerde categorieën.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Bestandsextensies</td> 
-   <td> <p> Kies de bestandsextensies waarnaar u wilt zoeken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>Limiet </td> 
-   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Search Files/Folders]](#search-filesfolders)
 
 #### [!UICONTROL Download a File]
 
@@ -345,7 +312,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Bestandspad / Bestand</p> </td> 
-   <td> <p style="font-weight: bold;">Bestandspad</p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p style="font-weight: bold;">Bestand</p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p><b>Bestandspad</b></p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p><b>Bestand</b></p> <p>Selecteer het bestand in het menu.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Limiet</p> </td> 
@@ -354,28 +321,13 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-### Modules voor het maken en bewerken van [!DNL Dropbox] bestanden en mappen
+#### [!UICONTROL Search Files/Folders]
 
-* [[!UICONTROL Upload] een bestand](#upload-a-file)
-* [[!UICONTROL Create a Folder]](#create-a-folder)
-* [[!UICONTROL Create/Overwrite a Text File]](#createoverwrite-a-text-file)
-* [[!UICONTROL Create/Update a Share Link]](#createupdate-a-share-link)
-* [[!UICONTROL Restore a File]](#restore-a-file)
-* [[!UICONTROL Move a File/Folder]](#move-a-filefolder)
-* [[!UICONTROL Rename a File/Folder]](#rename-a-filefolder)
-* [[!UICONTROL Delete a File/Folder]](#delete-a-filefolder)
+Deze zoekmodule zoekt naar records in een object in [!DNL Dropbox] dat overeenkomt met de zoekquery die u opgeeft.
 
-#### [!UICONTROL Upload a File]
+U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
-Deze actiemodule uploadt een bestand naar een map.
-
-U geeft informatie op zoals de locatie van het bestand, het bestand dat u wilt uploaden en een optionele nieuwe naam voor het bestand.
-
-De module retourneert de id van het bestand en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
@@ -384,19 +336,42 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Zie <a href="#create-a-connection-to-dropbox" class="MCXref xref"> Verbinding maken met [!DNL Dropbox]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Dropbox] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder]</td> 
-   <td> <p> Selecteer de map van de [!DNL Dropbox] waarnaar u het bestand wilt uploaden.</p> </td> 
+   <td>[!UICONTROL Search] </td> 
+   <td> <p>Voer de zoekterm in.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Source File]</p> </td> 
-   <td> <p>Voer het bestand in of wijs het toe dat u aan de hierboven geselecteerde map [!DNL Dropbox] wilt toevoegen.</p> <p style="font-weight: bold;">[!UICONTROL File name]</p> <p>Voer de bestandsnaam in of wijs deze toe, inclusief de bestandsextensie.</p> <p style="font-weight: bold;">[!UICONTROL File data]</p> <p>Ga of kaart de dossiergegevens in (van vorige module zoals [!UICONTROL Google Drive] &gt; [!UICONTROL Get a File)].</p> <p>Opmerking: de maximale grootte van het geüploade bestand is 150 MB.</p> </td> 
+   <td>[!UICONTROL Folder] </td> 
+   <td> <p>Selecteer de map die u wilt doorzoeken. Deze module zoekt de volledige [!DNL Dropbox] rekening als u geen omslag selecteert.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Overwrite an existing file]</td> 
-   <td> <p> Schakel deze optie in om het bestaande bestand te vervangen door het nieuwe bestand. Als deze optie niet is ingeschakeld, wordt de naam van het geüploade bestand gewijzigd.</p> </td> 
+   <td>Bestandsstatus</td> 
+   <td> <p> Selecteer de bestandsstatus die u in de zoekopdracht wilt opnemen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Bestandscategorieën</td> 
+   <td> <p> Selecteer de bestandscategorieën die u in de zoekopdracht wilt opnemen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Bestandsextensies</td> 
+   <td> <p>Voor elke dossieruitbreiding die u in het onderzoek wilt omvatten, klik <b> toevoegen punt </b> en ga of kaart de dossieruitbreiding in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>Limiet </td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+### Modules voor het maken en bewerken van [!DNL Dropbox] bestanden en mappen
+
+* [[!UICONTROL Create a Folder]](#create-a-folder)
+* [[!UICONTROL Create/Overwrite a Text File]](#createoverwrite-a-text-file)
+* [[!UICONTROL Create/Update a Share Link]](#createupdate-a-share-link)
+* [[!UICONTROL Delete a File/Folder]](#delete-a-filefolder)
+* [[!UICONTROL Move a File/Folder]](#move-a-filefolder)
+* [[!UICONTROL Rename a File/Folder]](#rename-a-filefolder)
+* [[!UICONTROL Restore a File]](#restore-a-file)
+* [[!UICONTROL Upload] een bestand](#upload-a-file)
 
 #### [!UICONTROL Create a Folder]
 
@@ -422,7 +397,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Folder]</p> </td> 
-   <td> <p>Voer het pad in of wijs het toe op de plaats waar u een nieuwe map wilt maken.</p> <p>Opmerking:   <p>Als u een [!DNL Dropbox Business] account (met teamspaties) gebruikt, moet u de schuine streep <code>/</code> verwijderen of niet <strong>[!UICONTROL Click here] klikken om map </strong> te kiezen om een teammap in de hoofdmap te maken.</p> <p>Als de schuine streep niet wordt verwijderd, wordt een fout <code>[409] path/malformed_path/..</code> geretourneerd.</p> </p> </td> 
+   <td> <p>Voer het pad in of wijs het toe op de plaats waar u een nieuwe map wilt maken.</p> <p>Opmerking:   <p>Als u een [!DNL Dropbox Business] rekening (met teamruimten) gebruikt, moet u de schuine streep <code>/</code> verwijderen, of <strong> klikt hier niet om omslag </strong> te kiezen om een teamomslag in de wortel tot stand te brengen.</p> <p>Als de schuine streep niet wordt verwijderd, wordt een fout <code>[409] path/malformed_path/..</code> geretourneerd.</p> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Auto rename]</td> 
@@ -433,11 +408,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Create/Overwrite a Text File]
 
-In deze actiemodule wordt een DOC-bestand gemaakt of wordt de inhoud van een bestaand bestand overschreven.
+Deze actiemodule maakt een DOC-bestand of overschrijft de inhoud van een bestaand bestand.
 
 U geeft het bronbestand en de map op.
-
-De module retourneert de id van de map en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -451,15 +424,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Select to]</td> 
-   <td> <p> Selecteer of u een DOC-bestand wilt maken of overschrijven.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Folder] </td> 
-   <td> <p>Selecteer de doellocatie waar u een bestand wilt maken.</p> </td> 
+   <td> <p> Selecteer of u een DOC-bestand wilt maken of overschrijven.</p><ul><li><b>Maken</b></p>Selecteer de map waarin u een bestand wilt maken.</li><li><b>Overschrijven</b><p>Selecteer hoe u het bestand wilt kiezen dat u wilt overschrijven, wijs vervolgens het bestandspad toe of selecteer het bestand. </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Source File]</p> </td> 
-   <td> <p>Typ of wijs het bestand toe dat u aan de map [!DNL Dropbox] wilt toevoegen.</p> <p style="font-weight: bold;">Bestandsnaam</p> <p>Voer de bestandsnaam in voor het nieuwe DOC-bestand (zonder extensie).</p> <p style="font-weight: bold;">Bestandsinhoud</p> <p>Voer de tekstinhoud van het DOC-bestand in.</p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de inhoud van het bronbestand toe. </p> <p>Als u een dossier creeert, uitgezocht <b> Leeg </b>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -488,30 +457,31 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL File Path / File]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>Typ of wijs het pad naar het doelbestand toe.</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>Selecteer het doelbestand.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Requested Visibility]</p> </td> 
-   <td> <p>Selecteer of de verbinding openbaar, voor team, of wachtwoord beperkt is.</p> <p>Opmerking: [!UICONTROL Team only] en [!UICONTROL Access with password] -opties zijn alleen beschikbaar voor gebruikers met een [!DNL Dropbox Pro] -versie of hoger.</p> </td> 
+   <td> <p>Selecteer of de verbinding openbaar, voor team, of wachtwoord beperkt is.</p> <p><b>Opmerking:</b></p><p> [!UICONTROL Team only] is alleen beschikbaar voor Dropbox Business-accounts. [!UICONTROL Access with password] is alleen beschikbaar voor [!DNL Dropbox Pro] - of Dropbox Business-accounts.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Link's Expiration Date]</td> 
-   <td> <p> Voer de datum en tijd in waarop de koppeling verloopt en niet meer toegankelijk is. Als dit veld leeg blijft, verloopt de koppeling niet. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref" data-mc-variable-override=""> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Opmerking: [!UICONTROL Team only] en [!UICONTROL Access with password] -opties zijn alleen beschikbaar voor gebruikers met [!UICONTROL Dropbox Pro] of hogere versies.</p> </td> 
+   <td> <p> Voer de datum en tijd in waarop de koppeling verloopt en niet meer toegankelijk is. Als dit veld leeg blijft, verloopt de koppeling niet. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref" data-mc-variable-override=""> Druk van het Type </a>.</p>  </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Link's Access Level]</p> </td> 
-   <td> <p>Stel de machtigingen voor de ontvanger van de koppeling in.</p> <p><strong>[!UICONTROL Viewer]</strong> Gebruikers die de koppeling gebruiken, kunnen de inhoud weergeven en opmerkingen plaatsen.</p> <p><strong>[!UICONTROL Editor]</strong> Gebruikers die de koppeling gebruiken, kunnen de inhoud bewerken, weergeven en opmerkingen plaatsen.</p> <p><strong>[!UICONTROL Max]</strong> Gebruikers die de koppeling gebruiken, ontvangen het maximale toegangsniveau waarop u de koppeling kunt instellen.</p> </td> 
+   <td> <p>Stel de machtigingen voor de ontvanger van de koppeling in.</p> <ul><li><strong>[!UICONTROL Viewer]</strong> <p>Gebruikers die de koppeling gebruiken, kunnen de inhoud weergeven en opmerkingen plaatsen.</p> </li><li><strong>[!UICONTROL Editor]</strong><p> Gebruikers die de koppeling gebruiken, kunnen de inhoud bewerken, weergeven en opmerkingen plaatsen. Dit toegangsniveau is alleen beschikbaar voor documenten in de cloud.</p> </li><li><strong>[!UICONTROL Max]</strong> <p>Gebruikers die de koppeling gebruiken, ontvangen het maximale toegangsniveau waarop u de koppeling kunt instellen.</p></li><ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Restore a File]
 
-In deze actiemodule wordt een vorige versie van een bestand hersteld.
+#### [!UICONTROL Delete a File/Folder]
 
-U geeft het bestand en het nummer van de gewenste revisie op.
+Met deze actiemodule verwijdert u een bestand of map.
 
-De module retourneert de id van de versie en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+U geeft het bestand of de map op.
+
+De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -528,12 +498,8 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p> Selecteer of u het bestandspad wilt toewijzen of invoeren, of selecteer het bestand handmatig.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File Path] / [!UICONTROL File]</p> </td> 
-   <td> <p><strong>[!UICONTROL File Path]</strong> </p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p><strong>[!UICONTROL File]</strong> </p> <p>Selecteer het bestand in het menu.</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!UICONTROL Revision]</p> </td> 
-   <td> <p>Ga of kaart het revisieaantal van de revisie in u wilt herstellen.</p> </td> 
+   <td> <p>[!UICONTROL File or Folder Path] / [!UICONTROL File or Folder]</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL File/Folder Path]</p> <p>Voer het doelpad in of wijs dit toe aan het bestand of de map.</p> <p style="font-weight: bold;">[!UICONTROL File/Folder]</p> <p>Selecteer het bestand of de map in het menu.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -557,12 +523,12 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Zie <a href="#create-a-connection-to-dropbox" class="MCXref xref"> Verbinding maken met [!DNL Dropbox]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Dropbox] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Way of selecting files] </td> 
-   <td> <p>Selecteer of u het bestandspad wilt toewijzen of invoeren, of selecteer het bestand handmatig.</p> </td> 
+   <td>[!UICONTROL Way of selecting files / folders] </td> 
+   <td> <p>Selecteer of u het bestands- of mappad wilt toewijzen of invoeren, of selecteer het bestand of de map handmatig.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL File/Folder Path] / [!UICONTROL File/Folder]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File/Folder Path]</p> <p>Voer het doelpad in of wijs dit toe aan het bestand of de map.</p> <p style="font-weight: bold;">[!UICONTROL File/Folder]</p> <p>Selecteer het bestand of de map in het menu.</p> </td> 
+   <td> <p>[!UICONTROL File / Folder Path] /</p> </td> 
+   <td> <p style="font-weight: bold;">[!UICONTROL File/Folder Path]</p> <p>Voer het doelpad in of wijs dit toe aan het bestand of de map.</p> <p style="font-weight: bold;">[!UICONTROL File/Folder]</p> <p>Selecteer of u een bestand of map verplaatst, en vervolgens het bestand of de map.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL To Folder]</p> </td> 
@@ -607,22 +573,23 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Pad naar bestand/map/bestand/map</p> </td> 
-   <td> <p style="font-weight: bold;">Pad naar bestand/map</p> <p>Voer het doelpad in of wijs dit toe aan het bestand of de map.</p> <p style="font-weight: bold;">Bestand/map</p> <p>Selecteer het bestand of de map in het menu.</p> </td> 
+   <td> <p style="font-weight: bold;">Pad naar bestand/map</p> <p>Voer het doelpad in of wijs dit toe aan het bestand of de map.</p> <p style="font-weight: bold;">Bestand/map</p> <p>Selecteer of u een bestand of map verplaatst, en vervolgens het bestand of de map.</p> </td> 
   </tr> 
   <tr> 
    <td>Naam wijzigen </td> 
-   <td> <p>Voer de [!UICONTROL target name] in voor het bestand, inclusief de bestandsextensie.</p> </td> 
+   <td> <p>Voer de nieuwe naam voor het bestand in, inclusief de bestandsextensie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a File/Folder]
 
-Met deze actiemodule verwijdert u een bestand of map.
+#### [!UICONTROL Restore a File]
 
-U geeft het bestand of de map op.
+In deze actiemodule wordt een vorige versie van een bestand hersteld.
 
-De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+U geeft het bestand en het nummer van de gewenste revisie op.
+
+De module retourneert de id van de versie en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -640,10 +607,48 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL File Path] / [!UICONTROL File]</p> </td> 
-   <td> <p style="font-weight: bold;">[!UICONTROL File Path]</p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p style="font-weight: bold;">[!UICONTROL File]</p> <p>Selecteer het bestand in het menu.</p> </td> 
+   <td> <p><strong>[!UICONTROL File Path]</strong> </p> <p>Typ of wijs het doelpad naar het bestand toe.</p> <p><strong>[!UICONTROL File]</strong> </p> <p>Selecteer het bestand in het menu.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!UICONTROL Revision]</p> </td> 
+   <td> <p>Ga of kaart het revisieaantal van de revisie in u wilt herstellen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+#### [!UICONTROL Upload a File]
+
+Deze actiemodule uploadt een bestand naar een map.
+
+U geeft informatie op zoals de locatie van het bestand, het bestand dat u wilt uploaden en een optionele nieuwe naam voor het bestand.
+
+De module retourneert de id van het bestand en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#create-a-connection-to-dropbox" class="MCXref xref"> Verbinding maken met [!DNL Dropbox]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Dropbox] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder]</td> 
+   <td> <p> Selecteer de map van de [!DNL Dropbox] waarnaar u het bestand wilt uploaden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!UICONTROL Source File]</p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p><b>Opmerking:</b></p><p> De maximale grootte van het geüploade bestand is 150 MB.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Overwrite an existing file]</td> 
+   <td> <p> Schakel deze optie in om het bestaande bestand te vervangen door het nieuwe bestand. Als deze optie niet is ingeschakeld, wordt de naam van het geüploade bestand gewijzigd.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 
 ### Overige modules
 
@@ -663,7 +668,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL URL]</p> </td> 
-   <td> <p>Voer een pad in dat relatief is ten opzichte van het invoeren van een pad dat relatief is ten opzichte van <code>https://api.dropboxapi.com</code> . Bijvoorbeeld: <code>/2/files/list_folder</code></p> <p>Nota: Voor de lijst van beschikbare eindpunten, zie de <a href="https://www.dropbox.com/developers/documentation/http/documentation"> Dropbox API v2 Documentatie </a>.</p> </td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van het invoeren van een pad dat relatief is ten opzichte van <code>https://api.dropboxapi.com</code> . Bijvoorbeeld: <code>/2/files/list_folder</code></p>  </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Method]</p> </td> 
@@ -687,29 +692,30 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
->[!INFO]
->
->**Voorbeeld:** de volgende API vraag keert de eerste 10 dossiers van de [!DNL /Text files] omslag in uw [!DNL Dropbox] rekening terug:
->
->URL: `/2/files/list_folder`
->
->Lichaam:
-> 
->`{`
->
->`"path": "/Text files",`
->
->`"limit": 10,`
->
->`"recursive": false,`
->
->`"include_deleted": false`
->
->`}`
->
->Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > vermeldingen.
->
->In ons voorbeeld werden 10 tickets geretourneerd:
+>[!BEGINSHADEBOX]
+
+**Voorbeeld:**
+
+De volgende API-aanroep retourneert de eerste 10 bestanden in de map [!DNL /Text files] in uw [!DNL Dropbox] -account:
+
+URL: `/2/files/list_folder`
+
+Lichaam:
+
+```
+{
+"path": "/Text files",
+"limit": 10,
+"recursive": false,
+"include_deleted": false
+}
+```
+
+Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > vermeldingen.
+
+In ons voorbeeld werden 10 tickets teruggegeven.
+
+>[!ENDSHADEBOX]
 
 ## Algemene problemen
 
@@ -718,14 +724,14 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### Kan een bestand niet uploaden of bijwerken
 
-Er zijn verschillende situaties wanneer het uploaden of bijwerken van een bestand mislukt:
+Het uploaden of bijwerken van een bestand kan een van de volgende oorzaken hebben:
 
 * Het geüploade bestand is te groot en overschrijdt de maximaal toegestane bestandsgrootte voor uw [!DNL Dropbox] -abonnement. U hebt ook de volledige opslaglimiet van uw [!DNL Dropbox] -account gebruikt. U moet bestaande bestanden verwijderen van uw [!DNL Dropbox] -account of uw abonnement upgraden.
 * De eerder geselecteerde map waarnaar het bestand wordt geüpload, bestaat niet meer. Het scenario stopt en u moet de doelmap opnieuw selecteren.
 
 ### Afbeeldingen waarnaar via een gedeelde koppeling wordt verwezen, worden niet gerenderd
 
-De URL die wordt geretourneerd door [!UICONTROL Dropbox] > [!UICONTROL Create a shared link] , is niet rechtstreeks gekoppeld aan een afbeelding, maar aan een pagina [!DNL Dropbox] . Als u het downloaden van de afbeelding wilt forceren, vervangt u het navolgende `?dl=0` door `?dl=1` . Als u wilt dat de afbeelding wordt gerenderd (bijvoorbeeld in een webbrowser of in Facebook Messenger), voegt u `&raw=1` toe aan de URL.
+De URL die wordt geretourneerd door [!UICONTROL Dropbox] > [!UICONTROL Create a shared link] , is niet rechtstreeks gekoppeld aan een afbeelding, maar aan een pagina [!DNL Dropbox] . Als u het downloaden van de afbeelding wilt forceren, vervangt u het navolgende `?dl=0` door `?dl=1` . Als u de afbeelding wilt renderen (bijvoorbeeld in een webbrowser of in de Facebook Messenger), voegt u `&raw=1` toe aan de URL.
 
 Als u de directe of ruwe verbinding van uw beeld voor uw website of voor andere [!DNL Workfront Fusion] modules moet krijgen, moet u eerste gedeelde URL op de volgende manier wijzigen:
 
