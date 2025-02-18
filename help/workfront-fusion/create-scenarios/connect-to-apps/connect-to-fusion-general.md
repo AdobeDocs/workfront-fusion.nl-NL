@@ -4,9 +4,9 @@ description: Vele  [!DNL Adobe Workfront Fusion]  schakelaars vereisen geen doua
 author: Becky
 feature: Workfront Fusion
 exl-id: e47ab4d9-6612-4d9a-a024-da508a8bbfb2
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: ef1a96d9ef4c2c82eaf376c84188e3ed6ea7b2cf
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
@@ -72,6 +72,8 @@ Een verbinding maken binnen een module [!DNL Workfront Fusion] :
 
 1. Klik op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] om het deelvenster **[!UICONTROL Create a connection]** te openen.
 1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]** .
+1. Selecteer op het gebied van milieu of dit een productie- of niet-productieomgeving is. Deze informatie wordt weergegeven in het gebied Verbindingen van Fusion.
+1. Selecteer in het veld Type of dit een service of een persoonlijke account is. Deze informatie wordt weergegeven in het gebied Verbindingen van Fusion.
 1. (Voorwaardelijk) Als de toepassing geavanceerde verbindingsinstellingen nodig heeft, zoals een id, sleutel of [!UICONTROL secret] , voert u die gegevens in.
 
    Mogelijk moet u op **[!UICONTROL Show advanced settings]** klikken om de velden weer te geven waarin u dit soort informatie kunt invoeren.
