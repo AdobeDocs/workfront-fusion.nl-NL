@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 5df5cd2b-ad4c-4a02-9d0c-7cee35232f93
-source-git-commit: a0a53d5c5af0956635f5026bbf8f8ee681946d86
+source-git-commit: 46bb455ecc0820dc68468f9f810bd51074c224fa
 workflow-type: tm+mt
-source-wordcount: '4320'
+source-wordcount: '4370'
 ht-degree: 0%
 
 ---
@@ -872,7 +872,7 @@ Deze actiemodule retourneert kaarten die overeenkomen met de zoekquery.
 
 +++ **[!UICONTROL Watch cards]**
 
-Deze triggermodule wordt geactiveerd wanneer een nieuwe kaart wordt toegevoegd.
+Deze triggermodule start een scenario wanneer een nieuwe kaart wordt toegevoegd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -893,7 +893,7 @@ Deze triggermodule wordt geactiveerd wanneer een nieuwe kaart wordt toegevoegd.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Het maximumaantal kaarten [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -947,7 +947,7 @@ Deze actiemodule haalt informatie op over [!UICONTROL Trello] leden.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query] </td> 
-   <td> <p>Voer de volledige naam of gebruikersnaam in van de gebruiker die u wilt zoeken.</p> </td> 
+   <td> <p>Voer de naam of gebruikersnaam in van de gebruiker die u wilt zoeken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Partial] </td> 
@@ -955,7 +955,7 @@ Deze actiemodule haalt informatie op over [!UICONTROL Trello] leden.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned members]</td> 
-   <td> <p> Het maximumaantal leden [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -996,11 +996,11 @@ Deze actiemodule maakt een controlelijst op de geselecteerde kaart.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Position] </td> 
-   <td> <p>Selecteer of u de checklist aan de bovenkant of [!UICONTROL append the] checklist aan de bodem van de kaart wilt toevoegen.</p> </td> 
+   <td> <p>Selecteer of u de checklist aan de bovenkant wilt toevoegen of de controlelijst aan de bodem van de kaart wilt toevoegen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Enter checklist ID]</p> </td> 
-   <td> <p>Ga of kaart identiteitskaart van een broncontrolelijst in die u in nieuwe wilt kopiëren.</p> </td> 
+   <td> <p>Als u de controlelijst maakt door een bestaande controlelijst te kopiëren, voert u de id in van een broncontrolelijst die u naar de nieuwe wilt kopiëren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1021,7 +1021,7 @@ Deze actiemodule voegt een item toe aan een specifieke controlelijst.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter checklist ID]</td> 
-   <td> <p> Selecteer hoe u de id van de controlelijst wilt invoeren waar u een item wilt toevoegen.</p> 
+   <td> <p> Als u een nieuwe controlelijst maakt door een bestaande controlelijst te kopiëren, selecteert u hoe u de id van de controlelijst wilt invoeren waaraan u een item wilt toevoegen.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer in het veld <strong>[!UICONTROL Checklist ID]</strong> de id van de kaart in of wijs deze toe waar u een controlelijst wilt toevoegen.<br></p> </li> 
      <li> <p><strong>[!UICONTROL Select]</strong> </p> <p>Selecteer het bord met de kaart waaraan u een controlelijst wilt toevoegen, selecteer vervolgens de lijst met de kaart, selecteer vervolgens de kaart en selecteer vervolgens de controlelijst.</p> </li> 
@@ -1136,7 +1136,7 @@ Deze actiemodule voegt een opmerking toe aan een geselecteerde kaart.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comment] </td> 
-   <td> <p>Voer de opmerking in die u aan de geselecteerde kaart wilt toevoegen.</p> </td> 
+   <td> <p>Typ of wijs de opmerking toe die u aan de geselecteerde kaart wilt toevoegen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1180,7 +1180,7 @@ Deze actiemodule voegt een opmerking toe aan een geselecteerde kaart.
 
 +++ **[!UICONTROL Watch Comments]**
 
-Hiermee worden de details van opmerkingen opgehaald wanneer er een nieuwe opmerking op een opgegeven locatie staat.
+Deze triggermodule start een scenario wanneer een opmerking wordt toegevoegd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1203,7 +1203,7 @@ Hiermee worden de details van opmerkingen opgehaald wanneer er een nieuwe opmerk
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Het maximumaantal opmerkingen [!DNL Workfront Fusion] wordt tijdens één uitvoeringscyclus geretourneerd.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal commentaren in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1223,4 +1223,4 @@ Als u een kaart wilt bewerken of een nieuwe opmerking wilt maken, moet u de id v
 
 ### Id&#39;s van andere objecten zoeken in [!DNL Trello]
 
-ID&#39;s voor toetsenbord, lijst en opmerking kunnen alleen worden verkregen met behulp van triggers. Deze id&#39;s worden niet weergegeven op de [!DNL trello.com] -website.
+ID&#39;s voor toetsenbord, lijst en opmerking kunnen alleen worden verkregen met behulp van triggers. Deze id&#39;s worden niet weergegeven op de [!DNL `trello.com`] -website.
