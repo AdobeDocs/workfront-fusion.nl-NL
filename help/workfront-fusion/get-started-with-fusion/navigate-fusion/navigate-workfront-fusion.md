@@ -4,7 +4,7 @@ description: Wanneer u Fusion opent, hebt u vele opties voor acties. Dit artikel
 author: Becky
 feature: Workfront Fusion
 exl-id: 427ec131-d68d-4401-b620-998d3d5162da
-source-git-commit: 45775149d8e4e8c2c25b4ebf0b5392f56a04633c
+source-git-commit: 6817565ec2a6a06a26033bb51a080b619a0d211d
 workflow-type: tm+mt
 source-wordcount: '711'
 ht-degree: 0%
@@ -32,3 +32,4 @@ Dit artikel introduceert deze gebieden en biedt koppelingen naar meer informatie
 >[!NOTE]
 >
 >Alle gebieden onder de titel van het Team zijn eigendom van individuele teams. Als u de pagina wilt zien die bij een ander team hoort (zoals de pagina Scenario&#39;s van een ander team), klikt u op de vervolgkeuzelijst Team boven aan de pagina en selecteert u een ander team.
+
