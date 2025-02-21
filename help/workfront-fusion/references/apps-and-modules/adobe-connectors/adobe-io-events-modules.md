@@ -1,58 +1,70 @@
 ---
 title: Adobe I/O Events-modules
-description: Met de Adobe I/O Events modules, kunt u een scenario beginnen van de Fusie van Adobe Workfront dat op gebeurtenissen in uw toepassingen van de Adobe wordt gebaseerd.
+description: Met de Adobe I/O Events-modules kunt u een Adobe Workfront Fusion-scenario starten op basis van gebeurtenissen in uw Adobe-toepassingen.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: b2229f3e-a2a7-4b07-8ead-a37d193c2ec7
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 9cea5de748873720247db39161cea12c7e9c7186
 workflow-type: tm+mt
-source-wordcount: '876'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
 
 # Adobe I/O Events-modules
 
-Met de Adobe I/O Events modules, kunt u een scenario van de Fusie van Adobe Workfront beginnen dat op gebeurtenissen in de rekeningen en de diensten van de Adobe wordt gebaseerd die geen specifieke schakelaar van de Fusie van Workfront hebben.
+Met de Adobe I/O Events-modules kunt u een Adobe Workfront Fusion-scenario starten op basis van gebeurtenissen in Adobe-accounts en -services die geen speciale Workfront Fusion-connector hebben.
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td> 
-   <td> <p>Pro of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie*</td> 
-   <td> <p>Plan, werk</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td> <p>Workfront Fusion for Work Automation and Integration </p>  </td> 
+   <td>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>of</p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
-   <td>Uw organisatie moet Adobe Workfront Fusion en Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</td> 
-  </tr> 
+   <td>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
+   <p>of</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   </td> 
+  </tr>
  </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-&#42;&#42; voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
 Voordat u de Adobe I/O Events-connector kunt gebruiken, moet u ervoor zorgen dat aan de volgende voorwaarden wordt voldaan:
 
-* Je moet een actieve Adobe account hebben.
+* Je moet een actieve Adobe-account hebben.
 
-## API-informatie voor Adobe I/O Events
+## Adobe I/O Events API-informatie
 
 De Adobe I/O Events-connector gebruikt het volgende:
 
@@ -71,9 +83,9 @@ De Adobe I/O Events-connector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinding maken met Adobe I/O-gebeurtenissen
+## Verbinding maken met Adobe I/O Events
 
-Om een verbinding voor uw modules van de Gebeurtenissen van Adobe I/O tot stand te brengen:
+Verbinding maken voor uw Adobe I/O Events-modules:
 
 1. Klik naast het vak Verbinding op Toevoegen.
 
@@ -103,11 +115,11 @@ Om een verbinding voor uw modules van de Gebeurtenissen van Adobe I/O tot stand 
       </tr>
       <tr>
         <td role="rowheader">Client-id</td>
-        <td>Voer uw client-id voor de Adobe in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
+        <td>Voer uw Adobe-client-id in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
       </tr>
       <tr>
         <td role="rowheader">Clientgeheim</td>
-        <td>Voer uw Adobe Client Secret in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
+        <td>Voer uw Adobe-clientgeheim in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
       </tr>
       </tr>
         <tr>
@@ -120,7 +132,7 @@ Om een verbinding voor uw modules van de Gebeurtenissen van Adobe I/O tot stand 
       </tr>
       <tr>
         <td role="rowheader">IMS-organisatie-id</td>
-        <td>Voer uw organisatie-id voor de Adobe in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
+        <td>Voer je Adobe-organisatie-id in. Dit vindt u in de sectie Credentials details van de Adobe Developer Console</td>
       </tr>
         <tr>
         <td role="rowheader">Project-id</td>
@@ -135,7 +147,7 @@ Om een verbinding voor uw modules van de Gebeurtenissen van Adobe I/O tot stand 
 
 1. Klik **verdergaan** om de verbinding te bewaren en aan de module terug te keren.
 
-## Adobe I/O Events-modules en de bijbehorende velden
+## Adobe I/O Events-modules en hun velden
 
 Wanneer u [!DNL Adobe I/O Events] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe I/O Events] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 

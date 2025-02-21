@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion]  modules van HubSpot CRM laten u 
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 9cea5de748873720247db39161cea12c7e9c7186
 workflow-type: tm+mt
-source-wordcount: '5661'
+source-wordcount: '5530'
 ht-degree: 0%
 
 ---
@@ -17,42 +17,46 @@ Met de modules [!DNL Adobe Workfront Fusion] [!DNL HubSpot CRM] kunt u gebeurten
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -107,19 +111,17 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Forms](#forms)
 * [Sociale media (uitzending)](#social-media-broadcast)
 * [ Blogberichten ](#blog-posts)
-  <!--* [Workflows]-->
+  <!--* [Workflows]()-->
 * [ Abonnementen ](#subscriptions)
-  <!--* [Associations](#associations)-->
+  <!--* [Associations]()-->
 * [Overige](#other)
-
-+++**voorwerpen van CRM**
 
 ### CRM-objecten
 
-* [Zoeken naar CRM-objecten](#search-for-crm-objects)
-* [CRM-objecten controleren](#watch-crm-objects)
+<!--* [Search for CRM objects](#search-for-crm-objects)
+* [Watch CRM objects](#watch-crm-objects)-->
 
-#### [!UICONTROL Search for CRM Objects]
++++ **[!UICONTROL Search for CRM Objects]**
 
 Deze zoekmodule zoekt naar CRM-objecten op aangepaste eigenschappen of op query. Als u naar producten of lijnitems wilt zoeken, gebruikt u een speciale verbinding met een vereist aangepast bereik.
 
@@ -166,7 +168,9 @@ Deze zoekmodule zoekt naar CRM-objecten op aangepaste eigenschappen of op query.
  </tbody> 
 </table>
 
-#### CRM-objecten controleren
++++
+
++++ **de voorwerpen van CRM van het Horloge**
 
 Deze activeringsmodule start een scenario wanneer een CRM-object wordt gemaakt of bijgewerkt.
 
@@ -203,20 +207,18 @@ Deze activeringsmodule start een scenario wanneer een CRM-object wordt gemaakt o
 
 +++
 
-+++**Verslagen (Overeenkomsten, Contacten, en Bedrijven)**
-
 ### Records (Deals, Contacten, en Bedrijven)
 
-* [Een record maken](#create-a-record)
+<!--* [Create a Record](#create-a-record)
 * [[!UICONTROL Create a Record (Legacy)]](#create-a-record-legacy)
 * [[!UICONTROL Delete a Record]](#delete-a-record)
 * [[!UICONTROL Get a Record]](#get-a-record)
 * [[!UICONTROL Get a Record Property]](#get-a-record-property)
-* [Lijstrecords](#list-records)
+* [List Records](#list-records)
 * [[!UICONTROL Update a Record]](#update-a-record)
-* [[!UICONTROL Watch Records]](#watch-records)
+* [[!UICONTROL Watch Records]](#watch-records)-->
 
-#### Een record maken
++++ **creeer een verslag**
 
 Deze actiemodule leidt tot een contact, een bedrijf, of een overeenkomst.
 
@@ -239,7 +241,9 @@ Deze actiemodule leidt tot een contact, een bedrijf, of een overeenkomst.
  </tbody> 
 </table>
 
-#### [!UICONTROL Create a Record (Legacy)]
++++
+
++++ **[!UICONTROL Create a Record (Legacy)]**
 
 Deze actiemodule leidt tot contact, een bedrijf, of een overeenkomst.
 
@@ -262,7 +266,9 @@ Deze actiemodule leidt tot contact, een bedrijf, of een overeenkomst.
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Record]
++++
+
++++ **[!UICONTROL Delete a Record]**
 
 Deze actiemodule schrapt een contact, een bedrijf, of een overeenkomst.
 
@@ -285,7 +291,9 @@ Deze actiemodule schrapt een contact, een bedrijf, of een overeenkomst.
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a Record]
++++
+
++++ [!UICONTROL Get a Record]
 
 Deze actiemodule krijgt details van een contact, een bedrijf, of een overeenkomst.
 
@@ -321,7 +329,9 @@ Deze actiemodule krijgt details van een contact, een bedrijf, of een overeenkoms
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a Record Property]
++++
+
++++ **[!UICONTROL Get a Record Property]**
 
 Deze actiemodule krijgt meta-gegevens voor een specifiek verslagbezit door zijn (interne) naam.
 
@@ -348,7 +358,9 @@ Deze actiemodule krijgt meta-gegevens voor een specifiek verslagbezit door zijn 
  </tbody> 
 </table>
 
-#### Lijstrecords
++++
+
++++ **Verslagen van de Lijst**
 
 Deze onderzoeksmodule keert een lijst van contacten, bedrijven of overeenkomsten terug. De productie is beperkt tot 5000 contacten, 12.500 bedrijven, of 12.500 overeenkomsten.
 
@@ -371,12 +383,13 @@ Deze onderzoeksmodule keert een lijst van contacten, bedrijven of overeenkomsten
     <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr>
-
-</tbody> 
+  </tr> 
+ </tbody> 
 </table>
 
-#### [!UICONTROL Update a Record]
++++
+
++++ **[!UICONTROL Update a Record]**
 
 Deze actiemodule werkt een contact, een bedrijf, of een overeenkomst bij.
 
@@ -415,7 +428,9 @@ Deze actiemodule werkt een contact, een bedrijf, of een overeenkomst bij.
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch Records]
++++
+
++++ **[!UICONTROL Watch Records]**
 
 Deze trekkermodule begint een scenario wanneer een contact, bedrijf, of overeenkomst binnen de laatste 30 dagen is gewijzigd of gecreeerd. De uitvoer is beperkt tot 10.000 records.
 
@@ -448,12 +463,10 @@ Deze trekkermodule begint een scenario wanneer een contact, bedrijf, of overeenk
 
 +++
 
-+++**Contacten**
-
 ### Contactpersonen
 
-* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
-* [Een contactpersoon maken/bijwerken](#createupdate-a-contact)
+<!--* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
+* [Create/Update a contact](#createupdate-a-contact)
 * [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
 * [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
 * [[!UICONTROL List Contacts]](#list-contacts)
@@ -461,9 +474,9 @@ Deze trekkermodule begint een scenario wanneer een contact, bedrijf, of overeenk
 * [[!UICONTROL Merge contacts]](#merge-contacts)
 * [[!UICONTROL Remove a Contact from a List]](#remove-a-contact-from-a-list)
 * [[!UICONTROL Search for Contacts]](#search-for-contacts)
-* [Contacten controleren die aan een Lijst worden toegevoegd](#watch-contacts-added-to-a-list)
+* [Watch Contacts Added to a List](#watch-contacts-added-to-a-list)-->
 
-#### [!UICONTROL Add Contacts to a List]
++++ **[!UICONTROL Add Contacts to a List]**
 
 Deze module voegt contactverslagen toe die reeds in het systeem aan een contactlijst zijn gecreeerd.
 
@@ -490,7 +503,9 @@ Deze module voegt contactverslagen toe die reeds in het systeem aan een contactl
  </tbody> 
 </table>
 
-#### Een contactpersoon maken/bijwerken
++++
+
++++ **creeer/werk een Contact** bij
 
 Deze actiemodule leidt tot een contact als het niet in een portaal bestaat. Als het contact in het portaal bestaat, werkt deze module het met de verstrekte waarden bij.
 
@@ -509,7 +524,9 @@ Deze actiemodule leidt tot een contact als het niet in een portaal bestaat. Als 
  </tbody> 
 </table>
 
-#### [!UICONTROL Create/Update a Contact (Legacy)]
++++
+
++++ **[!UICONTROL Create/Update a Contact (Legacy)]**
 
 Creeert een contact als het niet in een portaal reeds bestaat, of werkt het met de recentste bezitswaarden bij als het in een portaal bestaat.
 
@@ -528,7 +545,9 @@ Creeert een contact als het niet in een portaal reeds bestaat, of werkt het met 
  </tbody> 
 </table>
 
-#### [!UICONTROL Create/Update a Group of Contacts]
++++
+
++++ **[!UICONTROL Create/Update a Group of Contacts]**
 
 Creeert een groep contacten of werkt hen bij als zij reeds bestaan. De prestaties zijn het best wanneer de partijgrootte tot 100 contacten of minder wordt beperkt. De veranderingen die door dit eindpunt worden aangebracht worden verwerkt asynchroon, zodat kan het verscheidene notulen voor veranderingen nemen die op contactverslagen moeten worden toegepast.
 
@@ -555,7 +574,9 @@ Creeert een groep contacten of werkt hen bij als zij reeds bestaan. De prestatie
  </tbody> 
 </table>
 
-#### [!UICONTROL List Contacts]
++++
+
++++ **[!UICONTROL List Contacts]**
 
 Keert alle contacten terug die in het portaal zijn gecreeerd. De output is beperkt tot 5000 contacten. Als u vorige of volgende contactpersonen wilt vermelden, gebruikt u de parameter [!UICONTROL advanced] om de lijst te verschuiven.
 
@@ -582,7 +603,9 @@ Keert alle contacten terug die in het portaal zijn gecreeerd. De output is beper
  </tbody> 
 </table>
 
-#### [!UICONTROL List Contacts of a Company]
++++
+
++++ **[!UICONTROL List Contacts of a Company]**
 
 Wint een lijst van contacten in het bedrijf terug. De output is beperkt tot 5000 contacten. Als u vorige of volgende contactpersonen wilt vermelden, gebruikt u de parameter [!UICONTROL advanced] om de lijst te verschuiven.
 
@@ -609,7 +632,9 @@ Wint een lijst van contacten in het bedrijf terug. De output is beperkt tot 5000
  </tbody> 
 </table>
 
-#### [!UICONTROL Merge contacts]
++++
+
++++ **[!UICONTROL Merge contacts]**
 
 In deze actiemodule worden contactpersonen samengevoegd
 
@@ -632,7 +657,9 @@ In deze actiemodule worden contactpersonen samengevoegd
  </tbody> 
 </table>
 
-#### [!UICONTROL Remove a Contact from a List]
++++
+
++++ **[!UICONTROL Remove a Contact from a List]**
 
 Hiermee verwijdert u een contactpersoon uit een lijst met contactpersonen.
 
@@ -659,7 +686,9 @@ Hiermee verwijdert u een contactpersoon uit een lijst met contactpersonen.
  </tbody> 
 </table>
 
-#### [!UICONTROL Search for Contacts]
++++
+
++++ **[!UICONTROL Search for Contacts]**
 
 Haalt een lijst met contactpersonen op met de zoekquery.
 
@@ -682,7 +711,9 @@ Haalt een lijst met contactpersonen op met de zoekquery.
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch contacts added to a list]
++++
+
++++ **[!UICONTROL Watch contacts added to a list]**
 
 Deze trekkermodule begint een scenario wanneer een nieuw contact aan een lijst wordt toegevoegd. Dit is alleen beschikbaar voor gebruikers met een betaalde marketingaccount.
 
@@ -711,14 +742,12 @@ Deze trekkermodule begint een scenario wanneer een nieuw contact aan een lijst w
 
 +++
 
-+++**Overeenkomsten**
-
 ### Overeenkomsten
 
-* [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
-* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)
+<!--* [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
+* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)-->
 
-#### [!UICONTROL Get a Deal's CRM Pipeline]
++++ **[!UICONTROL Get a Deal's CRM Pipeline]**
 
 Keert een specifieke overeenkomstenpijpleiding terug.
 
@@ -741,7 +770,9 @@ Keert een specifieke overeenkomstenpijpleiding terug.
  </tbody> 
 </table>
 
-#### [!UICONTROL List Deal/Ticket Pipelines]
++++
+
++++ **[!UICONTROL List Deal/Ticket Pipelines]**
 
 Retourneert alle deal- en kaartpijpleidingen voor een bepaald portaal.
 
@@ -762,11 +793,9 @@ Retourneert alle deal- en kaartpijpleidingen voor een bepaald portaal.
 
 +++
 
-+++**Bedrijven**
-
 ### Bedrijven
 
-#### [!UICONTROL Search for Companies by domain]
++++ **[!UICONTROL Search for Companies by domain]**
 
 Haalt een lijst op van bedrijven die op een nauwkeurige gelijke met het domeinbezit worden gebaseerd.
 
@@ -795,16 +824,14 @@ Haalt een lijst op van bedrijven die op een nauwkeurige gelijke met het domeinbe
 
 +++
 
-+++**Verzamelingen**
-
 ### Engages
 
-* [Een betrokkenheid koppelen aan een CRM-object](#associate-an-engagement-with-a-crm-object)
-* [Een betrokkenheid maken](#create-an-engagement)
-* [Een betrokkenheid verwijderen](#delete-an-engagement)
-* [Horlogefondsen](#watch-engagements)
+<!--* [Associate an Engagement with a CRM object](#associate-an-engagement-with-a-crm-object)
+* [Create an Engagement](#create-an-engagement)
+* [Delete an Engagement](#delete-an-engagement)
+* [Watch Engagements](#watch-engagements)-->
 
-#### Een betrokkenheid koppelen aan een CRM-object
++++ **associeer een Betrokkenheid met een voorwerp van CRM**
 
 Deze actiemodule associeert een overeenkomst met een contact, een bedrijf, of een overeenkomst.
 
@@ -831,7 +858,9 @@ Deze actiemodule associeert een overeenkomst met een contact, een bedrijf, of ee
  </tbody> 
 </table>
 
-#### Een betrokkenheid maken
++++
+
++++ **creeer een Betrokkenheid**
 
 Deze actiemodule leidt tot een overeenkomst (zoals een nota, een taak, of een activiteit) met een voorwerp van CRM in HubSpot. De overeenkomsten zijn om het even welke interactie met een contact dat in CRM zou moeten worden geregistreerd.
 
@@ -898,7 +927,7 @@ Deze actiemodule leidt tot een overeenkomst (zoals een nota, een taak, of een ac
  </tbody> 
 </table>
 
-##### E-mailmetagegevens
+#### E-mailmetagegevens
 
 <table style="table-layout:auto"> 
  <col> 
@@ -935,7 +964,7 @@ Deze actiemodule leidt tot een overeenkomst (zoals een nota, een taak, of een ac
   </tr> 
   <tr> 
    <td role="rowheader">HTML</td> 
-   <td>Als u een e-mailbericht met de indeling HTML wilt verzenden, voert u de tekst van het e-mailbericht in of wijst u deze toe, inclusief HTML-tags.</td> 
+   <td>Als u een e-mailbericht met HTML-indeling wilt verzenden, voert u de tekst van de e-mail in of wijst u deze toe, inclusief HTML-tags.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Tekst</td> 
@@ -944,7 +973,7 @@ Deze actiemodule leidt tot een overeenkomst (zoals een nota, een taak, of een ac
  </tbody> 
 </table>
 
-##### Metagegevens aanroepen
+#### Metagegevens aanroepen
 
 <table style="table-layout:auto"> 
  <col> 
@@ -986,7 +1015,7 @@ Deze actiemodule leidt tot een overeenkomst (zoals een nota, een taak, of een ac
  </tbody> 
 </table>
 
-##### Vergaderingsvelden
+#### Vergaderingsvelden
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1012,7 +1041,7 @@ Deze actiemodule leidt tot een overeenkomst (zoals een nota, een taak, of een ac
  </tbody> 
 </table>
 
-##### Taakvelden
+#### Taakvelden
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1038,7 +1067,9 @@ Deze actiemodule leidt tot een overeenkomst (zoals een nota, een taak, of een ac
  </tbody> 
 </table>
 
-#### Een betrokkenheid verwijderen
++++
+
++++ **Schrap een Betrokkenheid**
 
 Deze actiemodule verwijdert een betrokkenheid met de id.
 
@@ -1057,7 +1088,9 @@ Deze actiemodule verwijdert een betrokkenheid met de id.
  </tbody> 
 </table>
 
-#### Horlogefondsen
++++
+
++++ **van het 0} Horloge Afspraken**
 
 Deze triggermodule start een scenario wanneer een nieuwe betrokkenheid wordt gemaakt in een portal. Deze module retourneert alleen records die in de laatste 30 dagen zijn gemaakt, of de 10.000 records die het laatst zijn gemaakt.
 
@@ -1082,16 +1115,14 @@ Deze triggermodule start een scenario wanneer een nieuwe betrokkenheid wordt gem
 
 +++
 
-+++**Gebeurtenissen en Meldingen**
-
 ### Gebeurtenissen en meldingen
 
-* [Een tijdlijngebeurtenis maken/bijwerken](#create--update-a-timeline-event)
-* [Gebeurtenistypen van tijdlijn weergeven](#list-timeline-event-types)
-* [Kalendergebeurtenissen controleren](#watch-calendar-events)
-* [Controleberichten](#watch-notifications)
+<!--* [Create / Update a Timeline Event](#create--update-a-timeline-event)
+* [List Timeline Event Types](#list-timeline-event-types)
+* [Watch Calendar Events](#watch-calendar-events)
+* [Watch Notifications](#watch-notifications)-->
 
-#### Een tijdlijngebeurtenis maken/bijwerken
++++ **creeer/werk een Gebeurtenis van de Chronologie bij**
 
 In deze actiemodule wordt een tijdlijngebeurtenis gemaakt of bijgewerkt. Deze module kan slechts met een ontwikkelaarverbinding worden gebruikt die uw gebruikersherkenningsteken, uw sleutel van HubSpot API, identiteitskaart van de Cliënt, en Geheim van de Cliënt omvat.
 
@@ -1134,7 +1165,9 @@ In deze actiemodule wordt een tijdlijngebeurtenis gemaakt of bijgewerkt. Deze mo
  </tbody> 
 </table>
 
-#### Gebeurtenistypen van tijdlijn weergeven
++++
+
++++ **de Types van Gebeurtenis van de Chronologie van de Lijst**
 
 Deze zoekmodule retourneert een lijst met alle tijdlijngebeurtenissen voor een specifieke toepassing. Deze module kan slechts met een ontwikkelaarverbinding worden gebruikt die uw gebruikersherkenningsteken, uw sleutel van HubSpot API, identiteitskaart van de Cliënt, en Geheim van de Cliënt omvat.
 
@@ -1153,7 +1186,9 @@ Deze zoekmodule retourneert een lijst met alle tijdlijngebeurtenissen voor een s
  </tbody> 
 </table>
 
-#### Kalendergebeurtenissen controleren
++++
+
++++ **Gebeurtenissen van de Kalender van het Controle**
 
 Deze triggermodule start een scenario wanneer een nieuwe gebeurtenis aan een kalender wordt toegevoegd. Het omvat tot 500 taken in het interval tussen de begin en einddatum. Deze module kan slechts met een ontwikkelaarverbinding worden gebruikt die uw gebruikersherkenningsteken, uw sleutel van HubSpot API, identiteitskaart van de Cliënt, en Geheim van de Cliënt omvat.
 
@@ -1184,7 +1219,9 @@ Deze triggermodule start een scenario wanneer een nieuwe gebeurtenis aan een kal
  </tbody> 
 </table>
 
-#### Controleberichten
++++
+
++++ **de Meldingen van het Controle**
 
 Deze triggermodule start een scenario wanneer een nieuw bericht over wijzigingen wordt verzonden.  Het omvat tot 500 taken in het interval tussen de begin en einddatum. Deze module kan slechts met een ontwikkelaarverbinding worden gebruikt die uw gebruikersherkenningsteken, uw sleutel van HubSpot API, identiteitskaart van de Cliënt, en Geheim van de Cliënt omvat. U kunt slechts één webhaak URL per ontwikkelaarstoepassing in HubSpot hebben.
 
@@ -1215,19 +1252,17 @@ Om een webhaak voor deze module tot stand te brengen, **voeg** naast het WebHaak
 
 +++
 
-+++**Dossiers**
-
 ### Bestanden
 
-* [[!UICONTROL Create a Folder]](#create-a-folder)
-* [Een bestand verwijderen](#delete-a-file)
+<!--* [[!UICONTROL Create a Folder]](#create-a-folder)
+* [Delete a File](#delete-a-file)
 * [[!UICONTROL Delete a Folder]](#delete-a-folder)
-* [Bestanden weergeven](#list-files)
+* [List Files](#list-files)
 * [[!UICONTROL Move a File]](#move-a-file)
-* [Een bestand uploaden](#upload-a-file)
-* [Bestanden controleren](#watch-files)
+* [Upload a file](#upload-a-file)
+* [Watch files](#watch-files)-->
 
-#### [!UICONTROL Create a Folder]
++++ **[!UICONTROL Create a Folder]**
 
 Deze module maakt een map.
 
@@ -1250,7 +1285,9 @@ Deze module maakt een map.
  </tbody> 
 </table>
 
-#### Een bestand verwijderen
++++
+
++++ **Schrap een Dossier**
 
 In deze actiemodule worden een bestand en alle bijbehorende gegevens en miniaturen permanent verwijderd uit het bestandsbeheer.
 
@@ -1269,7 +1306,9 @@ In deze actiemodule worden een bestand en alle bijbehorende gegevens en miniatur
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a Folder]
++++
+
++++ **[!UICONTROL Delete a Folder]**
 
 Hiermee markeert u een map als verwijderd.
 
@@ -1288,7 +1327,9 @@ Hiermee markeert u een map als verwijderd.
  </tbody> 
 </table>
 
-#### Bestanden weergeven
++++
+
++++ **de Dossiers van de Lijst**
 
 Deze zoekmodule retourneert een lijst met bestanden die zijn opgeslagen in het bestandsbeheer.
 
@@ -1315,7 +1356,9 @@ Deze zoekmodule retourneert een lijst met bestanden die zijn opgeslagen in het b
  </tbody> 
 </table>
 
-#### [!UICONTROL Move a File]
++++
+
++++ **[!UICONTROL Move a File]**
 
 Hiermee verplaatst u een bestand naar een andere map.
 
@@ -1342,7 +1385,9 @@ Hiermee verplaatst u een bestand naar een andere map.
  </tbody> 
 </table>
 
-#### Een bestand uploaden
++++
+
++++ **upload een Dossier**
 
 Deze actiemodule uploadt een bestand naar het bestandsbeheer.
 
@@ -1373,7 +1418,9 @@ Deze actiemodule uploadt een bestand naar het bestandsbeheer.
  </tbody> 
 </table>
 
-### Bestanden controleren
++++
+
++++ **de Dossiers van het Controle**
 
 Deze triggermodule start een scenario wanneer een nieuw bestand wordt opgeslagen in het bestandsbeheer.
 
@@ -1402,15 +1449,13 @@ Deze triggermodule start een scenario wanneer een nieuw bestand wordt opgeslagen
 
 +++
 
-+++**Taken**
-
 ### Taken
 
-* [Een kalendertaak maken](#create-a-calendar-task)
-* [Een kalendertaak verwijderen](#create-a-calendar-task)
-* [Gebeurtenissen van controletaken](#watch-task-events)
+<!--* [Create a Calendar Task](#create-a-calendar-task)
+* [Delete a Calendar Task](#create-a-calendar-task)
+* [Watch Task Events](#watch-task-events)-->
 
-#### Een kalendertaak maken
++++ **creeer een taak van de Kalender**
 
 Deze actiemodule maakt een nieuwe taak voor een kalender. De verbinding die in deze module wordt gebruikt moet de geloofsbrieven van een gebruiker met een betaalde rekening van de Marketing gebruiken.
 
@@ -1453,7 +1498,9 @@ Deze actiemodule maakt een nieuwe taak voor een kalender. De verbinding die in d
  </tbody> 
 </table>
 
-#### Een kalendertaak verwijderen
++++
+
++++ **Schrap een Taak van de Kalender**
 
 Met deze actiemodule verwijdert u een kalendertaak. De verbinding die in deze module wordt gebruikt moet de geloofsbrieven van een gebruiker met een betaalde rekening van de Marketing gebruiken.
 
@@ -1472,7 +1519,9 @@ Met deze actiemodule verwijdert u een kalendertaak. De verbinding die in deze mo
  </tbody> 
 </table>
 
-#### Gebeurtenissen van controletaken
++++
+
++++ **Gebeurtenissen van de Taak van het Controle**
 
 Deze triggermodule start een scenario wanneer er een nieuwe taakgebeurtenis in een kalender plaatsvindt. De verbinding die in deze module wordt gebruikt moet de geloofsbrieven van een gebruiker met een betaalde rekening van de Marketing gebruiken. De module retourneert maximaal 500 gebeurtenissen.
 
@@ -1501,14 +1550,12 @@ Deze triggermodule start een scenario wanneer er een nieuwe taakgebeurtenis in e
 
 +++
 
-+++**Gebruikers**
-
 ### Gebruikers
 
-* [Eigenaar ophalen](#get-an-owner)
-* [Eigenaars weergeven](#list-owners)
+<!--* [Get an Owner](#get-an-owner)
+* [List Owners](#list-owners)-->
 
-#### Eigenaar ophalen
++++ **krijgt een Eigenaar**
 
 Deze actiemodule retourneert details van een eigenaar.
 
@@ -1527,7 +1574,9 @@ Deze actiemodule retourneert details van een eigenaar.
  </tbody> 
 </table>
 
-#### Eigenaars weergeven
++++
+
++++ **Eigenaars van de Lijst**
 
 Deze onderzoeksmodule keert een lijst van alle eigenaars in een rekening HubSpot terug.
 
@@ -1544,20 +1593,18 @@ Deze onderzoeksmodule keert een lijst van alle eigenaars in een rekening HubSpot
 
 +++
 
-+++**Tickets**
-
 ### Tickets
 
 <!--* [Create a Ticket]-->
-* [ Schrap een Ticket ](#delete-a-ticket)
-  <!--* [Create a Ticket]-->
-  <!--* [Create a Ticket]-->
-  <!--* [Create a Ticket]-->
-  <!--* [Create a Ticket]-->
+<!--* [Delete a Ticket](#delete-a-ticket)-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
+<!--* [Create a Ticket]-->
 
 <!-- Create a Ticket Need to find a working connection-->
 
-#### [!UICONTROL Delete a Ticket]
++++ **[!UICONTROL Delete a Ticket]**
 
 Verwijdert een bestaand ticket met zijn id.
 
@@ -1576,6 +1623,8 @@ Verwijdert een bestaand ticket met zijn id.
  </tbody> 
 </table>
 
++++
+
 <!-- Get a Ticket  Need to find a working connection-->
 
 <!-- List Tickets  Need to find a working connection-->
@@ -1584,18 +1633,14 @@ Verwijdert een bestaand ticket met zijn id.
 
 <!-- Watch Tickets Need to find a working connection-->
 
-+++
-
-+++**Forms**
-
 ### Forms
 
-* [Een bestand ophalen dat via formulier is geüpload](#get-a-file-uploaded-via-form)
-* [ Lijst Forms ](#list-forms)
-  <!--* [Submit Data to a Form]-->
-  <!--* [Watch Submissions for a Form]-->
+<!--* [Get a File Uploaded via Form](#get-a-file-uploaded-via-form)
+* [List Forms](#list-forms)-->
+<!--* [Submit Data to a Form]-->
+<!--* [Watch Submissions for a Form]-->
 
-#### Een bestand ophalen dat via formulier is geüpload
++++ **krijg een Dossier dat via Vorm** wordt geupload
 
 Deze actiemodule retourneert een bestand dat via een formulier is geüpload.
 
@@ -1614,7 +1659,9 @@ Deze actiemodule retourneert een bestand dat via een formulier is geüpload.
  </tbody> 
 </table>
 
-#### List Forms
++++
+
++++ **Lijst Forms**
 
 Deze actiemodule retourneert alle formulieren die zijn gemaakt in de account die is gekoppeld aan de verbinding die voor deze module wordt gebruikt.
 
@@ -1633,23 +1680,21 @@ Deze actiemodule retourneert alle formulieren die zijn gemaakt in de account die
  </tbody> 
 </table>
 
++++
+
 <!--#### Submit Data to a Form Need to find a working connection-->
 
 
 
 &lt;!—#### Controle verzenden voor een formulier—U moet een werkende verbinding zoeken>—>
 
-+++
-
-+++**Sociale Media (Uitzending)**
-
 ### Sociale media (uitzending)
 
-* [Een bericht voor uitzending annuleren](#cancel-a-broadcast-message)
-* [Een bericht voor uitzending maken](#create-a-broadcast-message)
-* [Uitzendberichten bekijken](#watch-broadcast-messages)
+<!--* [Cancel a Broadcast Message](#cancel-a-broadcast-message)
+* [Create a Broadcast Message](#create-a-broadcast-message)
+* [Watch Broadcast Messages](#watch-broadcast-messages)-->
 
-#### Een bericht voor uitzending annuleren
++++ **annuleert een Bericht van de Uitzending**
 
 Deze actiemodule annuleert een geplande uitzending, zoals een tweet of een Facebook-bericht.
 
@@ -1668,7 +1713,9 @@ Deze actiemodule annuleert een geplande uitzending, zoals een tweet of een Faceb
  </tbody> 
 </table>
 
-#### Een bericht voor uitzending maken
++++
+
++++ **creeer een Bericht van de Uitzending**
 
 Deze actiemodule maakt en publiceert onmiddellijk een bericht op het opgegeven sociale-mediakanaal.
 
@@ -1707,7 +1754,9 @@ Deze actiemodule maakt en publiceert onmiddellijk een bericht op het opgegeven s
  </tbody> 
 </table>
 
-#### Uitzendberichten bekijken
++++
+
++++ **de Berichten van de Uitzending van de Controle**
 
 Deze trekkermodule begint een scenario wanneer een bericht van HubSpot aan het gespecificeerde sociale media kanaal wordt gepost.
 
@@ -1740,22 +1789,20 @@ Deze trekkermodule begint een scenario wanneer een bericht van HubSpot aan het g
 
 +++
 
-+++**Blogberichten**
-
 ### Blogberichten
 
 <!--* [Create a Blog Post]-->
-* [ Schrap een Blogpost ](#delete-a-blog-post)
-  <!--* [List Blog Posts]-->
-* [ Publish/Unpublish a Blog Post ](#publish--unpublish-a-blog-post)
-  <!--* [Watch Blog Posts]-->
+<!--* [Delete a Blog Post](#delete-a-blog-post)-->
+<!--* [List Blog Posts]-->
+&lt;!—* [ publiceert/publiceert een Blogpost ](#publish--unpublish-a-blog-post)—>
+<!--* [Watch Blog Posts]-->
 
 <!--
 #### Create a Blog Post May need connection
 -->
 
 
-#### Blogberichten verwijderen
++++ **Schrap een Blogpost**
 
 Met deze actiemodule verwijdert u één blogbericht.
 
@@ -1774,11 +1821,13 @@ Met deze actiemodule verwijdert u één blogbericht.
  </tbody> 
 </table>
 
++++
+
 <!--#### List Blog Posts May need connection
 
 This search module retrieves posts from a HubSpot blog.-->
 
-#### Publish / Publicatie van blogberichten ongedaan maken
++++ **publiceer/unpublish een Blogbericht**
 
 Deze actiemodule plant of annuleert het publiceren van een blogbericht.
 
@@ -1801,9 +1850,9 @@ Deze actiemodule plant of annuleert het publiceren van een blogbericht.
  </tbody> 
 </table>
 
-<!--#### Watch Blog PostsMay need connection-->
-
 +++
+
+<!--#### Watch Blog PostsMay need connection-->
 
 <!--+++**Workflows**>
 
@@ -1818,14 +1867,12 @@ Deze actiemodule plant of annuleert het publiceren van een blogbericht.
 
 <!--+++-->
 
-+++**Abonnementen**
-
 ### Abonnementen
 
-* [E-mailabonnement bijwerken](#update-email-subscription)
-* [Tijdlijn abonnementen voor een portal controleren](#watch-subscriptions-timeline-for-a-portal)
+<!--* [Update Email Subscription](#update-email-subscription)
+* [Watch Subscriptions Timeline for a Portal](#watch-subscriptions-timeline-for-a-portal)-->
 
-#### E-mailabonnement bijwerken
++++ **Update E-mailabonnement**
 
 Deze actiemodule werkt een e-mailabonnement in HubSpot bij.
 
@@ -1856,7 +1903,9 @@ Deze actiemodule werkt een e-mailabonnement in HubSpot bij.
  </tbody> 
 </table>
 
-#### Tijdlijn abonnementen voor een portal controleren
++++
+
++++ **de Chronologie van Abonnementen van het Controle voor een Portaal**
 
 Deze triggermodule start een scenario wanneer een nieuw abonnement op de e-mailtijdlijn wordt toegevoegd aan de portal.
 
@@ -1909,11 +1958,9 @@ This action module associates two CRM objects.-->
 
 <!--+++-->
 
-+++**Andere**
-
 ### Overige
 
-#### [!UICONTROL Make an API Call]
++++ **[!UICONTROL Make an API Call]**
 
 Hiermee kunt u een aangepaste API-aanroep uitvoeren.
 
