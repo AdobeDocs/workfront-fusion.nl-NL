@@ -4,9 +4,9 @@ description: U kunt de Adobe Workfront Boards-connector gebruiken om uw processe
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: dcc5044d-8fdf-4a74-b664-e965e714ce92
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 7895e65dd040f28e6028c24928abe2829b58d9db
 workflow-type: tm+mt
-source-wordcount: '2439'
+source-wordcount: '2659'
 ht-degree: 0%
 
 ---
@@ -25,6 +25,8 @@ U kunt de modules van de Boards van Adobe Workfront gebruiken om verslagen te le
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -32,29 +34,29 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td>
-  <td> <p>Alle</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td>
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Current: [!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor verouderde licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie], [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering]</p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
@@ -62,6 +64,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
++++
 
 ## Vereisten
 
@@ -148,51 +151,6 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Tags](#tags)
 * [Opmerkingen](#comments)
 * [Overige](#other)
-
-<!--
-
-### Watch
-
-#### Watch events
-
-This trigger module starts a scenario when an event occurs on a board.
-
-1. Click **[!UICONTROL Add]** to the right of the **Webhook** box.
-
-1. Configure the webhook in the **[!UICONTROL Add a hook]** box that displays.
-
-   When you are configuring this module, the following fields display.
-
-   <table style="table-layout:auto"> 
-    <col> 
-    <col> 
-    <tbody> 
-     <tr> 
-      <td>[!UICONTROL Webhook name]</td> 
-      <td>(Optional) Type a new name for the webhook</td> 
-     </tr> 
-     <tr> 
-      <td>[!UICONTROL Connection]</td> 
-      <td> <p>You can use an existing Workfront connection to connect to Workfront Boards, or you can use a specific Workfront Boards connection. </p><p>For instructions about connecting your [!DNL Workfront] app to [!DNL Workfront Fusion], see <a href="#create-a-connection-to-workfront-boards" class="MCXref xref">Create a connection to Workfront Boards</a> in this article.</p> </td> 
-     </tr> 
-     <tr> 
-      <td>[!UICONTROL Object type]</td> 
-      <td>Select the type of [!DNL Workfront] object that you want the module to watch.</td> 
-     </tr> 
-     <tr> 
-      <td> <p>[!UICONTROL Objects to watch]</p> </td> 
-      <td> Select whether you want to trigger a scenario when there is a new object, an updated object, a new or updated object, or a deleted object. </td> 
-     </tr> 
-     <tr data-mc-conditions=""> 
-      <td>Exclude events made by this connection</td> 
-      <td>Enable this option to exclude events created or updated using the same connector that this trigger module uses. This can prevent situations where a scenario might trigger itself, causing it to repeat in an endless loop.</td> 
-     </tr> 
-    </tbody> 
-   </table>
-
-After the webhook is created, you can view the address of the endpoint that events are sent to.
-
--->
 
 ### Kaarten
 
@@ -327,6 +285,10 @@ Deze actiemodule wint informatie over een specifieke kaart terug.
    <td>[!UICONTROL Card ID]</td> 
    <td>Voer de id in van de kaart die u wilt lezen of wijs deze toe.<p>U kunt de kaart-id in de URL vinden wanneer u de kaart in Workfront bekijkt.</p></td> 
   </tr> 
+  <tr> 
+   <td>[!UICONTROL Card ID]</td> 
+   <td>Voer de id in van de kaart die de kaart bevat die u wilt lezen.<p>U kunt de kaart-id in de URL vinden wanneer u de kaart in Workfront bekijkt.</p></td> 
+  </tr> 
  </tbody> 
 </table>
 
@@ -355,8 +317,22 @@ Deze actiemodule werkt informatie bij voor een kaart die u opgeeft.
    <td>Voer een nieuwe naam voor de kaart in of wijs deze toe.</p></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Card ID]</td> 
+   <td>[!UICONTROL Description]</td> 
    <td>Voer een nieuwe beschrijving voor de kaart in of wijs deze toe.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Estimation]</td> 
+   <td>Voer een schatting in of geef een overzicht van de tijd die nodig is om deze kaart te voltooien.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Due date]</td> 
+   <td>Voer de vervaldatum voor deze kaart in of wijs deze toe.</p>
+   <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Status]</td> 
+   <td>Selecteer een nieuwe status voor de kaart.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -383,8 +359,8 @@ Deze actiemodule maakt een board in Workfront. U kunt opgeven welk type board u 
    <td>Voer een naam in voor het nieuwe bord of wijs een naam toe.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Type]</td> 
-   <td>Selecteer het type board dat u wilt maken.</td> 
+   <td>[!UICONTROL Template]</td> 
+   <td>Selecteer de sjabloon voor het type board dat u wilt maken.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -438,10 +414,6 @@ Deze actiemodule leidt tot een nieuwe kolom op de gespecificeerde raad.
    <td>[!UICONTROL Column name]</td> 
    <td>Voer een nieuwe naam voor de kolom in of wijs deze toe.</td> 
   </tr> 
-  <tr> 
-   <td>[!UICONTROL WIP Limit]</td> 
-   <td>Voer een nieuwe WIP-limiet voor de kolom in of wijs deze toe.</td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -488,12 +460,16 @@ Deze actiemodule werkt de naam of de grens van WIP van de gespecificeerde kolom 
    <td>[!UICONTROL Column Name]</td> 
    <td>Voer de naam in of wijs de naam toe van de kolom die u wilt ophalen.</td> 
   </tr> 
+  <tr> 
+   <td>[!UICONTROL WIP Limit]</td> 
+   <td>Voer een nieuwe WIP-limiet voor de kolom in of wijs deze toe.</td> 
+  </tr> 
  </tbody> 
 </table>
 
 ### Tags
 
-* [Een tag toevoegen aan een kaart](#add-card-tag)
+* [Een tag toevoegen aan een kaart](#add-a-tag-to-a-card)
 * [Een tag maken](#create-a-tag)
 
 #### Een tag toevoegen aan een kaart
@@ -638,5 +614,45 @@ Deze actiemodule maakt een aangepaste aanroep naar de Workfront Boards API.
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
   </tr> 
+ </tbody> 
+</table>
+
+
+#### Een aangepaste GraphQL API-aanroep maken
+
+Deze handelingsmodule doet een aangepaste GraphQL-aanvraag voor de Workfront Boards API.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Selecteer de methode voor deze vraag. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Operation name]</td> 
+   <td> <p>Voer een naam in voor deze bewerking. Dit kan het vinden en het zuiveren van de vraag gemakkelijker maken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Variables data source]</td> 
+   <td> <p>Selecteer of de variabelen uit een formulier of uit een verzameling moeten komen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Variables]</td> 
+   <td> <p>Voor elke variabele die u wilt toevoegen, <b> toevoegen punt </b> klikken en de sleutel en de waarde van de variabele ingaan.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
+   </tr> 
  </tbody> 
 </table>
