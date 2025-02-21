@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Google Forms]  modules staan u toe
 author: Becky
 feature: Workfront Fusion
 exl-id: dc017957-c0f8-4206-916f-21ccda346fb9
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ca8cee58b6586dbcd1a7ff7bffb0131b59dbb897
 workflow-type: tm+mt
-source-wordcount: '1185'
+source-wordcount: '1199'
 ht-degree: 0%
 
 ---
@@ -23,42 +23,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -81,7 +85,7 @@ De Google Forms-connector gebruikt het volgende:
 
 ## Een werkblad maken op basis van het formulier
 
-Als u wilt werken met formulierreacties, moet u het werkblad met de reacties maken.
+Als u met reacties op formulieren wilt werken, moet u eerst het werkblad met reacties maken.
 
 1. Open het formulier.
 1. Ga naar de tab **[!UICONTROL Responses]** .
@@ -151,8 +155,8 @@ Hiermee controleert u het formulier op nieuwe reacties.
 ### Handelingen
 
 * [[!UICONTROL Add a Response]](#add-a-response)
-* [[!UICONTROL Update a Response]](#update-a-response)
 * [[!UICONTROL Delete a Response]](#delete-a-response)
+* [[!UICONTROL Update a Response]](#update-a-response)
 
 #### [!UICONTROL Add a Response]
 
@@ -178,7 +182,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Values]</p> </td> 
-   <td> <p>Voer de gewenste waarden in voor de bladkolommen.</p> <p>Gebruik de volgende waarde voor de kolom [!UICONTROL Timestamp] in de juiste notatie:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
+   <td> <p>Voer de gewenste waarden in voor de bladkolommen. Kolommen zijn beschikbaar op basis van het blad.</p> <p>Gebruik voor de kolom [!UICONTROL Timestamp] de volgende waarde:</p><pre>formatDate(now;DD/MM/YYYY HH:mm;UTC)</pre> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Value input option]</td> 
@@ -195,6 +199,33 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <li> <p><strong>[!UICONTROL Overwrite]</strong> </p> <p>De nieuwe gegevens overschrijven bestaande gegevens in de gebieden waar ze zijn geschreven. Als u gegevens toevoegt aan het einde van het blad, worden nieuwe rijen of kolommen ingevoegd, zodat de gegevens kunnen worden geschreven.</p> </li> 
      <li> <p><strong>[!UICONTROL Insert rows]</strong></p> <p>De rijen worden opgenomen voor de nieuwe gegevens.</p> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a Response]
+
+In deze module wordt een geselecteerde reactie verwijderd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
+   <td> <p>Selecteer het werkblad dat het werkblad bevat waarop u een reactie wilt verwijderen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Sheet]</td> 
+   <td> <p> Selecteer het blad met de formulierreacties.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Row number]</p> </td> 
+   <td> <p>Voer het nummer in of wijs het nummer toe van de rij die u wilt verwijderen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -227,7 +258,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Values]</p> </td> 
-   <td> <p>Voer de nieuwe waarden in voor de gewenste kolommen.</p> </td> 
+   <td> <p>Voer de nieuwe waarden in voor de gewenste kolommen. Kolommen zijn beschikbaar op basis van het blad.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL Value input option]</td> 
@@ -236,33 +267,6 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p> De waarden die de gebruiker invoert, worden niet geparseerd en worden als zodanig opgeslagen. </p> </li> 
      <li> <p><strong>[!UICONTROL User entered]</strong></p> <p>De waarden worden geparseerd alsof de gebruiker hen in UI typt. Getallen blijven getallen, maar tekenreeksen kunnen in getallen, datums of andere indelingen worden omgezet volgens dezelfde regels die worden toegepast bij het invoeren van tekst in een cel via de gebruikersinterface van [!DNL Google Sheets] .</p> </li> 
     </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete a Response]
-
-In deze module wordt een geselecteerde reactie verwijderd.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding tot stand brengen - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Spreadsheet]</td> 
-   <td> <p>Selecteer het werkblad dat het werkblad bevat waarop u een reactie wilt verwijderen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Sheet]</td> 
-   <td> <p> Selecteer het blad met de formulierreacties.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Row number]</p> </td> 
-   <td> <p>Voer het nummer in of wijs het nummer toe van de rij die u wilt verwijderen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -348,7 +352,7 @@ Deze module voert een onderzoek uit gebruikend [[!DNL Google Charts Query Langua
    <td> <p> Selecteer het blad met de formulierreacties.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Filter]</td> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
    <td> <p>Definieer de zoekquery met de <a href="https://developers.google.com/chart/interactive/docs/querylanguage">[!DNL Google Charts Query Language]</a> .</p> <p>Voorbeeld: <code>select * where C = "John"</code> haalt alle waarden op voor de rij waarin de kolom C "John" is.</p> </td> 
   </tr> 
   <tr>
