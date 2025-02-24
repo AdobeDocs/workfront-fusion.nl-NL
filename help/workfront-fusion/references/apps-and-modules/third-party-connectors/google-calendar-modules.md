@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e514204-cd8e-4f30-bbbb-b8fbe48fc670
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: 160e503adeca5404e18fd0cba9f475fee8510a48
 workflow-type: tm+mt
-source-wordcount: '3315'
+source-wordcount: '2315'
 ht-degree: 0%
 
 ---
@@ -93,23 +93,17 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [Gebeurtenissen](#events)
-* [Kalenders](#calendars)
-* [Toegangscontrolevoorschriften](#access-control-rules)
-* [Iteratoren (afgekeurd)](#iterators-deprecated)
-* [Overige](#other)
 
-### Gebeurtenissen
+* [Triggers](#triggers)
+* [Handelingen](#actions)
+* [Iteratoren](#iterators)
 
-* [[!UICONTROL Watch events]](#watch-events)
-* [[!UICONTROL Search events]](#search-events)
-* [[!UICONTROL Get an event]](#get-an-event)
-* [[!UICONTROL Create an event]](#create-an-event)
-* [[!UICONTROL Update an event]](#update-an-event)
-* [[!UICONTROL Delete an event]](#delete-an-event)
+### Triggers
 
+* [Gebeurtenissen van Let](#watch-events)
+* [Controlegebeurtenissen (onmiddellijk)](#watch-events-instant)
 
-#### [!UICONTROL Watch events]
+#### Gebeurtenissen van Let
 
 Deze triggermodule voert een scenario uit wanneer een nieuwe gebeurtenis wordt toegevoegd, bijgewerkt, verwijderd, gestart of beëindigd in de kalender die u opgeeft. De module retourneert alle standaardvelden die zijn gekoppeld aan de record of records, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
@@ -128,8 +122,8 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Selecteer de kalender waarmee de module moet werken.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Watch Events]</td> 
-   <td> <p>Kies of u gebeurtenissen wilt bekijken op Aanmaakdatum, Bijgewerkte datum, Begindatum of Einddatum.</p> </td> 
+   <td>[!UICONTROL Watch]</td> 
+   <td> <p>Kies of u alleen nieuwe gebeurtenissen of nieuwe gebeurtenissen en alle wijzigingen wilt bekijken.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Show deleted events]</td> 
@@ -137,77 +131,45 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Query] </td> 
-   <td> <p>Voer de tekst in waarnaar u wilt zoeken.</p> </td> 
+   <td> <p>Voer de tekst in waarvoor u resultaten wilt retourneren.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Limit]</td> 
+   <td>[!UICONTROL Maximum number of events]</td> 
    <td> <p> Stel het maximum aantal gebeurtenissen in waarmee [!DNL Workfront Fusion] werkt tijdens één cyclus (het aantal herhalingen per uitgevoerde scenario). Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. [!DNL Workfront Fusion] heeft hier geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Search events]
+#### Controlegebeurtenissen (onmiddellijk)
 
-Deze actiemodule zoekt naar een gebeurtenis in de geselecteerde kalender.
-
-U geeft de kalender en de parameters van de zoekopdracht op.
-
-De module retourneert de id van de gebeurtenis en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
+Deze triggermodule gebruikt een mailhaak om een e-mailadres te maken dat u kunt gebruiken als een genodigde van gebeurtenissen. De module begint een scenario dat op gebeurtenissen wordt gebaseerd dat het e-mailadres wordt uitgenodigd aan.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></td> 
+   <td>[!UICONTROL Mailhook] </td> 
+   <td> <p>Selecteer de brievenhaak die u voor deze module wilt gebruiken. Om een nieuwe brievenbus tot stand te brengen, voegt de klik <b> </b> toe en gaat de verbinding in u voor de brievenhaak wilt gebruiken.</p><p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender die u wilt doorzoeken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Start date]</td> 
-   <td> <p> Voer de datum in waarop de gebeurtenis begint of wijs de datum toe. Deze module wint ook gebeurtenissen terug die vóór deze datum beginnen, die nog op de ingegaan begindatum voorkomen. </p> <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL End date]</td> 
-   <td> <p> Voer de datum in of wijs de datum toe waarop de gebeurtenis eindigt. </p> <p> Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Single events]</td> 
-   <td> <p> Schakel deze optie in om terugkerende gebeurtenissen als één instantie te behandelen. Als u bijvoorbeeld een wekelijkse vergadering hebt en deze optie is ingeschakeld, retourneert de module de vergadering van elke week als een aparte gebeurtenis.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Query]</td> 
-   <td> <p>Voer de zoekterm in of wijs deze toe waarop u wilt zoeken. </p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Order by]</td> 
-   <td> <p>Selecteer de volgorde van de gebeurtenissen die in het resultaat worden geretourneerd.</p> 
-    <ul> 
-     <li><strong>[!UICONTROL Start Time]</strong>: Volgorde op de begindatum en -tijd (oplopend). Dit is alleen beschikbaar bij het opvragen van afzonderlijke gebeurtenissen.</li> 
-     <li><strong>[!UICONTROL Updated Time]</strong>: Volgorde bij laatste wijzigingstijd (oplopend).</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Limit]</td> 
-   <td> <p>Stel het maximale aantal gebeurtenissen in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</p> </td> 
+   <td>[!UICONTROL Maximum number of events]</td> 
+   <td> <p> Stel het maximum aantal gebeurtenissen in waarmee [!DNL Workfront Fusion] werkt tijdens één cyclus (het aantal herhalingen per uitgevoerde scenario). Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. [!DNL Workfront Fusion] heeft hier geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Get an event]
+### Handelingen
 
-Deze actiemodule retourneert de metagegevens voor één gebeurtenis in de opgegeven kalender.
+* [Een kalender maken](#create-a-calendar)
+* [Een gebeurtenis maken](#create-an-event)
+* [Een gebeurtenis verwijderen](#delete-an-event)
+* [Gebeurtenissen ophalen](#get-events)
+* [Een gebeurtenis bijwerken](#update-an-event)
 
-U geeft de kalender en de gebeurtenis op.
+#### Een kalender maken
 
-De module retourneert de id van de gebeurtenis en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
+Deze actiemodule maakt een kalender die aan de account is gekoppeld.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -218,12 +180,12 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
-   <td> <p>Voer de id in of wijs deze toe aan de kalender met de gebeurtenis die u wilt ophalen.</p> </td> 
+   <td>[!UICONTROL Color] </td> 
+   <td> <p>Selecteer de kleur die u aan de kalender wilt koppelen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Event ID] </td> 
-   <td> <p>Voer de gebeurtenis-id in van de bestaande [!DNL Google Calendar] -gebeurtenis die u wilt ophalen.</p> </td> 
+   <td>[!UICONTROL Calendar name] </td> 
+   <td> <p>Voer een naam voor de nieuwe kalender in of wijs deze toe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -247,15 +209,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Create an Event]</td> 
-   <td> <p>Selecteer hoe u de gebeurtenis wilt maken.</p> 
-    <ul> 
-     <li><b>[!UICONTROL In Detail]</b><p>Met deze optie kunt u meer details over de gebeurtenis geven.<br></p></li> 
-     <li><b>[!UICONTROL Quickly]</b><p>U hoeft alleen de kalender te selecteren en een naam voor de gebeurtenis in te voeren. U kunt tijd en plaats details in de naam omvatten, en [!DNL Google Calendar] zal de gebeurtenis voor die plaats en tijd plannen.</p></li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
+   <td>[!UICONTROL Calendar]</td> 
    <td> <p>Selecteer de kalender waarin u de gebeurtenis wilt weergeven.</p> </td> 
   </tr> 
   <tr> 
@@ -272,11 +226,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Start date]</td> 
-   <td> <p>Als dit een alledaagse gebeurtenis is, voert u de begindatum van de gebeurtenis in. </p> <p>Voor een lijst van gesteunde datumformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Voer de begindatum en -tijd van de gebeurtenis in of wijs deze toe. </p> <p>Voor een lijst van gesteunde datumformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL End date]</td> 
-   <td> <p> Als dit een alledaagse gebeurtenis is, voert u de einddatum van de gebeurtenis in. </p> <p>Voor een lijst van gesteunde datumformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> Voer de einddatum en -tijd van de gebeurtenis in of wijs deze toe. </p> <p>Voor een lijst van gesteunde datumformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Description]</td> 
@@ -292,11 +246,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Reminder] </td> 
-   <td> <p>Herinnering toevoegen voor de gebeurtenis. Voor elke herinnering, selecteer de methode u met moet worden herinnerd en bepaalt hoe lang (in notulen) vóór de gebeurtenis u wilt worden herinnerd.</p> </td> 
+   <td> <p>Herinnering toevoegen voor de gebeurtenis. Voor elke herinnering wilt u toevoegen, <b> toevoegen punt </b>, dan selecteren de methode u met moet worden herinnerd en bepalen hoe lang (in notulen) vóór de gebeurtenis wilt worden herinnerd u.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Attendees]</td> 
-   <td>Voeg de deelnemers aan de gebeurtenis toe. Voer voor elke deelnemer de naam en het e-mailadres van de deelnemer in of wijs deze toe.</td> 
+   <td>Voeg de deelnemers aan de gebeurtenis toe. Voor elke aanwezige, klik <b> een aanwezige </b> toevoegen, dan ingaan of hun naam en e-mailadres in kaart brengen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Show me as]</td> 
@@ -326,6 +280,88 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
+#### [!UICONTROL Delete an event]
+
+Deze actiemodule verwijdert een gebeurtenis.
+
+U geeft de kalender en gebeurtenis-id op.
+
+De module retourneert de id van de gebeurtenis en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Calendar]</td> 
+   <td> <p>Selecteer de kalender die de gebeurtenis bevat die u wilt verwijderen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Event ID]</td> 
+   <td> <p> Voer de gebeurtenis-id in uit een eerder gemaakte [!DNL Google Calendar] -gebeurtenis die u wilt verwijderen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get events]
+
+Deze module haalt informatie over gebeurtenissen in de geselecteerde kalender op op basis van criteria u specificeert.
+
+U geeft de kalender en de parameters van de zoekopdracht op.
+
+De module retourneert de id van de gebeurtenissen en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Calendar]</td> 
+   <td> <p>Selecteer de kalender waarvoor u gebeurtenissen wilt ophalen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Start date]</td> 
+   <td> <p> Voer de datum in waarop de gebeurtenis begint of wijs de datum toe. Deze module wint ook gebeurtenissen terug die vóór deze datum beginnen, die nog op de ingegaan begindatum voorkomen. </p> <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL End date]</td> 
+   <td> <p> Voer de datum in of wijs de datum toe waarop de gebeurtenis eindigt. </p> <p> Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Single events]</td> 
+   <td> <p> Schakel deze optie in om terugkerende gebeurtenissen als één instantie te behandelen. Als u bijvoorbeeld een wekelijkse vergadering hebt en deze optie is ingeschakeld, retourneert de module de vergadering van elke week als een aparte gebeurtenis.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Query]</td> 
+   <td> <p>Voer de zoekterm in of wijs deze toe waarop u wilt zoeken. </p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Order by]</td> 
+   <td> <p>Selecteer de volgorde van de gebeurtenissen die in het resultaat worden geretourneerd.</p> 
+    <ul> 
+     <li><strong>[!UICONTROL Start Time]</strong>: Volgorde op de begindatum en -tijd (oplopend). Dit is alleen beschikbaar bij het opvragen van afzonderlijke gebeurtenissen.</li> 
+     <li><strong>[!UICONTROL Updated Time]</strong>: Volgorde bij laatste wijzigingstijd (oplopend).</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Mazimum number of returned events]</td> 
+   <td> <p>Stel het maximale aantal gebeurtenissen in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Update an event]
 
 Deze actiemodule wijzigt een bestaande gebeurtenis.
@@ -351,477 +387,106 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   <tr> 
    <td>[!UICONTROL Event ID] </td> 
    <td> <p>Voer de gebeurtenis-id in uit de eerder gemaakte gebeurtenis [!DNL Google Calendar] die u wilt bijwerken.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-U kunt de gebeurtenisinformatie bijwerken door nieuwe waarden in te voeren in het gewenste veld. Zie [[!UICONTROL Create an event]](#create-an-event) voor meer informatie over de afzonderlijke velden.
-
-#### [!UICONTROL Delete an event]
-
-Deze actiemodule verwijdert een gebeurtenis.
-
-U geeft de kalender en gebeurtenis-id op.
-
-De module retourneert de id van de gebeurtenis en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+  </tr>   <tr> 
+   <td>[!UICONTROL Event name]</td> 
+   <td> <p> Voer een naam voor de gebeurtenis in of wijs een naam toe. </p> <p>Opmerking: als u [!UICONTROL Quick add] in het veld [!UICONTROL Create an event] hebt geselecteerd, kunt u de datum en tijd van de gebeurtenis opnemen en maakt [!DNL Workfront Fusion] de gebeurtenis voor die datum en tijd. Voorbeeld: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code> . Als u [!UICONTROL Quick add] hebt geselecteerd maar geen datum en tijd in de naam van de gebeurtenis hebt opgenomen, wordt de gebeurtenis gemaakt op basis van de huidige tijd en duurt deze een uur.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender die de gebeurtenis bevat die u wilt verwijderen.</p> </td> 
+   <td>[!UICONTROL All day event]</td> 
+   <td>Schakel deze optie in als de gebeurtenis een alledaagse gebeurtenis is (geen begin- en eindtijd nodig).</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Event ID]</td> 
-   <td> <p> Voer de gebeurtenis-id in uit een eerder gemaakte [!DNL Google Calendar] -gebeurtenis die u wilt verwijderen.</p> </td> 
+   <td>[!UICONTROL Start date]</td> 
+   <td> <p>Voer de begindatum en -tijd van de gebeurtenis in of wijs deze toe. </p> <p>Voor een lijst van gesteunde datumformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Send notification about the event deletion]</td> 
-   <td>Selecteer of u meldingen over het verwijderen van gebeurtenissen wilt verzenden naar alle gasten, gasten die [!DNL Google Calendar] niet gebruiken of naar niemand.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Kalenders
-
-* [[!UICONTROL List calendars]](#list-calendars)
-* [[!UICONTROL Get a calendar]](#get-a-calendar)
-* [[!UICONTROL Create a calendar]](#create-a-calendar)
-* [[!UICONTROL Update a calendar]](#update-a-calendar)
-* [[!UICONTROL Delete a calendar]](#delete-a-calendar)
-* [[!UICONTROL Clear a calendar]](#clear-a-calendar)
-
-#### [!UICONTROL List calendars]
-
-Deze actiemodule keert de kalenders op de kalenderlijst van een gebruiker terug.
-
-De module retourneert de id van de kalender en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+   <td>[!UICONTROL End date]</td> 
+   <td> <p> Voer de einddatum en -tijd van de gebeurtenis in of wijs deze toe. </p> <p>Voor een lijst van gesteunde datumformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Minimum access role]</td> 
-   <td> <p>Selecteer de minimale toegangsrol voor de gebruiker. De module keert kalenders terug die op deze minimumtoegangsrol worden gebaseerd.</p> 
+   <td>[!UICONTROL Description]</td> 
+   <td>Voer een beschrijving van de gebeurtenis in of wijs deze toe. Dit veld ondersteunt HTML.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Location]</td> 
+   <td>Voer een locatie voor de gebeurtenis in het tekstformulier in.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Use the default reminder settings for this event]</td> 
+   <td>Schakel deze optie in als u de standaardinstellingen voor herinneringen wilt gebruiken. Als u een aangepaste herinnering instelt in het veld [!UICONTROL Reminder] , wordt deze waarde ingesteld op Nee.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Reminder] </td> 
+   <td> <p>Herinnering toevoegen voor de gebeurtenis. Voor elke herinnering wilt u toevoegen, <b> toevoegen punt </b>, dan selecteren de methode u met moet worden herinnerd en bepalen hoe lang (in notulen) vóór de gebeurtenis wilt worden herinnerd u.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Attendees]</td> 
+   <td>Voeg de deelnemers aan de gebeurtenis toe. Voor elke aanwezige, klik <b> een aanwezige </b> toevoegen, dan ingaan of hun naam en e-mailadres in kaart brengen.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Show me as]</td> 
+   <td>Selecteer of u wilt dat mensen die uw kalender bekijken u als Bezig of Beschikbaar tijdens deze gebeurtenis zien.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Visibility] </td> 
+   <td> <p>Selecteer de zichtbaarheid van deze gebeurtenis. </p> 
     <ul> 
-     <li><strong>[!UICONTROL Free Busy Reader]</strong>: De gebruiker kan vrije/bezige informatie lezen. </li> 
-     <li><strong>[!UICONTROL Owner]</strong>: De gebruiker kan gebeurtenissen lezen en wijzigen en heeft toegang tot besturingslijsten. </li> 
-     <li><strong>[!UICONTROL Reader]</strong>: De gebruiker kan gebeurtenissen lezen die niet van het type private zijn. </li> 
-     <li><strong>[!UICONTROL Writer]</strong>: De gebruiker kan gebeurtenissen lezen en wijzigen.</li> 
+     <li> <p><b>[!UICONTROL Default]</b></p> <p>De gebeurtenis heeft de zichtbaarheid die u hebt ingesteld in uw kalenderinstellingen.</p> </li> 
+     <li> <p><b>[!UICONTROL Public]</b></p> <p>Iedereen met wie de kalender wordt gedeeld kan deze gebeurtenis zien.</p> </li> 
+     <li> <p><b>[!UICONTROL Private]</b></p> <p>Alleen deelnemers kunnen deze gebeurtenis zien.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Show hidden calendars]</td> 
-   <td>Schakel deze optie in om verborgen kalenders op te nemen in de lijst die de module retourneert.</td> 
+   <td>[!UICONTROL Send notification about the event creation]</td> 
+   <td> <p>Geef op of u meldingen over het maken van een nieuwe gebeurtenis wilt verzenden naar alle gasten, niet- [!DNL Google Calendar] gasten of naar niemand.</p> <p>Tip: we raden u aan de optie [!UICONTROL None] alleen te gebruiken voor gevallen waarin migratie wordt gebruikt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Stel het maximale aantal kalenders in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</td> 
+   <td>[!UICONTROL Guests can modify the event]</td> 
+   <td> <p>Schakel deze optie in als u gasten in staat wilt stellen deze gebeurtenis te wijzigen.</p> </td> 
   </tr> 
- </tbody> 
+  <tr> 
+   <td>[!UICONTROL Recurrence]</td> 
+   <td>Voeg terugkerende regels toe die u op deze gebeurtenis wilt toepassen. Elke regel vereist een lijst met [!UICONTROL RRULE]-, [!UICONTROL EXRULE] -, [!UICONTROL RDATE] - en [!UICONTROL EXDATE] -regels voor een terugkerende gebeurtenis. [!UICONTROL DTSTART] en [!UICONTROL DTEND] regels zijn niet toegestaan in dit veld. De begin- en eindtijd van gebeurtenissen worden opgegeven in de begin- en eindvelden. Dit veld wordt weggelaten voor enkele gebeurtenissen of voor terugkerende gebeurtenissen. Voor meer informatie, zie <a href="https://tools.ietf.org/html/rfc5545#section-3.8.5"> RFC5545 </a>.</td> 
+  </tr>
+
+</tbody> 
 </table>
 
-#### [!UICONTROL Get a calendar]
+### Iteratoren
 
-Deze actiemodule haalt een kalender op.
+#### Bijlagen herhalen
 
-U geeft de id op van de kalender die u wilt ophalen.
-
-De module retourneert de id van de record en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
+Deze actiemodules doorlopen gehechtheid aan een gebeurtenis, en output elke gehechtheid in een afzonderlijke bundel.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender die u wilt ophalen.</p> </td> 
+   <td>[!UICONTROL Source module] </td> 
+   <td> Selecteer de module in dit scenario die de gebeurtenis uitvoert die de gehechtheid bevat die u wilt herhalen. </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Create a calendar]
+#### Deelnemers itereren
 
-Deze actiemodule maakt een nieuwe kalender.
-
-U geeft een naam op voor de kalender.
-
-De module retourneert de id van de kalender en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
+Deze actiemodules doorlopen de deelnemers voor een gebeurtenis en voeren elke deelnemer uit in een aparte bundel.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendar name]</td> 
-   <td> <p> Voer een naam in voor de nieuwe kalender.</p> </td> 
+   <td>[!UICONTROL Source module] </td> 
+   <td> Selecteer in dit scenario de module die de gebeurtenis uitvoert die de deelnemers bevat die u wilt herhalen. </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Update a calendar]
 
-Deze actiemodule werkt een kalender bij.
 
-U geeft de id op van de kalender die u wilt bijwerken.
 
-De module retourneert de id van de kalender en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender die u wilt bijwerken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendar name]</td> 
-   <td> <p> Voer een nieuwe naam in voor de kalender.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete a calendar]
-
-Met deze actiemodule verwijdert u een kalender.
-
-U geeft de id op van de kalender die u wilt verwijderen.
-
-De module retourneert de id van de kalender en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Calendar ID]</td> 
-   <td> <p>Voer de id in van de kalender die u wilt verwijderen of wijs deze toe.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Clear a calendar]
-
-Deze actiemodule verwijdert alle gebeurtenissen uit de primaire kalender van een account.
-
-U geeft de verbinding op die verbinding maakt met de account die de kalender bevat die u wilt wissen.
-
-De module retourneert de id van de kalender en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Toegangscontrolevoorschriften
-
-* [[!UICONTROL List access control rules]](#list-access-control-rules)
-* [[!UICONTROL Get an access control rule]](#get-an-access-control-rule)
-* [[!UICONTROL Create an access control rule]](#create-an-access-control-rule)
-* [[!UICONTROL Update an access control rule]](#update-an-access-control-rule)
-* [[!UICONTROL Delete an access control rule]](#delete-an-access-control-rule)
-
-#### [!UICONTROL List access control rules]
-
-Deze actiemodule keert de regels in de toegangsbeheerlijst op een kalender terug.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender die de toegangsbeheerregels bevat die u wilt terugwinnen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Stel het maximale aantal resultaten in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get an access control rule]
-
-Deze actiemodule keert de meta-gegevens van een toegangsbeheerregel terug.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender die de toegangsbeheerregel bevat die u wilt terugwinnen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Access control rule ID]</td> 
-   <td>Selecteer de toegangsbeheerregel u wilt terugwinnen.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Create an access control rule]
-
-Deze actiemodule leidt tot een nieuwe toegangsbeheerregel.
-
-U geeft een naam op voor de kalender.
-
-De module keert identiteitskaart van de toegangsbeheerregel en om het even welke bijbehorende gebieden, samen met om het even welke douanegebieden en waarden terug die de verbinding toegang heeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender waar u een toegangsbeheerregel wilt creëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Role]</td> 
-   <td> <p>Selecteer de rol om aan de toegangsregel toe te wijzen. </p> 
-    <ul> 
-     <li><strong>[!UICONTROL Free Busy Reader]</strong>: De gebruiker kan vrije/bezige informatie lezen. </li> 
-     <li><strong>[!UICONTROL Owner]</strong>: De gebruiker kan gebeurtenissen lezen en wijzigen en heeft toegang tot besturingslijsten. </li> 
-     <li><strong>[!UICONTROL Reader]</strong>: De gebruiker kan gebeurtenissen lezen die niet van het type private zijn. </li> 
-     <li><strong>[!UICONTROL Writer]</strong>: De gebruiker kan gebeurtenissen lezen en wijzigen.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Type]</td> 
-   <td> <p>Selecteer het type bereik. </p> 
-    <ul> 
-     <li><strong>[!UICONTROL Default]</strong>: De publieke reikwijdte. Dit is de standaardwaarde. </li> 
-     <li><strong>[!UICONTROL User]</strong>: Beperkt het bereik tot één gebruiker. </li> 
-     <li><strong>[!UICONTROL Group]</strong>: Beperkt het bereik tot een groep. </li> 
-     <li><strong>[!UICONTROL Domain]</strong>: Beperkt het bereik tot een domein. </li> 
-    </ul> <p>Opmerking: de machtigingen die aan [!UICONTROL Default] of het openbare bereik zijn verleend, gelden voor alle gebruikers, al dan niet geverifieerd.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Value]</td> 
-   <td>Voer het e-mailadres van een gebruiker of groep in of de naam van een domein, afhankelijk van het bereiktype.</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Send notifications]</td> 
-   <td> <p>Schakel deze optie in om meldingen over de toegangswijziging te verzenden. </p> <p>Opmerking: er zijn geen meldingen over het verwijderen van toegang. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Update an access control rule]
-
-Deze actiemodule werkt een toegangsbeheerregel bij.
-
-U geeft een naam op voor de kalender.
-
-De module keert identiteitskaart van de toegangsbeheerregel en om het even welke bijbehorende gebieden, samen met om het even welke douanegebieden en waarden terug die de verbinding toegang heeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer de kalender die de toegangsbeheerregel bevat u wilt bijwerken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Access control rule ID]</td> 
-   <td>Selecteer de toegangsbeheerregel u wilt bijwerken.</td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Role]</td> 
-   <td> <p>Selecteer de rol om aan de toegangsregel toe te wijzen. </p> 
-    <ul> 
-     <li><strong>[!UICONTROL None]</strong>: Deze rol biedt geen toegang.</li> 
-     <li><strong>[!UICONTROL Free Busy Reader]</strong>: De gebruiker kan vrije/bezige informatie lezen. </li> 
-     <li><strong>[!UICONTROL Owner]</strong>: De gebruiker kan gebeurtenissen lezen en wijzigen en heeft toegang tot besturingslijsten. </li> 
-     <li><strong>[!UICONTROL Reader]</strong>: De gebruiker kan gebeurtenissen lezen die niet van het type private zijn. </li> 
-     <li><strong>[!UICONTROL Writer]</strong>: De gebruiker kan gebeurtenissen lezen en wijzigen.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Send notifications]</td> 
-   <td> <p>Schakel deze optie in om meldingen over de toegangswijziging te verzenden. </p> <p>Opmerking: er zijn geen meldingen over het verwijderen van toegang. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete an access control rule]
-
-Deze actiemodule schrapt een toegangsbeheerregel.
-
-U geeft een naam op voor de kalender.
-
-De module keert identiteitskaart van de toegangsbeheerregel en om het even welke bijbehorende gebieden, samen met om het even welke douanegebieden en waarden terug die de verbinding toegang heeft. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendar ID]</td> 
-   <td> <p>Selecteer of wijs identiteitskaart van de kalender toe die de toegangsbeheerregel bevat u wilt schrappen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Access control rule ID]</td> 
-   <td>Selecteer of wijs identiteitskaart van de toegangsbeheerregel toe u wilt schrappen.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-### Iteratoren (afgekeurd)
-
-De modules [!UICONTROL iterate attachments] en [!UICONTROL iterate attendees] zijn vervangen. Gebruik de module [!UICONTROL Flow Control] > [!UICONTROL Iterator] om bijlagen of deelnemers te doorlopen. Voor meer informatie, zie {de module van de Teller 0} ](/help/workfront-fusion/references/modules/iterator-module.md)[
-
-### Overige
-
-* [[!UICONTROL Make an API Call]](#make-an-api-call)
-* [[!UICONTROL Get Free/Busy Information]](#get-freebusy-information)
-
-#### [!UICONTROL Make an API Call]
-
-In deze module kunt u een aangepaste API-aanroep uitvoeren.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
-   <td>Voer een pad in dat relatief is ten opzichte van <code>https://www.googleapis.com/calendar</code> . Voorbeeld: <code>/v3/users/me/calendarList</code></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object. Bijvoorbeeld <code>{"Content-type":"application/json"}</code> . [!DNL Workfront Fusion] voegt de machtigingsheaders voor u toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:   <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>">  
-      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get Free/Busy Information]
-
-Deze actiemodule keert vrije en bezige informatie voor een reeks kalenders terug.
-
-De module retourneert de id van de kalender en alle bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Minimum time]</td> 
-   <td> <p> Ga het begin van het interval in dat u informatie voor wilt terugwinnen.</p> <p> Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Maximum time]</td> 
-   <td> <p> Ga het eind van het interval in dat u informatie voor wilt terugwinnen. </p> <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Calendars]</td> 
-   <td> <p>Voor elke kalender die u informatie van wilt terugwinnen, <strong> toevoegen </strong> en ingaan of kaart identiteitskaart van de Kalender.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ## Een scenario activeren vóór een gebeurtenis
 
