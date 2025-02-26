@@ -4,9 +4,9 @@ description: Met de Adobe Workfront Fusion Google Slides-modules kunt u presenta
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 6f5f97b9-b06a-4336-b349-ee9e2606d4bf
-source-git-commit: 5b88faa7fc3d501e543c1791eac02cbf2a690382
+source-git-commit: c9c2957aad4c885a622a80b9f25303517db0c506
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1552'
 ht-degree: 0%
 
 ---
@@ -102,18 +102,18 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### Presentatie
 
-* [[!UICONTROL Watch Presentations]](#watch-presentations)
-* [[!UICONTROL List Presentations]](#list-presentations)
-* [[!UICONTROL Get a Presentation]](#get-a-presentation)
-* [[!UICONTROL Get a Page/Thumbnail]](#get-a-pagethumbnail)
-* [[!UICONTROL Create a Presentation From a Template]](#create-a-presentation-from-a-template)
-* [[!UICONTROL Upload an Image To a Presentation]](#upload-an-image-to-a-presentation)
-* [[!UICONTROL Refresh a Chart]](#refresh-a-chart)
 * [[!UICONTROL Add/Delete a Slide]](#adddelete-a-slide)
+* [[!UICONTROL Create a Presentation From a Template]](#create-a-presentation-from-a-template)
+* [[!UICONTROL Get a Page/Thumbnail]](#get-a-pagethumbnail)
+* [[!UICONTROL Get a Presentation]](#get-a-presentation)
+* [[!UICONTROL List Presentations]](#list-presentations)
+* [[!UICONTROL Refresh a Chart]](#refresh-a-chart)
+* [[!UICONTROL Upload an Image To a Presentation]](#upload-an-image-to-a-presentation)
+* [[!UICONTROL Watch Presentations]](#watch-presentations)
 
-#### [!UICONTROL Watch Presentations]
+#### [!UICONTROL Add/Delete a Slide]
 
-Triggers wanneer een nieuwe presentatie wordt gecreeerd of bijgewerkt.
+In deze actiemodule wordt een dia gemaakt of wordt een bestaande dia uit de opgegeven presentatie verwijderd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -124,110 +124,48 @@ Triggers wanneer een nieuwe presentatie wordt gecreeerd of bijgewerkt.
    <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Watch] </td> 
-   <td> <p>Selecteer de optie om de presentaties te bekijken:</p> 
+   <td role="rowheader">[!UICONTROL Select the method]</td> 
+   <td> <p>Kies of u een nieuwe dia wilt toevoegen of een dia wilt verwijderen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Enter a Slide ID]</td> 
+   <td> <p>Als u een dia verwijdert, selecteert u of u de dia-id handmatig wilt invoeren of de dia in een lijst wilt selecteren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Presentation ID]</td> 
+   <td> <p>Selecteer de presentatie of wijs de presentatie-id van de presentatie toe waarvoor u een dia wilt toevoegen of verwijderen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!DNL Slide Object ID]</td> 
+   <td> <p>Als u een dia verwijdert en de dia handmatig wilt invoeren, voert u de dia-id in of wijst u deze toe. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Predefined layout type]</td> 
+   <td> <p> Selecteer de vooraf gedefinieerde dialay-out waarvan u de toegevoegde dia wilt gebruiken. Geef waarden op voor aanvullende velden (zoals [!UICONTROL Title] ).</p> 
     <ul> 
-     <li> <p>[!UICONTROL Created Date]</p> </li> 
-     <li> <p>[!UICONTROL Modified Date]</p> </li> 
-    </ul> </td> 
+     <li>[!UICONTROL Blank layout, with no placeholders]</li> 
+     <li>[!UICONTROL Layout with a caption at the bottom]</li> 
+     <li>[!UICONTROL Layout with a title and subtitle]</li> 
+     <li>[!UICONTROL Layout with a title and body]</li> 
+     <li>[!UICONTROL Layout with a title and two columns]</li> 
+     <li>[!UICONTROL Layout with only a title]</li> 
+     <li>[!UICONTROL Layout with a section title]</li> 
+     <li>[!UICONTROL Layout with a title and subtitle on one side and description on the other]</li> 
+     <li>[!UICONTROL Layout with one title and one body, arranged in a single column]</li> 
+     <li>[!UICONTROL Layout with a main point]</li> 
+     <li>[!DNL Layout with a big number heading]</li> 
+    </ul> <p>Dit veld is beschikbaar als u een dia wilt toevoegen.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Het maximumaantal presentaties dat Workfront Fusion mag retourneren tijdens de uitvoeringscyclus van één scenario.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL List Presentations]
-
-Hiermee wordt een lijst met alle presentaties opgehaald.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose a drive location]</td> 
-   <td> <p>Selecteer de locatie van de [!DNL Google Drive] presentaties die u wilt weergeven:</p> 
-    <ul> 
-     <li>[!UICONTROL My Drive]</li> 
-     <li>[!UICONTROL Shared With Me]</li> 
-     <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder ID]</td> 
-   <td> <p>Kies de maplocatie van de presentaties die u wilt weergeven.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Het maximumaantal presentaties [!DNL Workfront Fusion] moet worden geretourneerd tijdens één cyclus waarin het scenario wordt uitgevoerd.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a Presentation]
-
-Hiermee wordt de laatste versie van een opgegeven presentatie opgehaald.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Selecteer de locatie van de [!DNL Google Drive] presentaties die u wilt weergeven:</p> 
-    <ul> 
-     <li>[!UICONTROL My Drive]</li> 
-     <li>[!UICONTROL Shared With Me]</li> 
-     <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Presentation ID]</td> 
-   <td> <p> Selecteer de presentatie die u wilt ophalen.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a Page/Thumbnail]
-
-Hiermee wordt de laatste versie van de opgegeven pagina of van de miniatuur van een pagina in de presentatie opgehaald.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Presentation ID]</td> 
-   <td> <p> Selecteer de presentatie-id die u wilt ophalen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Page Object ID]</td> 
-   <td> <p> Selecteer de dia waarvoor u de details van het paginaobject wilt weergeven.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Show Page Thumbnail]</td> 
-   <td> <p> Schakel het selectievakje in als u de paginaminiatuurgegevens wilt weergeven.</p> </td> 
+   <td role="rowheader">[!DNL Content]</td> 
+   <td> <p>Voer de tekstinhoud voor de dia in of wijs deze toe. De velden zijn beschikbaar op basis van de geselecteerde sjabloon.</p> <p>Dit veld is beschikbaar als u een dia wilt toevoegen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Create a Presentation From a Template]
 
-Hiermee maakt u een nieuwe presentatie door alle tags, zoals `{{Name}}` en `{{Email}}` , in een sjabloon te vervangen door de verschafte gegevens.
+Met deze actiemodule maakt u een nieuwe presentatie door een presentatie te kopiëren en alle tags, zoals `{{Name}}` `{{Email}}` in te vullen met de verschafte gegevens.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -264,36 +202,163 @@ Hiermee maakt u een nieuwe presentatie door alle tags, zoals `{{Name}}` en `{{Em
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presentation ID]</td> 
-   <td> <p> Selecteer de presentatie-id van de presentatie die u als sjabloon wilt gebruiken.</p> </td> 
+   <td> <p> Selecteer de presentatie of voer de presentatie-id in of wijs deze toe aan de presentatie die u als sjabloon wilt gebruiken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Values] </td> 
    <td> <p>Voeg de waarden toe:</p> 
     <ul> 
      <li><strong>[!UICONTROL Tag]</strong>: Voer in de presentatie het label in dat u wilt vervangen. Bijvoorbeeld: <code>&#123;&#123;Name&#125;&#125;</code></li> 
-     <li><strong>[!UICONTROL Replaced Value]</strong>: Voer de waarde in waarmee de bestaande tag moet worden vervangen. Als een tekenreeks <tr><ul><tr><tr><tr><code>&#123;&#123;Name&#125;&#125;/code> in the presentation and the replaced value is Sample, then the <code>&#123;&#123;Name&#125;&#125;</code> will be replaced by <code>Sample</code>.</li> 
+     <li><strong>[!UICONTROL Replaced Value]</strong>: Voer de waarde in waarmee de bestaande tag moet worden vervangen. Als bijvoorbeeld een tekenreeks <code>&#123;&#123;Name&#125;&#125;</code> in de presentatie en de vervangen waarde Sample is, wordt <code>&#123;&#123;Name&#125;&#125;</code> vervangen door <code>Sample</code> .</li> 
     </ul> </td> 
   </tr> 
-   
+  <tr> 
    <td role="rowheader">[!UICONTROL New Drive Location]</td> 
-   <td> <p>Select the [!DNL Google Drive] where you want to store or add the new presentation:</p> 
-     
+   <td> <p>Selecteer de locatie [!DNL Google Drive] waar u de nieuwe presentatie wilt opslaan of toevoegen:</p> 
+    <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 
-     <li>[!UICONTROL [!DNL Google] Shared Drive]</li> 
+     <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
     </ul> </td> 
   </tr> 
-   
+  <tr> 
    <td role="rowheader"> <p>[!UICONTROL New Document's Location]</p> </td> 
-   <td> <p>Select the folder where you want to store or add the presentation.</p> </td> 
+   <td> <p>Selecteer de map waarin u de presentatie wilt opslaan of toevoegen.</p> </td> 
   </tr> 
-   
+  <tr> 
    <td role="rowheader">[!UICONTROL Shared] </td> 
-   <td> <p>Select if you want to share the presentation.</p> </td> 
+   <td> <p>Selecteer deze optie als u de presentatie wilt delen.</p> </td> 
   </tr> 
-   
+  <tr> 
    <td role="rowheader">[!UICONTROL Sharing with Other's Email Address]</td> 
-   <td> <p> Enter the email address with whom you want to share the presentation. If you are not entering an email address and selecting only shared field, the presentation is shareable to anyone.</p> </td> 
+   <td> <p> Voer het e-mailadres in waarmee u de presentatie wilt delen. Als u de optie Gedeeld inschakelt zonder een e-mail in te voeren in dit veld, kan de presentatie door iedereen worden gedeeld.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a Page/Thumbnail]
+
+Deze actiemodule krijgt de recentste versie van de gespecificeerde pagina of van de duimnagel van een pagina in de presentatie.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter a Presentation and Page ID]</td> 
+   <td> <p> Kies of u een presentatie- en pagina-id handmatig wilt invoeren of selecteer deze in een lijst.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Presentation ID]</td> 
+   <td> <p> Selecteer de presentatie-id die u wilt ophalen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Page Object ID]</td> 
+   <td> <p> Selecteer de dia waarvoor u de details van het paginaobject wilt weergeven.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Show Page Thumbnail]</td> 
+   <td> <p> Schakel het selectievakje in als u de paginaminiatuurgegevens wilt weergeven.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a Presentation]
+
+Deze actiemodule krijgt de recentste versie van een gespecificeerde presentatie.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose a drive]</td> 
+   <td> <p>Selecteer de locatie van de [!DNL Google Drive] presentaties die u wilt weergeven:</p> 
+    <ul> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared With Me]</li> 
+     <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Presentation ID]</td> 
+   <td> <p> Selecteer de presentatie die u wilt ophalen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL List Presentations]
+
+Deze module wint een lijst van alle presentaties in de bepaalde plaats terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose a drive location]</td> 
+   <td> <p>Selecteer de locatie van de [!DNL Google Drive] presentaties die u wilt weergeven:</p> 
+    <ul> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared With Me]</li> 
+     <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder ID]</td> 
+   <td> <p>Kies de maplocatie van de presentaties die u wilt weergeven.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal presentaties in dat u de module tijdens één cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Refresh a Chart]
+
+De actiemodule THis vernieuwt de diagramgegevens die zijn opgeslagen in een presentatie die is opgegeven met de id.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter a Presentation ID]</td> 
+   <td> <p> Kies of u een presentatie-id handmatig wilt invoeren of selecteer deze in een lijst.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose a drive]</td> 
+   <td> <p>Als u de presentatie in een lijst selecteert, selecteert u de [!DNL Google Drive] locatie waar de presentaties die u wilt weergeven zich bevinden:</p> 
+    <ul> 
+     <li>[!UICONTROL My Drive]</li> 
+     <li>[!UICONTROL Shared With Me]</li> 
+     <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Presentation ID]</td> 
+   <td> <p>Selecteer de presentatie of voer de presentatie-id in of wijs deze toe aan de presentatie met het diagram dat u wilt vernieuwen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Chart Object ID]</td> 
+   <td> <p> Als u handmatig gegevens invoert, voert u de id in van het diagram dat u wilt vernieuwen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -320,31 +385,32 @@ Uploadt een afbeelding met de verschafte gegevens.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Selecteer de locatie van de [!DNL Google Drive] presentaties die u wilt weergeven:</p> 
+   <td> <p>Als u een keuze maakt in een vervolgkeuzelijst, selecteert u de [!DNL Google Drive] locatie waar de presentatie waaraan u een afbeelding wilt toevoegen zich bevindt:</p> 
     <ul> 
      <li>[!UICONTROL My Drive]</li> 
      <li>[!UICONTROL Shared With Me]</li> 
      <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
-    </ul> <p>Dit veld wordt weergegeven als u de presentatie maakt [!UICONTROL By Dropdown] .</p> </td> 
+    </ul>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Presentation ID]</td> 
    <td> <p> Selecteer de presentatie-id van de presentatie waarnaar u een afbeelding uploadt.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Values]</td> 
-   <td> <p>Waarden voegen de waarden toe:</p> 
-    <ul> 
-     <li><strong>[!UICONTROL Tag]</strong>: Voer de tag in waaraan u de URL wilt toevoegen.</li> 
-     <li><strong>[!UICONTROL Image URL]</strong>: Voer het pad of de URL in naar de afbeelding die u wilt uploaden.</li> 
-    </ul> <p>Opmerking: de afbeeldingen moeten kleiner zijn dan 50 MB, mogen niet groter zijn dan 25 megapixels en moeten de PNG-, JPEG- of GIF-indeling hebben.</p> </td> 
+   <td role="rowheader">[!UICONTROL Select the Method]</td> 
+   <td> <p> Selecteer hoe u de afbeelding wilt vervangen.</p>
+   <ul>
+   <li><p><b>Een afbeelding uploaden door tekstcode te vervangen</b></p><p>Op het gebied van Waarden, voor elk beeld wilt u uploaden, <b> toevoegen punt </b> en ga de markering van het beeld en URL van het nieuwe beeld in.</p></li>
+   <li><p><b>Upload een afbeelding door deze te vervangen</b></p><p>Op het gebied van Waarden, voor elk beeld wilt u uploaden, <b> toevoegen punt </b> en ingaan het objecten identiteitskaart van het beeld, vervangen methode, en URL van het nieuwe beeld.</p></li>
+   </ul>
+  <p>Opmerking: de afbeeldingen moeten kleiner zijn dan 50 MB, mogen niet groter zijn dan 25 megapixels en moeten de PNG-, JPEG- of GIF-indeling hebben.</p>   </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Refresh a Chart]
+#### [!UICONTROL Watch Presentations]
 
-Hiermee vernieuwt u de diagramgegevens die zijn opgeslagen in een presentatie die is opgegeven met de id.
+Deze triggermodule start een scenario wanneer een nieuwe presentatie wordt gemaakt of bijgewerkt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -355,123 +421,24 @@ Hiermee vernieuwt u de diagramgegevens die zijn opgeslagen in een presentatie di
    <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Choose a drive]</td> 
-   <td> <p>Selecteer de locatie van de [!DNL Google Drive] presentaties die u wilt weergeven:</p> 
+   <td role="rowheader">[!UICONTROL Watch] </td> 
+   <td> <p>Selecteer de optie om de presentaties te bekijken:</p> 
     <ul> 
-     <li>[!UICONTROL My Drive]</li> 
-     <li>[!UICONTROL Shared With Me]</li> 
-     <li>[!UICONTROL [!DNL Google] Gedeeld station]</li> 
+     <li> <p>[!UICONTROL Created Date]</p> </li> 
+     <li> <p>[!UICONTROL Modified Date]</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Presentation ID]</td> 
-   <td> <p>Selecteer de presentatie-id van de presentatie met het diagram dat u wilt vernieuwen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Chart Object ID]</td> 
-   <td> <p> Selecteer de Grafiek u wilt verfrissen.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Add/Delete a Slide]
-
-Hiermee maakt u een lege dia of verwijdert u een bestaande dia uit de opgegeven presentatie.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Select the method]</td> 
-   <td> <p>Kies of u een nieuwe dia wilt toevoegen of een dia wilt verwijderen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!DNL Presentation ID]</td> 
-   <td> <p>Selecteer de presentatie-id van de presentatie waarvoor u een dia wilt toevoegen of verwijderen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Predefined layout type]</td> 
-   <td> <p> Selecteer de vooraf gedefinieerde dialay-out waarvan u de toegevoegde dia wilt gebruiken. Geef waarden op voor aanvullende velden (zoals [!UICONTROL Title] ).</p> 
-    <ul> 
-     <li>[!UICONTROL Blank layout, with no placeholders]</li> 
-     <li>[!UICONTROL Layout with a caption at the bottom]</li> 
-     <li>[!UICONTROL Layout with a title and subtitle]</li> 
-     <li>[!UICONTROL Layout with a title and body]</li> 
-     <li>[!UICONTROL Layout with a title and two columns]</li> 
-     <li>[!UICONTROL Layout with only a title]</li> 
-     <li>[!UICONTROL Layout with a section title]</li> 
-     <li>[!UICONTROL Layout with a title and subtitle on one side and description on the other]</li> 
-     <li>[!UICONTROL Layout with one title and one body, arranged in a single column]</li> 
-     <li>[!UICONTROL Layout with a main point]</li> 
-     <li>[!DNL Layout with a big number heading]</li> 
-    </ul> <p>Dit veld is beschikbaar als u een dia wilt toevoegen.</p> </td> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Typ of wijs het maximumaantal presentaties toe dat Workfront Fusion tijdens de uitvoeringscyclus van één scenario moet retourneren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Overige
 
-* [[!UICONTROL Make an API Call]](#make-an-api-call)
 * [[!UICONTROL Insert Links in a Presentation]](#insert-links-in-a-presentation)
-
-#### [!UICONTROL Make an API Call]
-
-Voert een willekeurige geautoriseerde API-aanroep uit.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL URL]</td> 
-   <td> <p>Voer een pad in dat relatief is ten opzichte van https://developers.google.com/slides/. Bijvoorbeeld presentatie.</p> <p>Raadpleeg de <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API-documentatie </a> voor de lijst met beschikbare eindpunten.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref"> HTTP- verzoekmethodes </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voer de gewenste aanvraagheaders in. U hoeft geen machtigingsheaders toe te voegen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Query String]</td> 
-   <td> <p> Voer de queryreeks voor de aanvraag in.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
-     <div class="example" data-mc-autonum="<b>Example: </b>"> 
-      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
-     </div> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
->[!INFO]
->
->**Voorbeeld:** Gebruikend een API vraag kunt u de presentatiedetails voor presentatieidentiteitskaart krijgen u bent ingegaan. U kunt de presentatie-id in de URL vinden wanneer u de presentatie opent in [!DNL Google Slides] .
->
->![ API vraagvoorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/api-call-350x13.png)
->
->De volgende API-aanroep retourneert de presentatiedetails:
->
->![ de details van de Presentatie ](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details.png)
->
->Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL presentationId] .
->
->In ons voorbeeld zijn de gevraagde presentatiegegevens geretourneerd:
->
->![ Presentatiedetails ](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details-2.png)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
 
 #### [!UICONTROL Insert Links in a Presentation]
 
@@ -512,7 +479,63 @@ In deze module worden alle koppelingen in een presentatie aanklikbaar gemaakt of
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Text Inputs]</td> 
-   <td>Voor elk tekstitem waarvoor u een koppeling wilt toevoegen, voegt u het item en de bijbehorende koppeling toe aan de lijst. Telkens wanneer het item in de presentatie wordt weergegeven, wordt het automatisch gekoppeld aan de opgegeven site.</td> 
+   <td>Als u een verbinding, voor elk tekstpunt opneemt dat u een verbinding voor wilt toevoegen, <b> toevoegen punt </b> en gaat de tekst en zijn bijbehorende verbinding in. Telkens wanneer het item in de presentatie wordt weergegeven, wordt het automatisch gekoppeld aan de opgegeven site.</td> 
   </tr> 
  </tbody> 
 </table>
+
+#### [!UICONTROL Make an API Call]
+
+Voert een willekeurige geautoriseerde API-aanroep uit.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Slides] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL URL]</td> 
+   <td> <p>Voer een pad in dat relatief is ten opzichte van <code>https://developers.google.com/slides/</code> . Bijvoorbeeld presentatie.</p> <p>Raadpleeg de <a href="https://developers.google.com/slides/reference/rest">[!DNL Google Slides] API-documentatie </a> voor de lijst met beschikbare eindpunten.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref"> HTTP- verzoekmethodes </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Voer de gewenste aanvraagheaders in. U hoeft geen machtigingsheaders toe te voegen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p> Voer de queryreeks voor de aanvraag in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!BEGINSHADEBOX]
+
+**Voorbeeld:** Gebruikend een API vraag kunt u de presentatiedetails voor presentatieidentiteitskaart krijgen u bent ingegaan. U kunt de presentatie-id in de URL vinden wanneer u de presentatie opent in [!DNL Google Slides] .
+
+![ API vraagvoorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/api-call-350x13.png)
+
+De volgende API-aanroep retourneert de presentatiedetails:
+
+![ de details van de Presentatie ](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details.png)
+
+Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL presentationId] .
+
+In ons voorbeeld zijn de gevraagde presentatiegegevens geretourneerd:
+
+![ Presentatiedetails ](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details-2.png)
+
+>[!ENDSHADEBOX]
