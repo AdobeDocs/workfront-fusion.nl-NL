@@ -7,9 +7,11 @@ title: Adobe Storage-modules
 description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u tot projecten in Adobe Admin Console leiden en leiden.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: e027c93b77d825337b7fb2582c3de2a93c5c71f6
+hide: true
+hidefromtoc: true
+source-git-commit: 70a2d06da6be6c892df12faa3a168e66daef118e
 workflow-type: tm+mt
-source-wordcount: '1328'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -116,30 +118,25 @@ Verbinding maken voor uw [!DNL Adobe Storage] -modules:
       </col>
       <tbody>
         <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>Selecteer <code>Server to server</code> .</td>
+        </tr>
+        <tr>
         <td role="rowheader">[!UICONTROL Connection name]</td>
         <td>
           <p>Voer een naam in voor deze verbinding.</p>
         </td>
         </tr>
-        <tr>
-        <td role="rowheader">[!UICONTROL Environment]</td>
-        <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
-        </tr>
-        <tr>
-        <td role="rowheader">[!UICONTROL Type]</td>
-        <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
-        </tr>
-        <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het gedeelte [!UICONTROL Credential details] van het project in het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de [!UICONTROL Credential details] -sectie van het project in de [!DNL Adobe Developer Console] .</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het gedeelte [!UICONTROL Credential details] van het project in het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de [!UICONTROL Credential details] -sectie van het project in de [!DNL Adobe Developer Console] .</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Authentication URL]</td>
-        <td>Voer een verificatie-URL in. De standaardwaarde is <code>https://ims-na1.adobelogin.com</code> . </td>
+        <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
+        <td>Voer uw Adobe IMS-organisatie-id in of wijs deze toe. Dit is een tekenreeks met de notatie <code> 123abc@AdobeOrg</code> , waarbij de sectie voor de @ een hexadecimaal getal is. U kunt deze waarde vinden als onderdeel van het URL-pad voor uw organisatie in de Adobe Admin Console of in de Adobe.IO-console voor de integratie van uw gebruikersbeheer.</td>
         </tr>
       </tbody>
     </table>
