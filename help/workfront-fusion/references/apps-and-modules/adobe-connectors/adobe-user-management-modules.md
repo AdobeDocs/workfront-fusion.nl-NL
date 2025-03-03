@@ -3,21 +3,21 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Gebruikersbeheermodules voor Adoben
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die gebruikers in uw rekening van de Adobe beheren.
+title: Adobe-gebruikersbeheermodules
+description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die gebruikers in uw rekening van Adobe beheren.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8fe8ec4-4b00-4c9a-81a5-acb2039b153b
-source-git-commit: 640fec2de63ad59ba89fae5373f85b8147d8dac0
+source-git-commit: 234a6a537718328e92eec13672a73bc43add17c1
 workflow-type: tm+mt
 source-wordcount: '2323'
 ht-degree: 0%
 
 ---
 
-# Gebruikersbeheermodules voor Adoben
+# Adobe-gebruikersbeheermodules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren waarmee gebruikers in uw Adobe-account worden beheerd.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die gebruikers in uw Adobe-account beheren.
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [ een scenario creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -66,7 +66,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 +++
 
-## Verbinding maken met gebruikersbeheer voor Adobe
+## Verbinding maken met Adobe-gebruikersbeheer
 
 Verbinding maken voor uw [!DNL Adobe User Management] -modules:
 
@@ -104,7 +104,7 @@ Verbinding maken voor uw [!DNL Adobe User Management] -modules:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
-        <td>Voer uw [!DNL Adobe] IMS-referenties in. De unieke id voor een organisatie. Dit is een tekenreeks in de vorm A495E53@AdobeOrg, waarbij het voorvoegsel voor de @ een hexadecimaal getal is. Deze waarde maakt deel uit van het URL-pad voor de organisatie in de Admin Console of in de adobe.io-console voor de integratie van het gebruikersbeheer.</td>
+        <td>Voer uw [!DNL Adobe] IMS-referenties in. De unieke id voor een organisatie. Dit is een tekenreeks in de vorm A495E53@AdobeOrg, waarbij het voorvoegsel voor de @ een hexadecimaal getal is. U kunt deze waarde vinden als onderdeel van het URL-pad voor de organisatie in de Admin Console of in de adobe.io-console voor de integratie van uw gebruikersbeheer.</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Additional scopes]</td>
@@ -117,9 +117,9 @@ Verbinding maken voor uw [!DNL Adobe User Management] -modules:
 
 
 
-## Gebruikersbeheermodules en de bijbehorende velden Adoben
+## Adobe-gebruikersbeheermodules en de bijbehorende velden
 
-Wanneer u de modules van het Beheer van de Gebruiker van de Adobe vormt, toont Workfront Fusion de hieronder vermelde gebieden. Daarnaast kunnen er extra velden voor gebruikersbeheer voor Adobe worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u Adobe-gebruikersbeheermodules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er extra Adobe-gebruikersbeheervelden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -148,7 +148,7 @@ Deze zoekmodule haalt een lijst op met alle gebruikersgroepen en productprofiele
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum aantal geretourneerde resultaten</td> 
@@ -167,7 +167,7 @@ Deze zoekmodule haalt details op voor één gebruiker in de organisatie, geïden
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">E-mailadres</td> 
@@ -186,7 +186,7 @@ Deze zoekmodule haalt een lijst op met alle gebruikers in de opgegeven gebruiker
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Groepsnaam</td> 
@@ -222,7 +222,7 @@ Deze onderzoeksmodule keert alle gebruikers van de organisatie verbonden aan de 
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Maximum aantal geretourneerde resultaten</td> 
@@ -248,7 +248,7 @@ Deze actiemodule voegt een gebruiker toe als lid van de opgegeven groep of groep
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Gebruiker</td> 
@@ -264,7 +264,7 @@ Deze actiemodule voegt een gebruiker toe als lid van de opgegeven groep of groep
   </tr> 
   <tr> 
    <td role="rowheader">Adobe ID gebruiken</td> 
-   <td>Selecteer waar om ervoor te zorgen dat de gebruiker - identiteitskaart wordt geïnterpreteerd om naar een bestaande Adobe ID te verwijzen zelfs als een Onderneming of een Federated ID met de zelfde naam bestaan.</td> 
+   <td>Selecteer waar om ervoor te zorgen dat de gebruiker - identiteitskaart wordt geïnterpreteerd om naar een bestaande Adobe ID te verwijzen zelfs als een Onderneming of Federated ID met de zelfde naam bestaat.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -279,11 +279,11 @@ Deze actiemodule leidt tot een nieuwe gebruiker in de organisatie.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">ID-type</td> 
-   <td>Selecteer of u een gebruiker met een Adobe ID, een Enterprise ID of een Federated ID wilt maken. </td> 
+   <td>Selecteer of u een gebruiker wilt maken met een Adobe ID, een Enterprise ID of een Federated ID. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Aanmelden</td> 
@@ -295,11 +295,11 @@ Deze actiemodule leidt tot een nieuwe gebruiker in de organisatie.
   </tr> 
   <tr> 
    <td role="rowheader">Domein</td> 
-   <td>Als u een gebruiker met een Federated ID met een op domein-gebaseerde login creeert, ga of kaart het domein in.</td> 
+   <td>Als u een gebruiker maakt met een Federated ID met een domeingebaseerde aanmelding, voert u het domein in of wijst u dit toe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Gebruiker</td> 
-   <td>Als u een gebruiker met een Federated ID met een op domein-gebaseerde login creeert, ga of kaart de gebruiker in die dit de nieuwe gebruiker zal vertegenwoordigen.</td> 
+   <td>Als u een gebruiker met een Federated ID met een op domein-gebaseerde login creeert, ga of kaart de gebruiker in die deze nieuwe gebruiker zal vertegenwoordigen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Voornaam</td> 
@@ -319,7 +319,7 @@ Deze actiemodule leidt tot een nieuwe gebruiker in de organisatie.
   </tr> 
   <tr> 
    <td role="rowheader">Adobe ID gebruiken</td> 
-   <td>Indien waar (true), wordt de gebruikersnaam geïnterpreteerd als een verwijzing naar een bestaande Adobe ID, zelfs als er een Enterprise of Federated ID met dezelfde naam bestaat.</td> 
+   <td>Indien waar (true), wordt de gebruikersnaam geïnterpreteerd als een verwijzing naar een bestaande Adobe ID, zelfs als een Enterprise of Federated ID met dezelfde naam bestaat.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -334,7 +334,7 @@ Deze actiemodule verwijdert het lidmaatschap van een gebruiker uit de opgegeven 
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Gebruiker</td> 
@@ -350,7 +350,7 @@ Deze actiemodule verwijdert het lidmaatschap van een gebruiker uit de opgegeven 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe ID gebruiken</td> 
-   <td>Selecteer waar om ervoor te zorgen dat de gebruiker - identiteitskaart wordt geïnterpreteerd om naar een bestaande Adobe ID te verwijzen zelfs als een Onderneming of een Federated ID met de zelfde naam bestaan.</td> 
+   <td>Selecteer waar om ervoor te zorgen dat de gebruiker - identiteitskaart wordt geïnterpreteerd om naar een bestaande Adobe ID te verwijzen zelfs als een Onderneming of Federated ID met de zelfde naam bestaat.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +367,7 @@ Deze actiemodule werkt een bestaande gebruiker bij.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Gebruiker</td> 
@@ -410,7 +410,7 @@ Met deze actiemodule voegt u gebruikers en productprofielen toe aan een gebruike
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Groepsnaam</td> 
@@ -437,7 +437,7 @@ Deze actiemodule maakt een nieuwe gebruikersgroep. Als er al een groep met de op
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Groepsnaam</td> 
@@ -464,7 +464,7 @@ Deze actiemodule verwijdert een bestaande gebruikersgroep.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Groepsnaam</td> 
@@ -483,7 +483,7 @@ Deze actiemodule verwijdert gebruikers of profielen uit een gebruikersgroep.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Groepsnaam</td> 
@@ -499,7 +499,7 @@ Deze actiemodule verwijdert gebruikers of profielen uit een gebruikersgroep.
   </tr> 
   <tr> 
    <td role="rowheader">Adobe ID gebruiken</td> 
-   <td>Indien waar (true), wordt de gebruikersnaam geïnterpreteerd als een verwijzing naar een bestaande Adobe ID, zelfs als er een Enterprise of Federated ID met dezelfde naam bestaat.</td> 
+   <td>Indien waar (true), wordt de gebruikersnaam geïnterpreteerd als een verwijzing naar een bestaande Adobe ID, zelfs als een Enterprise of Federated ID met dezelfde naam bestaat.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -514,7 +514,7 @@ Deze actiemodule werkt een bestaande gebruikersgroep bij.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Oorspronkelijke groepsnaam</td> 
@@ -528,13 +528,15 @@ Deze actiemodule werkt een bestaande gebruikersgroep bij.
    <td role="rowheader">Oorspronkelijke groepsnaam</td> 
    <td>Voer de bijgewerkte beschrijving van de groep in of wijs deze toe.</td> 
   </tr> 
- </tbody>
+ </tbody> 
+ </table>
 
 ### Overige
 
-Deze actiemodule maakt een douanevraag aan het Beheer API van de Gebruiker van de Adobe.
 
 #### Een aangepaste API-aanroep maken
+
+Deze actiemodule maakt een aangepaste aanroep naar de Adobe-API voor gebruikersbeheer.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -542,7 +544,7 @@ Deze actiemodule maakt een douanevraag aan het Beheer API van de Gebruiker van d
   <tbody>
     <tr>
       <td role="rowheader">Verbinding</td>
-      <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van de Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van de Adobe </a> in dit artikel tot stand brengen.</td> 
+      <td>Voor instructies bij het creëren van een verbinding aan het Beheer van de Gebruiker van Adobe, zie <a href="#create-a-connection-to-adobe-user-management" class="MCXref xref" > een verbinding aan het Beheer van de Gebruiker van Adobe </a> in dit artikel tot stand brengen.</td> 
     </tr>
     <tr>
       <td role="rowheader">
