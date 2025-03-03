@@ -4,9 +4,9 @@ description: Met de Adobe Lightroom-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3f29ab35-7a90-4afb-a283-4faaacec5b15
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e1e15985db9683525250d1f9f9276224b2baf0e6
 workflow-type: tm+mt
-source-wordcount: '2025'
+source-wordcount: '2019'
 ht-degree: 0%
 
 ---
@@ -190,10 +190,10 @@ Deze actiemodule haalt een versie-id van de Lightroom-server op, om aan te tonen
 
 * [Origineel elementbestand maken](#create-an-asset-external-xmp-develop-setting-file)
 * [Een element maken](#create-an-asset)
-* [Een bestand met externe XMP ontwikkelen maken](#create-an-asset-external-xmp-develop-setting-file)
+* [Externe XMP-ontwikkelinstellingsbestand voor middelen maken](#create-an-asset-external-xmp-develop-setting-file)
 * [Uitvoeringen genereren voor een origineel bestand](#generate-renditions-for-an-original-file)
 * [Een cataloguselement ophalen](#get-a-catalog-asset)
-* [De nieuwste externe middelen ophalen XMP ontwikkelinstelling](#get-the-latest-asset-external-xmp-develop-setting-file)
+* [De nieuwste middelen voor externe XMP-ontwikkelinstellingen ophalen](#get-the-latest-asset-external-xmp-develop-setting-file)
 * [De nieuwste uitvoering van elementen ophalen](#get-the-latest-asset-rendition)
 * [Elementen ophalen](#retrieve-assets)
 
@@ -295,9 +295,9 @@ In deze actiemodule wordt een nieuw element gemaakt met initiële metagegevens e
   </tbody>
 </table>
 
-#### Een bestand met externe XMP ontwikkelen maken
+#### Externe XMP-ontwikkelinstellingsbestand voor middelen maken
 
-Deze actiemodule ondersteunt twee workflows. De eerste workflow bestaat uit het uploaden van het externe XMP ontwikkelinstellingenbestand voor het element. De tweede workflow bestaat uit het maken van een extern XMP ontwikkelinstellingenbestand door het externe XMP-instellingsbestand van een ander element te kopiëren.
+Deze actiemodule ondersteunt twee workflows. De eerste workflow bestaat uit het uploaden van het externe XMP-bestand met ontwikkelinstellingen voor het element. De tweede workflow bestaat uit het maken van een extern XMP-bestand voor ontwikkelinstellingen door te kopiëren van het externe XMP-instellingenbestand van een ander element.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -407,9 +407,9 @@ Deze actiemodule wint informatie over één enkel middel in een catalogus terug.
 </table>
 
 
-#### De nieuwste externe middelen ophalen XMP instellingenbestand ontwikkelen
+#### De nieuwste middelen van het externe XMP-instellingenbestand voor ontwikkeling ophalen
 
-Deze actiemodule wint het meest recente middel externe XMP instellingsdossier terug.
+Met deze actiemodule haalt u het meest recente externe XMP-instellingsbestand voor elementen op.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -428,7 +428,7 @@ Deze actiemodule wint het meest recente middel externe XMP instellingsdossier te
     <tr>
       <td role="rowheader">[!UICONTROL Asset ID]</td>
       <td>
-        <p>Voer de id in of wijs deze toe aan het element dat aan het instellingsbestand voor XMP ontwikkeling is gekoppeld.</p>
+        <p>Voer de id in of wijs deze toe aan het element dat is gekoppeld aan het XMP-instellingsbestand voor ontwikkeling.</p>
       </td>
     </tr>
   </tbody>
@@ -455,7 +455,7 @@ Deze actiemodule wint de recentste elementenvertoning van het gespecificeerde ty
     <tr>
       <td role="rowheader">[!UICONTROL Asset ID]</td>
       <td>
-        <p>Voer de id in of wijs deze toe aan het element dat aan het instellingsbestand voor XMP ontwikkeling is gekoppeld.</p>
+        <p>Voer de id in of wijs deze toe aan het element dat is gekoppeld aan het XMP-instellingsbestand voor ontwikkeling.</p>
       </td>
     </tr>
     <tr>
@@ -500,7 +500,7 @@ Deze actiemodule wint activa terug die door de gebruiker worden bezeten waarvan 
     <tr>
       <td role="rowheader">[!UICONTROL Maximum number of returned assets]</td>
       <td>
-        <p>Stel het maximumaantal elementen in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert. Dit getal moet kleiner zijn dan of gelijk zijn aan 100.</p>
+        <p>Ga het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
       </td>
     </tr>
     <tr>
