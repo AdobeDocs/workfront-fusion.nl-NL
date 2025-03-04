@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion SFTP]  modules staan u toe om doss
 author: Becky
 feature: Workfront Fusion
 exl-id: bde3cbda-8a19-4d9f-b970-f56d73a1f8dd
-source-git-commit: e1e15985db9683525250d1f9f9276224b2baf0e6
+source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
 workflow-type: tm+mt
-source-wordcount: '1851'
+source-wordcount: '2077'
 ht-degree: 0%
 
 ---
@@ -75,45 +75,45 @@ Als u uw SFTP-account wilt verbinden met [!DNL Workfront Fusion] , moet u een ve
    <td> <p> Voer de naam in voor uw SFTP-verbinding.</p> </td> 
   </tr> 
   <tr> 
-    <td role="rowheader">[!UICONTROL Environment]</td>
+    <td role="rowheader">[!UICONTROL-omgeving]</td>
     <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL Type]</td>
+    <td role="rowheader">[!UICONTROL-type]</td>
     <td>Geef op of u verbinding wilt maken met een serviceaccount of een persoonlijke account.</td>
   </tr>
   <tr>
-   <td role="rowheader"> <p>[!UICONTROL Host]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL-host]</p> </td> 
    <td> <p>Voer de hostnaam in van de SFTP-server waarmee u verbinding wilt maken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Port] </td> 
+   <td role="rowheader">[!UICONTROL-poort] </td> 
    <td> <p>Voer de SFTP-serverpoort in. Bijvoorbeeld 22.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Auth type]</p> </td> 
    <td> <p>Selecteer de machtigingsmethode die u wilt gebruiken om verbinding te maken met de SFTP-server.</p> 
     <ul> 
-     <li><strong>[!UICONTROL User name and password]</strong>: Voer uw referenties in.</li> 
-     <li> <p><strong>[!UICONTROL User name and key]</strong>: Voer uw gebruikersnaam en persoonlijke sleutel/certificaat in</p> <p>Upload de persoonlijke sleutel om de clientverificatie te gebruiken of upload uw certificaat (P12- of PFX-bestand) als u TLS wilt gebruiken met uw zelfondertekende certificaat. Als u de client-side certificaatautorisatie gebruikt, kunt u hier uw CA-certificaat invoeren.</p> <p>[!DNL Workfront Fusion] bewaart of bewaart geen gegevens (dossiers, wachtwoorden) u hier verstrekt. Bestand en wachtwoord worden alleen gebruikt om een persoonlijke sleutel of certificaat te extraheren.</p> </li> 
+     <li><strong> [!UICONTROL - Gebruikersnaam en wachtwoord] </strong>: ga uw geloofsbrieven in.</li> 
+     <li> <p><strong>[!UICONTROL - Gebruikersnaam en sleutel] </strong>: ga uw gebruikersnaam en privé sleutel/certificaat in</p> <p>Upload de persoonlijke sleutel om de clientverificatie te gebruiken of upload uw certificaat (P12- of PFX-bestand) als u TLS wilt gebruiken met uw zelfondertekende certificaat. Als u de client-side certificaatautorisatie gebruikt, kunt u hier uw CA-certificaat invoeren.</p> <p>[!DNL Workfront Fusion] bewaart of bewaart geen gegevens (dossiers, wachtwoorden) u hier verstrekt. Bestand en wachtwoord worden alleen gebruikt om een persoonlijke sleutel of certificaat te extraheren.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Key exchange algorithms] </td> 
+   <td role="rowheader">[!UICONTROL Key Exchange-algoritmen] </td> 
    <td> <p>U kunt een reeks algoritmen voor sleuteluitwisseling ingaan. De module geeft prioriteit aan algoritmen op basis van de volgorde waarin ze zijn toegevoegd. Voor elk algoritme wilt u toevoegen, <b> toevoegen punt </b> en selecteren het algoritme.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Ciphers] </td> 
+   <td role="rowheader">[!UICONTROL-CIFERS] </td> 
    <td> <p>U kunt een reeks ciphers voor zeer belangrijke uitwisseling ingaan. De module geeft ciphers prioriteit op basis van de volgorde waarin ze zijn toegevoegd. Voor elk cijfer wilt u toevoegen, <b> toevoegen punt </b> en selecteren het cijfer.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Nadat u de verbindingsgegevens hebt ingevoerd, klikt u op **[!UICONTROL Continue]** om een verbinding tot stand te brengen.
+Na het ingaan van de verbindingsinformatie, ga **** verder om een verbinding te vestigen.
 
-## [!UICONTROL SFTP] modules en hun velden
+## [!UICONTROL  SFTP ] modules en hun gebieden
 
-Wanneer u [!UICONTROL SFTP] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL SFTP] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL  SFTP ] modules vormt, [!DNL Workfront Fusion] toont de hieronder vermelde gebieden. Samen met deze, zouden de extra [!UICONTROL  SFTP ] gebieden, afhankelijk van factoren zoals uw toegangsniveau in app of de dienst kunnen tonen. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -124,7 +124,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Bestanden in een map controleren](#watch-files-in-a-folder)
 * [Submappen controleren in een map](#watch-subfolders-in-a-folder)
 
-#### [!UICONTROL Watch Files in a Folder]
+#### [!UICONTROL  de Dossiers van het Controle in een Omslag ]
 
 Hiermee worden bestanden met details geretourneerd wanneer een bestand in een opgegeven map wordt gemaakt of gewijzigd.
 
@@ -133,11 +133,11 @@ Hiermee worden bestanden met details geretourneerd wanneer een bestand in een op
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[!UICONTROL-map] </td> 
    <td> <p>Voer de map in die u wilt controleren. U kunt een absoluut pad opgeven, zoals <code>/home/user/</code> , of u kunt een relatief pad opgeven dat verwijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./.</code></p> </td> 
   </tr> 
   <tr> 
@@ -145,13 +145,13 @@ Hiermee worden bestanden met details geretourneerd wanneer een bestand in een op
    <td> <p> Voer de buffergrootte in bytes in. De waarde definieert de grootte van overgedragen blokken van de server. Sommige servers kunnen problemen veroorzaken of bestanden beschadigen wanneer de waarde te hoog is.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximum number of returned files]</td> 
+   <td>[!UICONTROL Maximum aantal geretourneerde bestanden]</td> 
    <td> <p> Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch Subfolders in a Folder]
+#### [!UICONTROL  Controle Subfolders in een Omslag ]
 
 Retourneert mappen met details wanneer een map wordt gemaakt of gewijzigd in een opgegeven map.
 
@@ -160,15 +160,15 @@ Retourneert mappen met details wanneer een map wordt gemaakt of gewijzigd in een
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td> 
+   <td>[!UICONTROL-verbinding] </td> 
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[!UICONTROL-map] </td> 
    <td> <p>Voer de map in die u wilt controleren of wijs deze toe. U kunt een absoluut pad opgeven, zoals <code>/home/user/</code> . U kunt ook een relatief pad opgeven dat verwijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximum number of returned files]</td> 
+   <td>[!UICONTROL Maximum aantal geretourneerde bestanden]</td> 
    <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
@@ -187,62 +187,62 @@ Retourneert mappen met details wanneer een map wordt gemaakt of gewijzigd in een
 * [Bestandsmachtigingen bijwerken](#update-file-permissions)
 * [Een bestand uploaden](#upload-a-file)
 
-#### [!UICONTROL Create a folder]
+#### [!UICONTROL  creeer een omslag ]
 
-Maakt een nieuwe map op de opgegeven locatie.
+Deze actiemodule maakt een nieuwe map op de opgegeven locatie.
 
 >[!NOTE]
 >
->Als de map al bestaat, genereert de module een fout. Als u de stroom zonder onderbreking wilt voortzetten, koppelt u een fouthandlerroute aan de module om de fout af te vangen en past u de instructie [!UICONTROL Resume] toe om de stroom voort te zetten. Voor informatie over het vastmaken van een route van de foutenmanager, zie [ de behandeling van de Fout in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md). Voor informatie over de route van de foutenmanager, zie [ Richtlijnen voor fout behandeling in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
+>Als de map al bestaat, genereert de module een fout. Om de stroom ononderbroken voort te zetten, maak een route van de foutenmanager aan de module vast om de fout te vangen en de [!UICONTROL  1} richtlijn van het Hervatten {aan te wenden om de stroom voort te zetten. ] Voor informatie over het vastmaken van een route van de foutenmanager, zie [ de behandeling van de Fout in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md). Voor informatie over de route van de foutenmanager, zie [ Richtlijnen voor fout behandeling in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[!UICONTROL-map] </td> 
    <td> <p>Geef een bestaande map op als opslaglocatie voor de nieuwe map. U kunt een absoluut pad opgeven, zoals <code>/home/user/file.txt</code> . U kunt ook een relatief pad opgeven dat wijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./</code> .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder Name]</td> 
+   <td>[!UICONTROL-mapnaam]</td> 
    <td> <p> Voer de mapnaam in.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Permissions]</p> </td> 
+   <td> <p>[!UICONTROL-machtigingen]</p> </td> 
    <td> <p>Stel de gewenste mapmachtigingen in. Gebruik chmod-parameters. Bijvoorbeeld <code>777</code> of <code>-rwxrwxrwx</code> .</p> <p>Deze machtigingen moeten overeenkomen met het patroon <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Voor meer informatie over chmod, zie de <a href="https://ss64.com/bash/chmod.html"> documentatie van het kosmod </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a file]
+#### [!UICONTROL  Schrap een dossier ]
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File Path]</td> 
+   <td>[!UICONTROL-bestandspad]</td> 
    <td> <p> Voer het pad in naar het bestand dat u wilt verwijderen. U kunt een absoluut pad opgeven, zoals <code>/home/user/file.txt</code> . U kunt ook een relatief pad opgeven dat wijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./file.txt</code> .</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a folder]
+#### [!UICONTROL  Schrap een omslag ]
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
@@ -252,7 +252,7 @@ Maakt een nieuwe map op de opgegeven locatie.
  </tbody> 
 </table>
 
-#### [!UICONTROL Get a file]
+#### [!UICONTROL  krijg een dossier ]
 
 In deze module worden de bestandsgegevens opgehaald, inclusief de gegevens van een bestand.
 
@@ -261,21 +261,21 @@ In deze module worden de bestandsgegevens opgehaald, inclusief de gegevens van e
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Buffer Size [B]]</td> 
+   <td>[!grootte UICONTROL-buffer [B]]</td> 
    <td> <p> Voer de buffergrootte in bytes in. De waarde definieert de grootte van overgedragen blokken van de server. Sommige servers kunnen problemen veroorzaken of bestanden beschadigen wanneer de waarde te hoog is.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File Path] </td> 
+   <td>[!UICONTROL-bestandspad] </td> 
    <td> <p>Voer het pad naar het bestand in. U kunt een absoluut pad opgeven, zoals <code>/home/user/file.txt</code> . U kunt ook een relatief pad opgeven dat wijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./file.txt</code> .</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Get files]
+#### [!UICONTROL  krijgt dossiers ]
 
 Deze module retourneert bestanden uit een opgegeven map.
 
@@ -284,15 +284,15 @@ Deze module retourneert bestanden uit een opgegeven map.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Buffer Size [B]]</td> 
+   <td>[!grootte UICONTROL-buffer [B]]</td> 
    <td> <p> Voer de buffergrootte in bytes in. De waarde definieert de grootte van overgedragen blokken van de server. Sommige servers kunnen problemen veroorzaken of bestanden beschadigen wanneer de waarde te hoog is.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[!UICONTROL-map] </td> 
    <td> <p>Voer de map in of wijs de map toe die de bestanden of mappen bevat die u wilt weergeven. U kunt een absoluut pad opgeven, zoals <code>/home/user/</code> . U kunt ook een relatief pad opgeven dat verwijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./.</code></p> </td> 
   </tr> 
   <tr> 
@@ -300,40 +300,40 @@ Deze module retourneert bestanden uit een opgegeven map.
    <td> <p>Voer de zoekterm in of wijs deze toe. Als u bijvoorbeeld naar bestanden met de bestandsextensie .txt wilt zoeken, voert u <code>.txt</code> in. U kunt ook de naam van het bestand invoeren of toewijzen waarnaar u wilt zoeken.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Sort By]</td> 
+   <td>[!UICONTROL sorteren op]</td> 
    <td> <p> Selecteer of u de resultaten wilt sorteren op de bestandsnaam, grootte, datum van laatste toegang of datum van laatste wijziging.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Sort Order]</td> 
+   <td>[!UICONTROL-sorteervolgorde]</td> 
    <td> <p> Selecteer of het resultaat in oplopende of aflopende volgorde moet worden geretourneerd.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Continue the execution of the route even if the module returns no results]</p> </td> 
+   <td> <p>[!UICONTROL gaat de uitvoering van de route voort zelfs als de module geen resultaten terugkeert]</p> </td> 
    <td>Schakel deze optie in om ervoor te zorgen dat deze module het scenario niet stopt als het geen resultaten retourneert.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximum number of returned results]</td> 
+   <td>[!UICONTROL Maximum aantal geretourneerde resultaten]</td> 
    <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL List a folder's content]
+#### [!UICONTROL  maak een lijst van de inhoud van een omslag ]
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Show] </td> 
+   <td>[!UICONTROL Tonen] </td> 
    <td> <p>Selecteer of u bestanden, mappen of beide wilt ophalen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[!UICONTROL-map] </td> 
    <td> <p>Voer de map in of wijs de map toe die de bestanden of mappen bevat die u wilt weergeven. U kunt een absoluut pad opgeven, zoals <code>/home/user/</code> . U kunt ook een relatief pad opgeven dat verwijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./.</code></p> </td> 
   </tr> 
   <tr> 
@@ -341,46 +341,46 @@ Deze module retourneert bestanden uit een opgegeven map.
    <td> <p>Voer de zoekterm in of wijs deze toe. Als u bijvoorbeeld naar bestanden met de bestandsextensie .txt wilt zoeken, voert u <code>.txt</code> in. U kunt ook de naam van het bestand invoeren of toewijzen waarnaar u wilt zoeken.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Sort By]</td> 
+   <td>[!UICONTROL sorteren op]</td> 
    <td> <p> Selecteer of u de resultaten wilt sorteren op bestandsnaam, grootte, datum van laatste toegang of datum van laatste wijziging.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Sort Order] </td> 
+   <td>[!UICONTROL-sorteervolgorde] </td> 
    <td> <p>Selecteer of het resultaat in oplopende of aflopende volgorde moet worden geretourneerd.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Continue the execution of the route even if the module returns no results]</p> </td> 
+   <td> <p>[!UICONTROL gaat de uitvoering van de route voort zelfs als de module geen resultaten terugkeert]</p> </td> 
    <td>Schakel deze optie in om ervoor te zorgen dat deze module het scenario niet stopt als het geen resultaten retourneert.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximum number of returned results]</td> 
+   <td>[!UICONTROL Maximum aantal geretourneerde resultaten]</td> 
    <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Move a File]
+#### [!UICONTROL  Beweeg een Dossier ]
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File Path]</td> 
+   <td>[!UICONTROL-bestandspad]</td> 
    <td> <p> Voer het pad in naar het bestand dat u wilt verplaatsen. U kunt een absoluut pad opgeven, zoals <code>/home/user/file.txt</code> . U kunt ook een relatief pad opgeven dat wijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./file.txt</code> .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL New Folder]</td> 
+   <td>[!UICONTROL Nieuwe map]</td> 
    <td> <p> Voer het pad naar de nieuwe locatie van het bestand in. U kunt een absoluut pad opgeven, zoals <code>/home/user/</code> . U kunt ook een relatief pad opgeven dat verwijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./.</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Rename a File]
+#### [!UICONTROL  noem een Dossier ] anders
 
 Wijzigt de naam van een bestand.
 
@@ -389,21 +389,21 @@ Wijzigt de naam van een bestand.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File Path]</td> 
+   <td>[!UICONTROL-bestandspad]</td> 
    <td> <p> Voer het pad in naar het bestand waarvan u de naam wilt wijzigen. U kunt een absoluut pad opgeven, zoals <code>/home/user/file.txt</code> . U kunt ook een relatief pad opgeven dat wijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./file.txt</code> .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL New file name]</td> 
+   <td>[!UICONTROL - Nieuwe bestandsnaam]</td> 
    <td> <p> Voer de nieuwe naam voor het bestand in, inclusief de bestandsextensie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Update file permissions]
+#### [!UICONTROL  het dossiertoestemmingen van de Update ]
 
 Hiermee kunt u machtigingen voor het bestand wijzigen.
 
@@ -412,21 +412,21 @@ Hiermee kunt u machtigingen voor het bestand wijzigen.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL File Path]</td> 
+   <td>[!UICONTROL-bestandspad]</td> 
    <td> <p> Voer het pad in naar het bestand dat u wilt verplaatsen. U kunt een absoluut pad opgeven, zoals <code>/home/user/file.txt</code> . U kunt ook een relatief pad opgeven dat wijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./file.txt</code> .</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Permissions]</p> </td> 
+   <td> <p>[!UICONTROL-machtigingen]</p> </td> 
    <td> <p>Stel de gewenste bestandsmachtigingen in. Gebruik chmod-parameters. Bijvoorbeeld <code>777</code> of <code>-rwxrwxrwx</code> .</p> <p>Deze machtigingen moeten overeenkomen met het patroon <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Voor meer informatie over chmod, zie de <a href="https://ss64.com/bash/chmod.html"> documentatie van het kosmod </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Upload a File]
+#### [!UICONTROL  upload een Dossier ]
 
 Met deze module kunt u een bestand uploaden naar de SFTP-server.
 
@@ -435,19 +435,19 @@ Met deze module kunt u een bestand uploaden naar de SFTP-server.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Connection] </td>
+   <td>[!UICONTROL-verbinding] </td>
    <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Folder] </td> 
+   <td>[!UICONTROL-map] </td> 
    <td> <p>Geef een bestaande map op als opslaglocatie voor het bestand. U kunt een absoluut pad opgeven, zoals <code>/home/user/</code> . U kunt ook een relatief pad opgeven dat verwijst naar een specifieke map van de aangemelde gebruiker, zoals <code>./.</code></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Source File]</td> 
+   <td>[!UICONTROL Source-bestand]</td> 
    <td> <p> Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Permissions]</p> </td> 
+   <td> <p>[!UICONTROL-machtigingen]</p> </td> 
    <td> <p>Stel de gewenste machtigingen in voor het bestand of de map. Gebruik chmod-parameters. Bijvoorbeeld <code>777</code> of <code>-rwxrwxrwx</code> .</p> <p>Deze machtigingen moeten overeenkomen met het patroon <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Voor meer informatie over chmod, zie de <a href="https://ss64.com/bash/chmod.html"> documentatie van het kosmod </a>.</p> </td> 
   </tr> 
  </tbody> 

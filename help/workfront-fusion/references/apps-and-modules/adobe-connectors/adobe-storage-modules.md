@@ -8,9 +8,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u tot project
 author: Becky
 feature: Workfront Fusion
 exl-id: 78ee905f-4713-44a4-bffb-c64cdb3665c2
-source-git-commit: 284e5bda7fef82bac02f3200efe1662fd55586bf
+source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1386'
 ht-degree: 0%
 
 ---
@@ -106,7 +106,7 @@ Selecteer op de Adobe Admin Console-pagina het tabblad Producten in de bovenste 
 
 Verbinding maken voor uw [!DNL Adobe Storage] -modules:
 
-1. Klik op **[!UICONTROL Add]** naast het vak Verbinding.
+1. In om het even welke module, voegt de klik **[!UICONTROL toe]** naast het vakje van de Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -117,7 +117,7 @@ Verbinding maken voor uw [!DNL Adobe Storage] -modules:
       </col>
       <tbody>
         <tr>
-        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td role="rowheader">[!UICONTROL-verbindingstype]</td>
         <td>Selecteer <code>Server to server</code> .</td>
         </tr>
         <tr>
@@ -127,20 +127,20 @@ Verbinding maken voor uw [!DNL Adobe Storage] -modules:
         </td>
         </tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de [!UICONTROL Credential details] -sectie van het project in de [!DNL Adobe Developer Console] .</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credential details] van het project in de [!DNL Adobe Developer Console] .</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de [!UICONTROL Credential details] -sectie van het project in de [!DNL Adobe Developer Console] .</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credential details] van het project in de [!DNL Adobe Developer Console] .</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL IMS Organization ID]</td>
+        <td role="rowheader">[!UICONTROL IMS Organisatie-ID]</td>
         <td>Voer uw Adobe IMS-organisatie-id in of wijs deze toe. Dit is een tekenreeks met de notatie <code> 123abc@AdobeOrg</code> , waarbij de sectie voor de @ een hexadecimaal getal is. U kunt deze waarde vinden als onderdeel van het URL-pad voor uw organisatie in de Adobe Admin Console of in de Adobe.IO-console voor de integratie van uw gebruikersbeheer.</td>
         </tr>
       </tbody>
     </table>
 
-1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+1. Klik **[!UICONTROL verdergaan]** om de verbinding te bewaren en aan de module terug te keren.
 
 ## Adobe Storage-modules en hun velden
 

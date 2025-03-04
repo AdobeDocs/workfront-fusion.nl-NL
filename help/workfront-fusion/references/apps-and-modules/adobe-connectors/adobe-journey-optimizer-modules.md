@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d0ccf4d-9f06-4210-86ec-7da7970f6a47
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3704'
 ht-degree: 0%
 
 ---
@@ -47,13 +47,13 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
       <td>
    <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Vereiste voor een oudere licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Huidige productvereiste: als u het abonnement [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] is opgenomen in het abonnement [!UICONTROL Ultimate] [!DNL Workfront] .</p>
    <p>of</p>
    <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td>
@@ -97,7 +97,7 @@ De Adobe Journey Optimizer-connector gebruikt het volgende:
 
 U kunt een verbinding maken in elke Adobe Journey Optimizer-module.
 
-1. Klik op **[!UICONTROL Add]** naast het vak Verbinding.
+1. In om het even welke module, voegt de klik **[!UICONTROL toe]** naast het vakje van de Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -114,24 +114,24 @@ U kunt een verbinding maken in elke Adobe Journey Optimizer-module.
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td role="rowheader">[!UICONTROL-omgeving]</td>
         <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Type]</td>
+        <td role="rowheader">[!UICONTROL-type]</td>
         <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het detailgedeelte [!UICONTROL Credentials] van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het detailgedeelte [!UICONTROL Credentials] van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Organization ID]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL-organisatie-ID]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL-organisatie-id] in. Dit vindt u in het detailgedeelte [!UICONTROL Credentials] van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Sandbox Name]</td>
@@ -183,11 +183,11 @@ Deze actiemodule leidt tot een het in kaart brengen eindpunt of throttling confi
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u een het maximum configuratie of een throttling configuratie creeert.<ul><li><p><b>Afbeelding</b></p>Ga aan <a href="#capping-fields" class="MCXref xref" > Afschilderende gebieden </a> verder.</li><li><p><b>Throttling</b></p>Ga aan <a href="#throttling-fields" class="MCXref xref" > Throtting gebieden </a> verder.</li></ul></td> 
   </tr> 
    </tbody> 
@@ -207,23 +207,23 @@ Deze actiemodule leidt tot een het in kaart brengen eindpunt of throttling confi
    <td>Voer de Adobe IMS-id van de organisatie in of wijs deze toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Methods]</td> 
+   <td role="rowheader">[!UICONTROL-methoden]</td> 
    <td>Selecteer de methoden die u in deze configuratie wilt gebruiken.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Service]</td> 
+   <td role="rowheader">[!UICONTROL-service]</td> 
    <td>Selecteer of u een actie of een gegevensbron voor deze configuratie gebruikt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
+   <td role="rowheader">[!UICONTROL Maximale HTTP-verbindingen]</td> 
    <td>Ga of kaart het maximumaantal gelijktijdige verbindingen aan dit eindpunt in.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
+   <td role="rowheader">[!UICONTROL Maximum vraag]</td> 
    <td>Ga of kaart het maximumaantal vraag in dat op de periode wordt uitgevoerd die op het gebied van de Periode wordt gespecificeerd.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Time period (milliseconds)]</td> 
+   <td role="rowheader">[!UICONTROL-tijdsperiode (milliseconden)]</td> 
    <td>Ga of kaart het aantal milliseconden in dat op het Maximum vraaggebied betrekking heeft.</td> 
   </tr> 
  </tbody> 
@@ -235,31 +235,31 @@ Deze actiemodule leidt tot een het in kaart brengen eindpunt of throttling confi
  <col> 
  <col> 
  <tbody> <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td role="rowheader">[!UICONTROL-naam]</td> 
    <td>Ga of kaart een naam voor deze configuratie in.</td> 
 <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td role="rowheader">[!UICONTROL-beschrijving]</td> 
    <td>Ga of kaart een beschrijving voor deze configuratie in.</td> 
   </tr> 
 <tr> 
-   <td role="rowheader">[!UICONTROL URL pattern]</td> 
+   <td role="rowheader">[!UICONTROL URL-patroon]</td> 
    <td>Ga of kaart URL voor het eindpunt in u wilt vertragen.</td> 
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Methods]</td> 
+   <td role="rowheader">[!UICONTROL-methoden]</td> 
    <td>Selecteer de methoden die u in deze configuratie wilt gebruiken.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Max throughput]</td> 
+   <td role="rowheader">[!UICONTROL Maximale doorvoer]</td> 
    <td>Selecteer of u een actie of een gegevensbron voor deze configuratie gebruikt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum HTTP connections]</td> 
+   <td role="rowheader">[!UICONTROL Maximale HTTP-verbindingen]</td> 
    <td>Ga of kaart het maximumaantal gelijktijdige verbindingen aan dit eindpunt in.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum calls]</td> 
+   <td role="rowheader">[!UICONTROL Maximum vraag]</td> 
    <td>Ga of kaart de maximumproductie in die u voor dit eindpunt wilt. Deze waarde moet liggen tussen 200 en 5000.</td> 
   </tr> 
  </tbody> 
@@ -274,11 +274,11 @@ Deze actiemodule stelt de gespecificeerde het in kaart brengen of het vertragen 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u een het begrenzen configuratie of een throttling configuratie opstelt.</td> 
   </tr> 
   <tr> 
@@ -297,11 +297,11 @@ Deze actiemodule werkt de opgegeven configuratie voor het aftappen of vertragen 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u een het maximum configuratie of een throttling configuratie bijwerkt.<ul><li><p><b>Afbeelding</b></p>Voor gebieden, zie <a href="#capping-fields" class="MCXref xref" > Afdekkende gebieden </a> in Create een configuratiesectie van dit artikel.</li><li><p><b>Throttling</b></p>Voor gebieden, zie <a href="#throttling-fields" class="MCXref xref" > Throtting gebieden </a> in Create een configuratiesectie van dit artikel.</li></ul></td> 
   </tr> 
   </tbody> 
@@ -316,11 +316,11 @@ Deze actiemodule maakt de implementatie van een configuratie voor plafonneren of
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u een het begrenzen configuratie of een throttling configuratie verwijdert.</td> 
   </tr> 
   <tr> 
@@ -339,11 +339,11 @@ Deze actiemodule verifieert of een maximum of throttling configuratie kan worden
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u een het maximum configuratie of een throttling configuratie controleert.</td> 
   </tr> 
   <tr> 
@@ -364,11 +364,11 @@ Als de configuratie is opgesteld, moet het worden gedesgroepeerd alvorens het ka
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u een het begrenzen configuratie of een throttling configuratie schrapt.</td> 
   </tr> 
   <tr> 
@@ -387,11 +387,11 @@ Deze actiemodule keert de het begrenzen of vertragen configuratie terug die door
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u een het begrenzen configuratie of een throttling configuratie terugwint.</td> 
   </tr> 
   <tr> 
@@ -411,7 +411,7 @@ Deze actiemodule keert de het begrenzen of vertragen configuratie terug die door
 * [Een pakket verwijderen](#delete-a-package)
 * [Een pakket opzoeken](#look-up-a-package)
 * [Een pakket importeren](#import-a-package)
-* [Publish een pakket](#publish-a-package)
+* [Een pakket publiceren](#publish-a-package)
 * [Importeren verzenden](#submit-an-import)
 
 
@@ -425,27 +425,27 @@ Deze actiemodule maakt een pakket met meerdere artefacten.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td role="rowheader">[!UICONTROL-naam]</td> 
    <td>Voer een naam voor het pakket in of wijs een naam toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td role="rowheader">[!UICONTROL-beschrijving]</td> 
    <td>Voer een beschrijving van het pakket in of wijs deze toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Expiration date]</td> 
+   <td role="rowheader">[!UICONTROL-vervaldatum]</td> 
    <td>Voer de tijdstempel in of wijs deze toe die de vervaldatum voor het pakket definieert. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Package type]</td> 
+   <td role="rowheader">[!UICONTROL-pakkettype]</td> 
    <td>Selecteer het type pakket dat u wilt maken.<ul><li><p><b>Volledig</b></p>Het pakket bevat alle artefacten</p></li><li><p><b>Gedeeltelijk</b></p><p>Het pakket bevat alleen artefacten die u toevoegt. </p></li><ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Artifacts]</td> 
+   <td role="rowheader">[!UICONTROL-artefacten]</td> 
    <td>Als u een gedeeltelijk pakket creeert, voor elk artefact wilt u toevoegen, <b> klikken voegt artefact </b> toe en specificeert identiteitskaart, type, en titel van het artefact. </td> 
   </tr> 
   <tr> 
@@ -464,7 +464,7 @@ Met deze actiemodule kunt u artefacten uit een pakket toevoegen of verwijderen o
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -483,7 +483,7 @@ In deze actiemodule wordt een pakket met meerdere artefacten verwijderd.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -502,7 +502,7 @@ Deze actiemodule wint details van het gespecificeerde pakket terug.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -523,7 +523,7 @@ U moet een pakket publiceren voordat u het kunt importeren.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -531,13 +531,13 @@ U moet een pakket publiceren voordat u het kunt importeren.
    <td>Voer de id in van het pakket dat u wilt importeren of wijs deze toe.</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
+   <td role="rowheader">[!UICONTROL-doelsandbox]</td> 
    <td>Typ of wijs de naam van de sandbox toe waar u het pakket wilt importeren.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### Publish een pakket
+#### Een pakket publiceren
 
 U moet een pakket publiceren voordat u het kunt importeren.
 
@@ -546,7 +546,7 @@ U moet een pakket publiceren voordat u het kunt importeren.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -565,7 +565,7 @@ Deze actiemodule verzendt een import voor een pakket nadat u conflicten hebt bek
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -573,31 +573,31 @@ Deze actiemodule verzendt een import voor een pakket nadat u conflicten hebt bek
    <td>Voer de id in van het pakket dat u wilt publiceren of wijs deze toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td role="rowheader">[!UICONTROL-naam]</td> 
    <td>Voer een naam in of wijs een naam toe aan de importtaak.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td role="rowheader">[!UICONTROL-beschrijving]</td> 
    <td>Een beschrijving van de importtaak invoeren of toewijzen</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL (Destination sandbox) Name]</td> 
+   <td role="rowheader">[!UICONTROL (doelsandbox) naam]</td> 
    <td>Voer de naam in van de sandbox waarnaar u de importbewerking verzendt of wijs de naam hiervan toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL (Destination sandbox) IMS Org ID]</td> 
+   <td role="rowheader">[!UICONTROL (doelsandbox) IMS-organisatie-id]</td> 
    <td>Voer de Adobe IMS-organisatie-id in of wijs deze toe voor de sandbox waarnaar u de import verzendt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL (Source sandbox) ID]</td> 
+   <td role="rowheader">[!UICONTROL (Source-sandbox)-id]</td> 
    <td>Voer de id in van de sandbox die het pakket bevat dat u wilt publiceren of wijs deze id toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL (Source sandbox) Type]</td> 
+   <td role="rowheader">[!UICONTROL (Source-sandbox) Type]</td> 
    <td></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL (Source sandbox) Link]</td> 
+   <td role="rowheader">[!UICONTROL (Source-sandbox) Link]</td> 
    <td>Voer de koppeling in of wijs de koppeling toe voor het pakket dat u wilt publiceren.</td> 
   </tr> 
  </tbody> 
@@ -820,11 +820,11 @@ In deze actiemodule wordt een nieuwe inhoudssjabloon of een nieuw inhoudsfragmen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td role="rowheader">[!UICONTROL Soort inhoud selecteren]</td> 
    <td>Selecteer of u een inhoudssjabloon of een inhoudsfragment maakt.<ul><li><p><b>Inhoudssjabloon</b></p>Ga aan <a href="#template-fields" class="MCXref xref" > gebieden van het Malplaatje </a> verder.</li><li><p><b>Inhoudsfragment</b></p>Ga aan <a href="#fragment-fields" class="MCXref xref" > gebieden van het Fragment </a> verder.</li></ul></td> 
   </tr> 
   </tbody> 
@@ -836,32 +836,32 @@ In deze actiemodule wordt een nieuwe inhoudssjabloon of een nieuw inhoudsfragmen
  <col> 
  <col> 
  <tbody> <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td role="rowheader">[!UICONTROL-naam]</td> 
    <td>Voer een naam voor deze inhoudssjabloon in of wijs deze toe.</td> 
 <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td role="rowheader">[!UICONTROL-beschrijving]</td> 
    <td>Voer een beschrijving voor deze inhoudssjabloon in of wijs deze toe.</td> 
   </tr> 
 <tr> 
-   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td role="rowheader">[!UICONTROL-type]</td> 
    <td>Selecteer het type sjabloon dat u wilt maken.</td> 
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td role="rowheader">[!UICONTROL-kanalen]</td> 
    <td>Selecteer de kanalen die in deze sjabloon zijn opgenomen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Content template origin]</td> 
+   <td role="rowheader">[!Oorsprong van UICONTROL-inhoudssjabloon]</td> 
    <td>Selecteer de bron voor deze sjabloon.</td>  
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Metadata]</td> 
+   <td role="rowheader">[!UICONTROL-metagegevens]</td> 
    <td>Als u aangepaste eigenschappen in de nieuwe sjabloon wilt opnemen, selecteert u "Metagegevens toevoegen" en voert u de sleutel en waarde van de metagegevens in of wijst u deze toe. Herhaal dit voor elk aangepast veld dat u wilt opnemen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Email HTML]</td> 
-   <td>Voer de HTML in van het e-mailbericht dat in deze sjabloon is opgenomen of wijs dit toe.</td> 
+   <td>Voer de HTML van het e-mailbericht in dat in deze sjabloon is opgenomen of wijs het e-mailadres toe.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Editor context]</td> 
@@ -876,31 +876,31 @@ In deze actiemodule wordt een nieuwe inhoudssjabloon of een nieuw inhoudsfragmen
  <col> 
  <col> 
  <tbody> <tr> 
-   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td role="rowheader">[!UICONTROL-naam]</td> 
    <td>Voer een naam in of wijs een naam toe aan dit inhoudsfragment.</td> 
 <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td role="rowheader">[!UICONTROL-beschrijving]</td> 
    <td>Voer een beschrijving voor dit inhoudsfragment in of wijs deze toe.</td> 
   </tr> 
 <tr> 
-   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td role="rowheader">[!UICONTROL-type]</td> 
    <td>Selecteer het type sjabloon dat u wilt maken.</td> 
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Channels]</td> 
+   <td role="rowheader">[!UICONTROL-kanalen]</td> 
    <td>Selecteer de kanalen die in deze sjabloon zijn opgenomen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Content fragment origin]</td> 
+   <td role="rowheader">[!Oorsprong van UICONTROL-inhoudsfragment]</td> 
    <td>Selecteer de bron voor dit fragment.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Metadata]</td> 
+   <td role="rowheader">[!UICONTROL-metagegevens]</td> 
    <td>Als u aangepaste eigenschappen in de nieuwe sjabloon wilt opnemen, selecteert u "Metagegevens toevoegen" en voert u de sleutel en waarde van de metagegevens in of wijst u deze toe. Herhaal dit voor elk aangepast veld dat u wilt opnemen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Content]</td> 
+   <td role="rowheader">[!UICONTROL-inhoud]</td> 
    <td>Voer de inhoud van het fragment in of wijs deze toe.</td> 
   </tr> 
   <tr> 
@@ -919,11 +919,11 @@ Deze actiemodule werkt een inhoudssjabloon of fragment bij.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td role="rowheader">[!UICONTROL Soort inhoud selecteren]</td> 
    <td>Selecteer of u een het maximum configuratie of een throttling configuratie bijwerkt.<ul><li><p><b>Sjabloon</b></p>Voor gebieden, zie {de gebieden van het 0} Malplaatje </a> in Create een verslagsectie van dit artikel.<a href="#template-fields" class="MCXref xref" ></li><li><p><b>Fragment</b></p>Voor gebieden, zie {de gebieden van het 0} Fragment </a> in Create een verslagsectie van dit artikel.<a href="#fragment-fields" class="MCXref xref" ></li></ul></td> 
   </tr> 
   </tbody> 
@@ -938,15 +938,15 @@ Met deze actiemodule verwijdert u een inhoudssjabloon of inhoudsfragment.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td role="rowheader">[!UICONTROL Soort inhoud selecteren]</td> 
    <td>Selecteer of u een inhoudssjabloon of inhoudsfragment verwijdert.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td role="rowheader">[!UICONTROL-sjabloon/fragment-ID]</td> 
    <td>Voer de id in van de sjabloon of het fragment dat u wilt verwijderen of wijs deze toe.</td> 
   </tr> 
  </tbody> 
@@ -954,22 +954,22 @@ Met deze actiemodule verwijdert u een inhoudssjabloon of inhoudsfragment.
 
 #### Een record repareren
 
-Deze actiemodule werkt een record bij met behulp van PATCH met JSON-aanwijzerindeling
+Met deze actiemodule wordt een record bijgewerkt met PATCH met JSON-aanwijzerindeling
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td role="rowheader">[!UICONTROL Soort inhoud selecteren]</td> 
    <td>Selecteer of u een inhoudssjabloon of inhoudsfragment patcheert.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td role="rowheader">[!UICONTROL-sjabloon/fragment-ID]</td> 
    <td>Voer de id in van de sjabloon of het fragment dat u wilt repareren of wijs deze toe.</td> 
   </tr> 
   <tr> 
@@ -988,15 +988,15 @@ Deze actiemodule retourneert de inhoudssjabloon of het inhoudsfragment dat door 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td role="rowheader">[!UICONTROL Soort inhoud selecteren]</td> 
    <td>Selecteer of u een inhoudssjabloon of inhoudsfragment ophaalt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Template/Fragment ID]</td> 
+   <td role="rowheader">[!UICONTROL-sjabloon/fragment-ID]</td> 
    <td>Voer de id in of wijs deze toe aan de sjabloon of het fragment dat u wilt ophalen.</td> 
   </tr> 
  </tbody> 
@@ -1020,19 +1020,19 @@ Deze actiemodule activeert een eenheidbericht aan de ontvangers u specificeert.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Request ID]</td> 
+   <td role="rowheader">[!UICONTROL-aanvraag-ID]</td> 
    <td>Ga of kaart identiteitskaart van het verzoek verbonden aan dit bericht in.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
+   <td role="rowheader">[!UICONTROL-campagne-ID]</td> 
    <td>Voer de id van de campagne die aan dit bericht is gekoppeld in of wijs deze toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Recipients]</td> 
+   <td role="rowheader">[!UICONTROL-ontvangers]</td> 
    <td>Voor elke ontvanger wilt u dit bericht ontvangen, <b> toevoegen ontvanger </b> en ga het volgende in:
    <ul>
    <li><p><b>Type</b></p>Selecteer <code>aep</code> .</li>
@@ -1057,19 +1057,19 @@ Deze actiemodule brengt de uitvoering van een op publiek-gebaseerd bericht tewee
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Request ID]</td> 
+   <td role="rowheader">[!UICONTROL-aanvraag-ID]</td> 
    <td>Ga of kaart identiteitskaart van het verzoek verbonden aan dit bericht in.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Campaign ID]</td> 
+   <td role="rowheader">[!UICONTROL-campagne-ID]</td> 
    <td>Voer de id van de campagne die aan dit bericht is gekoppeld in of wijs deze toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Product]</td> 
+   <td role="rowheader">[!UICONTROL-product]</td> 
    <td>Ga of kaart het product verbonden aan dit bericht in. Dit wordt gebruikt voor dynamische veranderlijke vervanging in de berichtinhoud.</td> 
   </tr> 
  </tbody> 
@@ -1084,11 +1084,11 @@ Deze actiemodule controleert de status van een publiek-gebaseerd partijbericht.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Message execution ID]</td> 
+   <td role="rowheader">[!UICONTROL Message executing ID]</td> 
    <td>Voer de id in van het bericht dat u wilt controleren of wijs deze toe.</td> 
   </tr> 
  </tbody> 
@@ -1128,7 +1128,7 @@ Deze actiemodule controleert de gebiedsdelen voor pakketartefacten. Op deze mani
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -1136,7 +1136,7 @@ Deze actiemodule controleert de gebiedsdelen voor pakketartefacten. Op deze mani
    <td>Voer de id in van het pakket waarvoor u machtigingen wilt controleren of wijs deze toe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
+   <td role="rowheader">[!UICONTROL-doelsandbox]</td> 
    <td>Typ of wijs de naam van de sandbox toe waarin u het pakket wilt importeren.</td> 
   </tr> 
  </tbody> 
@@ -1151,11 +1151,11 @@ Deze actiemodule controleert of een importtaak is gelukt of mislukt.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Job ID]</td> 
+   <td role="rowheader">[!UICONTROL-taak-ID]</td> 
    <td>Voer de id in van de taak waarvoor u gegevens wilt ophalen of wijs deze toe.</td> 
   </tr> 
  </tbody> 
@@ -1178,11 +1178,11 @@ In deze zoekmodule worden alle afhankelijke objecten voor objecten in het opgege
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Package objects]</td> 
+   <td role="rowheader">[!UICONTROL Package, objecten]</td> 
    <td>Voor elk voorwerp in het pakket dat u afhankelijk voorwerp voor wilt terugkeren, <b> voegt voorwerp </b> toe en gaat de naam en het type van objecten in.</td> 
   </tr> 
   <tr> 
@@ -1190,7 +1190,7 @@ In deze zoekmodule worden alle afhankelijke objecten voor objecten in het opgege
    <td>Voer de id in van het pakket waarvoor u afhankelijke objecten wilt weergeven of wijs deze toe.</td> 
   </tr> 
     <tr> 
-   <td role="rowheader">[!UICONTROL Target sandbox]</td> 
+   <td role="rowheader">[!UICONTROL-doelsandbox]</td> 
    <td>Typ of wijs de naam toe van de sandbox die het pakket bevat waarvoor u afhankelijke objecten wilt weergeven.</td> 
   </tr> 
  </tbody> 
@@ -1205,11 +1205,11 @@ Deze actiemodule maakt een lijst van alle maximum of vertragende configuraties.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select configuration type]</td> 
+   <td role="rowheader">[!UICONTROL Select configuratietype]</td> 
    <td>Selecteer of u de configuraties van de plafondconfiguratie of een vertragende configuratie wilt vermelden.</td> 
   </tr> 
  </tbody> 
@@ -1224,7 +1224,7 @@ In deze zoekmodule wordt de huidige export- en importtaak vermeld. U kunt queryp
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -1232,7 +1232,7 @@ In deze zoekmodule wordt de huidige export- en importtaak vermeld. U kunt queryp
    <td></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
+   <td role="rowheader">[!UICONTROL Maximum aantal geretourneerde resultaten]</td> 
       <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td>
   </tr> 
   <tr> 
@@ -1240,7 +1240,7 @@ In deze zoekmodule wordt de huidige export- en importtaak vermeld. U kunt queryp
       <td>Selecteer of u resultaten wilt sorteren op gemaakte datum of op gewijzigde datum.</td>
   </tr> 
     <tr> 
-   <td role="rowheader">[!UICONTROL Query parameter]</td> 
+   <td role="rowheader">[!UICONTROL-query, parameter]</td> 
    <td>Voor elke vraagparameter die u wilt filtreren door, <b> klikken voegt vraagparameter </b> toe, dan selecteert het gebied en de exploitant, en gaat de gebiedswaarde voor de filter in.</td> 
   </tr> 
  </tbody> 
@@ -1257,7 +1257,7 @@ In deze zoekmodule worden alle pakketten in uw organisatie weergegeven. U kunt q
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
@@ -1265,7 +1265,7 @@ In deze zoekmodule worden alle pakketten in uw organisatie weergegeven. U kunt q
    <td></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
+   <td role="rowheader">[!UICONTROL Maximum aantal geretourneerde resultaten]</td> 
       <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td>
   </tr> 
   <tr> 
@@ -1273,7 +1273,7 @@ In deze zoekmodule worden alle pakketten in uw organisatie weergegeven. U kunt q
       <td>Selecteer of u resultaten wilt sorteren op gemaakte datum of op gewijzigde datum.</td>
   </tr> 
     <tr> 
-   <td role="rowheader">[!UICONTROL Query parameter]</td> 
+   <td role="rowheader">[!UICONTROL-query, parameter]</td> 
    <td>Voor elke vraagparameter die u wilt filtreren door, <b> klikken voegt vraagparameter </b> toe, dan selecteert het gebied en de exploitant, en gaat de gebiedswaarde voor de filter in.</td> 
   </tr> 
  </tbody> 
@@ -1288,11 +1288,11 @@ Deze zoekmodule bevat een lijst met alle configuraties die kunnen worden bijgesn
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td role="rowheader">[!UICONTROL-verbinding]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Select content type]</td> 
+   <td role="rowheader">[!UICONTROL Soort inhoud selecteren]</td> 
    <td>Selecteer of u een inhoudssjabloon of inhoudsfragment ophaalt.</td> 
   </tr> 
   <tr> 
@@ -1308,7 +1308,7 @@ Deze zoekmodule bevat een lijst met alle configuraties die kunnen worden bijgesn
    <td>Voer de parameternaam in of wijs deze toe waarop u deze lijst wilt sorteren. Voeg <code>-</code> of <code>+</code> toe om aflopend of oplopend te sorteren. Als er geen teken is opgegeven, wordt de lijst aflopend gesorteerd.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Filter by property]</td> 
+   <td role="rowheader">[!UICONTROL-filter op eigenschap]</td> 
    <td>Voor elke bezitsfilter wilt u toevoegen, <b> toevoegen punt </b> klikken en de sleutel en de waarde van het bezit ingaan. Records die de opgegeven waarde voor de eigenschap bevatten, worden in de lijst opgenomen.</td> 
   </tr> 
  </tbody> 
@@ -1327,7 +1327,7 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de Adobe Journey Optimize
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td role="rowheader">[!UICONTROL-verbinding]</td>
    <td>Zie <a href="#create-a-connection-to-adobe-journey-optimizer" class="MCXref xref" > Verbinding maken met [!DNL Adobe Journey Optimizer]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Journey Optimizer] .</td> 
     </tr>
     <tr>
@@ -1338,12 +1338,12 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de Adobe Journey Optimize
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Method]</p>
+        <p>[!UICONTROL, methode]</p>
       </td>
    <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td role="rowheader">[!UICONTROL-kopteksten]</td>
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
@@ -1351,7 +1351,7 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de Adobe Journey Optimize
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td role="rowheader">[!UICONTROL-queryreeks]  </td>
       <td>
         <p>Voer de queryreeks voor de aanvraag in.</p>
       </td>
