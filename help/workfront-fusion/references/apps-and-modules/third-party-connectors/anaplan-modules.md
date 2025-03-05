@@ -3,9 +3,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
 workflow-type: tm+mt
-source-wordcount: '1616'
+source-wordcount: '1623'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,8 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -27,35 +29,37 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -151,7 +155,7 @@ Deze triggermodule start een scenario wanneer een record van het gekozen type wo
   </tr> 
   <tr> 
    <td role="rowheader">Limiet</td> 
-   <td> <p>Ga of kaart het maximumaantal verslagen in u de module aan [actie] tijdens elke cyclus van de scenariouitvoering wilt.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -392,12 +396,12 @@ Deze actiemodule werkt één record bij in [!UICONTROL Anaplan] .
        <li> <p style="font-weight: bold;">[!UICONTROL Dimension ID]</p> <p>Selecteer of wijs de afmeting toe die op het lijnpunt is.</p> 
        <p><b> Opmerking: </b> 
        <ul>
-       <li> Dimension key (value) moet <code>dimensionName</code> (next) of <code>dimensionId</code> (ID) zijn.</li>
+       <li> Dimension-sleutel (waarde) moet <code>dimensionName</code> (Volgende) of <code>dimensionId</code> (ID) zijn.</li>
        <li>De itemsleutel (waarde) moet <code>itemName</code> (tekst), <code>itemCode</code> (tekst) of <code>itemId</code> (id) zijn.</li>
-       <li>Dimension- en itemtoetsen moeten van hetzelfde type zijn (tekst of id).
+       <li>Dimension- en itemsleutels moeten van hetzelfde type zijn (tekst of id).
        </ul>
         </p> 
-        <p>Zoek naar Dimensionen in de [!DNL Anaplan Anapedia] voor informatie over de afmetingen.</p> </li> 
+        <p>Voor informatie over afmetingen, onderzoek naar Afmetingen in [!DNL Anaplan Anapedia].</p> </li> 
        <li> <p><b>[!UICONTROL Value]</b> </p> <p>Voer de nieuwe waarde voor de cel in of wijs deze toe.</p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Model current fiscal year]</b> </p> <p>Voer de Workspace-id en de model-id in van het model waarvoor u het boekjaar wilt bijwerken en voer vervolgens het nieuwe jaar voor het model in of wijs dit toe.</p> </li> 

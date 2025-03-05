@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
 workflow-type: tm+mt
-source-wordcount: '2717'
+source-wordcount: '2716'
 ht-degree: 0%
 
 ---
@@ -455,7 +455,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr>
     <td>[!UICONTROL Record Type]</td>
-    <td>Selecteer het type [!DNL Salesforce] record dat de module [action].read moet gebruiken.</td>
+    <td>Selecteer het type [!DNL Salesforce] record dat u wilt lezen in de module.</td>
   </tr> 
   <tr>
     <td>[!UICONTROL Record Fields]</td>

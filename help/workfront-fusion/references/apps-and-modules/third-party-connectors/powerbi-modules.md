@@ -1,10 +1,10 @@
 ---
-title: Power BI
+title: Power BI-modules
 description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 author: Becky
 feature: Workfront Fusion
 exl-id: 73eb70e1-3f3d-419d-9cde-3ec3cda224f8
-source-git-commit: 9e560995ff9f58a76bbecc521f7d2eef9d47fa48
+source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
 workflow-type: tm+mt
 source-wordcount: '2089'
 ht-degree: 0%
@@ -737,7 +737,7 @@ Deze onderzoeksmodule wint een lijst van datasets terug.
     <tr>
       <td role="rowheader">[!UICONTROL Limit]</td>
       <td>
-        <p>Ga of kaart het maximumaantal verslagen in u de module aan [actie] tijdens elke cyclus van de scenariouitvoering wilt.</p>
+        <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p>
       </td>
     </tr>
   </tbody>

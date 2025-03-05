@@ -4,7 +4,7 @@ description: Om  [!DNL Google Sheets]  met  [!DNL Adobe Workfront Fusion],you ne
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 80965570-2937-4ac8-97c0-54f7a813ec50
-source-git-commit: 994dffd83d5b7d8b72396f147df352dfb74d6219
+source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
 workflow-type: tm+mt
 source-wordcount: '3464'
 ht-degree: 0%
@@ -451,7 +451,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [Fusion App] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding aan [!DNL Adobe Workfront Fusion] tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw rekening van Google Sheets aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -644,7 +644,7 @@ Hiermee doorzoekt u rijen met de filteropties.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het aansluiten van uw [Fusion App] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding aan [!DNL Adobe Workfront Fusion] tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw rekening van Google Sheets aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Spreadsheet] </td> 

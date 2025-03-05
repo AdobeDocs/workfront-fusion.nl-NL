@@ -4,9 +4,9 @@ description: CloudConvert-modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 52c4d18a-8bee-44d6-9a2c-cc9e157e1dde
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
 workflow-type: tm+mt
-source-wordcount: '2498'
+source-wordcount: '2497'
 ht-degree: 0%
 
 ---
@@ -248,7 +248,7 @@ Hiermee kunt u een of meer bestanden toevoegen aan het archief ZIP, RAR, 7Z, TAR
 
 #### [!UICONTROL Merge Files]
 
-Voegt minstens twee bestanden samen tot één PDF. Als invoerbestanden geen PDF zijn, worden ze automatisch omgezet in PDF.
+Voegt minstens twee bestanden samen tot één PDF. Als invoerbestanden geen PDF&#39;s zijn, worden ze automatisch geconverteerd naar PDF.
 
 <table style="table-layout:auto">
  <col> 
@@ -291,7 +291,7 @@ Voegt minstens twee bestanden samen tot één PDF. Als invoerbestanden geen PDF 
 
 #### [!UICONTROL Optimize a File]
 
-Deze actiemodule optimaliseert en comprimeert een bestand in de indeling PDF, PNG of JPG.
+Met deze actiemodule optimaliseert en comprimeert u een bestand in PDF-, PNG- of JPG-indeling.
 
 U geeft het bestand en de parameters op voor het optimaliseren en opslaan ervan.
 
@@ -351,7 +351,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Scanned images]</strong>: Optimalisatie voor gescande afbeeldingen</p> 
       <ul> 
-       <li> <p>Profiel geoptimaliseerd voor PDF die voornamelijk bestaan uit rasterafbeeldingen</p> </li> 
+       <li> <p>Profiel geoptimaliseerd voor PDF's die voornamelijk bestaan uit rasterafbeeldingen</p> </li> 
        <li> <p>De afbeeldingen comprimeren zonder de visuele kwaliteit aanzienlijk te verlagen</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL maximal size reduction]</strong>: Optimalisatie voor maximale reductie van grootte</p> 
@@ -712,7 +712,7 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het aansluiten van uw [Fusion App] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw rekening CloudConvert aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 

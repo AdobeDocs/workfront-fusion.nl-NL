@@ -4,7 +4,7 @@ description: Met de  [!DNL Adobe Acrobat Sign]  modules, kunt u een  [!DNL Adobe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0ef9d40e-8ad6-434e-8fa0-076920ff29ea
-source-git-commit: 5a95b2c191d4e6d8750dc57a47923f416612b4a9
+source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
 workflow-type: tm+mt
 source-wordcount: '5503'
 ht-degree: 0%
@@ -82,7 +82,7 @@ Nieuwe gebruikers van [!DNL Adobe Sign] moeten bepaalde beperkingen rond het bij
 
 [!DNL Adobe Sign] -overeenkomsten hebben een veld nodig om mee te werken. Er zijn enkele opties om dit te doen, maar de eenvoudigste en meest voorkomende is het uploaden van een tijdelijk document en het vervolgens toewijzen van dat document aan uw overeenkomst.
 
-![ aanbevelingen van Adobe Sign ](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
+![ de aanbevelingen van het Ondertekenen van Adobe ](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
 
 ## [!DNL Adobe Acrobat Sign] modules en hun velden
 
@@ -124,7 +124,7 @@ Deze triggermodule start een scenario wanneer een overeenkomst wordt gemaakt of 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Find text]</td> 
-   <td> <p>Voer termen in waarnaar u wilt zoeken. De module retourneert records die deze termen als veldwaarden bevatten.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van tekst"in <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks"> Onderzoek van Adobe Sign werkt - hoe het </a> werkt.</p> </td> 
+   <td> <p>Voer termen in waarnaar u wilt zoeken. De module retourneert records die deze termen als veldwaarden bevatten.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van tekst"in <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks"> het Onderteken van Adobe Onderzoek werkt - hoe het </a> werkt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned agreements]</td> 
@@ -428,7 +428,7 @@ Deze actiemodule maakt een overeenkomst, verzendt deze ter ondertekening en reto
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL CCs]</td> 
-   <td> <p>U kunt deze overeenkomst verzenden naar belanghebbende partijen die niet hoeven te ondertekenen, zoals belanghebbenden. Ze ontvangen een e-mail aan het begin van het ondertekeningsproces en een andere e-mail wanneer de definitieve handtekening wordt ontvangen. Zij ontvangen ook een PDF-exemplaar van de overeenkomst. </p> <p>Voor elke persoon die u voor deze overeenkomst wilt CC, klikt u op <b>[!UICONTROL Add item]</b> en vult u de volgende velden in:</p> 
+   <td> <p>U kunt deze overeenkomst verzenden naar belanghebbende partijen die niet hoeven te ondertekenen, zoals belanghebbenden. Ze ontvangen een e-mail aan het begin van het ondertekeningsproces en een andere e-mail wanneer de definitieve handtekening wordt ontvangen. Zij ontvangen ook een PDF-kopie van de overeenkomst. </p> <p>Voor elke persoon die u voor deze overeenkomst wilt CC, klikt u op <b>[!UICONTROL Add item]</b> en vult u de volgende velden in:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL Email]</b> </p> <p>Voer het e-mailadres in of wijs het e-mailadres toe dat u wilt gebruiken in de overeenkomst.</p> </li> 
      <li> <p><b>[!UICONTROL Label]</b> </p> <p>Voer een label voor dit e-mailadres in of wijs dit toe, zoals in de beschrijving van de workflow wordt getoond</p> </li> 
@@ -477,7 +477,7 @@ Deze actiemodule maakt een overeenkomst, verzendt deze ter ondertekening en reto
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Security option]</td> 
-   <td> <p>Ga of kaart het secundaire wachtwoord in dat zal worden gebruikt om het document van de PDF te beveiligen. </p> <p>Belangrijk: [!DNL Adobe Sign] zal dit wachtwoord nooit delen, zodat moet u het aan om het even welke relevante partijen afzonderlijk meedelen.</p> </td> 
+   <td> <p>Voer het secundaire wachtwoord in of wijs het toe waarmee het PDF-document wordt beveiligd. </p> <p>Belangrijk: [!DNL Adobe Sign] zal dit wachtwoord nooit delen, zodat moet u het aan om het even welke relevante partijen afzonderlijk meedelen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Vaulting info]</td> 
@@ -692,7 +692,7 @@ Deze actiemodule bevat een lijst met alle records van het geselecteerde type waa
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned records]</td> 
-   <td> <p>Ga of kaart het maximumaantal verslagen in u de module aan [actie] tijdens elke cyclus van de scenariouitvoering wilt.</p> <p>Opmerking: dit veld wordt gecombineerd met het veld [!UICONTROL Cursor] of [!UICONTROL Start Index] voor paginering. Als de waarde van [!UICONTROL Maximum number of returned events] bijvoorbeeld 100 is en de waarde van [!UICONTROL Start index] 101, retourneert de module de records 101-200 of de tweede pagina met resultaten.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> <p>Opmerking: dit veld wordt gecombineerd met het veld [!UICONTROL Cursor] of [!UICONTROL Start Index] voor paginering. Als de waarde van [!UICONTROL Maximum number of returned events] bijvoorbeeld 100 is en de waarde van [!UICONTROL Start index] 101, retourneert de module de records 101-200 of de tweede pagina met resultaten.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Parent domain URLs]</td> 
@@ -1045,7 +1045,7 @@ Deze zoekmodule zoekt naar overeenkomsten op basis van criteria die u opgeeft.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned results]</td> 
-   <td> <p>Ga of kaart het maximumaantal verslagen in u de module aan [actie] tijdens elke cyclus van de scenariouitvoering wilt.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
