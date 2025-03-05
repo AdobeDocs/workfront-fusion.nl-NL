@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: d4187aff574ceaf4d27112fc2ce8880421e77d0d
 workflow-type: tm+mt
-source-wordcount: '1883'
+source-wordcount: '1912'
 ht-degree: 0%
 
 ---
@@ -148,7 +148,7 @@ Als u een verbinding tussen [!DNL Workfront Fusion] en [!DNL Jira Server] wilt a
 
 #### Openbare en persoonlijke sleutels voor uw [!DNL Jira] -verbinding genereren
 
-Als u een persoonlijke sleutel voor uw [!DNL Workfront Fusion Jira] -verbinding wilt verkrijgen, moet u openbare en persoonlijke sleutels genereren.
+Als u een persoonlijke sleutel voor uw [!DNL Workfront Fusion Jira] -verbinding wilt verkrijgen, moet u openbare en persoonlijke sleutels genereren. Dit wordt gedaan door de terminal van uw computer. U kunt van uw terminal de plaats bepalen door naar terminal in uw beginmenu of computeronderzoek bar (niet uw browser onderzoeksbar.) te zoeken
 
 1. Voer in uw terminal de volgende `openssl` -opdrachten uit.
 
