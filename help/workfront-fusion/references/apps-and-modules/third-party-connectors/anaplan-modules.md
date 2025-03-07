@@ -3,9 +3,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
+source-git-commit: defc5aa9b2e3ffa5c698c5a19dd8d9d8768d72c2
 workflow-type: tm+mt
-source-wordcount: '1623'
+source-wordcount: '1749'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ De Anaplan schakelaar gebruikt het volgende:
   </tr> 
   <tr> 
    <td role="rowheader">API-tag</td> 
-   <td>v1.11.5/td&gt; 
+   <td>v1.11.5</td> 
  </tbody> 
 </table>
 
@@ -96,7 +96,49 @@ De Anaplan schakelaar gebruikt het volgende:
 Verbinding maken voor uw [!DNL Anaplan] -modules:
 
 1. Klik op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] .
-1. Selecteer het verbindingstype.
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Voer een naam in voor de nieuwe verbinding.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een productieomgeving of niet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL email]</td>
+        <td>
+          <p>Voer het e-mailadres voor dit Anaplan-account in</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Password]</td>
+        <td>Voer het wachtwoord voor deze Anaplan-account in.</td>
+      </tr>
+     </tbody>
+    </table>
+
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+
+<!--1. Click **[!UICONTROL Add]** next to the [!UICONTROL Connection] box.
+1. Select the connection type.
 
    <table style="table-layout:auto">
     <col> 
@@ -104,16 +146,16 @@ Verbinding maken voor uw [!DNL Anaplan] -modules:
     <tbody> 
      <tr> 
       <td role="rowheader">[!DNL Anaplan] [!UICONTROL Basic]</td> 
-      <td> <p>Voor het maken van een verbinding met [!DNL Anaplan] [!UICONTROL Basic] zijn alleen een e-mailadres en wachtwoord vereist. </p> <p>Voer een naam voor de verbinding in en voer vervolgens uw e-mailadres en het wachtwoord van uw [!DNL Anaplan] -account in.</p> </td> 
+      <td> <p>An [!DNL Anaplan] [!UICONTROL Basic] connection requires only an email address and password to create the connection. </p> <p>Enter a name for the connection, then enter your email address and the password of your [!DNL Anaplan] account.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!DNL Anaplan] [!UICONTROL CA Certificate]</td> 
-      <td> <p>Een [!DNL Anaplan] [!UICONTROL CA Certificate] -verbinding vereist een [!UICONTROL Certificate Key] , [!UICONTROL Encoded Data] en [!UICONTROL Encoded Signed Data] . U kunt deze genereren in uw [!DNL Anaplan] -account. Zie de documentatie van [!DNL Anaplan] voor instructies.</p> <p>Voer een naam voor de verbinding in en voer vervolgens de [!UICONTROL Certificate Key] , [!UICONTROL Encoded Data] en [!UICONTROL Encoded Signed Data] in die u in uw [!DNL Anaplan] -account hebt gegenereerd.</p> </td> 
+      <td> <p>An [!DNL Anaplan] [!UICONTROL CA Certificate] connection requires a [!UICONTROL Certificate Key], [!UICONTROL Encoded Data], and [!UICONTROL Encoded Signed Data]. You can generate these in your [!DNL Anaplan] account. For instructions, see the [!DNL Anaplan] documentation.</p> <p>Enter a name for the connection, then enter the [!UICONTROL Certificate Key], [!UICONTROL Encoded Data], and [!UICONTROL Encoded Signed Data] that you generated in your [!DNL Anaplan] account.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+1. Click **[!UICONTROL Continue]** to save the connection and return to the module.-->
 
 ## [!DNL Anaplan] modules en hun velden
 
@@ -163,6 +205,9 @@ Deze triggermodule start een scenario wanneer een record van het gekozen type wo
 ### Handelingen
 
 * [[!UICONTROL Create a list item]](#create-a-list-item)
+* [Een record verwijderen](#delete-a-record)
+* [Gegevens exporteren](#export-data)
+* [Gegevens importeren](#import-data)
 * [[!UICONTROL Make a custom API Call]](#make-a-custom-api-call)
 * [[!UICONTROL Read a record]](#read-a-record)
 * [[!UICONTROL Run an action]](#run-an-action)
@@ -208,8 +253,98 @@ Deze actiemodule voegt een nieuw punt aan een lijst in Anaplan toe.
     </tr>
     <tr>
         <td>[!UICONTROL Subsets]</td>
-        <td>Als de lijst waaraan u items wilt toevoegen aangepaste subsets bevat, selecteert u de subsets waaraan u het item wilt toevoegen en selecteert u <b>[!UICONTROL Yes]</b> om het nieuwe item aan die subset toe te voegen.</td>
+        <td>Als de lijst waaraan u items wilt toevoegen aangepaste subsets bevat, selecteert u de subsets waaraan u het item wilt toevoegen.</td>
     </tr>
+</table>
+
+#### [!UICONTROL Delete a record]
+
+Met deze actiemodule verwijdert u een bestaande record.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+   <td>Selecteer of wijs identiteitskaart van Anaplan Workspace toe die het voorwerp bevat u wilt schrappen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Model ID]</td> 
+   <td>Voer de id in van het model dat het object bevat dat u wilt verwijderen of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Recordtype</td> 
+   <td> <p>Selecteer het type object dat u wilt verwijderen.</p> 
+    <ul> 
+     <li> <p><b> Actie </b> </p> <p>Selecteer of wijs de actie toe om te schrappen.</p> </li> 
+     <li> <p><b> het punt van de Lijst </b> </p> <p>Selecteer de lijst waarvan u een item wilt verwijderen en voer de id of de code in van het item dat u wilt verwijderen.</p>  </li> 
+     <li> <p><b>[!UICONTROL File]</b> </p> <p>Selecteer of wijs het bestand toe dat u wilt verwijderen.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+
+#### [!UICONTROL Export data]
+
+Deze actiemodule wint gegevens van Anaplan gebruikend de Definities van de Uitvoer terug.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+   <td>Selecteer of wijs identiteitskaart van Anaplan Workspace toe die de gegevens bevat u wilt uitvoeren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Model ID]</td> 
+   <td>Voer de id in van het model dat de gegevens bevat die u wilt exporteren of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Definitie-id exporteren</td> 
+   <td> <p>Ga of kaart identiteitskaart van de definitie van de Uitvoer Anaplan in die u wilt gebruiken.</p> 
+   </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Gegevens importeren
+
+Deze actiemodule importeert gegevens in Anaplan.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+   <td>Selecteer of wijs identiteitskaart van Anaplan Workspace toe waar u de gegevens wilt invoeren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Model ID]</td> 
+   <td>Voer de id van het model in of wijs deze toe aan de locatie waar u de gegevens wilt importeren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Definitie-id exporteren</td> 
+   <td> <p>Ga of kaart identiteitskaart van de definitie van de Invoer Anaplan in die u wilt gebruiken.</p> 
+   </td> 
+  </tr> 
+ </tbody> 
 </table>
 
 #### [!UICONTROL Make a custom API Call]
@@ -250,38 +385,6 @@ Met deze module kunt u een aangepaste API-aanroep naar de [!DNL Anaplan] API uit
  </tbody> 
 </table>
 
-#### [!UICONTROL Delete a record]
-
-Met deze actiemodule verwijdert u een bestaande record.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
-   <td>Selecteer of wijs identiteitskaart van Anaplan Workspace toe die het voorwerp bevat u wilt schrappen.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Model ID]</td> 
-   <td>Voer de id in van het model dat het object bevat dat u wilt verwijderen of wijs deze toe.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Verwijderen</td> 
-   <td> <p>Selecteer het type object dat u wilt verwijderen.</p> 
-    <ul> 
-     <li> <p><b> Actie </b> </p> <p>Selecteer of wijs de actie toe om te schrappen.</p> </li> 
-     <li> <p><b> het punt van de Lijst </b> </p> <p>Selecteer de lijst waarvan u een item wilt verwijderen en voer de id of de code in van het item dat u wilt verwijderen.</p>  </li> 
-     <li> <p><b>[!UICONTROL File]</b> </p> <p>Selecteer of wijs het bestand toe dat u wilt verwijderen.</p> </li> 
-    </ul> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Read a record]
 
 Deze actiemodule leest één record.
@@ -303,6 +406,7 @@ Deze actiemodule leest één record.
      <li> <p><b> Modelversie </b> </p> <p>Selecteer of wijs identiteitskaart van het Model toe u wilt lezen.</p> </li> 
      <li> <p><b> Gebruiker </b> </p> <p>Selecteer of u gegevens wilt retourneren over de eigenaar van de account die wordt gebruikt, of een andere gebruiker. Als u een andere gebruiker selecteert, selecteert u de naam van de gebruiker.</p> </li> 
      <li> <p><b> Workspace </b> </p> <p>Selecteer of wijs identiteitskaart van Workspace toe u wilt lezen.</p> </li> 
+     <li> <p><b> Mening </b> </p> <p>Selecteer of wijs identiteitskaart van het Model toe dat de mening bevat u wilt lezen.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -410,9 +514,9 @@ Deze actiemodule werkt één record bij in [!UICONTROL Anaplan] .
  </tbody> 
 </table>
 
-#### [!UICONTROL Upload a file]
+#### [!UICONTROL Upload file for action]
 
-Deze actiemodule uploadt een bestand naar Anaplan. Het bestand moet al zijn geüpload naar Anaplan. U kunt deze module gebruiken om het aan extra plaatsen binnen Anaplan te uploaden.
+Deze actiemodule uploadt een bestaand bestand in Anaplan naar extra locaties in Anaplan.
 <table style="table-layout:auto">
 <col>
 <col>

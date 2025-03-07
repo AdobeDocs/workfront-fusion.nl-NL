@@ -4,7 +4,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: da417ac7-e532-45f7-86d9-3643b5f9f203
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 975c67b557e4576ee1f81df6db3049b0739d919e
 workflow-type: tm+mt
 source-wordcount: '1814'
 ht-degree: 0%
@@ -132,10 +132,11 @@ U kunt rechtstreeks vanuit een [!DNL Marketo] -module verbinding maken met uw [!
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw Marketo Client-insteekmodule in. Zie [Verificatie](https://developers.marketo.com/rest-api/authentication/) in de [!DNL Marketo] -documentatie voor instructies over de locatie van deze instructies.</td>
+        <td>Voer uw Marketo-clientgeheim in. Zie [Verificatie](https://developers.marketo.com/rest-api/authentication/) in de [!DNL Marketo] -documentatie voor instructies over de locatie van deze instructies.</td>
       </tr>
      </tbody>
     </table>
+
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
 ## [!DNL Marketo] Modules en de bijbehorende velden
