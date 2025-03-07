@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: d21eafad-9c67-4f42-b718-0aa4223846e6
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 632128bdcb6f8b8361f5a28e4a5fb527eb274d54
 workflow-type: tm+mt
-source-wordcount: '3285'
+source-wordcount: '3292'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -111,104 +115,20 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### Bestand/map
 
-* [[!UICONTROL Watch Files/Folders]](#watch-filesfolders)
-* [[!UICONTROL Search Files/Folders]](#search-filesfolders)
-* [[!UICONTROL Get a file]](#get-a-file)
-* [[!UICONTROL Download a file]](#download-a-file)
-* [[!UICONTROL Upload a file]](#upload-a-file)
+* [[!UICONTROL Copy a File]](#copy-a-file)
 * [[!UICONTROL Create a Folder]](#create-a-folder)
+* [[!UICONTROL Delete a File/Folder]](#delete-a-filefolder)
+* [[!UICONTROL Download a file]](#download-a-file)
+* [[!UICONTROL Get a file]](#get-a-file)
 * [[!UICONTROL Get a Share Link]](#get-a-share-link)
 * [[!UICONTROL Move a File/Folder]](#move-a-filefolder)
-* [[!UICONTROL Copy a File]](#copy-a-file)
-* [[!UICONTROL Delete a File/Folder]](#delete-a-filefolder)
+* [[!UICONTROL Search Files/Folders]](#search-filesfolders)
+* [[!UICONTROL Upload a file]](#upload-a-file)
+* [[!UICONTROL Watch Files/Folders]](#watch-filesfolders)
 
-#### [!UICONTROL Watch Files/Folders]
+#### [!UICONTROL Copy a File]
 
-Deze triggermodule start een scenario wanneer een bestand of map wordt gemaakt of bijgewerkt.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Watch Files/Folders]</td> 
-   <td> <p>Selecteer hoe u bestanden of mappen wilt bekijken:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL By Created Time]</b> </p> <p>Controleren op nieuwe bestanden of mappen.</p> </li> 
-     <li> <p><b>[!UICONTROL By Updated Time]</b> </p> <p>Controleren op bijgewerkte bestaande bestanden of mappen.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
-   <td> <p>Selecteer de locatie die u wilt controleren:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
-      <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarop u de module wilt letten.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> <p>Navigeer naar de map die u in de module wilt bekijken. U kunt ook een query invoeren om de geretourneerde resultaten te filteren.</p> </li> 
-      </ul> </li> 
-     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>De module controleert bestanden die met de eigenaar van het station zijn gedeeld.</p> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de SharePoint-site waarop u de module wilt controleren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan de aandrijving u de module wilt letten op.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Selecteer of u bestanden, mappen of beide wilt bekijken.</p> <p>Opmerking: u kunt niet controleren op mappen in een [!UICONTROL Shared With Me] -station.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-
-
-#### [!UICONTROL Search Files/Folders]
-
-Deze zoekmodule retourneert bestanden en mappen op basis van criteria die u instelt.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
-   <td> <p>Selecteer de locatie die u wilt zoeken:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
-      <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u de module wilt zoeken.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> <p>Navigeer naar de map waarnaar u in de module wilt zoeken. U kunt ook een query invoeren om de geretourneerde resultaten te filteren.</p> </li> 
-      </ul> </li> 
-     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>De module zoekt bestanden die met de eigenaar van het station zijn gedeeld.</p> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarnaar u in de module wilt zoeken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan de aandrijving u de module wilt zoeken.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
-   <td> <p>Selecteer of u naar bestanden, mappen of beide wilt zoeken.</p> <p>Opmerking: u kunt niet zoeken naar mappen in een [!UICONTROL Shared With Me] -station.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a file]
-
-Deze actiemodule krijgt de meta-gegevens van een gespecificeerd dossier.
+Deze actiemodule kopieert een bestand naar een nieuwe maplocatie
 
 <table style="table-layout:auto"> 
  <col> 
@@ -232,24 +152,155 @@ Deze actiemodule krijgt de meta-gegevens van een gespecificeerd dossier.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
-   <td> <p>Selecteer de locatie die u wilt zoeken:</p> 
+   <td> <p>Selecteer de locatie die het bestand bevat dat u wilt kopiëren:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand bevat dat u wilt ophalen.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat dat u wilt kopiëren.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de SharePoint-site met het bestand dat u wilt ophalen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand bevat dat u wilt ophalen.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de SharePoint-site die het bestand bevat dat u wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand bevat dat u wilt kopiëren.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u wilt krijgen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
+   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat dat u wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
-   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand dat u wilt ophalen.</p> <p>Als u [!UICONTROL Select from the list] hebt geselecteerd, selecteert u het bestand dat u wilt ophalen.</p> </td> 
+   <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> </td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de id of het pad in van het bestand dat u wilt kopiëren.</p> <p>Als u Selecteren hebt geselecteerd in de lijst, selecteert u het bestand dat u wilt kopiëren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt invoeren waarnaar u het bestand wilt kopiëren:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Selecteer deze optie als u de id of het pad rechtstreeks wilt invoeren of u het pad vanuit een vorige module wilt toewijzen.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Selecteer deze optie als u een keuze wilt maken in een lijst met beschikbare mappen. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New OneDrive location]</td> 
+   <td> <p>Selecteer de locatie waar u het filter wilt kopiëren. Deze optie is beschikbaar als u de nieuwe maplocatie in een lijst wilt selecteren.</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
+      <ul> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u het bestand wilt kopiëren.</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+      </ul> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarop u het bestand wilt kopiëren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarnaar u het bestand wilt kopiëren.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>Selecteer of wijs het station toe dat de map bevat waarnaar u het bestand wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> <p>Als u dit leeg laat, kan het bestand of de map alleen worden gekopieerd binnen dezelfde [!UICONTROL OneDrive] .</p> <p>U kunt bestanden en mappen kopiëren van [!UICONTROL My Drive] naar een [!UICONTROL Site's Drive] of een [!UICONTROL Group's Drive] . </p> <p>U kunt bestanden van een [!UICONTROL Site's Drive] alleen naar hetzelfde station op dezelfde site kopiëren.</p> <p>U kunt bestanden van een [!UICONTROL Group's Drive] alleen naar hetzelfde station in dezelfde groep kopiëren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>Voer de map in waarin u de kopie of map wilt verplaatsen of wijs de map toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New Copied File Name]</td> 
+   <td> <p>Voer een naam in of wijs een naam toe aan de nieuwe kopie van het bestand. U kunt dit leeg laten als u de oorspronkelijke bestandsnaam niet wilt wijzigen.</p> <p>De naam moet de bestandsextensie bevatten. Voorbeeld: <code>file.txt</code></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!-- Start audit here-->
+
+#### [!UICONTROL Create a Folder]
+
+Deze actiemodule maakt een nieuwe map in het opgegeven station.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
+   <td> <p>Selecteer de locatie waar u een map wilt maken:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
+      <ul> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station waarop u een map wilt maken.</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+      </ul> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarop u een map wilt maken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep die eigenaar is van het stuurprogramma waarop u een map wilt maken.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>Selecteer het station waarop u een map wilt maken. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td>Als u wilt dat de nieuwe map een submap is, navigeert u naar de map waarin u een submap wilt maken.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New Folder Name]</td> 
+   <td> <p>Voer een naam voor de nieuwe map in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL If the Folder with the Same Name Exists]</td> 
+   <td>Selecteer hoe u wilt doorgaan als er al een bestand met dezelfde naam bestaat.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete a File/Folder]
+
+In deze actiemodule wordt het geselecteerde bestand verwijderd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter (File/Folder ID & Path)]</td> 
+   <td>Selecteer of u het bestand wilt identificeren aan de hand van de bestands-id of het bestandspad.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter a File/Folder ID /Enter a File/Folder Path]</td> 
+   <td> <p>Selecteer hoe u de bestands-id of het bestandspad wilt invoeren:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Selecteer deze optie als u de id of het pad rechtstreeks wilt invoeren of u het pad vanuit een vorige module wilt toewijzen.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Selecteer deze optie als u bestanden of paden in een lijst wilt selecteren. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
+   <td> <p>Selecteer de locatie die u wilt zoeken:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
+      <ul> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat die u wilt verwijderen.</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
+      </ul> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site die het bestand of de map bevat die u wilt verwijderen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand of de map bevat die u wilt verwijderen.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Drive ID]</td> 
+   <td> <p>Selecteer of wijs het station toe dat het bestand of de map bevat die u wilt verwijderen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Selecteren [!UICONTROL File/Folder]</td> 
+   <td>Selecteer of u een bestand of map wilt verwijderen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand dat u wilt verwijderen.</p> <p>Als u [!UICONTROL Select] in de lijst hebt geselecteerd, selecteert u het bestand dat u wilt verwijderen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -342,57 +393,9 @@ Deze actiemodule downloadt het opgegeven bestand.
  </tbody> 
 </table>
 
-#### [!UICONTROL Upload a file]
+#### [!UICONTROL Get a file]
 
-Deze actiemodule uploadt een bestand naar de opgegeven map.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Enter (locatie-id en pad van map)</td> 
-   <td>Selecteer of u de doelmap wilt identificeren aan de hand van een id of een pad.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
-   <td> <p>Selecteer de locatie waar u een bestand wilt uploaden:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
-      <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station dat het bestand bevat dat u wilt ophalen.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
-      </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site die de map bevat waarin u een bestand wilt uploaden. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station de map bevat waarin u een bestand wilt uploaden.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer het station dat de map bevat waarnaar u een bestand wilt uploaden. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL If the File with the Same Name Exists]</td> 
-   <td>Selecteer hoe u wilt doorgaan als er al een bestand met dezelfde naam bestaat.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Description]</td> 
-   <td>Voeg een beschrijving toe aan het geüploade bestand.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Create a Folder]
-
-Deze actiemodule maakt een nieuwe map in het opgegeven station.
+Deze actiemodule krijgt de meta-gegevens van een gespecificeerd dossier.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -403,33 +406,37 @@ Deze actiemodule maakt een nieuwe map in het opgegeven station.
    <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
+   <td>Selecteer of u het bestand wilt identificeren aan de hand van de bestands-id of het bestandspad.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter a File ID] / [!UICONTROL File Path]</td> 
+   <td> <p>Selecteer hoe u de bestands-id of het bestandspad wilt invoeren:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Selecteer deze optie als u de id of het pad rechtstreeks wilt invoeren of u het pad vanuit een vorige module wilt toewijzen.</p> </li> 
+     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Selecteer deze optie als u bestanden of paden in een lijst wilt selecteren. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
-   <td> <p>Selecteer de locatie waar u een map wilt maken:</p> 
+   <td> <p>Selecteer de locatie die u wilt zoeken:</p> 
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station waarop u een map wilt maken.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand bevat dat u wilt ophalen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarop u een map wilt maken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep die eigenaar is van het stuurprogramma waarop u een map wilt maken.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de SharePoint-site met het bestand dat u wilt ophalen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand bevat dat u wilt ophalen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer het station waarop u een map wilt maken. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
+   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat u wilt krijgen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td>Als u wilt dat de nieuwe map een submap is, navigeert u naar de map waarin u een submap wilt maken.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL New Folder Name]</td> 
-   <td> <p>Voer een naam voor de nieuwe map in of wijs deze toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL If the Folder with the Same Name Exists]</td> 
-   <td>Selecteer hoe u wilt doorgaan als er al een bestand met dezelfde naam bestaat.</td> 
+   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td> 
+   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand dat u wilt ophalen.</p> <p>Als u [!UICONTROL Select from the list] hebt geselecteerd, selecteert u het bestand dat u wilt ophalen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -571,90 +578,9 @@ Met deze handelingsmodule wordt een bestand of map naar een nieuwe maplocatie ve
  </tbody> 
 </table>
 
-#### [!UICONTROL Copy a File]
+#### [!UICONTROL Search Files/Folders]
 
-Deze actiemodule kopieert een bestand naar een nieuwe maplocatie
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter (File ID & File Path)]</td> 
-   <td>Selecteer of u het bestand wilt identificeren aan de hand van de bestands-id of het bestandspad.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter a File ID] / [!UICONTROL File Path]</td> 
-   <td> <p>Selecteer hoe u de bestands-id of het bestandspad wilt invoeren:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Selecteer deze optie als u de id of het pad rechtstreeks wilt invoeren of u het pad vanuit een vorige module wilt toewijzen.</p> </li> 
-     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Selecteer deze optie als u bestanden of paden in een lijst wilt selecteren. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
-   <td> <p>Selecteer de locatie die het bestand bevat dat u wilt kopiëren:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
-      <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat dat u wilt kopiëren.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
-      </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de SharePoint-site die het bestand bevat dat u wilt verplaatsen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand bevat dat u wilt kopiëren.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs de aandrijving toe die het dossier bevat dat u wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</p> </td> 
-   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de id of het pad in van het bestand dat u wilt kopiëren.</p> <p>Als u [!UICONTROL Select] in de lijst hebt geselecteerd, selecteert u het bestand dat u wilt kopiëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter a New Folder Location]</td> 
-   <td> <p>Selecteer hoe u de locatie wilt invoeren waarnaar u het bestand wilt kopiëren of waarnaar:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Selecteer deze optie als u de id of het pad rechtstreeks wilt invoeren of u het pad vanuit een vorige module wilt toewijzen.</p> </li> 
-     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Selecteer deze optie als u een keuze wilt maken in een lijst met beschikbare mappen. </p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL New OneDrive location]</td> 
-   <td> <p>Selecteer de locatie waar u het filter wilt kopiëren. Deze optie is beschikbaar als u de nieuwe maplocatie in een lijst wilt selecteren.</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
-      <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u het bestand wilt kopiëren.</p> </li> 
-       <li> <p><b>[!UICONTROL No]</b> </p> </li> 
-      </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarop u het bestand wilt kopiëren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarnaar u het bestand wilt kopiëren.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs het station toe dat de map bevat waarnaar u het bestand wilt kopiëren. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> <p>Als u dit leeg laat, kan het bestand of de map alleen worden gekopieerd binnen dezelfde [!UICONTROL OneDrive] .</p> <p>U kunt bestanden en mappen kopiëren van [!UICONTROL My Drive] naar een [!UICONTROL Site's Drive] of een [!UICONTROL Group's Drive] . </p> <p>U kunt bestanden van een [!UICONTROL Site's Drive] alleen naar hetzelfde station op dezelfde site kopiëren.</p> <p>U kunt bestanden van een [!UICONTROL Group's Drive] alleen naar hetzelfde station in dezelfde groep kopiëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td>Voer de map in waarin u de kopie of map wilt verplaatsen of wijs de map toe.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL New Copied File Name]</td> 
-   <td> <p>Voer een naam in of wijs een naam toe aan de nieuwe kopie van het bestand. U kunt dit leeg laten als u de oorspronkelijke bestandsnaam niet wilt wijzigen.</p> <p>De naam moet de bestandsextensie bevatten. Voorbeeld:<code> file.txt</code></p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete a File/Folder]
-
-In deze actiemodule wordt het geselecteerde bestand verwijderd.
+Deze zoekmodule retourneert bestanden en mappen op basis van criteria die u instelt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -663,18 +589,6 @@ In deze actiemodule wordt het geselecteerde bestand verwijderd.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter (File/Folder ID & Path)]</td> 
-   <td>Selecteer of u het bestand wilt identificeren aan de hand van de bestands-id of het bestandspad.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Enter a File/Folder ID /Enter a File/Folder Path]</td> 
-   <td> <p>Selecteer hoe u de bestands-id of het bestandspad wilt invoeren:</p> 
-    <ul> 
-     <li> <p><b>[!UICONTROL Enter Manually]</b> </p> <p>Selecteer deze optie als u de id of het pad rechtstreeks wilt invoeren of u het pad vanuit een vorige module wilt toewijzen.</p> </li> 
-     <li> <p><b>[!UICONTROL Select from a list]</b> </p> <p>Selecteer deze optie als u bestanden of paden in een lijst wilt selecteren. </p> </li> 
-    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
@@ -682,27 +596,119 @@ In deze actiemodule wordt het geselecteerde bestand verwijderd.
     <ul> 
      <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
       <ul> 
-       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station dat het bestand of de map bevat die u wilt verwijderen.</p> </li> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarnaar u de module wilt zoeken.</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> <p>Navigeer naar de map waarnaar u in de module wilt zoeken. U kunt ook een query invoeren om de geretourneerde resultaten te filteren.</p> </li> 
+      </ul> </li> 
+     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>De module zoekt bestanden die met de eigenaar van het station zijn gedeeld.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarnaar u in de module wilt zoeken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan de aandrijving u de module wilt zoeken.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
+   <td> <p>Selecteer of u naar bestanden, mappen of beide wilt zoeken.</p> <p>Opmerking: u kunt niet zoeken naar mappen in een [!UICONTROL Shared With Me] -station.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Upload a file]
+
+Deze actiemodule uploadt een bestand naar de opgegeven map.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Enter (locatie-id en pad van map)</td> 
+   <td>Selecteer of u de doelmap wilt identificeren aan de hand van een id of een pad.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
+   <td> <p>Selecteer de locatie waar u een bestand wilt uploaden:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
+      <ul> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Selecteer het station dat het bestand bevat dat u wilt ophalen.</p> </li> 
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
-     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site die het bestand of de map bevat die u wilt verwijderen. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station het bestand of de map bevat die u wilt verwijderen.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site die de map bevat waarin u een bestand wilt uploaden. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan het station de map bevat waarin u een bestand wilt uploaden.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Drive ID]</td> 
-   <td> <p>Selecteer of wijs het station toe dat het bestand of de map bevat die u wilt verwijderen. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
+   <td> <p>Selecteer het station dat de map bevat waarnaar u een bestand wilt uploaden. Dit veld is niet beschikbaar als u [!UICONTROL No] in het veld [!UICONTROL Enable to Enter a Drive ID] hebt geselecteerd.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Selecteren [!UICONTROL File/Folder]</td> 
-   <td>Selecteer of u een bestand of map wilt verwijderen.</td> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL File] / [!UICONTROL File ID] / [!UICONTROL File Path]</td>
-   <td> <p>Als u [!UICONTROL Enter Manually] hebt geselecteerd, voert u de bestands-id of het pad in van het bestand dat u wilt verwijderen.</p> <p>Als u [!UICONTROL Select] in de lijst hebt geselecteerd, selecteert u het bestand dat u wilt verwijderen.</p> </td> 
+   <td role="rowheader">[!UICONTROL If the File with the Same Name Exists]</td> 
+   <td>Selecteer hoe u wilt doorgaan als er al een bestand met dezelfde naam bestaat.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Description]</td> 
+   <td>Voeg een beschrijving toe aan het geüploade bestand.</td> 
   </tr> 
  </tbody> 
 </table>
+
+#### [!UICONTROL Watch Files/Folders]
+
+Deze triggermodule start een scenario wanneer een bestand of map wordt gemaakt of bijgewerkt.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL OneDrive] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Watch Files/Folders]</td> 
+   <td> <p>Selecteer hoe u bestanden of mappen wilt bekijken:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL By Created Time]</b> </p> <p>Controleren op nieuwe bestanden of mappen.</p> </li> 
+     <li> <p><b>[!UICONTROL By Updated Time]</b> </p> <p>Controleren op bijgewerkte bestaande bestanden of mappen.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose your [!DNL OneDrive] locatie]</td> 
+   <td> <p>Selecteer de locatie die u wilt controleren:</p> 
+    <ul> 
+     <li> <p><b>[!UICONTROL My Drive]</b> </p> <p>Selecteer of de module een station-id moet invoeren.</p> 
+      <ul> 
+       <li> <p><b>[!UICONTROL Yes]</b> </p> <p>Voer de id in van het station waarop u de module wilt letten.</p> </li> 
+       <li> <p><b>[!UICONTROL No]</b> </p> <p>Navigeer naar de map die u in de module wilt bekijken. U kunt ook een query invoeren om de geretourneerde resultaten te filteren.</p> </li> 
+      </ul> </li> 
+     <li> <p><b>[!UICONTROL Shared With Me]</b> </p> <p>De module controleert bestanden die met de eigenaar van het station zijn gedeeld.</p> </li> 
+     <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de SharePoint-site waarop u de module wilt controleren. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep waarvan de aandrijving u de module wilt letten op.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose an Item Type]</td> 
+   <td> <p>Selecteer of u bestanden, mappen of beide wilt bekijken.</p> <p>Opmerking: u kunt niet controleren op mappen in een [!UICONTROL Shared With Me] -station.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 
 ### Overige
 
