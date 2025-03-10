@@ -4,9 +4,9 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 44e6de2a-b2d3-410d-abc3-10facd258495
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: d76f199b766d6f18e371f2ce1107a96529afbfd1
 workflow-type: tm+mt
-source-wordcount: '489'
+source-wordcount: '499'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,8 @@ Met de functies Organisatie en Teams van [!DNL Adobe Workfront Fusion] kunnen be
 Een organisatie is de grootste entiteit in Adobe Workfront Fusion. Uw Fusion-organisatie kan bijvoorbeeld de Fusion-account voor uw hele bedrijf vertegenwoordigen.
 
 De teams zijn kleinere groepen binnen de organisatie, en delen de middelen van de Fusie zoals scenario&#39;s, verbindingen, en malplaatjes.
+
+Voor instructies bij het creëren van een team, zie [ een team ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/create-a-team.md) creëren.
 
 ## Organisaties
 
