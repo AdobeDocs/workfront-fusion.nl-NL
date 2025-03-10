@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: d21eafad-9c67-4f42-b718-0aa4223846e6
-source-git-commit: 632128bdcb6f8b8361f5a28e4a5fb527eb274d54
+source-git-commit: 337a6918dc20f2e7523438dea752393a1b3f50ee
 workflow-type: tm+mt
-source-wordcount: '3292'
+source-wordcount: '3293'
 ht-degree: 0%
 
 ---
@@ -207,8 +207,6 @@ Deze actiemodule kopieert een bestand naar een nieuwe maplocatie
  </tbody> 
 </table>
 
-<!-- Start audit here-->
-
 #### [!UICONTROL Create a Folder]
 
 Deze actiemodule maakt een nieuwe map in het opgegeven station.
@@ -231,7 +229,7 @@ Deze actiemodule maakt een nieuwe map in het opgegeven station.
        <li> <p><b>[!UICONTROL No]</b> </p> </li> 
       </ul> </li> 
      <li> <p><b>[!UICONTROL Site's Drive]</b> </p> <p>Selecteer de [!DNL SharePoint] -site waarop u een map wilt maken. Beschikbare sites zijn sites die worden gevolgd door de aangemelde gebruiker.</p> </li> 
-     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep die eigenaar is van het stuurprogramma waarop u een map wilt maken.</p> </li> 
+     <li> <p><b>[!UICONTROL Group's Drive]</b> </p> <p>Selecteer de groep die eigenaar is van het station waarop u een map wilt maken.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -255,7 +253,7 @@ Deze actiemodule maakt een nieuwe map in het opgegeven station.
 
 #### [!UICONTROL Delete a File/Folder]
 
-In deze actiemodule wordt het geselecteerde bestand verwijderd.
+In deze actiemodule wordt het geselecteerde bestand of de geselecteerde map verwijderd.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -730,7 +728,7 @@ Deze module voert een aangepaste API-aanroep uit.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
