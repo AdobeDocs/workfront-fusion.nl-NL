@@ -4,16 +4,18 @@ description: De opties voor e-mailmeldingen worden ingesteld op teamniveau.
 author: Becky
 feature: Workfront Fusion
 exl-id: 570a09fc-01a9-4952-8a2b-8bfdd86d0bd8
-source-git-commit: 410676b7def1e36de12fee9d6df79feba566d741
+source-git-commit: 0689cfee7cf546a6c1f5f72c79a1e7be9df85a8c
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '274'
 ht-degree: 0%
 
 ---
 
 # Meldingsopties voor team instellen
 
-In Workfront Fusion ontvangt u meldingen via het gebied Adobe Meldingen. U kunt kiezen welke meldingen een team ontvangt. Meldingen worden ingesteld op teamniveau.
+In uw organisatie gebruikt Adobe verenigde Shell, ontvangt u berichten door het gebied van de Meldingen van Adobe.
+
+Als uw organisatie niet aan Adobe Verenigde Shell is gemigreerd, kunt u de berichten kiezen een team ontvangt. Meldingen worden ingesteld op teamniveau.
 
 ## Toegangsvereisten
 
@@ -68,6 +70,8 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 +++
 
 ## Meldingsopties instellen
+
+Als uw organisatie niet op Adobe Verenigde Shell is, kunt u berichtmontages in Fusion direct plaatsen.
 
 De opties voor e-mailmeldingen worden ingesteld op teamniveau.
 
