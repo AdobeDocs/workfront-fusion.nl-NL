@@ -1,19 +1,19 @@
 ---
 title: Adobe Authenticator-module
-description: Met de Adobe Authenticator-module kunt u via één enkele verbinding verbinding verbinding maken met elk Adobe product met een API.
+description: Met de Adobe Authenticator-module kunt u via één verbinding verbinding verbinding maken met elk Adobe-product met een API.
 author: Becky
 feature: Workfront Fusion
 exl-id: af4da661-eeee-4033-a2bb-a2196e446a3d
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 7652acb6654f4b1b0edc57d110478b309655a124
 workflow-type: tm+mt
-source-wordcount: '1116'
+source-wordcount: '1167'
 ht-degree: 0%
 
 ---
 
 # Adobe Authenticator-modules
 
-Met de Adobe Authenticator-module kunt u verbinding maken met elke Adobe-API via één verbinding. Hierdoor kunt u gemakkelijker verbinding maken met Adobe-producten die nog geen speciale Fusion-connector hebben.
+Met de Adobe Authenticator-module kunt u verbinding maken met elke Adobe API via één verbinding. Hierdoor kunt u gemakkelijker verbinding maken met Adobe-producten die nog geen speciale Fusion-connector hebben.
 
 Het voordeel ten opzichte van de HTTP-modules is dat u een verbinding kunt maken, zoals in een specifieke app.
 
@@ -58,7 +58,7 @@ Om een lijst van beschikbare Adobe APIs te zien, zie [ Adobe APIs ](https://deve
 
 ## Vereisten
 
-* U moet toegang hebben tot het product van de Adobe dat u de module wilt verbinden met.
+* U moet toegang hebben tot het Adobe-product waarmee u verbinding wilt maken.
 * U moet toegang hebben tot de Adobe Developer Console.
 * U moet een project op de Adobe Developer Console hebben dat API omvat die u de module wilt verbinden met. U kunt:
 
@@ -67,7 +67,7 @@ Om een lijst van beschikbare Adobe APIs te zien, zie [ Adobe APIs ](https://deve
      of
    * Voeg API aan een bestaand project toe.
 
-  Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [ een project ](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van de Adobe creëren.
+  Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [ een project ](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van Adobe creëren.
 
 ## Adobe Authenticator API-informatie
 
@@ -86,15 +86,15 @@ De Adobe Authenticator-connector gebruikt het volgende:
 
 ## Verbinding maken
 
-Een Adobe Authenticator-verbinding maakt verbinding met één project op de Adobe Developer Console. Als u dezelfde verbinding voor meerdere Adobe-API wilt gebruiken, voegt u de API&#39;s toe aan hetzelfde project en maakt u een verbinding met dat project.
+Een Adobe Authenticator-verbinding maakt verbinding met één project op de Adobe Developer Console. Als u dezelfde verbinding voor meerdere Adobe API wilt gebruiken, voegt u de API&#39;s toe aan hetzelfde project en maakt u een verbinding met dat project.
 
 U kunt afzonderlijke verbindingen aan afzonderlijke projecten tot stand brengen, maar u kunt geen verbinding gebruiken om tot API toegang te hebben die niet op het project is dat in die verbinding wordt gespecificeerd.
 
 >[!IMPORTANT]
 >
->Met de Adobe Authenticator-connector hebt u de keuze tussen het maken van een OAuth Server-to-server verbinding of een Service Account (JWT)-verbinding. Adobe heeft JWT-referenties vervangen, die na 1 januari 2025 niet meer werken. **daarom, adviseren wij hoogst creërend Verbindingen OAuth.**
+>Met de Adobe Authenticator-connector hebt u de keuze tussen het maken van een OAuth Server-to-server verbinding of een Service Account (JWT)-verbinding. Adobe heeft JWT-referenties vervangen. Deze zullen vanaf 1 januari 2025 niet meer werken. **daarom, adviseren wij hoogst creërend Verbindingen OAuth.**
 >
->Voor meer informatie over deze soorten verbindingen, zie [ Server aan de authentificatie van de Server ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van de Adobe
+>Voor meer informatie over deze soorten verbindingen, zie [ Server aan de authentificatie van de Server ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van Adobe
 
 Een verbinding maken:
 
@@ -195,7 +195,7 @@ Een verbinding maken:
 
 ### Een aangepaste API-aanroep maken
 
-Met deze actiemodule kunt u elke Adobe-API aanroepen. Het ondersteunt grote bestanden in plaats van tekst als enige hoofdtekst.
+Met deze actiemodule kunt u een aanroep naar elke Adobe API maken. Het ondersteunt grote bestanden in plaats van tekst als enige hoofdtekst.
 
 Deze module is beschikbaar gesteld op 14 november 2024. Elke Adobe Authenticator > Aangepaste API-aanroep die vóór deze datum is geconfigureerd, verwerkt geen grote bestanden en wordt nu beschouwd als de module Aangepaste API-aanroep (verouderd) maken.
 
@@ -246,24 +246,36 @@ Deze module is beschikbaar gesteld op 14 november 2024. Elke Adobe Authenticator
       <td role="rowheader">[!UICONTROL Body Type]</td>
    <td> Selecteer het hoofdtype voor deze API-aanvraag:
    <ul>
-   <li>application/x-www-form-urlencoded</li>
    <li>Ruw</li>
+   <li>application/x-www-form-urlencoded</li>
    <li>multipart/form-data</li>
    </ul>
       </td>
+      </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Request content]  </td>
+      <td>
+        <p>Voer de inhoud van de aanvraag in. Deze optie is beschikbaar als u het body-type <code>Raw</code> hebt geselecteerd</p>
+      </td>
+    </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Fields]  </td>
       <td>
-        <p>Voor elk dossier dat u aan het APU- verzoek wilt toevoegen, <b> klik toevoegen punt </b> en ga de tekst van het dossier (voor ruwe gegevens) in, of ga de sleutel <code>uploadedFile</code> in en kaart de gegevens van het dossier.</p>
+        <p>Voor elk dossier dat u aan het API verzoek wilt toevoegen, <b> toevoegt punt </b> en gaat de tekst van het dossier (voor ruwe gegevens) in, of gaat de sleutel <code>uploadedFile</code> in en brengt de gegevens van het dossier in kaart.Deze optie is beschikbaar als u <code>application</code> of <code>multipart</code> lichaamstype selecteerde.</p>
       </td>
     </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output Type]  </td>
+      <td>
+        <p>Selecteer het type gegevens dat de module moet uitvoeren. Als u geen type selecteert, selecteert de module automatisch een type.</p>
+      </td>
     </tr>
   </tbody>
 </table>
 
 ### Een aangepaste API-aanroep maken (verouderd)
 
-Met deze actiemodule kunt u elke Adobe-API aanroepen.
+Met deze actiemodule kunt u een aanroep naar elke Adobe API maken.
 
 <table>
   <col/>

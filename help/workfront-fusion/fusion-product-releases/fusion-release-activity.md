@@ -9,9 +9,9 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c37aea95-7cc3-4939-a4d7-9a6a75557b85
-source-git-commit: 284e5bda7fef82bac02f3200efe1662fd55586bf
+source-git-commit: d69c9f3661a9aee1f7f818a5bd729aea387ad85b
 workflow-type: tm+mt
-source-wordcount: '870'
+source-wordcount: '877'
 ht-degree: 6%
 
 ---
@@ -24,7 +24,8 @@ Adobe Workfront Fusion maakt naadloos verbinding tussen uw apps en webservices, 
 
 ### maart 2025
 
-* [Workfront Fusion release activity: Week van 3 maart 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-3.md)
+* [Workfront Fusion releaseactiviteit: week van 10 maart 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-3.md)
+* [Workfront Fusion release activity: Week van 3 maart 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-10.md)
 
 ### februari 2025
 
