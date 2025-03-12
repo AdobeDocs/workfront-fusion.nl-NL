@@ -4,9 +4,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: b14bed4d-3503-42cf-a8c3-618d3b2448b4
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 47f1e2b6a812f4ac44e2daf08cb1937f1ef02981
 workflow-type: tm+mt
-source-wordcount: '1279'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,15 @@ Deze sjablonen automatiseren Workfront-processen en -workflows.
 
 ### [!BADGE  Nieuw!]{type=Informative}
 
+<!--New March 12, 2025-->
+
+Verwijder Gearchiveerde kaarten uit een opgegeven kolom op een aangegeven bord als dat nodig is.
+
+### Workfront Boards > Een standaardcontrolelijst maken op basis van de Kolom Boards
+
 Met dit Fusion-sjabloon maakt u een standaardcontrolelijst voor alle kaarten die een specifieke kolom op een specifieke board op getimed basis invoeren.
 
-### [!BADGE  Nieuw!]{type=Informative}
-
-<!--new Aug 1. 2024-->
+### Workfront > Workfront Boards - Een bord maken van een aangepaste configuratie
 
 Dit scenario wordt teweeggebracht door een nieuw project dat wordt gecreeerd. Met dit scenario, kunt u een raad tot stand brengen die na het project wordt genoemd, kolommen anders noemen of creeert die op uw behoeften worden gebaseerd, douanetags tot stand brengen, en een filter van de inlaatkolom associëren met het voortkomende project.  Er kunnen duizenden aanvullende wijzigingen worden aangebracht, maar als u hier begint, kunt u de mogelijkheden zien om een beginpunt te maken voor de standaardisering van het bestuur van uw organisatie.
 
@@ -57,7 +61,7 @@ Gebruik deze sjabloon om notities en antwoorden van een uitgave of verzoek te ko
 
 Deze automatisering zoekt naar nieuwe projecten in programma&#39;s met aangepaste formulieren. Vervolgens worden deze aangepaste formulieren en velden voor het programma toegevoegd aan de nieuwe projecten.
 
-### Workfront - Aangepaste Forms- en veldgegevens van Portfolio kopiëren naar gekoppelde nieuwe projecten
+### Workfront - Portfolio Custom Forms and Field Data kopiëren naar bijbehorende nieuwe projecten
 
 Deze automatisering zoekt naar nieuwe projecten in portfolio&#39;s met aangepaste formulieren. Deze portfolio voegt vervolgens aangepaste formulieren en velden toe aan de nieuwe projecten.
 
@@ -97,6 +101,12 @@ Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met d
 
 Deze sjablonen automatiseren workflows die Workfront combineren met Workfront Proof.
 
+### [!BADGE  Nieuw!]{type=Informative}
+
+<!--New March 12, 2025-->
+
+Deze sjabloon zoekt naar projecten die worden bijgewerkt naar statussen die overeenkomen met afgewezen, voltooide of dode projecten. Vervolgens worden gebruikers met de in afwachting zijnde proefkeuzen gewijzigd in Alleen-lezen. Tot slot worden de proefdrukken vergrendeld en wordt een update naar de documenten verzonden.
+
 ### Workfront Proof > Workfront - Project Update on Proef-besluit
 
 Wanneer een besluit wordt genomen over een bewijs dat rechtstreeks aan een project wordt toegevoegd, verzamelt deze automatisering informatie over het proefbesluit, zoals wie het besluit heeft genomen, en weerspiegelt deze vooruitgang in het overeenkomstige Workfront Project als een update.
@@ -129,17 +139,17 @@ Deze sjablonen ondersteunen de integratie tussen Workfront en Marketo.
 >
 > U moet een Workfront Fusion for Work Automation and Integration-licentie hebben om sjablonen in deze sectie te kunnen gebruiken.
 
-### Concepten van e-mailberichten voor Marketo&#39;s Engage goedkeuren met goedkeuringswerkstromen van Workfront
+### Uw Marketo Engage-concept voor e-mail goedkeuren met goedkeuringsworkflows van Workfront
 
-Dit maakt deel uit van de herziening en de goedkeuring van de integratie tussen Workfront en Marketo Engage. Deze sjabloon detecteert of er een e-mailproef in Workfront is goedgekeurd en werkt vervolgens het bijbehorende e-mailbericht in het Marketo Engage bij zoals goedgekeurd.
+Dit maakt deel uit van de Review and Approved integration tussen Workfront en Marketo Engage. Deze sjabloon detecteert of er een e-mailbewijs in Workfront is goedgekeurd en werkt vervolgens het bijbehorende e-mailadres in Marketo Engage bij zoals goedgekeurd.
 
 ### Aanvragen voor marketingcampagnes van Intake in Workfront en automatiseren het maken van campagnes in Marketo Engage
 
 Dit scenario verstrekt een programmatic manier om e-mail en webinar campagnes in Marketo Engage van een verzoek tot stand te brengen dat in Workfront wordt gemaakt. Door automatisering te gebruiken om, campagnes tot stand te brengen te organiseren en te vormen, kunnen de teams efficiency verbeteren.
 
-### Een e-mailproefexemplaar van uw concept van uw Marketo Engage-e-mail controleren in Workfront
+### Een e-mailproefexemplaar van uw Marketo Engage-concept in Workfront bekijken
 
-Deze sjabloon detecteert of een Workfront-taak is ingesteld op een status die klaar is voor controle en exporteert het e-mailconcept van Marketo Engage om het op te slaan als een proefexemplaar in Workfront.
+Deze sjabloon detecteert of een Workfront-taak is ingesteld op een status die klaar is voor controle en exporteert het e-mailconcept vervolgens uit Marketo Engage om het op te slaan als een proefexemplaar in Workfront.
 
 ## Workfront-SharePoint-sjablonen
 
