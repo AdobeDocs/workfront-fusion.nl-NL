@@ -4,7 +4,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: d9e6c26c-8770-40bc-a83a-8c05f86e4a3f
-source-git-commit: e11c73482a3844bbc96c8d08f8e50a53bc302513
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '1519'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 

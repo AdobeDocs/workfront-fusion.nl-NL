@@ -4,7 +4,7 @@ description: AI Assistant in Workfront Fusion
 author: Becky
 feature: Workfront Fusion
 exl-id: 22f24c0e-4eb3-4ef7-b012-374ee5e8a844
-source-git-commit: 3d06958b6f706f4f974230853fb6553232656fd3
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '315'
 ht-degree: 0%
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 # AI Assistant in Workfront Fusion
 
-AI Assistant kan informatie zoeken in Workfront-documentatie, zodat u Adobe Experience League niet hoeft te bezoeken om de hulp te krijgen die u nodig hebt.
+AI Assistant kan informatie zoeken in Workfront-documentatie, zodat u niet naar de Adobe Experience League hoeft te gaan om de hulp te krijgen die u nodig hebt.
 
 ## Toegangsvereisten
 
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -68,9 +68,9 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 ## Vereisten
 
-Adobe moet een ondertekende Adobe-gen. AI-overeenkomst in het bestand hebben.
+Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
 
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de Adobe Gen AI overeenkomst ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht in de documentatie van Workfront.
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ de overeenkomst van Adobe Gen AI ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht in de documentatie van Workfront ondertekenen.
 
 ## Informatie ophalen van AI Assistant
 
@@ -83,4 +83,4 @@ Informatie of instructies ophalen uit de Workfront Fusion-documentatie met behul
 
 1. Geef het antwoord weer in het deelvenster AI Assistant.
 1. (Optioneel) Als het antwoord niet de benodigde gegevens bevat, verfijnen u uw reactie en probeert u het opnieuw.
-1. (Optioneel en voorwaardelijk) Als het antwoord een koppeling naar een Adobe Experience League-artikel bevat, klikt u op de koppeling om het artikel in een nieuw venster te openen.
+1. (Optioneel en voorwaardelijk) Als het antwoord een koppeling naar een artikel van de Adobe Experience League bevat, klikt u op de koppeling om het artikel in een nieuw venster te openen.

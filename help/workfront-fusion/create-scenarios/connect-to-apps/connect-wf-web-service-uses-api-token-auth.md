@@ -4,7 +4,7 @@ description: Bij sommige services is het niet mogelijk om met integratieoplossin
 author: Becky
 feature: Workfront Fusion
 exl-id: 4a8ac816-52de-41e8-96d7-1c8cde2ebe32
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '958'
 ht-degree: 0%
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -109,7 +109,7 @@ Als u een webservice wilt koppelen aan uw Workfront Fusion-scenario, moet u HTTP
      </tr> 
      <tr> 
       <td role="rowheader"> Methode</td> 
-      <td> <p><code>POST</code> </p> <p>De gebruikte methode hangt van het overeenkomstige eindpunt af. Het eindpunt van Pushover voor het duwen van berichten gebruikt de methode van de POST.</p> </td> 
+      <td> <p><code>POST</code> </p> <p>De gebruikte methode hangt van het overeenkomstige eindpunt af. Het eindpunt van Pushover voor het duwen van berichten gebruikt de POST methode.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p> Kopteksten</p> </td> 

@@ -4,7 +4,7 @@ description: U kunt de Adobe Workfront Boards-connector gebruiken om uw processe
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: dcc5044d-8fdf-4a74-b664-e965e714ce92
-source-git-commit: 7895e65dd040f28e6028c24928abe2829b58d9db
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '2659'
 ht-degree: 0%
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 

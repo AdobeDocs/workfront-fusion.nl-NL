@@ -4,7 +4,7 @@ description: Deze  [!DNL Adobe Workfront Fusion]  actiemodule verzendt een HTTPS
 author: Becky
 feature: Workfront Fusion
 exl-id: 362b80b5-42f4-4b82-b06c-39c7c5a1eb1a
-source-git-commit: a7ee3e751b75523c4da62cea71e59a63f98b95e0
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '862'
 ht-degree: 0%
@@ -42,7 +42,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 

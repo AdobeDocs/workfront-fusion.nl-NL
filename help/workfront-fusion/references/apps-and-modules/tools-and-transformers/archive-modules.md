@@ -4,7 +4,7 @@ description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u een archief, 
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b5ff3d5-601c-4119-ad70-3612ad5ba1ab
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 640aae1f4b7563545d7f9aa3f801671aa3d45fca
 workflow-type: tm+mt
 source-wordcount: '498'
 ht-degree: 0%
@@ -25,12 +25,13 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Extract an archive]](#extract-an-archive)
-* [[!UICONTROL Create an archive]](#create-an-archive)
-* [[!UICONTROL Inflate]](#inflate)
-* [[!UICONTROL Deflate]](#deflate)
+* [Handelingen](#actions)
+* [Samenvoegapparatuur](#aggregators)
+* [Transformatoren](#transformers)
 
-## [!UICONTROL Extract an archive]
+## Handelingen
+
+### [!UICONTROL Extract an archive]
 
 Deze actiemodule extraheert een bestand dat u uit een archief identificeert.
 
@@ -42,20 +43,24 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td>[!UICONTROL Source file]</td> 
-   <td> <p> Selecteer het bestand dat u wilt extraheren. Dit dossier kan van een vorige module (zoals [!DNL Workfront] worden in kaart gebracht &gt; [!UICONTROL Download a document] module).</p>  </td> 
+   <td> <p>  <p>Selecteer een bronbestand uit een vorige module of wijs de brongegevens toe.</p></p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!INFO]
->
->**Voorbeeld:** krijg het dossier van het PIT van de bepaalde [!DNL Dropbox] omslag (bijvoorbeeld, Archives), haalt het uit gebruikend de [!UICONTROL Archive] module en verzendt geciteerde dossiers naar het gewenste e-mailadres als gehechtheid met [!UICONTROL Email] of [!DNL Gmail] module.
->
->![ Dropbox van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-dropbox-350x134.png)
+>[!BEGINSHADEBOX]
 
-## [!UICONTROL Create an archive]
+**Voorbeeld:** krijg het dossier van het PIT van de bepaalde [!DNL Dropbox] omslag (bijvoorbeeld, Archives), haalt het uit gebruikend de [!UICONTROL Archive] module en verzendt geciteerde dossiers naar het gewenste e-mailadres als gehechtheid met [!UICONTROL Email] of [!DNL Gmail] module.
 
-Deze aggregatormodule voegt de gewenste bestanden toe aan een [!UICONTROL ZIP] - of [!UICONTROL TAR] -archief.
+![ Voorbeeld Dropbox ](/help/workfront-fusion/references/apps-and-modules/assets/example-dropbox-350x134.png)
+
+>[!ENDSHADEBOX]
+
+## Samenvoegapparatuur
+
+### [!UICONTROL Create an archive]
+
+Deze aggregatormodule voegt de gewenste bestanden toe aan een [!UICONTROL ZIP] -, GZIP- of [!UICONTROL TAR] -archief.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -69,7 +74,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Type] </td> 
-   <td> <p>Selecteer of u bestanden wilt toevoegen aan een [!UICONTROL ZIP] archief of een [!UICONTROL TAR] archief.</p> </td> 
+   <td> <p>Selecteer of u bestanden wilt toevoegen aan een [!UICONTROL ZIP] -, GZIP- of [!UICONTROL TAR] -archief.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Comment]</td> 
@@ -94,28 +99,20 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
->[!INFO]
->
->**Voorbeeld:** bekijk inkomende e-mails gebruikend [!DNL Gmail] > [!UICONTROL Watch emails] module. Als een e-mail wordt ontvangen, worden de bijlagen herhaald in afzonderlijke bundels, vervolgens naar het [!DNL ZIP] -bestand gearchiveerd en in de gedefinieerde map Dropbox opgeslagen.
->
->![ Gmail van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-gmail-350x102.png)
+>[!BEGINSHADEBOX]
 
-## [!UICONTROL Inflate]
+**Voorbeeld:** bekijk inkomende e-mails gebruikend [!DNL Gmail] > [!UICONTROL Watch emails] module. Als een e-mail wordt ontvangen, worden de bijlagen herhaald in afzonderlijke bundels, vervolgens naar het [!DNL ZIP] -bestand gearchiveerd en in de gedefinieerde Dropbox-map opgeslagen.
 
-Deze transformatormodule decomprimeert binaire gegevens met behulp van een inflatiealgoritme.
+![ Gmail van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-gmail-350x102.png)
 
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Data] </td> 
-   <td> <p>Voer de gegevens in die u wilt decomprimeren of wijs deze toe met behulp van de inflate-functie.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!ENDSHADEBOX]
 
-## [!UICONTROL Deflate]
+## Transformatoren
+
+* [[!UICONTROL Deflate]](#deflate)
+* [[!UICONTROL Inflate]](#inflate)
+
+### [!UICONTROL Deflate]
 
 Deze transformatormodule comprimeert binaire gegevens met behulp van een deflatiealgoritme.
 
@@ -126,6 +123,21 @@ Deze transformatormodule comprimeert binaire gegevens met behulp van een deflati
   <tr> 
    <td>[!UICONTROL Data] </td> 
    <td> <p>Voer de gegevens in die u wilt comprimeren of wijs deze toe met de functie deflate.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### [!UICONTROL Inflate]
+
+Deze transformatormodule decomprimeert binaire gegevens met behulp van een inflatiealgoritme.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Data] </td> 
+   <td> <p>Voer de gegevens in die u wilt decomprimeren of wijs deze toe met behulp van de inflate-functie.</p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -4,7 +4,7 @@ description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u uw E-mailreke
 author: Becky
 feature: Workfront Fusion
 exl-id: 28a04bad-d3ef-4f3a-be93-8b04761a75e4
-source-git-commit: add63edf94cc430113bf2cfd0c389cca04aa92f8
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '2023'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -230,7 +230,7 @@ Deze actiemodule maakt een nieuw concept en voegt dit toe aan een geselecteerde 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Content] </td> 
-   <td> <p>Voer de e-mailinhoud in of wijs deze toe in HTML-indeling met behulp van HTML-tags of in de normale tekst.</p> </td> 
+   <td> <p>Voer de e-mailinhoud in of wijs deze toe in HTML-indeling met HTML-tags of in de normale tekst.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 
@@ -491,7 +491,7 @@ Hiermee verzendt u een nieuwe e-mail.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Content] </td> 
-   <td> <p>Typ of wijs de e-mailinhoud in HTML-indeling toe met behulp van HTML-tags of in de normale tekst, afhankelijk van wat u hebt gekozen in het veld [!UICONTROL Content Type] .</p> </td> 
+   <td> <p>Typ of wijs de e-mailinhoud in HTML-indeling toe met HTML-tags of in de normale tekst, afhankelijk van wat u hebt gekozen in het veld [!UICONTROL Content Type] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Attachments]</p> </td> 

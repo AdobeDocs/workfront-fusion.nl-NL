@@ -4,7 +4,7 @@ description: U kunt het parserhulpmiddel van de Tekst gebruiken om tekst voor ge
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 885d714e-fc09-41a2-89dc-ebe29a355e43
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '1156'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Geen Workfront Fusion-licentievereiste.</p>
+   <p>Geen Workfront Fusion-licentievereiste</p>
    </td> 
   </tr> 
   <tr> 
@@ -89,7 +89,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Get Elements from HTML]
 
-Hiermee worden de gewenste elementen opgehaald uit de HTML-code.
+Haalt de gewenste elementen op uit de HTML-code.
 
 <table style="table-layout:auto"> 
  <col> 

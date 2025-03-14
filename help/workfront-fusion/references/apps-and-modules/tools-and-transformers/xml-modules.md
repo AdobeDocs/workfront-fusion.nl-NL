@@ -4,7 +4,7 @@ description: Met de XML-toepassing kunt u tekst met XML-opmaak parseren via XML 
 author: Becky
 feature: Workfront Fusion
 exl-id: ab323361-cd04-4dcc-ab02-0fb468334fdb
-source-git-commit: 5351c2386ed6f2d030df1df01fcf9ea0de7d813f
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '1292'
 ht-degree: 1%
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Geen Workfront Fusion-licentievereiste.</p>
+   <p>Geen Workfront Fusion-licentievereiste</p>
    </td> 
   </tr> 
   <tr> 

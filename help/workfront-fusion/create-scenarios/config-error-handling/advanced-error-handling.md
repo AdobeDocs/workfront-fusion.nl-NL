@@ -4,7 +4,7 @@ description: U kunt geavanceerde technieken voor foutafhandeling toevoegen aan u
 author: Becky
 feature: Workfront Fusion
 exl-id: 745bfdc4-1327-4a28-a863-c217f15a7fc5
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '902'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -87,23 +87,23 @@ Voor informatie over hoe de Fusie diverse gegevenstypes evalueert en verwerkt, z
 
 In dit voorbeeldscenario wordt getoond hoe deze filters werken voor foutafhandeling.
 
-Als u de Dropbox > een omslagmodule creeert gebruikt, en een omslag met de zelfde naam reeds bestaat, genereert de module een DataError:
+Als u Dropbox > een mappenmodule maakt gebruikt en er al een map met dezelfde naam bestaat, genereert de module een DataError:
 
 ![ Fout in Dropbox ](assets/dropbox.png)
 
 Het volledige scenario werkt als volgt:
 
-![ scenario van de Dropbox ](assets/dropbox-scenario.png)
+![ scenario van Dropbox ](assets/dropbox-scenario.png)
 
 1. De module Opties > Variabele instellen bevat de mapnaam
 1. Met HTTP > Een bestandsmodule ophalen haalt u het bestand op dat u naar de map wilt uploaden
-1. De Dropbox > Een mapmodule maken genereert een fout als er al een map met dezelfde naam bestaat als de map die in de module is toegewezen
+1. Dropbox > Een mapmodule maken genereert een fout als er al een map met dezelfde naam bestaat als de map die in de module is toegewezen
 1. De route van de foutenmanager (transparante bellen) bevat een router om de fouten te filtreren
 De eerste route is voor een gespecificeerd type van fout genoemd `DataError`.
 
-   1. Als een `DataError` plaatsvindt en de foutdetails door het filter gaan, geeft de Dropbox >Alle bestanden/submappen in een mappenmodule weergeven alle mappen in Dropbox weer.
+   1. Als een `DataError` wordt uitgevoerd en de foutgegevens door het filter worden doorgegeven, worden in Dropbox >Alle bestanden/submappen in een mappenmodule weergeven alle mappen in Dropbox weergegeven.
    1. Het volgende filter komt overeen met de mapnamen.
-   1. De **1} richtlijn van het Hervatten {specificeert omslagidentiteitskaart en omslagweg van de bestaande omslag, en de scenario uitvoering hervat van de Dropbox > creeert een omslagmodule.** In plaats van een nieuwe map te maken, gebruikt Fusion echter de waarden van de aanwijzing Hervatten om naar de volgende module te gaan en het bestand in de bestaande map te uploaden.
+   1. De **1} richtlijn van het Hervatten {specificeert omslagidentiteitskaart en omslagweg van de bestaande omslag, en de scenario uitvoering hervat van Dropbox > creeert een omslagmodule.** In plaats van een nieuwe map te maken, gebruikt Fusion echter de waarden van de aanwijzing Hervatten om naar de volgende module te gaan en het bestand in de bestaande map te uploaden.
 
 1. De tweede route is voor alle andere fouten en beëindigt met de richtlijn van het Terugschroeven van prijzen, die in onmiddellijk het tegenhouden van het scenario resulteert
 
@@ -117,7 +117,7 @@ Het filter op de eerste route wordt geplaatst om de bepaalde fout (DataError) sl
 
 ![ Voorwaarde ](assets/condition.png)
 
-De Dropbox > Alle bestanden in een mapmodule weergeven is geconfigureerd om alle mappen in de doelmap te retourneren. Het volgende filter geeft alleen het filter door dat we oorspronkelijk probeerden te maken. (De mapnaam wordt opgeslagen in de map 33. Mapnaam, item.)
+Dropbox > Alle bestanden in een mapmodule weergeven is geconfigureerd om alle mappen in de doelmap te retourneren. Het volgende filter geeft alleen het filter door dat we oorspronkelijk probeerden te maken. (De mapnaam wordt opgeslagen in de map 33. Mapnaam, item.)
 
 ![ Voorwaarde ](assets/condition2.png)
 
@@ -141,8 +141,8 @@ Een geneste fouthandlerroute met filters:
 
 In dit scenario, wordt de tweede route van de foutenmanager genest onder de eerste route van de foutenmanager.
 
-Als er een fout optreedt in de Dropbox > Een map maken, gaat de uitvoering naar de eerste route. Als het filter `DataError Takes Place` wordt overgegaan, voert de volgende module uit, die door de de richtlijnmodule van de Hervatting wordt gevolgd als een fout niet in de Dropbox > van de Lijst alle dossiers/subfolders in een omslagmodule voorkomt.
+Als er een fout optreedt in de module Dropbox > Create a folder, gaat de uitvoering naar de eerste route. Als het filter `DataError Takes Place` wordt doorgegeven, wordt de volgende module uitgevoerd, gevolgd door de instructiemodule Hervatten als er geen fout optreedt in Dropbox > Alle bestanden/submappen in een mappenmodule weergeven.
 
-Nochtans, als een fout in de Dropbox > van de Lijst alle dossiers/subfolders in een omslagmodule voorkomt, dan beweegt de uitvoering zich aan Route 2 van de Handler van de Fout en beëindigt met de [!UICONTROL Ignore] richtlijn. De module [!UICONTROL Resume directive] wordt in dit geval niet uitgevoerd.
+Als er echter wel een fout optreedt in Dropbox > Alle bestanden/submappen in een mappenmodule weergeven, gaat de uitvoering naar Error Handler Route 2 en eindigt deze met de instructie [!UICONTROL Ignore] . De module [!UICONTROL Resume directive] wordt in dit geval niet uitgevoerd.
 
 >[!ENDSHADEBOX]

@@ -4,7 +4,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Workfront Proof, Digital Content and Documents
 exl-id: 9e556ae5-e672-4872-9c40-8c8e5f0305be
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '2668'
 ht-degree: 0%
@@ -44,7 +44,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -151,13 +151,13 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### Triggers
 
-* [Overzicht van PDF controleren](#watch-for-pdf-summary)
+* [Overzicht van PDF bekijken](#watch-for-pdf-summary)
 * [[!UICONTROL Watch Proof Activity]](#watch-proof-activity)
 * [Proefdrukken controleren](#watch-proofs)
 
 #### [!UICONTROL Watch for PDF Summary]
 
-Deze instant trekkermodule voert een scenario uit wanneer iemand een samenvatting van PDF voor een proef creeert.
+Deze instant triggermodule voert een scenario uit wanneer iemand een PDF-overzicht maakt voor een proefdruk.
 
 In deze module is een webhaak vereist.
 
@@ -382,7 +382,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL SWF]</td> 
-   <td>Voer het type proefdruk SWF in.</td> 
+   <td>Voer het type SWF-proefdruk in.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Show] [item]</td> 
@@ -505,11 +505,11 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Request PDF Summary]
 
-In deze actiemodule wordt de PDF-samenvatting opgevraagd voor een bepaalde proefdruk in [!DNL Workfront Proof] .
+In deze actiemodule wordt het PDF-overzicht opgevraagd voor een bepaalde proefdruk in [!DNL Workfront Proof] .
 
 U geeft de id van de proefdruk op.
 
-De module keert de summiere informatie van PDF terug. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+De module retourneert de overzichtsgegevens van PDF. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
 
 U moet over voldoende machtigingen beschikken om toegang te krijgen tot de record in [!DNL Workfront Proof] om deze gegevens op te halen.
 

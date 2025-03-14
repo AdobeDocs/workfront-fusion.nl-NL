@@ -4,7 +4,7 @@ description: Met de  [!DNL Adobe Experience Manager Assets]  schakelaar voor  [!
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 361e6c9c-1497-4f47-85bb-503619744968
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '1488'
 ht-degree: 0%
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Automation and Integration </p>
    </td> 
@@ -179,7 +179,7 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Assets] -modules:
       </table>
 
 
-### De verbinding voor AEM Assets Basic configureren (Adobe Managed Services)
+### De verbinding configureren voor AEM Assets Basic (Adobe Managed Services)
 
 <table style="table-layout:auto"> 
         <col/>

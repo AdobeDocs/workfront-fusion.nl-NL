@@ -4,22 +4,24 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u de modules 
 author: Becky
 feature: Workfront Fusion
 exl-id: 0116e379-cef8-4036-875b-46ca79a9e94d
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 54098f2da1db85d9a596f3fc4753aebb298d5b78
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '232'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Draft.js] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u de [!UICONTROL Draft.js] -modules gebruiken om Draft.js om te zetten in HTML en HTML in Draft.js. U kunt dit in combinatie met Workfront-modules gebruiken om RTF-tekst toe te voegen aan of te lezen uit Workfront-velden.
+In een [!DNL Adobe Workfront Fusion] -scenario kunt u de [!UICONTROL Draft.js] -modules gebruiken om Draft.js om te zetten in HTML en HTML naar Draft.js. U kunt dit in combinatie met Workfront-modules gebruiken om RTF-tekst toe te voegen aan of te lezen uit Workfront-velden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
 Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
@@ -28,27 +30,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
+   <p>Geen Workfront Fusion-licentievereiste</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
  </tbody> 
@@ -58,9 +58,11 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
++++
+
 ## [!UICONTROL Draft.js to HTML]
 
-Deze module zet Draft.js in HTML om.
+Deze module converteert Draft.js naar HTML.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -70,14 +72,14 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Draft.js]</td> 
-   <td> <p>Voer de tekst Draft.js in.</p> </td> 
+   <td> <p>Typ of wijs de Concept.js-tekst toe die u naar HTML wilt converteren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## [!UICONTROL HTML to Draft.js]
 
-Deze module zet HTML code in Draft.js om.
+Deze module converteert HTML-code naar Draft.js.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -85,7 +87,7 @@ Deze module zet HTML code in Draft.js om.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Draft.js]</td> 
-   <td> <p>Voer de HTML-code in die u wilt converteren naar Draft.js.</p> </td> 
+   <td> <p>Voer de HTML-code in die u wilt converteren naar Draft.js of wijs deze code toe.</p> </td> 
   </tr> 
  </tbody> 
 </table>

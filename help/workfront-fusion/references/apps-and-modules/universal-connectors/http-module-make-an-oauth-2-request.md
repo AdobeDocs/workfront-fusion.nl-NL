@@ -4,14 +4,14 @@ description: Om een  [!DNL Adobe Workfront Fusion]  HTTP(S) verzoek aan servers 
 author: Becky
 feature: Workfront Fusion
 exl-id: a302a1d4-fddf-4a71-adda-6b87ff7dba4b
-source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '2256'
+source-wordcount: '1981'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL  HTTP ] > [!UICONTROL  maak een OAuth 2.0 verzoek ] module
+# [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] module
 
 >[!NOTE]
 >
@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -80,12 +80,12 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 ## Verbinding maken voor een [!DNL OAuth] -aanvraag
 
 * [Algemene instructies voor het maken van een verbinding in HTTP > Een OAuth 2.0-aanvraagmodule maken](#general-instructions-for-creating-a-connection-in-the-http--make-an-oauth-20-request-module)
-* [Instructies voor het creëren van een verbinding aan Google in HTTP > [!UICONTROL  maak ] een OAuth 2.0 verzoekmodule](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
+* [Instructies voor het maken van een verbinding met Google in de HTTP > [!UICONTROL Make] OAuth 2.0-aanvraagmodule](#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module)
 * [Instructies voor verbinding met de Microsoft Graph API via HTTP > Make an OAuth 2.0 request module](#instructions-for-connecting-to-microsoft-graph-api-via-the-http--make-an-oauth-20-request-module)
 
-### Algemene instructies voor het creëren van een verbinding in [!UICONTROL  HTTP ] > [!UICONTROL  maak een OAuth 2.0 verzoek ] module
+### Algemene instructies voor het maken van een verbinding in de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]
 
-1. Maak een OAuth-client in de [!DNL target] -service waarmee [!DNL Adobe Workfront Fusion] moet communiceren. Deze optie wordt zeer waarschijnlijk gevonden in de [!UICONTROL  sectie van de Ontwikkelaar ] van de bepaalde dienst.
+1. Maak een OAuth-client in de [!DNL target] -service waarmee [!DNL Adobe Workfront Fusion] moet communiceren. Deze optie is meestal te vinden in het gedeelte [!UICONTROL Developer] van de opgegeven service.
 
    1. Wanneer u een client maakt, voert u de juiste URL in het veld `[!UICONTROL Redirect URL]` of `[!UICONTROL Callback URL]` in:
 
@@ -103,7 +103,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 1. (Voorwaardelijk) als de doeldienst werkingsgebied (toegangsrechten) gebruikt, controleer hoe de dienst individueel werkingsgebied scheidt en zorg ervoor u de separator in de geavanceerde montages dienovereenkomstig plaatst. Als het scheidingsteken niet correct is ingesteld, kan de verbinding niet tot stand worden gebracht in [!DNL Workfront Fusion] en ontvangt u een ongeldige bereikfout.
 1. Nadat u de bovenstaande stappen hebt uitgevoerd, kunt u de OAuth-verbinding maken in [!DNL Workfront Fusion] . Voeg HTTP > van OAuth 2 aanvraagmodule aan uw scenario toe.
-1. Op het gebied van de Verbinding van de module, voegt de klik **** toe.
+1. Klik in het veld Verbinding van de module op **[!UICONTROL Add]** .
 
 1. Vul de volgende velden in om een verbinding te maken:
 
@@ -116,27 +116,27 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
       <td> <p>Voer de naam van de verbinding in.</p> </td> 
      </tr> 
       <tr> 
-      <td role="rowheader">[!UICONTROL-omgeving] </td> 
+      <td role="rowheader">[!UICONTROL Environment] </td> 
       <td> <p>Selecteer of u een productie- of niet-productieomgeving gebruikt.</p> </td> 
      </tr> 
       <tr> 
-      <td role="rowheader">[!UICONTROL-type] </td> 
+      <td role="rowheader">[!UICONTROL Type] </td> 
       <td> <p>Selecteer of u een serviceaccount of een persoonlijke account gebruikt.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Flow type]</p> </td> 
       <td> <p>Selecteer de stroom voor het verkrijgen van tokens.</p> 
        <ul> 
-        <li><strong>[!UICONTROL Authorization Code] </strong>: Ga <code>[!UICONTROL Authorize URI]</code> en <code>[!UICONTROL Token URI]</code> van de API documentatie van de dienst in.</li> 
-        <li><strong>[!UICONTROL Impliciet] </strong>: ga <code>[!UICONTROL Authorize URI]</code> van de API documentatie van de dienst in.</li> 
+        <li><strong>[!UICONTROL Authorization Code]</strong>: Voer de <code>[!UICONTROL Authorize URI]</code> en <code>[!UICONTROL Token URI]</code> in uit de API-documentatie van de service.</li> 
+        <li><strong>[!UICONTROL Implicit]</strong>: Voer de <code>[!UICONTROL Authorize URI]</code> in uit de API-documentatie van de service.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-bereik] </td> 
+      <td role="rowheader">[!UICONTROL Scope] </td> 
       <td> <p>Afzonderlijk bereik toevoegen. U kunt deze informatie in de bepaalde de ontwikkelaar (API) documentatie van de dienst vinden.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!Scheidingsteken UICONTROL-bereik] </td> 
+      <td role="rowheader">[!UICONTROL Scope separator] </td> 
       <td> <p>Selecteer door welk bereik de bovenstaande gegevens moeten worden gescheiden. U kunt deze informatie in de bepaalde de ontwikkelaar (API) documentatie van de dienst vinden.</p> <p>Waarschuwing: als het scheidingsteken niet correct is ingesteld, kan de verbinding niet tot stand worden gebracht in [!DNL Workfront Fusion] en ontvangt u een ongeldige bereikfout.</p> </td> 
      </tr> 
      <tr> 
@@ -148,11 +148,11 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
       <td> <p> Voer het clientgeheim in. U verkrijgt het Geheime punt van de Cliënt toen u een cliënt OAuth in de dienst creeerde u wilt verbinden.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL autoriseert parameters]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Authorize parameters]</p> </td> 
       <td> <p>Voeg om het even welke parameters toe die u in de vergunningsvraag wilt omvatten. De volgende standaardparameters worden altijd automatisch opgenomen en hoeven niet te worden toegevoegd.</p> <p>Standaardparameters:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL response_type] </strong> </p> <p> <code>code </code> voor [!UICONTROL de stroom van de Code van de Vergunning] en <code>token </code> voor [!UICONTROL impliciete stroom]</p> </li> 
-        <li> <p><strong>[!UICONTROL redirect_uri] </strong> </p> 
+        <li> <p><strong>[!UICONTROL response_type]</strong> </p> <p> <code>code </code>for [!UICONTROL Authorization Code flow] en <code>token </code> for [!UICONTROL Implicit flow]</p> </li> 
+        <li> <p><strong>[!UICONTROL redirect_uri]</strong> </p> 
          <table style="table-layout:auto">  
           <col> 
           <col> 
@@ -167,14 +167,14 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
            </tr> 
           </tbody> 
          </table> </li> 
-        <li> <p><strong>[!UICONTROL client_id] </strong> </p> <p> De client-id die u hebt ontvangen bij het maken van de account</p> </li> 
+        <li> <p><strong>[!UICONTROL client_id]</strong> </p> <p> De client-id die u hebt ontvangen bij het maken van de account</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Access-tokenparameters]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Access token parameters]</p> </td> 
       <td> <p>Voeg om het even welke parameters toe die u in de symbolische vraag wilt omvatten. De volgende standaardparameters worden altijd automatisch opgenomen en hoeven niet te worden toegevoegd.</p> <p>Standaardparameters:</p> 
        <ul> 
-        <li><strong>[!UICONTROL Grant_type] </strong>: <code>authorization_code</code></li> 
+        <li><strong>[!UICONTROL grant_type]</strong>: <code>authorization_code</code></li> 
         <li> <p><strong>[!UICONTROL redirect_uri]:</strong> </p> 
          <table style="table-layout:auto">  
           <col> 
@@ -190,50 +190,50 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
            </tr> 
           </tbody> 
          </table> </li> 
-        <li><strong>[!UICONTROL client_id] </strong>: De cliënt identiteitskaart u ontving toen het creëren van de rekening is automatisch inbegrepen in het verzoeklichaam</li> 
+        <li><strong>[!UICONTROL client_id]</strong>: De client-id die u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</li> 
         <li><strong> client_geheime </strong>: Het geheim van de Cliënt u ontving toen het creëren van de rekening is automatisch inbegrepen in het verzoeklichaam</li> 
         <li><strong> code </strong>: De code die door het vergunningsverzoek is teruggekeerd</li> 
        </ul> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] verzendt automatisch de opgegeven client-id en -geheim via de methode <code>[!UICONTROL client_secret_post]</code> . Daarom zijn deze parameters automatisch inbegrepen als deel van het symbolische verzoeklichaam. </p> <p>Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL vernieuwen symbolenparameters]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Refresh token parameters]</p> </td> 
       <td> <p>Voeg om het even welke parameters toe die u in de symbolische vraag wilt omvatten. De volgende standaardparameters worden altijd automatisch opgenomen en hoeven niet te worden toegevoegd.</p> <p>Standaardparameters:</p> 
        <ul> 
-        <li> <p><strong>[!UICONTROL Grant_type] </strong>: <code>refresh_token</code></p> </li> 
-        <li> <p><strong>[!UICONTROL verfrist_token] </strong>: Het meest recente vernieuwingstoken dat wordt verkregen door de service waarmee u verbinding maakt</p> </li> 
-        <li> <p><strong>[!UICONTROL client_id] </strong>: De cliënt identiteitskaart u ontving toen het creëren van de rekening is automatisch inbegrepen in het verzoeklichaam</p> </li> 
-        <li> <p><strong>[!UICONTROL client_geheime] </strong>: Het geheim van de Cliënt u ontving toen het creëren van de rekening is automatisch inbegrepen in het verzoeklichaam</p> </li> 
+        <li> <p><strong>[!UICONTROL grant_type]</strong>: <code>refresh_token</code></p> </li> 
+        <li> <p><strong>[!UICONTROL refresh_token]</strong>: De meest recente vernieuwingstoken die door de dienst wordt verkregen u met verbindt</p> </li> 
+        <li> <p><strong>[!UICONTROL client_id]</strong>: De client-id die u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</p> </li> 
+        <li> <p><strong>[!UICONTROL client_secret]</strong>: Het clientgeheim dat u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</p> </li> 
        </ul> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] verzendt automatisch de opgegeven client-id en -geheim via de methode <code>[!UICONTROL client_secret_post]</code> . Daarom zijn deze parameters automatisch inbegrepen als deel van het symbolische verzoeklichaam. </p> <p>Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL - Aangepaste kopteksten]</p> </td> 
-      <td> <p>Geef aanvullende sleutels en waarden op die moeten worden opgenomen in de koptekst van de stappen [!UICONTROL Token] en R[!UICONTROL Vernieuwt token].</p> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] biedt niet automatisch ondersteuning voor de methode <code>[!UICONTROL client_secret_basic]</code> . Als de dienst die u verbindt om Cliënt te verwachten - identiteitskaart en Geheim om in één enkel koord worden gecombineerd en dan base64 die in de kopbal van de Vergunning wordt gecodeerd, dan zou u die kopbal en zeer belangrijke waarde hier moeten toevoegen.</p> <p> Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Custom Headers]</p> </td> 
+      <td> <p>Geef aanvullende sleutels en waarden op die u in de koptekst van de stappen [!UICONTROL Token] en R [!UICONTROL efresh Token] wilt opnemen.</p> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] biedt niet automatisch ondersteuning voor de methode <code>[!UICONTROL client_secret_basic]</code> . Als de dienst die u verbindt om Cliënt te verwachten - identiteitskaart en Geheim om in één enkel koord worden gecombineerd en dan base64 die in de kopbal van de Vergunning wordt gecodeerd, dan zou u die kopbal en zeer belangrijke waarde hier moeten toevoegen.</p> <p> Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Tokenplaatsing]</p> </td> 
-      <td> <p>Selecteer of het token in de [!UICONTROL header], [!UICONTROL query string] of in beide moet worden verzonden wanneer verbinding wordt gemaakt met de opgegeven URL.</p> <p>Tokens worden meestal verzonden in de verzoekkopbal.</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Token placement]</p> </td> 
+      <td> <p>Selecteer of het token in de map [!UICONTROL header] , [!UICONTROL query string] of in beide moet worden verzonden wanneer verbinding wordt gemaakt met de opgegeven URL.</p> <p>Tokens worden meestal verzonden in de verzoekkopbal.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL naam van kopteksttoken] </td> 
+      <td role="rowheader">[!UICONTROL Header token name] </td> 
       <td> <p>Voer de naam van het machtigingstoken in de koptekst in. Standaard: <code>[!UICONTROL Bearer]</code>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL naam van parameterparameter voor query-tekenreeks] </td> 
+      <td role="rowheader">[!UICONTROL Query string parameter name] </td> 
       <td> <p>Voer de naam van het verificatietoken in de queryreeks in. Standaard: <code>[!UICONTROL access_token]</code>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klik **[!UICONTROL verdergaan]** om de verbinding te bewaren en aan de module terug te keren.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 1. Ga aan [ te werk vormen doe een OAuth 2.0 verzoekmodule ](#configure-the-make-an-oauth-20-request-module).
 
-### Instructies voor het creëren van een verbinding aan [!DNL Google] in [!UICONTROL  HTTP ] > [!UICONTROL  maak een OAuth 2.0 verzoekmodule ]
+### Instructies voor het maken van een verbinding met [!DNL Google] in het dialoogvenster [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request module]
 
-Het volgende voorbeeld toont hoe te om [!UICONTROL  HTTP ] te gebruiken > [!UICONTROL  maak een OAuth 2.0 ] verzoekmodule om met [!DNL Google] te verbinden.
+In het volgende voorbeeld ziet u hoe u de aanvraagmodule [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0] gebruikt om verbinding te maken met [!DNL Google] .
 
 1. Zorg ervoor dat u een project, gevormde montages OAuth hebt gecreeerd, en uw geloofsbrieven zoals die in artikel [ worden beschreven verbind  [!DNL Adobe Workfront Fusion]  met  [!DNL Google Services]  gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md) geproduceerd.
-1. Open [!UICONTROL  HTTP ] > [!UICONTROL  maak een OAuth 2.0 verzoek ] module.
-1. In om het even welke module, voegt de klik **[!UICONTROL toe]** naast het vakje van de Verbinding.
+1. Open de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]
+1. Klik in een willekeurige module op **[!UICONTROL Add]** naast het vak Verbinding.
 1. Voer de volgende waarden in:
 
    <table style="table-layout:auto">  
@@ -245,11 +245,11 @@ Het volgende voorbeeld toont hoe te om [!UICONTROL  HTTP ] te gebruiken > [!UICO
       <td> <p>Voer een naam in voor de verbinding.</p> </td> 
      </tr> 
       <tr> 
-      <td role="rowheader">[!UICONTROL-omgeving] </td> 
+      <td role="rowheader">[!UICONTROL Environment] </td> 
       <td> <p>Selecteer of u een productie- of niet-productieomgeving gebruikt.</p> </td> 
      </tr> 
       <tr> 
-      <td role="rowheader">[!UICONTROL-type] </td> 
+      <td role="rowheader">[!UICONTROL Type] </td> 
       <td> <p>Selecteer of u een serviceaccount of een persoonlijke account gebruikt.</p> </td> 
      </tr> 
      <tr> 
@@ -257,19 +257,19 @@ Het volgende voorbeeld toont hoe te om [!UICONTROL  HTTP ] te gebruiken > [!UICO
       <td> <p>[!UICONTROL Authorization Code]</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL autoriseer URI]</td> 
+      <td role="rowheader">[!UICONTROL Authorize URI]</td> 
       <td><code>https://accounts.google.com/o/oauth2/v2/auth</code> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Token-URI]</td> 
+      <td role="rowheader">[!UICONTROL Token URI]</td> 
       <td><code>https://www.googleapis.com/oauth2/v4/token</code> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL-bereik] </td> 
+      <td role="rowheader">[!UICONTROL Scope] </td> 
       <td> <p>Afzonderlijk bereik toevoegen. Voor meer informatie over werkingsgebied, zie <a href="https://developers.google.com/identity/protocols/oauth2/scopes"> OAuth 2.O Scopes voor [!DNL Google] APIs </a> in de [!DNL Google] documentatie.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!Scheidingsteken UICONTROL-bereik] </td> 
+      <td role="rowheader">[!UICONTROL Scope separator] </td> 
       <td> <p>[!UICONTROL SPACE]</p> </td> 
      </tr> 
      <tr> 
@@ -281,20 +281,20 @@ Het volgende voorbeeld toont hoe te om [!UICONTROL  HTTP ] te gebruiken > [!UICO
       <td> <p>Voer uw [!DNL Google] clientgeheim in. </p> <p>Om een cliëntgeheim tot stand te brengen, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md#create-oauth-credentials" class="MCXref xref"> OAuth Credentials </a> in het artikel [!DNL Connect Adobe Workfront Fusion] aan [!DNL Google] de Diensten creëren gebruikend een cliënt van douaneOAuth </a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>[!UICONTROL autoriseert parameters]</p> </td> 
+      <td role="rowheader"> <p>[!UICONTROL Authorize parameters]</p> </td> 
       <td> <p>Voeg <code>[!UICONTROL access_type]</code> toe - <code>[!UICONTROL offline] </code> zeer belangrijk-waardepaar.</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/google-authentication-http.png"> </p> <p>Nota: Als u authentificatiekwesties, bijvoorbeeld met symbolische verfrissing ervaart, probeer toevoegend <code>[!UICONTROL prompt] </code> - <code>[!UICONTROL consent] </code> zeer belangrijk-waardepaar.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klik **[!UICONTROL verdergaan]** om verbindingsmontages te bewaren.
+1. Klik op **[!UICONTROL Continue]** om verbindingsinstellingen op te slaan.
 1. Ga aan [ te werk vormen doe een OAuth 2.0 verzoekmodule ](#configure-the-make-an-oauth-20-request-module).
 
 ## Vorm Make een OAuth 2.0 verzoekmodule
 
 Nadat u een verbinding OAuth 2.0 hebt gevestigd, zet opstelling de module voort zoals gewenst. Alle toestemmingstokens worden automatisch inbegrepen in dit verzoek, en in een ander verzoek dat de zelfde verbinding gebruikt.
 
-Wanneer u [!UICONTROL  HTTP ] vormt > [!UICONTROL  maak een OAuth 2.0 verzoek ] module, [!DNL Workfront Fusion] toont de hieronder vermelde gebieden. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -305,11 +305,11 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!UICONTROL-verbinding]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Voor informatie bij vestiging een verbinding, zie <a href="#create-a-connection-for-an-oauth-request" class="MCXref xref"> een verbinding voor een OAuth verzoek </a> in dit artikel creëren.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL evalueert alle staten als fouten (behalve 2xx en 3xx)] </td> 
+   <td role="rowheader">[!UICONTROL Evaluate all states as errors (except for 2xx and 3xx)] </td> 
    <td> <p>Gebruik deze optie om foutafhandeling in te stellen.</p> <p>Voor meer informatie, zie <a href="/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md" class="MCXref xref"> de behandeling van de Fout </a>.</p> </td> 
   </tr> 
   <tr> 
@@ -317,73 +317,73 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
    <td> <p>Voer de URL in waarnaar u een aanvraag wilt verzenden, zoals een API-eindpunt, website, enzovoort.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL, methode]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
    <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref"> HTTP- verzoekmethodes </a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-kopteksten] </td> 
+   <td role="rowheader">[!UICONTROL Headers] </td> 
    <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object. Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-queryreeks]</td> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
    <td> <p> Voer de gewenste sleutel-waardeparen voor de query in.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Body type]</p> </td> 
    <td> <p>De hoofdtekst van HTTP is de gegevensbytes die in een HTTP- transactiebericht onmiddellijk na de kopballen worden overgebracht als er om het even welk zijn om worden gebruikt.</p> 
     <ul> 
-     <li> <p><strong>[!UICONTROL Raw] </strong> </p> <p>Het type Raw-hoofdtekst is over het algemeen geschikt voor de meeste HTTP-hoofdtekstaanvragen, zelfs in situaties waarin in de documentatie van de ontwikkelaar geen gegevens zijn opgegeven die moeten worden verzonden.</p> <p>Geef een vorm voor het parseren van de gegevens op in het veld [!UICONTROL-inhoudstype].</p> <p>Ondanks het geselecteerde inhoudstype, worden de gegevens ingevoerd in om het even welk formaat dat door de ontwikkelaarsdocumentatie wordt bepaald of wordt vereist.</p> </li> 
-     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded] </strong> </p> <p>Dit type body is voor POST-gegevens met <code>[!UICONTROL application/x-www-form-urlencoded]</code> .</p> <p>Voor <code>[!UICONTROL application/x-www-form-urlencoded]</code> is de hoofdtekst van het HTTP-bericht dat naar de server wordt verzonden, in wezen één queryreeks. De sleutels en waarden worden gecodeerd in sleutel-waardeparen die door <code>&amp;</code> worden gescheiden en met een <code>=</code> tussen de sleutel en de waarde. </p> <p><code>use [!UICONTROL multipart/form-data]</code> voor binaire gegevens.</p> 
+     <li> <p><strong>[!UICONTROL Raw]</strong> </p> <p>Het type Raw-hoofdtekst is over het algemeen geschikt voor de meeste HTTP-hoofdtekstaanvragen, zelfs in situaties waarin in de documentatie van de ontwikkelaar geen gegevens zijn opgegeven die moeten worden verzonden.</p> <p>Geef een vorm voor het parseren van de gegevens op in het veld [!UICONTROL Content type] .</p> <p>Ondanks het geselecteerde inhoudstype, worden de gegevens ingevoerd in om het even welk formaat dat door de ontwikkelaarsdocumentatie wordt bepaald of wordt vereist.</p> </li> 
+     <li> <p><strong>[!UICONTROL Application/x-www-form-urlencoded]</strong> </p> <p>Dit type body is voor POST-gegevens met <code>[!UICONTROL application/x-www-form-urlencoded]</code> .</p> <p>Voor <code>[!UICONTROL application/x-www-form-urlencoded]</code> is de hoofdtekst van het HTTP-bericht dat naar de server wordt verzonden, in wezen één queryreeks. De sleutels en waarden worden gecodeerd in sleutel-waardeparen die door <code>&amp;</code> worden gescheiden en met een <code>=</code> tussen de sleutel en de waarde. </p> <p><code>use [!UICONTROL multipart/form-data]</code> voor binaire gegevens.</p> 
       <div class="example" data-mc-autonum="<b>Example: </b>">
        <span class="autonumber"><span><b> Voorbeeld: </b></span></span> 
        <p>Voorbeeld van de resulterende HTTP-aanvraagindeling:</p> 
        <p><code>field1=value1&amp;field2=value2</code> </p> 
       </div> </li> 
-     <li> <p><strong>[!UICONTROL Multipart/form-data] </strong> </p> <p>De [!UICONTROL Multipart/form-data] is een multipart HTTP-aanvraag die wordt gebruikt om bestanden en gegevens te verzenden. Het wordt doorgaans gebruikt om bestanden naar de server te uploaden.</p> <p>Voeg velden toe die in de aanvraag moeten worden verzonden. Elk veld moet een sleutelwaardepaar bevatten.</p> 
+     <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL Multipart/form-data] is een multipart HTTP-aanvraag die wordt gebruikt om bestanden en gegevens te verzenden. Het wordt doorgaans gebruikt om bestanden naar de server te uploaden.</p> <p>Voeg velden toe die in de aanvraag moeten worden verzonden. Elk veld moet een sleutelwaardepaar bevatten.</p> 
       <ul> 
-       <li> <p><strong> [!UICONTROL Tekst] </strong> </p> <p>Voer de sleutel en waarde in die binnen de aanvraaginstantie moeten worden verzonden.</p> </li> 
-       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Voer de sleutel in en geef het bronbestand op dat u wilt verzenden in de hoofdtekst van de aanvraag.</p> <p>Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld [!UICONTROL HTTP] &gt; [!UICONTROL Get a File]) of voer de bestandsnaam en de bestandsgegevens handmatig in.</p> </li> 
+       <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>Voer de sleutel en waarde in die binnen de aanvraaginstantie moeten worden verzonden.</p> </li> 
+       <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Voer de sleutel in en geef het bronbestand op dat u wilt verzenden in de hoofdtekst van de aanvraag.</p> <p>Wijs het bestand dat u uit de vorige module wilt uploaden (bijvoorbeeld [!UICONTROL HTTP] &gt; [!UICONTROL Get a File] ) toe of voer de bestandsnaam en de bestandsgegevens handmatig in.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Parse response]</p> </td> 
-   <td> <p>Schakel deze optie in om reacties automatisch te parseren en JSON- en XML-reacties om te zetten, zodat u niet [!UICONTROL JSON] &gt; [!UICONTROL Parse JSON] of [!UICONTROL XML] &gt; [!UICONTROL Parse XML] modules moet gebruiken.</p> <p>Voordat u geparseerde JSON- of XML-inhoud kunt gebruiken, voert u de module één keer handmatig uit, zodat de module de inhoud van de reactie herkent en deze in volgende modules kunt toewijzen.</p> </td> 
+   <td> <p>Schakel deze optie in om reacties automatisch te parseren en JSON- en XML-reacties om te zetten, zodat u de modules [!UICONTROL JSON] &gt; [!UICONTROL Parse JSON] of [!UICONTROL XML] &gt; [!UICONTROL Parse XML] niet hoeft te gebruiken.</p> <p>Voordat u geparseerde JSON- of XML-inhoud kunt gebruiken, voert u de module één keer handmatig uit, zodat de module de inhoud van de reactie herkent en deze in volgende modules kunt toewijzen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Timeout] </td> 
    <td> <p>Voer de time-out van het verzoek in seconden in (1-300). De standaardwaarde is 40 seconden.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Delen cookies met andere HTTP-modules]</td> 
+   <td role="rowheader">[!UICONTROL Share cookies with other HTTP modules]</td> 
    <td> <p> Schakel deze optie in om cookies van de server te delen met alle HTTP-modules in uw scenario.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Zelfondertekend certificaat]</td> 
+   <td role="rowheader">[!UICONTROL Self-signed certificate]</td> 
    <td> <p>Om een zelfondertekend certificaat of een privé sleutel voor TLS te gebruiken, klik <b> Extraheren </b> en verstrek het van het certificaat of privé sleutel dossier en wachtwoord.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL weigert verbindingen die niet-geverifieerde (zelf-ondertekende) certificaten gebruiken] </td> 
+   <td role="rowheader">[!UICONTROL Reject connections that are using unverified (self-signed) certificates] </td> 
    <td> <p>Schakel deze optie in om verbindingen die niet-geverifieerde TLS-certificaten gebruiken, te weigeren.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Volg omleiding]</td> 
+   <td role="rowheader">[!UICONTROL Follow redirect]</td> 
    <td> <p> Schakel deze optie in om de URL-omleidingen te volgen met 3xx-reacties.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Volg alle omleidingen] </td> 
+   <td role="rowheader">[!UICONTROL Follow all redirects] </td> 
    <td> <p>Schakel deze optie in om de URL-omleidingen te volgen met alle antwoordcodes.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL onbruikbaar maakt rangschikking van veelvoudige zelfde sleutels van het vraagkoord zoals series]</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Disable serialization of multiple same query string keys as arrays]</p> </td> 
    <td> <p>Standaard handelt [!DNL Workfront Fusion] meerdere waarden af voor dezelfde URL-querytekenreeks-parametersleutel als arrays. <code>www.test.com?foo=bar&amp;foo=baz</code> wordt bijvoorbeeld omgezet in <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code> . Activeer deze optie om deze functie uit te schakelen. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-verzoek gecomprimeerde inhoud]</td> 
+   <td role="rowheader">[!UICONTROL Request compressed content]</td> 
    <td> <p> Schakel deze optie in om een gecomprimeerde versie van de website aan te vragen.</p> <p>Hiermee wordt een <code>[!UICONTROL Accept-Encoding]</code> -header toegevoegd om gecomprimeerde inhoud aan te vragen.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL gebruikt wederzijds TLS]</td> 
+   <td role="rowheader">[!UICONTROL Use Mutual TLS]</td> 
    <td> <p>Schakel deze optie in om Wederzijdse TLS te gebruiken in de HTTP-aanvraag.</p> <p>Voor meer informatie over Wederzijdse TLS, zie <a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md" class="MCXref xref"> Gebruik Wederzijdse TLS in de modules van HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
  </tbody> 

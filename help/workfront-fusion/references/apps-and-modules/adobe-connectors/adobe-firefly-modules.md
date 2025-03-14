@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
-source-wordcount: '2432'
+source-wordcount: '2251'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -87,7 +87,7 @@ De Adobe Firefly-connector gebruikt het volgende:
 
 Verbinding maken voor uw [!DNL Adobe Firefly] -modules:
 
-1. In om het even welke module, voegt de klik **[!UICONTROL toe]** naast het vakje van de Verbinding.
+1. Klik in een willekeurige module op **[!UICONTROL Add]** naast het vak Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -104,25 +104,25 @@ Verbinding maken voor uw [!DNL Adobe Firefly] -modules:
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL-omgeving]</td>
+        <td role="rowheader">[!UICONTROL Environment]</td>
         <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL-type]</td>
+        <td role="rowheader">[!UICONTROL Type]</td>
         <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. U vindt deze informatie in het detailgedeelte [!UICONTROL Credentials] van de [!DNL Adobe Developer Console] .</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials] Details van [!DNL Adobe Developer Console] .</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. U vindt deze informatie in het detailgedeelte [!UICONTROL Credentials] van de [!DNL Adobe Developer Console] .</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials] Details van [!DNL Adobe Developer Console] .</td>
         </tr>
       </tbody>
     </table>
 
-1. Klik **[!UICONTROL verdergaan]** om de verbinding te bewaren en aan de module terug te keren.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## [!DNL Adobe Firefly] modules en hun velden
 
@@ -143,15 +143,15 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-verbinding]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Vragen]</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Voer een vraag in of wijs een vraag toe aan de inhoud waarmee u de afbeelding wilt uitvouwen. Als er geen vraag wordt weergegeven, wordt de afbeelding uitgebreid met inhoud die overeenkomt met de oorspronkelijke afbeelding.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Aantal variaties]</td> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
    <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal uitgebreide afbeeldingsvariaties.</td> 
   </tr> 
   <tr> 
@@ -159,11 +159,11 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
    <td>Selecteer hoe u het bronbestand opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL - Uitgebreide afbeeldingsindeling]</td> 
+   <td role="rowheader">[!UICONTROL Expanded image format]</td> 
    <td>Selecteer de bestandsindeling waarin de uitgevouwen afbeelding wordt opgeslagen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL uitbreiden met]</td> 
+   <td role="rowheader">[!UICONTROL Expand by]</td> 
    <td>  <p>Selecteer of u de afbeelding wilt uitvouwen door de afbeelding te plaatsen of door een masker te gebruiken.</p> 
    <ul>
    <li><b>Plaatsing</b><p>Voer de horizontale en verticale uitlijning in en de inzet van de geplaatste afbeelding vanaf de randen.</p></li>
@@ -173,11 +173,11 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!grootte UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
    <td>Selecteer de hoogte en breedte die u wilt instellen als de uitgevouwen afbeelding.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Zaden]</td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
    <td>Voor elk beeld dat de module zal produceren, <b> toevoegt punt </b> en gaat of een geheel in kaart brengt. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. Het aantal zaden dat u toevoegt, moet gelijk zijn aan het veld Aantal variaties.</td> 
   </tr> 
  </tbody> 
@@ -198,23 +198,23 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-verbinding]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Image &gt; Source]</td> 
+   <td role="rowheader">[!UICONTROL Image > Source]</td> 
    <td>Selecteer hoe u het afbeeldingsbronbestand opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Mask &gt; Source]</td> 
+   <td role="rowheader">[!UICONTROL Mask > Source]</td> 
    <td>Selecteer hoe u het bronbestand van het masker oplevert:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Vragen]</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Voer een vraag in of wijs een vraag toe aan de inhoud waarmee u de afbeelding wilt vullen. Als er geen vraag wordt weergegeven, wordt de afbeelding gevuld met inhoud die overeenkomt met de oorspronkelijke afbeelding.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Aantal variaties]</td> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
    <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal gevulde afbeeldingsvariaties.</td> 
   </tr> 
   <tr> 
@@ -223,15 +223,15 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Zaden]</td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
    <td>Voor elk beeld dat de module zal produceren, <b> toevoegt punt </b> en gaat of een geheel in kaart brengt. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. Het aantal zaden dat u toevoegt, moet gelijk zijn aan het veld Aantal variaties.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!grootte UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
    <td>Selecteer de grootte van de gevulde afbeelding.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-landinstelling]</td> 
+   <td role="rowheader">[!UICONTROL Locale]</td> 
    <td>Als een landinstelling wordt opgegeven, genereert de module inhoud die relevanter is voor de opgegeven landinstelling. <p>De landinstelling moet worden vermeld in ISO 639-1 taalcode en ISO 3166-1 regio.</p><p> Voorbeeld: <code>en-US</code></p></td> 
   </tr> 
  </tbody> 
@@ -252,39 +252,39 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-verbinding]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Vragen]</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Voer een vraag in of wijs een vraag toe voor de afbeelding die u wilt genereren. Als u meer details opgeeft in de vraag, hebt u meer controle over wat er in de afbeelding wordt weergegeven.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Aantal variaties]</td> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
    <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal afbeeldingsvariaties.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Gegenereerde afbeeldingsindeling]</td> 
+   <td role="rowheader">[!UICONTROL Generated image format]</td> 
    <td>Selecteer de bestandsindeling waarin de uitgevouwen afbeelding wordt opgeslagen. Als u standaard selecteert, wordt de bestandsindeling JPEG als er geen referentieafbeelding is opgegeven. Als een referentieafbeelding wordt opgegeven, is de bestandsindeling van de gegenereerde afbeelding dezelfde als die van de referentieafbeelding.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Structuur &gt; Referentie afbeelding]</td> 
+   <td role="rowheader">[!UICONTROL Structure > Image reference]</td> 
     <td>Selecteer hoe u het bronbestand voor de structuur van de nieuwe afbeelding opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Structure &gt; Strength]</td> 
+   <td role="rowheader">[!UICONTROL Structure > Strength]</td> 
     <td>Voer een getal in tussen 0 en 100 om te bepalen hoe strikt Firefly de structuur van de bronafbeelding volgt. Hogere waarden betekenen dat Firefly de afbeelding strikter volgt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Style &gt; Image reference]</td> 
+   <td role="rowheader">[!UICONTROL Style > Image reference]</td> 
     <td>Selecteer hoe u het bronbestand voor de stijl van de nieuwe afbeelding opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Structure &gt; Strength]</td> 
+   <td role="rowheader">[!UICONTROL Structure > Strength]</td> 
     <td>Voer een getal in tussen 0 en 100 om te bepalen hoe strikt Firefly de stijl van de bronafbeelding volgt. Hogere waarden betekenen dat Firefly de afbeelding strikter volgt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-stijl &gt; Voorinstellingen]</td> 
+   <td role="rowheader">[!UICONTROL Style > Presets]</td> 
    <td>Als u een vooraf ingestelde stijl wilt gebruiken, voegt de klik punt toe en gaat of kaart de stijl in die u wilt gebruiken.<p>Voor een lijst van vooraf ingestelde stijlen, zie <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets//" > ModelStijlen van het Beeld </a> in de de ontwikkelaarsdocumentatie van Adobe.</td> 
   </tr> 
   <tr> 
@@ -292,27 +292,27 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
    <td>Typ of wijs de woorden toe die u in de gegenereerde inhoud wilt vermijden. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Content, klasse]</td> 
+   <td role="rowheader">[!UICONTROL Content class]</td> 
    <td>Selecteer of u de gegenereerde afbeelding meer als een foto wilt weergeven, of meer als een gemaakte illustratie. <ul><li><b>Foto</b><p>Voer waarden in voor de lensopening, de sluitersnelheid (in seconden) en het gezichtsveld (in millimeters).</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-zaad]</td> 
+   <td role="rowheader">[!UICONTROL Seed]</td> 
    <td>Voor elk beeld dat de module zal produceren, <b> toevoegt punt </b> en gaat of een geheel in kaart brengt. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. Het aantal zaden dat u toevoegt, moet gelijk zijn aan het veld Aantal variaties.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!grootte UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
    <td>Selecteer de grootte van de gegenereerde afbeelding.</td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL - Visuele intensiteit]</td> 
+   <td role="rowheader">[!UICONTROL Visual intensity]</td> 
    <td>Voer een geheel getal in of wijs een geheel getal toe dat de algemene intensiteit van de bestaande visuele kenmerken van de foto vertegenwoordigt. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-landinstelling]</td> 
+   <td role="rowheader">[!UICONTROL Locale]</td> 
    <td>Als een landinstelling wordt opgegeven, genereert de module inhoud die relevanter is voor de opgegeven landinstelling. <p>De landinstelling moet worden vermeld in ISO 639-1 taalcode en ISO 3166-1 regio.</p><p> Voorbeeld: <code>en-US</code></p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-tabblad]</td> 
+   <td role="rowheader">[!UICONTROL Tileable]</td> 
    <td>Schakel deze optie in om een afbeelding te genereren die oneindig in elke richting kan worden herhaald.</td> 
   </tr> 
  </tbody> 
@@ -331,43 +331,43 @@ Deze actiemodule combineert afbeeldingen die door Firefly zijn gegenereerd om ee
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-verbinding]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Vragen]</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Voer een vraag in of wijs een vraag toe voor de afbeelding die u wilt genereren. Als u meer details opgeeft in de vraag, hebt u meer controle over wat er in de afbeelding wordt weergegeven.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Aantal variaties]</td> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
    <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal afbeeldingsvariaties.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!Klasse UICONTROL-inhoud]</td> 
+   <td role="rowheader">[!UICONTROL Content classs]</td> 
    <td>Selecteer of u de gegenereerde afbeelding meer wilt weergeven als een foto of als een soort illustratie.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Image &gt; Source]</td> 
+   <td role="rowheader">[!UICONTROL Image > Source]</td> 
     <td>Selecteer hoe u het bronbestand voor de structuur van de nieuwe afbeelding opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Gegenereerde afbeeldingsindeling]</td> 
+   <td role="rowheader">[!UICONTROL Generated image format]</td> 
    <td>Selecteer de bestandsindeling waarin de uitgevouwen afbeelding wordt opgeslagen. Als u standaard selecteert, wordt de bestandsindeling JPEG als er geen referentieafbeelding is opgegeven. Als een referentieafbeelding wordt opgegeven, is de bestandsindeling van de gegenereerde afbeelding dezelfde als die van de referentieafbeelding.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Style &gt; Image reference]</td> 
+   <td role="rowheader">[!UICONTROL Style > Image reference]</td> 
     <td>Selecteer hoe u het bronbestand voor de stijl van de nieuwe afbeelding opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Structure &gt; Strength]</td> 
+   <td role="rowheader">[!UICONTROL Structure > Strength]</td> 
     <td>Voer een getal in tussen 0 en 100 om te bepalen hoe strikt Firefly de stijl van de bronafbeelding volgt. Hogere waarden betekenen dat Firefly de afbeelding strikter volgt.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-stijl &gt; Voorinstellingen]</td> 
+   <td role="rowheader">[!UICONTROL Style > Presets]</td> 
    <td>Als u een vooraf ingestelde stijl wilt gebruiken, voegt de klik punt toe en gaat of kaart de stijl in die u wilt gebruiken.<p>Voor een lijst van vooraf ingestelde stijlen, zie <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets//" > ModelStijlen van het Beeld </a> in de de ontwikkelaarsdocumentatie van Adobe.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!grootte UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
    <td>Selecteer de grootte die de gegenereerde samenstelling moet hebben. </td> 
   </tr> 
  </tbody> 
@@ -382,35 +382,35 @@ Deze actiemodule genereert afbeeldingen die lijken op de bronafbeelding die u op
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-verbinding]</td> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
    <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Aantal variaties]</td> 
+   <td role="rowheader">[!UICONTROL Number of variations]</td> 
    <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal afbeeldingsvariaties.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Gegenereerde afbeeldingsindeling]</td> 
+   <td role="rowheader">[!UICONTROL Generated image format]</td> 
    <td>Selecteer de bestandsindeling waarin de uitgevouwen afbeelding wordt opgeslagen. Als u standaard selecteert, wordt de bestandsindeling JPEG als er geen referentieafbeelding is opgegeven. Als een referentieafbeelding wordt opgegeven, is de bestandsindeling van de gegenereerde afbeelding dezelfde als die van de referentieafbeelding.</td> 
   </tr> 
    <tr> 
-   <td role="rowheader">[!UICONTROL Image &gt; Source]</td> 
+   <td role="rowheader">[!UICONTROL Image > Source]</td> 
     <td>Selecteer hoe u het bronbestand voor de structuur van de nieuwe afbeelding opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Style &gt; Image reference]</td> 
+   <td role="rowheader">[!UICONTROL Style > Image reference]</td> 
     <td>Selecteer hoe u het bronbestand voor de stijl van de nieuwe afbeelding opgeeft:<ul><li><p><b>Bestand</b></p><p>Selecteer een bronbestand uit een vorige module of wijs de naam en het bestand met referentieafbeelding van het bronbestand toe.</p></li><li><p><b>Vooraf geplaatste URL</b></p><p>Voer de URL van de bronafbeelding in of wijs deze toe.</p></li></ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!grootte UICONTROL]</td> 
+   <td role="rowheader">[!UICONTROL Size]</td> 
    <td>Selecteer de grootte die de gegenereerde samenstelling moet hebben. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Zaden]</td> 
+   <td role="rowheader">[!UICONTROL Seeds]</td> 
    <td>Voor elk beeld dat de module zal produceren, <b> toevoegt punt </b> en gaat of een geheel in kaart brengt. U kunt dit zelfde zaad in een andere gebruiken breid een beeldmodule uit om een gelijkaardige beeld met verschillende stijlen te produceren. Het aantal zaden dat u toevoegt, moet gelijk zijn aan het veld Aantal variaties.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-tabblad]</td> 
+   <td role="rowheader">[!UICONTROL Tileable]</td> 
    <td>Schakel deze optie in om een afbeelding te genereren die oneindig in elke richting kan worden herhaald.</td> 
   </tr> 
  </tbody> 
@@ -428,7 +428,7 @@ Voor specifieke beschikbare APIs, zie [ Adobe Firefly API ](https://developer.ad
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly] .</td>
     </tr>
     <tr>
@@ -439,12 +439,12 @@ Voor specifieke beschikbare APIs, zie [ Adobe Firefly API ](https://developer.ad
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL, methode]</p>
+        <p>[!UICONTROL Method]</p>
       </td>
    <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-kopteksten]</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>

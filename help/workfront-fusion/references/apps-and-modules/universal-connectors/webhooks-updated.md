@@ -4,7 +4,7 @@ description: Een webhaak is een HTTP-aanroep die door een gebeurtenis wordt geac
 author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '1331'
 ht-degree: 0%
@@ -40,7 +40,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -276,11 +276,11 @@ De configuratie van de module bevat twee velden: [!UICONTROL Status] en [!UICONT
 
   >[!TIP]
   >
-  >We raden u aan de header `Content-Type` in te stellen op het corresponderende MIME-type: `text/plain` voor onbewerkte tekst, `text/html` voor HTML, `application/json` voor JSON, `application/xml` voor XML enzovoort. Voor meer informatie over types MIME, zie [ MIME modules ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md).
+  >We raden u aan de header `Content-Type` in te stellen op het corresponderende MIME-type: `text/plain` voor normale tekst, `text/html` voor HTML, `application/json` voor JSON, `application/xml` voor XML enzovoort. Voor meer informatie over types MIME, zie [ MIME modules ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md).
 
 De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie niet beschikbaar is binnen die periode, retourneert Workfront Fusion de status &#39;200 Accepted&#39;.
 
-### HTML-voorbeeld
+### HTML Response-voorbeeld
 
 >[!INFO]
 >
@@ -313,7 +313,7 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 >
 >![ de Kopballen van de Douane ](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
->Hierdoor wordt een HTML-reactie gegenereerd die in een webbrowser wordt weergegeven:
+>Hiermee wordt een HTML-reactie gegenereerd die in een webbrowser wordt weergegeven:
 >
 >![ reactie HEML ](/help/workfront-fusion/references/apps-and-modules/assets/html-response-350x70.png)
 

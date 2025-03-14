@@ -5,7 +5,7 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e6fbbc20-4315-4668-9e11-af7cfa82ae66
-source-git-commit: 757580687ff5d1617f83432952d9870bd697925e
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '3623'
 ht-degree: 0%
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 # [!DNL Adobe PDF Services]
 
-Met [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services] kunt u gegevens uit een PDF-bestand extraheren of een nieuw PDF-bestand genereren op basis van gegevens die u opgeeft. Daarnaast kunt u verschillende bestandstypen omzetten in PDF of PDF in andere bestandstypen. Met PDF Services kunt u ook metagegevens voor een PDF-bestand combineren, comprimeren of lezen, en wachtwoordbeveiliging voor het bestand instellen.
+Met [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services] kunt u gegevens uit een PDF-bestand extraheren of een nieuw PDF-bestand genereren op basis van gegevens die u opgeeft. Daarnaast kunt u verschillende bestandstypen converteren naar PDF&#39;s of naar andere bestandstypen. Met PDF Services kunt u ook metagegevens voor een PDF-bestand combineren, comprimeren of lezen, en wachtwoordbeveiliging voor het bestand instellen.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
 Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
-Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [ de Generatie API van het Document van de Adobe ](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [ de Generatie API van het Document van Adobe ](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
 ## Beveiligingsoverwegingen bij gebruik van [!DNL Adobe PDF Services]
 
@@ -50,7 +50,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
@@ -74,9 +74,9 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ## Vereisten
 
-Als u een OAuth Server-to-Server-verbinding wilt maken, moet u de Adobe PDF Services API toevoegen in uw Adobe Developers Console. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
+Als u een OAuth Server-to-Server-verbinding wilt maken, moet u de Adobe PDF Services API in uw Adobe Developers Console toevoegen. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
 
-Voor instructies, zie [ API aan project toevoegen gebruikend OAuth ](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) in de documentatie van de ontwikkelaar van de Adobe.
+Voor instructies, zie [ API aan project toevoegen gebruikend OAuth ](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) in de de ontwikkelaarsdocumentatie van Adobe.
 
 ## API-informatie voor Adobe PDF Services
 
@@ -125,19 +125,19 @@ Verbinding maken voor uw [!DNL Adobe PDF Services] -modules:
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p></td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de de ontwikkelaarsdocumentatie van Adobe.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de de ontwikkelaarsdocumentatie van Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Technical account ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de de ontwikkelaarsdocumentatie van Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Organization ID] (alleen JWT)</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de documentatie van de ontwikkelaar van de Adobe.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/#credentials" class="MCXref xref" > Geloofsbrieven </a> in de de ontwikkelaarsdocumentatie van Adobe.</p>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Meta scopes] (alleen JWT)</td>
@@ -199,11 +199,11 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [[!UICONTROL PDF file properties]](#pdf-file-properties)
 * [[!UICONTROL Protect PDF file]](#protect-pdf-file)
 * [[!UICONTROL Remove protection of a PDF file]](#remove-protection-of-a-pdf-file)
-* [Een PDF-bestand splitsen](#split-a-pdf-file)
+* [PDF-bestanden splitsen](#split-a-pdf-file)
 
 ### [!UICONTROL Combine PDF files]
 
-Deze actiemodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-bestand. In deze module kunnen bijvoorbeeld alle documenten in een [!UICONTROL Workfront] -project na voltooiing van het project worden samengevoegd tot één PDF.
+Deze handelingsmodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-bestand. In deze module kunnen bijvoorbeeld alle documenten in een [!UICONTROL Workfront] -project na voltooiing van het project worden samengevoegd tot één PDF.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -215,7 +215,7 @@ Deze actiemodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-b
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Documents]</td> 
-   <td> <p>U kunt een aggregatormodule gebruiken om documenten te verzamelen die in een PDF moeten worden gecombineerd, of u kunt de documenten handmatig toevoegen. </p> <p>We raden u aan een [!UICONTROL Array Aggregator] -module te gebruiken om de uitvoer van een vorige module samen te voegen. Door een aggregator te gebruiken, te hoeven u niet de namen, de plaatsen, of de aantallen dossiers te kennen om te combineren. Het gebruik van een aggregator is daarom veel flexibeler en schaalbaarder dan het handmatig invoeren van de te combineren documenten.</p> <p>Als u de module [!UICONTROL Combine PDF] Bestanden wilt gebruiken met een aggregator, moet u toewijzing inschakelen in het veld [!UICONTROL Documents] . </p> <p>In dit voorbeeld identificeert de module [!UICONTROL Read Related Records] documenten die aan een project zijn gekoppeld en downloadt de module [!UICONTROL Download Documents] elk document. Alle PDF worden geaggregeerd in een array die wordt doorgegeven aan de module [!UICONTROL Combine PDF] files.</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>U kunt documenten ook handmatig invoeren.</p> <p>Voor elk document dat in de gecombineerde PDF moet worden opgenomen:</p> 
+   <td> <p>U kunt een aggregatormodule gebruiken om documenten te verzamelen die in een PDF moeten worden gecombineerd, of u kunt de documenten handmatig toevoegen. </p> <p>We raden u aan een [!UICONTROL Array Aggregator] -module te gebruiken om de uitvoer van een vorige module samen te voegen. Door een aggregator te gebruiken, te hoeven u niet de namen, de plaatsen, of de aantallen dossiers te kennen om te combineren. Het gebruik van een aggregator is daarom veel flexibeler en schaalbaarder dan het handmatig invoeren van de te combineren documenten.</p> <p>Als u de module [!UICONTROL Combine PDF] Bestanden wilt gebruiken met een aggregator, moet u toewijzing inschakelen in het veld [!UICONTROL Documents] . </p> <p>In dit voorbeeld identificeert de module [!UICONTROL Read Related Records] documenten die aan een project zijn gekoppeld en downloadt de module [!UICONTROL Download Documents] elk document. Alle PDF's worden samengevoegd tot een array die wordt doorgegeven aan de module [!UICONTROL Combine PDF] Bestanden.</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/combine-example-350x104.png" style="width: 350;height: 104;"> </p> <p>U kunt documenten ook handmatig invoeren.</p> <p>Voor elk document dat in de gecombineerde PDF moet worden opgenomen:</p> 
     <ol> 
      <li value="1"> <p>Klikken [!UICONTROL Add a Document]</p> </li> 
      <li value="2"> <p>Selecteer in het veld [!UICONTROL Source file] de module die het document uitvoert dat u wilt opnemen, of wijs de naam en gegevens van het bronbestand toe. </p> </li> 
@@ -228,7 +228,7 @@ Deze actiemodule neemt meerdere PDF-bestanden en combineert deze tot één PDF-b
 
 ### [!UICONTROL Compress PDF files]
 
-Deze actiemodule maakt een PDF-bestand en comprimeert dit. Dit kan handig zijn om bandbreedte of geheugen te besparen.
+Deze handelingsmodule maakt een PDF-bestand en comprimeert het. Dit kan handig zijn om bandbreedte of geheugen te besparen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -242,7 +242,7 @@ Deze actiemodule maakt een PDF-bestand en comprimeert dit. Dit kan handig zijn o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de indeling PDF hebben. </p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de PDF-indeling hebben. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Compression level]</td> 
@@ -328,7 +328,7 @@ Met dit gereedschap wordt een document geconverteerd naar een PDF-bestand. Het b
 
 ### [!UICONTROL Convert HTML to PDF file]
 
-Met dit gereedschap wordt een HTML-bestand geconverteerd naar een PDF-bestand.
+Met dit gereedschap converteert u een HTML-bestand naar een PDF-bestand.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -414,7 +414,7 @@ Met dit gereedschap wordt een PDF-bestand geconverteerd naar een document. U kun
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de indeling PDF hebben. </p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de PDF-indeling hebben. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Files Format]</td> 
@@ -473,9 +473,9 @@ Met dit gereedschap wordt een PDF-bestand geconverteerd naar een document. U kun
 
 ### [!UICONTROL Convert PDF to image]
 
-Met dit gereedschap zet u een PDF om in een afbeelding in de PNG- of JPEG-indeling. Deze afbeelding wordt vervolgens weergegeven als een lijst of gecombineerd in een ZIP.
+Met dit gereedschap wordt een PDF geconverteerd naar een afbeelding in de PNG- of JPEG-indeling. Deze afbeelding wordt vervolgens als een lijst uitgevoerd of in een ZIP-bestand gecombineerd.
 
-Als de PDF wordt uitgevoerd als een ZIP-bestand, wordt deze omgezet in één afbeelding per pagina en eindigt elke afbeelding met het paginanummer. De afbeeldingsbestanden worden vervolgens gecombineerd tot een ZIP-bestand.
+Als de PDF wordt uitgevoerd als ZIP, wordt de geconverteerd naar één afbeelding per pagina en eindigt elke afbeelding met het paginanummer. De afbeeldingsbestanden worden vervolgens gecombineerd tot een ZIP-bestand.
 
 Een bestand met de naam &#39;TestFile&#39; met 8 pagina&#39;s zou bijvoorbeeld 8 afbeeldingen produceren met de naam &#39;TestFile_1&#39; tot en met &#39;TestFile_8&#39;. De uitvoer van de module is een ZIP-bestand met de 8 afbeeldingen.
 
@@ -491,7 +491,7 @@ Een bestand met de naam &#39;TestFile&#39; met 8 pagina&#39;s zou bijvoorbeeld 8
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de indeling PDF hebben. </p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de PDF-indeling hebben. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Files Format]</td> 
@@ -560,7 +560,7 @@ Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate docu
 >
 >Voor een bespreking van de malplaatjes van Microsoft Word, zie [ modules van het Malplaatje van Microsoft Word ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-word-templates-modules.md).
 >
->U te hoeven om Microsoft Word malplaatjemodules niet te gebruiken Word om een malplaatje van Microsoft Word met de PDF te gebruiken de Diensten produceren documentmodule.
+>U hoeft de Microsoft Word-sjabloonmodules niet te gebruiken om een Microsoft Word-sjabloon te gebruiken met de PDF Services Generate-documentmodule.
 
 
 Als u de module [!UICONTROL Generate document] met een [!UICONTROL Microsoft Word] -sjabloon wilt gebruiken, moet u eerst de sjabloon maken. Zoek naar &quot;Een sjabloon maken&quot; in de [!DNL Microsoft Office] -documentatie voor instructies.
@@ -632,7 +632,7 @@ Als u de module [!UICONTROL Generate document] wilt gebruiken met JSON, vult u d
 
 ### [!UICONTROL Linearize a PDF file]
 
-Met dit gereedschap lineariseert u een PDF-document om een voor het web geoptimaliseerd PDF-document te maken. Een gelineariseerd PDF-document kan per pagina worden weergegeven zonder dat het gehele document hoeft te worden gedownload.
+Met dit gereedschap kunt u een PDF-document lineariseren om een voor het web geoptimaliseerd PDF-document te maken. Een gelineariseerd PDF-document kan per pagina worden weergegeven zonder dat het gehele document hoeft te worden gedownload.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -653,7 +653,7 @@ Met dit gereedschap lineariseert u een PDF-document om een voor het web geoptima
 
 ## Een aangepaste API-aanroep maken
 
-Deze actie module een verzoek van douaneHTTP aan de PDF Diensten API.
+Deze actie module een aangepaste HTTP-aanvraag naar de PDF Services API.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -725,7 +725,7 @@ Met dit gereedschap wordt OCR (Optical Character Recognition) op een bestand uit
 
 ### [!UICONTROL Page manipulation]
 
-In deze module kunt u pagina&#39;s in een PDF-document selectief roteren of verwijderen. U kunt bijvoorbeeld de staande weergave wijzigen in de liggende weergave of bepaalde pagina&#39;s uit het PDF-document verwijderen.
+Met deze module kunt u pagina&#39;s in een PDF-document selectief roteren of verwijderen. U kunt bijvoorbeeld de staande weergave wijzigen in de liggende weergave of bepaalde pagina&#39;s uit het PDF-document verwijderen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -769,7 +769,7 @@ In deze module kunt u pagina&#39;s in een PDF-document selectief roteren of verw
 
 ### [!UICONTROL PDF accessibility auto-tag]
 
-In deze actiemodule wordt een PDF gemaakt die is gelabeld voor gebruik door toegankelijkheid. Het leidt ook tot een facultatief rapport van Microsoft Excel dat van problemen een lijst maakt en oplossingen voorstelt.
+In deze actiemodule wordt een PDF gemaakt dat is gelabeld voor gebruik door toegankelijkheid. Het leidt ook tot een facultatief rapport van Microsoft Excel dat van problemen een lijst maakt en oplossingen voorstelt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -791,7 +791,7 @@ In deze actiemodule wordt een PDF gemaakt die is gelabeld voor gebruik door toeg
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generate Report]</td> 
-   <td> <p>Schakel deze optie in om een rapport te genereren met toegankelijkheidsproblemen in de PDF en hun locatie, en suggesties voor het oplossen van deze problemen.</p> </td> 
+   <td> <p>Schakel deze optie in om een rapport te genereren met toegankelijkheidsproblemen in de PDF en de locatie ervan, en suggesties voor het oplossen van deze problemen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -839,7 +839,7 @@ Met dit gereedschap beveiligt u een PDF-document met een gebruikers- of eigenaar
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de indeling PDF hebben. </p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de PDF-indeling hebben. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Password Protection Type]</td> 
@@ -889,7 +889,7 @@ Met dit gereedschap verwijdert u beveiliging (wachtwoordbeveiliging) uit een PDF
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de indeling PDF hebben.</p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de PDF-indeling hebben.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Password]</td> 
@@ -914,7 +914,7 @@ In deze actiemodule wordt een PDF-document in meerdere kleinere documenten gespl
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de indeling PDF hebben.</p> </td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> <p>Het bronbestand moet de PDF-indeling hebben.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Split option]</td> 

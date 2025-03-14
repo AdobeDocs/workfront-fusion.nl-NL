@@ -4,7 +4,7 @@ description: Een verbinding moet voldoen aan de vereisten die zijn ingesteld doo
 author: Becky
 feature: Workfront Fusion
 exl-id: 281403a6-6f88-4976-8a10-1d0848ef9b35
-source-git-commit: 362952ec85b0df2306ba117ba530e95201330cca
+source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
 workflow-type: tm+mt
 source-wordcount: '522'
 ht-degree: 0%
@@ -36,7 +36,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -68,7 +68,7 @@ Voor instructies bij het creëren van een verbinding zonder speciale overweginge
 
 Als u verbinding wilt maken met een Adobe-app of -service, hebt u mogelijk informatie van de Adobe Admin Console nodig, zoals uw organisatie-id of technische account-id.
 
-U kunt de Adobe Authenticator-module ook gebruiken om verbinding te maken met elke Adobe-API via één verbinding. Hierdoor kunt u gemakkelijker verbinding maken met Adobe-producten die nog geen speciale Fusion-connector hebben.
+U kunt de Adobe Authenticator-module ook gebruiken om verbinding te maken met elke Adobe API via één verbinding. Hierdoor kunt u gemakkelijker verbinding maken met Adobe-producten die nog geen speciale Fusion-connector hebben.
 
 Voor specifieke instructies, zie [ het artikel voor de schakelaar ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-adobe-products).
 
