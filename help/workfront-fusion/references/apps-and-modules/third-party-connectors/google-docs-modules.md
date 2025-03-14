@@ -4,9 +4,9 @@ description: De fusie van Adobe Workfront  [!DNL Google Docs]  modules laten u t
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: cd44250d-c2cd-46b2-8773-15b30472a8d8
-source-git-commit: eac874d588e026cab3a01017d32e291d5c8b7b74
+source-git-commit: 2af808aaf8136253c623ee65641d0e57d4f6cf10
 workflow-type: tm+mt
-source-wordcount: '3258'
+source-wordcount: '3298'
 ht-degree: 0%
 
 ---
@@ -498,8 +498,12 @@ Deze actiemodule vervangt tekst in een document.
     </ul> </td> 
   </tr> 
   <tr> 
+   <td role="rowheader">[!UICONTROL Document ID]</td> 
+   <td> <p>Wijs het document toe of selecteer het document waar u tekst wilt vervangen.</p> </td> 
+  </tr> 
+  <tr> 
    <td role="rowheader"> <p>[!UICONTROL Replace a Text]</p> </td> 
-   <td> <p>Voeg elke tekst toe die u wilt vervangen.</p> 
+   <td> <p>Voor elk stuk van tekst wilt u vervangen, <b> toevoegen punt </b> en ingaan het volgende:</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Old text to be replaced]</strong> </p> <p>Voer de tekst in die u wilt vervangen.</p> </li> 
      <li> <p><strong>[!UICONTROL New text to be inserted]</strong> </p> <p>Voer de nieuwe tekst in.</p> </li> 
@@ -538,8 +542,12 @@ Deze actiemodule vervangt een bestaande afbeelding. De hoogte-breedteverhouding 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Image URL]</p> </td> 
-   <td> <p>Geef de URL op of wijs de URL toe van de nieuwe afbeelding die de bestaande afbeelding vervangt.</p> <p>Afbeeldingen worden weergegeven in de volgorde waarin ze in het document worden weergegeven. <code>Body: Image No. 1</code> is bijvoorbeeld de eerste afbeelding in het document.</p> </td> 
+   <td role="rowheader">[!UICONTROL Document ID]</td> 
+   <td> <p>Wijs het document toe of selecteer het document waar u een afbeelding wilt vervangen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Images replacement]</p> </td> 
+   <td> Voor elk beeld wilt u vervangen, <b> punt </b> toevoegen en bestaande beeldidentiteitskaart ingaan, dan ga URL van het nieuwe beeld in of kaart dat het bestaande beeld zal vervangen. <p>Afbeeldingen worden weergegeven in de volgorde waarin ze in het document worden weergegeven. <code>Body: Image No. 1</code> is bijvoorbeeld de eerste afbeelding in het document.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -579,8 +587,48 @@ Deze triggermodule retourneert documentdetails wanneer een nieuw document wordt 
 
 ### Overige
 
-* [[!UICONTROL Make an API Call]](#make-an-api-call)
 * [[!UICONTROL Make All Links in a Document Clickable]](#make-all-links-in-a-document-clickable)
+* [[!UICONTROL Make an API Call]](#make-an-api-call)
+
+#### [!UICONTROL Make All Links in a Document Clickable]
+
+Met deze actiemodule vindt u alle koppelingen in het document en kunt u erop klikken.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Google] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Make All Links in a Document]</p> </td> 
+   <td> 
+    <ul> 
+     <li><strong>[!UICONTROL By Mapping]</strong> <br>Selecteer deze optie om de documentsjabloon toe te wijzen.</li> 
+     <li><strong>[!UICONTROL By Dropdown]</strong> <br> Selecteer deze optie als u het document in de vervolgkeuzelijst wilt kiezen.</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
+   <td> <p>Selecteer het type station waarin het document staat waarin u koppelingen klikbaar wilt maken. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document staat waarin u koppelingen klikbaar wilt maken.</p> </li> 
+     <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document staat waarin u koppelingen klikbaar wilt maken.</p> </li> 
+     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waarin het document zich bevindt waarop u koppelingen klikbaar wilt maken en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Shared Drive]</td> 
+   <td> <p>Selecteer het station met het document waarin u de koppelingen wilt bijwerken en selecteer vervolgens een document. Deze optie is beschikbaar als u [!DNL My Drive] hebt geselecteerd in [!UICONTROL Choose a Drive field] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Document ID]</td> 
+   <td> <p> Selecteer of wijs het document toe u de verbindingen binnen wilt bijwerken.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Make an API Call]
 
@@ -620,6 +668,8 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
  </tbody> 
 </table>
 
+>[!BEGINSHADEBOX]
+
 **Voorbeeld:** de volgende API vraag wint de details voor het gespecificeerde document in uw Google Docs terug:
 
 **URL:**
@@ -636,42 +686,4 @@ Meer informatie over het opgehaalde document vindt u in de sectie Uitvoer van de
 
 ![ API vraagoutput ](/help/workfront-fusion/references/apps-and-modules/assets/api-output.png)
 
-#### [!UICONTROL Make All Links in a Document Clickable]
-
-Met deze actiemodule vindt u alle koppelingen in het document en kunt u erop klikken.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> een verbinding tot stand brengen - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Make All Links in a Document]</p> </td> 
-   <td> 
-    <ul> 
-     <li><strong>[!UICONTROL By Mapping]</strong> <br>Selecteer deze optie om de documentsjabloon toe te wijzen.</li> 
-     <li><strong>[!UICONTROL By Dropdown]</strong> <br> Selecteer deze optie als u het document in de vervolgkeuzelijst wilt kiezen.</li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Choose a Drive]</td> 
-   <td> <p>Selecteer het type station waarin het document staat waarin u koppelingen klikbaar wilt maken. Deze optie is beschikbaar als u [!UICONTROL By Dropdown] in het vorige veld hebt geselecteerd.</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL My Drive]</strong> </p> <p>Selecteer de map waarin het document staat waarin u wilt dat koppelingen klikbaar zijn. Selecteer vervolgens het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL Shared With Me]</strong> </p> <p>Selecteer de map waarin het document staat waarin u wilt dat koppelingen klikbaar zijn. Selecteer vervolgens het document.</p> </li> 
-     <li> <p><strong>[!UICONTROL [!DNL Google] Gedeeld station] </strong> (alleen beschikbaar voor [!DNL Google Workspace] gebruikers)</p> <p>Selecteer of u [!UICONTROL Use Domain Admin Access] wilt. Als u [!UICONTROL Yes] selecteert, wordt de aanvraag verzonden als een domeinbeheerder en worden alle gedeelde stations geretourneerd waarin de aanvrager een beheerder is.</p> <p>Selecteer het gedeelde station waarin het document zich bevindt waarop u koppelingen klikbaar wilt maken en selecteer vervolgens het document.</p> <p>Opmerking: als u de optie [!DNL Google Docs] in dit veld hebt geselecteerd en u bent geen [!DNL Google Workspace] gebruiker, wordt de fout <code>[400] Invalid Value</code> geretourneerd.</p> </li> 
-    </ul> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Shared Drive]</td> 
-   <td> <p>Selecteer het station met het document waarin u de koppelingen wilt bijwerken en selecteer vervolgens een document. Deze optie is beschikbaar als u [!DNL My Drive] hebt geselecteerd in [!UICONTROL Choose a Drive field] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Document ID]</td> 
-   <td> <p> Selecteer of wijs het document toe u de verbindingen binnen wilt bijwerken.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
+>[!ENDSHADEBOX]

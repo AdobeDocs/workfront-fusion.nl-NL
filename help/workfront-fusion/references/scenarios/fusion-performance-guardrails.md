@@ -4,9 +4,9 @@ description: De automatisering van het werk vereist snelle verwerking, zodat wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: fe503c27bc4e3beb5645f0efa7c2097297f19190
+source-git-commit: 2af808aaf8136253c623ee65641d0e57d4f6cf10
 workflow-type: tm+mt
-source-wordcount: '718'
+source-wordcount: '862'
 ht-degree: 0%
 
 ---
@@ -76,3 +76,17 @@ Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/
 ## Opnieuw
 
 * Wanneer het gebruiken van de module van de Onderbreking en het specificeren van de richtlijn van het Opnieuw proberen, als een scenario achtereenvolgens 10 keer binnen een 2 minieme chronologie ontbreekt, zal het scenario automatisch worden gedeactiveerd.
+
+## Herhaling
+
+Recursie treedt op wanneer een scenario een nieuwe uitvoering van zich teweegbrengt, die een nieuwe uitvoering, etc. in een oneindige lijn teweegbrengt.
+
+Bijvoorbeeld, wordt een scenario teweeggebracht wanneer een taak wordt gecreeerd, en dat scenario leidt tot een taak. De nieuwe taak brengt opnieuw het scenario in werking, dat tot een andere taak leidt. Telkens als een taak wordt gecreeerd, wordt het scenario teweeggebracht, en telkens als het scenario loopt, wordt een taak gecreeerd.
+
+De recursie kan prestatieskwesties voor zowel de organisatie veroorzaken die het recursieve scenario, als aan andere organisaties bezit.
+
+Overweeg het volgende met betrekking tot recursie:
+
+* **wanneer een scenario recursie veroorzaakt, wordt het gedeactiveerd door het technische team van de Fusie om verdere prestatieskwesties te verhinderen.**
+* Omdat de recursie een resultaat van scenario ontwerp is, moet u uw scenario&#39;s op een manier ontwerpen die ervoor zorgt dat het scenario geen acties omvat die het scenario teweegbrengen.
+
