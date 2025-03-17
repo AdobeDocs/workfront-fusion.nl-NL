@@ -4,9 +4,9 @@ description: De automatisering van het werk vereist snelle verwerking, zodat wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 2af808aaf8136253c623ee65641d0e57d4f6cf10
+source-git-commit: 1253470a23a2a9124824d5ab1ff2b5013d773517
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/
 
 Recursie treedt op wanneer een scenario een nieuwe uitvoering van zich teweegbrengt, die een nieuwe uitvoering, etc. in een oneindige lijn teweegbrengt.
 
-Bijvoorbeeld, wordt een scenario teweeggebracht wanneer een taak wordt gecreeerd, en dat scenario leidt tot een taak. De nieuwe taak brengt opnieuw het scenario in werking, dat tot een andere taak leidt. Telkens als een taak wordt gecreeerd, wordt het scenario teweeggebracht, en telkens als het scenario loopt, wordt een taak gecreeerd.
+Bijvoorbeeld, wordt een scenario teweeggebracht wanneer een taak wordt gecreeerd, en dat scenario leidt tot twee taken. De nieuw gecreëerde taken allebei teweegbrengen opnieuw het scenario teweeg, dat vier nieuwe taken creeert. Telkens als een taak wordt gecreeerd, wordt het scenario teweeggebracht, en telkens als het scenario loopt, verdubbelt het aantal taken. Het aantal taken groeit exponentieel.
 
 De recursie kan prestatieskwesties voor zowel de organisatie veroorzaken die het recursieve scenario, als aan andere organisaties bezit.
 
