@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 7d738a96-5424-4c30-831f-82e1d4c6f9d2
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: 25d98999eb99e8d842333a1c87b4b0600447b2f5
 workflow-type: tm+mt
-source-wordcount: '1492'
+source-wordcount: '1524'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -90,10 +94,34 @@ De Split.io-connector gebruikt het volgende:
 U kunt rechtstreeks vanuit een [!DNL Split.io] -module verbinding maken met uw [!DNL Split.io] -account.
 
 1. Klik in een willekeurige [!DNL Split.io] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
-1. Voer een naam in voor de verbinding.
-1. Voer uw API-sleutel voor [!DNL Split.io] in.
+1. Vul de volgende velden in.
 
-   Voor meer informatie over [!DNL Split.io] API sleutels, zie [ API sleutels ](https://help.split.io/hc/en-us/articles/360019916211-API-keys) in de [!DNL Split.io] documentatie.
+   <table style="table-layout:auto"> 
+     <col> 
+     <col> 
+     <tbody> 
+      <tr> 
+       <td role="rowheader">[!UICONTROL Connection name]</td> 
+       <td> <p>Voer een naam in voor de verbinding.</p> </td> 
+      </tr> 
+      <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een productieomgeving of niet.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>
+          <p>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</p>
+        </td>
+      </tr>
+      <tr> 
+       <td role="rowheader">[!UICONTROL API key]</td> 
+       <td>Voer de API-sleutel voor [!DNL Split.io] in.<p>Voor meer informatie over [!DNL Split.io] API sleutels, zie <a href="https://help.split.io/hc/en-us/articles/360019916211-API-keys"> API sleutels </a> in de [!DNL Split.io] documentatie.</p></td> 
+      </tr> 
+     </tbody> 
+    </table>
 
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
@@ -110,15 +138,128 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### Handelingen
 
+* [[!UICONTROL Associate Tags]](#associate-tags)
+* [[!UICONTROL Create Split]](#create-split)
+* [[!UICONTROL Create Split Definition in Environment]](#create-split-definition-in-environment)
 * [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Delete Split]](#delete-split)
 * [[!UICONTROL Get Split]](#get-split)
 * [[!UICONTROL Get Split Definition in Environment]](#get-split-definition-in-environment)
-* [[!UICONTROL Create Split]](#create-split)
-* [[!UICONTROL Delete Split]](#delete-split)
-* [[!UICONTROL Create Split Definition in Environment]](#create-split-definition-in-environment)
-* [[!UICONTROL Remove Split Definition from Environment]](#remove-split-definition-from-environment)
 * [[!UICONTROL Partial Update Split Definition in Environment]](#partial-update-split-definition-in-environment)
-* [[!UICONTROL Associate Tags]](#associate-tags)
+* [[!UICONTROL Remove Split Definition from Environment]](#remove-split-definition-from-environment)
+
+#### [!UICONTROL Associate Tags]
+
+Deze actiemodule voegt labels toe aan het opgegeven object.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+   <td>Selecteer of wijs de werkruimte toe waar u een markering wilt toevoegen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Object Name]</td> 
+   <td>Voer de naam in of wijs de naam toe van het object waaraan u tags wilt toevoegen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Object Type]</td> 
+   <td> <p>Typ of wijs het type object toe waaraan u tags wilt toevoegen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tags]</td> 
+   <td> <p>Voor elke tag die u wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en voert u de tag in of wijst u deze toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Create Split]
+
+Deze actiemodule leidt tot een nieuwe spleet in uw organisatie, op basis van een verkeerstype.
+
+>[!NOTE]
+>
+>De API configureert de splitsing in geen enkele omgeving.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+   <td>Selecteer of wijs de werkruimte toe waar u de splitsing wilt maken.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Traffic Type ID or Name]</td> 
+   <td>Selecteer of wijs het verkeerstype toe dat u wilt gebruiken om de splitsing tot stand te brengen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
+   <td> <p>Voer een naam in of wijs een naam toe voor de splitsing die u wilt maken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Split Description]</td> 
+   <td>Voer een [!UICONTROL split] -beschrijving in of wijs deze toe voor de splitsing die u wilt maken.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Create Split Definition in Environment]
+
+Deze actiemodule vormt een gespleten definitie voor een specifiek milieu.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+   <td>Selecteer of wijs de werkruimte toe waar u een gespleten definitie wilt tot stand brengen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
+   <td>Selecteer of wijs de omgeving toe waar u een gesplitste definitie wilt maken.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
+   <td> <p>Typ of wijs de naam van de splitsing toe waarvoor u een definitie wilt maken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Comments]</td> 
+   <td>Voer opmerkingen in of wijs deze toe die u aan de gesplitste definitie wilt toevoegen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Rules]</td> 
+   <td> <p>Voor elke het richten regel wilt u aan de definitie toevoegen, klik <b>[!UICONTROL Add item]</b>, dan ingaan of de regel in kaart brengen. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Default rule]</td> 
+   <td> <p>Ga of kaart de regel in dat u de spatie voor het verkeer wilt gebruiken dat niet specificaties voor de andere regels ontmoet.</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Default treatment]</td> 
+   <td> <p>Ga of kaart de behandeling in die u de splitsing wilt gebruiken als de splitsing wordt gedood of de klant niet inbegrepen in verkeerstoewijzing is.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Treatments]</td> 
+   <td> <p>Voor elke behandeling die u aan de definitie wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en voert u de behandeling en de grootte in of wijst u deze toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Custom API Call]
 
@@ -158,6 +299,29 @@ Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL s
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
    <td>Ga of kaart het maximumaantal verslagen in u de module wilt werken met tijdens elke cyclus van de scenariouitvoering.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Delete Split]
+
+Deze actiemodule verwijdert een splitsing van uw organisatie. Hierdoor wordt de gesplitste definitie automatisch van alle omgevingen verwijderd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+   <td>Selecteer of wijs de werkruimte toe waar u de splitsing wilt verwijderen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Split Name]</td> 
+   <td> <p>Voer de naam in van de splitsing die u wilt verwijderen of wijs deze toe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -212,13 +376,9 @@ Deze actiemodule wint een specifieke gespleten definitie van het aangewezen mili
  </tbody> 
 </table>
 
-#### [!UICONTROL Create Split]
+#### [!UICONTROL Partial Update Split Definition in Environment]
 
-Deze actiemodule leidt tot een nieuwe spleet in uw organisatie, op basis van een verkeerstype.
-
->[!NOTE]
->
->De API configureert de splitsing in geen enkele omgeving.
+Deze actiemodule werkt een gesplitste definitie voor een specifieke omgeving bij.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -230,89 +390,23 @@ Deze actiemodule leidt tot een nieuwe spleet in uw organisatie, op basis van een
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID]</td> 
-   <td>Selecteer of wijs de werkruimte toe waar u de splitsing wilt maken.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Traffic Type ID or Name]</td> 
-   <td>Selecteer of wijs het verkeerstype toe dat u wilt gebruiken om de splitsing tot stand te brengen.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Split Name]</td> 
-   <td> <p>Voer een naam in of wijs een naam toe voor de splitsing die u wilt maken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Split Description]</td> 
-   <td>Voer een [!UICONTROL split] -beschrijving in of wijs deze toe voor de splitsing die u wilt maken.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete Split]
-
-Deze actiemodule verwijdert een splitsing van uw organisatie. Hierdoor wordt de gesplitste definitie automatisch van alle omgevingen verwijderd.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
-   <td>Selecteer of wijs de werkruimte toe waar u de splitsing wilt verwijderen.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Split Name]</td> 
-   <td> <p>Voer de naam in van de splitsing die u wilt verwijderen of wijs deze toe.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Create Split Definition in Environment]
-
-Deze actiemodule vormt een gespleten definitie voor een specifiek milieu.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
-   <td>Selecteer of wijs de werkruimte toe waar u een gespleten definitie wilt tot stand brengen.</td> 
+   <td>Selecteer of wijs de werkruimte toe waar u een gesplitste definitie wilt bijwerken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
-   <td>Selecteer of wijs de omgeving toe waar u een gesplitste definitie wilt maken.</td> 
+   <td>Selecteer of wijs de omgeving toe waar u een gesplitste definitie wilt bijwerken.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Split Name]</td> 
-   <td> <p>Typ of wijs de naam van de splitsing toe waarvoor u een definitie wilt maken.</p> </td> 
+   <td> <p>Typ of wijs de naam van de splitsing toe waarvoor u een definitie wilt bijwerken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Update content]</td> 
+   <td> <p>Voor elk kenmerk van de splitsing dat u wilt bijwerken, klikt u op <b>[!UICONTROL Add item]</b> en voert u de gewenste wijzigingen in of wijst u deze toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comments]</td> 
    <td>Voer opmerkingen in of wijs deze toe die u aan de gesplitste definitie wilt toevoegen.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Rules]</td> 
-   <td> <p>Voor elke het richten regel wilt u aan de definitie toevoegen, klik <b>[!UICONTROL Add item]</b>, dan ingaan of de regel in kaart brengen.</p> <p>Voor meer informatie bij het richten van regels, zie <a href="https://docs.split.io/reference#create-split-definition-in-environment"> gespleten definitie in een milieu </a> in de [!DNL Split.io] documentatie creëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Default rule]</td> 
-   <td> <p>Ga of kaart de regel in dat u de spatie voor het verkeer wilt gebruiken dat niet specificaties voor de andere regels ontmoet.</p> <p>Voor meer informatie bij het richten van regels, zie <a href="https://docs.split.io/reference#create-split-definition-in-environment"> gespleten definitie in een milieu </a> in de [!DNL Split.io] documentatie creëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Default treatment]</td> 
-   <td> <p>Ga of kaart de behandeling in die u de splitsing wilt gebruiken als de splitsing wordt gedood of de klant niet inbegrepen in verkeerstoewijzing is.</p> <p>Voor meer informatie over behandelingen, zie <a href="https://docs.split.io/reference#create-split-definition-in-environment"> gespleten definitie in een milieu </a> in de [!DNL Split.io] documentatie creëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Treatments]</td> 
-   <td> <p>Voor elke behandeling die u aan de definitie wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en voert u de behandeling in of wijst u deze toe.</p> <p>Voor meer informatie over behandelingen, zie <a href="https://docs.split.io/reference#create-split-definition-in-environment"> gespleten definitie in een milieu </a> in de [!DNL Split.io] documentatie creëren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -340,41 +434,6 @@ Deze actiemodule maakt de configuratie van een gesplitste definitie voor een spe
   <tr> 
    <td role="rowheader">[!UICONTROL Split Name]</td> 
    <td> <p>Typ of wijs de naam van de splitsing toe waarvoor u een definitie wilt verwijderen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Comments]</td> 
-   <td>Voer opmerkingen in of wijs deze toe die u aan de gesplitste definitie wilt toevoegen.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Partial Update Split Definition in Environment]
-
-Deze actiemodule werkt een gesplitste definitie voor een specifieke omgeving bij.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Workspace ID]</td> 
-   <td>Selecteer of wijs de werkruimte toe waar u een gesplitste definitie wilt bijwerken.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Environment Name or ID]</td> 
-   <td>Selecteer of wijs de omgeving toe waar u een gesplitste definitie wilt bijwerken.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Split Name]</td> 
-   <td> <p>Typ of wijs de naam van de splitsing toe waarvoor u een definitie wilt bijwerken.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Update content]</td> 
-   <td> <p>Voor elk kenmerk van de splitsing dat u wilt bijwerken, klikt u op <b>[!UICONTROL Add item]</b> en voert u de gewenste wijzigingen in of wijst u deze toe.</p> <p>Voor meer informatie, zie <a href="https://docs.split.io/reference#partial-update-split-definition-in-environment"> Gedeeltelijke Gesplitste Definitie van de Update in Milieu </a> in de [!DNL Split.io] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comments]</td> 
@@ -416,30 +475,11 @@ Deze actiemodule voegt labels toe aan het opgegeven object.
 
 ### Zoekopdrachten
 
-* [[!UICONTROL Get Workspaces]](#get-workspaces)
 * [[!UICONTROL Get Environments]](#get-environments)
-* [[!UICONTROL Get Splits]](#get-splits)
-* [[!UICONTROL List Split Definitions in an Environment]](#list-split-definitions-in-an-environment)
 * [[!UICONTROL Get Traffic Types]](#get-traffic-types)
-
-#### [!UICONTROL Get Workspaces]
-
-Deze onderzoeksmodule wint de werkruimten voor een organisatie terug.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Ga of kaart het maximumaantal werkruimten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugwinnen.</td> 
-  </tr> 
- </tbody> 
-</table>
+* [[!UICONTROL Get Workspaces]](#get-workspaces)
+* [[!UICONTROL List Split Definitions in an Environment]](#list-split-definitions-in-an-environment)
+* [[!UICONTROL List Splits]](#list-splits)
 
 #### [!UICONTROL Get Environments]
 
@@ -460,9 +500,9 @@ Deze zoekmodule haalt een lijst met omgevingen op.
  </tbody> 
 </table>
 
-#### [!UICONTROL Get Splits]
+#### [!UICONTROL Get Traffic Types]
 
-Deze zoekmodule haalt een lijst met splitsingen op.
+Deze onderzoeksmodule wint een lijst van verkeerstypes terug.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -474,11 +514,26 @@ Deze zoekmodule haalt een lijst met splitsingen op.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID]</td> 
-   <td>Selecteer of wijs de werkruimte toe die de splitsingen bevat die u wilt weergeven.</td> 
+   <td>Selecteer of wijs de werkruimte toe die de verkeerstypes bevat u van lijst wilt maken.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get Workspaces]
+
+Deze onderzoeksmodule wint de werkruimten voor een organisatie terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie <a href="#connect-split-io-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Split.io] met [!UICONTROL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Split.io] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td>Ga of kaart het maximumaantal splitsingen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugwinnen.</td> 
+   <td>Ga of kaart het maximumaantal werkruimten in u de module tijdens elke cyclus van de scenariouitvoering wilt terugwinnen.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -510,9 +565,9 @@ Deze zoekmodule haalt een lijst op met gesplitste definities in een bepaalde omg
  </tbody> 
 </table>
 
-#### [!UICONTROL Get Traffic Types]
+#### [!UICONTROL List Splits]
 
-Deze onderzoeksmodule wint een lijst van verkeerstypes terug.
+Deze zoekmodule haalt een lijst met splitsingen op.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -524,7 +579,11 @@ Deze onderzoeksmodule wint een lijst van verkeerstypes terug.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID]</td> 
-   <td>Selecteer of wijs de werkruimte toe die de verkeerstypes bevat u van lijst wilt maken.</td> 
+   <td>Selecteer of wijs de werkruimte toe die de splitsingen bevat die u wilt weergeven.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td>Ga of kaart het maximumaantal splitsingen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugwinnen.</td> 
   </tr> 
  </tbody> 
 </table>
