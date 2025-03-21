@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion AWS]  S3 modules laten u verrichti
 author: Becky
 feature: Workfront Fusion
 exl-id: 6b2d9dd5-0b33-4297-aea0-aba26072b26a
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: d98d49cdca997caa2d1601d0163ae3f50e21ed66
 workflow-type: tm+mt
-source-wordcount: '1217'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ Met de [!DNL Adobe Workfront Fusion AWS] S3-modules kunt u bewerkingen op uw S3-
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -24,35 +26,37 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -111,10 +115,12 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 * [[!UICONTROL Create Bucket]](#create-bucket)
 * [[!UICONTROL Get File]](#get-file)
-* [[!UICONTROL Upload File]](#upload-file)
 * [[!UICONTROL Make an API Call]](#make-an-api-call)
+* [[!UICONTROL Upload File]](#upload-file)
 
 #### [!UICONTROL Create Bucket]
+
+Deze actiemodule maakt een emmer in AWS.
 
 <table style="table-layout:auto">
  <col> 
@@ -130,14 +136,14 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie de bespreking van <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html"> regionale eindpunten </a> in de documentatie van AWS.</p> </td> 
+   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints"> regionale eindpunten </a> in de documentatie van AWS.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Get File]
 
-Hiermee downloadt u een bestand van een emmertje.
+Deze actiemodule downloadt een bestand van een emmertje.
 
 <table style="table-layout:auto">
  <col> 
@@ -149,7 +155,7 @@ Hiermee downloadt u een bestand van een emmertje.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie de bespreking van <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
+   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bucket] </td> 
@@ -162,36 +168,9 @@ Hiermee downloadt u een bestand van een emmertje.
  </tbody> 
 </table>
 
-#### [!UICONTROL Upload File]
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie de bespreking van <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Folder] (optioneel) </p> </td> 
-   <td> <p>Geef de doelmap op waarnaar u een bestand wilt uploaden.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Headers] (optioneel)</p> </td> 
-   <td> <p> Aanvraagkopteksten invoegen. De beschikbare kopballen kunnen in de <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html">[!DNL AWS S3] documentatie - [!UICONTROL PUT] voorwerp </a> worden gevonden.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Make an API Call]
+
+Deze actiemodule maakt een aangepaste aanroep naar de AWS S3 API.
 
 Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html) voor een gedetailleerde beschrijving van de [!DNL Amazon S3] API.
 
@@ -205,11 +184,11 @@ Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazo
   </tr> 
   <tr> 
    <td>[!UICONTROL Region] </td> 
-   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie de bespreking van <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
+   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL URL]</td> 
-   <td> <p>URL Voer een host-URL in. Het pad moet relatief zijn ten opzichte van <code> https://s3.&lt;selected-region>.amazonaws.com/</code> .</p> </td> 
+   <td> <p>Voer een host-URL in. Het pad moet relatief zijn ten opzichte van <code> https://s3.&lt;selected-region>.amazonaws.com/</code> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Method]</td> 
@@ -217,7 +196,7 @@ Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazo
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers]</td> 
-   <td> <p>Voeg een aanvraagkoptekst toe. U kunt de volgende algemene aanvraagheaders gebruiken. Voor meer verzoekkopballen verwijs naar <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">[!DNL AWS S3] API Documentatie </a>.</p> <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p> 
+   <td> <p>Voeg een aanvraagkoptekst toe. Voor elke kopbal wilt u toevoegen, <b> toevoegen punt </b> en gaan de kopbal in. U kunt de volgende algemene aanvraagheaders gebruiken. Voor meer verzoekkopballen verwijs naar <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">[!DNL AWS S3] API Documentatie </a>.</p> <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p> 
     <table style="table-layout:auto">
      <col> 
      <col> 
@@ -238,7 +217,7 @@ Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazo
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Content-MD5]</p> </td> 
-       <td> <p>De base64 gecodeerde 128-bits MD5 samenvatting van het bericht (zonder de kopballen) volgens RFC 1864. Deze kopbal kan als controle van de berichtintegriteit worden gebruikt om te verifiëren dat de gegevens de zelfde gegevens zijn die oorspronkelijk werden verzonden. Hoewel dit optioneel is, raden we u aan het [!UICONTROL Content-MD5] -mechanisme te gebruiken als een integriteitscontrole van begin tot eind. Voor meer informatie over [!UICONTROL REST] verzoekauthentificatie, ga naar <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html?r=1821">[!UICONTROL REST] Authentificatie </a> in de <i>[!DNL Amazon] Eenvoudige Gids van de Ontwikkelaar van de Dienst van de Opslag </i>.</p> </td> 
+       <td> <p>De base64 gecodeerde 128-bits MD5 samenvatting van het bericht (zonder de kopballen) volgens RFC 1864. Deze kopbal kan als controle van de berichtintegriteit worden gebruikt om te verifiëren dat de gegevens de zelfde gegevens zijn die oorspronkelijk werden verzonden. Hoewel dit optioneel is, raden we u aan het [!UICONTROL Content-MD5] -mechanisme te gebruiken als een integriteitscontrole van begin tot eind. Voor meer informatie over [!UICONTROL REST] verzoekauthentificatie, zie <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/RESTAuthentication.html?r=1821"> Ondertekenend en voor authentiek REST verzoeken </a> in de documentatie van AWS.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Date]</p> </td> 
@@ -250,11 +229,11 @@ Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazo
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL Host]</p> </td> 
-       <td> <p>Voor aanvragen in padstijl is de waarde <code>s3.amazonaws.com</code> . Voor aanvragen in de virtuele stijl is de waarde <code>BucketName.s3.amazonaws.com</code> . Voor meer informatie, zie <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html"> Virtueel Hosting </a> in de <i>[!DNL Amazon] Eenvoudige Gids van de Ontwikkelaar van de Dienst van de Opslag </i>.</p> <p>Deze header is vereist voor HTTP 1.1 (de meeste toolkits voegen deze header automatisch toe); optioneel voor HTTP/1.0-aanvragen.</p> </td> 
+       <td> <p>Voor aanvragen in padstijl is de waarde <code>s3.amazonaws.com</code> . Voor aanvragen in de virtuele stijl is de waarde <code>BucketName.s3.amazonaws.com</code> . Voor meer informatie, zie <a href="https://docs.aws.amazon.com/AmazonS3/latest/dev/VirtualHosting.html"> Virtueel Hosting </a> in de documentatie van AWS.</p> <p>Deze header is vereist voor HTTP 1.1 (de meeste toolkits voegen deze header automatisch toe); optioneel voor HTTP/1.0-aanvragen.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL x-amz-content-sha256]</p> </td> 
-       <td> <p>Wanneer het gebruiken van handtekeningsversie 4 om het verzoek voor authentiek te verklaren, verstrekt deze kopbal een knoeiboel van de verzoeklading. Wanneer u een object in blokken uploadt, stelt u de waarde in op <code>STREAMING-AWS4-HMAC-SHA256-PAYLOAD</code> om aan te geven dat de handtekening alleen op kopteksten van toepassing is en dat er geen lading is. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-streaming.html"> Berekeningen van de Handtekening voor de Kopbal van de Vergunning: Het overbrengen van Payload in Veelvoudige Hakken (Gekapt uploadt) ([!DNL AWS] Versie van de Handtekening 4) </a>.</p> </td> 
+       <td> <p>Wanneer het gebruiken van handtekeningsversie 4 om het verzoek voor authentiek te verklaren, verstrekt deze kopbal een knoeiboel van de verzoeklading. Wanneer u een object in blokken uploadt, stelt u de waarde in op <code>STREAMING-AWS4-HMAC-SHA256-PAYLOAD</code> om aan te geven dat de handtekening alleen op kopteksten van toepassing is en dat er geen lading is. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/sigv4-streaming.html"> Berekeningen van de Handtekening voor de Kopbal van de Vergunning </a> in de documentatie van AWS.</p> </td> 
       </tr> 
       <tr> 
        <td role="rowheader"> <p>[!UICONTROL x-amz-date]</p> </td> 
@@ -285,6 +264,37 @@ Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazo
  </tbody> 
 </table>
 
+#### [!UICONTROL Upload File]
+
+Deze actiemodule uploadt een bestand naar een AWS S3-emmertje.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Region] </td> 
+   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Folder] </p> </td> 
+   <td> <p>Geef de doelmap op waarnaar u een bestand wilt uploaden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Headers] (optioneel)</p> </td> 
+   <td> <p> Voor elke kopbal wilt u toevoegen, <b> toevoegen punt </b> en ingaan de sleutel en de waarde van de kopbal.</p><p> Voor beschikbare kopballen, zie <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/API_PutObject.html"> PutObject </a> in de documentatie van AWS.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Zoekopdrachten
 
 * [[!UICONTROL List Files]](#list-files)
@@ -304,15 +314,15 @@ Retourneert een lijst met bestanden van een opgegeven locatie.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie de bespreking van <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
+   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bucket] </td> 
    <td> <p>Selecteer het emmertje [!DNL Amazon S3] dat u naar bestanden wilt zoeken.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Prefix] (optioneel)</p> </td> 
-   <td> <p> Pad naar een map waarin bestanden moeten worden opgezocht, bijvoorbeeld <code>workfrontfusion/work.</code></p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Prefix]</p> </td> 
+   <td> <p> Voer een pad in naar een map waarin u bestanden wilt zoeken, zoals <code>workfrontfusion/work.</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -331,7 +341,7 @@ Retourneert een lijst met mappen van een opgegeven locatie.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
-   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie de bespreking van <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html"> regionale eindpunten </a> in de documentatie van AWS.</p> </td> 
+   <td> <p>Selecteer uw regionale eindpunt. Voor meer informatie, zie <a href="https://docs.aws.amazon.com/general/latest/gr/rande.html#regional-endpoints"> regionale eindpunten </a> in de [!DNL AWS] documentatie.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bucket] </td> 
@@ -339,7 +349,7 @@ Retourneert een lijst met mappen van een opgegeven locatie.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Prefix] (optioneel)</p> </td> 
-   <td> <p> Pad naar een map om mappen in op te zoeken, bijvoorbeeld <code>workfrontfusion/work.</code></p> </td> 
+   <td> <p> Pad naar een map om mappen in op te zoeken, zoals <code>workfrontfusion/work.</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
