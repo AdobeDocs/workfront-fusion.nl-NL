@@ -4,9 +4,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: dab5aacd091cec2644f3e8ddac2549dac7b927b8
 workflow-type: tm+mt
-source-wordcount: '6213'
+source-wordcount: '6593'
 ht-degree: 0%
 
 ---
@@ -849,6 +849,79 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 </table>
 
 Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+
++++
+
++++ **de Versie van het Laden van de Gebeurtenissen van de Update**
+
+Workfront heeft onlangs een nieuwe versie van zijn service voor gebeurtenisabonnementen uitgebracht. De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen. Deze actiemodule werkt de versie bij van de gebeurtenislading die voor dit scenario wordt gebruikt.
+
+Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [ het abonnementversioning van de Gebeurtenis ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw Workfront app aan Workfront Fusion, zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Workfront met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Version]</td> 
+   <td> Selecteer de versie van het gebeurtenisabonnement die u voor deze lading wilt gebruiken. </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
++++
+
++++ **werk een verslag bij (met het vastmaken van douaneformulieren)**
+
+
+Deze actiemodule werkt een voorwerp, zoals een project, een taak, of een kwestie bij. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
+
+U geeft de id van de record op.
+
+De module retourneert de id van het object en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto">
+ <col> 
+ </col> 
+ <col> 
+ </col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw Workfront app aan Workfront Fusion, zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Workfront met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL ID]</td> 
+   <td> <p>Voer de unieke Workfront-id in van de record die de module moet bijwerken.</p> <p>Als u de id wilt ophalen, opent u het Workfront-object in uw browser en kopieert u de tekst aan het einde van de URL na "ID=". Bijvoorbeeld: https://my.workfront.com/project/view?ID=<i> 5e43010c03286a2a555e1d0a75d6a86e </i></p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!DNL Record Type]</td> 
+   <td> <p>Selecteer het type Workfront-record dat de module moet bijwerken.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!DNL Select fields to map]</td> 
+   <td>Selecteer de velden die u beschikbaar wilt maken voor gegevensinvoer. Dit staat u toe om deze gebieden te gebruiken zonder het moeten door degenen scrollen u niet nodig hebt. Vervolgens kunt u gegevens in deze velden invoeren of toewijzen.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!DNL Attach Custom Form]</td> 
+   <td>Selecteer de aangepaste formulieren die u aan de nieuwe record wilt toevoegen. Nadat u het formulier hebt geselecteerd, voert u de gegevens in voor de velden op dat formulier.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+
+>[!NOTE]
+>
+> Wanneer u de tekst voor een aangepast veld of een [!UICONTROL Note] -object (Opmerking of Antwoord) invoert, kunt u HTML-tags in het [!UICONTROL Note Text] -veld gebruiken om RTF-tekst, zoals vette of cursieve tekst, te maken.
+
 
 +++
 
