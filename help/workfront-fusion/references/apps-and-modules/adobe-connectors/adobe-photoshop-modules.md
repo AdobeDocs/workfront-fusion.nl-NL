@@ -4,9 +4,9 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: ad5701c5484da802dea8668c9c4aad58a6dba3eb
+source-git-commit: db1d6f5bf29063b069681395c6ff6d3554c67dc3
 workflow-type: tm+mt
-source-wordcount: '3734'
+source-wordcount: '3741'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,8 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Voordat u de [!DNL Adobe Photoshop] -connector kunt gebruiken, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U moet een actieve [!DNL Adobe Photoshop] account hebben.
-* U moet een client-id en een clientgeheim hebben. Je kunt deze van de Adobe Developer Console veroveren.
+* U moet een Firefly Services-licentie hebben.
+* U moet een client-id en een clientgeheim hebben. U kunt deze aankopen op de Adobe Developer Console.
 
 ## Adobe Photoshop API-informatie
 
