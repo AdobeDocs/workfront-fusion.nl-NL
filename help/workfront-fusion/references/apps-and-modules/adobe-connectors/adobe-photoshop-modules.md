@@ -4,9 +4,9 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
+source-git-commit: ad5701c5484da802dea8668c9c4aad58a6dba3eb
 workflow-type: tm+mt
-source-wordcount: '4334'
+source-wordcount: '3734'
 ht-degree: 0%
 
 ---
@@ -68,6 +68,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 Voordat u de [!DNL Adobe Photoshop] -connector kunt gebruiken, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U moet een actieve [!DNL Adobe Photoshop] account hebben.
+* U moet een client-id en een clientgeheim hebben. Je kunt deze van de Adobe Developer Console veroveren.
 
 ## Adobe Photoshop API-informatie
 
@@ -92,7 +93,7 @@ De Adobe Photoshop-connector gebruikt het volgende:
 
 Verbinding maken voor uw [!DNL Adobe Photoshop] -modules:
 
-1. In om het even welke module, voegt de klik **[!UICONTROL toe]** naast het vakje van de Verbinding.
+1. Klik in een willekeurige module op **[!UICONTROL Add]** naast het vak Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -110,28 +111,28 @@ Verbinding maken voor uw [!DNL Adobe Photoshop] -modules:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het detailgedeelte [!UICONTROL Credentials] van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!UICONTROL Adobe] [!UICONTROL Client ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het detailgedeelte [!UICONTROL Credentials] van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID] in. Dit vindt u in het detailgedeelte [!UICONTROL Credentials] van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Technical account ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL-organisatie-ID]</td>
-        <td>Voer uw [!DNL Adobe] [!UICONTROL-organisatie-id] in. Dit vindt u in het detailgedeelte [!UICONTROL Credentials] van het dialoogvenster [!DNL Adobe Developer Console]</td>
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>Voer uw [!DNL Adobe] [!UICONTROL Organization ID] in. Dit vindt u in het gedeelte [!UICONTROL Credentials] Details van het dialoogvenster [!DNL Adobe Developer Console]</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Persoonlijke sleutel]</td>
+        <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
           <p>Voer de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in de [!DNL Adobe Developer Console] . </p>
           <p>Uw persoonlijke sleutel of certificaat uitnemen:</p>
           <ol>
             <li value="1">
-              <p>Klik <b> [!UICONTROL Extraheren] </b>.</p>
+              <p>Klik op <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Selecteer het type bestand dat u extraheert.</p>
@@ -151,7 +152,7 @@ Verbinding maken voor uw [!DNL Adobe Photoshop] -modules:
       </tbody>
     </table>
 
-1. Klik **[!UICONTROL verdergaan]** om de verbinding te bewaren en aan de module terug te keren.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## [!DNL Adobe Photoshop] modules en hun velden
 
@@ -187,120 +188,120 @@ In deze actiemodule worden diverse bewerkingen op document- en laagniveau toegep
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Input)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties &gt; Document &gt; Afbeeldingsgrootte) Hoogte]</p>
+        <p>[!UICONTROL (Options > Document > Image size) Height]</p>
       </td>
       <td> Voer de hoogte van de afbeelding in pixels in of wijs deze toe. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties &gt; Document &gt; Afbeeldingsgrootte) Breedte]</p>
+        <p>[!UICONTROL (Options > Document > Image size) Width]</p>
       </td>
       <td> Voer de breedte van de afbeelding in pixels in of wijs deze toe. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties &gt; Document &gt; Canvasgrootte) Boven]</p>
+        <p>[!UICONTROL (Options > Document > Canvas size) Top]</p>
       </td>
    <td> Voer in pixels de y-coördinaat in van de linkerbovenhoek van het document. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties &gt; Document &gt; Canvasgrootte) onder]</p>
+        <p>[!UICONTROL (Options > Document > Canvas size) Bottom]</p>
       </td>
    <td> Voer in pixels de y-coördinaat in van de rechterbenedenhoek van het document. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties &gt; Document &gt; Canvasgrootte) Links]</p>
+        <p>[!UICONTROL (Options > Document > Canvas size) Left]</p>
       </td>
    <td> Voer in pixels de x-coördinaat van de linkerbovenhoek van het document in of wijs deze toe. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties &gt; Document &gt; Canvasgrootte) Rechts]</p>
+        <p>[!UICONTROL (Options > Document > Canvas size) Right]</p>
       </td>
    <td> Voer in pixels de x-coördinaat in van de rechterbenedenhoek van het document. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties &gt; Document) Bijsnijden]</p>
+        <p>[!UICONTROL (Options > Document) Trim]</p>
       </td>
    <td> Selecteer Transparante pixels om het bijsnijden te baseren op transparante pixels in de afbeelding. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties) Standaardlettertype]</p>
+        <p>[!UICONTROL (Options) Default font]</p>
       </td>
    <td> Voer de volledige postscriptnaam in van het lettertype dat als algemene standaardinstelling voor het document moet worden gebruikt. Dit lettertype wordt gebruikt voor alle tekstlagen met een ontbrekend lettertype en er is geen specifiek lettertype voor die laag opgegeven. Als dit lettertype ontbreekt, wordt de optie voor het beheren van ontbrekende lettertypen van kracht. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties) Lettertypen]</p>
+        <p>[!UICONTROL (Options) Fonts]</p>
       </td>
    <td> Voor elk lettertype dat het document nodig heeft, klikt u op Item toevoegen en geeft u de opslaglocatie en bestandslocatie van het lettertype op. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties) Ontbrekende fonts beheren]</p>
+        <p>[!UICONTROL (Options) Manage missing fonts]</p>
       </td>
    <td> Selecteer de actie die u wilt uitvoeren als het document een of meer ontbrekende lettertypen bevat. <ul><li><code>fail</code>: De taak wordt niet uitgevoerd en de status wordt ingesteld op mislukt. De details van de fout worden weergegeven in de sectie Details in de status.</li><li><code>useDefault</code>: De taak wordt voltooid, maar standaard worden alle ontbrekende lettertypen vervangen door ArialMT.</li></ul></td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Opties) Lagen]</p>
+        <p>[!UICONTROL (Options) Layers]</p>
       </td>
    <td> Voor elke laag die u wilt toevoegen, klikt u op Item toevoegen en vult u de laagdetails in. <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_applyPsdEdits/"> PSD uitgeven </a> in de documentatie van Adobe Photoshop toepassen.  </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoer]</td>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
       <td>
         <p>Voor elk omgezet dossier wilt u tot stand brengen, voegt het punt toe en gaat de opslag, de plaats in, en typt zoals vermeld in deze lijst.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Type]</p>
+        <p>[!UICONTROL (Output) Type]</p>
       </td>
    <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Uitvoer) overschrijven]</td>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
@@ -318,48 +319,48 @@ Met deze handelingsmodule corrigeert u de opgegeven afbeelding automatisch.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Input)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het bestand is opgeslagen dat u wilt corrigeren.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt corrigeren. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Type]</p>
+        <p>[!UICONTROL (Output) Type]</p>
       </td>
    <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Uitvoer) overschrijven]</td>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
@@ -376,54 +377,54 @@ Deze actiemodule zet een bestand om in JPEG, PNG, PSD of TIFF.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Input)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bestand is opgeslagen waaruit u de achtergrond wilt verwijderen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
    <td> Typ of wijs de URL of het pad toe van het bestand waaruit u de achtergrond wilt verwijderen. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoer]</td>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
       <td>
         <p>Voor elk omgezet dossier wilt u tot stand brengen, voegt het punt toe en gaat de opslag, de plaats in, en typt zoals vermeld in deze lijst.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Type]</p>
+        <p>[!UICONTROL (Output) Type]</p>
       </td>
    <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Uitvoer) overschrijven]</td>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
@@ -441,42 +442,42 @@ Deze actiemodule retourneert een PNG-bestand met een mast toegepast rond het ond
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Input)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice op de plaats waar het bestand is opgeslagen waarvan u een masker wilt maken.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
    <td> Typ of wijs de URL of het pad toe van het bestand waaruit u een masker wilt maken. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het maskerbestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het maskerbestand wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-kleurruimte]</p>
+        <p>[!UICONTROL Color space]</p>
       </td>
    <td>Selecteer of de uitvoerafbeelding RGB- of RGBA-kleur gebruikt. </td> 
     </tr>
@@ -488,7 +489,7 @@ Deze actiemodule retourneert een PNG-bestand met een mast toegepast rond het ond
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL optimaliseren]</p>
+        <p>[!UICONTROL Optimize]</p>
       </td>
    <td>Selecteer Prestaties om voor snelheid te optimaliseren, of Batch om wachttijd toe te staan. </td> 
     </tr>
@@ -500,13 +501,13 @@ Deze actiemodule retourneert een PNG-bestand met een mast toegepast rond het ond
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-versie]</p>
+        <p>[!UICONTROL Version]</p>
       </td>
    <td>Standaard is 4.0</td> 
     </tr> 
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
@@ -528,63 +529,63 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL - opslag van invoerbestand]</td>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-invoerbestand]</p>
+        <p>[!UICONTROL Input file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL ontbrekende lettertypen beheren]</td>
+      <td role="rowheader">[!UICONTROL Manage missing fonts]</td>
       <td>
         <p>Selecteer de actie die u wilt uitvoeren als het document een of meer ontbrekende lettertypen bevat. Als het lettertype niet wordt opgegeven, gebruikt de module het standaardlettertype.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!Standaardlettertype UICONTROL]  </td>
+      <td role="rowheader">[!UICONTROL Default font]  </td>
       <td>
         <p>Voer de volledige postscriptnaam in van het lettertype dat als algemene standaardinstelling voor het document moet worden gebruikt. Dit lettertype wordt gebruikt voor alle tekstlagen met een ontbrekend lettertype en er is geen specifiek lettertype voor die laag opgegeven. Als dit lettertype ontbreekt, wordt de optie voor het beheren van ontbrekende lettertypen van kracht.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-lagen]</td>
+      <td role="rowheader">[!UICONTROL Layers]</td>
    <td> <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text"> tekstlaag </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoerbestandsopslag]</td>
+      <td role="rowheader">[!UICONTROL Output file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-uitvoerbestand]</p>
+        <p>[!UICONTROL Output file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!bestandstype UICONTROL-uitvoer]</p>
+        <p>[!UICONTROL Output file type]</p>
       </td>
    <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-compressie]</p>
+        <p>[!UICONTROL Compression]</p>
       </td>
    <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
     </tr>
@@ -602,18 +603,18 @@ Deze handelingsmodule voert Photoshop-handelingen uit met behulp van JSON-opdrac
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Input)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
     </tr>
@@ -624,80 +625,80 @@ Deze handelingsmodule voert Photoshop-handelingen uit met behulp van JSON-opdrac
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Fonts / Patronen / Penselen / Extra afbeeldingen]</td>
+      <td role="rowheader">[!UICONTROL Fonts / Patterns / Brushes / Additional images]</td>
       <td>
         <p>Voor elk lettertype, patroon, penseel of andere afbeelding die u in deze handeling wilt gebruiken, klikt u op Item toevoegen en voert u de opslag- en bestandslocatie van het item in.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-font / patroon / Penseelbestand]</p>
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt gebruiken. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL voert bestandsopslag uit]</td>
+      <td role="rowheader">[!UICONTROL Outputs file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-uitvoerbestand]</p>
+        <p>[!UICONTROL Output file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!bestandstype UICONTROL-uitvoer]</p>
+        <p>[!UICONTROL Output file type]</p>
       </td>
    <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-compressie]</p>
+        <p>[!UICONTROL Compression]</p>
       </td>
    <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoer]</td>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
       <td>
         <p>Voor elk omgezet dossier wilt u tot stand brengen, voegt het punt toe en gaat de opslag, de plaats in, en typt zoals vermeld in deze lijst.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Type]</p>
+        <p>[!UICONTROL (Output) Type]</p>
       </td>
    <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Uitvoer) overschrijven]</td>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
@@ -713,54 +714,54 @@ Deze actiemodule voert Diepte vervagen op het geselecteerde bestand uit.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL - opslag van invoerbestand]</td>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-invoerbestand]</p>
+        <p>[!UICONTROL Input file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoerbestandsopslag]</td>
+      <td role="rowheader">[!UICONTROL Output file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-uitvoerbestand]</p>
+        <p>[!UICONTROL Output file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!bestandstype UICONTROL-uitvoer]</p>
+        <p>[!UICONTROL Output file type]</p>
       </td>
    <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overige velden]</td>
+      <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
         <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/depthBlur"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-compressie]</p>
+        <p>[!UICONTROL Compression]</p>
       </td>
    <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
     </tr>
@@ -776,78 +777,78 @@ Deze actiemodule voert een Photoshop-actie uit op de geselecteerde afbeelding.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL - opslag van invoerbestand]</td>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-invoerbestand]</p>
+        <p>[!UICONTROL Input file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Handelingen, bestandsopslag]</td>
+      <td role="rowheader">[!UICONTROL Actions file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het actiebestand is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL van bestand UICONTROL-handelingen]</p>
+        <p>[!UICONTROL Actions file URL]</p>
       </td>
    <td> Voer de URL of het pad van het actiebestand in of wijs deze toe. </td> 
     </tr>
      <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-naam van handeling]</p>
+        <p>[!UICONTROL Action name]</p>
       </td>
    <td> Als u alleen een bepaalde handeling wilt uitvoeren, kunt u opgeven welke handeling in de ActionSet moet worden afgespeeld. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Font / Patroon / Penseelopslag]</td>
+      <td role="rowheader">[!UICONTROL Font / Pattern / Brush storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bestand dat u wilt gebruiken, is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-font / patroon / Penseelbestand]</p>
+        <p>[!UICONTROL Font / Pattern / Brush file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt gebruiken. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoerbestandsopslag]</td>
+      <td role="rowheader">[!UICONTROL Output file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-uitvoerbestand]</p>
+        <p>[!UICONTROL Output file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!bestandstype UICONTROL-uitvoer]</p>
+        <p>[!UICONTROL Output file type]</p>
       </td>
    <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-compressie]</p>
+        <p>[!UICONTROL Compression]</p>
       </td>
    <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
     </tr>
@@ -863,24 +864,24 @@ Deze actiemodule voert het Uitsnijden van het Product op het geselecteerde beeld
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL - opslag van invoerbestand]</td>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bestand dat u wilt uitsnijden, is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-invoerbestand]</p>
+        <p>[!UICONTROL Input file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt uitsnijden. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-eenheid]</p>
+        <p>[!UICONTROL Unit]</p>
       </td>
    <td> Selecteer of u de hoogte- en breedteaanpassing wilt beschrijven in pixels of als een percentage. </td> 
     </tr>
@@ -897,32 +898,32 @@ Deze actiemodule voert het Uitsnijden van het Product op het geselecteerde beeld
    <td> Voer de hoeveelheid opvulling voor de hoogte in die u wilt toevoegen of wijs deze toe. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoerbestandsopslag]</td>
+      <td role="rowheader">[!UICONTROL Output file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-uitvoerbestand]</p>
+        <p>[!UICONTROL Output file URL]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!bestandstype UICONTROL-uitvoer]</p>
+        <p>[!UICONTROL Output file type]</p>
       </td>
    <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-compressie]</p>
+        <p>[!UICONTROL Compression]</p>
       </td>
    <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
     </tr>
@@ -938,24 +939,24 @@ Deze actiemodule wint laaginformatie van het gespecificeerde dossier van PSD ter
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL - opslag van invoerbestand]</td>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bestand waarvan u laaggegevens wilt ophalen, is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!URL UICONTROL-invoerbestand]</p>
+        <p>[!UICONTROL Input file URL]</p>
       </td>
    <td> Typ of wijs de URL of het pad toe van het bestand waaruit u laaggegevens wilt ophalen. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-miniaturen]</p>
+        <p>[!UICONTROL Thumbnails]</p>
       </td>
    <td> </td> 
     </tr>
@@ -971,7 +972,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Photoshop API.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
@@ -982,12 +983,12 @@ Deze actiemodule maakt een aangepaste aanroep naar de Photoshop API.
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL, methode]</p>
+        <p>[!UICONTROL Method]</p>
       </td>
    <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-kopteksten]</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
@@ -995,7 +996,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Photoshop API.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-queryreeks]  </td>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
         <p>Voer de queryreeks voor de aanvraag in.</p>
       </td>
@@ -1018,42 +1019,42 @@ Deze actiemodule identificeert het hoofdonderwerp van uw afbeelding en verwijder
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Input)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bestand is opgeslagen waaruit u de achtergrond wilt verwijderen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
    <td> Typ of wijs de URL of het pad toe van het bestand waaruit u de achtergrond wilt verwijderen. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-kleurruimte]</p>
+        <p>[!UICONTROL Color space]</p>
       </td>
    <td>Selecteer of de uitvoerafbeelding RGB- of RGBA-kleur gebruikt. </td> 
     </tr>
@@ -1065,7 +1066,7 @@ Deze actiemodule identificeert het hoofdonderwerp van uw afbeelding en verwijder
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL optimaliseren]</p>
+        <p>[!UICONTROL Optimize]</p>
       </td>
    <td>Selecteer Prestaties om voor snelheid te optimaliseren, of Batch om wachttijd toe te staan. </td> 
     </tr>
@@ -1077,13 +1078,13 @@ Deze actiemodule identificeert het hoofdonderwerp van uw afbeelding en verwijder
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-versie]</p>
+        <p>[!UICONTROL Version]</p>
       </td>
    <td>Standaard is 4.0</td> 
     </tr> 
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
@@ -1101,60 +1102,60 @@ Deze actiemodule vervangt een slim object in een PSD-laag en genereert nieuwe ui
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Input)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het slimme object is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Input) File location]</p>
       </td>
    <td> Voer de URL of het pad van het slimme object in of wijs deze toe. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-lagen]</p>
+        <p>[!UICONTROL Layers]</p>
       </td>
    <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de vooruitgangsmontages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoer]</td>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
       <td>
         <p>Voor elke nieuwe vertoning die u in de module wilt maken, klikt u op Item toevoegen en vult u de volgende velden in. U kunt maximaal 25 uitvoerbestanden hebben.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Breedte]</p>
+        <p>[!UICONTROL (Output) Width]</p>
       </td>
    <td> De breedte, in pixels, van het uitvoerbestand. De oorspronkelijke hoogte-breedteverhouding blijft behouden in de module. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Uitvoer) overschrijven]</td>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
@@ -1172,30 +1173,30 @@ Met deze actie wijzigt u de grootte van een afbeelding en gebruikt u dezelfde ho
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-opslag]</td>
+      <td role="rowheader">[!UICONTROL Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bestand waarvan u het formaat wilt wijzigen, is opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-bestandslocatie]</p>
+        <p>[!UICONTROL File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe aan het bestand waarvan u het formaat wilt wijzigen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL-uitvoer]</td>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
       <td>
         <p>Voor elk omgezet dossier wilt u tot stand brengen, voegt het punt toe en gaat de opslag, de plaats, en andere opties in zoals die in deze lijst worden vermeld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL-type]</p>
+        <p>[!UICONTROL Type]</p>
       </td>
    <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
     </tr>
@@ -1207,19 +1208,19 @@ Met deze actie wijzigt u de grootte van een afbeelding en gebruikt u dezelfde ho
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Max. breedte]</p>
+        <p>[!UICONTROL Max width]</p>
       </td>
    <td>Wanneer de breedte 0 is, kan Max met worden verstrekt om de grootte te krijgen. Maximale breedte heeft voorrang, maar is kleiner dan de documentbreedte.</td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Overschrijven]</td>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL bijsnijden naar canvas]</p>
+        <p>[!UICONTROL Trim to canvas]</p>
       </td>
    <td>Selecteer Ja als u de uitvoeringen wilt bijsnijden naar de canvasgrootte of Nee als u de rendities wilt vergroten naar de laaggrootte.</td> 
     </tr>
@@ -1235,89 +1236,89 @@ Met deze actiemodule voegt u een watermerk toe aan de geselecteerde afbeelding.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL-verbinding]</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
       <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (basis/invoer)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Base / Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waarin het bestand is opgeslagen waaraan u een watermerk wilt toevoegen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (basis/invoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Base / Input) File location]</p>
       </td>
    <td> Typ of wijs de URL of het pad toe van het bestand waaraan u een watermerk wilt toevoegen. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (watermerk/invoer)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Watermark / Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het watermerk dat u wilt toevoegen, is opgeslagen.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (watermerk/invoer)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Watermark / Input) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het watermerk dat u wilt toevoegen, is opgeslagen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (watermerk/grenzen) Hoogte]</p>
+        <p>[!UICONTROL (Watermark / Bounds) Height]</p>
       </td>
    <td>Voer de gewenste hoogte van het watermerk in pixels in of wijs deze toe.</td> 
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (watermerk/grenzen) Breedte]</p>
+        <p>[!UICONTROL (Watermark / Bounds) Width]</p>
       </td>
    <td> Voer de gewenste breedte van het watermerk in pixels in of wijs deze toe. </td> 
     </tr>  
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (watermerk/grenzen) Links]</p>
+        <p>[!UICONTROL (Watermark / Bounds) Left]</p>
       </td>
    <td> Voer de afstand in pixels in van de linkerzijde van de afbeelding die het watermerk moet hebben.</td> 
     </tr>  
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (watermerk/grenzen) Boven]</p>
+        <p>[!UICONTROL (Watermark / Bounds) Top]</p>
       </td>
    <td> Voer de afstand in pixels in van de bovenkant van de afbeelding die het watermerk moet hebben.</td> 
     </tr>  
     <tr>
-      <td role="rowheader">[!UICONTROL (Output)-opslag]</td>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
         <p>Selecteer de bestandsservice waar het bestand met watermerken moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Bestandslocatie]</p>
+        <p>[!UICONTROL (Output) File location]</p>
       </td>
    <td> Voer de URL of het pad in of wijs deze toe waar het bestand met watermerken wordt opgeslagen. Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Type]</p>
+        <p>[!UICONTROL (Output) Type]</p>
       </td>
    <td>Selecteer het bestandstype waarnaar u het bestand wilt converteren. </td> 
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL (Uitvoer) Breedte]</p>
+        <p>[!UICONTROL (Output) Width]</p>
       </td>
    <td> De breedte, in pixels, van het uitvoerbestand. De oorspronkelijke hoogte-breedteverhouding blijft behouden in de module. </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL (Uitvoer) overschrijven]</td>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
       <td>
         <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
       </td>
     </tr>
         <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Maximum aantal geretourneerde resultaten]</p>
+        <p>[!UICONTROL Maximum number of returned results]</p>
       </td>
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
     </tr>
