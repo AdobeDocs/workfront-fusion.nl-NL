@@ -4,9 +4,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: dab5aacd091cec2644f3e8ddac2549dac7b927b8
+source-git-commit: 76272b2e9f084f670075d9b975ffa26c0be07fe5
 workflow-type: tm+mt
-source-wordcount: '6593'
+source-wordcount: '7264'
 ht-degree: 0%
 
 ---
@@ -375,7 +375,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
 
 +++
 
-+++ **[!UICONTROL Create a record (attaching custom forms)]**
++++ **[!UICONTROL Create a record]**
 
 In deze actiemodule wordt een object gemaakt, zoals een project, taak of uitgave in Workfront, en kunt u een aangepast formulier aan het nieuwe object toevoegen. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
 
@@ -422,7 +422,12 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ ob
 
 +++
 
-+++ **[!UICONTROL Create Record]**
++++ **[!UICONTROL Create Record (Legacy)]**
+
+>[!IMPORTANT]
+>
+>Deze module is vervangen door de module Een record maken. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
+>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze actiemodule maakt een object, zoals een project, taak of uitgave in Workfront. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
 
@@ -820,8 +825,65 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
+    <td> <p>Voor instructies over het verbinden van uw Workfront app aan Workfront Fusion, zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Workfront met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Record Type]</td>
 
-<td> <p>Voor instructies over het verbinden van uw Workfront app aan Workfront Fusion, zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Workfront met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
+<td>Kies het Workfront-objecttype dat u wilt lezen in de module.</td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Outputs]</td>
+
+<td> <p>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen.</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Output Custom Form]</td>
+     <td> <p>Selecteer de aangepaste formulieren die u in de uitvoerbundel voor deze module wilt opnemen en selecteer vervolgens de specifieke velden uit de aangepaste formulieren die u in de uitvoer wilt opnemen.</p> </td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL References]</td>
+   <td>Selecteer de verwijzingsvelden die u in de uitvoer wilt opnemen.</td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL Collections]</td>
+   <td>Selecteer de verwijzingsvelden die u in de uitvoer wilt opnemen.</td> 
+  </tr> 
+  <tr> 
+    <td>[!UICONTROL ID]</td>
+   <td> <p>Voer de unieke Workfront-id in van de record die de module moet lezen.</p> <p>Als u de id wilt ophalen, opent u het Workfront-object in uw browser en kopieert u de tekst aan het einde van de URL na "ID=". Bijvoorbeeld: https://my.workfront.com/project/view?ID=<i> 5e43010c03286a2a555e1d0a75d6a86e </i></p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+
++++
+
++++ **[!UICONTROL Read a Record (Legacy)]**
+
+>[!IMPORTANT]
+>
+>Deze module is vervangen door de module Een record lezen. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
+>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
+
+Deze actiemodule haalt gegevens op uit één record.
+
+U geeft de id van de record op. U kunt ook opgeven welke verwante records u in de module wilt lezen.
+
+Bijvoorbeeld, als het verslag dat de module leest een project is, kunt u specificeren dat u de taken van het project wilt lezen.
+
+De module retourneert een array met gegevens uit de uitvoervelden die u hebt opgegeven.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td>[!UICONTROL Connection]</td>
+    <td> <p>Voor instructies over het verbinden van uw Workfront app aan Workfront Fusion, zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Workfront met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Record Type]</td>
@@ -876,7 +938,12 @@ Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [ 
 
 +++
 
-+++ **werk een verslag bij (met het vastmaken van douaneformulieren)**
++++ **werk een verslag** bij
+
+>[!IMPORTANT]
+>
+>Deze module is vervangen met Update een verslagmodule. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
+>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 
 Deze actiemodule werkt een voorwerp, zoals een project, een taak, of een kwestie bij. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
@@ -925,7 +992,7 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ ob
 
 +++
 
-+++ **[!UICONTROL Update Record]**
++++ **[!UICONTROL Update Record (Legacy)]**
 
 Deze actiemodule werkt een voorwerp, zoals een project, een taak, of een kwestie bij. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
 
@@ -1095,9 +1162,69 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
++++ **[!UICONTROL Search records]**
+
+Deze zoekmodule zoekt naar records in een object in Workfront die overeenkomen met de zoekquery die u opgeeft.
+
+U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw Workfront app aan Workfront Fusion, zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Workfront met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Record Type]</td> 
+   <td> <p>Selecteer het type Workfront-record waarnaar de module moet zoeken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Custom forms list]</td> 
+   <td> <p>Selecteer ten minste één aangepast formulier. Velden van deze aangepaste formulieren zijn beschikbaar voor de zoekopdracht.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Result Set]</td> 
+   <td>Selecteer een optie om op te geven of u wilt dat de module het eerste resultaat ophaalt dat overeenkomt met uw zoekcriteria of dat alle resultaten overeenkomen.</td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Maximal]</td> 
+   <td> <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria fields]</td> 
+   <td> <p>Selecteer de velden die u voor de zoekcriteria wilt gebruiken. Deze velden zijn dan beschikbaar in het vervolgkeuzemenu Zoekcriteria.</p></td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Search criteria]</td> 
+   <td> <p>Voer het veld in waarnaar u wilt zoeken, de operator die u in de query wilt gebruiken en de waarde waarnaar u in het veld zoekt.</p> <p>Opmerking: gebruik <code>username </code> niet in de zoekcriteria. Als u <code>username </code> opneemt in een API-query naar Workfront, wordt de gebruiker aangemeld bij Workfront en wordt de zoekopdracht niet uitgevoerd.</p> <p>Opmerking: <code>In</code> en <code>NotIn</code> werken met arrays. De invoer moet een arrayindeling hebben.</p></td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Outputs]</td> 
+   <td> <p>Selecteer de velden die u in de uitvoer voor deze module wilt opnemen.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL References]</td> 
+   <td>Selecteer de verwijzingsvelden die u in de zoekopdracht wilt opnemen.</td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td>[!UICONTROL Collections]</td> 
+   <td>Selecteer de verzamelingen die u aan de zoekopdracht wilt toevoegen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 +++
 
-+++ **[!UICONTROL Search]**
++++ **[!UICONTROL Search (Legacy)]**
+
+>[!IMPORTANT]
+>
+>Deze module is vervangen door de module Zoeken in records. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
+>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze zoekmodule zoekt naar records in een object in Workfront die overeenkomen met de zoekquery die u opgeeft.
 
