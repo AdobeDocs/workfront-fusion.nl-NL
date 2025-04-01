@@ -4,7 +4,7 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 76272b2e9f084f670075d9b975ffa26c0be07fe5
+source-git-commit: 5ba6e0ba687eb290c7d8882c6a615de8b3692617
 workflow-type: tm+mt
 source-wordcount: '7264'
 ht-degree: 0%
@@ -940,11 +940,6 @@ Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [ 
 
 +++ **werk een verslag** bij
 
->[!IMPORTANT]
->
->Deze module is vervangen met Update een verslagmodule. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
->De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
-
 
 Deze actiemodule werkt een voorwerp, zoals een project, een taak, of een kwestie bij. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
 
@@ -993,6 +988,11 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ ob
 +++
 
 +++ **[!UICONTROL Update Record (Legacy)]**
+
+>[!IMPORTANT]
+>
+>Deze module is vervangen met Update een verslagmodule. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
+>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze actiemodule werkt een voorwerp, zoals een project, een taak, of een kwestie bij. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
 
