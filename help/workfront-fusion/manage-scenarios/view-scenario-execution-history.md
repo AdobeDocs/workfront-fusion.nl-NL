@@ -1,12 +1,12 @@
 ---
-title: Onvolledige uitvoeringen weergeven en oplossen
-description: In de map [!UICONTROL Incomplete executions] worden scenario-uitvoeringen opgeslagen die niet zijn voltooid vanwege een fout. Elke opgeslagen onvolledige uitvoering kan handmatig of automatisch worden opgelost.
+title: De uitvoeringsgeschiedenis van een scenario weergeven
+description: U kunt informatie over de gebeurtenissen of de uitvoeringen van een scenario tonen, of u kunt alle uitvoeringen van het scenario voor specifieke gegevens zoeken.
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '818'
 ht-degree: 0%
 
 ---

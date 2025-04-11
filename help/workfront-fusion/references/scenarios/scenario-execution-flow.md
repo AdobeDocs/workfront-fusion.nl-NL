@@ -5,9 +5,9 @@ description: In dit artikel wordt uitgelegd hoe een scenario wordt uitgevoerd en
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
 workflow-type: tm+mt
-source-wordcount: '735'
+source-wordcount: '753'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 # Uitvoeringsstroom van scenario
 
 Dit artikel verklaart hoe een scenario uitvoert en hoe de gegevens door het stromen, en hoe te om de gegevens te bekijken die door elke module worden verwerkt.
+
+Om te bekijken hoe de gegevens door een actief scenario stromen, zie [ gegevensstroom van de Mening in een lopend scenario ](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md).
 
 ## Uitvoeringsstroom van scenario
 
