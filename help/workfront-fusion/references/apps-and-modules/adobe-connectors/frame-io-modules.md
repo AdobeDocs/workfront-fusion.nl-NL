@@ -4,16 +4,31 @@ description: De  [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 121b145c-d04d-44b9-b673-ea2928e2346d
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 31487c8b5b6efad1e6d7817dfe7dda67eea88e43
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2204'
 ht-degree: 0%
 
 ---
 
-# [!DNL Frame.io] modules
+# [!DNL Frame.io] Verouderde modules
+
+>[!IMPORTANT]
+>
+>In dit artikel wordt de oudere versie van de connector Frame.io beschreven. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 3.
+>
+>Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [ schakelaar van Frame.io Beta ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
 
 Met de modules [!DNL Adobe Workfront Fusion] [!DNL Frame.io] kunt u elementen en opmerkingen in uw [!DNL Frame.io] -account controleren, maken, bijwerken, ophalen of verwijderen.
+
+Workfront biedt twee Frame.io-connectors, gebaseerd op de versie van Frame.io waarmee u verbinding maakt.
+
+| Connector | Frame.io-versie |
+|---|---|
+| Frame.io (Beta) | V4 |
+| Frame.io (Verouderd) | V3 |
+
+Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [ schakelaar van Frame.io Beta ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
 
 Voor een videoinleiding aan de Schakelaar Frame.io, zie:
 
@@ -626,7 +641,7 @@ In deze actiemodule wordt een bestaande opmerking bewerkt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID] </td> 
-   <td> <p>Selecteer het project \ dat de activa bevat u een commentaar op wilt bijwerken.</p> </td> 
+   <td> <p>Selecteer het project dat het element bevat waarop u een opmerking wilt bijwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder ID] </td> 

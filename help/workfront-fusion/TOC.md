@@ -2,9 +2,9 @@
 user-guide-title: Documentatie voor Adobe Workfront Fusion
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: Gebruik de documenten, tutorials en aanvullende bronnen om te leren hoe u Adobe Workfront Fusion in uw organisatie kunt implementeren en effectief kunt gebruiken.
-source-git-commit: 0115892ccd9569efbd5d5ed585847c763280ddca
+source-git-commit: a23517da30b4e51ef55bcc13241a03cd1d6153a0
 workflow-type: tm+mt
-source-wordcount: '1700'
+source-wordcount: '1707'
 ht-degree: 1%
 
 ---
@@ -305,7 +305,8 @@ ht-degree: 1%
          * [Adobe Experience Manager Assets-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-assets-modules.md)
          * [Adobe Experience Manager Forms-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md)
          * [Adobe Firefly-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-firefly-modules.md)
-         * [Adobe Frame.io-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
+         * [Adobe Frame.io Beta (V4) modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md)
+         * [Adobe Frame.io Legacy (V3)-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md)
          * [Adobe I/O Events-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-io-events-modules.md)
          * [Adobe Journey Optimizer-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-journey-optimizer-modules.md)
          * [Adobe Lightroom-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-lightroom-modules.md)
