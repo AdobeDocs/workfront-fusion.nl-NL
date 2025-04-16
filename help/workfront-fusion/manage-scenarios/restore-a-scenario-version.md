@@ -4,14 +4,16 @@ description: U kunt een vorige versie van een scenario herstellen. Op deze manie
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 18bbd77630eafac0cb293c3a6f658a74b622bdae
 workflow-type: tm+mt
-source-wordcount: '199'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
 
-# Een versie van een scenario herstellen
+# De mening en beheert manuscriptversies
+
+U kunt vorige versies van een scenario weergeven, herstellen of hernoemen.
 
 ## Toegangsvereisten
 
@@ -65,16 +67,20 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 +++
 
-## Een versie van een scenario herstellen
+<!--procedure - open, optional add comment, optional restore version-->
 
-1. Open uw scenario.
+## De versiegeschiedenis van een scenario weergeven en beheren
+
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel, dan klik het scenario om het te openen.![
 1. Klik het [!UICONTROL More] pictogram ![ Meer pictogram ](assets/more-icon.png) bij de bodem van het scherm, dan klik **[!UICONTROL Previous Versions]**.
 
-1. Klik op **[!UICONTROL Pick the version]** en klik vervolgens op de versie die u wilt herstellen.
-1. Klik op **[!UICONTROL OK]**.
+   Er wordt een lijst met vorige versies weergegeven.
+1. (Facultatief) om de versie anders te noemen, klik het Meer menu ![ Meer menu ](assets/more-icon-vertical.png) op de lijn voor die versie, uitgezocht **geeft** uit, en gaat een naam in het gebied in. Klik **sparen** om de nieuwe naam te bewaren.
 
-   De geselecteerde versie van het scenario wordt hersteld.
+   We raden u aan een naam te geven die de wijzigingen beschrijft die voor deze versie zijn aangebracht.
+1. (Optioneel) Om de versie te herstellen, klikt u op Meer menu ![ ](assets/more-icon-vertical.png) op de regel voor die versie
 
->[!NOTE]
->
->De herstelde versie van het scenario wordt niet automatisch opgeslagen. Als u de herstelde versie van het scenario wilt opslaan, moet u deze handmatig opslaan.
+
+   >[!NOTE]
+   >
+   >De herstelde versie van het scenario wordt niet automatisch opgeslagen. Als u de herstelde versie van het scenario wilt opslaan, moet u deze handmatig opslaan.
