@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 62269eca-c3cf-42fe-a866-fb66d2363b8d
-source-git-commit: 0581601a254a9492f4166d78eb0f11868d390f24
+source-git-commit: e14f49dbb7b57a7247a62a27205df1b6da11a259
 workflow-type: tm+mt
-source-wordcount: '1527'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,46 @@ Voor instructies bij het creëren van een scenario, zie de artikelen onder [ sce
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -62,14 +66,14 @@ Als u [!DNL Gmail] -modules wilt gebruiken, moet u een [!DNL Gmail] -account heb
 
 ## Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] {#connect-gmail-to-workfront-fusion}
 
-* [Verbind  [!DNL Gmail]  met  [!DNL Workfront Fusion]  gebruikend  [!DNL Google Workspace]](#connect-gmail-to-workfront-fusion-usingg-suite)
+* [Verbind  [!DNL Gmail]  met  [!DNL Workfront Fusion]  gebruikend  [!DNL Google Workspace]](#connect-gmail-to-workfront-fusion-usinggoogle-workspace)
 * [Verbind  [!DNL Gmail]  met  [!DNL Workfront Fusion]  gebruikend  [!DNL gmail.com]  of  [!DNL googlemail].com](#connect-gmail-to-workfront-fusion-using-gmailcom-or-googlemailcom)
 
-### Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL  Google Workspace] {#connect-gmail-to-workfront-fusion-using-g-suite}
+### Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL  Google Workspace]
 
 Voor instructies over het verbinden van uw [!DNL Google Workspace] rekening met [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
 
-### Verbind [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL gmail.com] of [!DNL googlemail].com {#connect-gmail-to-workfront-fusion-using-gmail-com-or-googlemail-com}
+### Verbind [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL gmail.com] of [!DNL googlemail].com
 
 Als u [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker bent moet u een cliënt OAuth op [ creëren  [!DNL Google Cloud Platform] ](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) om a [!UICONTROL Client ID] en [!UICONTROL Client Secret] te verkrijgen.
 
@@ -114,7 +118,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Selecteer het filtertype dat u wilt gebruiken om e-mailberichten te bekijken</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Simple filter]</strong> </p> <p>Vul de velden [!UICONTROL Criteria] , [!UICONTROL Sender Email Address] , [!UICONTROL Subject] en [!UICONTROL Search Phrase] in</p> </li> 
-     <li> <p> <strong>[!UICONTROL Gmail filter]</strong> </p> <p>Voer in het veld [!UICONTROL Query] de query in die u wilt gebruiken om e-mailberichten te filteren.</p> <p>Voor meer informatie over [!DNL Gmail] filters, zie <a href="https://support.google.com/mail/answer/7190"> exploitanten van het Onderzoek </a> in de [!DNL Gmail] documentatie.</p> </li> 
+     <li> <p> <strong>[!UICONTROL Gmail filter]</strong> </p> <p>Voer in het veld [!UICONTROL Query] de query in die u wilt gebruiken om e-mailberichten te filteren.</p> <p>Voor meer informatie over [!DNL Gmail] filters, zie <a href="https://support.google.com/mail/answer/7190"> onderzoeken </a> in de [!DNL Gmail] documentatie verfijnen.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -146,24 +150,27 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 ### Handelingen
 
-* [[!UICONTROL Send an email]](#send-an-email)
+<!--* [Add labels](#add-labels)-->
+* [[!UICONTROL Copy an email]](#copy-an-email)
 * [[!UICONTROL Create a draft]](#create-a-draft)
+* [[!UICONTROL Delete an email]](#delete-an-email)
+  <!--* [Delete labels](#delete-labels)-->
 * [[!UICONTROL Mark an email as read]](#mark-an-email-as-read)
 * [[!UICONTROL Mark an email as unread]](#mark-an-email-as-unread)
 * [[!UICONTROL Move an email]](#move-an-email)
-* [[!UICONTROL Copy an email]](#copy-an-email)
-* [[!UICONTROL Delete an email]](#delete-an-email)
 * [[!UICONTROL Modify email labels]](#modify-email-labels)
+* [[!UICONTROL Send an email]](#send-an-email)
+  <!--* [Set labels](#set-labels)-->
 
-#### [!UICONTROL Send an email]
+<!--#### Add labels-->
 
-Deze actiemodule verzendt een nieuwe e-mail.
+#### [!UICONTROL Copy an email]
 
-U geeft de ontvanger van de e-mail op.
+Deze actiemodule kopieert een e-mail- of e-mailconcept naar een map die u opgeeft.
+
+U geeft de map, de doelmap en de id van de e-mail op.
 
 De module retourneert de id van de e-mail en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -171,35 +178,19 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL From]</td> 
-   <td> <p>Voer een e-mailadres van een afzender in of wijs dit toe.</p> <p>Opmerking: als u een onjuist e-mailadres opgeeft, kan er een fout optreden bij het verzenden van een bericht omdat uw account geen toestemming heeft om e-mails te verzenden van een ander adres dan uw eigen adres.</p> </td> 
+   <td>[!UICONTROL Folder] </td> 
+   <td> <p>Selecteer de [!DNL Gmail] -bronmap die het e-mailbericht bevat dat u wilt kopiëren.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL To] </td> 
-   <td> <p>Klik op <strong>[!UICONTROL Add]</strong> en voer het e-mailadres voor elke ontvanger in of wijs dit toe.</p> </td> 
+   <td>[!UICONTROL Destination folder]</td> 
+   <td> <p>Selecteer de doelmap van [!DNL Gmail] waarnaar u de e-mail wilt kopiëren.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Subject] </td> 
-   <td> <p>Voer het onderwerp van de e-mail in of wijs deze toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Content] </td> 
-   <td> <p>Voer de e-mailinhoud (hoofdtekst van bericht) in of wijs deze toe. HTML-tags zijn toegestaan.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Attachments] </td> 
-   <td> <p>Klik op <strong>[!UICONTROL Add]</strong> om een bijlage toe te voegen. U kunt een bestand uit de vorige modules toewijzen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Copy recipients]</td> 
-   <td> <p> Klik op <strong>[!UICONTROL Add]</strong> en voer het e-mailadres voor elke ontvanger van de kopie in of wijs dit toe.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Blind copy recipients]</td> 
-   <td> <p> Klik op <strong>[!UICONTROL Add]</strong> en voer het e-mailadres voor elke ontvanger van de blinde kopie in of wijs dit toe.</p> </td> 
+   <td>[!UICONTROL Email ID (UID)]</td> 
+   <td> <p>Voer de e-mailid in of wijs deze toe van het e-mailbericht dat u wilt kopiëren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -252,6 +243,37 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
  </tbody> 
 </table>
+
+#### [!UICONTROL Delete an email]
+
+Met deze actiemodule verwijdert u een e-mail- of e-mailconcept uit een map die u opgeeft.
+
+De module retourneert de id van de e-mail en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!UICONTROL [!DNL Gmail] Bericht-ID]</p> </td> 
+   <td> <p>Voer de e-mailid in of wijs deze toe van het e-mailbericht dat u wilt verwijderen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Permanently] </td> 
+   <td> <p>Schakel deze optie in als u wilt dat de module de e-mail permanent kan verwijderen in plaats van deze naar de prullenbak te verplaatsen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### Delete labels-->
+
+
 
 #### [!UICONTROL Mark an email as read]
 
@@ -307,95 +329,6 @@ De module retourneert de id van de e-mail en alle bijbehorende velden, samen met
  </tbody> 
 </table>
 
-#### [!UICONTROL Move an email]
-
-Met deze handelingsmodule wordt een e-mail- of e-mailconcept verplaatst naar een map die u opgeeft.
-
-U geeft de map, de doelmap en de id van de e-mail op.
-
-De module retourneert de id van de e-mail en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Folder] </td> 
-   <td> <p>Selecteer de [!DNL Gmail] -bronmap met het e-mailbericht dat u wilt verplaatsen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Destination folder]</td> 
-   <td> <p> Selecteer de doelmap van [!DNL Gmail] waarnaar u de e-mail wilt verplaatsen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Voer de e-mailid in of wijs deze toe aan het e-mailbericht dat u wilt verplaatsen.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Copy an email]
-
-Deze actiemodule kopieert een e-mail- of e-mailconcept naar een map die u opgeeft.
-
-U geeft de map, de doelmap en de id van de e-mail op.
-
-De module retourneert de id van de e-mail en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Folder] </td> 
-   <td> <p>Selecteer de [!DNL Gmail] -bronmap die het e-mailbericht bevat dat u wilt kopiëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Destination folder]</td> 
-   <td> <p>Selecteer de doelmap van [!DNL Gmail] waarnaar u de e-mail wilt kopiëren.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Email ID (UID)]</td> 
-   <td> <p>Voer de e-mailid in of wijs deze toe van het e-mailbericht dat u wilt kopiëren.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete an email]
-
-Met deze actiemodule verwijdert u een e-mail- of e-mailconcept uit een map die u opgeeft.
-
-De module retourneert de id van de e-mail en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td> <p>[!UICONTROL [!DNL Gmail] Bericht-ID]</p> </td> 
-   <td> <p>Voer de e-mailid in of wijs deze toe van het e-mailbericht dat u wilt verwijderen.</p> </td> 
-  </tr> 
-  <tr> 
-   <td>[!UICONTROL Permanently] </td> 
-   <td> <p>Schakel deze optie in als u wilt dat de module de e-mail permanent kan verwijderen in plaats van deze naar de prullenbak te verplaatsen.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Modify email labels]
 
 Deze actiemodule wijzigt het label van een e-mailbericht dat u opgeeft.
@@ -430,6 +363,88 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 >[!NOTE]
 >
 >[!UICONTROL Label to add] en [!UICONTROL Label to remove] worden alleen door de gebruiker gemaakte labels geladen.
+
+#### [!UICONTROL Move an email]
+
+Met deze handelingsmodule wordt een e-mail- of e-mailconcept verplaatst naar een map die u opgeeft.
+
+U geeft de map, de doelmap en de id van de e-mail op.
+
+De module retourneert de id van de e-mail en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Folder] </td> 
+   <td> <p>Selecteer de [!DNL Gmail] -bronmap met het e-mailbericht dat u wilt verplaatsen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Destination folder]</td> 
+   <td> <p> Selecteer de doelmap van [!DNL Gmail] waarnaar u de e-mail wilt verplaatsen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Email ID (UID)]</td> 
+   <td> <p> Voer de e-mailid in of wijs deze toe aan het e-mailbericht dat u wilt verplaatsen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Send an email]
+
+Deze actiemodule verzendt een nieuwe e-mail.
+
+U geeft de ontvanger van de e-mail op.
+
+De module retourneert de id van de e-mail en alle bijbehorende velden, samen met eventuele aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
+
+Als u deze module configureert, worden de volgende velden weergegeven.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td>[!UICONTROL Connection] </td> 
+   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL From]</td> 
+   <td> <p>Voer een e-mailadres van een afzender in of wijs dit toe.</p> <p>Opmerking: als u een onjuist e-mailadres opgeeft, kan er een fout optreden bij het verzenden van een bericht omdat uw account geen toestemming heeft om e-mails te verzenden van een ander adres dan uw eigen adres.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL To] </td> 
+   <td> <p>Klik op <strong>[!UICONTROL Add]</strong> en voer het e-mailadres voor elke ontvanger in of wijs dit toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Subject] </td> 
+   <td> <p>Voer het onderwerp van de e-mail in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Content] </td> 
+   <td> <p>Voer de e-mailinhoud (hoofdtekst van bericht) in of wijs deze toe. HTML-tags zijn toegestaan.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Attachments] </td> 
+   <td> <p>Klik op <strong>[!UICONTROL Add]</strong> om een bijlage toe te voegen. U kunt een bestand uit de vorige modules toewijzen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Copy recipients]</td> 
+   <td> <p> Klik op <strong>[!UICONTROL Add]</strong> en voer het e-mailadres voor elke ontvanger van de kopie in of wijs dit toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Blind copy recipients]</td> 
+   <td> <p> Klik op <strong>[!UICONTROL Add]</strong> en voer het e-mailadres voor elke ontvanger van de blinde kopie in of wijs dit toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### Set labels-->
 
 ### Iteratoren
 
