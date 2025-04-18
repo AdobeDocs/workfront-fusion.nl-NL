@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 41179cfe-c0f9-4d18-ab7e-374670ac688b
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 8a4e54a4c1783e4bc679778c6fcf21dcb4d3d537
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '578'
 ht-degree: 0%
 
 ---
@@ -22,42 +22,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -78,6 +82,14 @@ U kunt rechtstreeks vanuit een [!DNL MariaDB] -module verbinding maken met uw [!
       <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
       <td> <p>Voer een naam in voor de nieuwe verbinding.</p> </td> 
      </tr> 
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Selecteer of deze verbinding voor een productie of een non-productie milieu is.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
+        </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Host]</td> 
       <td> <p>Voer het IP-adres of de hostnaam van uw databaseinstantie in. Deze gastheer moet van buiten uw netwerk toegankelijk zijn.</p> <p>Voorbeeld: <code>[!DNL mariadb.hwoh2j5h.us-east-1.rds.amazon.com]</code></p> </td> 
@@ -87,11 +99,11 @@ U kunt rechtstreeks vanuit een [!DNL MariaDB] -module verbinding maken met uw [!
       <td>De standaardpoort is 3306. Als u een niet-standaardhaven gebruikt, plaats dit aantal aan uw haven. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Database Name]</td> 
+      <td role="rowheader">[!UICONTROL Database ]</td> 
       <td>Voer de naam in van de database waarmee u wilt communiceren.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Username]</td> 
+      <td role="rowheader">[!UICONTROL User]</td> 
       <td>Voer uw gebruikersnaam in.</td> 
      </tr> 
      <tr> 

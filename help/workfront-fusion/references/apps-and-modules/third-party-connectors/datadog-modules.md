@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: c8c5f2e3-5af1-4957-bb6f-6c19c35102c5
-source-git-commit: 7edfe4a7b19597ea6e56bb2ca3969d742dbaf999
+source-git-commit: 8a4e54a4c1783e4bc679778c6fcf21dcb4d3d537
 workflow-type: tm+mt
-source-wordcount: '841'
+source-wordcount: '850'
 ht-degree: 0%
 
 ---
@@ -108,24 +108,28 @@ U kunt rechtstreeks vanuit een [!UICONTROL Datadog] -module verbinding maken met
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Connection Type]</td> 
-      <td> <p> Selecteer de optie [!UICONTROL [!DNL Datadog] Toepassing] om volledige toegang tot de [!DNL Datadog] API te krijgen.</p> </td> 
-     </tr> 
-     <tr> 
       <td role="rowheader">[!UICONTROL Connection Name]</td> 
       <td> <p> Voer een naam in voor de verbinding.</p> </td> 
      </tr> 
+        <tr>
+        <td role="rowheader">[!UICONTROL Environment]</td>
+        <td>Selecteer of deze verbinding voor een productie of een non-productie milieu is.</td>
+        </tr>
+        <tr>
+        <td role="rowheader">[!UICONTROL Type]</td>
+        <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
+        </tr>
      <tr> 
       <td role="rowheader">[!UICONTROL Domain] </td> 
       <td> <p>Selecteer het domein waarmee u verbinding wilt maken (VS of EU).</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL API Key]</td> 
-      <td> <p> Voer uw API-sleutel voor [!DNL Datadog] in. </p> <p>Voor instructies bij het terugwinnen van de API sleutel, zie <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref"> uw API sleutel en toepassingssleutel </a> in dit artikel terugwinnen.</p> </td> 
+      <td role="rowheader">[!UICONTROL API Key Location] </td> 
+      <td> <p>Selecteer of u de API-sleutel wilt opnemen in de koptekst of in de queryreeks.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Application Key]</td> 
-      <td> <p> Voer de toepassingssleutel van [!DNL Datadog] in. </p> <p>Voor instructies bij het terugwinnen van de toepassingssleutel, zie <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref"> uw API sleutel en toepassingssleutel </a> in dit artikel terugwinnen.</p> </td> 
+      <td role="rowheader">[!UICONTROL API Key]</td> 
+      <td> <p> Voer uw API-sleutel voor [!DNL Datadog] in. </p> <p>Voor instructies bij het terugwinnen van de API sleutel, zie <a href="#retrieve-your-api-key-and-application-key" class="MCXref xref"> uw API sleutel en toepassingssleutel </a> in dit artikel terugwinnen.</p> </td> 
      </tr> 
     </tbody> 
    </table>
@@ -217,18 +221,28 @@ De limiet voor gecomprimeerde ladingen is 3,2 megabyte (3200000) en 62 megabyte 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 
-   <td> Selecteer het type metrisch dat u wilt gebruiken. </td> 
+   <td> Selecteer het type metrisch dat u wilt gebruiken. 
+   <ul>
+   <li>Gage</li>
+   <li>Snelheid</li>
+   <li>Aantal</li>
+   </ul>
+   </td> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Interval]</td> 
+   <td> Als het type van metrisch tarief of telling is, bepaal het overeenkomstige interval.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Series]</td> 
-   <td> <p>Voeg tijdreeksen toe waarnaar u wilt verzenden [!DNL Datadog] .</p> 
-    <ul> 
-     <li> <p><strong>[!UICONTROL Metric]</strong> </p> <p>Voer de naam van de tijdreeksen in.</p> </li> 
-     <li> <p><strong>[!UICONTROL Type]</strong> </p> <p>Selecteer het type metrisch.</p> </li> 
-     <li> <p><strong>[!UICONTROL Interval]</strong> </p> <p> Als het type van metrisch tarief of telling is, bepaal het overeenkomstige interval.</p> </li> 
-     <li> <p><strong>[!UICONTROL Points]</strong> </p> <p>Voeg punten met betrekking tot metrisch toe.</p> <p>Dit is een JSON-array van punten. Elk punt heeft het formaat: <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>Opmerking:  <p>De tijdstempel moet in seconden staan.</p> <p>De tijdstempel moet actueel zijn. De stroom wordt gedefinieerd als niet meer dan 10 minuten in de toekomst of meer dan 1 uur in het verleden.</p> <p> De numerieke notatie moet een drijvende-kommawaarde zijn.</p> </p> <p>Dit veld moet ten minste 1 item bevatten.</p> </li> 
-     <li> <p><strong>[!UICONTROL Host]</strong> </p> <p>Ga de naam van de gastheer in die metrisch produceerde.</p> </li> 
-    </ul> </td> 
+   <td role="rowheader">[!UICONTROL Points]</td> 
+   <td><p>Voeg punten met betrekking tot metrisch toe.</p> <p>Dit is een JSON-array van punten. Elk punt heeft het formaat: <code>[[POSIX_timestamp, numeric_value], ...] </code></p> <p>Opmerking:  <p>De tijdstempel moet in seconden staan.</p> <p>De tijdstempel moet actueel zijn. De stroom wordt gedefinieerd als niet meer dan 10 minuten in de toekomst of meer dan 1 uur in het verleden.</p> <p> De numerieke notatie moet een drijvende-kommawaarde zijn.</p> </p> <p>Dit veld moet ten minste 1 item bevatten.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Host]</td> 
+   <td>Ga de naam van de gastheer in die metrisch produceerde. </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Tags]</td> 
+   <td> Voor elke markering die u aan metrisch wilt toevoegen, klik <b> toevoegen punt </b> en ga de waarde van de markering in.</td> 
   </tr> 
  </tbody> 
 </table>
