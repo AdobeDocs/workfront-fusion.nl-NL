@@ -5,10 +5,10 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 11376e58-a44b-4766-85dc-e2421b0112de
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: b5387e4ba84d67d6ea2472282c212e396ba93d4f
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 1%
+source-wordcount: '1380'
+ht-degree: 0%
 
 ---
 
@@ -22,42 +22,46 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -82,11 +86,12 @@ De breedste connector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!DNL Widen] met [!DNL Workfront Fusion] {#connect-widen-to-workfront-fusion}
+## Verbinden [!DNL Widen] met [!DNL Workfront Fusion]  {#connect-widen-to-workfront-fusion}
 
 U kunt rechtstreeks vanuit een [!DNL Widen] -module verbinding maken met uw [!DNL Widen] -account.
 
 1. Klik in een willekeurige [!DNL Widen] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
+1. Selecteer de omgeving en het type account waarmee u verbinding maakt. Dit is alleen ter informatie en wordt weergegeven in het gebied Verbindingen van Fusion.
 1. Selecteer het [!DNL Widen] -domein waarmee u verbinding wilt maken.
 1. Voer het token voor uw [!DNL Widen] -account in. Voor instructies bij de plaats bepalen van dit teken, zie [[!DNL Widen]  API FAQs ](https://community.widen.com/collective/s/article/API-FAQs).
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
@@ -138,13 +143,42 @@ Deze triggermodule start een scenario wanneer een element wordt gemaakt of bijge
 
 ### Modules voor handelingen
 
-* [[!UICONTROL Custom API Call]](#custom-api-call)
-* [[!UICONTROL Read asset info]](#read-asset-info)
 * [[!UICONTROL Add assets to collections]](#add-assets-to-collections)
+* [[!UICONTROL Custom API Call]](#custom-api-call)
+* [[!UICONTROL Download File]](#download-file)
+* [[!UICONTROL Read asset info]](#read-asset-info)
 * [[!UICONTROL Remove assets from collection]](#remove-assets-from-collection)
 * [[!UICONTROL Update asset metadata]](#update-asset-metadata)
-* [[!UICONTROL Download File]](#download-file)
-* [[!UICONTROL Upload] een bestand](#upload-a-file)
+* [[!UICONTROL Upload a file]](#upload-a-file)
+
+#### [!UICONTROL Add assets to collections]
+
+Deze actiemodule voegt een of meer elementen toe aan verzamelingen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Collections ID]</td> 
+   <td>Voor elke inzameling die u de activa aan wilt toevoegen, <strong> [identiteitskaart van Inzamelingen] </strong> klikken en [!UICONTROL Collection ID] ingaan of in kaart brengen.</li> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Assets ID]</td> 
+   <td> Voor elk element dat u aan een verzameling wilt toevoegen, klikt u op <strong>[!UICONTROL Assets ID]</strong> en voert u de id van het element in of wijst u deze toe.</p> </li> 
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal activa in u de module wilt werken met tijdens elke cyclus van de scenariouitvoering.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 #### [!UICONTROL Custom API Call]
 
@@ -190,6 +224,25 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
+#### [!UICONTROL Download File]
+
+Deze actiemodule downloadt een middel van uw [!DNL Widen] account.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Asset ID]</td> 
+   <td> <p>Voer de id in van het element dat u wilt downloaden of wijs deze toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
 #### [!UICONTROL Read asset info]
 
 Deze actiemodule wint een individueel middel door zijn unieke identiteitskaart terug.
@@ -217,43 +270,6 @@ Deze actiemodule wint een individueel middel door zijn unieke identiteitskaart t
  </tbody> 
 </table>
 
-#### [!UICONTROL Add assets to collections]
-
-Deze actiemodule voegt een of meer elementen toe aan verzamelingen.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Collections ID]</td> 
-   <td> <p>Voor elke verzameling waaraan u de elementen wilt toevoegen:</p> 
-    <ol> 
-     <li value="1"> <p> Klik op <strong>[!UICONTROL Add]</strong>.</p> </li> 
-     <li value="2"> <p>Voer de [!UICONTROL Collection ID] in of wijs deze toe.</p> </li> 
-     <li value="3"> <p>Klik op <strong>[!UICONTROL Add item]</strong>.</p> </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Assets ID]</td> 
-   <td> <p>Voor elk element dat u aan een verzameling wilt toevoegen:</p> 
-    <ol> 
-     <li value="1"> <p> Klik op <strong>[!UICONTROL Add]</strong>.</p> </li> 
-     <li value="2"> <p>Voer de id van het element in of wijs deze toe.</p> </li> 
-     <li value="3"> <p>Klik op <strong>[!UICONTROL Add item]</strong>.</p> </li> 
-    </ol> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Ga of kaart het maximumaantal activa in u de module wilt werken met tijdens elke cyclus van de scenariouitvoering.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 #### [!UICONTROL Remove assets from collection]
 
 Deze actiemodule verwijdert een of meer elementen uit verzamelingen.
@@ -267,22 +283,15 @@ Deze actiemodule verwijdert een of meer elementen uit verzamelingen.
   <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
+  <tr> 
    <td role="rowheader">[!UICONTROL Collections ID]</td> 
-   <td> <p>Voor elke verzameling waarvan u de elementen wilt verwijderen:</p> 
-    <ol> 
-     <li value="1"> <p> Klik op <strong>[!UICONTROL Add]</strong>.</p> </li> 
-     <li value="2"> <p>Ga of kaart identiteitskaart van de Inzameling in.</p> </li> 
-     <li value="3"> <p>Klik op <strong>[!UICONTROL Add item]</strong>.</p> </li> 
-    </ol> </td> 
+   <td>Voor elke inzameling die u activa van wilt verwijderen, <strong> [identiteitskaart van Inzamelingen] </strong> klikken en [!UICONTROL Collection ID] ingaan of in kaart brengen.</li> 
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Assets-id</td> 
-   <td> <p>Voor elk element dat u uit een verzameling wilt verwijderen:</p> 
-    <ol> 
-     <li value="1"> <p> Klik op <strong>[!UICONTROL Add]</strong>.</p> </li> 
-     <li value="2"> <p>Voer de id van het element in of wijs deze toe.</p> </li> 
-     <li value="3"> <p>Klik op <strong>[!UICONTROL Add item]</strong>.</p> </li> 
-    </ol> </td> 
+   <td role="rowheader">[!UICONTROL Assets ID]</td> 
+   <td> Voor elk element dat u uit een verzameling wilt verwijderen, klikt u op <strong>[!UICONTROL Assets ID]</strong> en voert u de id van het element in of wijst u deze toe.</p> </li> 
+   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
@@ -318,25 +327,6 @@ In deze actiemodule worden de metagegevensvelden van een element bijgewerkt.
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
    <td> <p>Ga of kaart het maximumaantal activa in u de module wilt werken met tijdens elke cyclus van de scenariouitvoering.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Download File]
-
-Deze actiemodule downloadt een middel van uw [!DNL Widen] account.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Asset ID]</td> 
-   <td> <p>Voer de id in van het element dat u wilt downloaden of wijs deze toe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -458,7 +448,7 @@ Deze zoekmodule haalt een lijst op met elementen die voldoen aan de specifieke z
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search document text]</td> 
-   <td>Schakel deze optie in om documenttekst in de zoekopdracht op te nemen, of false om alleen elementen op te nemen waarvoor de titel overeenkomt met de zoekcriteria.</td> 
+   <td>Schakel deze optie in om documenttekst in uw zoekopdracht op te nemen of ingesteld op false om alleen elementen op te nemen waarvoor de titel overeenkomt met de zoekcriteria.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
