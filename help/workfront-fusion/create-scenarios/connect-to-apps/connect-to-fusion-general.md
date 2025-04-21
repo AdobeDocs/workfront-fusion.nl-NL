@@ -4,9 +4,9 @@ description: Vele  [!DNL Adobe Workfront Fusion]  schakelaars vereisen geen doua
 author: Becky
 feature: Workfront Fusion
 exl-id: e47ab4d9-6612-4d9a-a024-da508a8bbfb2
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 6aec65919e79a9e9d950a11de53bfbb1051ca20b
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '521'
 ht-degree: 0%
 
 ---
@@ -68,15 +68,17 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 ## Verbinding maken
 
+Als u een verbinding met een bepaalde toepassing wilt maken, moet u zich in een module voor die toepassing bevinden. Als u bijvoorbeeld een verbinding met Workfront wilt maken, moet u zich in een Workfront-module bevinden.
+
 Een verbinding maken binnen een module [!DNL Workfront Fusion] :
 
-1. Klik op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] om het deelvenster **[!UICONTROL Create a connection]** te openen.
+1. Klik in een willekeurige module voor de opgegeven toepassing op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] om het deelvenster **[!UICONTROL Create a connection]** te openen.
 1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]** .
-1. Selecteer op het gebied van milieu of dit een productie- of niet-productieomgeving is. Deze informatie wordt weergegeven in het gebied Verbindingen van Fusion.
-1. Selecteer in het veld Type of dit een service of een persoonlijke account is. Deze informatie wordt weergegeven in het gebied Verbindingen van Fusion.
+1. Selecteer op het gebied van milieu of dit een productie- of niet-productieomgeving is.
+1. Selecteer in het veld Type of dit een service of een persoonlijke account is.
 1. (Voorwaardelijk) Als de toepassing geavanceerde verbindingsinstellingen nodig heeft, zoals een id, sleutel of [!UICONTROL secret] , voert u die gegevens in.
 
-   Mogelijk moet u op **[!UICONTROL Show advanced settings]** klikken om de velden weer te geven waarin u dit soort informatie kunt invoeren.
+   U moet mogelijk op **[!UICONTROL Show advanced settings]** klikken om de velden weer te geven waarin u dit soort informatie kunt invoeren.
 
 1. Klik op **[!UICONTROL Continue]**.
 1. Voer in het aanmeldingsvenster dat wordt weergegeven uw aanmeldingsgegevens in om u aan te melden bij de app als u dat nog niet hebt gedaan.
@@ -84,6 +86,7 @@ Een verbinding maken binnen een module [!DNL Workfront Fusion] :
 
    >[!NOTE]
    >
-   >Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
+   >* De velden Omgeving en Type dienen alleen ter informatie en hebben geen invloed op de functionaliteit van de verbinding. Deze informatie wordt weergegeven in het gebied Verbindingen van Fusion, zodat u kunt bepalen welke verbinding voor een bepaald gebruiksgeval in uw organisatie moet worden gebruikt.
+   >* Sommige Microsoft-toepassingen gebruiken dezelfde verbinding, die is gekoppeld aan individuele gebruikersmachtigingen. Daarom bij het creëren van een verbinding, toont het scherm van de toestemmingstoestemming om het even welke toestemmingen die eerder aan de verbinding van deze gebruiker werden verleend, naast om het even welke nieuwe toestemmingen nodig voor de huidige toepassing.
    >
-   >Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.
+   >   Bijvoorbeeld, als een gebruiker &quot;Gelezen lijst&quot;toestemmingen heeft die via de schakelaar van Excel worden verleend en dan een verbinding in de schakelaar van Vooruitzichten creeert om e-mails te lezen, zal het scherm van de toestemmingstoestemming zowel de reeds verleende &quot;Gelezen lijst&quot;toestemming en de onlangs vereiste &quot;Schrijf e-mail&quot;toestemming tonen.

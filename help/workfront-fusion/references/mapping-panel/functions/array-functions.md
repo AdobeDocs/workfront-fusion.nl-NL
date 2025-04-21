@@ -4,9 +4,9 @@ description: De volgende arrayfuncties zijn beschikbaar in het Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: 16c3915c-add1-4aab-a0e1-75fc590c42a6
-source-git-commit: 2c732659f3f3e81e13b7b12a5df5bde19c0e0928
+source-git-commit: d141738a7e013ed817cb657b883fc5e1061e2165
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '556'
 ht-degree: 0%
 
 ---
@@ -138,6 +138,39 @@ Verwijdert duplicaten binnen een array van contactpersonen door de eigenschap &q
 >[!ENDSHADEBOX]
 
 ## toCollection
+
+* Deze functie neemt een serie die zeer belangrijk-waardeparen bevat en zet het in een inzameling om. De functie heeft drie argumenten:
+
+* (array) met sleutelwaardeparen
+* (tekenreeks) de naam van het veld dat als sleutel moet worden gebruikt
+* (tekenreeks) de naam van het veld dat als waarde moet worden gebruikt
+
+>[!BEGINSHADEBOX]
+
+Voorbeeld:
+
+Bij een array:
+
+```
+[{"name":"Bob", "age":22}, {"name":"Tim", "age":23}]
+```
+
+en argumenten
+
+```
+{{toCollection(6.array; "name"; "age")}}
+```
+
+de functie retourneert
+
+```
+{
+    "Bob": 22,
+    "Tim": 23
+}
+```
+
+>[!ENDSHADEBOX]
 
 ## toArray
 
