@@ -4,7 +4,7 @@ description: De volgende datum- en tijdfuncties zijn beschikbaar in het Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 9249223c6fbe0360b11d41988fe8b9c35e45dbb8
 workflow-type: tm+mt
 source-wordcount: '1800'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u [!UICON
 
   Keert 2015-10-07T11 :36: 10.138Z terug
 
-* `setSecond(2015-10-07T11:36:39.138Z; 6)`
+* `setSecond(2015-10-07T11:36:39.138Z; 61)`
 
   Keert 2015-10-07T11 :37: 01.138Z terug
 
