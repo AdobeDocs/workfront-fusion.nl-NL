@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion]  modules van HubSpot CRM laten u 
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 0e4986d0d66b98213efabd487e6701f8385161e3
 workflow-type: tm+mt
-source-wordcount: '5530'
+source-wordcount: '6324'
 ht-degree: 0%
 
 ---
@@ -118,9 +118,6 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### CRM-objecten
 
-<!--* [Search for CRM objects](#search-for-crm-objects)
-* [Watch CRM objects](#watch-crm-objects)-->
-
 +++ **[!UICONTROL Search for CRM Objects]**
 
 Deze zoekmodule zoekt naar CRM-objecten op aangepaste eigenschappen of op query. Als u naar producten of lijnitems wilt zoeken, gebruikt u een speciale verbinding met een vereist aangepast bereik.
@@ -208,15 +205,6 @@ Deze activeringsmodule start een scenario wanneer een CRM-object wordt gemaakt o
 +++
 
 ### Records (Deals, Contacten, en Bedrijven)
-
-<!--* [Create a Record](#create-a-record)
-* [[!UICONTROL Create a Record (Legacy)]](#create-a-record-legacy)
-* [[!UICONTROL Delete a Record]](#delete-a-record)
-* [[!UICONTROL Get a Record]](#get-a-record)
-* [[!UICONTROL Get a Record Property]](#get-a-record-property)
-* [List Records](#list-records)
-* [[!UICONTROL Update a Record]](#update-a-record)
-* [[!UICONTROL Watch Records]](#watch-records)-->
 
 +++ **creeer een verslag**
 
@@ -464,17 +452,6 @@ Deze trekkermodule begint een scenario wanneer een contact, bedrijf, of overeenk
 +++
 
 ### Contactpersonen
-
-<!--* [[!UICONTROL Add Contacts to a List]](#add-contacts-to-a-list)
-* [Create/Update a contact](#createupdate-a-contact)
-* [[!UICONTROL Create/Update a Contact (Legacy)]](#createupdate-a-contact-legacy)
-* [[!UICONTROL Create/Update a Group of Contacts]](#createupdate-a-group-of-contacts)
-* [[!UICONTROL List Contacts]](#list-contacts)
-* [[!UICONTROL List Contacts of a Company]](#list-contacts-of-a-company)
-* [[!UICONTROL Merge contacts]](#merge-contacts)
-* [[!UICONTROL Remove a Contact from a List]](#remove-a-contact-from-a-list)
-* [[!UICONTROL Search for Contacts]](#search-for-contacts)
-* [Watch Contacts Added to a List](#watch-contacts-added-to-a-list)-->
 
 +++ **[!UICONTROL Add Contacts to a List]**
 
@@ -744,9 +721,6 @@ Deze trekkermodule begint een scenario wanneer een nieuw contact aan een lijst w
 
 ### Overeenkomsten
 
-<!--* [[!UICONTROL Get a Deal's CRM Pipeline]](#get-a-deals-crm-pipeline)
-* [[!UICONTROL List Deal/Ticket Pipelines]](#list-dealticket-pipelines)-->
-
 +++ **[!UICONTROL Get a Deal's CRM Pipeline]**
 
 Keert een specifieke overeenkomstenpijpleiding terug.
@@ -825,11 +799,6 @@ Haalt een lijst op van bedrijven die op een nauwkeurige gelijke met het domeinbe
 +++
 
 ### Engages
-
-<!--* [Associate an Engagement with a CRM object](#associate-an-engagement-with-a-crm-object)
-* [Create an Engagement](#create-an-engagement)
-* [Delete an Engagement](#delete-an-engagement)
-* [Watch Engagements](#watch-engagements)-->
 
 +++ **associeer een Betrokkenheid met een voorwerp van CRM**
 
@@ -1117,11 +1086,6 @@ Deze triggermodule start een scenario wanneer een nieuwe betrokkenheid wordt gem
 
 ### Gebeurtenissen en meldingen
 
-<!--* [Create / Update a Timeline Event](#create--update-a-timeline-event)
-* [List Timeline Event Types](#list-timeline-event-types)
-* [Watch Calendar Events](#watch-calendar-events)
-* [Watch Notifications](#watch-notifications)-->
-
 +++ **creeer/werk een Gebeurtenis van de Chronologie bij**
 
 In deze actiemodule wordt een tijdlijngebeurtenis gemaakt of bijgewerkt. Deze module kan slechts met een ontwikkelaarverbinding worden gebruikt die uw gebruikersherkenningsteken, uw sleutel van HubSpot API, identiteitskaart van de Cliënt, en Geheim van de Cliënt omvat.
@@ -1253,14 +1217,6 @@ Om een webhaak voor deze module tot stand te brengen, **voeg** naast het WebHaak
 +++
 
 ### Bestanden
-
-<!--* [[!UICONTROL Create a Folder]](#create-a-folder)
-* [Delete a File](#delete-a-file)
-* [[!UICONTROL Delete a Folder]](#delete-a-folder)
-* [List Files](#list-files)
-* [[!UICONTROL Move a File]](#move-a-file)
-* [Upload a file](#upload-a-file)
-* [Watch files](#watch-files)-->
 
 +++ **[!UICONTROL Create a Folder]**
 
@@ -1451,10 +1407,6 @@ Deze triggermodule start een scenario wanneer een nieuw bestand wordt opgeslagen
 
 ### Taken
 
-<!--* [Create a Calendar Task](#create-a-calendar-task)
-* [Delete a Calendar Task](#create-a-calendar-task)
-* [Watch Task Events](#watch-task-events)-->
-
 +++ **creeer een taak van de Kalender**
 
 Deze actiemodule maakt een nieuwe taak voor een kalender. De verbinding die in deze module wordt gebruikt moet de geloofsbrieven van een gebruiker met een betaalde rekening van de Marketing gebruiken.
@@ -1552,9 +1504,6 @@ Deze triggermodule start een scenario wanneer er een nieuwe taakgebeurtenis in e
 
 ### Gebruikers
 
-<!--* [Get an Owner](#get-an-owner)
-* [List Owners](#list-owners)-->
-
 +++ **krijgt een Eigenaar**
 
 Deze actiemodule retourneert details van een eigenaar.
@@ -1595,13 +1544,6 @@ Deze onderzoeksmodule keert een lijst van alle eigenaars in een rekening HubSpot
 
 ### Tickets
 
-<!--* [Create a Ticket]-->
-<!--* [Delete a Ticket](#delete-a-ticket)-->
-<!--* [Create a Ticket]-->
-<!--* [Create a Ticket]-->
-<!--* [Create a Ticket]-->
-<!--* [Create a Ticket]-->
-
 <!-- Create a Ticket Need to find a working connection-->
 
 +++ **[!UICONTROL Delete a Ticket]**
@@ -1634,11 +1576,6 @@ Verwijdert een bestaand ticket met zijn id.
 <!-- Watch Tickets Need to find a working connection-->
 
 ### Forms
-
-<!--* [Get a File Uploaded via Form](#get-a-file-uploaded-via-form)
-* [List Forms](#list-forms)-->
-<!--* [Submit Data to a Form]-->
-<!--* [Watch Submissions for a Form]-->
 
 +++ **krijg een Dossier dat via Vorm** wordt geupload
 
@@ -1689,10 +1626,6 @@ Deze actiemodule retourneert alle formulieren die zijn gemaakt in de account die
 &lt;!—#### Controle verzenden voor een formulier—U moet een werkende verbinding zoeken>—>
 
 ### Sociale media (uitzending)
-
-<!--* [Cancel a Broadcast Message](#cancel-a-broadcast-message)
-* [Create a Broadcast Message](#create-a-broadcast-message)
-* [Watch Broadcast Messages](#watch-broadcast-messages)-->
 
 +++ **annuleert een Bericht van de Uitzending**
 
@@ -1791,16 +1724,90 @@ Deze trekkermodule begint een scenario wanneer een bericht van HubSpot aan het g
 
 ### Blogberichten
 
-<!--* [Create a Blog Post]-->
-<!--* [Delete a Blog Post](#delete-a-blog-post)-->
-<!--* [List Blog Posts]-->
-&lt;!—* [ publiceert/publiceert een Blogpost ](#publish--unpublish-a-blog-post)—>
-<!--* [Watch Blog Posts]-->
++++ **creeer een Blogpost**
 
-<!--
-#### Create a Blog Post May need connection
--->
+Met deze actiemodule maakt u een nieuw blogbericht.
 
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL HubSpot CRM] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Naam</td> 
+   <td>Voer de titel van het bericht in of wijs deze toe (de interne naam van het bericht).</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Postbus</td> 
+   <td>Voer de hoofdtekst van de advertentie in of wijs deze toe in HTML-indeling.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Samenvatting bericht</td> 
+   <td>Voer een samenvatting van de advertentie in of wijs deze toe. Deze samenvatting wordt weergegeven op de pagina met hoofdaanbiedingen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Blogauteur-id</td> 
+   <td>Voer de id in van de auteur die aan het bericht is gekoppeld of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Inhoudsgroep-id</td> 
+   <td>Voer de id in van de blog waartoe dit bericht behoort of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Voettekst HTML</td> 
+   <td>Typ of wijs de HTML voor insluitcodes of het JavaScript-veld toe die vóór de tag van de pagina moet worden geplaatst.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Head HTML</td> 
+   <td>Voer de HTML in of wijs deze toe voor insluitcodes of voor JavaScript-code die bovenaan moet worden geplaatst.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Campagne-id</td> 
+   <td>Voer de id in van de campagne waaraan dit bericht is gekoppeld of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Aanbevolen afbeelding</td> 
+   <td>Voer de URL in van de afbeelding die in deze advertentie wordt gebruikt als de aanbevolen afbeelding of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Trefwoord</td> 
+   <td>Voor elk sleutelwoord dat u aan deze post wilt toevoegen, <b> klik toevoegen punt </b> en ga het sleutelwoord en sleutelwoord GUID in.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Meta-beschrijving</td> 
+   <td>Voer de tekst voor de tag <code>meta</code> op de pagina in of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Publicatiedatum</td> 
+   <td>Voer de datum in waarop het blogbericht moet worden gepubliceerd of wijs de datum toe. <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Naam</td> 
+   <td>Schakel deze optie in om het blogbericht direct te publiceren wanneer het wordt gemaakt. Als deze optie is ingesteld op Ja, wordt het veld Datum publiceren genegeerd.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Witruimte</td> 
+   <td>Voer de witruimte voor de post in of wijs deze toe. De witruimte wordt aan het einde van het domein toegevoegd om de URL voor het blogbericht te vormen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Onderwerp-id's</td> 
+   <td>Voor elk onderwerp dat u aan de post wilt toevoegen, klik <b> toevoegen punt </b> en ga onderwerpidentiteitskaart in.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Aanbevolen afbeelding gebruiken</td> 
+   <td>Schakel deze optie in als u de getoonde afbeelding voor het blogbericht wilt gebruiken.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Widgets</td> 
+   <td>Voer een gegevensstructuur in of wijs een gegevensstructuur toe met de datum voor alle modules voor dit blogbericht. Dit verwijst naar de modules van de blogpost, niet naar Fusion modules.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
 
 +++ **Schrap een Blogpost**
 
@@ -1823,9 +1830,70 @@ Met deze actiemodule verwijdert u één blogbericht.
 
 +++
 
-<!--#### List Blog Posts May need connection
++++ **Blogberichten van de Lijst**
 
-This search module retrieves posts from a HubSpot blog.-->
+Deze onderzoeksmodule wint posten van een blog HubSpot terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL HubSpot CRM] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limiet</td> 
+   <td>Voer het maximumaantal blogberichten dat u in één uitvoeringscyclus wilt retourneren in of wijs dit aantal toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Gearchiveerd</td> 
+   <td>Schakel deze optie in om gearchiveerde berichten op te nemen in uw resultaten.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Blogauteur-id</td> 
+   <td>Voer de id van een auteur in of wijs deze toe om berichten te retourneren die aan die auteur zijn gekoppeld.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Campagne-id</td> 
+   <td>Voer de id van een campagne in of wijs deze toe om berichten die bij die campagne horen, te retourneren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Inhoudsgroep-id</td> 
+   <td>Voer de id van een blog in of wijs deze toe om berichten te retourneren die aan die blog zijn gekoppeld.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Naam</td> 
+   <td>Voer een postnaam in om alleen berichten met die naam te retourneren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filteren op gemaakt</td> 
+   <td>Selecteer Filter om posten te retourneren op basis van de gemaakte tijdwaarde.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filteren op bijgewerkt</td> 
+   <td>Selecteer Filter om posten te retourneren op basis van de bijgewerkte tijdwaarde.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filteren op verwijderde</td> 
+   <td>Selecteer Filter om posten te retourneren op basis van de verwijderde tijdwaarde.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Witruimte</td> 
+   <td>Voer een witruimte in of wijs een witruimte toe aan de geretourneerde posten die overeenkomen met de witruimte. De witruimte wordt aan het einde van het domein toegevoegd om de URL voor het blogbericht te vormen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Staat</td> 
+   <td>Selecteer een staat (Ontwerp, Gepubliceerd, of Gepland) om slechts resultaten in die staat op te nemen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Bestel op publicatiedatum</td> 
+   <td>Selecteer of de resultaten op publicatiedatum oplopend of aflopend moeten worden gesorteerd.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
 
 +++ **publiceer/unpublish een Blogbericht**
 
@@ -1852,7 +1920,70 @@ Deze actiemodule plant of annuleert het publiceren van een blogbericht.
 
 +++
 
-<!--#### Watch Blog PostsMay need connection-->
++++ **Blogberichten van het Controle**
+
+Deze triggermodule start een scenario wanneer een blogbericht dat voldoet aan de criteria die u instelt, wordt gemaakt, bijgewerkt of verwijderd.
+
+
+
+Deze onderzoeksmodule wint posten van een blog HubSpot terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL HubSpot CRM] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Limiet</td> 
+   <td>Voer het maximumaantal blogberichten dat u in één uitvoeringscyclus wilt retourneren in of wijs dit aantal toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Gearchiveerd</td> 
+   <td>Schakel deze optie in om gearchiveerde berichten op te nemen in uw resultaten.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Blogauteur-id</td> 
+   <td>Voer de id van een auteur in of wijs deze toe om berichten te retourneren die aan die auteur zijn gekoppeld.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Campagne-id</td> 
+   <td>Voer de id van een campagne in of wijs deze toe om berichten die bij die campagne horen, te retourneren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Inhoudsgroep-id</td> 
+   <td>Voer de id van een blog in of wijs deze toe om berichten te retourneren die aan die blog zijn gekoppeld.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Naam</td> 
+   <td>Voer een postnaam in om alleen berichten met die naam te retourneren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filteren op gemaakt</td> 
+   <td>Selecteer Filter om posten te retourneren op basis van de gemaakte tijdwaarde.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filteren op bijgewerkt</td> 
+   <td>Selecteer Filter om posten te retourneren op basis van de bijgewerkte tijdwaarde.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Filteren op verwijderde</td> 
+   <td>Selecteer Filter om posten te retourneren op basis van de verwijderde tijdwaarde.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Witruimte</td> 
+   <td>Voer een witruimte in of wijs een witruimte toe aan de geretourneerde posten die overeenkomen met de witruimte. De witruimte wordt aan het einde van het domein toegevoegd om de URL voor het blogbericht te vormen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Staat</td> 
+   <td>Selecteer een staat (Ontwerp, Gepubliceerd, of Gepland) om slechts resultaten in die staat op te nemen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
++++
 
 <!--+++**Workflows**>
 
@@ -1868,9 +1999,6 @@ Deze actiemodule plant of annuleert het publiceren van een blogbericht.
 <!--+++-->
 
 ### Abonnementen
-
-<!--* [Update Email Subscription](#update-email-subscription)
-* [Watch Subscriptions Timeline for a Portal](#watch-subscriptions-timeline-for-a-portal)-->
 
 +++ **Update E-mailabonnement**
 
