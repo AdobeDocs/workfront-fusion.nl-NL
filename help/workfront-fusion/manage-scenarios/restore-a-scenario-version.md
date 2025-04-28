@@ -1,19 +1,19 @@
 ---
-title: Een versie van een scenario herstellen
-description: U kunt een vorige versie van een scenario herstellen. Op deze manier kunt u wijzigingen aanbrengen in een scenario en deze wijzigingen eenvoudig herstellen als u de vorige functionaliteit wilt herstellen.
+title: De mening en beheert manuscriptversies
+description: U kunt blauwdrukken voor vorige versies van een scenario weergeven, herstellen, hernoemen of downloaden.
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
+source-git-commit: 2270b386bbf62cfc3b82bd4f9c293b36d3b7a35a
 workflow-type: tm+mt
-source-wordcount: '295'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # De mening en beheert manuscriptversies
 
-U kunt vorige versies van een scenario weergeven, herstellen of hernoemen.
+U kunt blauwdrukken voor vorige versies van een scenario weergeven, herstellen, hernoemen of downloaden.
 
 ## Toegangsvereisten
 
