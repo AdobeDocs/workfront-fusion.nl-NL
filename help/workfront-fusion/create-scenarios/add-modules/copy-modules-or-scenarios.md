@@ -4,9 +4,9 @@ description: U kunt modules, groepen modules, of volledige scenario's in de Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: 5cece7d4-b2c7-4276-8a6f-f65bad799c7a
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '865'
 ht-degree: 0%
 
 ---
@@ -126,6 +126,10 @@ Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts be
 1. Klik op **[!UICONTROL Export Blueprint]**.
 
    Er wordt een JSON-bestand gemaakt en gedownload naar de computer. U kunt dit bestand zoeken in de map [!DNL Downloads] .
+
+>[!NOTE]
+>
+>Om de blauwdruk voor een vorige versie van een scenario uit te voeren, zie [ Mening en beheer scenario versies ](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
 
 ### Een blauwdruk importeren
 

@@ -4,9 +4,9 @@ description: U kunt een vorige versie van een scenario herstellen. Op deze manie
 author: Becky
 feature: Workfront Fusion
 exl-id: e7fd0351-b840-422c-b861-82ae110c703b
-source-git-commit: 18bbd77630eafac0cb293c3a6f658a74b622bdae
+source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,8 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 1. (Facultatief) om de versie anders te noemen, klik het Meer menu ![ Meer menu ](assets/more-icon-vertical.png) op de lijn voor die versie, uitgezocht **geeft** uit, en gaat een naam in het gebied in. Klik **sparen** om de nieuwe naam te bewaren.
 
    We raden u aan een naam te geven die de wijzigingen beschrijft die voor deze versie zijn aangebracht.
-1. (Optioneel) Om de versie te herstellen, klikt u op Meer menu ![ ](assets/more-icon-vertical.png) op de regel voor die versie
+1. (Facultatief) om de blauwdruk voor een vorige versie te downloaden, klik het Meer menu ![ Meer menu ](assets/more-icon-vertical.png) op de lijn voor die versie, dan uitgezochte **Download**.
+1. (Facultatief) om de versie te herstellen, **herstel** op de lijn voor die versie
 
 
    >[!NOTE]

@@ -4,9 +4,9 @@ description: Dit artikel beschrijft het basisproces om een module aan een scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: f3757468-3e11-4862-a83e-ed447805545b
-source-git-commit: 55fe4bc46bc50ad9ccfd1b234e89028cf3cd12d5
+source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '615'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,6 @@ Voor meer informatie over trekkermodules, zie [ modules van de Trekker ](/help/w
 ## Een andere module aan een scenario toevoegen
 
 1. Als u zich niet in de scenario-editor bevindt van het scenario waarin u een module wilt toevoegen, klikt u op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
-1. Selecteer het scenario waarin u een blauwdruk wilt exporteren.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
 1. Om een module aan een andere module toe te voegen, houd over het juiste handvat van de module waardaarna u een module wilt toevoegen, dan klik **een andere module** toevoegen wanneer het verschijnt.
 
@@ -99,7 +98,6 @@ Voor meer informatie over trekkermodules, zie [ modules van de Trekker ](/help/w
 ## Voeg een module tussen bestaande modules in een scenario in
 
 1. Als u zich niet in de scenario-editor bevindt van het scenario waarin u een module wilt toevoegen, klikt u op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
-1. Selecteer het scenario waarin u een blauwdruk wilt exporteren.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
 1. Klik op het stippelpad tussen de modules waarin u een module wilt invoegen.
 1. In het menu dat verschijnt, voegt de uitgezochte **een module** toe.
