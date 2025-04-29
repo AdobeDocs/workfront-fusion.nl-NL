@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 9e741dce-05a6-4e13-8d58-fbe3b4900d7e
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: f02c4df01c7fad6bb9cdf4911512eef97e71c82b
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
@@ -19,6 +19,8 @@ Voor instructies bij het creëren van een scenario, zie de artikelen onder [ sce
 
 ## Toegangsvereisten
 
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
 U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
@@ -26,35 +28,37 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -92,6 +96,9 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
+* [Triggers](#triggers)
+* [Handelingen](#actions)
+
 ### Triggers
 
 * [[!UICONTROL New event]](#new-event)
@@ -125,7 +132,13 @@ Deze triggermodule start een scenario wanneer een nieuw bestand wordt toegevoegd
  <col> 
  <tbody> 
   <tr> 
+   <td role="rowheader">Verbinding</td> 
    <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">Map</td> 
+   <td> <p>Selecteer de map die u wilt controleren. Een scenario kan op één enkele omslag letten.</p> 
+   </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Controle</td> 
    <td> <p>Selecteer het type bestanden dat u wilt bekijken.</p> 
@@ -143,20 +156,14 @@ Deze triggermodule start een scenario wanneer een nieuw bestand wordt toegevoegd
 
 ### Handelingen
 
-* [[!UICONTROL Upload] een bestand](#upload-a-file)
-* [[!UICONTROL Update a file]](#update-a-file)
 * [[!UICONTROL Delete a file]](#delete-a-file)
 * [[!UICONTROL Get a file]](#get-a-file)
+* [[!UICONTROL Update a file]](#update-a-file)
+* [[!UICONTROL Upload] een bestand](#upload-a-file)
 
-#### [!UICONTROL Upload a file]
+#### [!UICONTROL Delete a file]
 
-Deze actiemodule uploadt een bestand.
-
-U geeft het bestand op. U kunt ook een nieuwe bestandsnaam voor het bestand opgeven.
-
-De module retourneert de id van het bestand en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
+Met deze actiemodule verwijdert u een bestand.
 
 <table style="table-layout:auto">
  <col> 
@@ -165,6 +172,78 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
    <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td>Voer de unieke id in van het bestand dat u wilt verwijderen of wijs deze toe.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Get a file]
+
+Deze actiemodule downloadt een bestand.
+
+U geeft de id van het bestand op.
+
+>[!NOTE]
+>
+>Deze module is nuttig om dossiers aan verdere modules te verstrekken.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td>Ga of kaart unieke identiteitskaart van het dossier in dat u de module wilt terugwinnen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Update a file]
+
+Deze actiemodule werkt een bestand bij.
+
+U geeft de id van het bestand op.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File ID]</td> 
+   <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Upload a file]
+
+Deze actiemodule uploadt een bestand.
+
+U geeft het bestand op. U kunt ook een nieuwe bestandsnaam voor het bestand opgeven.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td> <p>Selecteer de map waarin u het bestand wilt uploaden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -179,103 +258,3 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 >
 >* De grootte van het bestand kan de maximale bestandsgroottelimiet voor uw [!DNL Box] -abonnement overschrijden, of u hebt de volledige opslaglimiet van uw [!DNL Box] -account gebruikt. Als u meer opslagruimte wilt, verwijdert u bestaande bestanden uit [!DNL Box] of werkt u een upgrade uit op uw [!DNL Box] -account.
 >* [!DNL Box] uploadt niet meer dan één bestand met dezelfde naam naar één map. Als de doelmap een bestand bevat met dezelfde naam als het bestand dat wordt geüpload, wordt de uitvoering van het scenario afgesloten met een fout. U kunt dit voorkomen door de naam van het bestand te wijzigen. Gebruik de module **[!UICONTROL Update a file]** als u het bestand wilt bijwerken.
-
-#### [!UICONTROL Update a file]
-
-Deze actiemodule werkt een bestand bij.
-
-U geeft de id van het bestand op.
-
-De module retourneert de id van het bestand en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Delete a file]
-
-Met deze actiemodule verwijdert u een bestand.
-
-U geeft de id van het bestand op.
-
-De module retourneert de id van het bestand en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-#### [!UICONTROL Get a file]
-
-Deze actiemodule downloadt een bestand.
-
-U geeft de id van het bestand op.
-
-De module retourneert de id van het bestand en de bijbehorende velden, samen met aangepaste velden en waarden die door de verbinding worden geopend. U kunt deze informatie in verdere modules in het scenario in kaart brengen.
-
->[!NOTE]
->
->Deze module is nuttig om dossiers aan verdere modules te verstrekken.
-
-Als u deze module configureert, worden de volgende velden weergegeven.
-
-<table style="table-layout:auto">
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 
-  </tr> 
- </tbody> 
-</table>
-
-<!--
-<h2>Possible problems</h2>
-
-<p style="color: #ff1493;">This is drafted out because we don't have a download module for Box yet</p>
-
-
-<h3>Watch files trigger module doesn't download a file contained in the folder.</h3>
-
-<p>There are several situations when downloading a file fails:</p>
-
-
-
-  <li>The current file lock setting does not allow the file to be downloaded or the downloading of the file is disabled. In this case, the file is ignored.</li>
-
-
-
-  <li>When the scenario started, the file was being uploaded to the server and was not ready to be downloaded. The scenario run gets stopped and Workfront Fusion tries downloading the file again during the next execution of the scenario.</li>
-  
--->
