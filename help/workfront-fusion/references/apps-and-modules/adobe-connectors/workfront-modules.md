@@ -4,9 +4,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: 7287e0460318cf5328e703af7ecc948b1ce62257
+source-git-commit: 6fa7ab493112351d9480b21b23b3b6b7b14f2230
 workflow-type: tm+mt
-source-wordcount: '7264'
+source-wordcount: '7292'
 ht-degree: 0%
 
 ---
@@ -973,7 +973,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Attach Custom Form]</td> 
-   <td>Selecteer de aangepaste formulieren die u aan de nieuwe record wilt toevoegen. Nadat u het formulier hebt geselecteerd, voert u de gegevens in voor de velden op dat formulier.</td> 
+   <td>Selecteer de aangepaste formulieren waarvoor u veldwaarden voor de nieuwe record wilt opgeven. Nadat u het formulier hebt geselecteerd, voert u de gegevens in voor de velden op dat formulier.<p> Als u veldwaarden wilt opgeven voor een formulier dat u in deze module bijvoegt, neemt u de aangepaste formulier-id op in de velden voor de sectie Toewijzing.</td> 
   </tr> 
  </tbody> 
 </table>
