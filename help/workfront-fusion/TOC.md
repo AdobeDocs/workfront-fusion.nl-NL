@@ -2,9 +2,9 @@
 user-guide-title: Documentatie voor Adobe Workfront Fusion
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: Gebruik de documenten, tutorials en aanvullende bronnen om te leren hoe u Adobe Workfront Fusion in uw organisatie kunt implementeren en effectief kunt gebruiken.
-source-git-commit: a23517da30b4e51ef55bcc13241a03cd1d6153a0
+source-git-commit: 6ebfd07e24f77bd8c162d53554ddf1fcaefafeb8
 workflow-type: tm+mt
-source-wordcount: '1707'
+source-wordcount: '1714'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,7 @@ ht-degree: 1%
 * Fusion-releaseactiviteit {#fusion-release-activity}
    * [Adobe Workfront Fusion-releaseactiviteit](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion-releases - 2025 {#fusion-releases-2025}
+      * [Workfront Fusion release activity: Week van 21 april 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-4-21.md)
       * [Workfront Fusion release activity: Week van 14 april 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-4-14.md)
       * [Workfront Fusion release activity: Week van 31 maart 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-31.md)
       * [Workfront Fusion releaseactiviteit: week van 10 maart 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-10.md)
@@ -163,7 +164,7 @@ ht-degree: 1%
       * [Sjablonen beheren](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/manage-templates-toc.md)
       * [Sjablonen goedkeuren of afwijzen](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/approve-templates.md)
       * [Sjablonen bewerken](/help/workfront-fusion/set-up-and-manage-workfront-fusion/manage-templates/edit-templates.md)
-* Concepten maken {#create-scenarios}
+* Scènes maken {#create-scenarios}
    * [Scènes maken](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)
    * Een scenario plannen {#plan-a-scenario}
       * [Een scenario plannen: artikelindex](/help/workfront-fusion/create-scenarios/plan-a-scenario/plan-a-scenario-toc.md)
@@ -182,7 +183,7 @@ ht-degree: 1%
       * [Voeg een module van de Router toe en vorm routes](/help/workfront-fusion/create-scenarios/add-modules/router-module.md)
       * [Een filter toevoegen aan een scenario](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md)
       * [Kiezen waar een triggermodule begint](/help/workfront-fusion/create-scenarios/add-modules/choose-where-trigger-module-starts.md)
-   * Gegevens toewijzen {#map-data}
+   * Kaartgegevens {#map-data}
       * [Kaartgegevens](/help/workfront-fusion/create-scenarios/map-data/map-data-toc.md)
       * [De informatie van de kaart van één module aan een andere](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md)
       * [Items toewijzen met behulp van functies](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md)
@@ -205,7 +206,7 @@ ht-degree: 1%
       * [Workaround-fout genereren](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
       * [Workaround foutafhandeling opnieuw configureren](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
       * [Fouten oplossen die worden verwerkt door de Break-richtlijn](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md)
-   * Instellingen voor scenario&#39;s configureren {#configure-scenario-settings}
+   * Scenario-instellingen configureren {#configure-scenario-settings}
       * [Scenario-instellingen configureren](/help/workfront-fusion/create-scenarios/config-scenarios-settings/config-scenario-settings-toc.md)
       * [Een scenario plannen](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)
       * [Scenario-instellingen configureren](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)
@@ -225,7 +226,7 @@ ht-degree: 1%
    * [AI Assistant in Workfront Fusion](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
    * [De Scenario-score-expert uitvoeren](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
    * [Elementen van scenario&#39;s verwijderen](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
-* Praktijkscenario&#39;s maken {#build-practice-scenarios}
+* Praktische scenario&#39;s maken {#build-practice-scenarios}
    * [Praktische scenario&#39;s maken](/help/workfront-fusion/build-practice-scenarios/build-practice-scenarios-toc.md)
    * [Een basisscenario maken](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md)
    * [Een triggermodule toevoegen aan een basisscenario](/help/workfront-fusion/build-practice-scenarios/add-trigger-to-basic-scenario.md)
@@ -246,7 +247,7 @@ ht-degree: 1%
       * [Verwijzingen naar licenties en rollen: artikelindex](/help/workfront-fusion/references/licenses-and-roles/licenses-and-roles-index.md)
       * [Toegangseisen in documentatie](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md)
       * [Organisatie- en teamrollen](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md)
-   * Scenario&#39;s {#scenarios}
+   * Scenarios {#scenarios}
       * [Scenarios](/help/workfront-fusion/references/scenarios/scenarios-toc.md)
       * [Garanties voor Fusieprestaties](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md)
       * [Uitvoeringsstroom van scenario](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md)
@@ -283,7 +284,7 @@ ht-degree: 1%
    * Verbindingen {#connections}
       * [Verbindingsverwijzing: artikelindex](/help/workfront-fusion/references/connections/connection-reference-toc.md)
       * [Verbindingsmetagegevens](/help/workfront-fusion/references/connections/connection-metadata.md)
-   * Apps en hun modules {#apps-and-their-modules}
+   * Apps en modules daarvan {#apps-and-their-modules}
       * [Apps en modules daarvan](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md)
       * Universele connectors {#universal-connectors}
          * [HTTP > module [!UICONTROL Make a request]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-a-request.md)
