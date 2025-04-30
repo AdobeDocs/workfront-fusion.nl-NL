@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 9e741dce-05a6-4e13-8d58-fbe3b4900d7e
-source-git-commit: f02c4df01c7fad6bb9cdf4911512eef97e71c82b
+source-git-commit: 0ed33cbed2b8ed4ab2c89c86b7e8f37b2683ec75
 workflow-type: tm+mt
-source-wordcount: '845'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -98,15 +98,17 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
+* [Zoekopdrachten](#searches)
 
 ### Triggers
 
-* [[!UICONTROL New event]](#new-event)
-* [[!UICONTROL Watch files]](#watch-files)
+* [[!UICONTROL New File Event]](#new-file-event)
+* [Nieuwe mapgebeurtenis](#new-folder-event)
+* [[!UICONTROL Watch Files]](#watch-files)
 
-#### [!UICONTROL New event]
+#### [!UICONTROL New File Event]
 
-Deze instant trigger-module start een scenario wanneer een bestand wordt toegevoegd, verplaatst, gekopieerd, verwijderd, vergrendeld of ontgrendeld.
+Deze instant triggermodule start een scenario wanneer een geselecteerde actie plaatsvindt op een bestand.
 
 <table style="table-layout:auto">
  <col> 
@@ -114,16 +116,27 @@ Deze instant trigger-module start een scenario wanneer een bestand wordt toegevo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td> <p>Selecteer de webhaak die u wilt gebruiken om uitgaande berichten te bekijken. Als u een webhaak wilt toevoegen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de naam en de verbinding van de webhaak in.</p> <p> Voor instructies over het verbinden van uw [!UICONTROL Box] rekening met [!UICONTROL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> verbinden met de dienst - Basisinstructies </a>.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Maximum number of returned events]</p> </td> 
-   <td> <p>Ga het hoogste aantal gebeurtenissen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+   <td> <p>Selecteer de webhaak die u wilt gebruiken om uitgaande berichten te bekijken of voeg een webhaak toe. </p><p>Als u een webhaak wilt toevoegen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de naam en de verbinding van de webhaak in, het bestand dat u wilt controleren en de triggers waarop u wilt letten.</p> <p> Voor instructies over het verbinden van uw [!UICONTROL Box] rekening met [!UICONTROL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> verbinden met de dienst - Basisinstructies </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Watch files]
+#### Nieuwe mapgebeurtenis
+
+Deze instant triggermodule start een scenario wanneer de selectieactie in de map plaatsvindt.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Webhook]</td> 
+   <td> <p>Selecteer de webhaak die u wilt gebruiken om uitgaande berichten te bekijken of voeg een webhaak toe. </p><p>Als u een webhaak wilt toevoegen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de naam en de verbinding van de webhaak in, de map die u wilt controleren en de triggers die u wilt controleren.</p> <p> Voor instructies over het verbinden van uw [!UICONTROL Box] rekening met [!UICONTROL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref"> verbinden met de dienst - Basisinstructies </a>.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### [!UICONTROL Watch Files]
 
 Deze triggermodule start een scenario wanneer een nieuw bestand wordt toegevoegd of een bestaand bestand wordt bijgewerkt in een map die wordt gecontroleerd.
 
@@ -135,7 +148,7 @@ Deze triggermodule start een scenario wanneer een nieuw bestand wordt toegevoegd
    <td role="rowheader">Verbinding</td> 
    <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
   <tr> 
-   <td role="rowheader">Map</td> 
+   <td role="rowheader">Controleren in map</td> 
    <td> <p>Selecteer de map die u wilt controleren. Een scenario kan op één enkele omslag letten.</p> 
    </td> 
   </tr> 
@@ -156,14 +169,19 @@ Deze triggermodule start een scenario wanneer een nieuw bestand wordt toegevoegd
 
 ### Handelingen
 
-* [[!UICONTROL Delete a file]](#delete-a-file)
+<!--* [[!UICONTROL Delete a file]](#delete-a-file)
 * [[!UICONTROL Get a file]](#get-a-file)
 * [[!UICONTROL Update a file]](#update-a-file)
-* [[!UICONTROL Upload] een bestand](#upload-a-file)
+* [[!UICONTROL Upload] a file](#upload-a-file)-->
+* [Een map maken](#create-a-folder)
+* [Een map ophalen](#get-a-folder)
+* [Metagegevens van map ophalen](#get-folder-metadata)
+* [Maak een API Vraag](#make-an-api-call)
+* [Metagegevens van map bijwerken](#update-folder-metadata)
 
-#### [!UICONTROL Delete a file]
+<!--#### [!UICONTROL Delete a file] 
 
-Met deze actiemodule verwijdert u een bestand.
+This action module deletes a file.
 
 <table style="table-layout:auto">
  <col> 
@@ -171,23 +189,23 @@ Met deze actiemodule verwijdert u een bestand.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Voer de unieke id in van het bestand dat u wilt verwijderen of wijs deze toe.</td> 
+   <td>Enter or map the unique ID of the file that you want the module to delete.</td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Get a file]
 
-Deze actiemodule downloadt een bestand.
+This action module downloads a file.
 
-U geeft de id van het bestand op.
+You specify the ID of the file.
 
 >[!NOTE]
 >
->Deze module is nuttig om dossiers aan verdere modules te verstrekken.
+>This module is useful for providing files to subsequent modules.
 
 <table style="table-layout:auto">
  <col> 
@@ -195,19 +213,19 @@ U geeft de id van het bestand op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Ga of kaart unieke identiteitskaart van het dossier in dat u de module wilt terugwinnen.</td> 
+   <td>Enter or map the unique ID of the file that you want the module to retrieve.</td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Update a file]
+#### [!UICONTROL Update a file] 
 
-Deze actiemodule werkt een bestand bij.
+This action module updates a file.
 
-U geeft de id van het bestand op.
+You specify the ID of the file.
 
 <table style="table-layout:auto">
  <col> 
@@ -215,23 +233,84 @@ U geeft de id van het bestand op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
-   <td>Voer de unieke id in of wijs deze toe aan het bestand dat u wilt bijwerken in de module.</td> 
+   <td>Enter or map the unique ID of the file that you want the module to update.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Upload a file]
+#### [!UICONTROL Upload a file] 
 
-Deze actiemodule uploadt een bestand.
+This action module uploads a file.
 
-U geeft het bestand op. U kunt ook een nieuwe bestandsnaam voor het bestand opgeven.
+You specify the file. You can also provide a new filename for the file.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>For instructions about connecting your [!DNL Box] account to [!DNL Workfront Fusion], see <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Create a connection to [!DNL Adobe Workfront Fusion] - Basic instructions</a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td> <p>Select the folder where you want to upload the file.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file]</td> 
+   <td> <p>Select a source file from a previous module, or map the source file's name and data.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+>[!NOTE]
+>
+>If this module is not successful, consider the following:
+>
+>* The size of the file might exceed the maximum file size limit for your [!DNL Box] plan, or you may have used all of your [!DNL Box] account's storage quota. To get more storage space, delete existing files from [!DNL Box] or upgrade your [!DNL Box] account.
+>* [!DNL Box] does not upload more than one files with the same name to a single folder. If the destination folder contains a file with the same name as the file being uploaded, the scenario run terminates with an error. To avoid this, rename the file. If you want to update the file, use the **[!UICONTROL Update a file]** module.-->
+
+#### Een map maken
+
+Deze actiemodule maakt een nieuwe lege map in de opgegeven bovenliggende map.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Name]</td> 
+   <td> <p>Voer een naam voor de nieuwe map in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Parent Folder]</td> 
+   <td> <p>Selecteer de map waarin u de nieuwe map wilt maken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder Upload Email Access]</td> 
+   <td> <p>Wanneer deze parameter is ingesteld, kunnen gebruikers bestanden e-mailen naar het e-mailadres dat automatisch voor deze map is gemaakt. Met de opties voor medewerkers kunt u alleen geregistreerde e-mails voor deelnemers gebruiken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Synchronization State]</td> 
+   <td> <p>Geeft aan of een map moet worden gesynchroniseerd met het apparaat van de gebruiker. Deze wordt gebruikt door Box Sync (gestopt) en wordt niet gebruikt door Box Drive.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Een map ophalen
+
+Deze actiemodule haalt details voor een map op, inclusief de eerste 100 items in de map.
 
 <table style="table-layout:auto">
  <col> 
@@ -243,18 +322,177 @@ U geeft het bestand op. U kunt ook een nieuwe bestandsnaam voor het bestand opge
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
-   <td> <p>Selecteer de map waarin u het bestand wilt uploaden.</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Source file]</td> 
-   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p> </td> 
+   <td> <p>Selecteer de map waarvoor u de gegevens wilt ophalen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
->[!NOTE]
->
->Als deze module niet succesvol is, overweeg het volgende:
->
->* De grootte van het bestand kan de maximale bestandsgroottelimiet voor uw [!DNL Box] -abonnement overschrijden, of u hebt de volledige opslaglimiet van uw [!DNL Box] -account gebruikt. Als u meer opslagruimte wilt, verwijdert u bestaande bestanden uit [!DNL Box] of werkt u een upgrade uit op uw [!DNL Box] -account.
->* [!DNL Box] uploadt niet meer dan één bestand met dezelfde naam naar één map. Als de doelmap een bestand bevat met dezelfde naam als het bestand dat wordt geüpload, wordt de uitvoering van het scenario afgesloten met een fout. U kunt dit voorkomen door de naam van het bestand te wijzigen. Gebruik de module **[!UICONTROL Update a file]** als u het bestand wilt bijwerken.
+#### Metagegevens van map ophalen
+
+Deze actiemodule wint omslagmeta-gegevens door omslag ID terug.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Scope]</td> 
+   <td> <p>Selecteer het bereik dat u voor deze metagegevensophaling wilt gebruiken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td> <p>Selecteer de map waarvoor u metagegevens wilt ophalen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Maak een API Vraag
+
+Deze actiemodule maakt een aangepaste aanroep van de Box API.
+
+
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
+   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">URL</td> 
+   <td>Voer een pad in dat relatief is ten opzichte van <code>https://api.box.com</code> . <p>Voorbeeld: <code>/2.0/users/me</code></p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Method]</td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Headers]</td> 
+   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion voegt de machtigingsheaders voor u toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query String]</td> 
+   <td> <p>Voeg de query voor de API-aanroep toe als een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"name":"something-urgent"}</code></p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Body]</td> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een standaard JSON-object.</p> <p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
+     <div class="example" data-mc-autonum="<b>Example: </b>"> 
+      <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
+     </div> </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Metagegevens van map bijwerken
+
+In deze actiemodule worden de metagegevens van een map gemaakt of bijgewerkt.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Scope]</td> 
+   <td> <p>Selecteer het bereik dat u wilt gebruiken voor deze update van metagegevens.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Folder]</td> 
+   <td> <p>Selecteer de map waarvoor u metagegevens wilt bijwerken.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+### Zoekopdrachten
+
+#### Inhoud zoeken
+
+Deze zoekmodule zoekt naar items die beschikbaar zijn voor de gebruiker of de hele onderneming.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het verbinden van uw [!DNL Box] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Query]</td> 
+   <td> <p>Voer de tekenreeks in of wijs de tekenreeks toe waarnaar u wilt zoeken. Deze query wordt gekoppeld aan itemnamen, beschrijvingen, tekstinhoud van bestanden en diverse andere velden van de verschillende itemtypen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Scope]</td> 
+   <td> <p>Selecteer of u naar inhoud die aan de gebruiker wordt geassocieerd zoekt de waarvan geloofsbrieven voor de verbinding worden gebruikt in deze module wordt gebruikt, of het zoeken naar inhoud verbonden aan de volledige onderneming.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Type]</td> 
+   <td> <p>Selecteer of u naar bestanden, mappen of webkoppelingen zoekt.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Sort]</td> 
+   <td> <p>Selecteer of u wilt sorteren op relevantie of op gewijzigde datum.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Trash Content]</td> 
+   <td> <p>Selecteer of u de verouderde inhoud of de inhoud wilt zoeken die niet is vervormd.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Parent Folder IDs]</td> 
+   <td> <p>Om in een specifieke omslag te zoeken, voor elke omslag u wilt zoeken, <b> toevoegen punt </b> en ingaan identiteitskaart van de omslag. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Created From]</td> 
+   <td> <p>Als u wilt zoeken naar elementen die in een bepaald datumbereik zijn gemaakt, voert u de vroegste datum in het bereik in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Created to]</td> 
+   <td> <p>Als u wilt zoeken naar elementen die in een bepaald datumbereik zijn gemaakt, voert u de laatste datum in het bereik in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Updated From]</td> 
+   <td> <p>Als u wilt zoeken naar elementen die in een bepaald datumbereik zijn bijgewerkt, voert u de vroegste datum in het bereik in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Updated to]</td> 
+   <td> <p>Als u wilt zoeken naar elementen die in een bepaald datumbereik zijn bijgewerkt, voert u de laatste datum in het bereik in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Fields]</td> 
+   <td> <p>Voor elk attribuut dat u in de reactie van de module wilt terugkeren, klik <b> toevoegen punt </b> en ga het gebied in.</p><p>Hiermee kunt u velden aanvragen die normaal niet worden geretourneerd in een standaardreactie. Houd er rekening mee dat het opgeven van deze parameter het effect heeft dat geen van de standaardvelden wordt geretourneerd in het antwoord, tenzij dit expliciet wordt opgegeven. </p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File Extensions]</td> 
+   <td> <p>Als u de zoekopdracht wilt beperken tot specifieke bestandsextensies, voert u een door komma's gescheiden lijst met bestandsextensies in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Size From]</td> 
+   <td> <p>Als u wilt zoeken naar elementen in een specifiek formaatbereik, voert u het kleine uiteinde van het bereik in bytes in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Size To]</td> 
+   <td> <p>Als u wilt zoeken naar elementen in een specifiek formaatbereik, voert u het grote uiteinde van het bereik in bytes in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Owner User ID]</td> 
+   <td> <p>Als u wilt zoeken naar elementen die eigendom zijn van specifieke gebruikers, voert u een door komma's gescheiden lijst met eigenaars-id's in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal resultaten in dat u de module in elke uitvoeringscyclus wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
