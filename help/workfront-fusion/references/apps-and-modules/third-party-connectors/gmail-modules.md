@@ -69,7 +69,7 @@ Als u [!DNL Gmail] -modules wilt gebruiken, moet u een [!DNL Gmail] -account heb
 * [Verbind  [!DNL Gmail]  met  [!DNL Workfront Fusion]  gebruikend  [!DNL Google Workspace]](#connect-gmail-to-workfront-fusion-usinggoogle-workspace)
 * [Verbind  [!DNL Gmail]  met  [!DNL Workfront Fusion]  gebruikend  [!DNL gmail.com]  of  [!DNL googlemail].com](#connect-gmail-to-workfront-fusion-using-gmailcom-or-googlemailcom)
 
-### Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL  Google Workspace]
+### Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL &#x200B; Google Workspace]
 
 Voor instructies over het verbinden van uw [!DNL Google Workspace] rekening met [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
 
@@ -450,7 +450,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Iterate attachments]
 
-U kunt e-mailbijlagen doorlopen. Elke bijlage is een afzonderlijke bundel in de output van de module. Voor meer informatie, zie {de module van de Teller 0} ](/help/workfront-fusion/references/modules/iterator-module.md).[
+U kunt e-mailbijlagen doorlopen. Elke bijlage is een afzonderlijke bundel in de output van de module. Voor meer informatie, zie {de module van de Teller 0} [&#128279;](/help/workfront-fusion/references/modules/iterator-module.md).
 
 <table style="table-layout:auto"> 
  <col> 

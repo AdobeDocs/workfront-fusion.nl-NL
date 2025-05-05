@@ -112,7 +112,7 @@ Bijvoorbeeld, kon u een [!UICONTROL Repeater] module gebruiken om vijf e-mails m
 
 ## [!UICONTROL Iterator]
 
-Een [!UICONTROL Iterator] is een speciaal type module dat een array omzet in een reeks bundels. Elk arrayitem wordt een afzonderlijke bundel in de uitvoer van de module [!UICONTROL Iterator] . Voor meer informatie, zie {de module van de Teller 0} ](/help/workfront-fusion/references/modules/iterator-module.md).[
+Een [!UICONTROL Iterator] is een speciaal type module dat een array omzet in een reeks bundels. Elk arrayitem wordt een afzonderlijke bundel in de uitvoer van de module [!UICONTROL Iterator] . Voor meer informatie, zie {de module van de Teller 0} [&#128279;](/help/workfront-fusion/references/modules/iterator-module.md).
 
 ## Arrayaggregator
 

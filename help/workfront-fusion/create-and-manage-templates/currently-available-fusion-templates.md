@@ -23,7 +23,7 @@ Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes ![ 
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
 
-### [!BADGE  Nieuw!]{type=Informative}
+### [!BADGE &#x200B; Nieuw!]{type=Informative}
 
 <!--New March 12, 2025-->
 
@@ -101,7 +101,7 @@ Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met d
 
 Deze sjablonen automatiseren workflows die Workfront combineren met Workfront Proof.
 
-### [!BADGE  Nieuw!]{type=Informative}
+### [!BADGE &#x200B; Nieuw!]{type=Informative}
 
 <!--New March 12, 2025-->
 

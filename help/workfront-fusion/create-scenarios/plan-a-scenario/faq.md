@@ -47,7 +47,7 @@ Voor meer informatie bij het werken met dossiers in Fusion, zie [ een dossier tu
 
 Scenario&#39;s kunnen met intervallen volgens het programma lopen u, zoals elk uur of om de 5 minuten specificeert. Er zijn speciale triggers, ook wel &#39;instant triggers&#39; genoemd, die uw scenario direct kunnen starten nadat ze gegevens van een bepaalde service ontvangen. De fusie verwerkt de ontvangen gegevens onmiddellijk, zonder op de volgende geplande looppas te wachten.
 
-Voor meer informatie over het verschil tussen gepolled en onmiddellijke trekkers, zie {de modules van de Trigger ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodule.[
+Voor meer informatie over het verschil tussen gepolled en onmiddellijke trekkers, zie &lbrace;de modules van de Trigger [&#128279;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodule.
 
 ## Wat is een operatie?
 

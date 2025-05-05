@@ -140,7 +140,7 @@ De eenvoudige module [!DNL Create CSV] biedt een lijst met selectievakjes die ov
 
 Omdat het punt <code> Volledige Naam</code> is van het eenvoudige type Tekst, wordt het uitgevoerd zoals verwacht. Het punt <code> E-mails</code>, die van een complexe typeSerie van Inzamelingen is, wordt uitgevoerd als [ objectenVoorwerp ], dat is hoe de Inzamelingen en de Arrays aan tekst door gebrek worden omgezet.
 
-Voor meer informatie, zie {de gegevenstypes van 0} Punt ](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).[
+Voor meer informatie, zie {de gegevenstypes van 0} Punt [&#128279;](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
 
 
 Inhoud van <code> e-mail uitvoeren </code>punt van de eerste inzameling van <code> E-mail []</code> in plaats daarvan moet U de module [!UICONTROL Create CSV (advanced)] gebruiken. Met deze module kunt u afzonderlijke kolommen van uw CSV-bestand definiëren en items toewijzen aan deze kolommen, inclusief de geneste kolommen.

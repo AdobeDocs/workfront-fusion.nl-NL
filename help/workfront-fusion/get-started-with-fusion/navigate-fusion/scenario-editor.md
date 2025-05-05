@@ -71,7 +71,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ## Open de scenario-editor en voeg een module toe:
 
-1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel.![
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![&#128279;](assets/scenarios-icon.png) in het linkerpaneel.
 1. Klik het pictogram van het vraagteken ![ vraagpictogram ](assets/question-mark-full-size.png), dan vind en klik app of de dienst die u met wilt beginnen. Voor gedetailleerde informatie over het vormen van een module, zie [ een module ](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
 
 ## Beschikbare scenario-editoracties

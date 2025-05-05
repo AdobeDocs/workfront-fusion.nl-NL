@@ -192,8 +192,8 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
    <td> <p>Selecteer het type record dat u wilt maken.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Activity]</strong> </p> <p>Selecteer het type activiteit dat u wilt controleren. </p> <p>De module kijkt slechts voor nieuwe activiteiten.<br></p> </li> 
-     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. <b> Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
-     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.<b></p> </li> 
+     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0&rbrace; &lbrace;, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. <b> Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
+     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0&rbrace; &lbrace;, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.<b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -409,7 +409,7 @@ Deze actiemodule leest informatie over een verslag door zijn identiteitskaart te
    <td>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen. De velden zijn beschikbaar op basis van de geselecteerde [!UICONTROL Record Type] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL <Object> ID]</td> 
+   <td role="rowheader">[!UICONTROL &lt;Object> ID]</td> 
    <td>Voer de id in of wijs deze toe aan het object waarover u informatie wilt ophalen.</td> 
   </tr> 
  </tbody> 

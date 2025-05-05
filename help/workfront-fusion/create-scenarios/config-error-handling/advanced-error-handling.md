@@ -103,7 +103,7 @@ De eerste route is voor een gespecificeerd type van fout genoemd `DataError`.
 
    1. Als een `DataError` wordt uitgevoerd en de foutgegevens door het filter worden doorgegeven, worden in Dropbox >Alle bestanden/submappen in een mappenmodule weergeven alle mappen in Dropbox weergegeven.
    1. Het volgende filter komt overeen met de mapnamen.
-   1. De **1} richtlijn van het Hervatten {specificeert omslagidentiteitskaart en omslagweg van de bestaande omslag, en de scenario uitvoering hervat van Dropbox > creeert een omslagmodule.** In plaats van een nieuwe map te maken, gebruikt Fusion echter de waarden van de aanwijzing Hervatten om naar de volgende module te gaan en het bestand in de bestaande map te uploaden.
+   1. De **1&rbrace; richtlijn van het Hervatten &lbrace;specificeert omslagidentiteitskaart en omslagweg van de bestaande omslag, en de scenario uitvoering hervat van Dropbox > creeert een omslagmodule.** In plaats van een nieuwe map te maken, gebruikt Fusion echter de waarden van de aanwijzing Hervatten om naar de volgende module te gaan en het bestand in de bestaande map te uploaden.
 
 1. De tweede route is voor alle andere fouten en beëindigt met de richtlijn van het Terugschroeven van prijzen, die in onmiddellijk het tegenhouden van het scenario resulteert
 

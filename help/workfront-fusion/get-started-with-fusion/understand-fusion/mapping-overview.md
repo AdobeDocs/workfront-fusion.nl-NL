@@ -81,7 +81,7 @@ Als u het element van een verzameling wilt zoeken in het deelvenster Toewijzing,
 
 ![ dropdown van de Inzameling ](assets/collection-dropdown.png)
 
-Voor meer informatie over inzamelingen, zie {de gegevenstypes van 0} Punt ](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).[
+Voor meer informatie over inzamelingen, zie {de gegevenstypes van 0} Punt [&#128279;](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
 
 Voor instructies op afbeeldingsinzamelingen, zie [ een punt ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md#map-an-item) in de informatie van de artikelKaart van één module aan een andere in kaart brengen.
 

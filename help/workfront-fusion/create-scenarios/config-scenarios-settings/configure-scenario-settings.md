@@ -96,8 +96,8 @@ Wanneer de opeenvolgende verwerking wordt toegelaten, zijn de parallelle uitvoer
 
 **Onvolledige Uitvoeringen**: Als de &quot;Onvolledige Uitvoeringen&quot;ook wordt toegelaten, als een fout tijdens de uitvoering van een scenario voorkomt, wordt het scenario gepauzeerd. Een van de volgende gebeurtenissen vindt dan plaats:
 
-* Als de Opeenvolgende verwerkingsoptie **** wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
-* Als de Opeenvolgende verwerkingsoptie **** gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
+* Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
+* Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
 
   Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
@@ -185,7 +185,7 @@ U kunt de reeds in werking gestelde cycli in de details van het Scenario zien:
 
 ![ het detail van het Scenario ](assets/scenario-detail-350x207.png)
 
-Voor meer informatie over deze pagina, zie {de details van 0} Scenario ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).[
+Voor meer informatie over deze pagina, zie {de details van 0} Scenario [&#128279;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).
 
 >[!ENDSHADEBOX]
 

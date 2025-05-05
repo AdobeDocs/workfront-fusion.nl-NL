@@ -347,7 +347,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
    <td>Selecteer het object waarnaar u het wilt omzetten. Dit is het type dat het object na de conversie heeft.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL <Object> ID]</td> 
+   <td>[!UICONTROL &lt;Object> ID]</td> 
    <td> <p>Voer de id van het object in. </p> <p>Opmerking: wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 

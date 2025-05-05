@@ -66,7 +66,7 @@ Openbare sjablonen zijn beschikbaar zonder voorwaarden.
 
 ## Een scenario maken op basis van een sjabloon
 
-1. Klik het **lusje ![ pictogram van Malplaatjes 1} van Malplaatjes ](assets/templates-icon.png) in het linkernavigatievenster.**
+1. Klik het **lusje ![ pictogram van Malplaatjes 1&rbrace; van Malplaatjes ](assets/templates-icon.png) in het linkernavigatievenster.**
 1. Klik op het lusje dat het malplaatje bevat u wilt gebruiken (**Openbare malplaatjes** of **malplaatjes van het Team**).
 1. Zoek naar een specifieke malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik op de sjabloon die u wilt gebruiken om een scenario te maken.

@@ -96,4 +96,4 @@ Een verbinding vernieuwen:
 
 ## Bronnen
 
-* Voor meer informatie over verbindingsmeta-gegevens, zoals milieu en type, zie {meta-gegevens van de Verbinding 0} ](/help/workfront-fusion/references/connections/connection-metadata.md).[
+* Voor meer informatie over verbindingsmeta-gegevens, zoals milieu en type, zie {meta-gegevens van de Verbinding 0} [&#128279;](/help/workfront-fusion/references/connections/connection-metadata.md).

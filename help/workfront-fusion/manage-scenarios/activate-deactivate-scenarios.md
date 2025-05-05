@@ -87,7 +87,7 @@ Voor instructies bij het creëren van een scenario, zie [ Werkschema voor het cr
 
 ## Een scenario activeren of deactiveren:
 
-1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel, dan klik het scenario om het te openen.![
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![&#128279;](assets/scenarios-icon.png) in het linkerpaneel, dan klik het scenario om het te openen.
 1. Klik op de schakeloptie Aan/Uit in de rechterbovenhoek van de pagina Scenario-details.
 
    ![ de activeringsknevel van Details ](assets/active-toggle-details-page.png)

@@ -71,7 +71,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ## De versiegeschiedenis van een scenario weergeven en beheren
 
-1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel, dan klik het scenario om het te openen.![
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![&#128279;](assets/scenarios-icon.png) in het linkerpaneel, dan klik het scenario om het te openen.
 1. Klik het [!UICONTROL More] pictogram ![ Meer pictogram ](assets/more-icon.png) bij de bodem van het scherm, dan klik **[!UICONTROL Previous Versions]**.
 
    Er wordt een lijst met vorige versies weergegeven.

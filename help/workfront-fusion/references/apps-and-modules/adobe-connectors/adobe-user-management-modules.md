@@ -87,11 +87,11 @@ Verbinding maken voor uw [!DNL Adobe User Management] -modules:
         </td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL-omgeving]</td>
+        <td role="rowheader">[!UICONTROL -omgeving]</td>
         <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL-type]</td>
+        <td role="rowheader">[!UICONTROL -type]</td>
         <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
         </tr>
         <tr>

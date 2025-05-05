@@ -72,7 +72,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 1. Klik **sparen**.
 
-1. Klik **adres van het Exemplaar aan klembord**, dan klik O.K. ****.
+1. Klik **adres van het Exemplaar aan klembord**, dan klik O.K. **&#x200B;**.
 
 1. Meld u aan bij de webservice en voer de volgende handelingen uit:
 

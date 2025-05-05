@@ -217,7 +217,7 @@ Het proces om een verbinding aan Google tot stand te brengen verschilt afhankeli
 1. Klik **Geavanceerd**, dan klik **gaan naar de Fusie van Workfront (onveilig)** om toegang toe te staan gebruikend uw douaneOAuth cliënt.
 
 1. Klik **toestaan** om de toestemming van de Fusie van Workfront te verlenen.
-1. In het venster dat verschijnt, staat de klik **** opnieuw toe om uw keuzen te bevestigen.
+1. In het venster dat verschijnt, staat de klik **&#x200B;**&#x200B;opnieuw toe om uw keuzen te bevestigen.
 
    De verbinding met de gewenste Google-service met een aangepaste OAuth-client wordt tot stand gebracht.
 

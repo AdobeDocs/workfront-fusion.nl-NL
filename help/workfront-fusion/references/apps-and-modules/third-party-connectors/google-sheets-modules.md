@@ -801,7 +801,7 @@ Voor de `MM/DD/YYYY HH:mm:ss` -notatie (voor de landinstelling van de Verenigde 
 
 ## [!DNL Google Sheets] -functies gebruiken
 
-Om een ingebouwde functie van Google Sheets te gebruiken, kunt u het exploiteren. Voor meer informatie, zie  [!DNL Google Sheets]  functies van het 0} Gebruik ](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#use-google-sheets-functions) in het artikel Kaart een punt gebruikend functies.[
+Om een ingebouwde functie van Google Sheets te gebruiken, kunt u het exploiteren. Voor meer informatie, zie  [!DNL Google Sheets]  functies van het 0&rbrace; Gebruik [&#128279;](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#use-google-sheets-functions) in het artikel Kaart een punt gebruikend functies.
 
 ## Voorkomen dat [!DNL Google Sheets] getallen wijzigt in datums
 

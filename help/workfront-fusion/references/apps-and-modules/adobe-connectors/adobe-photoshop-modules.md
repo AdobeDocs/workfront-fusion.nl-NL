@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-&#42;&#42; Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [!DNL [Adobe Workfront Fusion] licenses](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+&#42;&#42; Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL [Adobe Workfront Fusion] licenses]](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 

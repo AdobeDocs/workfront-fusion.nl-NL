@@ -220,7 +220,7 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
 
 Deze aggregatormodule is handig als de gegevensinvoer uit afzonderlijke bundels bestaat. Met deze module, kunt u opstelling gemakkelijk de structuur die voor het gebied van de Waarde wordt vereist en het punten aan elk waardepunt in kaart brengen. In tegenstelling tot de module Een document invullen staat het veld Waarden in het veld Een document vullen met een batch gegevensmodule slechts één item met variabelen toe.
 
-U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door de *module van de Teller te gebruiken 0} {om de inhoud van de serie in een reeks bundels om te zetten.*
+U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door de *module van de Teller te gebruiken 0&rbrace; &lbrace;om de inhoud van de serie in een reeks bundels om te zetten.*
 
 De werkelijke waarden worden gemaakt en ingevuld voor elke binnenkomende bundel. De sjabloon wordt gemaakt nadat alle invoerbundels zijn verwerkt.
 

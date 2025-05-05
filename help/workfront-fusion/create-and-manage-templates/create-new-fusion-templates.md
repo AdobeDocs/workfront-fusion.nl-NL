@@ -85,7 +85,7 @@ U kunt een malplaatje in een proces bouwen gelijkend op het bouwen van een scena
 
    Voor instructies, zie de artikelen onder [ modules ](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md) toevoegen.
 
-   Om contextafhankelijke hulp aan de modules toe te voegen, zie {de functionaliteit van de Tovenaar van de Opstelling ](#set-up-wizard-functionality) in dit artikel.[
+   Om contextafhankelijke hulp aan de modules toe te voegen, zie &lbrace;de functionaliteit van de Tovenaar van de Opstelling [&#128279;](#set-up-wizard-functionality) in dit artikel.
 
    Voor meer informatie bij het bouwen van een scenario, zie [ Werkschema voor het creëren van een scenario ](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md).
 

@@ -35,7 +35,7 @@ Sneltoetsen
 ## Het scenario maken en een naam geven
 
 1. Meld u aan bij uw [!DNL Workfront Fusion] -account.
-1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ](assets/scenarios-icon.png) in het linkerpaneel.![
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![&#128279;](assets/scenarios-icon.png) in het linkerpaneel.
 
    >[!NOTE]
    >

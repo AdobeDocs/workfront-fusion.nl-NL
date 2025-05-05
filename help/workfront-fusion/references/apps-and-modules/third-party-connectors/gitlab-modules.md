@@ -889,7 +889,7 @@ Voor informatie over gebieden, zie [ het projectpijpleidingen van de Lijst ](htt
 
 Deze zoekmodule haalt een lijst op met opslagplaatstags uit een project, gesorteerd op naam in omgekeerde alfabetische volgorde.
 
-Voor informatie over gebieden, zie {de markeringen van de het projectbewaarplaats van de 0} Lijst ](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) in de [!DNL GitLab] documentatie.[
+Voor informatie over gebieden, zie {de markeringen van de het projectbewaarplaats van de 0} Lijst [&#128279;](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) in de [!DNL GitLab] documentatie.
 
 +++
 

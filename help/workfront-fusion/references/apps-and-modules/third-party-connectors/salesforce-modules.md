@@ -86,7 +86,7 @@ De Salesforce-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td> {{connection.instanceUrl}</td>
+   <td> &lbrace;{connection.instanceUrl}</td>
   </tr> 
   <tr> 
    <td role="rowheader">API-versie</td> 
@@ -577,7 +577,7 @@ Deze actiemodule uploadt één bestand naar Salesforce.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -617,7 +617,7 @@ Deze actiemodule wint alle verslagen terug die aan een bepaalde criteria voldoen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 

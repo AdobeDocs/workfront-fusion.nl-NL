@@ -96,13 +96,13 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Forms] -modules:
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL-omgeving]</td>
+        <td role="rowheader">[!UICONTROL -omgeving]</td>
         <td>
           <p>Selecteer of deze verbinding met een Productie- of niet-productieomgeving verbindt.</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL-type]</td>
+        <td role="rowheader">[!UICONTROL -type]</td>
         <td>
           <p>Selecteer of deze account een serviceaccount of een persoonlijke account is.</p>
         </td>
@@ -128,7 +128,7 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Forms] -modules:
         <td>Voer uw [!DNL Adobe] clientgeheim in. Dit vindt u in de sectie [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console] .
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL-organisatie-ID]</td>
+        <td role="rowheader">[!UICONTROL -organisatie-ID]</td>
         <td>Voer uw [!DNL Adobe] Organisatie-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console] .
       </tr>
       <tr>
@@ -136,7 +136,7 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Forms] -modules:
         <td>Voer uw [!DNL Adobe] technische account-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console] .
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL-metagegevensbereiken]</td>
+        <td role="rowheader">[!UICONTROL -metagegevensbereiken]</td>
         <td>Voer een geschikt metabereik in       </td>
       </tr>
       <tr>
@@ -191,7 +191,7 @@ Met deze instant trigger (webhaak) kunt u een scenario starten wanneer een hande
    <td> <p>Geef een naam op voor de webhaak</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL-verbinding]</td> 
+   <td role="rowheader">[!UICONTROL -verbinding]</td> 
    <td> <p>Zie <a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/aem-forms-modules.md#create-a-connection-to-adobe-experience-manager-forms" class="MCXref xref"> Verbinding maken met [!DNL Adobe Experience Manager Forms]</a> voor instructies over het verbinden van uw [!DNL Adobe Experience Manager] -account met [!DNL Workfront Fusion] .</p> </td> 
   </tr>
 

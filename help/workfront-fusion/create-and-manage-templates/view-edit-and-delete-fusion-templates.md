@@ -67,7 +67,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 In het gebied van Malplaatjes, kunt u beschikbare malplaatjes, de toepassingen bekijken zij, en hun structuur omvatten. U kunt ook zoeken naar specifieke apps of namen en hoofdletters en kleine letters filteren.
 
-1. Klik **![ pictogram van het Malplaatje 1}** Malplaatjes ](assets/templates-icon.png) in de linkernavigatie.
+1. Klik **![ pictogram van het Malplaatje 1&rbrace;** Malplaatjes ](assets/templates-icon.png) in de linkernavigatie.
 1. Klik op het tabblad Openbare sjablonen om openbaar beschikbare sjablonen weer te geven.
 
    of

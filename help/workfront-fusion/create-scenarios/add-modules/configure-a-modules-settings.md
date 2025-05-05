@@ -84,7 +84,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
    Voor informatie bij afbeelding, zie [ Overzicht van de Afbeelding ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md).
 
-   Voor informatie over de verschillende types van puntgegevens [!DNL Workfront Fusion] kan erkennen (zoals datum, aantal, en tekst), zie {de gegevenstypes van 1} Punt ](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).[
+   Voor informatie over de verschillende types van puntgegevens [!DNL Workfront Fusion] kan erkennen (zoals datum, aantal, en tekst), zie {de gegevenstypes van 1} Punt [&#128279;](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
 
    >[!NOTE]
    >

@@ -371,7 +371,7 @@ Deze module retourneert e-mailberichten die voldoen aan de opgegeven criteria.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL  Watch Email] of [!UICONTROL Search Email] van [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL &#x200B; Watch Email] of [!UICONTROL Search Email] van [!DNL Workfront Fusion] .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
@@ -569,4 +569,4 @@ In de module E-mailiterator kunt u e-mailbijlagen afzonderlijk beheren. U kunt b
  </tbody> 
 </table>
 
-Voor meer informatie over iterators, zie {de module van de Teller 0} ](/help/workfront-fusion/references/modules/iterator-module.md).[
+Voor meer informatie over iterators, zie {de module van de Teller 0} [&#128279;](/help/workfront-fusion/references/modules/iterator-module.md).

@@ -202,4 +202,4 @@ Nadat u de Fusie van Workfront zoals die in [ wordt besproken registreert de Fus
    </table>
 
 1. Klik **verdergaan**.
-1. In het venster dat verschijnt, keur **** goed om de verbinding te voltooien en op de module terug te komen.
+1. In het venster dat verschijnt, keur **&#x200B;**&#x200B;goed om de verbinding te voltooien en op de module terug te komen.

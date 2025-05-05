@@ -99,7 +99,7 @@ U kunt rechtstreeks vanuit een [!DNL MariaDB] -module verbinding maken met uw [!
       <td>De standaardpoort is 3306. Als u een niet-standaardhaven gebruikt, plaats dit aantal aan uw haven. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Database ]</td> 
+      <td role="rowheader">[!UICONTROL Database &#x200B;]</td> 
       <td>Voer de naam in van de database waarmee u wilt communiceren.</td> 
      </tr> 
      <tr> 

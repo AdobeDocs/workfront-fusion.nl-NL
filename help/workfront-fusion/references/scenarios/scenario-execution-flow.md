@@ -95,7 +95,7 @@ Er kan een fout optreden tijdens het uitvoeren van het scenario. Bijvoorbeeld, a
 ## Bronnen
 
 * Voor meer informatie bij vestiging ziet een scenario, [ de scenarioredacteur ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md).
-* Voor meer informatie over de pagina van de scenario details, zie {de details van 0} Scenario ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).[
+* Voor meer informatie over de pagina van de scenario details, zie {de details van 0} Scenario [&#128279;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).
 * Voor meer informatie bij het activeren van een scenario, zie [ een scenario ](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
 * Voor meer informatie bij het plannen van een scenario, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 * Voor meer informatie over modules, zie [ Overzicht van de Module ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md).

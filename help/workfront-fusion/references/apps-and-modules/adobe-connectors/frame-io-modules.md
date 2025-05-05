@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >In dit artikel wordt de verouderde versie van de Frame.io-connector beschreven. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 3.
 >
->Zie Frame.io Bètaconnector](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md) voor instructies over de nieuwe (bèta)versie van de Frame.io connector[.
+>Zie Frame.io Bètaconnector[&#128279;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md) voor instructies over de nieuwe (bèta)versie van de Frame.io connector.
 
 Met de [!DNL Adobe Workfront Fusion] [!DNL Frame.io] modules kunt u activa en opmerkingen in uw [!DNL Frame.io] account controleren, maken, bijwerken, ophalen of verwijderen.
 
@@ -73,7 +73,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Zie [Toegangsvereisten in documentatie](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md) voor meer informatie over de informatie in deze tabel.
 
-Zie licenties voor](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md) informatie over [!DNL Adobe Workfront Fusion] licenties[[!DNL Adobe Workfront Fusion] .
+Zie licenties voor[&#128279;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md) informatie over [!DNL Adobe Workfront Fusion] licenties[!DNL Adobe Workfront Fusion] .
 
 +++
 

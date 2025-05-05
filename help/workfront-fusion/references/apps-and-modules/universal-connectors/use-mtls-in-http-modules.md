@@ -97,7 +97,7 @@ U kunt de volgende koppelingen gebruiken om de openbare certificaten van Workfro
 
 | Datacenter | Koppeling downloaden | Geldige datums |
 |---|---|---|
-| VS-datacenter |  [!DNL Workfront Fusion]  Certificaat 2025 van de Download [ ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-us-mtls-certificate.pem) | 3 maart 2025 tot 4 april 2026 |
+| VS-datacenter |  [!DNL Workfront Fusion]  Certificaat 2025 van de Download [&#128279;](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-us-mtls-certificate.pem) | 3 maart 2025 tot 4 april 2026 |
 | EU-datacenter | [ Certificaat 2025 van de Download  [!DNL Workfront Fusion]  EU ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-eu-mtls-certificate.pem) | 3 maart 2025 tot 4 april 2026 |
 | Azure Cluster | [ Download  [!DNL Workfront Fusion]  Azure Certificaat 2025 ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-az-mtls-certificate.pem) | 24 oktober 2024 tot 25 november 2025 |
 

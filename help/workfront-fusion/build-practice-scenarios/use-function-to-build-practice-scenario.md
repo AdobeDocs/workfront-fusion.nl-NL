@@ -101,7 +101,7 @@ Wanneer dit scenario een verzoek in een project omzet, is de naam van het projec
    De invoer voor dit voorbeeld is de naam van de uitgave waaruit het project is geconverteerd.
 
 1. Plaats de cursor tussen de ronde haakjes, want dit is waar de invoer naartoe gaat.
-1. In het mappingpaneel, klik het **pictogram van de output van de Module 0} {.** ![ het outputpictogram van de Module ](assets/toolbar-icon-functions-you-map-from-other-modules.png)
+1. In het mappingpaneel, klik het **pictogram van de output van de Module 0&rbrace; &lbrace;.** ![ het outputpictogram van de Module ](assets/toolbar-icon-functions-you-map-from-other-modules.png)
 1. Selecteer het naamblok dat door de eerste module werd uitgevoerd.
 
    Het naamblok wordt weergegeven in de functie.
@@ -114,7 +114,7 @@ Wanneer dit scenario een verzoek in een project omzet, is de naam van het projec
 
 1. Test het scenario door **in werking te stellen eens** in de laag-linkerhoek van het scherm te klikken.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
-1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan **&#x200B;**.
 
    Dit activeert het scenario. De actieve scenario&#39;s lopen volgens het programma dat in de trekkermodule wordt geplaatst.
 1. Klik in [!DNL Workfront Fusion] in de linkerbenedenhoek op **[!UICONTROL Save]** om de voortgang van het scenario op te slaan.
