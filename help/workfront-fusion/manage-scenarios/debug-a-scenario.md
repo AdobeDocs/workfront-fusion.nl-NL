@@ -22,7 +22,7 @@ Met [!DNL Adobe Workfront Fusion] Devtool kunt u scenario&#39;s begrijpen en pro
 Ga voor een video-introductie en doorloop van het Fusion Devtool naar
 
 * [ het Hulpmiddel van de Ontwikkeling van de Fusie ](https://video.tv.adobe.com/v/3427031/){target=_blank}
-* [ Devtool walkthrough ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [ Devtool walkthrough ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=nl-NL)
 
 ## Toegangsvereisten
 

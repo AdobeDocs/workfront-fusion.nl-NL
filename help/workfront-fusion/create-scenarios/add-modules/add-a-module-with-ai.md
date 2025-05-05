@@ -75,7 +75,7 @@ Uw organisatie moet aan de volgende voorwaarden voldoen om deze functionaliteit 
 * Uw organisatie moet hebben deelgenomen aan het Workfront AI Assistant Beta-programma.
 * De Adobe moet een ondertekende Adobe-gen. AI-overeenkomst in het bestand hebben voor uw organisatie.
 
-  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de Adobe Gen AI overeenkomst ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht in de documentatie van Workfront.
+  Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ Ondertekenen de Adobe Gen AI overeenkomst ](https://experienceleague.adobe.com/nl/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht in de documentatie van Workfront.
 
 ## Momenteel ondersteunde AI-moduletoepassingen
 

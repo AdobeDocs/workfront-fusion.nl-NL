@@ -67,10 +67,10 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 * U moet een [!DNL Adobe Experience Manager Assets] account hebben om deze modules te kunnen gebruiken.
 * U moet de [!UICONTROL Server-to-server] -stroom instellen in de [!DNL Adobe Developer console] .
 
-  Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom in [!DNL Adobe Developer console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+  Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom in [!DNL Adobe Developer console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=nl-NL#the-server-to-server-flow).
 * Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 
-  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.
+  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.
 
 ## Adobe Experience Manager Assets API-informatie
 
@@ -118,11 +118,11 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Assets] -modules:
 >
 >* De informatie voor deze velden wordt gegenereerd als onderdeel van het instellen van de [!UICONTROL Server-to-server] -stroom op de [!DNL Adobe Developer Console] . U kunt deze waarden vinden in het JSON-bestand met servicereferenties dat is gegenereerd als onderdeel van die instelling.
 >
->   Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom op [!UICONTROL Adobe Developer Console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
+>   Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom op [!UICONTROL Adobe Developer Console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=nl-NL#the-server-to-server-flow).
 >
 >* Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 >
->   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.
+>   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#128279;](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.
 
 
 <table style="table-layout:auto"> 

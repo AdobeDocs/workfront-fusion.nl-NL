@@ -70,7 +70,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 U kunt een gebruiker uit Workfront Fusion verwijderen terwijl hun andere Adobe producttoestemmingen intact blijven.
 
-Voor instructies, zie &quot;verwijder gebruikers en gebruikersgroepen uit een product&quot;in artikel [ producten op Admin Console ](https://helpx.adobe.com/enterprise/using/manage-products.html) leiden.
+Voor instructies, zie &quot;verwijder gebruikers en gebruikersgroepen uit een product&quot;in artikel [ producten op Admin Console ](https://helpx.adobe.com/nl/enterprise/using/manage-products.html) leiden.
 
 ## Een gebruiker deactiveren in alle producten in de [!DNL Adobe Admin Console]
 
@@ -83,7 +83,7 @@ Een gebruiker wordt gedeactiveerd vanuit [!DNL Adobe Admin Console] wanneer een 
 * De gebruiker wordt verwijderd uit een productprofiel en niet toegewezen aan een ander productprofiel.
 * De gebruiker wordt verwijderd of gedeactiveerd in de organisatie die Workfront Fusion bevat.
 
-  Voor instructies, zie de sectie &quot;verwijder gebruikers&quot;in [ individuele gebruikers beheren ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
+  Voor instructies, zie de sectie &quot;verwijder gebruikers&quot;in [ individuele gebruikers beheren ](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html).
 
 In [!DNL Workfront Fusion] heeft de deactivering op een van de volgende manieren invloed op de gebruiker:
 

@@ -168,7 +168,7 @@ Met deze sjabloon kunt u zien of een SharePoint-map is gewijzigd.
 
 Deze sjablonen ondersteunen de integratie tussen Workfront en Anaplan en verwachten een specifieke configuratie in zowel Anaplan als Workfront. Zie de artikelen voor de afzonderlijke sjablonen voor informatie over deze sjablonen en de bijbehorende configuraties.
 
-Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront met Anaplan ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
+Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront met Anaplan ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
 
 >[!NOTE]
 >
@@ -176,19 +176,19 @@ Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront
 
 ### Workflows voor optimalisatie doorgeven
 
-* [ verzend  [!DNL Adobe Workfront]  projectupdates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
-* [ verzend  [!DNL Adobe Workfront]  uitgaven aan a  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
-* [ verzendt  [!DNL Adobe Workfront]  daadwerkelijke uren updates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
+* [ verzend  [!DNL Adobe Workfront]  projectupdates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
+* [ verzend  [!DNL Adobe Workfront]  uitgaven aan a  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
+* [ verzendt  [!DNL Adobe Workfront]  daadwerkelijke uren updates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
 
 ### Workflows voor het koppelen van begrotingsaanvragen
 
-* [ creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  begrotingsverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
-* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  project ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
+* [ creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  begrotingsverzoek ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
+* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  project ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
 
 ### Workflows voor het koppelen van campagneaanvragen
 
-* [ creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  campagneverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
-* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  campagneverzoek of campagneproject ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects) toe
+* [ creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  campagneverzoek ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
+* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  campagneverzoek of campagneproject ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects) toe
 
 
 <!--[!BADGE New!]{type=Informative} -->
