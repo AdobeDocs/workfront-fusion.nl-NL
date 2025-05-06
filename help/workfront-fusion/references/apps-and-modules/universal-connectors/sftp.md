@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion SFTP]  modules staan u toe om doss
 author: Becky
 feature: Workfront Fusion
 exl-id: bde3cbda-8a19-4d9f-b970-f56d73a1f8dd
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 26c599a9887ad931763b787813153bb7791ce5d1
 workflow-type: tm+mt
-source-wordcount: '1854'
+source-wordcount: '1894'
 ht-degree: 0%
 
 ---
@@ -449,6 +449,10 @@ Met deze module kunt u een bestand uploaden naar de SFTP-server.
   <tr> 
    <td> <p>[!UICONTROL Permissions]</p> </td> 
    <td> <p>Stel de gewenste machtigingen in voor het bestand of de map. Gebruik chmod-parameters. Bijvoorbeeld <code>777</code> of <code>-rwxrwxrwx</code> .</p> <p>Deze machtigingen moeten overeenkomen met het patroon <code>/(.?([r-][w-][x-]){3})|[0-7]{3}/.</code></p> <p>Voor meer informatie over chmod, zie de <a href="https://ss64.com/bash/chmod.html"> documentatie van het kosmod </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>[!UICONTROL Buffer size (B)]</p> </td> 
+   <td> <p>Stel de grootte (in bytes) van elk segment in wanneer u het bestand uploadt. Dit is handig voor grote bestanden of wanneer de geheugenlimieten van de server kleinere uploads vereisen. Als deze waarde niet is ingesteld, wordt het bestand in één bewerking geschreven.</p> </td> 
   </tr> 
  </tbody> 
 </table>
