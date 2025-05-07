@@ -4,9 +4,9 @@ description: Met de Adobe I/O Events-modules kunt u een Adobe Workfront Fusion-s
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: b2229f3e-a2a7-4b07-8ead-a37d193c2ec7
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 983ce043afbcc44ee8af2dfcd46738f170a2b257
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -104,6 +104,12 @@ Verbinding maken voor uw Adobe I/O Events-modules:
         </td>
       </tr>
       <tr>
+        <td role="rowheader">Omgeving</td>
+        <td>
+          <p>Selecteer of u verbinding wilt maken met een productieomgeving of met een andere productieomgeving.</p>
+        </td>
+      </tr>
+      <tr>
         <td role="rowheader">Type</td>
         <td>
           <p>Selecteer of u verbinding wilt maken met een serviceaccount of een persoonlijke account.</p>
@@ -160,6 +166,8 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Zoekopdrachten](#searches)
 
 ### Triggers
+
+<!--Becky start here-->
 
 #### Een gebeurtenisregistratie maken
 

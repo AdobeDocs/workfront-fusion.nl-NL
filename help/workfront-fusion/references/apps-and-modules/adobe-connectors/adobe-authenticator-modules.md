@@ -4,9 +4,9 @@ description: Met de Adobe Authenticator-module kunt u via één verbinding verbi
 author: Becky
 feature: Workfront Fusion
 exl-id: af4da661-eeee-4033-a2bb-a2196e446a3d
-source-git-commit: 7652acb6654f4b1b0edc57d110478b309655a124
+source-git-commit: 983ce043afbcc44ee8af2dfcd46738f170a2b257
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -21,40 +21,46 @@ Om een lijst van beschikbare Adobe APIs te zien, zie [ Adobe APIs ](https://deve
 
 ## Toegangsvereisten
 
-<table>
-  <col/>
-  <col/>
-  <tbody>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] package</td>
-      <td>
-        <p>Nieuw: alle</p><p>of</p><p>Huidig: [!UICONTROL Pro] of hoger</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] licentie</td>
-      <td>
-        <p>Nieuw: Standaard</p><p>of</p><p>Current: [!UICONTROL Plan], [!UICONTROL Work]</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie</td>
-      <td>
-   <p>Huidige Fusion-licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Alle</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
    <p>of</p>
-   <p>Vereiste voor licentie voor verouderde fusie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
-   </td>
-    </tr>
-    <tr>
-      <td role="rowheader">Product</td>
-      <td>
-   <p>Nieuw Workfront-abonnement: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig Workfront-abonnement: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
-   </td>
-    </tr>
-  </tbody>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   </td> 
+  </tr>
+ </tbody> 
 </table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+
+Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Vereisten
 
@@ -110,7 +116,7 @@ Een verbinding maken:
       <tr>
         <td role="rowheader">[!UICONTROL Connection type]</td>
         <td>
-          <p>Selecteer of u een Server-aan-Server verbinding OAuth, of een verbinding van de de dienstrekening (JWT) wilt tot stand brengen.</p>
+          <p>Selecteer of u een Server-aan-Server verbinding OAuth, of een verbinding van de de dienstrekening (JWT) wilt tot stand brengen. We raden u aan OAuth-verbindingen te maken.</p>
         </td>
       </tr>
       <tr>
@@ -133,7 +139,7 @@ Een verbinding maken:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Voer uw [!DNL Adobe] technische account-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
+        <td>Als u een JWT-verbinding hebt geselecteerd, voert u uw [!DNL Adobe] technische account-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Organization ID]</td>
@@ -174,14 +180,6 @@ Een verbinding maken:
       <tr>
         <td role="rowheader">[!UICONTROL Authentication URL]</td>
         <td>Laat dit leeg als u de standaard Adobe IMS-verificatie-URL van <code>https://ims-na1.adobelogin.com</code> wilt gebruiken. Als u Adobe IMS niet gebruikt voor verificatie, voert u de URL in die u wilt gebruiken voor verificatie.</td>
-      </tr>
-      <tr>
-        <td role="rowheader">[!UICONTROL Environment]</td>
-        <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
-      </tr>
-      <tr>
-        <td role="rowheader">[!UICONTROL Type]</td>
-        <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</td>
       </tr>
     </tbody>
     </table>
@@ -253,18 +251,6 @@ Deze module is beschikbaar gesteld op 14 november 2024. Elke Adobe Authenticator
       </td>
       </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Request content]  </td>
-      <td>
-        <p>Voer de inhoud van de aanvraag in. Deze optie is beschikbaar als u het body-type <code>Raw</code> hebt geselecteerd</p>
-      </td>
-    </tr>
-    <tr>
-      <td role="rowheader">[!UICONTROL Fields]  </td>
-      <td>
-        <p>Voor elk dossier dat u aan het API verzoek wilt toevoegen, <b> toevoegt punt </b> en gaat de tekst van het dossier (voor ruwe gegevens) in, of gaat de sleutel <code>uploadedFile</code> in en brengt de gegevens van het dossier in kaart.Deze optie is beschikbaar als u <code>application</code> of <code>multipart</code> lichaamstype selecteerde.</p>
-      </td>
-    </tr>
-    <tr>
       <td role="rowheader">[!UICONTROL Output Type]  </td>
       <td>
         <p>Selecteer het type gegevens dat de module moet uitvoeren. Als u geen type selecteert, selecteert de module automatisch een type.</p>
@@ -326,11 +312,5 @@ Met deze actiemodule kunt u een aanroep naar elke Adobe API maken.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> 
      </div> </p> </td>     </tr>
-     <tr>
-      <td role="rowheader">[!UICONTROL Limit]  </td>
-      <td>
-        <p>Voer het maximale aantal resultaten in dat de module in één uitvoeringscyclus moet retourneren.</p>
-      </td>
-    </tr>
   </tbody>
 </table>
