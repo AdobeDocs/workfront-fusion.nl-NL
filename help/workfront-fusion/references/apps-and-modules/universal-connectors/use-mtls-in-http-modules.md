@@ -4,9 +4,9 @@ description: U kunt Wederzijdse TLS gebruiken in uw Adobe Workfront Fusion HTTP-
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e0b4c3b-9a0b-491d-aaf2-0011d8386abe
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 89017451c8e0b821616adda861222127e100a08d
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '680'
 ht-degree: 0%
 
 ---
@@ -97,27 +97,30 @@ U kunt de volgende koppelingen gebruiken om de openbare certificaten van Workfro
 
 | Datacenter | Koppeling downloaden | Geldige datums |
 |---|---|---|
-| VS-datacenter |  [!DNL Workfront Fusion]  Certificaat 2025 van de Download [&#128279;](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-us-mtls-certificate.pem) | 3 maart 2025 tot 4 april 2026 |
+| VS-datacenter |  [!DNL Workfront Fusion]  Certificaat 2025 van de Download [ ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-us-mtls-certificate.pem) | 3 maart 2025 tot 4 april 2026 |
 | EU-datacenter | [ Certificaat 2025 van de Download  [!DNL Workfront Fusion]  EU ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-eu-mtls-certificate.pem) | 3 maart 2025 tot 4 april 2026 |
 | Azure Cluster | [ Download  [!DNL Workfront Fusion]  Azure Certificaat 2025 ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/2025-certs/fusion-prod-az-mtls-certificate.pem) | 24 oktober 2024 tot 25 november 2025 |
 
+<!--
 
-### Certificaten voor 2024
+### Certificates for 2024
 
 >[!IMPORTANT]
 >
->* U wordt aangeraden de certificaten voor 2025 te installeren, die hierboven beschikbaar zijn.
->* Deze [!DNL Workfront Fusion] openbare certificaten verlopen op **7 Mei, 2025**. Nadat uw certificaat is verlopen, moet u een nieuw certificaat uploaden naar de webservice. We raden u aan:
+>* We recommend installing the certificates for 2025, available above.
+>* These [!DNL Workfront Fusion] public certificates expire on **May 7, 2025**. After yours expires you will need to upload a new certificate to the web service. We recommend that you:
 >
->   * Noteer de vervaldatum en stel een herinnering voor uzelf in om het certificaat te uploaden naar uw webservice.
->   * Bladwijzer deze pagina om de nieuwe certificaten gemakkelijk te vinden.
+>   * Make note of the expiration date and set a reminder for yourself to upload the certificate to your web service.
+>   * Bookmark this page to easily find the new certificates.
 >
->* Dit zijn mTLS-certificaten die geen jokertekens bevatten.
+>* These are non-wildcard mTLS certificates.
 
-| Datacenter | Koppeling downloaden | Geldige datums |
+| Datacenter | Download link | Dates valid |
 |---|---|---|
-| VS-datacenter | [ Certificaat 2024 van de Download  [!DNL Workfront Fusion]  ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/fusion-prod-us-mtls-certificate.pem) | 5 april 2024 tot 7 mei 2025 |
-| EU-datacenter | [ Certificaat 2024 van de Download  [!DNL Workfront Fusion]  EU ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/fusion-prod-eu-mtls-certificate.pem) | 5 april 2024 tot 7 mei 2025 |
+| US Datacenter | [Download [!DNL Workfront Fusion] Certificate 2024](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/fusion-prod-us-mtls-certificate.pem) | April 5, 2024 to May 7, 2025 |
+| EU Datacenter | [Download [!DNL Workfront Fusion] EU Certificate 2024](/help/workfront-fusion/references/apps-and-modules/universal-connectors/assets/fusion-prod-eu-mtls-certificate.pem) | April 5, 2024 to May 7, 2025 |
+
+-->
 
 ## Wederzijdse TLS inschakelen in HTTP-modules van [!DNL Workfront Fusion]
 
