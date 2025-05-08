@@ -4,9 +4,9 @@ description: Met de Adobe I/O Events-modules kunt u een Adobe Workfront Fusion-s
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: b2229f3e-a2a7-4b07-8ead-a37d193c2ec7
-source-git-commit: 983ce043afbcc44ee8af2dfcd46738f170a2b257
+source-git-commit: ef55cc62a0e0de70662440bc38d3eabbfe5e3c13
 workflow-type: tm+mt
-source-wordcount: '913'
+source-wordcount: '1023'
 ht-degree: 0%
 
 ---
@@ -221,9 +221,12 @@ Een webhaak maken:
 
 ### Handelingen
 
-#### Alle gebeurtenissen ophalen uit een dagboek
+* [Provider- en gebeurtenis-id&#39;s ophalen](#get-provider-and-event-ids)
+* [Een aangepaste API-aanroep maken](#make-a-custom-api-call)
 
-Deze zoekmodule haalt alle gebeurtenissen voor een registratie uit een journaal op.
+#### Provider- en gebeurtenis-id&#39;s ophalen
+
+Deze zoekmodule haalt de Adobe I/O Events-id&#39;s voor de opgegeven provider en gebeurtenissen op.
 
 <table>
      <col/>
@@ -235,44 +238,23 @@ Deze zoekmodule haalt alle gebeurtenissen voor een registratie uit een journaal 
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Registration ID]
+           [!UICONTROL Event provider]
          </td>
          <td>
-           Selecteer de registratie waarvoor u gebeurtenissen wilt ophalen.
+           Selecteer de provider waarvoor u de id wilt ophalen.
         </td>
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Maximum number of returned records]
+           [!UICONTROL Event type]
          </td>
          <td>
-              Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren. 
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Return events that occur after]
-         </td>
-         <td>
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Seek]
-         </td>
-         <td>
-         </td>
-       </tr>
-       <tr>
-         <td role="rowheader">
-           [!UICONTROL Latest]
-         </td>
-         <td>
-         Schakel deze optie in om de laatste gebeurtenis te retourneren.
+              Selecteer de gebeurtenissen waarvoor u id's wilt opgeven. Gebeurtenissen zijn beschikbaar op basis van de gebeurtenisprovider. 
          </td>
        </tr>
      </tbody>
    </table>
+
 
 #### Een aangepaste API-aanroep maken
 
@@ -327,9 +309,9 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de [!DNL Adobe I/O Events
 
 ### Zoekopdrachten
 
-#### Provider- en gebeurtenis-id&#39;s ophalen
+#### Alle gebeurtenissen ophalen uit een dagboek
 
-Deze zoekmodule haalt de Adobe I/O Events-id&#39;s voor de opgegeven provider en gebeurtenissen op.
+Deze zoekmodule haalt alle gebeurtenissen voor een registratie uit een journaal op.
 
 <table>
      <col/>
@@ -341,38 +323,59 @@ Deze zoekmodule haalt de Adobe I/O Events-id&#39;s voor de opgegeven provider en
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Event provider]
+           [!UICONTROL Registration ID]
          </td>
          <td>
-           Selecteer de provider waarvoor u de id wilt ophalen.
+           Selecteer de registratie waarvoor u gebeurtenissen wilt ophalen.
         </td>
        </tr>
        <tr>
          <td role="rowheader">
-           [!UICONTROL Event type]
+           [!UICONTROL Maximum number of returned events]
          </td>
          <td>
-              Selecteer de gebeurtenissen waarvoor u id's wilt opgeven. Gebeurtenissen zijn beschikbaar op basis van de gebeurtenisprovider. 
+              Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren. 
+         </td>
+       </tr>
+       <tr>
+         <td role="rowheader">
+           [!UICONTROL Return events that occur after]
+         </td>
+         <td>Voer een datum in of wijs een datum toe. De module keert gebeurtenissen terug die na deze datum voorkwamen.
+         </td>
+       </tr>
+<!--       <tr>
+         <td role="rowheader">
+           [!UICONTROL Seek]
+         </td>
+         <td>
+         </td>
+       </tr>-->
+       <tr>
+         <td role="rowheader">
+           [!UICONTROL Latest]
+         </td>
+         <td>
+         Schakel deze optie in om de laatste gebeurtenis te retourneren.
          </td>
        </tr>
      </tbody>
    </table>
+&lt;!—
 
-<!--
+Gebeurtenissen bekijken
 
-Watch Events
-
-This trigger module starts a scenario when an event occurs in the chosen Adobe product or service.
+Deze triggermodule start een scenario wanneer er een gebeurtenis plaatsvindt in het gekozen Adobe-product of de gekozen-service.
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
    <tr> 
-   <td role="rowheader">Webhook</td> 
-   <td><p>Select the webhook that you want to use for this trigger, or add a new webhook. </p><p>To add a new webhook, <ol><li>Click <b>Add</b> next to the webhook field.</li><li>Enter the following: <ul><li>A name for the webhook</li><li>The connection that you want to use for this webhook</li><li>The source of the events you want to watch</li></ul></li><li>Click <b>Save</b> to save the webhook and return to the module. </td> 
+   <td role="rowheader">Webhaak</td> 
+   <td><p>Selecteer de webhaak die u voor deze trigger wilt gebruiken of voeg een nieuwe webhaak toe. </p><p>Een nieuwe webhaak toevoegen <ol><li>Klik <b> toevoegen </b> naast het Web-haakgebied.</li><li>Voer het volgende in: <ul><li>Een naam voor de webhaak</li><li>De verbinding die u voor deze webhaak wilt gebruiken</li><li>De bron van de gebeurtenissen die u wilt bekijken</li></ul></li><li>Klik <b> sparen </b> om webhaak te bewaren en aan de module terug te keren. </td> 
    </tr> 
    </tbody> 
 </table>
 
--->
+—>
