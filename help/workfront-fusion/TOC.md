@@ -2,9 +2,9 @@
 user-guide-title: Documentatie voor Adobe Workfront Fusion
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: Gebruik de documenten, tutorials en aanvullende bronnen om te leren hoe u Adobe Workfront Fusion in uw organisatie kunt implementeren en effectief kunt gebruiken.
-source-git-commit: 26c599a9887ad931763b787813153bb7791ce5d1
+source-git-commit: f3921961b90d086c11dbad37bf277e69eb95f63f
 workflow-type: tm+mt
-source-wordcount: '1721'
+source-wordcount: '1730'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,7 @@ ht-degree: 1%
    * [Adobe Workfront Fusion-releaseactiviteit](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
    * Fusion-releases - 2025 {#fusion-releases-2025}
       * [Workfront Fusion releaseactiviteit: week van 5 mei 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-5-5.md)
+      * [Workfront Fusion release activity: Week van 28 april 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-4-28.md)
       * [Workfront Fusion release activity: Week van 21 april 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-4-21.md)
       * [Workfront Fusion release activity: Week van 14 april 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-4-14.md)
       * [Workfront Fusion release activity: Week van 31 maart 2025](/help/workfront-fusion/fusion-product-releases/fusion-releases-2025/fusion-2025-3-31.md)
@@ -208,7 +209,7 @@ ht-degree: 1%
       * [Workaround foutafhandeling opnieuw configureren](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
       * [Fouten oplossen die worden verwerkt door de Break-richtlijn](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md)
    * Scenario-instellingen configureren {#configure-scenario-settings}
-      * [Scenario-instellingen configureren](/help/workfront-fusion/create-scenarios/config-scenarios-settings/config-scenario-settings-toc.md)
+      * [Scenario-instellingen configureren: artikelindex](/help/workfront-fusion/create-scenarios/config-scenarios-settings/config-scenario-settings-toc.md)
       * [Een scenario plannen](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md)
       * [Scenario-instellingen configureren](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md)
       * [Notities toevoegen aan een scenario](/help/workfront-fusion/create-scenarios/config-scenarios-settings/add-notes-to-scenario.md)

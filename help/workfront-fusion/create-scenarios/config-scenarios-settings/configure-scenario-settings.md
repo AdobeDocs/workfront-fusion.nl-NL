@@ -5,9 +5,9 @@ description: U kunt specifieke montages voor scenario's in het paneel van scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: a7411649c0d65956552f40a7710315536755dc65
 workflow-type: tm+mt
-source-wordcount: '1198'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -96,8 +96,8 @@ Wanneer de opeenvolgende verwerking wordt toegelaten, zijn de parallelle uitvoer
 
 **Onvolledige Uitvoeringen**: Als de &quot;Onvolledige Uitvoeringen&quot;ook wordt toegelaten, als een fout tijdens de uitvoering van een scenario voorkomt, wordt het scenario gepauzeerd. Een van de volgende gebeurtenissen vindt dan plaats:
 
-* Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
-* Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
+* Als de Opeenvolgende verwerkingsoptie **** wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
+* Als de Opeenvolgende verwerkingsoptie **** gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
 
   Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
@@ -185,7 +185,7 @@ U kunt de reeds in werking gestelde cycli in de details van het Scenario zien:
 
 ![ het detail van het Scenario ](assets/scenario-detail-350x207.png)
 
-Voor meer informatie over deze pagina, zie {de details van 0} Scenario [&#128279;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).
+Voor meer informatie over deze pagina, zie {de details van 0} Scenario ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).[
 
 >[!ENDSHADEBOX]
 
@@ -198,3 +198,14 @@ Voor meer informatie over fouten, zie [ types van Fout ](/help/workfront-fusion/
 >[!NOTE]
 >
 >Als een scenario met een onmiddellijke trekker begint, wordt het plaatsen genegeerd en het scenario wordt onmiddellijk gedeactiveerd zodra de eerste fout is voorgekomen.
+
+### Werkgroep
+
+>[!NOTE]
+>
+>Deze instelling is alleen zichtbaar als aan de volgende twee voorwaarden is voldaan:
+>
+>* U bent een organisatiebeheerder of eigenaar
+>* Er zijn meerdere arbeidersgroepen aan uw organisatie gekoppeld.
+
+Dit het plaatsen wijst het scenario aan een specifieke arbeiderspool toe verbonden aan uw organisatie, die u toestaat om middelen aan prioritaire scenario&#39;s te wijden.
