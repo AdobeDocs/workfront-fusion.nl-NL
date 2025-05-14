@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 7b236869-bd83-4db5-a363-d6570f6e4aff
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 55418d9a25d44e107236898bb236e9daf9fe5bd1
 workflow-type: tm+mt
-source-wordcount: '1340'
+source-wordcount: '1351'
 ht-degree: 0%
 
 ---
@@ -122,6 +122,8 @@ Verbinding maken voor uw [!DNL ServiceNow] -modules:
      </tr> 
     </tbody> 
    </table>
+
+1. Klik **verdergaan** om de verbinding te bewaren en aan de module terug te keren.
 
    <!--Markdown placeholder-->
 

@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1a09aa86-5e0e-4347-b4cf-2b0a95e5b049
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 2bd3a9ba84182307af9349163db284514dd12aca
 workflow-type: tm+mt
-source-wordcount: '2526'
+source-wordcount: '2761'
 ht-degree: 0%
 
 ---
@@ -93,6 +93,7 @@ De SharePoint-connector gebruikt het volgende:
 
 * [Verbind Microsoft SharePoint Online met  [!DNL Workfront Fusion]  gebruikend a [!DNL Microsoft]  rekening](#connect-microsoft-sharepoint-online-to-workfront-fusion-using-a-microsoft-account)
 * [Verbind Microsoft SharePoint Online met  [!DNL Workfront Fusion]  gebruikend geavanceerde montages](#connect-microsoft-sharepoint-online-to-workfront-fusion-using-advanced-settings)
+* [Microsoft SharePoint Online verbinden met  [!DNL Workfront Fusion]  het gebruiken van certificaatvergunning](#connect-microsoft-sharepoint-online-to-workfront-fusion-using-certificate-authorization)
 
 ### Microsoft SharePoint Online verbinden met [!DNL Workfront Fusion] via een [!DNL Microsoft] -account
 
@@ -100,19 +101,111 @@ U kunt uw [!DNL Microsoft] -account gebruiken om een verbinding met Microsoft Sh
 
 ### Microsoft SharePoint Online verbinden met [!DNL Workfront Fusion] via geavanceerde instellingen
 
-Als u Microsoft SharePoint Online wilt verbinden met [!DNL Workfront Fusion] zonder een [!DNL Microsoft] -account, hebt u een client-id, clientgeheim en huurnummer-id nodig.
+Schakel de optie Geavanceerde instellingen tonen in om referenties op te nemen in de verbinding. Voor dit type van verbinding, hebt u een identiteitskaart van de Cliënt, Geheime cliënt, en identiteitskaart van de Huurder nodig.
 
-1. Klik **[!UICONTROL Add]** dichtbij de bovenkant van **SharePoint Online van Microsoft** doos om de **[!UICONTROL Create a connection]** doos te openen.
-
-1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]** .
+1. Klik in een willekeurige SharePoint-module op **[!UICONTROL Add]** in de buurt van het veld Verbinding om het vak **[!UICONTROL Create a connection]** te openen.
 1. Klik op **[!UICONTROL Show advanced settings]**.
-1. Voer de Microsoft SharePoint Online **[!UICONTROL Client ID]** en **[!UICONTROL Client Secret]** in.
+1. Vul de volgende velden in:
 
-1. Klik op **[!UICONTROL Continue]**.
-1. Voer in het aanmeldingsvenster dat wordt weergegeven uw aanmeldingsgegevens in om u aan te melden bij de app als u dat nog niet hebt gedaan.
-1. (Voorwaardelijk) Als een knop **[!UICONTROL Allow]** wordt weergegeven, klikt u op de knop om de app te verbinden met [!DNL Workfront Fusion] .
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Connection type]</p> </td> 
+      <td>Om cliëntgeloofsbrieven te gebruiken, uitgezochte <b> Microsoft 365 E-mail </b>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
+      <td>Voer een naam in voor de verbinding.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Client ID]</p> </td> 
+      <td>Voer de client-id in voor de SharePoint-toepassing waarmee u verbinding maakt. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Client secret]</p> </td> 
+      <td>Voer het clientgeheim in voor de SharePoint-toepassing waarmee u verbinding maakt.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Tenant ID]</p> </td> 
+      <td>Voer de huurder-id in van de SharePoint-app waarmee u verbinding maakt.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Instance]</p> </td> 
+      <td> <p>Voer het adres in van uw [!DNL ServiceNow] -account zonder <code>https://</code> (gewoonlijk <code>&lt;company>.service-now.com</code> ).</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
 
-## Microsoft SharePoint Online-modules en hun velden
+1. Klik **verdergaan** om de verbinding te bewaren en aan de module terug te keren.
+
+### Microsoft SharePoint Online verbinden met [!DNL Workfront Fusion] certificaatverificatie
+
+U kunt certificaatautorisatie gebruiken om verbinding te maken met SharePoint.
+
+>[!IMPORTANT]
+>
+>Als u certificaatautorisatie wilt gebruiken, moet u eerst een app maken in Microsoft Entra en het certificaat daar uploaden.
+>
+>Voor instructies, zie [ hoe te om certificaatautoriteiten voor Microsoft te vormen Entra op certificaat-gebaseerde authentificatie ](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-configure-certificate-authorities) in de documentatie van Microsoft.
+
+1. Klik in een willekeurige SharePoint-module op **[!UICONTROL Add]** in de buurt van het veld Verbinding om het vak **[!UICONTROL Create a connection]** te openen.
+1. Klik op **[!UICONTROL Show advanced settings]**.
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Connection type]</p> </td> 
+      <td>Om certificaatvergunning te gebruiken, uitgezochte <b> Microsoft SharePoint Online (Auth van de Waarschuwing) </b>.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Connection name]</p> </td> 
+      <td>Voer een naam in voor de verbinding.</td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Client ID]</p> </td> 
+      <td>Voer de client-id in voor de SharePoint-toepassing waarmee u verbinding maakt. </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader"> <p>[!UICONTROL Thumbprint]</p> </td> 
+      <td>Voer de miniatuur in voor de SharePoint-toepassing waarmee u verbinding maakt.</td> 
+     </tr> 
+      <tr>
+        <td role="rowheader">[!UICONTROL Private key]</td>
+        <td>
+          <p>Voer het certificaat of de persoonlijke sleutel in die is gegenereerd toen uw referenties in Microsoft werden gemaakt. </p>
+          <p>Uw persoonlijke sleutel of certificaat uitnemen:</p>
+          <ol>
+            <li>
+              <p>Klik op <b>[!UICONTROL Extract]</b>.</p>
+            </li>
+            <li>
+            <p>Selecteer of u een certificaat of een persoonlijke sleutel uitpakt.</li>
+            <li>
+              <p>Selecteer het type bestand dat u extraheert.</p>
+            </li>
+            <li>
+              <p>Selecteer het bestand dat de persoonlijke sleutel of het certificaat bevat.</p>
+            </li>
+            <li>
+              <p>Voer het wachtwoord voor het bestand in.</p>
+            </li>
+            <li>
+              <p>Klik op <b>[!UICONTROL Save]</b> om het bestand uit te pakken en terug te keren naar de verbindingsinstelling.</p>
+            </li>
+          </ol>
+        </td>
+      </tr>
+    </tbody> 
+   </table>
+
+1. Klik **verdergaan** om de verbinding te bewaren en aan de module terug te keren.
+
+## Microsoft SharePoint-modules en hun velden
 
 Wanneer u Microsoft SharePoint Online-modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende Microsoft SharePoint Online-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
