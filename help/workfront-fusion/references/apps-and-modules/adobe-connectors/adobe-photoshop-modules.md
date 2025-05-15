@@ -4,9 +4,9 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: db1d6f5bf29063b069681395c6ff6d3554c67dc3
+source-git-commit: a9e7053c443c9603ab3dc84c094196b7506cc7d0
 workflow-type: tm+mt
-source-wordcount: '3741'
+source-wordcount: '4291'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 &#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
 
-&#42;&#42; Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL [Adobe Workfront Fusion] licenses]](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+&#42;&#42; Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [!DNL [Adobe Workfront Fusion] licenses](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -169,6 +169,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Een masker maken](#create-a-mask)
 * [Een nieuwe PSD maken](#create-a-new-psd)
 * [Tekstlagen bewerken](#edit-text-layers)
+* [Tekstlagen bewerken (verouderd)](#edit-text-layers-legacy)
 * [Diepte vervagen uitvoeren](#execute-depth-blur)
 * [Photoshop-handelingen uitvoeren](#execute-photoshop-actions)
 * [Photoshop-handelingen uitvoeren (JSON)](#execute-photoshop-actions-json)
@@ -177,6 +178,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Een aangepaste API-aanroep maken](#make-a-custom-api-call)
 * [Achtergrond verwijderen](#remove-background)
 * [Een slim object vervangen](#replace-a-smart-object)
+* [Een slim object vervangen (verouderd)](#replace-a-smart-object-legacy)
 * [De grootte van een afbeelding wijzigen](#resize-an-image)
 * [Watermerk toepassen op een afbeelding](#watermark-an-image)
 
@@ -523,7 +525,7 @@ Voor gebieden met betrekking tot deze module, zie [ een nieuwe PSD ](https://dev
 
 ### Tekstlagen bewerken
 
-In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand.
+In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand. U kunt afzonderlijke bewerkingsdetails voor meerdere lagen in hetzelfde bestand invoeren.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -559,7 +561,7 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand.
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Layers]</td>
-   <td> <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/photoshop/photoshop-api-docs/api/#tag/Photoshop/operation/text"> tekstlaag </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
+   <td> <p>Voor elke tekstlaag die u wilt uitgeven, <b> toevoegen punt </b> en ga de laagopties in.<p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_editText/"> tekst </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Output file storage]</td>
       <td>
@@ -593,6 +595,81 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand.
   </tbody>
 </table>
 
+
+
+### Tekstlagen bewerken (verouderd)
+
+Deze actiemodule bewerkt een tekstlaag in een Photoshop-bestand.
+
+Om veelvoudige lagen uit te geven, gebruik [ tekstlagen ](#edit-text-layers) module uitgeven.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Input file storage]</td>
+      <td>
+        <p>Selecteer de bestandsservice waarin het bestand dat u wilt bewerken is opgeslagen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Input file URL]</p>
+      </td>
+   <td> Voer de URL of het pad in of wijs deze toe aan het bestand dat u wilt bewerken. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Manage missing fonts]</td>
+      <td>
+        <p>Selecteer de actie die u wilt uitvoeren als het document een of meer ontbrekende lettertypen bevat. Als het lettertype niet wordt opgegeven, gebruikt de module het standaardlettertype.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Default font]  </td>
+      <td>
+        <p>Voer de volledige postscriptnaam in van het lettertype dat als algemene standaardinstelling voor het document moet worden gebruikt. Dit lettertype wordt gebruikt voor alle tekstlagen met een ontbrekend lettertype en er is geen specifiek lettertype voor die laag opgegeven. Als dit lettertype ontbreekt, wordt de optie voor het beheren van ontbrekende lettertypen van kracht.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Layers]</td>
+   <td> <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_editText/"> tekstlaag </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output file storage]</td>
+      <td>
+        <p>Selecteer de bestandsservice waar het bewerkte bestand moet worden opgeslagen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file URL]</p>
+      </td>
+   <td> Voer de URL of het pad in of wijs deze toe waar het bewerkte bestand wordt opgeslagen. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Output file type]</p>
+      </td>
+   <td> Selecteer het bestandstype voor het bewerkte bestand. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Overwrite]</td>
+      <td>
+        <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Compression]</p>
+      </td>
+   <td> Selecteer het compressieniveau voor het uitvoerbestand. </td> 
+    </tr>
+  </tbody>
+</table>
 
 
 ### Photoshop-handelingen uitvoeren (JSON)
@@ -1098,6 +1175,8 @@ Deze actiemodule identificeert het hoofdonderwerp van uw afbeelding en verwijder
 
 Deze actiemodule vervangt een slim object in een PSD-laag en genereert nieuwe uitvoeringen.
 
+Deze module gebruikt versie 2 van de API voor slimme objecten.
+
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -1122,7 +1201,80 @@ Deze actiemodule vervangt een slim object in een PSD-laag en genereert nieuwe ui
       <td role="rowheader">
         <p>[!UICONTROL Layers]</p>
       </td>
-   <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de vooruitgangsmontages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
+   <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de geavanceerde montages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Outputs]</td>
+      <td>
+        <p>Voor elke nieuwe vertoning die u in de module wilt maken, klikt u op Item toevoegen en vult u de volgende velden in. U kunt maximaal 25 uitvoerbestanden hebben.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Storage]</td>
+      <td>
+        <p>Selecteer de bestandsservice waar het nieuwe bestand moet worden opgeslagen.</p><p>Als u interne Fusion-opslag selecteert, wordt het bestand beschikbaar voor latere modules, maar wordt het bestand niet buiten het scenario beschikbaar gesteld.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) File location]</p>
+      </td>
+   <td> Voer de URL of het pad in of wijs deze toe waar het nieuwe bestand wordt opgeslagen.  Dit is alleen nodig als u geen interne Fusion-opslag hebt gekozen voor de uitvoeropslag.</td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Output) Width]</p>
+      </td>
+   <td> De breedte, in pixels, van het uitvoerbestand. De oorspronkelijke hoogte-breedteverhouding blijft behouden in de module. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Output) Overwrite]</td>
+      <td>
+        <p>Selecteer of het zojuist bewerkte bestand alle uitvoerbestanden overschrijft die al bestaan. Dit geldt alleen voor bestanden in Adobe-opslag.</p>
+      </td>
+    </tr>
+        <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Maximum number of returned results]</p>
+      </td>
+   <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
+    </tr>
+    </tbody>
+</table>
+
+
+
+### Een slim object vervangen (verouderd)
+
+Deze actiemodule vervangt een slim object in een PSD-laag en genereert nieuwe uitvoeringen.
+
+In deze module wordt de oudere versie van slimme objecten gebruikt.
+
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL (Input) Storage]</td>
+      <td>
+        <p>Selecteer de bestandsservice waarin het slimme object is opgeslagen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL (Input) File location]</p>
+      </td>
+   <td> Voer de URL of het pad van het slimme object in of wijs deze toe. </td> 
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Layers]</p>
+      </td>
+   <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de geavanceerde montages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Outputs]</td>

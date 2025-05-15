@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 6219cd4406c2ccf22b1e94e5d264722e640fe3e4
 workflow-type: tm+mt
-source-wordcount: '2251'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
 
 Deze module is vervangen en wordt in de nabije toekomst verwijderd. Gebruik in plaats hiervan de module Een afbeelding vullen.
 
-## Een afbeelding genereren
+### Een afbeelding genereren
 
 Deze actiemodule genereert een afbeelding op basis van een vraag die u opgeeft. U kunt ook een optionele referentieafbeelding opgeven en de gegenereerde afbeelding komt overeen met de stijl van de referentieafbeelding.
 
@@ -258,6 +258,10 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
    <td>Voer een vraag in of wijs een vraag toe voor de afbeelding die u wilt genereren. Als u meer details opgeeft in de vraag, hebt u meer controle over wat er in de afbeelding wordt weergegeven.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Model version]</td> 
+   <td>Selecteer de Firefly-modelversie die u wilt gebruiken om de afbeelding te genereren.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Number of variations]</td> 
@@ -388,6 +392,10 @@ Deze actiemodule genereert afbeeldingen die lijken op de bronafbeelding die u op
   <tr> 
    <td role="rowheader">[!UICONTROL Number of variations]</td> 
    <td>Voer een getal in tussen 1 en 4. De module genereert dit aantal afbeeldingsvariaties.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Model version]</td> 
+   <td>Selecteer de Firefly-modelversie die u wilt gebruiken om de afbeeldingen te genereren.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generated image format]</td> 
