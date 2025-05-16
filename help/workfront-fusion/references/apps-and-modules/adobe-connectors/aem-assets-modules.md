@@ -70,7 +70,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
   Voor instructies bij vestiging [!UICONTROL Server-to-server] stroom in [!DNL Adobe Developer console], zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 * Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 
-  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.[
+  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.
 
 ## Adobe Experience Manager Assets API-informatie
 
@@ -99,7 +99,7 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Assets] -modules:
 
      Voor deze configuratie is informatie van de [!DNL Adobe Admin Console] vereist.
 
-   * **[!DNL AEM Assets Basic]([!DNL Adobe Managed Services])**
+   * **[!DNL AEM Assets Basic] ([!DNL Adobe Managed Services])**
 
      Voor deze configuratie zijn een gebruikersnaam en wachtwoord vereist.
 
@@ -122,7 +122,7 @@ Verbinding maken voor uw [!DNL Adobe Experience Manager Assets] -modules:
 >
 >* Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 >
->   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst ](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.[
+>   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#128279;](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials) in de documentatie van Adobe Experience Manager.
 
 
 <table style="table-layout:auto"> 
