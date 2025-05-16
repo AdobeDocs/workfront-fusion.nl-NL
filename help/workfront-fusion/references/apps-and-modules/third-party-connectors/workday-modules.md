@@ -5,7 +5,7 @@ description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema
 author: Becky
 feature: Workfront Fusion
 exl-id: 77237a1b-2acd-4350-9cc0-ec43b8b08137
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 40470e5d2183f690ad65f5e1170f78c37dee8603
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 0%
@@ -104,7 +104,7 @@ De Workday-connector gebruikt het volgende:
                 <td role="rowheader">
                     <p role="rowheader">[!UICONTROL Connection name]</p>
                 </td>
-                <td>Geef een naam op voor de verbinding</td>
+                <td>Voer een naam in voor de verbinding.</td>
             </tr>
             <tr>
                 <td  role="rowheader">[!UICONTROL Workday host]</td>
