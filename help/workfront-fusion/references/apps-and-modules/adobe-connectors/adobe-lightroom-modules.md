@@ -98,7 +98,7 @@ Als u verbinding wilt maken met Adobe Lightroom, moet u eerst een OAuth-app conf
 
 1. Beginnen met het configureren van een OAuth Web App in de Adobe Admin Console.
 
-   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker ](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation) in de de ontwikkelaarsdocumentatie van Adobe.[
+   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation) in de de ontwikkelaarsdocumentatie van Adobe.
 1. Wanneer het vormen van OAuth Web App, ga de volgende waarden in:
 
    <table style="table-layout:auto"> 
