@@ -4,9 +4,9 @@ description: U kunt informatie over de gebeurtenissen of de uitvoeringen van een
 author: Becky
 feature: Workfront Fusion
 exl-id: 974b32b4-d86a-48cd-a8d4-1ae2cf309b9b
-source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
+source-git-commit: cc7c05614390e20d4051635c605e12dfa65493a1
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '832'
 ht-degree: 0%
 
 ---
@@ -105,6 +105,8 @@ Het tabblad [!UICONTROL History] bevat meer details dan beschikbaar zijn op de p
    >De scenario-geschiedenis toont a **badge van de a** Verwerking naast scenario&#39;s die onlangs hebben uitgevoerd, terwijl de uitvoeringsdetails aan opslag worden geschreven. De verwerking vindt onmiddellijk plaats nadat het scenario wordt uitgevoerd. en mag niet langer duren dan een paar minuten. Details van de uitvoering van het scenario zijn mogelijk niet zichtbaar terwijl de uitvoering wordt verwerkt.
 
 1. Om details voor een specifieke scenario uitvoering te bekijken, klik **Details** in uiterst rechts. De koppeling [!UICONTROL details] is alleen zichtbaar als er details beschikbaar zijn voor de uitvoering.
+
+   Voor meer informatie bij het bekijken van de details van de scenariouitvoering, zie [ Mening een specifieke scenario uitvoering ](/help/workfront-fusion/manage-scenarios/view-a-specific-scenario-execution.md).
 1. Om gebeurtenissen te bekijken, knevel **gebeurtenissen** tonen aan.
 
 
