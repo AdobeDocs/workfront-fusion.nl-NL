@@ -4,9 +4,9 @@ description: Met de Adobe Lightroom-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3f29ab35-7a90-4afb-a283-4faaacec5b15
-source-git-commit: 5d1424fe88efb56e565077bf36211795c9bc96ed
+source-git-commit: 4d31a447d0d8d91ef4f86d8fd0bc63663b0f5ad0
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2394'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Als u verbinding wilt maken met Adobe Lightroom, moet u eerst een OAuth-app conf
 
 1. Beginnen met het configureren van een OAuth Web App in de Adobe Admin Console.
 
-   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation) in de de ontwikkelaarsdocumentatie van Adobe.
+   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker ](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation) in de de ontwikkelaarsdocumentatie van Adobe.[
 1. Wanneer het vormen van OAuth Web App, ga de volgende waarden in:
 
    <table style="table-layout:auto"> 
@@ -246,8 +246,6 @@ Deze actiemodule wint meta-gegevens van een catalogus in Adobe Lightroom terug. 
 
 Met deze actiemodule maakt en uploadt u een origineel bestand voor een element.
 
-<!--BECKY START HERE-->
-
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -293,7 +291,6 @@ Met deze actiemodule maakt en uploadt u een origineel bestand voor een element.
 
 In deze actiemodule wordt een nieuw element gemaakt met initiële metagegevens en importgegevens.
 
-
 <table style="table-layout:auto"> 
   <col/>
   <col/>
@@ -335,6 +332,30 @@ In deze actiemodule wordt een nieuw element gemaakt met initiële metagegevens e
     <tr>
       <td role="rowheader">[!UICONTROL Date captured]</td>
       <td>
+        <p>Voer de vastlegdatum van het element in of wijs deze toe met de notatie <code>YYYY-MM-DDT00:00:00-00:00</code> . Deze wordt door de server ingesteld als de vastgelegde datum is ingesteld op <code>0000-00-00T00:00:00</code> . </p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL File name]</td>
+      <td>
+        <p>Voer de bestandsnaam in of wijs de naam toe van het element dat u in Lightroom importeert.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Name of Device Imported On]</td>
+      <td>
+        <p>Voer de naam in of wijs de naam toe van het apparaat dat het element importeert.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Account ID of User Who Imported]</td>
+      <td>
+        <p>Voer de id in of wijs deze toe aan de gebruiker die het element importeert.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Import Timestamp]</td>
+      <td>
         <p>Voer een datum in of wijs een datum toe met de notatie <code>YYYY-MM-DDT00:00:00-00:00</code> .</p>
       </td>
     </tr>
@@ -343,7 +364,7 @@ In deze actiemodule wordt een nieuw element gemaakt met initiële metagegevens e
 
 #### Externe XMP-ontwikkelinstellingsbestand voor middelen maken
 
-Deze actiemodule ondersteunt twee workflows. De eerste workflow bestaat uit het uploaden van het externe XMP-bestand met ontwikkelinstellingen voor het element. De tweede workflow bestaat uit het maken van een extern XMP-bestand voor ontwikkelinstellingen door te kopiëren van het externe XMP-instellingenbestand van een ander element.
+Deze handelingsmodule ondersteunt twee workflows: het uploaden van het externe XMP-bestand voor ontwikkelinstellingen voor het element of het maken van een extern XMP-bestand voor ontwikkelinstellingen door het kopiëren van het externe XMP-instellingenbestand van een ander element.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -354,7 +375,7 @@ Deze actiemodule ondersteunt twee workflows. De eerste workflow bestaat uit het 
       <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Length of content in bytes]</td>
+      <td role="rowheader">[!UICONTROL Content Length in Bytes]</td>
       <td>
         <p>Voer de lengte van de inhoud in bytes in of wijs deze toe.</p>
       </td>
@@ -368,7 +389,7 @@ Deze actiemodule ondersteunt twee workflows. De eerste workflow bestaat uit het 
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
       <td>
-        <p>Voer de id in van de catalogus die het element bevat of wijs deze toe.</p>
+        <p>Voer de id van de catalogus in of wijs deze toe op de plaats waar u het element wilt maken.</p>
       </td>
     </tr>
     <tr>
@@ -413,7 +434,7 @@ Deze actiemodule genereert asynchroon uitvoeringen voor een origineel bestand.
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
       <td>
-        <p>Voer de id in van de catalogus die het element bevat of wijs deze toe.</p>
+        <p>Voer de id van de catalogus in of wijs deze toe op de plaats waar u de uitvoeringen wilt genereren.</p>
       </td>
     </tr>
     <tr>
@@ -468,7 +489,7 @@ Met deze actiemodule haalt u het meest recente externe XMP-instellingsbestand vo
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
       <td>
-        <p>Voer de id in van de catalogus die het element bevat of wijs deze toe.</p>
+        <p>Voer de id in van de catalogus die het element bevat dat is gekoppeld aan het instellingsbestand voor XMP-ontwikkeling of wijs deze id toe.</p>
       </td>
     </tr>
     <tr>
@@ -480,7 +501,7 @@ Met deze actiemodule haalt u het meest recente externe XMP-instellingsbestand vo
   </tbody>
 </table>
 
-#### De nieuwste uitvoering van elementen ophalen
+#### Nieuwste uitvoering van element ophalen
 
 Deze actiemodule wint de recentste elementenvertoning van het gespecificeerde type terug.
 
@@ -495,13 +516,13 @@ Deze actiemodule wint de recentste elementenvertoning van het gespecificeerde ty
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
       <td>
-        <p>Voer de id in van de catalogus die het element bevat of wijs deze toe.</p>
+        <p>Voer de id in van de catalogus die het element bevat waarvoor u een vertoning wilt ophalen of wijs deze toe.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Asset ID]</td>
       <td>
-        <p>Voer de id in of wijs deze toe aan het element dat is gekoppeld aan het XMP-instellingsbestand voor ontwikkeling.</p>
+        <p>Voer de id in van het element waarvoor u een vertoning wilt ophalen of wijs deze toe.</p>
       </td>
     </tr>
     <tr>
@@ -538,9 +559,15 @@ Deze actiemodule wint activa terug die door de gebruiker worden bezeten waarvan 
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Return assets captured before]</td>
+      <td role="rowheader">[!UICONTROL Return assets captured before given time]</td>
       <td>
-        <p>Voer een datum in met de notatie <code>YYYY-MM-DDT00:00:00</code> . De module retourneert resultaten die vóór deze datum zijn vastgelegd.</p><p> Dit veld kan niet worden gebruikt met het veld <code>Return assets captured after</code> .</p>
+        <p>Voer een datum in met de notatie <code>YYYY-MM-DDT00:00:00</code> . De module retourneert resultaten die vóór deze datum zijn vastgelegd.</p><p> Dit veld kan niet worden gebruikt met het veld <code>Return assets captured after given time</code> .</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Return assets captured after given time]</td>
+      <td>
+        <p>Voer een datum in met de notatie <code>YYYY-MM-DDT00:00:00</code> . De module retourneert resultaten die vóór deze datum zijn vastgelegd.</p><p> Dit veld kan niet worden gebruikt met het veld <code>Return assets captured before given time</code> .</p>
       </td>
     </tr>
     <tr>
@@ -552,19 +579,19 @@ Deze actiemodule wint activa terug die door de gebruiker worden bezeten waarvan 
     <tr>
       <td role="rowheader">[!UICONTROL SHA256 Hash value of original file]</td>
       <td>
-        <p></p>
+        <p>Voer de hashwaarde van het oorspronkelijke bestand in of wijs deze toe. Assets met een overeenkomende hash wordt geretourneerd.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Hide assets that are inside stacks?"]</td>
       <td>
-        <p></p>
+        <p>Selecteer Ja om elementen in stapels te verbergen (elementen in stapels worden niet geretourneerd). Selecteer Nee als u elementen in stapels in de resultaten wilt opnemen.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Asset subtype values]</td>
       <td>
-        <p></p>
+        <p>Voer een lijst in met subtypen die door puntkomma's worden gescheiden en wijs deze toe.</p>
       </td>
     </tr>
     <tr>
@@ -581,24 +608,26 @@ Deze actiemodule wint activa terug die door de gebruiker worden bezeten waarvan 
     <tr>
       <td role="rowheader">[!UICONTROL Group values]</td>
       <td>
-        <p></p>
+        <p>Voer een lijst met groepswaarden in of wijs deze toe aan een lijst met door puntkomma's gescheiden waarden.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Name values]</td>
       <td>
-        <p></p>
+        <p>Voer een lijst met naamwaarden in of wijs deze toe aan een lijst met door puntkomma's gescheiden waarden.</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Favorite status]</td>
       <td>
-        <p></p>
+        <p>Voer de favoriete status in of wijs deze toe waarvoor u resultaten wilt retourneren.</p>
       </td>
     </tr>
     </tr>
   </tbody>
 </table>
+
+<!--BECKY START HERE-->
 
 ### Albums
 
