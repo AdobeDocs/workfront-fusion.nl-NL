@@ -4,9 +4,9 @@ description: Met de Adobe Lightroom-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3f29ab35-7a90-4afb-a283-4faaacec5b15
-source-git-commit: 4d31a447d0d8d91ef4f86d8fd0bc63663b0f5ad0
+source-git-commit: 420665071db63954bce14b2011c5ecdb97403fd1
 workflow-type: tm+mt
-source-wordcount: '2394'
+source-wordcount: '2725'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Als u verbinding wilt maken met Adobe Lightroom, moet u eerst een OAuth-app conf
 
 1. Beginnen met het configureren van een OAuth Web App in de Adobe Admin Console.
 
-   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation) in de de ontwikkelaarsdocumentatie van Adobe.
+   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker ](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation) in de de ontwikkelaarsdocumentatie van Adobe.[
 1. Wanneer het vormen van OAuth Web App, ga de volgende waarden in:
 
    <table style="table-layout:auto"> 
@@ -627,8 +627,6 @@ Deze actiemodule wint activa terug die door de gebruiker worden bezeten waarvan 
   </tbody>
 </table>
 
-<!--BECKY START HERE-->
-
 ### Albums
 
 * [Elementen toevoegen aan een album](#add-assets-to-an-album)
@@ -681,10 +679,10 @@ Deze actiemodule voegt een of meer elementen toe aan het opgegeven album. U kunt
     <tr>
       <td role="rowheader">[!UICONTROL Order]</td>
       <td>
-        <p></p>
+        <p>Geef de volgorde van het element op.</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL Metadata]</td>
+      <td role="rowheader">[!UICONTROL Service Payload]</td>
       <td>
         <p>Voer metagegevens in of wijs deze toe aan het element dat u wilt opnemen. Dit moet één tekstreeks zijn met een maximale lengte van 1-24 tekens.</p>
       </td>
@@ -727,32 +725,46 @@ Deze actiemodule maakt een nieuw album in Lightroom.
         <p>Selecteer het subtype voor het album.</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL API key]</td>
+      <td role="rowheader">[!UICONTROL Service ID]</td>
       <td>
         <p>Voer de API-sleutel in van de service die het album maakt.</p>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL Datetime user created]</td>
+      <td role="rowheader">[!UICONTROL Date User Created]</td>
       <td>
         <p>Voer een datum in of wijs een datum toe met de notatie <code>YYYY-MM-DDT00:00:00-00:00Z</code> .</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Datetime user updated]</td>
+      <td role="rowheader">[!UICONTROL Date User Updated]</td>
       <td>
         <p>Voer een datum in of wijs een datum toe met de notatie <code>YYYY-MM-DDT00:00:00-00:00Z</code> .</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Album name]</td>
+      <td role="rowheader">[!UICONTROL Album Name]</td>
       <td>
         <p>Voer een naam in voor het nieuwe album of wijs een naam toe.</p>
       </td>
+    </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Cover ID]</td>
       <td>
         <p>Voer de id in van een element dat u als voorblad van dit album wilt gebruiken of wijs deze toe.</p>
       </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Parent ID]</td>
+      <td>
+        <p>Voer de id van het bovenliggende element voor dit album in of wijs deze toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Service Payload]</td>
+      <td>
+        <p>Voer de metagegevens van een album in of wijs deze toe als een tekenreeks.</p>
+      </td>
+    </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Remote ID]</td>
       <td>
@@ -828,7 +840,7 @@ Het verwijderde album moet zijn gemaakt door dezelfde clienttoepassing die het a
 
 ### Een album ophalen
 
-Deze actiemodule wint het gespecificeerde album terug
+Deze actiemodule wint het gespecificeerde album terug.
 
 <table style="table-layout:auto"> 
   <col/>
@@ -857,7 +869,100 @@ Deze actiemodule wint het gespecificeerde album terug
 
 Deze actiemodule wint een lijst van activa in het gespecificeerde album terug.
 
-
+<table style="table-layout:auto"> 
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Catalog ID]</td>
+      <td>
+        <p>Voer de id in van de catalogus die het album bevat of wijs deze toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Album ID]</td>
+      <td>
+        <p>Voer de id in van het album waarvan u elementen wilt weergeven of wijs deze toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Capture Assets Before Time]</td>
+      <td>
+        <p>Voer een datum in met de notatie <code>YYYY-MM-DDT00:00:00</code> . De module retourneert resultaten die vóór deze datum zijn vastgelegd.</p><p> Dit veld kan niet worden gebruikt met het veld <code>Return assets captured after given time</code> .</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Capture Assets After Time]</td>
+      <td>
+        <p>Voer een datum in met de notatie <code>YYYY-MM-DDT00:00:00</code> . De module retourneert resultaten die vóór deze datum zijn vastgelegd.</p><p> Dit veld kan niet worden gebruikt met het veld <code>Return assets captured before given time</code> .</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Ending Asset Order Value]</td>
+      <td>
+        <p>Voer de orderwaarde van het laatste element in of wijs deze toe.</p><p> Dit veld kan alleen worden gebruikt met het veld <code>Capture Assets After Time</code> .</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Starting Asset Order Value]</td>
+      <td>
+        <p>Voer de orderwaarde van het beginelement in of wijs deze toe.</p><p> Dit veld kan alleen worden gebruikt met het veld <code>Capture Assets BEfore Time</code> .</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Number of Assets to Return (1-500)]</td>
+      <td>
+        <p>Ga het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren. Dit getal moet tussen 1 en 500 liggen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Hide assets that are inside stacks?"]</td>
+      <td>
+        <p>Selecteer Ja om elementen in stapels te verbergen (elementen in stapels worden niet geretourneerd). Selecteer Nee als u elementen in stapels in de resultaten wilt opnemen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Subtype Values (semi-colon separated)]</td>
+      <td>
+        <p>Voer een lijst in met subtypen die door puntkomma's worden gescheiden en wijs deze toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Flag Values (semi-colon separated)]</td>
+      <td>
+        <p>Voer een lijst met door puntkomma's gescheiden waarden in die u wilt retourneren of wijs deze lijst toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Additional Data Fields to Include (semi-colon separated)]</td>
+      <td>
+        <p>Als een element is opgenomen, worden alle velden opgenomen, anders worden alleen de id- en zelfhref-koppeling geretourneerd.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Types of assets to exclude]</td>
+      <td>
+        <p>Selecteer deze optie als u volledige of onvolledige elementen wilt uitsluiten. Laat dit veld leeg als u alle elementen wilt opnemen.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Asset IDs]</td>
+      <td>
+        <p>Voer maximaal 100 id's van elementen in of wijs deze toe, gescheiden door komma's.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Filter out album assets based on presentation filters]</td>
+      <td>
+        <p>Wanneer dit veld is ingesteld op 'true', worden alle albumelementen gefilterd op basis van de presentatiefilters die in het album zijn ingesteld. Met deze parameter worden afgewezen elementen altijd uitgefilterd, ongeacht de instellingen in presentatiefilters. Presentatiefilters worden niet toegepast wanneer een andere waarde dan 'true' wordt ingesteld voor album_filters. Standaard worden alle elementen weergegeven. Deze parameter kan niet samen met de parameter flag worden gebruikt. </p>
+      </td>
+    </tr>
+  </tbody>
+</table>
 
 #### Albums ophalen
 
@@ -880,7 +985,7 @@ Deze actiemodule wint een lijst van albums in de gespecificeerde catalogus terug
     <tr>
       <td role="rowheader">[!UICONTROL Subtypes]</td>
       <td>
-        <p>Voer de id in van het album dat u wilt ophalen of wijs deze toe.</p>
+        <p>Voer een lijst in met subtypen die door puntkomma's worden gescheiden en wijs deze toe.</p>
       </td>
     </tr>
     <tr>
@@ -890,7 +995,7 @@ Deze actiemodule wint een lijst van albums in de gespecificeerde catalogus terug
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Maximum number of returned albums]</td>
+      <td role="rowheader">[!UICONTROL Number of Albums to Return]</td>
       <td>
         <p>Stel het maximumaantal elementen in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert. De standaardwaarde voor dit veld is 100. Deze module retourneert mogelijk meer albums dan deze limiet als meerdere albums aan de limietgrens dezelfde <code>name_after</code> -waarde hebben.</p>
       </td>
