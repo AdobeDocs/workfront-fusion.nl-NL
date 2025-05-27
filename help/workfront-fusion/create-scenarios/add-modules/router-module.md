@@ -4,9 +4,9 @@ description: De module van de Router staat u toe om uw stroom in verscheidene ro
 author: Becky
 feature: Workfront Fusion
 exl-id: 8344cde4-df3e-4b72-9d10-46ff4b186400
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: c1c11c6766678263b36488909c3799299a1c510a
 workflow-type: tm+mt
-source-wordcount: '829'
+source-wordcount: '830'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ U moet een module van de Router toevoegen alvorens routes te vormen.
 
    De routes worden geschikt in de orde zij uitvoeren. De hoogste route voert eerst uit.
 
-1. (Facultatief) om routeorde te veranderen, ontkoppel de routes door op de weg van de router met de rechtermuisknop te klikken en ontkoppelen te selecteren, dan hen te slepen aan de routermodule in de gewenste orde. De eerste route in bijlage zal de eerste uit te voeren route (de hoogste route) zijn.
+1. (Facultatief) om routeorde te veranderen, klik op de module van de Router met de rechtermuisknop aan en selecteer **de routes van de Orde** Belemmering en laat vallen de routes in de orde u hen binnen wilt uitvoeren. De routes worden duidelijk door de eerste module die de router (de eerste module van de route) volgt.
 
 1. Ga aan [ toe Voeg een filter aan een route ](#add-a-filter-to-a-route).
 
