@@ -4,9 +4,9 @@ description: Met de  [!DNL Adobe Workfront Planning]  modules, kunt u een  [!DNL
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 51bb87572f16f6194f6c37bbe52ea7f27050c303
 workflow-type: tm+mt
-source-wordcount: '1395'
+source-wordcount: '1454'
 ht-degree: 0%
 
 ---
@@ -472,3 +472,20 @@ Deze actie werkt één enkel verslag in de Planning van Workfront bij.
      <tr>
   </tbody>
 </table>
+
+
+## JSONata gebruiken voor leesbare `record-types` uitsplitsing
+
+De volgende uitdrukking JSONata leidt tot een leesbare output van de vraag van de Planning die u de verslag-types indeling geeft. Hierdoor worden de naam van het recordtype, de veldnamen en de namen van veldopties (indien van toepassing) voor de mens leesbaar met een naam en blijft de rest van de structuur intact.
+
+```
+(
+    $s0 := ({"data":$ ~> | fields | {"options":(options){name:$}} |});
+    $s1 := ({"data":$s0.data ~> | **.fields | {"options_name":(options.*){displayName:$}} | });
+    $s2 := $s1 ~> | data | {"fields":(fields){displayName:$}} |; 
+    $s2.data{displayName:$}
+)
+```
+
+Voor informatie bij het gebruiken van modules JSONata, zie [ modules JSONata ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md).
+
