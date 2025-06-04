@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d32ebd-1807-495e-8aaf-27346056ec71
-source-git-commit: bf3e35a287c3beb2310a7b8d2c21c65aebfb9076
+source-git-commit: cc1ce10fccf159a0c17a3bba978d88c0d1013cbf
 workflow-type: tm+mt
-source-wordcount: '1870'
+source-wordcount: '2604'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,155 @@ De connector Frame.io gebruikt het volgende:
 
 ## Verbinden [!DNL Frame.io] met [!UICONTROL Adobe Workfront Fusion]
 
-Het verbindingsproces is afhankelijk van de vraag of u de Verouderde Frame.io-connector of de Beta Frame.io-connector gebruikt.
+U kunt automatisch verbinding maken met gebruikersgegevens, handmatig een gebruikersreferentie maken of een server-naar-server verbinding maken.
+
+* [Automatisch verbinding maken met gebruikersgegevens](#connect-automatically-with-user-credentials#)
+* [Handmatig een gebruikersverificatieverbinding maken](#create-a-user-credentials-connection-manually)
+* [Een server-naar-server verbinding maken](#create-a-server-to-server-connection)
+
+### Automatisch verbinding maken met gebruikersgegevens
+
+Met deze methode wordt automatisch een verbinding gemaakt als u bent aangemeld bij Frame.io of als u verbinding maakt met de aanmeldingspagina van Frame.io, zodat u zich kunt aanmelden.
+
+1. Klik in een willekeurige Frame.io Beta-module op **[!UICONTROL Add]** naast het vak Verbinding.
+1. Voer een naam in voor de verbinding.
+1. Klik **verdergaan**.
+1. Als u wordt ertoe aangezet om aan uw rekening te registreren Frame.io, doe dit.
+1. Als u deel van meer dan één organisatie Frame.io uitmaakt, selecteer de organisatie die u voor deze verbinding wilt gebruiken.
+
+De verbinding wordt gemaakt.
+
+### Handmatig een gebruikersverificatieverbinding maken
+
+U kunt een verbinding van gebruikersgeloofsbrieven tot stand brengen door het programma te openen in Frame.io, of door een identiteitskaart van de Cliënt of Geheime cliënt te verstrekken.
+
+Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing configureren in de Adobe Developer Console.
+
+* [Gebruikersreferenties maken in de Adobe Developer Console](#create-user-credentials-in-the-adobe-developer-console)
+* [Een gebruikersverificatieverbinding configureren](#configure-a-user-authentication-connection)
+
+#### Gebruikersreferenties maken in de Adobe Developer Console
+
+Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
+
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
+1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
+
+   of
+
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+
+1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
+1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
+1. Voor de Uitgezochte pagina van het authentificatietype, uitgezochte **Authentificatie van de Gebruiker** en klik **daarna**.
+1. Op Add een pagina van de gebruikersauthentificatie geloofsbrieven, uitgezocht **Web App** en klik **daarna**.
+1. Op Configure OAuth Web App credential pagina, ga het volgende in:   <table style="table-layout:auto">
+   <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Default redirect URI]</td>
+          <td>
+            <p><code>https://oauth.app.workfrontfusion.com/oauth/cb/frame-io2</code></p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Redirect URI pattern]</td>
+          <td>
+            <p><code>https://oauth\.app\.workfrontfusion\.com/oauth/cb/frame-io2</code></p>
+          </td>
+        </tr>
+       </tbody>
+    </table>
+1. Klik **daarna**.
+1. Klik **sparen gevormde API**.
+1. Klik op de productpagina op de kaart voor de referenties die u zojuist hebt gemaakt.
+
+   Hier vindt u uw client-id en clientgeheim.
+
+>[!NOTE]
+>
+> We raden u aan dit venster open te laten als u uw verbinding in Adobe Workfront Fusion gaat configureren. U kunt de client-id kopiëren en clientgeheim van deze pagina ophalen en kopiëren om deze in de verbindingsvelden te plakken.
+
+
+#### Een gebruikersverificatieverbinding configureren
+
+1. Klik in een willekeurige Frame.io Beta-module op **[!UICONTROL Add]** naast het vak Verbinding.
+1. In Create een verbindingsdoos, klik **tonen geavanceerde montages**.
+
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+      </col>
+      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+      </col>
+      <tbody>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection type]</td>
+          <td>
+            <p>Selecteer <b> IMS de authentificatie van de Gebruiker </b>.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Connection name]</td>
+          <td>
+            <p>Voer een naam in voor deze verbinding.</p>
+          </td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client ID]</td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies bij het creëren van geloofsbrieven, zie <a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref"> gebruikersgeloofsbrieven in Adobe Developer Console </a> in dit artikel creëren.</p></td>
+        </tr>
+        <tr>
+          <td role="rowheader">[!UICONTROL Client Secret]</td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies bij het creëren van geloofsbrieven, zie <a href="#create-user-credentials-in-the-adobe-developer-console" class="MCXref xref"> gebruikersgeloofsbrieven in Adobe Developer Console </a> in dit artikel creëren.</p>
+        </tr>
+       </tbody>
+    </table>
+1. Als u wordt ertoe aangezet om aan uw rekening te registreren Frame.io, doe dit.
+1. Als u deel van meer dan één organisatie Frame.io uitmaakt, selecteer de organisatie die u voor deze verbinding wilt gebruiken.
+
+De verbinding wordt gemaakt.
+
+
+### Een server-naar-server verbinding maken
+
+Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing configureren in de Adobe Developer Console.
+
+* [Server-naar-server referenties maken in de Adobe Developer Console](#create-server-to-server-credentials-in-the-adobe-developer-console)
+* [Een server-naar-server verbinding configureren](#configure-a-server-to-server-connection)
+
+#### Server-naar-server referenties maken in de Adobe Developer Console
+
+Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
+
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
+1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
+
+   of
+
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+
+1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
+1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
+1. Voor de Uitgezochte pagina van het authentificatietype, uitgezochte **Server-aan-Server Authentificatie** en klik **daarna**.
+1. Voer een naam in voor de referenties. Hierdoor kunt u de referenties later identificeren in het gebied API-referenties van de Adobe Admin Console.
+1. Klik **daarna**.
+1. Selecteer op de pagina Productprofielen selecteren het productprofiel dat de Frame.io-account bevat waarmee u verbinding wilt maken.
+1. Klik **sparen gevormde API**.
+1. Klik op de productpagina op de kaart voor de referenties die u zojuist hebt gemaakt.
+
+   Hier vindt u uw client-id en clientgeheim.
+
+>[!NOTE]
+>
+> We raden u aan dit venster open te laten als u uw verbinding in Adobe Workfront Fusion gaat configureren. U kunt de client-id kopiëren en clientgeheim van deze pagina ophalen en kopiëren om deze in de verbindingsvelden te plakken.
+
+
+#### Een server-naar-server verbinding configureren
 
 1. Klik in een willekeurige Frame.io Beta-module op **[!UICONTROL Add]** naast het vak Verbinding.
 
@@ -122,7 +270,7 @@ Het verbindingsproces is afhankelijk van de vraag of u de Verouderde Frame.io-co
         <tr>
           <td role="rowheader">[!UICONTROL Connection type]</td>
           <td>
-            <p>Selecteer of u een IMD-gebruikersverificatieverbinding of een IMS Server-naar-serververbinding wilt maken.</p>
+            <p>Selecteer <b> Server IMS aan Server </b>.</p>
           </td>
         </tr>
         <tr>
@@ -133,15 +281,18 @@ Het verbindingsproces is afhankelijk van de vraag of u de Verouderde Frame.io-co
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client ID]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" > Geloofsbrieven </a> in de de ontwikkelaarsdocumentatie van Adobe.</p></td>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies bij het creëren van geloofsbrieven, zie <a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref"> server-aan-server geloofsbrieven in Adobe Developer Console </a> in dit artikel creëren.</p></td>
         </tr>
         <tr>
           <td role="rowheader">[!UICONTROL Client Secret]</td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies die van geloofsbrieven de plaats bepalen, zie <a href="https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication#credentials" class="MCXref xref" > Geloofsbrieven </a> in de de ontwikkelaarsdocumentatie van Adobe.</p>
+          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .<p>Voor instructies bij het creëren van geloofsbrieven, zie <a href="#create-server-to-server-credentials-in-the-adobe-developer-console" class="MCXref xref"> server-aan-server geloofsbrieven in Adobe Developer Console </a> in dit artikel creëren.</p>
         </tr>
        </tbody>
     </table>
 1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+
+
+
 
 ## [!DNL Frame.io] modules en hun velden
 
