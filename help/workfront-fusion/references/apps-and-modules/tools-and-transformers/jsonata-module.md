@@ -4,9 +4,9 @@ description: De Adobe Workfront Fusion JSONata-connector biedt een module voor h
 author: Becky
 feature: Workfront Fusion
 exl-id: 8c117ecb-3c05-47d4-a629-18dbc546e2a2
-source-git-commit: 2ba6ca5f5a82aea4979ff8f273bdeef1a8d22a06
+source-git-commit: da3bf98f8254228598372fed8c06d6318718721f
 workflow-type: tm+mt
-source-wordcount: '209'
+source-wordcount: '298'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 +++
 
-## JSONata-module en de bijbehorende velden
+## JSONata-modules en hun velden
 
 ### Evalueren
 
@@ -105,3 +105,31 @@ Het doel is een array met namen van het volgende JSON-object te retourneren:
 De module retourneert een array met namen die uit het JSON-object zijn opgehaald.
 
 >[!ENDSHADEBOX]
+
+
+
+### JSONata MCP
+
+Deze actiemodule genereert JSONata-expressies door de opgegeven in- en uitvoerschema&#39;s te analyseren. U verstrekt de schema&#39;s, welke ModelContextProtocol (MCP) gebruikt om de uitdrukking te produceren die de input in de output transformeert.
+
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Selecteer de verbinding die u gebruikt om met het grote taalmodel (LLM) te verbinden dat u voor deze module wilt gebruiken.</p> <p>Momenteel wordt alleen de Anthropic API-sleutel ondersteund.</p></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Input schema]</td> 
+   <td> <p>Voer het invoerschema dat voor deze expressie moet worden gebruikt in of wijs dit toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Output schema]</td> 
+   <td> <p>Voer het uitvoerschema dat u voor deze expressie wilt gebruiken in of wijs dit toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
