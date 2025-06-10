@@ -23,7 +23,7 @@ Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes ![ 
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
 
-### [!BADGE  Nieuw! ]{type=Informative} Workfront - Tijdlijn van project automatisch aanpassen wanneer taken vroeg worden voltooid
+### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} Workfront - Tijdlijn van project automatisch aanpassen wanneer taken vroeg worden voltooid
 
 <!--New June 10, 2025-->
 
@@ -33,7 +33,7 @@ Als uw team moeite heeft om vaart te houden omdat de projectchronologie niet dyn
 
 Deze Fusion-sjabloon automatiseert dat proces. Wanneer een taak vroeg wordt voltooid, worden alle afhankelijke (opvolger) taken automatisch opnieuw gepland om sneller te beginnen, waardoor uw team sneller kan bewegen en flexibel kan blijven.
 
-### [!BADGE  Nieuw! ]{type=Informative} Workfront-kaarten - Gearchiveerde kaarten verwijderen uit aangewezen kolom (Op aanvraag)
+### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} Workfront-kaarten - Gearchiveerde kaarten verwijderen uit aangewezen kolom (Op aanvraag)
 
 <!--New March 12, 2025-->
 
@@ -111,7 +111,7 @@ Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met d
 
 Deze sjablonen automatiseren workflows die Workfront combineren met Workfront Proof.
 
-### [!BADGE  Nieuw! ]{type=Informative} Workfront > Workfront Proof - Change Proof user Role to Read Only and lock Proof after project closure
+### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} Workfront > Workfront Proof - Change Proof user Role to Read Only and lock Proof after project closure
 
 <!--New March 12, 2025-->
 
