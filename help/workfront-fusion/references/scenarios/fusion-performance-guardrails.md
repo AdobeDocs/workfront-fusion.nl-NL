@@ -4,9 +4,9 @@ description: De automatisering van het werk vereist snelle verwerking, zodat wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 1253470a23a2a9124824d5ab1ff2b5013d773517
+source-git-commit: 391675882c9f8c4e8f66e3b63da3e878c413d031
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '895'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront 
 ## Scenarios
 
 * De time-out van de standaardscenario-uitvoering is **40 minuten**. Wanneer de uitvoering deze time-out bereikt, onderbreekt [!DNL Workfront Fusion] de uitvoering van het scenario na de volgende cyclus of bewerking, afhankelijk van het scenario. Dit dwingt het scenario om kort na het bereiken van de limiet van 40 minuten te stoppen
+
+  Het in de cache plaatsen van scenario&#39;s telt niet naar de uitvoeringstijd van het scenario. Een ouderscenario krijgt geen tijd terwijl het wachten op een kindscenario uit te voeren.
 * De maximumgrootte van een scenario blauwdruk is **5 MB**, maar wij adviseren het houden van scenario grootte onder **3 MB**.
 
   App-modules die gegevens met een groot aantal velden maken of bijwerken, kunnen zeer grote blauwdrukken veroorzaken.

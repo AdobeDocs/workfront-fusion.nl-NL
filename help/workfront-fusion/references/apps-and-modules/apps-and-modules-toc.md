@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: 9c0ecebddbd02d34e936bc06ddd1c27186d2433f
+source-git-commit: e0058a54039f100ba82bc8a3ed8f5d3d4445ffeb
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -123,6 +123,7 @@ Fusion biedt connectors voor veel toepassingen van derden.
 Deze modules staan u toe om acties op uw gegevens uit te voeren, maar vereisen geen verbinding met om het even welke dienst buiten Fusion.
 
 * [Modules archiveren](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/archive-modules.md)
+* [Ketenmodules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md)
 * [CSV-modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/csv.md)
 * [Modules voor gegevensopslag](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md)
 * [Draft.js-modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/draft-js-modules.md)

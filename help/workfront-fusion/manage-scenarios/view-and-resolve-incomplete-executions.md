@@ -4,9 +4,9 @@ description: In de map [!UICONTROL Incomplete executions] worden scenario-uitvoe
 author: Becky
 feature: Workfront Fusion
 exl-id: 8891b4d7-a39a-4f14-8521-8c2ca186ca6e
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: ad304117fb6e9d1320b8e50d71a162609dc6e6f4
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -101,6 +101,11 @@ Wanneer een nieuwe onvolledige uitvoering wordt opgeslagen, kunt u deze als volg
 1. Open het desbetreffende scenario.
 1. Klik op de tab **[!UICONTROL Incomplete Executions]** .
 1. Zoek de onvolledige uitvoering die u wilt oplossen en klik op **[!UICONTROL Details]** .
+1. Open het logboek van de module waar alle verrichtingen van de module worden getoond.
+1. Zoek de mislukte bewerking en klik op **[!UICONTROL Resolve]** :
+
+   ![ Los knoop ](assets/resolve-btn-350x188.png) op
+
 
 
 ## Onvolledige uitvoeringen oplossen via het tabblad Historie
@@ -136,6 +141,20 @@ Als een fout op de eerste module in het scenario voorkomt, houdt de uitvoering o
 
 Als een fout op een andere module voorkomt en er geen foutenmanagerroute in bijlage is, komt één van het volgende voor:
 
-* Als het fouttype `ConnectionError` , `RateLimitError` , `OutOfSpaceError` of `ModuleTimeoutError` is, wordt een onvolledige uitvoerrecord met automatisch opnieuw proberen opgeslagen.
-* Als het fouttype `DataError`, `InvalidConfigurationError`, `InvalidAccessTokenError`, `UnexpectedError`, `MaxFileSizeExceededError` of `MaxResultsExceededError` is, wordt een onvolledige uitvoerrecord opgeslagen zonder deze automatisch opnieuw te proberen.
+* Een onvolledige uitvoeringsrecord met automatisch opnieuw proberen wordt opgeslagen voor de volgende fouttypen:
+
+   * `ConnectionError`
+   * `RateLimitError`
+   * `OutOfSpaceError`
+   * `ModuleTimeoutError`
+
+* Een onvolledige uitvoeringsrecord zonder automatisch opnieuw proberen wordt opgeslagen voor de volgende fouttypen:
+
+   * `DataError`
+   * `InvalidConfigurationError`
+   * `InvalidAccessTokenError`
+   * `UnexpectedError`
+   * `MaxFileSizeExceededError`
+   * `MaxResultsExceededError`
+
 * Als het fouttype iets anders is dan hierboven, mislukt de uitvoering.

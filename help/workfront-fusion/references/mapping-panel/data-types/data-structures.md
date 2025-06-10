@@ -4,16 +4,16 @@ description: Een gegevensstructuur is een document waarin de indeling van de geg
 author: Becky
 feature: Workfront Fusion
 exl-id: 93abf8a5-a3a1-448e-834b-1cc81b88036b
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: 2a81e013845f8a0e2720292984c451501e6011a0
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '231'
 ht-degree: 0%
 
 ---
 
 # Gegevensstructuren
 
-Een gegevensstructuur is een document waarin de indeling van de gegevens die worden overgedragen naar [!DNL Adobe Workfront Fusion] in detail wordt beschreven. Gebaseerd op dit document, kan de scenario redacteur erachter komen welke module terugkeert of ontvangt welk soort gegevens. De documenten van de gegevensstructuur worden het meest meestal gebruikt voor het in series vervaardigen/ontleden van gegevensformaten zoals JSON, XML, CSV en anderen.
+Een gegevensstructuur is een document of patroon waarmee de indeling van de gegevens die worden verwerkt in [!DNL Adobe Workfront Fusion] in detail wordt beschreven. Gebaseerd op dit document, kan de scenario redacteur erachter komen welke module terugkeert of ontvangt welk soort gegevens. De documenten van de gegevensstructuur worden het meest meestal gebruikt voor het in series vervaardigen/ontleden van gegevensformaten zoals JSON, XML, CSV en anderen.
 
 U kunt een gegevensstructuur maken door te klikken op de knop [!UICONTROL Create a new data structure] in de sectie [!UICONTROL Data structure overview] of in de instellingen van de module die de specificatie van de gegevensstructuur vereist.
 
@@ -22,6 +22,8 @@ De gesteunde gegevenstypes worden beschreven in het [ types van Gegevens ](/help
 
 ## Gegevensstructuurgenerator
 
-Gegevensstructuren hoeven niet altijd gemaakt te worden. U kunt het gemakkelijker maken door een malplaatje van onze ingebouwde generator te gebruiken. Door een gegevenssteekproef te verstrekken, zal de generator automatisch tot een gegevensstructuur leiden die op de gegevenssteekproef wordt gebaseerd u inging. De gemaakte gegevensstructuur kan vervolgens handmatig worden gewijzigd.
+U hoeft niet altijd gegevensstructuren te maken. Workfront Fusion kan gegevensstructuren genereren op basis van bestaande gegevens. U verstrekt een gegevenssteekproef, en dan leidt de generator automatisch tot een gegevensstructuur die op die gegevenssteekproef wordt gebaseerd. U kunt de gemaakte gegevensstructuur desgewenst handmatig wijzigen.
+
+Om een gegevensstructuur te produceren, zie [ Opstelling de gegevensstructuur ](/help/workfront-fusion/create-scenarios/map-data/data-stores.md#set-up-the-data-structure) in de opslag van artikelgegevens.
 
 ![ de structuurgenerator van Gegevens ](assets/data-structure-generator-350x341.jpg)
