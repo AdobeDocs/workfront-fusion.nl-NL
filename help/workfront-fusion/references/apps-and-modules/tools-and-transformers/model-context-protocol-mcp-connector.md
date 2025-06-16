@@ -3,71 +3,77 @@ title: Model Context Protocol (MCP)-modules
 description: De module ModelContextProtocol (MCP) staat u toe om een gebruikersherinnering te verwerken gebruikend MCP.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d8ae176db714d2b9f041b74a62e8276171745c4b
+hide: true
+hidefromtoc: true
+source-git-commit: 12315eca71d8febf7f3e5bb055d94cd5ccb9361e
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
 
-# Model Context Protocol (MCP)-modules
+# ModelContextProtocol (MCP) module
 
-ModelContextProtocol (MCP) is een manier om AI taalmodellen met andere toepassingen veilig te verbinden. U vormt servers MCP, die het AI model toestaan om tot de toepassing toegang te hebben. Vervolgens kunt u een melding naar het AI-model sturen en gegevens van de toepassing terugsturen.
+Er zijn momenteel geen modules MCP beschikbaar.
 
-U kunt bijvoorbeeld een MCP-server configureren om een AI-model te verbinden met Gmail. Wanneer u de vraag &quot;Geef me mijn laatste 5 e-mails van Gmail,&quot;verzendt kan het tot uw Gmail toegang hebben en de e-mails terugkeren.
+<!--
 
-De module ModelContextProtocol (MCP) staat u toe om een gebruikersherinnering te verwerken gebruikend een taalmodel en servers MCP.
+Model Context Protocol (MCP) is a way to securely connect AI language models with other applications. You configure MCP servers, which allow the AI model to access the application. You can then send a prompt to the AI model, and it can return information from the application.
 
-## Toegangsvereisten
+For example, you could configure a MCP server to connect an AI model with Gmail. When you send the prompt "Give me my last 5 emails from Gmail," it can access your Gmail and return the emails.
 
-+++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+The Model Context Protocol (MCP) module allows you to process a user prompt using a language model and MCP servers.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
+## Access requirements
+
++++ Expand to view access requirements for the functionality in this article.
+
+You must have the following access to use the functionality in this article:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront package</td> 
+   <td> <p>Any</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront license</td> 
+   <td> <p>New: Standard</p><p>Or</p><p>Current:  Work or higher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion license**</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   <p>Current: No Workfront Fusion license requirement</p>
+   <p>Or</p>
+   <p>Legacy: Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>New:</p> <ul><li>Select or Prime Workfront package: Your organization must purchase Adobe Workfront Fusion.</li><li>Ultimate Workfront package: Workfront Fusion is included.</li></ul>
+   <p>Or</p>
+   <p>Current: Your organization must purchase Adobe Workfront Fusion.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+For more detail about the information in this table, see [Access requirements in documentation](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
-## De module van het Context Protocol van het model en zijn gebieden
+## Model Context Protocol module and its fields
 
-Wanneer u de MCP module vormt, [!DNL Adobe Workfront Fusion] toont de hieronder vermelde gebieden. Een bolde titel in een module wijst op een vereist gebied.
+When you configure the MCP module, [!DNL Adobe Workfront Fusion] displays the fields listed below. A bolded title in a module indicates a required field.
 
-### Prompt gebruiker verwerken
+### Process User Prompt
 
-Deze actiemodule verwerkt een herinnering, gebruikend het taalmodel en servers MCP u specificeert.
+This action module processes a prompt, using the language model and MCP servers you specify.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -75,15 +81,17 @@ Deze actiemodule verwerkt een herinnering, gebruikend het taalmodel en servers M
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Large language model (LLM) key]</td> 
-   <td> <p>Ga of kaart API sleutel voor het grote taalmodel in u voor deze herinnering wilt gebruiken. </p> <p>Momenteel wordt alleen de Anthropic API-sleutel ondersteund.</p></td> 
+   <td> <p>Enter or map API key for the large language model you want to use for this prompt. </p> <p>Currently, only the Anthropic API key is supported.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL MCP servers]</td> 
-   <td> <p>Voor elke server MCP die u voor deze herinnering beschikbaar wilt maken, <b> klik toevoegen punt </b> en ga de naam en de gastheer van de server in. </p> </td> 
+   <td> <p>For each MCP server that you want to make available for this prompt, click <b>Add item</b> and enter the server's name and host. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter your prompt]</td> 
-   <td> <p>Voer de vraag voor het grote taalmodel in of wijs deze toe. </p> </td> 
+   <td> <p>Enter or map the prompt for the large lanugage model. </p> </td> 
   </tr> 
  </tbody> 
 </table>
+
+-->
