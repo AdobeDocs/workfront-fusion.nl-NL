@@ -5,9 +5,9 @@ author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e6fbbc20-4315-4668-9e11-af7cfa82ae66
-source-git-commit: bf3e35a287c3beb2310a7b8d2c21c65aebfb9076
+source-git-commit: 896597fa4a0689c19eb56d98f447c6a719d90ca2
 workflow-type: tm+mt
-source-wordcount: '3623'
+source-wordcount: '3626'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 Als u een OAuth Server-to-Server-verbinding wilt maken, moet u de Adobe PDF Services API in uw Adobe Developers Console toevoegen. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
 
-Voor instructies, zie [ API aan project toevoegen gebruikend OAuth ](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth/) in de de ontwikkelaarsdocumentatie van Adobe.
+Voor instructies, zie [ API aan project toevoegen gebruikend OAuth de authentificatiereferenties van de Gebruiker ](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication) in de de ontwikkelaarsdocumentatie van Adobe.
 
 ## API-informatie voor Adobe PDF Services
 
