@@ -4,9 +4,9 @@ description: De automatisering van het werk vereist snelle verwerking, zodat wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: bebb30132a2cce66037f243563d61939625ea59d
+source-git-commit: 784516c1282f318a46b32c803064d869cc116790
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -95,4 +95,9 @@ Overweeg het volgende met betrekking tot recursie:
 ## TLS
 
 * Fusion ondersteunt momenteel standaard TLS versie 1.2.
+* Fusion kan TLS 1.3 gebruiken voor uitgaande HTTPS-aanvragen als TLS 1.3 is ingeschakeld voor de doelservice.
 * Organisaties kunnen vragen dat TLS versie 1.3 wordt ingeschakeld voor hun Fusion-exemplaar.
+
+>[!NOTE]
+>
+> Als u verbinding maakt met Workfront, moet u er rekening mee houden dat deze TLS-functionaliteit in Workfront is ingeschakeld voor aanroepen van domeinen met de indeling `https://<domain>.my.workfront.com` .
