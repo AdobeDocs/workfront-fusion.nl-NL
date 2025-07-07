@@ -4,9 +4,9 @@ description: De automatisering van het werk vereist snelle verwerking, zodat wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 391675882c9f8c4e8f66e3b63da3e878c413d031
+source-git-commit: bebb30132a2cce66037f243563d61939625ea59d
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '917'
 ht-degree: 0%
 
 ---
@@ -92,3 +92,7 @@ Overweeg het volgende met betrekking tot recursie:
 * **wanneer een scenario recursie veroorzaakt, wordt het gedeactiveerd door het technische team van de Fusie om verdere prestatieskwesties te verhinderen.**
 * Omdat de recursie een resultaat van scenario ontwerp is, moet u uw scenario&#39;s op een manier ontwerpen die ervoor zorgt dat het scenario geen acties omvat die het scenario teweegbrengen.
 
+## TLS
+
+* Fusion ondersteunt momenteel standaard TLS versie 1.2.
+* Organisaties kunnen vragen dat TLS versie 1.3 wordt ingeschakeld voor hun Fusion-exemplaar.
