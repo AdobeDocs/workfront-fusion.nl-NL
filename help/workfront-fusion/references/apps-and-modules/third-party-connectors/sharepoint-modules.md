@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1a09aa86-5e0e-4347-b4cf-2b0a95e5b049
-source-git-commit: 2bd3a9ba84182307af9349163db284514dd12aca
+source-git-commit: b6997c2b160307489322fb6ede445336ef8bd85e
 workflow-type: tm+mt
-source-wordcount: '2761'
+source-wordcount: '2753'
 ht-degree: 0%
 
 ---
@@ -131,10 +131,6 @@ Schakel de optie Geavanceerde instellingen tonen in om referenties op te nemen i
       <td role="rowheader"> <p>[!UICONTROL Tenant ID]</p> </td> 
       <td>Voer de huurder-id in van de SharePoint-app waarmee u verbinding maakt.</td> 
      </tr> 
-     <tr> 
-      <td role="rowheader"> <p>[!UICONTROL Instance]</p> </td> 
-      <td> <p>Voer het adres in van uw [!DNL ServiceNow] -account zonder <code>https://</code> (gewoonlijk <code>&lt;company>.service-now.com</code> ).</p> </td> 
-     </tr> 
     </tbody> 
    </table>
 
@@ -237,7 +233,7 @@ Deze module retourneert wijzigingen die zijn aangebracht in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
@@ -263,7 +259,7 @@ Deze actiemodule maakt een nieuwe map in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
@@ -290,7 +286,7 @@ Deze actiemodule haalt het opgegeven SharePoint-bestand op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
@@ -313,7 +309,7 @@ Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een m
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
@@ -352,7 +348,7 @@ Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Site-, station- en map-id's invoeren</td> 
@@ -383,7 +379,7 @@ Deze actiemodule maakt een nieuw item in een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Create an Item]</td> 
@@ -410,7 +406,7 @@ Met deze actiemodule verwijdert u een bestaand item uit een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Update an Item]</td> 
@@ -433,7 +429,7 @@ Deze actiemodule retourneert de gegevens van een opgegeven item.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get an Item]</td> 
@@ -456,7 +452,7 @@ Deze actiemodule wint een lijst van alle punten in een gespecificeerde lijst ter
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List Items]</td> 
@@ -483,7 +479,7 @@ Deze actiemodule kopieert een bestaand item in een SharePoint-lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Site-, station- en map-id's invoeren</td> 
@@ -514,7 +510,7 @@ Deze actiemodule werkt een bestaand item in een SharePoint-lijst bij.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Update an Item]</td> 
@@ -541,7 +537,7 @@ Deze triggermodule start een scenario wanneer een item wordt gemaakt of gewijzig
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch Lists]</td> 
@@ -579,7 +575,7 @@ Deze actiemodule maakt een nieuwe lijst in SharePoint.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a Site ID]</td> 
@@ -614,7 +610,7 @@ Deze actiemodule retourneert de gegevens van een opgegeven lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a List]</td> 
@@ -637,7 +633,7 @@ Deze actiemodule wint een lijst van alle punten in een gespecificeerde plaats te
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List Lists]</td> 
@@ -664,7 +660,7 @@ Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzi
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watch Lists]</td> 
@@ -701,7 +697,7 @@ Deze actiemodule retourneert de gegevens van een opgegeven pagina.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a Page]</td> 
@@ -729,7 +725,7 @@ Deze actiemodule retourneert de gegevens van een opgegeven site.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Get a Site]</td> 
@@ -752,7 +748,7 @@ Deze actiemodule zoekt naar sites op basis van een parameter die u opgeeft.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Keyword of Display Name]</td> 
@@ -781,7 +777,7 @@ Deze module haalt toevoegingen, updates, en schrappingen terug die in de omslag 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
@@ -808,7 +804,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Connect Microsoft SharePoint Online [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
