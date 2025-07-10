@@ -609,7 +609,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Workfront Boards API.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een ingesloten JSON-grafiek </p> <p>Voorbeeld:</p><p>In dit voorbeeld wordt een kolomnaam bijgewerkt. U kunt <code>boardId</code> en <code>columnId</code> als GUIDs of hard coded of in kaart gebracht van een vorige module omvatten.<p><pre><br> "query": "mutation { updateColumn(boardId: \"\", columnId: \"\", updateColumnInput: { name: \"\" }) { id name}"<br></pre><p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een ingesloten JSON-grafiek </p> <p>Voorbeeld:</p><p>In dit voorbeeld wordt een kolomnaam bijgewerkt. U kunt <code>boardId</code> en <code>columnId</code> als GUIDs of hard coded of in kaart gebracht van een vorige module omvatten.<p><pre><br> "query": "mutation &lbrace; updateColumn(boardId: \"\", columnId: \"\", updateColumnInput: { name: \"\" }) { id name}"<br></pre><p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
