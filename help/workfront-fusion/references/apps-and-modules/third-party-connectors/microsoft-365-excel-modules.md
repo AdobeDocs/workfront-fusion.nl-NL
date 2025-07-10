@@ -4,7 +4,7 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 059bc82b-f1bc-4b92-a44b-51c1daf14f08
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: d967cb62018fde6a76639a8f25ee5ca23f80cd8b
 workflow-type: tm+mt
 source-wordcount: '2260'
 ht-degree: 0%
@@ -140,7 +140,8 @@ Deze actiemodule downloadt de inhoud van het gespecificeerde werkboek van Excel.
      <li> <p><strong>[!UICONTROL By selecting from the path]</strong> </p> <p>Op het [!UICONTROL Workbook] gebied, selecteer het werkboek dat u de module, met inbegrip van zijn weg wilt downloaden als het niet in de wortelomslag is.</p> </li> 
     </ul> </td> 
   </tr> 
- </tbody>
+ </tbody> 
+</table>
 
 #### [!UICONTROL Search Workbooks]
 

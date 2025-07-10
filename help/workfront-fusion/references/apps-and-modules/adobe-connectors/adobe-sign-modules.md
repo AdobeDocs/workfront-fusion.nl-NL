@@ -4,9 +4,9 @@ description: Met de  [!DNL Adobe Acrobat Sign]  modules, kunt u een  [!DNL Adobe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0ef9d40e-8ad6-434e-8fa0-076920ff29ea
-source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
+source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
 workflow-type: tm+mt
-source-wordcount: '5503'
+source-wordcount: '5501'
 ht-degree: 0%
 
 ---
@@ -124,7 +124,7 @@ Deze triggermodule start een scenario wanneer een overeenkomst wordt gemaakt of 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Find text]</td> 
-   <td> <p>Voer termen in waarnaar u wilt zoeken. De module retourneert records die deze termen als veldwaarden bevatten.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van tekst"in <a href="https://helpx.adobe.com/nl/sign/using/adobesign-search-users-agreements.html#HowSearchWorks"> het Onderteken van Adobe Onderzoek werkt - hoe het </a> werkt.</p> </td> 
+   <td> <p>Voer termen in waarnaar u wilt zoeken. De module retourneert records die deze termen als veldwaarden bevatten.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van tekst"in <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks"> het Onderteken van Adobe Onderzoek werkt - hoe het </a> werkt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned agreements]</td> 
@@ -264,7 +264,7 @@ Deze actiemodule maakt een nieuwe record van het geselecteerde type.
      <li> <p><b>[!UICONTROL Sharing mode]</b> </p> <p>Geef op wie toegang moet hebben tot het bibliotheekdocument.</p> </li> 
      <li> <p><b>[!UICONTROL Library document state]</b> </p> <p>Selecteer of het document in ontwerpstatus of actief is.</p> </li> 
      <li> <p><b>[!UICONTROL Library template type]</b> </p> <p>Klik voor elk type bibliotheeksjabloon dat u wilt gebruiken op <b>[!UICONTROL Add item]</b> en selecteer het sjabloontype.</p> </li> 
-     <li> <p><b>[!UICONTROL Last event date]</b> </p> <p>Voer de laatste datum in waarop een gebeurtenis heeft plaatsgevonden in het bibliotheekdocument.</p> <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </li> 
+     <li> <p><b>[!UICONTROL Last event date]</b> </p> <p>Voer de laatste datum in waarop een gebeurtenis heeft plaatsgevonden in het bibliotheekdocument.</p> <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </li> 
      <li> <p><b>[!UICONTROL Library document status]</b> </p> <p>Selecteer de status van het bibliotheekdocument.</p> </li> 
     </ul> </td> 
   </tr> 
@@ -595,7 +595,7 @@ In deze actiemodule worden records gemaakt die zijn gekoppeld aan een module die
         <ul> 
          <li> <p><b>[!UICONTROL Email]</b> </p> <p>Voer het e-mailadres in van de persoon die het nieuwe webformulier ontvangt</p> </li> 
          <li> <p><b>[!UICONTROL Comment]</b> </p> <p>Voer een opmerking in die beschrijft hoe de API-aanroeper de identiteit van de ondertekenaar heeft vastgesteld. Deze informatie wordt weergegeven in het audittrail van [!DNL Adobe Acrobat Sign] .</p> </li> 
-         <li> <p><b>[!UICONTROL Expiration]</b> </p> <p>Voer een vervaldatum in voor de personalisatie van dit webformulier. </p> <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref" data-mc-variable-override=""> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </li> 
+         <li> <p><b>[!UICONTROL Expiration]</b> </p> <p>Voer een vervaldatum in voor de personalisatie van dit webformulier. </p> <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref" data-mc-variable-override=""> Druk van het Type </a>.</p> </li> 
          <li> <p><b>[!UICONTROL Reusable]</b> </p> <p>Selecteer <b>[!UICONTROL Yes]</b> als u wilt dat de bedoelde ondertekenaar het formulier meerdere keren kan ondertekenen.</p> </li> 
         </ul> </li> 
       </ul> </li> 
@@ -973,7 +973,7 @@ Deze zoekmodule zoekt naar overeenkomsten op basis van criteria die u opgeeft.
     <ul> 
      <li> <p><b>[!UICONTROL Find text]</b> </p> <p>Typ de tekst die u wilt zoeken in de metagegevens van de overeenkomst. Elk woord wordt behandeld als een afzonderlijk tekstitem. </p> </li> 
      <li> <p><b>[!UICONTROL Find text in]</b> </p> <p>Selecteer de metagegevensvelden waarin u tekst wilt zoeken. Als u niets selecteert, zoeken de modules alle meta-gegevens.</p> </li> 
-    </ul> <p>De module retourneert elke overeenkomst die een van de ingevoerde tekst in een van de geselecteerde velden bevat. Voorbeeld: als u "Voorjaarscampagne" invoert en de opties Titel en Notitie selecteert, worden alle overeenkomsten geretourneerd met de woorden "Lente" of "Campagne" in Titel of Notitie.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van de tekst"in <a href="https://helpx.adobe.com/nl/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign] Onderzoek - hoe het werkt </a>.</p> </td> 
+    </ul> <p>De module retourneert elke overeenkomst die een van de ingevoerde tekst in een van de geselecteerde velden bevat. Voorbeeld: als u "Voorjaarscampagne" invoert en de opties Titel en Notitie selecteert, worden alle overeenkomsten geretourneerd met de woorden "Lente" of "Campagne" in Titel of Notitie.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van de tekst"in <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign] Onderzoek - hoe het werkt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Created date]</td> 

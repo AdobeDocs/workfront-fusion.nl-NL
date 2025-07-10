@@ -2,9 +2,9 @@
 user-guide-title: Documentatie voor Adobe Workfront Fusion
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: Gebruik de documenten, tutorials en aanvullende bronnen om te leren hoe u Adobe Workfront Fusion in uw organisatie kunt implementeren en effectief kunt gebruiken.
-source-git-commit: e0058a54039f100ba82bc8a3ed8f5d3d4445ffeb
+source-git-commit: 8a707d6852c79bff5c2772e03d0888b4a637ba9a
 workflow-type: tm+mt
-source-wordcount: '1767'
+source-wordcount: '1770'
 ht-degree: 1%
 
 ---
@@ -366,6 +366,7 @@ ht-degree: 1%
          * [Microsoft OneDrive voor bedrijfsmodules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-onedrive-for-business-modules.md)
          * [Microsoft SharePoint Online-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/sharepoint-modules.md)
          * [Microsoft SQL Server-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-sql-server-modules.md)
+         * [Microsoft Teams-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-teams-modules.md)
          * [Microsoft Word-sjabloonmodules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-word-templates-modules.md)
          * [NetSuite-modules](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/netsuite.md)
          * [OpenAI-modules (ChatGPT en DALL-E)](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/openai-chatgpt-modules.md)

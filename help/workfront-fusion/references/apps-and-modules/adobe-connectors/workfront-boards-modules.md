@@ -4,9 +4,9 @@ description: U kunt de Adobe Workfront Boards-connector gebruiken om uw processe
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: dcc5044d-8fdf-4a74-b664-e965e714ce92
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
 workflow-type: tm+mt
-source-wordcount: '2659'
+source-wordcount: '2658'
 ht-degree: 0%
 
 ---
@@ -327,7 +327,7 @@ Deze actiemodule werkt informatie bij voor een kaart die u opgeeft.
   <tr> 
    <td>[!UICONTROL Due date]</td> 
    <td>Voer de vervaldatum voor deze kaart in of wijs deze toe.</p>
-   <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p>
+   <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p>
    </td> 
   </tr> 
   <tr> 
@@ -609,7 +609,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Workfront Boards API.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een ingesloten JSON-grafiek </p> <p>Voorbeeld:</p><p>In dit voorbeeld wordt een kolomnaam bijgewerkt. U kunt <code>boardId</code> en <code>columnId</code> als GUIDs of hard coded of in kaart gebracht van een vorige module omvatten.<p><pre><br> "query": "mutation &lbrace; updateColumn(boardId: \"\", columnId: \"\", updateColumnInput: { name: \"\" }) { id name}"<br></pre><p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een ingesloten JSON-grafiek </p> <p>Voorbeeld:</p><p>In dit voorbeeld wordt een kolomnaam bijgewerkt. U kunt <code>boardId</code> en <code>columnId</code> als GUIDs of hard coded of in kaart gebracht van een vorige module omvatten.<p><pre><br> "query": "mutation { updateColumn(boardId: \"\", columnId: \"\", updateColumnInput: { name: \"\" }) { id name}"<br></pre><p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 

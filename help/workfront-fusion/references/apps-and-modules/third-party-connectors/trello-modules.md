@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 5df5cd2b-ad4c-4a02-9d0c-7cee35232f93
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
 workflow-type: tm+mt
-source-wordcount: '4370'
+source-wordcount: '4366'
 ht-degree: 0%
 
 ---
@@ -255,7 +255,7 @@ In deze actiemodule wordt een nieuw board met de geselecteerde instellingen gema
    <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
     <ul> 
      <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
-     <li><strong>[!UICONTROL Regular mode &#x200B;]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
+     <li><strong>[!UICONTROL Regular mode ]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -270,95 +270,95 @@ In deze actiemodule worden de instellingen van een bestaande board bewerkt.
 >[!SUCCESS]
 >
 ><table style="table-layout:auto">
-><col> 
-> <col> 
-> <tbody> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Connection] </td> 
->   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
->   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u met de module wilt maken. U kunt de kaart-id ophalen met behulp van een andere module, zoals de module Controlebord</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/watch-boards.png"> </p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL New name]</td> 
->   <td> <p> Voer een nieuwe naam voor het bord in of wijs deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL New description]</td> 
->   <td> <p> Voer een nieuwe beschrijving van het bord in of wijs deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
->   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u wilt bewerken in de module.  </p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Subscribe] </td> 
->   <td> <p>Selecteer een optie om op te geven of de gebruiker die eigenaar is van de verbinding die door deze module wordt gebruikt, is geabonneerd op de kaart.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
->   <td> <p>De raden hebben verschillende stem en commentaarregels voor elk toestemmingsniveau. Bijvoorbeeld: als uw board [!UICONTROL Private] is en u de regels voor stemmen en opmerkingen instelt als [!UICONTROL All] , ontvangt u een fout. </p> <p>Stemmen en opmerkingen zijn beperkt tot de volgende groepen voor elk machtigingsniveau:</p> 
->    <ul> 
->     <li><strong>[!UICONTROL Private]</strong>: 
->      Leden, leden en waarnemers</li> 
->     <li><strong>[!UICONTROL For organization]</strong>: 
->      Leden, leden en waarnemers, leden van de organisatie</li> 
->     <li><strong>[!UICONTROL Public]</strong>: 
->      Leden, leden en waarnemers, organisatieleden, alle</li> 
->    </ul> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
->   <td> <p>Selecteer een optie om aan te geven wie op dit bord kan stemmen. Zie het veld [!UICONTROL Permission level] voor stembeperkingen op machtigingsniveaus.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
->   <td> <p>Selecteer een optie om op te geven wie opmerkingen kan plaatsen op de kaarten voor dit bord. Zie het veld [!UICONTROL Permission level] voor opmerkingen over beperkingen op machtigingsniveaus.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Invitations] </td> 
->   <td> <p>Selecteer wie personen kan uitnodigen voor dit bord.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Self-join]</td> 
->   <td> <p> Selecteer of teamleden zich bij de raad van bestuur kunnen aansluiten of zij moeten worden uitgenodigd.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Card covers]</td> 
->   <td> <p> Selecteer of de kaartomslagen op dit bord zouden moeten worden getoond.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Background] </td> 
->   <td> <p>Selecteer de kleur van de achtergrond of de aangepaste achtergrond.</p> <p>Opmerking: aangepaste achtergronden zijn alleen beschikbaar voor abonnees van [!UICONTROL Trello Gold and Business Class] .</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Background ID]</td> 
->   <td> <p> Als u een aangepaste achtergrond wilt gebruiken in het veld [!UICONTROL Background] , voert u de id van de achtergrond die u wilt gebruiken in of wijst u deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
->   <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
->    <ul> 
->     <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
->     <li><strong>[!UICONTROL Regular mode]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
->    </ul> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Calendar feed enabled]</td> 
->   <td> <p> Selecteer of de kalenderfeed is ingeschakeld.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL &lt;Color> label name]</td> 
->   <td> <p> Wijs een naam toe aan het gewenste kleurlabel.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Archive] </td> 
->   <td> <p>Selecteer een optie om aan te geven of u het board wilt archiveren (sluiten). </p> </td> 
->  </tr> 
-> </tbody> 
-></table>
+<col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
+   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u met de module wilt maken. U kunt de kaart-id ophalen met behulp van een andere module, zoals de module Controlebord</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/watch-boards.png"> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td> <p> Voer een nieuwe naam voor het bord in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New description]</td> 
+   <td> <p> Voer een nieuwe beschrijving van het bord in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
+   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u wilt bewerken in de module.  </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subscribe] </td> 
+   <td> <p>Selecteer een optie om op te geven of de gebruiker die eigenaar is van de verbinding die door deze module wordt gebruikt, is geabonneerd op de kaart.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
+   <td> <p>De raden hebben verschillende stem en commentaarregels voor elk toestemmingsniveau. Bijvoorbeeld: als uw board [!UICONTROL Private] is en u de regels voor stemmen en opmerkingen instelt als [!UICONTROL All] , ontvangt u een fout. </p> <p>Stemmen en opmerkingen zijn beperkt tot de volgende groepen voor elk machtigingsniveau:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL Private]</strong>: 
+      Leden, leden en waarnemers</li> 
+     <li><strong>[!UICONTROL For organization]</strong>: 
+      Leden, leden en waarnemers, leden van de organisatie</li> 
+     <li><strong>[!UICONTROL Public]</strong>: 
+      Leden, leden en waarnemers, organisatieleden, alle</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
+   <td> <p>Selecteer een optie om aan te geven wie op dit bord kan stemmen. Zie het veld [!UICONTROL Permission level] voor stembeperkingen op machtigingsniveaus.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
+   <td> <p>Selecteer een optie om op te geven wie opmerkingen kan plaatsen op de kaarten voor dit bord. Zie het veld [!UICONTROL Permission level] voor opmerkingen over beperkingen op machtigingsniveaus.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Invitations] </td> 
+   <td> <p>Selecteer wie personen kan uitnodigen voor dit bord.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Self-join]</td> 
+   <td> <p> Selecteer of teamleden zich bij de raad van bestuur kunnen aansluiten of zij moeten worden uitgenodigd.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Card covers]</td> 
+   <td> <p> Selecteer of de kaartomslagen op dit bord zouden moeten worden getoond.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Background] </td> 
+   <td> <p>Selecteer de kleur van de achtergrond of de aangepaste achtergrond.</p> <p>Opmerking: aangepaste achtergronden zijn alleen beschikbaar voor abonnees van [!UICONTROL Trello Gold and Business Class] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Background ID]</td> 
+   <td> <p> Als u een aangepaste achtergrond wilt gebruiken in het veld [!UICONTROL Background] , voert u de id van de achtergrond die u wilt gebruiken in of wijst u deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
+   <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
+    <ul> 
+     <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
+     <li><strong>[!UICONTROL Regular mode]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Calendar feed enabled]</td> 
+   <td> <p> Selecteer of de kalenderfeed is ingeschakeld.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL <Color> label name]</td> 
+   <td> <p> Wijs een naam toe aan het gewenste kleurlabel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Archive] </td> 
+   <td> <p>Selecteer een optie om aan te geven of u het board wilt archiveren (sluiten). </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 +++
@@ -691,7 +691,7 @@ Deze actiemodule maakt een kaart in een geselecteerde lijst.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Due date]</td> 
-   <td> <p> Voer een vervaldatum in voor de kaart. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> Voer een vervaldatum in voor de kaart. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Due complete]</td> 
@@ -763,7 +763,7 @@ In deze actiemodule wordt een bestaande kaart bewerkt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Due date]</td> 
-   <td> <p> Voer een vervaldatum in voor de kaart. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p> Voer een vervaldatum in voor de kaart. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Due complete]</td> 
@@ -1167,11 +1167,11 @@ Deze actiemodule voegt een opmerking toe aan een geselecteerde kaart.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Since] </td> 
-   <td> <p>Stel de begindatum in van de periode waarin de opmerking is gemaakt. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Stel de begindatum in van de periode waarin de opmerking is gemaakt. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Before] </td> 
-   <td> <p>Stel de einddatum in van de periode waarin de opmerking is gemaakt. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Stel de einddatum in van de periode waarin de opmerking is gemaakt. Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

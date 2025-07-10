@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion]  modules van HubSpot CRM laten u 
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: 0e4986d0d66b98213efabd487e6701f8385161e3
+source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
 workflow-type: tm+mt
-source-wordcount: '6324'
+source-wordcount: '6321'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ Voor instructies over het verbinden van uw [!DNL HubSpot CRM] rekening met [!DNL
 
 >[!NOTE]
 >
->Wanneer het vormen van een verbinding, selecteer het **verbindingstype van 0&rbrace; HubSpot CRM &lbrace;.** Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
+>Wanneer het vormen van een verbinding, selecteer het **verbindingstype van 0} HubSpot CRM {.** Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
 
 ## [!DNL HubSpot CRM] modules en hun velden
 
@@ -1059,7 +1059,7 @@ Deze actiemodule verwijdert een betrokkenheid met de id.
 
 +++
 
-+++ **van het 0&rbrace; Horloge Afspraken**
++++ **van het 0} Horloge Afspraken**
 
 Deze triggermodule start een scenario wanneer een nieuwe betrokkenheid wordt gemaakt in een portal. Deze module retourneert alleen records die in de laatste 30 dagen zijn gemaakt, of de 10.000 records die het laatst zijn gemaakt.
 
@@ -1433,7 +1433,7 @@ Deze actiemodule maakt een nieuwe taak voor een kalender. De verbinding die in d
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Event Date]</td> 
-   <td>Voer de datum voor deze taak in of wijs deze toe.<p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+   <td>Voer de datum voor deze taak in of wijs deze toe.<p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Category]</td> 
@@ -1682,7 +1682,7 @@ Deze actiemodule maakt en publiceert onmiddellijk een bericht op het opgegeven s
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Trigger at]</td> 
-   <td>Ga of kaart de datum en de tijd in dat u de uitzending wilt worden verzonden. Als dit leeg wordt gelaten, wordt de uitzending onmiddellijk verzonden.<p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+   <td>Ga of kaart de datum en de tijd in dat u de uitzending wilt worden verzonden. Als dit leeg wordt gelaten, wordt de uitzending onmiddellijk verzonden.<p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -1782,7 +1782,7 @@ Met deze actiemodule maakt u een nieuw blogbericht.
   </tr> 
   <tr> 
    <td role="rowheader">Publicatiedatum</td> 
-   <td>Voer de datum in waarop het blogbericht moet worden gepubliceerd of wijs de datum toe. <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p></td> 
+   <td>Voer de datum in waarop het blogbericht moet worden gepubliceerd of wijs de datum toe. <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Naam</td> 

@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: fdecf740-e735-4569-b1a2-7c25c751ba42
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
 workflow-type: tm+mt
-source-wordcount: '1560'
+source-wordcount: '1558'
 ht-degree: 0%
 
 ---
@@ -317,11 +317,11 @@ Deze actiemodule werkt een bestaande gebeurtenis bij.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Start date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>{date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis begint in een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>{date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL End date]</td> 
-   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>({date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</td> 
+   <td> Voer één tijdstip in waarop de gebeurtenis eindigt op een gecombineerde datum- en tijdrepresentatie. Gebruik de notatie <code>({date}T{time}</code>, bijvoorbeeld <code>2017-08-29T04:00:00.0000000</code> . Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Reminder on]</td> 

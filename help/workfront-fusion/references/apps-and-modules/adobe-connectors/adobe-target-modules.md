@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: f3c1ed7b-b69b-478a-8240-1a2ab89e11e5
-source-git-commit: 4f97980dce7c8df47ab73d51537d4700ac34dedf
+source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
 workflow-type: tm+mt
-source-wordcount: '2261'
+source-wordcount: '1923'
 ht-degree: 0%
 
 ---
@@ -45,13 +45,13 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
       <td>
    <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
    <p>of</p>
-   <p>Vereiste voor een oudere licentie: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en -integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Product</td>
       <td>
-   <p>Huidige productvereiste: als u het abonnement [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] is opgenomen in het abonnement [!UICONTROL Ultimate] [!DNL Workfront] .</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
    <p>of</p>
    <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td>
@@ -97,7 +97,7 @@ De Adobe Target-connector gebruikt het volgende:
 
 Verbinding maken voor uw [!DNL Adobe Target] -modules:
 
-1. In om het even welke module, voegt de klik **[!UICONTROL toe]** naast het vakje van de Verbinding.
+1. Klik in een willekeurige module op **[!UICONTROL Add]** naast het vak Verbinding.
 
 1. Vul de volgende velden in:
 
@@ -114,55 +114,55 @@ Verbinding maken voor uw [!DNL Adobe Target] -modules:
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL -verbindingstype]</td>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
         <td>Selecteer of u een verbinding van de Rekening van de Dienst of een server-aan-server verbinding van Adobe Target creeert.<p><b> BELANGRIJK </b>: De verbindingen die na 3 Juni, 2024 worden gecreeerd vereisen een server-aan-server verbinding van Adobe Target. De bestaande verbindingen van de Rekening van de Dienst zullen tot Januari 2025 blijven werken. U moet uw verbindingen van de Rekening van de Dienst met server-aan-server van Adobe Target tegen Januari 2024 vervangen.
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL -omgeving]</td>
+        <td role="rowheader">[!UICONTROL Environment]</td>
         <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL -type]</td>
+        <td role="rowheader">[!UICONTROL Type]</td>
         <td>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client ID]</td>
-        <td>Voer uw [!DNL Adobe] client-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console] .
+        <td>Voer uw [!DNL Adobe] client-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Voer uw [!DNL Adobe] clientgeheim in. Dit vindt u in de sectie [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console] .
+        <td>Voer uw [!DNL Adobe] clientgeheim in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Technical account ID]</td>
-        <td>Voer uw [!DNL Adobe] technische account-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console] .
+        <td>Voer uw [!DNL Adobe] technische account-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL -organisatie-ID]</td>
-        <td>Voer uw [!DNL Adobe] Organisatie-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van de [!DNL Adobe Developer Console] .
+        <td role="rowheader">[!UICONTROL Organization ID]</td>
+        <td>Voer uw [!DNL Adobe] Organisatie-id in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL -huurder]</td>
+        <td role="rowheader">[!UICONTROL Tenant]</td>
         <td>
           <p> Als u de huurder wilt zoeken, meldt u zich aan bij de [!DNL Adobe Experience Cloud] , opent u [!DNL Target] en klikt u op de [!DNL Target] -kaart. Gebruik de waarde van de huurder-id zoals vermeld in het URL-subdomein.</p>
           <p>Als uw URL bij het aanmelden bij [!DNL Adobe Target] bijvoorbeeld <code>&lt;https://mycompany.experiencecloud.adobe.com/...></code> is, is de id van uw huurder "mijn bedrijf".</p>
         </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL -metagegevensbereiken]</td>
+        <td role="rowheader">[!UICONTROL Meta Scopes]</td>
         <td>Enter <code>ent_marketing_sdk</code>       </td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Persoonlijke sleutel]</td>
+        <td role="rowheader">[!UICONTROL Private key]</td>
         <td>
           <p>Voer de persoonlijke sleutel in die is gegenereerd toen uw referenties werden gemaakt in de [!DNL Adobe Developer Console] . </p>
           <p>Uw persoonlijke sleutel of certificaat uitnemen:</p>
           <ol>
             <li value="1">
-              <p>Klik <b> [!UICONTROL Extraheren] </b>.</p>
+              <p>Klik op <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
               <p>Selecteer het type bestand dat u extraheert.</p>
@@ -174,7 +174,7 @@ Verbinding maken voor uw [!DNL Adobe Target] -modules:
               <p>Voer het wachtwoord voor het bestand in.</p>
             </li>
             <li value="5">
-              <p>Klik <b> [!UICONTROL sparen] </b> om het dossier uit te halen en aan de verbindingsopstelling terug te keren.</p>
+              <p>Klik op <b>[!UICONTROL Save]</b> om het bestand uit te pakken en terug te keren naar de verbindingsinstelling.</p>
             </li>
           </ol>
         </td>
@@ -182,7 +182,7 @@ Verbinding maken voor uw [!DNL Adobe Target] -modules:
     </tbody>
     </table>
 
-1. Klik **[!UICONTROL verdergaan]** om de verbinding te bewaren en aan de module terug te keren.
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
 
 ## [!DNL Adobe Target] modules en hun velden
 
@@ -199,18 +199,18 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 ### Handelingen
 
-* [[!UICONTROL &#x200B; creeer een verslag &#x200B;]](#create-a-record)
+* [[!UICONTROL Create a record]](#create-a-record)
 
-* [[!UICONTROL &#x200B; maak een douane API vraag &#x200B;]](#make-a-custom-api-call)
+* [[!UICONTROL Make a custom API call]](#make-a-custom-api-call)
 
-* [[!UICONTROL &#x200B; Schrap een verslag &#x200B;]](#delete-a-record)
+* [[!UICONTROL Delete a record]](#delete-a-record)
 
-* [[!UICONTROL &#x200B; las een verslag &#x200B;]](#read-a-record)
+* [[!UICONTROL Read a record]](#read-a-record)
 
-* [[!UICONTROL &#x200B; werk een verslag &#x200B;] bij](#update-a-record)
+* [[!UICONTROL Update a record]](#update-a-record)
 
 
-#### [!UICONTROL &#x200B; creeer een verslag &#x200B;]
+#### [!UICONTROL Create a record]
 
 Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publiek.
 
@@ -219,8 +219,8 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">[!UICONTROL -verbinding]</td>
-    <td>Zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > Verbinding maken met [!DNL Adobe Target]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target] .</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
+    <td>Zie [!DNL Adobe Target] Verbinding maken met <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target]</a> .</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -234,34 +234,34 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
         <b> Aanbeveling van de Aanbieding </b><p>Voor details op gebieden, zie <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Offers/operation/createOffer"> een nieuwe recs aanbieding </a> in de documentatie van Adobe Target API creëren.</p>
         </li>
         <li>
-          <b>[!UICONTROL Offer JSON] </b>
+          <b>[!UICONTROL Offer JSON]</b>
           <p>Ga aan <a href="#offer-fields" class="MCXref xref" > gebieden van de Aanbieding </a> verder.</p>
         </li>
         <li>
-          <b>[!UICONTROL -inhoud van aanbieding]</b>
+          <b>[!UICONTROL Offer Content]</b>
           <p>Ga aan <a href="#offer-fields" class="MCXref xref" > gebieden van de Aanbieding </a> verder.</p>
         </li>
         <li>
         <b> Milieu </b><p>Voor details op gebieden, zie <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Environments/operation/createEnvironment"> milieu </a> in de documentatie van Adobe Target API creëren.</p>
         </li>
         <li>
-          <b>[!UICONTROL Audience] </b>
+          <b>[!UICONTROL Audience]</b>
           <p>Voor details op gebieden, zie <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Audiences/operation/createAudience_1_1"> publiek </a> in de documentatie van Adobe Target API creëren.</p>
         </li>
         <li>
-          <b>[!UICONTROL AB Activity] </b>
+          <b>[!UICONTROL AB Activity]</b>
           <p>Voor details op gebieden, zie <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_4_1"> tot de activiteit van AB </a> in de documentatie van Adobe Target API leiden.</p>
         </li>
         <li>
-          <b>[!UICONTROL XT Activity] </b>
+          <b>[!UICONTROL XT Activity]</b>
           <p>Ga aan <a href="#xt-activity-fields" class="MCXref xref" > XT de gebieden van de Activiteit </a> verder.</p>
         </li>
         <li>
-          <b> [!UICONTROL AP Activiteit] </b>
+          <b>[!UICONTROL AP Activity]</b>
           <p>Voor details op gebieden, zie <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Activities/operation/createActivity_2"> AP activiteit </a> in de documentatie van Adobe Target API creëren.</p>
         </li>
         <li>
-          <b>[!UICONTROL -responstoken]</b>
+          <b>[!UICONTROL Response Token]</b>
           <p>Voor details op gebieden, zie <a href="https://developer.adobe.com/target/administer/admin-api/#tag/Response-tokens/operation/createResponseToken"> Create Token van de Reactie </a> in de documentatie van Adobe Target API.</p>
         </li>
       </ul>
@@ -480,26 +480,26 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL -naam]</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
       <td>Voer een naam voor deze activiteit in of wijs een naam toe. De naam mag uit maximaal 250 tekens bestaan.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -opties]</td>
+      <td role="rowheader">[!UICONTROL Options]</td>
       <td>
-        <p>Voor elke optie die u aan de activiteit wilt toevoegen, klik <b> [!UICONTROL voegt punt] </b> toe en vul de volgende gebieden in:</p>
+        <p>Voor elke optie die u aan de activiteit wilt toevoegen, klik <b>[!UICONTROL Add item]</b> en vul de volgende gebieden in:</p>
         <ul>
           <li>
-            <p><b>[!UICONTROL Optie lokale identiteitskaart] </b>
+            <p><b>[!UICONTROL Option local ID]</b>
             </p>
             <p>Voer een tekenreeks in of wijs een tekenreeks toe die moet worden gebruikt om de optie bij te houden voor verschillende API-aanvragen.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Name] </b>
+            <p><b>[!UICONTROL Name]</b>
             </p>
             <p>Voer een naam voor de optie in of wijs een naam toe. De naam mag niet meer dan 250 tekens bevatten.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL -aanbieding-id]</b>
+            <p><b>[!UICONTROL Offer ID]</b>
             </p>
           </li>
           <li>
@@ -509,21 +509,21 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -locaties]</td>
+      <td role="rowheader">[!UICONTROL Locations]</td>
       <td>
-        <p>Voor elke Mbox die u aan de activiteit wilt toevoegen, klik <b> [!UICONTROL voegt punt] </b> toe en vul de volgende gebieden in:</p>
+        <p>Voor elke box die u aan de activiteit wilt toevoegen, klik <b>[!UICONTROL Add item]</b> en vul de volgende gebieden in:</p>
         <ul>
           <li>
             <p>[!UICONTROL Audience IDs]</p>
-            <p>Voor elk publiek dat u aan Mbox wilt toevoegen, klik <b> [!UICONTROL voegt punt] </b> toe en selecteer identiteitskaart van het Publiek.</p>
+            <p>Voor elk publiek dat u aan Mbox wilt toevoegen, klik <b>[!UICONTROL Add item]</b> en selecteer identiteitskaart van de Publiek</p>
           </li>
           <li>
-            <p><b>[!UICONTROL lokale identiteitskaart van de Plaats] </b>
+            <p><b>[!UICONTROL Location local ID]</b>
             </p>
             <p>Voer een tekenreeks in of wijs een tekenreeks toe die moet worden gebruikt om de locatie in API-verzoeken bij te houden.</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Name] </b>
+            <p><b>[!UICONTROL Name]</b>
             </p>
             <p>Voer een naam voor de locatie in of wijs een naam toe. De naam mag niet meer dan 250 tekens bevatten.</p>
           </li>
@@ -531,18 +531,18 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -ervaringen]</td>
+      <td role="rowheader">[!UICONTROL Experiences]</td>
       <td>
         <p>Een lijst met locaties op de pagina waar het inhoudsaanbod wordt weergegeven. Een locatie bevat het volgende:
 </p>
         <ul>
           <li>
-            <p><b>[!UICONTROL Ervaar lokale identiteitskaart] </b>
+            <p><b>[!UICONTROL Experience local ID]</b>
             </p>
             <p>Voer de id van de ervaring in of wijs deze toe</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Name] </b>
+            <p><b>[!UICONTROL Name]</b>
             </p>
             <p>Voer de naam van de ervaring in of wijs deze toe
 
@@ -551,12 +551,12 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
           <li>
             <p><b>[!DNL Audience IDs]</b>
             </p>
-            <p>Voor elk publiek dat u de ervaring wilt zien, klik <b> [!UICONTROL voegt punt] </b> toe en ga identiteitskaart van het Publiek in.
+            <p>Voor elk publiek dat u de ervaring wilt zien, klik <b>[!UICONTROL Add item]</b> en ga identiteitskaart van de Publiek in.
 
 </p>
           </li>
           <li>
-            <p><b>[!UICONTROL -bezoekerspercentage] </b>
+            <p><b>[!UICONTROL Visitor Percentage]</b>
             </p>
             <p>Voer het percentage bezoekers dat aan de ervaring is toegewezen in of wijs dit percentage toe</p>
           </li>
@@ -568,15 +568,15 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       <td> </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -ID VAN DERDEN]</td>
+      <td role="rowheader">[!UICONTROL Third Party ID]</td>
       <td>Voer een id in of wijs deze toe om deze activiteit te identificeren. U kunt deze id kiezen. Deze id mag niet hetzelfde zijn als een andere activiteit en mag uit maximaal 250 tekens bestaan.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL start bij]</td>
+      <td role="rowheader">[!UICONTROL Starts at]</td>
       <td>Voer de datum en tijd in of wijs de datum en tijd toe waarop de activiteit moet worden gestart in de notatie <code>YYYY-MM-DD hh:mm:ss.z</code> .</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL eindigt bij]</td>
+      <td role="rowheader">[!UICONTROL Ends at]</td>
       <td>Voer de datum en tijd in of wijs de datum en tijd toe om de activiteit te beëindigen in de notatie <code>YYYY-MM-DD hh:mm:ss.z</code> .</td>
     </tr>
     <tr>
@@ -585,19 +585,19 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
         <p>Voer de status van de activiteit in of wijs deze toe.</p>
         <ul>
           <li>
-            <p>[!UICONTROL goedgekeurd]</p>
+            <p>[!UICONTROL Approved]</p>
           </li>
           <li>
-            <p>[!UICONTROL gedeactiveerd]</p>
+            <p>[!UICONTROL Deactivated]</p>
           </li>
           <li>
-            <p>[!UICONTROL gepauzeerd]</p>
+            <p>[!UICONTROL Paused]</p>
           </li>
           <li>
-            <p>[!UICONTROL Opgeslagen] </p>
+            <p>[!UICONTROL Saved] </p>
           </li>
           <li>
-            <p>[!UICONTROL verwijderd]</p>
+            <p>[!UICONTROL Deleted]</p>
           </li>
         </ul>
       </td>
@@ -607,7 +607,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       <td>Voer een getal in dat de prioriteit van de activiteit definieert. Hogere getallen hebben een hogere prioriteit. Deze waarde moet liggen tussen 0 en 999. De standaardwaarde is 5.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL wijst verkeer automatisch toe]</td>
+      <td role="rowheader">[!UICONTROL Auto-allocate traffic]</td>
       <td>
         <p>Schakel deze optie in om automatisch verkeer toe te wijzen. De auto-toewijst verzendt meer verkeer naar de succesvolere ervaring.</p>
         <p>Selecteer of kaart de evaluatiecriteria aan om te beoordelen welke ervaring succesvoller is.</p>
@@ -618,26 +618,26 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
       <td>Voer de werkruimte in die aan de activiteit is gekoppeld of wijs deze toe</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL , eigenschap-id's] </td>
-      <td>Voor elk bezit dat u aan de activiteit wilt toevoegen, klik <b> [!UICONTROL voegt punt] </b> toe en selecteert of in kaart brengt identiteitskaart van het bezit.</td>
+      <td role="rowheader">[!UICONTROL Property IDs] </td>
+      <td>Voor elke eigenschap die u aan de activiteit wilt toevoegen, klikt u op <b>[!UICONTROL Add item]</b> en selecteert of wijst u de id van de eigenschap toe.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -rapportagepubliek]</td>
+      <td role="rowheader">[!UICONTROL Reporting audiences]</td>
       <td>
-        <p>Voor elk rapporterend publiek dat u aan de activiteit wilt toevoegen, klik [!UICONTROL voeg punt] toe en ga de volgende informatie in:</p>
+        <p>Voor elk rapporterend publiek dat u aan de activiteit wilt toevoegen, klik [!UICONTROL Add item] en ga de volgende informatie in:</p>
         <ul>
           <li>
-            <p><b> [!UICONTROL Meldend de lokale identiteitskaart van het Publiek] </b>
+            <p><b>[!UICONTROL Reporting Audience local ID]</b>
             </p>
             <p>Ga of kaart een koord in dat moet worden gebruikt om het Publiek van de Rapportering over API verzoeken te volgen.</p>
           </li>
           <li>
-            <p><b> [!UICONTROL Audience ID] </b>
+            <p><b>[!UICONTROL Audience ID]</b>
             </p>
             <p>Typ of wijs het segment toe dat u wilt gebruiken voor de rapportage</p>
           </li>
           <li>
-            <p><b>[!UICONTROL Metrische lokale identiteitskaart] </b>
+            <p><b>[!UICONTROL Metric local ID]</b>
             </p>
             <p>Voer een tekenreeks in of wijs een tekenreeks toe die moet worden gebruikt om de metrische gegevens in API-verzoeken bij te houden.</p>
           </li>
@@ -654,11 +654,11 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL -naam]</td>
+      <td role="rowheader">[!UICONTROL Name]</td>
       <td>Voer een naam voor deze activiteit in of wijs een naam toe. De naam mag uit maximaal 250 tekens bestaan.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -inhoud]</td>
+      <td role="rowheader">[!UICONTROL Content]</td>
       <td>
         <p>Voer de inhoud van het aanbod in of wijs deze toe aan de gebruiker.</p>
       </td>
@@ -750,7 +750,7 @@ Deze actiemodule leidt tot een activiteit AB of XT, een aanbieding, of een publi
 
 -->
 
-#### [!UICONTROL &#x200B; maak een douane API vraag &#x200B;]
+#### [!UICONTROL Make a custom API call]
 
 Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
 
@@ -759,8 +759,8 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL -verbinding]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > Verbinding maken met [!DNL Adobe Target]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target] .</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie [!DNL Adobe Target] Verbinding maken met <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL [!DNL Target] Basis-URL]</td>
@@ -768,7 +768,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL -pad]</p>
+        <p>[!UICONTROL Path]</p>
       </td>
       <td>
         <p>Een pad invoeren ten opzichte van {baseURL}/</p>
@@ -776,12 +776,12 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL , methode]</p>
+        <p>[!UICONTROL Method]</p>
       </td>
    <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -kopteksten]</td>
+      <td role="rowheader">[!UICONTROL Headers]</td>
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
@@ -789,7 +789,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -queryreeks]  </td>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
       <td>
         <p>Voer de queryreeks voor de aanvraag in.</p>
       </td>
@@ -803,7 +803,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Target] API.
   </tbody>
 </table>
 
-#### [!UICONTROL &#x200B; Schrap een verslag &#x200B;]
+#### [!UICONTROL Delete a record]
 
 Deze actiemodule schrapt één enkele activiteit van AB, activiteit XT, Aanbieding, of Publiek.
 
@@ -812,8 +812,8 @@ Deze actiemodule schrapt één enkele activiteit van AB, activiteit XT, Aanbiedi
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">[!UICONTROL -verbinding]</td>
-    <td>Zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > Verbinding maken met [!DNL Adobe Target]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target] .</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
+    <td>Zie [!DNL Adobe Target] Verbinding maken met <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target]</a> .</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -826,7 +826,7 @@ Deze actiemodule schrapt één enkele activiteit van AB, activiteit XT, Aanbiedi
 </tbody>
 </table>
 
-#### [!UICONTROL &#x200B; las een verslag &#x200B;]
+#### [!UICONTROL Read a record]
 
 Deze actiemodule wint gegevens voor één enkele Activiteit, Aanbieding, Publiek, Bezit, of Rapport terug.
 
@@ -835,8 +835,8 @@ Deze actiemodule wint gegevens voor één enkele Activiteit, Aanbieding, Publiek
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">[!UICONTROL -verbinding]</td>
-    <td>Zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > Verbinding maken met [!DNL Adobe Target]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target] .</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
+    <td>Zie [!DNL Adobe Target] Verbinding maken met <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target]</a> .</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
@@ -849,7 +849,7 @@ Deze actiemodule wint gegevens voor één enkele Activiteit, Aanbieding, Publiek
 </tbody>
 </table>
 
-#### [!UICONTROL &#x200B; werk een verslag &#x200B;] bij
+#### [!UICONTROL Update a record]
 
 Deze actiemodule werkt een record bij in Doel.
 
@@ -858,8 +858,8 @@ Deze actiemodule werkt een record bij in Doel.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL -verbinding]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > Verbinding maken met [!DNL Adobe Target]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target] .</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie [!DNL Adobe Target] Verbinding maken met <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
@@ -868,7 +868,7 @@ Deze actiemodule werkt een record bij in Doel.
        </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL -veldnamen]</td>
+      <td role="rowheader">[!UICONTROL Field names]</td>
       <td>Selecteer de velden die u wilt bijwerken. De velden worden hieronder weergegeven.
           <p>Voor details op gebieden, zie <a href="https://developer.adobe.com/target/administer/admin-api/"> de documentatie van Adobe Target API </a>.</p>
       </td>
@@ -878,12 +878,12 @@ Deze actiemodule werkt een record bij in Doel.
 
 ### Zoekopdrachten
 
-* [[!UICONTROL &#x200B; krijgt verslagen &#x200B;]](#get-records)
+* [[!UICONTROL Get records]](#get-records)
 
-* [[!UICONTROL &#x200B; Onderzoek &#x200B;]](#search)
+* [[!UICONTROL Search]](#search)
 
 
-#### [!UICONTROL &#x200B; krijgt verslagen &#x200B;]
+#### [!UICONTROL Get records]
 
 Deze zoekmodule haalt een lijst met records van het geselecteerde type op.
 
@@ -892,35 +892,35 @@ Deze zoekmodule haalt een lijst met records van het geselecteerde type op.
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL -verbinding]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > Verbinding maken met [!DNL Adobe Target]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target] .</td>
+      <td role="rowheader">[!UICONTROL Connection]</td>
+      <td>Zie [!DNL Adobe Target] Verbinding maken met <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record type]</td>
       <td>Selecteer het type record dat u wilt bijwerken.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL sorteren op]</td>
-      <td>Voor elk gebied dat u wilt sorteren door te klikken <b> [!UICONTROL voegt punt] </b> toe en selecteert het gebied en of de teruggekeerde resultaten zouden moeten oplopend of dalend zijn.</td>
+      <td role="rowheader">[!UICONTROL Sort by]</td>
+      <td>Klik voor elk veld waarop u wilt sorteren op <b>[!UICONTROL Add item]</b> en selecteer het veld en geef aan of de geretourneerde resultaten oplopend of aflopend moeten zijn.</td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL start bij]</td>
+      <td role="rowheader">[!UICONTROL Starts At]</td>
       <td>
         <p>Voer de vroegste datum in waarvoor u records wilt ophalen. </p>
-        <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL eindigt bij]</td>
+      <td role="rowheader">[!UICONTROL Ends At]</td>
       <td>
         <p>Voer de laatste datum in waarvoor u records wilt ophalen. </p>
-        <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type in [!DNL Adobe Workfront Fusion]</a>.</p>
+        <p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p>
       </td>
     </tr>
   </tbody>
 </table>
 
-#### [!UICONTROL &#x200B; Onderzoek &#x200B;]
+#### [!UICONTROL Search]
 
 Deze zoekmodule zoekt naar Activiteiten, Aanbiedingen of Soorten publiek op basis van criteria die u opgeeft.
 
@@ -929,33 +929,33 @@ Deze zoekmodule zoekt naar Activiteiten, Aanbiedingen of Soorten publiek op basi
 <col/>
 <tbody>
   <tr>
-    <td role="rowheader">[!UICONTROL -verbinding]</td>
-    <td>Zie <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > Verbinding maken met [!DNL Adobe Target]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target] .</td>
+    <td role="rowheader">[!UICONTROL Connection]</td>
+    <td>Zie [!DNL Adobe Target] Verbinding maken met <a href="#create-a-connection-to-adobe-target" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Target]</a> .</td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Record type]</td>
     <td>Selecteer het type record dat u wilt bijwerken.</td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL sorteren op]</td>
-    <td>Voor elk gebied dat u wilt sorteren door te klikken <b> [!UICONTROL voegt punt] </b> toe en selecteert het gebied en of de teruggekeerde resultaten zouden moeten oplopend of dalend zijn.</td>
+    <td role="rowheader">[!UICONTROL Sort by]</td>
+    <td>Klik voor elk veld waarop u wilt sorteren op <b>[!UICONTROL Add item]</b> en selecteer het veld en geef aan of de geretourneerde resultaten oplopend of aflopend moeten zijn.</td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL -zoekcriteria]</td>
-    <td>Selecteer voor elke regel die u wilt instellen het veld, de operator en de waarde. Klik <b> [!UICONTROL voegt toe EN regel] </b> om extra regels tot stand te brengen.</td>
+    <td role="rowheader">[!UICONTROL Search criteria]</td>
+    <td>Selecteer voor elke regel die u wilt instellen het veld, de operator en de waarde. Klik op <b>[!UICONTROL Add AND rule]</b> om extra regels te maken.</td>
   </tr>
   <tr>
-    <td role="rowheader">[!UICONTROL -verschuiving]</td>
+    <td role="rowheader">[!UICONTROL Offset]</td>
     <td>
-      <p>Voer het nummer in van de eerste reactie die de module moet retourneren. De eerste geretourneerde reactie heeft een verschuiving van <code>0</code> . Gebruik dit veld in combinatie met het veld [!UICONTROL Maximum aantal geretourneerde resultaten] om de reacties te pagineren.</p>
-      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u voor elke pagina tien reacties in op [!UICONTROL -verschuiving] op 20 en [!UICONTROL Maximum aantal geretourneerde reacties] op 10.</p>
+      <p>Voer het nummer in van de eerste reactie die de module moet retourneren. De eerste geretourneerde reactie heeft een verschuiving van <code>0</code> . Gebruik dit veld in combinatie met het veld [!UICONTROL Maximum number of returned results] om de reacties te pagineren.</p>
+      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u [!UICONTROL Offset] in op 20 en [!UICONTROL Maximum number of returned] op 10 als elke pagina tien reacties heeft.</p>
     </td>
   </tr>
   <tr>
     <td role="rowheader">[!UICONTROL Limit]</td>
     <td>
       <p>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren. Gebruik dit veld in combinatie met het veld [!UICONTROL Offset] om de reacties te pagineren.</p>
-      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u voor elke pagina tien reacties in op [!UICONTROL -verschuiving] op 20 en [!UICONTROL Maximum aantal geretourneerde reacties] op 10.</p>
+      <p>Als u bijvoorbeeld de derde pagina met reacties wilt weergeven, stelt u [!UICONTROL Offset] in op 20 en [!UICONTROL Maximum number of returned] op 10 als elke pagina tien reacties heeft.</p>
     </td>
   </tr>
 </tbody>
