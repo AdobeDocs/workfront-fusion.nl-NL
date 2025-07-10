@@ -4,9 +4,9 @@ description: In de map [!UICONTROL Incomplete executions] worden scenario-uitvoe
 author: Becky
 feature: Workfront Fusion
 exl-id: 8891b4d7-a39a-4f14-8521-8c2ca186ca6e
-source-git-commit: ad304117fb6e9d1320b8e50d71a162609dc6e6f4
+source-git-commit: f2ddf62d660c4709f1e7e59c4302cde5b062725f
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
@@ -87,9 +87,11 @@ Voor meer informatie, zie [ Fouten resulterend in onvolledige uitvoeringen ](#er
 
 >[!NOTE]
 >
->De huidige groottelimiet van de onopgeloste onvolledige uitvoeringenomslag per organisatie is 500 MB. Als uw organisatie deze limiet overschrijdt, kan de volgende fout optreden:
+>De huidige groottelimiet van de onopgeloste onvolledige uitvoeringenomslag per scenario is 10 MB. Als uw scenario deze grens overschrijdt, kunt u de volgende fout zien:
 >
->`"There is NOT ENOUGH SPACE to add a bundle to the IEQ. The reason is: Too many incomplete executions."`
+>`DLQ limit per scenario has been exceeded`
+>
+>Teams zijn beperkt tot in totaal 500 MB voor alle onopgeloste onvolledige uitvoeringen.
 >
 >Voor meer informatie, zie [ gegevensverlies ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#enable-data-loss) toelaten in artikel vormt scenario montages.
 
