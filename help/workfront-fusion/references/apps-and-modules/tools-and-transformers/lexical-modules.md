@@ -1,19 +1,20 @@
 ---
-title: Draft.js-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u de modules gebruiken Draft.js om Draft.js in HTML en HTML in Draft.js om te zetten.
+title: Lexische modules
+description: In een Adobe Workfront Fusion-scenario kunt u Lexical modules gebruiken om Lexical om te zetten in HTML en HTML in Lexical.
 author: Becky
 feature: Workfront Fusion
-exl-id: 0116e379-cef8-4036-875b-46ca79a9e94d
-source-git-commit: d8c40e310931e5901a5c5a2be2357b5021452bc2
+source-git-commit: 3c9392b35e5f68706d7e6837e330ee98796b8922
 workflow-type: tm+mt
-source-wordcount: '232'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
 
-# [!UICONTROL Draft.js] modules
+# Lexische modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u de [!UICONTROL Draft.js] -modules gebruiken om Draft.js om te zetten in HTML en HTML naar Draft.js. U kunt dit in combinatie met Workfront-modules gebruiken om RTF-tekst toe te voegen aan of te lezen uit Workfront-velden.
+<!-- ADD REDIRECTS -->
+
+In een Adobe Workfront Fusion-scenario kunt u Lexical modules gebruiken om Lexical om te zetten in HTML en HTML in Lexical.  U kunt dit in combinatie met Workfront-modules gebruiken om RTF-tekst toe te voegen aan of te lezen uit Workfront-velden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -56,13 +57,29 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
-## [!UICONTROL Draft.js to HTML]
+## HTML naar Lexical
 
-Deze module converteert Draft.js naar HTML.
+Deze module zet de code van HTML in Lexical om.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">HTML</td> 
+   <td> <p>Voer de HTML-code in die u naar Lexical wilt converteren of wijs deze code toe.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
+## Lexicaal naar HTML
+
+Deze module converteert Lexical naar HTML.
 
 Als u deze module configureert, worden de volgende velden weergegeven.
 
@@ -71,23 +88,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Draft.js]</td> 
-   <td> <p>Typ of wijs de Concept.js-tekst toe die u naar HTML wilt converteren.</p> </td> 
+   <td role="rowheader">Lexicaal</td> 
+   <td> <p>Typ of wijs de Lexicale tekst toe die u naar HTML wilt converteren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!UICONTROL HTML to Draft.js]
-
-Deze module converteert HTML-code naar Draft.js.
-
-<table style="table-layout:auto"> 
- <col> 
- <col> 
- <tbody> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL HTML]</td> 
-   <td> <p>Voer de HTML-code in die u wilt converteren naar Draft.js of wijs deze code toe.</p> </td> 
-  </tr> 
- </tbody> 
-</table>

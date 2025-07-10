@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: 8a707d6852c79bff5c2772e03d0888b4a637ba9a
+source-git-commit: 7f5339de5164a6eb43dae311335cacbc5c10ff96
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '432'
 ht-degree: 0%
 
 ---
@@ -134,6 +134,7 @@ Deze modules staan u toe om acties op uw gegevens uit te voeren, maar vereisen g
 * [JSON-modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/json-modules.md)
 * [JSONata-modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md)
 * [JWT-modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jwt-modules.md)
+* [Lexische modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/lexical-modules.md)
 * [Markeringsmodules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/markdown-modules.md)
 * [Math, module](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/math-module.md)
 * [MIME-modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md)
