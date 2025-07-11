@@ -4,9 +4,9 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 1a09aa86-5e0e-4347-b4cf-2b0a95e5b049
-source-git-commit: b6997c2b160307489322fb6ede445336ef8bd85e
+source-git-commit: 5af0b7ab4646502418f188854fdec43bcacc7549
 workflow-type: tm+mt
-source-wordcount: '2753'
+source-wordcount: '3224'
 ht-degree: 0%
 
 ---
@@ -221,6 +221,8 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Een bestand maken](#create-a-file)
 * [Een map maken](#create-a-folder)
 * [Een bestand ophalen](#get-a-file)
+* [Een map ophalen](#get-a-folder)
+* [Een map of bestand bijwerken](#update-a-folder-or-a-file)
 * [Mapitems controleren](#watch-folder-items)
 
 #### Een bestand maken
@@ -299,6 +301,56 @@ Deze actiemodule haalt het opgegeven SharePoint-bestand op.
 </tbody> 
 </table>
 
+#### Een map ophalen
+
+In deze module worden gegevens over de opgegeven map opgehaald
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and File                IDs]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Folder path]</strong> in of wijs deze toe voor de map die u wilt ophalen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie van de map. </p> </li> 
+    </ul> </td> 
+  </tr> 
+</tbody> 
+</table>
+
+#### Een map of bestand bijwerken
+
+Deze actiemodule werkt de metagegevens van een map of bestand bij
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and File                IDs]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van het bestand dat u wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL List ID]</strong> en <strong>[!UICONTROL Folder or item ID]</strong> in of wijs deze toe voor de map of het bestand dat u wilt ophalen.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie van de map. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  </tr> 
+   <td role="rowheader">[!UICONTROL Fields]</td> 
+   <td>Voor elk meta-gegevensgebied dat u wilt bijwerken, <b> toevoegen punt </b> en ingaan de weg en de waarde van het gebied.</td> 
+  <tr>
+</tbody> 
+</table>
+
 #### Mapitems controleren
 
 Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een map die u selecteert.
@@ -332,9 +384,10 @@ Deze triggermodule start een scenario wanneer een item wordt bijgewerkt in een m
 * [[!UICONTROL Create an item]](#create-an-item)
 * [[!UICONTROL Delete an item]](#delete-an-item)
 * [[!UICONTROL Get an Item]](#get-an-item)
+* [Details ophalen](#get-details)
 * [[!UICONTROL List Items]](#list-items)
-* [[!UICONTROL Move Item]](#move-an-item)
-* [[!UICONTROL Update an item]](#update-an-item)
+* [[!UICONTROL Move an Item]](#move-an-item)
+* [[!UICONTROL Update an Item]](#update-an-item)
 * [[!UICONTROL Watch Items] (gepland)](#watch-items-scheduled)
 
 
@@ -440,6 +493,25 @@ Deze actiemodule retourneert de gegevens van een opgegeven item.
     </ul> </td> 
   </tr> 
  </tbody> 
+</table>
+
+#### Details ophalen
+
+Deze module haalt itemdetails op van de opgegeven URL.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">URL</td> 
+   <td> Typ of wijs de URL toe van het item waarvoor u de details wilt ophalen. </td> 
+  </tr> 
+</tbody> 
 </table>
 
 #### [!UICONTROL List Items]
@@ -687,6 +759,11 @@ Deze triggermodule start een scenario wanneer een lijst wordt gemaakt of gewijzi
 >
 >API&#39;s in de `beta` versie in [!DNL Microsoft Graph] kunnen worden gewijzigd. Het gebruik van deze API&#39;s in productietoepassingen wordt niet ondersteund.
 
+* [Een pagina ophalen](#get-a-page)
+* [Lijstpagina&#39;s](#list-pages)
+* [Pagina&#39;s publiceren](#publish-a-page)
+* [Pagina&#39;s controleren](#watch-pages)
+
 #### [!UICONTROL Get a Page]
 
 Deze actiemodule retourneert de gegevens van een opgegeven pagina.
@@ -706,6 +783,83 @@ Deze actiemodule retourneert de gegevens van een opgegeven pagina.
      <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL Page ID]</strong> in of wijs deze toe.</p> </li> 
      <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de pagina bevat die u wilt ophalen en selecteer vervolgens de pagina.</p> </li> 
     </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Lijstpagina&#39;s
+
+Deze module wint een lijst van alle pagina&#39;s terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL List Pages]</td> 
+   <td> <p>Selecteer hoe u de pagina's wilt identificeren die u wilt weergeven.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> in of wijs de site toe die de pagina's bevat die u wilt weergeven.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de pagina's bevat die u wilt weergeven.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal pagina's in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Pagina&#39;s publiceren
+
+Deze actiemodule publiceert de nieuwste versie van de geselecteerde pagina.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Publish a page]</td> 
+   <td> <p>Selecteer hoe u de pagina wilt identificeren die u wilt publiceren.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> en <strong>[!UICONTROL Page ID]</strong> in of wijs deze toe.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list]</strong> </p> <p>Selecteer de site die de pagina bevat die u wilt publiceren en selecteer vervolgens de pagina.</p> </li> 
+    </ul> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Pagina&#39;s controleren
+
+Deze triggermodule start een scenario wanneer een pagina op de opgegeven site wordt gewijzigd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Zie [!DNL Workfront Fusion] Connect Microsoft SharePoint Online <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw Microsoft SharePoint Online-account met [!DNL Workfront Fusion]</a> .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site ID]</td> 
+   <td> <p>Selecteer hoe u de pagina's wilt identificeren die u wilt weergeven.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> in of wijs de site toe die de pagina's bevat die u wilt controleren.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de site die de pagina's bevat die u wilt controleren.</p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Limit]</td> 
+   <td> <p>Ga of kaart het maximumaantal pagina's in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
