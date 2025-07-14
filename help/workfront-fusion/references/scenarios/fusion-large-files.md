@@ -4,9 +4,9 @@ description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: 0e69dfa23fc12cb20c3fed772d72ef348536ea24
+source-git-commit: a5a98d2e0b246d46389d4574e29f91c74f053472
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1050'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,11 @@ Voor het verwerken van grotere bestanden moeten uw scenario&#39;s worden bijgewe
 ## Connectors die grote bestanden ondersteunen
 
 Momenteel, steunen de volgende schakelaars grote dossiers.
+
+>[!NOTE]
+>
+>* Als een bestand wordt gedownload met een module die grote bestanden ondersteunt en vervolgens wordt doorgegeven aan een module die geen grote bestanden ondersteunt, wordt het bestand niet verwerkt. Grote bestanden moeten tijdens de gehele workflow uitsluitend met ondersteunde modules worden afgehandeld.
+>* Modules die geen ondersteuning bieden voor grote bestanden kunnen bestanden van maximaal 200 MB verwerken.
 
 * Workfront
    * Document uploaden

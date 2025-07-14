@@ -4,9 +4,9 @@ description: De automatisering van het werk vereist snelle verwerking, zodat wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: cf9e7def3ce406b693d22ff31f82571dd5eddd31
+source-git-commit: a5a98d2e0b246d46389d4574e29f91c74f053472
 workflow-type: tm+mt
-source-wordcount: '1006'
+source-wordcount: '1065'
 ht-degree: 0%
 
 ---
@@ -45,6 +45,8 @@ Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront 
 
 * De totale verwerkingscapaciteit van de fusie voor dossiers is **1 GB**. De limiet is gebaseerd op de totale geheugenkosten. Elke operatie draagt aan die kosten bij. Als één bestand van 400 MB wordt gedownload en geüpload, kost de totale bestandscapaciteit 800 MB.
 * Organisaties op het Workfront Ultimate-plan hebben toegang tot meer dan 1 GB aan bestandsverwerking. Het Fusion-platform kan ondersteuning bieden voor afzonderlijke bestanden van maximaal 15 GB voor één actie (bijvoorbeeld uploadbestand), maar er zijn andere factoren die van invloed zijn op de gegevensoverdracht. De maximale bestandsgrootte van één actie is afhankelijk van de verbinding die Fusion voor webservices maakt. Gegevensoverdracht is de totale verwerking voor één uitvoering. Dit betekent dat meerdere acties in één uitvoering bijdragen aan de totale gegevensoverdracht. Fusion verwerkt bestanden totdat de uitvoerlimiet van 40 minuten is bereikt.
+* Als een bestand wordt gedownload met een module die grote bestanden ondersteunt en vervolgens wordt doorgegeven aan een module die geen grote bestanden ondersteunt, wordt het bestand niet verwerkt. Grote bestanden moeten tijdens de gehele workflow uitsluitend met ondersteunde modules worden afgehandeld.
+* De modules die geen grote dossiers steunen kunnen dossiers tot **200 MB** in grootte verwerken.
 
 Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
 
