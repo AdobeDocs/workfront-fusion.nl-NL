@@ -4,9 +4,9 @@ description: De automatisering van het werk vereist snelle verwerking, zodat wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: a5a98d2e0b246d46389d4574e29f91c74f053472
+source-git-commit: e036784fbf241c6d528f2020b7c368249e4f2133
 workflow-type: tm+mt
-source-wordcount: '1065'
+source-wordcount: '1074'
 ht-degree: 0%
 
 ---
@@ -77,6 +77,7 @@ Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/
 
 * De onvolledige uitvoeringen zijn beperkt tot een totale grootte van **10 MB** per scenario. Als de grens 10 MB wordt bereikt, zullen niet meer onvolledige uitvoeringen voor dat scenario worden opgeslagen.
 * De onvolledige uitvoeringen zijn beperkt tot een totale grootte van **500 MB** per team. Als de limiet van 500 MB is bereikt, worden geen onvolledige uitvoeringen meer opgeslagen voor dat team.
+* Met Workfront Fusion kunt u maximaal vijf fouten per minuut opsporen.
 
 ## Opnieuw
 
