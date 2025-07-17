@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion SFTP]  modules staan u toe om doss
 author: Becky
 feature: Workfront Fusion
 exl-id: bde3cbda-8a19-4d9f-b970-f56d73a1f8dd
-source-git-commit: 26c599a9887ad931763b787813153bb7791ce5d1
+source-git-commit: 0e187fb3c31375c4dc12d0f9a8438bcb6f9ea7e8
 workflow-type: tm+mt
-source-wordcount: '1894'
+source-wordcount: '1916'
 ht-degree: 0%
 
 ---
@@ -111,6 +111,46 @@ Als u uw SFTP-account wilt verbinden met [!DNL Workfront Fusion] , moet u een ve
 
 Nadat u de verbindingsgegevens hebt ingevoerd, klikt u op **[!UICONTROL Continue]** om een verbinding tot stand te brengen.
 
+### Ondersteunde verbindingsopties
+
+De SFTP-connector ondersteunt het volgende bij het maken van een verbinding:
+
+#### Sleuteluitwisselingsalgoritmen (KEX)
+
+* `ecdh-sha2-nistp256`
+* `ecdh-sha2-nistp384`
+* `ecdh-sha2-nistp521`
+* `diffie-hellman-group-exchange-sha256`
+* `diffie-hellman-group14-sha256`
+* `diffie-hellman-group16-sha512`
+* `diffie-hellman-group18-sha512`
+* `diffie-hellman-group14-sha1`
+
+#### Schoenen
+
+* `aes256-gcm@openssh.com`
+* `aes256-gcm`
+* `aes128-gcm@openssh.com`
+* `aes128-gcm`
+* `aes256-ctr`
+* `aes192-ctr`
+* `aes128-ctr`
+* `aes256-cbc`
+* `aes192-cbc`
+* `aes128-cbc`
+* `blowfish-cbc`
+
+#### Serverhostsleutelindelingen
+
+* `ssh-ed25519`
+* `ecdsa-sha2-nistp256`
+* `ecdsa-sha2-nistp384`
+* `ecdsa-sha2-nistp521`
+* `ssh-rsa`
+* `ssh-dss`
+* `rsa-sha2-256`
+* `rsa-sha2-512`
+
 ## [!UICONTROL SFTP] modules en hun velden
 
 Wanneer u [!UICONTROL SFTP] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL SFTP] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
@@ -134,7 +174,7 @@ Hiermee worden bestanden met details geretourneerd wanneer een bestand in een op
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -161,7 +201,7 @@ Retourneert mappen met details wanneer een map wordt gemaakt of gewijzigd in een
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -201,7 +241,7 @@ Deze actiemodule maakt een nieuwe map op de opgegeven locatie.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -226,7 +266,7 @@ Deze actiemodule maakt een nieuwe map op de opgegeven locatie.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
@@ -243,7 +283,7 @@ Deze actiemodule maakt een nieuwe map op de opgegeven locatie.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Folder Path]</td> 
@@ -262,7 +302,7 @@ In deze module worden de bestandsgegevens opgehaald, inclusief de gegevens van e
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Buffer Size [B]]</td> 
@@ -285,7 +325,7 @@ Deze module retourneert bestanden uit een opgegeven map.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Buffer Size [B]]</td> 
@@ -326,7 +366,7 @@ Deze module retourneert bestanden uit een opgegeven map.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Show] </td> 
@@ -367,7 +407,7 @@ Deze module retourneert bestanden uit een opgegeven map.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
@@ -390,7 +430,7 @@ Wijzigt de naam van een bestand.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
@@ -413,7 +453,7 @@ Hiermee kunt u machtigingen voor het bestand wijzigen.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File Path]</td> 
@@ -436,7 +476,7 @@ Met deze module kunt u een bestand uploaden naar de SFTP-server.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> SFTP verbinden met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Workfront Fusion] SFTP verbinden met <a href="#connect-sftp-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw SFTP-account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
