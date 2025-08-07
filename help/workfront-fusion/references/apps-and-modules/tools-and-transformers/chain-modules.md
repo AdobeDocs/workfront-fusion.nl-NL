@@ -5,9 +5,10 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 454e06527fe1a624f36be3b7f3682ff49a61d42d
+exl-id: 21429f94-fe4c-4ccc-a8c0-d7573657fecc
+source-git-commit: efab436edce8a5253b147c77b87a005f6efc63d0
 workflow-type: tm+mt
-source-wordcount: '602'
+source-wordcount: '628'
 ht-degree: 0%
 
 ---
@@ -105,6 +106,7 @@ Om de Vraag een module van het kindscenario te vormen
    De gebieden die in de trekkermodule van het kindscenario worden gevormd verschijnen in Vraag een module van het kindscenario.
 
 1. Ga of kaart de informatie in die aan het kindscenario in Vraag een module van het kindscenario moet worden overgegaan.
+1. (Voorwaardelijk) als u het ouderscenario zijn uitvoering wilt voortzetten zonder op een reactie van het kindscenario te wachten, laat **Vuur toe en vergeet** optie.
 1. Klik **O.K.** om de module te bewaren.
 
 >[!NOTE]
@@ -128,4 +130,3 @@ De module Responder toevoegen configureren:
    Voor instructies bij het creëren van een gegevensstructuur, zie [ structuren van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
 1. Klik **O.K.** om de module te bewaren.
-
