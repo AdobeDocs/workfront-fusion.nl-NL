@@ -4,9 +4,9 @@ description: U kunt het parserhulpmiddel van de Tekst gebruiken om tekst voor ge
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 885d714e-fc09-41a2-89dc-ebe29a355e43
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: 679a4f5c91625dfecf32e10904700bf75ea7a7cf
 workflow-type: tm+mt
-source-wordcount: '1156'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Hiermee parseert u elementen van tekst op basis van het opgegeven patroon.
   </tr> 
   <tr> 
    <td>[!UICONTROL Pattern]</td> 
-   <td> <p>Selecteer het patroon dat de elementen weerspiegelt die u in de tekst wilt parseren.</p> </td> 
+   <td> <p>Selecteer het patroon dat de elementen weerspiegelt die u in de tekst wilt parseren.</p> <p>Als u een aangepaste reguliere expressie wilt invoeren, selecteert u Aangepast in de lijst en voert u de aangepaste expressie in het veld Aangepast regex in.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ignore Duplicate Occurrences]</td> 
