@@ -85,7 +85,7 @@ U kunt een uitvoering van de het scenariogeschiedenis van het scenario bekijken.
 
 1. Klik op het filter om de bundels weer te geven die door een filter zijn doorgegeven. Het getal bij het filter staat voor het aantal bundels dat door het filter is gegaan.
 1. Om naar een specifieke module of een gebeurtenis in het uitvoeringspaneel te zoeken, ga de onderzoekstermijn in de **de uitvoeringsgebeurtenissen van het Onderzoek** doos in. De resultaten worden weergegeven terwijl u typt.
-1. Om de onderzoeksresultaten van het uitvoerpaneel door status zoals Succes of Waarschuwing te beperken, klik de **dropdown van de Filter van de Status 0} {en selecteer de status.**
+1. Om de onderzoeksresultaten van het uitvoerpaneel door status zoals Succes of Waarschuwing te beperken, klik de **dropdown van de Filter van de Status 0&rbrace; &lbrace;en selecteer de status.**
 
 
 
