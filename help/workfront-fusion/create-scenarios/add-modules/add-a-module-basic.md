@@ -4,9 +4,9 @@ description: Dit artikel beschrijft het basisproces om een module aan een scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: f3757468-3e11-4862-a83e-ed447805545b
-source-git-commit: 860209fdcf2e7707663cc2d454c0499972b1261e
+source-git-commit: 62b09469c1d85fd2bd1f154cde339cc4a10fc34a
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -108,3 +108,14 @@ De lijst van schakelaars opent, tonend om het even welke schakelaars die reeds i
 1. Configureer de module.
 
    Voor instructies bij het vormen van specifieke modules, zie het artikel voor de gekozen toepassingen, die in [ worden vermeld de toepassingen van de Fusie en hun moduleverwijzingen: artikelindex ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
+
+>[!NOTE]
+>
+>Als u een koppeling naar een specifieke module wilt maken, voegt u `?moduleId=<module-id>` toe aan de URL bij de weergave van de volgende pagina&#39;s:
+>
+>* Scenario-bewerkingspagina (URL eindigt bij `/edit`)
+>* Een specifieke uitvoering van een scène (URL eindigt in `/logs/<log-id>`)
+>
+>`<module-id>` verwijst naar het getal naast het modulelabel wanneer het scenario wordt weergegeven.
+>
+>Dit kan nuttig zijn wanneer het zuiveren scenario&#39;s of het kopiëren moduleconfiguratie.

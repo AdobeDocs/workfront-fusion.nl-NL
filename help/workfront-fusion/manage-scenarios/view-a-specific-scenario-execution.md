@@ -3,9 +3,10 @@ title: Een specifieke uitvoering van een scenario weergeven
 description: U kunt details van een specifieke scenario uitvoering, met inbegrip van het filtreren en het zoeken naar scenario gebeurtenissen bekijken.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 5915476de34a883560d207d101a14e5b24abf3da
+exl-id: 34dd9836-9a1b-4ce2-b24e-ae769888a52a
+source-git-commit: 62b09469c1d85fd2bd1f154cde339cc4a10fc34a
 workflow-type: tm+mt
-source-wordcount: '374'
+source-wordcount: '428'
 ht-degree: 0%
 
 ---
@@ -84,4 +85,18 @@ U kunt een uitvoering van de het scenariogeschiedenis van het scenario bekijken.
 
 1. Klik op het filter om de bundels weer te geven die door een filter zijn doorgegeven. Het getal bij het filter staat voor het aantal bundels dat door het filter is gegaan.
 1. Om naar een specifieke module of een gebeurtenis in het uitvoeringspaneel te zoeken, ga de onderzoekstermijn in de **de uitvoeringsgebeurtenissen van het Onderzoek** doos in. De resultaten worden weergegeven terwijl u typt.
-1. Om de onderzoeksresultaten van het uitvoerpaneel door status zoals Succes of Waarschuwing te beperken, klik de **dropdown van de Filter van de Status 0&rbrace; &lbrace;en selecteer de status.**
+1. Om de onderzoeksresultaten van het uitvoerpaneel door status zoals Succes of Waarschuwing te beperken, klik de **dropdown van de Filter van de Status 0} {en selecteer de status.**
+
+
+
+
+>[!NOTE]
+>
+>Als u een koppeling naar een specifieke module wilt maken, voegt u `?moduleId=<module-id>` toe aan de URL bij de weergave van de volgende pagina&#39;s:
+>
+>* Scenario-bewerkingspagina (URL eindigt bij `/edit`)
+>* Een specifieke uitvoering van een scène (URL eindigt in `/logs/<log-id>`)
+>
+>`<module-id>` verwijst naar het getal naast het modulelabel wanneer het scenario wordt weergegeven.
+>
+>Dit kan nuttig zijn wanneer het zuiveren scenario&#39;s of het kopiëren moduleconfiguratie.
