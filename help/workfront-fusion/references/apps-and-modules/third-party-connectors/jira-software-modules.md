@@ -4,14 +4,18 @@ description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema'
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: 40470e5d2183f690ad65f5e1170f78c37dee8603
+source-git-commit: 8181cf8c2b2c4e6523cb16df0f91120e775e654b
 workflow-type: tm+mt
-source-wordcount: '1912'
+source-wordcount: '1942'
 ht-degree: 0%
 
 ---
 
 # [!DNL Jira Software] modules
+
+>[!NOTE]
+>
+>Deze instructies gelden voor de verouderde Jira Cloud- en Jira Server-connectors. Voor instructies over de nieuwe versie van de schakelaar van Jira, die eenvoudig Jira wordt geëtiketteerd, zie {de modules van 0} Jira [.](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md)
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Jira Software] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
@@ -306,7 +310,7 @@ Deze triggermodule start een scenario wanneer een record wordt toegevoegd, bijge
     <ol> 
      <li value="1">Klikken <strong>[!UICONTROL Add]</strong></li> 
      <li value="2">Voer een naam in voor de webhaak.</li> 
-     <li value="3"> <p>Selecteer de verbinding die u voor uw webhaak wilt gebruiken. </p> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </li> 
+     <li value="3"> <p>Selecteer de verbinding die u voor uw webhaak wilt gebruiken. </p> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </li> 
      <li value="4"> <p>Selecteer het recordtype waarop u de software wilt letten:</p> 
       <ul> 
        <li>[!UICONTROL Comment] </li> 
@@ -341,7 +345,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Sprint ID]</td> 
@@ -368,7 +372,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -397,7 +401,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -439,7 +443,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -471,7 +475,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL ID]</td> 
@@ -496,7 +500,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -536,7 +540,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -575,7 +579,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -614,7 +618,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Verbinding maken [!DNL Jira Software] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Jira Software] Verbinding maken [!DNL Workfront Fusion] met <a href="#connect-jira-software-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> in dit artikel voor instructies over het verbinden van uw [!DNL Jira Software] -account met [!DNL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
