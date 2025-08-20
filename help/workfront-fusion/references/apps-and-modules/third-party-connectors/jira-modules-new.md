@@ -3,9 +3,10 @@ title: Jira-modules
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebruikmaken van Jira-software en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: d16c1d9f257d44b72cfb93caa2a814fd62b0b733
+exl-id: b74a3618-c4a1-4965-a88d-1643bfab12db
+source-git-commit: 9865101fe57c2668ecb5ad743b3d6963833feb4a
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1607'
 ht-degree: 0%
 
 ---
@@ -73,15 +74,50 @@ Als u Jira-modules wilt gebruiken, moet u een Jira-account hebben.
 
 ## Jira verbinden met Workfront Fusion
 
-U kunt rechtstreeks vanuit een Jira-module een verbinding maken met uw Jira-account.
+### Vereiste referenties maken
 
->[!IMPORTANT]
->
->* Als u een basisverbinding met het Jira Data Center wilt maken, hebt u een Jira Personal Access Token nodig.
->* Als u een basisverbinding met Jira Cloud wilt maken, hebt u een Jira API-token nodig
->* Als u een OAuth 2-verbinding wilt maken met Jira Cloud of Jira Data Center, hebt u een Jira Client ID en Client Secret nodig.
->
->Raadpleeg de documentatie bij Jira voor instructies over het maken van deze bestanden.
+Voor het maken van verbindingen met Jira hebt u het volgende nodig:
+
+| Verbindingstype | Accounttype | Benodigde referenties |
+|---|---|---|
+| OAuth 2 | Alle | Client-id en clientgeheim |
+| Basis | Jira Cloud | Jira API-token |
+| Basis | Jira Data Center | Jira Personal Access Token (PAT) |
+
+Raadpleeg de documentatie bij Jira voor instructies over het maken van deze bestanden.
+
+Wanneer u deze referenties maakt, hebt u de volgende informatie nodig:
+
+* Voor OAuth 2:
+
+  | Fusion-datacenter | URL omleiden |
+  |---|---|
+  | VS | `https://app.workfrontfusion.com/oauth/cb/workfront-jira2` |
+  | EU | `https://app-eu.workfrontfusion.com/oauth/cb/workfront-jira2` |
+  | Azure | `https://app-az.workfrontfusion.com/oauth/cb/workfront-jira2` |
+
+
+
+* Voor Persoonlijke Tokens van de Toegang (PATs):
+
+  | Fusion-datacenter | URL omleiden |
+  |---|---|
+  | VS | `https://app.workfrontfusion.com/oauth/cb/workfront-jira` |
+  | EU | `https://app-eu.workfrontfusion.com/oauth/cb/workfront-jira` |
+  | Azure | `https://app-az.workfrontfusion.com/oauth/cb/workfront-jira` |
+
+  >[!IMPORTANT]
+  >
+  >Als u een PAT wilt gebruiken, moet u het volgende inschakelen in de bestanden `jira/bin/WEB-INF/classes` in het bestand `jira-config.properties` :
+  >
+  >* `jira.rest.auth.allow.basic = true`
+  >* `jira.rest.csrf.disabled = true`
+  >
+  >Als dit bestand niet bestaat, moet u het maken.
+
+### Verbinding maken met Jira in Workfront Fusion
+
+De verbinding maken in Workfront Fusion:
 
 1. In om het even welke module van Jira, voegt de klik **naast het gebied van de Verbinding toe.**
 1. Configureer de volgende velden:
