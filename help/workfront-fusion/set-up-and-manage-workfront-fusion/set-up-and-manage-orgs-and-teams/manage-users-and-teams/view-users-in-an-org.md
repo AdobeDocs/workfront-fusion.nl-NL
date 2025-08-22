@@ -1,23 +1,18 @@
 ---
-title: Gebruikersgegevens weergeven of bewerken
-description: Beheer  [!DNL Adobe Workfront Fusion]  gebruikers in uw organisatie
+title: Gebruikers in een organisatie weergeven
+description: U kunt een lijst van de gebruikers van uw organisatie bekijken
 author: Becky
 feature: Workfront Fusion
-exl-id: 0eeed98c-0c87-4e34-9efe-027f3f03af1b
 source-git-commit: ef41c85010b53bbc80c5b44ba8a622027c9e4911
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '223'
 ht-degree: 0%
 
 ---
 
-# Gebruikersgegevens weergeven of bewerken
+# Gebruikers in een organisatie weergeven
 
-[!DNL Adobe Workfront Fusion] -beheerders kunnen gebruikersgegevens beheren in [!DNL Workfront Fusion] .
-
->[!NOTE]
->
->Als uw organisatie momenteel bezig is met het verplaatsen naar de Adobe Admin Console, kunt u gebruikers in Workfront niet beheren (gebruikers toevoegen of verwijderen). U kunt deze handelingen uitvoeren in de Adobe Admin Console nadat de migratie is voltooid.
+U kunt een lijst met gebruikers in uw organisatie weergeven, sorteren en filteren.
 
 ## Toegangsvereisten
 
@@ -71,11 +66,15 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 +++
 
-## Gebruikersgegevens weergeven of bewerken
+## Gebruikers weergeven in het gedeelte Gebruikers
 
-[!DNL Adobe Workfront Fusion] -beheerders kunnen gebruikersgegevens weergeven en bijwerken.
+1. In de linkernavigatie, klik **Org overzicht** in de upper-left hoek van het scherm.
+1. Selecteer de **Gebruikers** tabel.
 
-1. Als u bent aangemeld als [!DNL Workfront Fusion] beheerder, selecteert u **[!UICONTROL All users]** in de linkernavigatie.
-1. Klik op **[!UICONTROL Details]** in de rij van de gebruiker die u wilt weergeven.
-1. (Optioneel) Als u de details van de gebruiker wilt bijwerken, klikt u op **[!UICONTROL Options]** in de rechterbovenhoek van het scherm en selecteert u **[!UICONTROL Change Details]** .
-1. Bewerk de details, dan klik **sparen**.
+   De lijst Gebruikers wordt geopend.
+
+1. (Facultatief) om de lijst van Gebruikers door om het even welke kolom te sorteren, klik het **pictogram van de Soort** ![ voor die kolom.](assets/sort-icon.png)
+1. (Facultatief) om kolommen te verbergen of te tonen, klik het **pictogram van Kolommen** pictogram van Kolommen ![ dichtbij de hoger-juiste hoek van de lijst, dan toelaten of onbruikbaar maken kolommen.](assets/columns-icon.png)
+1. (Optioneel) Als u de lijst wilt filteren, typt u in de zoekbalk. De lijstfilters om slechts teams te omvatten die uw onderzoekstermijn omvatten.
+
+
