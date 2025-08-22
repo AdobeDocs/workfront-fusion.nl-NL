@@ -139,7 +139,7 @@ Deze functie retourneert een nieuwe datum met de seconden die in parameters word
 
 Geef een getal op tussen 0 en 59. Als het getal zich buiten dat bereik bevindt, retourneert de functie een seconde vanaf de vorige minuut (voor een negatief getal) of een volgende minuut (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u [!UICONTROL  addSeconds] gebruikt, zoals hierboven beschreven in de sectie [ addSeconds (datum; aantal) ](#addseconds-date-number).
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u [!UICONTROL &#x200B; addSeconds] gebruikt, zoals hierboven beschreven in de sectie [ addSeconds (datum; aantal) ](#addseconds-date-number).
 
 >[!BEGINSHADEBOX]
 

@@ -371,7 +371,7 @@ Deze module retourneert e-mailberichten die voldoen aan de opgegeven criteria.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail krijgen door de module van Workfront Fusion [!UICONTROL  Watch Email] of [!UICONTROL Search Email] te gebruiken module.</p> </td> 
+   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail krijgen door de module van Workfront Fusion [!UICONTROL &#x200B; Watch Email] of [!UICONTROL Search Email] te gebruiken module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of results]</td> 

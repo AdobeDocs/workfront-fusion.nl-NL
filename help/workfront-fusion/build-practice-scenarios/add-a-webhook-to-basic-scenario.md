@@ -96,7 +96,7 @@ U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een ba
 
    Het scenario moet worden uitgevoerd.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
-1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan **&#x200B;**.
 
    Dit activeert het scenario.
 1. Klik in Workfront Fusion op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.

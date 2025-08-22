@@ -87,7 +87,7 @@ Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan de F
 
 >[!NOTE]
 >
->Wanneer het vormen van een verbinding, selecteer het **verbindingstype van 0} HubSpot CRM {.** Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
+>Wanneer het vormen van een verbinding, selecteer het **verbindingstype van 0&rbrace; HubSpot CRM &lbrace;.** Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
 
 ## [!DNL HubSpot CRM] modules en hun velden
 
@@ -1059,7 +1059,7 @@ Deze actiemodule verwijdert een betrokkenheid met de id.
 
 +++
 
-+++ **van het 0} Horloge Afspraken**
++++ **van het 0&rbrace; Horloge Afspraken**
 
 Deze triggermodule start een scenario wanneer een nieuwe betrokkenheid wordt gemaakt in een portal. Deze module retourneert alleen records die in de laatste 30 dagen zijn gemaakt, of de 10.000 records die het laatst zijn gemaakt.
 

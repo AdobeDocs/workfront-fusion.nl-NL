@@ -289,27 +289,27 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 >Configureer de module [!UICONTROL Webhook Response] als volgt:
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
-&gt;   <td> <p>2xx de statuscode van succesHTTP, b.v. 200</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
-&gt;   <td> <p>HTML-code</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
-&gt;   <td> 
-&gt;    <ul> 
-&gt;     <li><strong> Sleutel </strong>: Inhoud-type</li> 
-&gt;     <li><strong> Waarde </strong>: text/html</li> 
-&gt;    </ul> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
+>&gt;   <td> <p>2xx de statuscode van succesHTTP, b.v. 200</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
+>&gt;   <td> <p>HTML-code</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
+>&gt;   <td> 
+>&gt;    <ul> 
+>&gt;     <li><strong> Sleutel </strong>: Inhoud-type</li> 
+>&gt;     <li><strong> Waarde </strong>: text/html</li> 
+>&gt;    </ul> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
 >
 >![ de Kopballen van de Douane ](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
@@ -324,23 +324,23 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 >**Voorbeeld:** vorm de [!UICONTROL Webhook Response] module als volgt:
 >
 ><table style="table-layout:auto"> 
-&gt; <col> 
-&gt; <col> 
-&gt; <tbody> 
-&gt;  <tr> 
-&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
-&gt;   <td> <p>3xx HTTP-statuscode voor omleiding, bijvoorbeeld 303</p> </td> 
-&gt;  </tr> 
-&gt;  <tr> 
-&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
-&gt;   <td> 
-&gt;    <ul> 
-&gt;     <li><strong>[!UICONTROL Key]</strong>: Locatie</li> 
-&gt;     <li><strong>[!UICONTROL Value]</strong>: De URL waarnaar u wilt omleiden.</li> 
-&gt;    </ul> </td> 
-&gt;  </tr> 
-&gt; </tbody> 
-&gt;</table>
+>&gt; <col> 
+>&gt; <col> 
+>&gt; <tbody> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
+>&gt;   <td> <p>3xx HTTP-statuscode voor omleiding, bijvoorbeeld 303</p> </td> 
+>&gt;  </tr> 
+>&gt;  <tr> 
+>&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
+>&gt;   <td> 
+>&gt;    <ul> 
+>&gt;     <li><strong>[!UICONTROL Key]</strong>: Locatie</li> 
+>&gt;     <li><strong>[!UICONTROL Value]</strong>: De URL waarnaar u wilt omleiden.</li> 
+>&gt;    </ul> </td> 
+>&gt;  </tr> 
+>&gt; </tbody> 
+>&gt;</table>
 >
 >![ reactie Webhaak ](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 

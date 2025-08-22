@@ -173,4 +173,4 @@ Scenario&#39;s kunnen een onbeperkt aantal iterators bevatten, hoewel grote aant
 
 >[!ENDSHADEBOX]
 
-Voor meer informatie, zie [ de module van de Teller 0} en ](/help/workfront-fusion/references/modules/iterator-module.md) Kaart een serie [.](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)
+Voor meer informatie, zie [ de module van de Teller 0&rbrace; en ](/help/workfront-fusion/references/modules/iterator-module.md) Kaart een serie [.](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)

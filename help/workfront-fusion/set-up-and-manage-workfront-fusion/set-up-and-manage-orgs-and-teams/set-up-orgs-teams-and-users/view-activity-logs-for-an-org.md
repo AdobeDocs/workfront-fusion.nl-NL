@@ -85,7 +85,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 1. Klik op de tab **[!UICONTROL Activity Logs]** boven in het scherm.
 
    De pagina Activiteitenlog wordt geopend.
-1. Klik **** het pictogram van de Filter ![ Filter ](assets/filter-activity-log.png).
+1. Klik **&#x200B;**&#x200B;het pictogram van de Filter ![ Filter ](assets/filter-activity-log.png).
 1. Configureer een of meer van de volgende filters door in het veld te klikken.
 
    * **Datum van het Begin &amp; Datum van het Eind**: Selecteer data van de kalender, en (facultatief) ga tijden in.

@@ -86,7 +86,7 @@ De Salesforce-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td> {{connection.instanceUrl}</td>
+   <td> &lbrace;{connection.instanceUrl}</td>
   </tr> 
   <tr> 
    <td role="rowheader">API-versie</td> 
@@ -189,7 +189,7 @@ Deze triggermodule start een scenario wanneer een veld wordt bijgewerkt in [!DNL
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Selecteer het type record dat het veld bevat waarop de module moet letten. Kies een recordtype waarvoor [!UICONTROL Field History] is ingeschakeld in [!DNL Salesforce] . Voor meer informatie, zie <a href="https://help.salesforce.com/s/articleView?id=xcloud.tracking_field_history.htm&amp;type=5"> het Volgen van de Geschiedenis van het Gebied </a> in de [!DNL Salesforce] documentatie. </p> </td> 
+   <td> <p>Selecteer het type record dat het veld bevat waarop de module moet letten. Kies een recordtype waarvoor [!UICONTROL Field History] is ingeschakeld in [!DNL Salesforce] . Voor meer informatie, zie <a href="https://help.salesforce.com/s/articleView?id=xcloud.tracking_field_history.htm&type=5"> het Volgen van de Geschiedenis van het Gebied </a> in de [!DNL Salesforce] documentatie. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Field]</td> 
@@ -577,7 +577,7 @@ Deze actiemodule uploadt één bestand naar Salesforce.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -617,7 +617,7 @@ Deze actiemodule wint alle verslagen terug die aan een bepaalde criteria voldoen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 

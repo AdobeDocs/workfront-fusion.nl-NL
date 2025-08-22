@@ -69,10 +69,10 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 >[!IMPORTANT]
 >
 >* Als u de Dropbox-aansluiting wilt gebruiken, moet u eerst een toepassing in Dropbox maken.
->  >   Zoek naar &quot;Een toepassing maken&quot; in de handleiding voor ontwikkelaars van Dropbox voor meer informatie.
+>  &#x200B;>   Zoek naar &quot;Een toepassing maken&quot; in de handleiding voor ontwikkelaars van Dropbox voor meer informatie.
 >* Wanneer u de toepassing maakt, gebruikt u de volgende URI voor omleiding: `https://app.workfrontfusion.com/oauth/cb/dropbox`
 >* Dropbox moet toepassingen met meer dan 50 gebruikers goedkeuren.
->  >   Zoek naar &quot;Productietoestemming&quot; in de Dropbox-handleiding voor ontwikkelaars voor meer informatie.
+>  &#x200B;>   Zoek naar &quot;Productietoestemming&quot; in de Dropbox-handleiding voor ontwikkelaars voor meer informatie.
 
 ## Dropbox API-informatie
 

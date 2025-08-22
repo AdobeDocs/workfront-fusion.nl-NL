@@ -76,7 +76,7 @@ De Slack-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>{{fempty(parameters.domain, 'https://slack.com/api/')}</td> 
+   <td>&lbrace;{fempty(parameters.domain, 'https://slack.com/api/')}</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 

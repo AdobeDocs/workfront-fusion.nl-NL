@@ -115,7 +115,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 * [[!UICONTROL Upload an Element]](#upload-an-element)
 
-* [!UICONTROL [Nieuw element controleren in bibliotheek]](#watch-new-element-in-library)
+* [[!UICONTROL [Nieuw element controleren in bibliotheek]]](#watch-new-element-in-library)
 
 * [[!UICONTROL Watch Updated Elements]](#watch-updated-elements)
 

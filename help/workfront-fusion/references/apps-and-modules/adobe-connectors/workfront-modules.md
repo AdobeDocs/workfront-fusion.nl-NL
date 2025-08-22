@@ -347,7 +347,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
    <td>Selecteer het object waarnaar u het wilt omzetten. Dit is het type dat het object na de conversie heeft.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL <Object> ID]</td> 
+   <td>[!UICONTROL &lt;Object> ID]</td> 
    <td> <p>Voer de id van het object in. </p> <p>Opmerking: wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -448,7 +448,7 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ ob
 >[!IMPORTANT]
 >
 >Deze module is vervangen door de module Een record maken. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
->>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
+>&#x200B;>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze actiemodule maakt een object, zoals een project, taak of uitgave in Workfront. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
 
@@ -886,7 +886,7 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ ob
 >[!IMPORTANT]
 >
 >Deze module is vervangen door de module Een record lezen. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
->>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
+>&#x200B;>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze actiemodule haalt gegevens op uit één record.
 
@@ -1015,7 +1015,7 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ ob
 >[!IMPORTANT]
 >
 >Deze module is vervangen met Update een verslagmodule. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
->>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
+>&#x200B;>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze actiemodule werkt een voorwerp, zoals een project, een taak, of een kwestie bij. In de module kunt u selecteren welke velden van het object beschikbaar zijn in de module.
 
@@ -1249,7 +1249,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 >[!IMPORTANT]
 >
 >Deze module is vervangen door de module Zoeken in records. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
->>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
+>&#x200B;>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze zoekmodule zoekt naar records in een object in Workfront die overeenkomen met de zoekquery die u opgeeft.
 

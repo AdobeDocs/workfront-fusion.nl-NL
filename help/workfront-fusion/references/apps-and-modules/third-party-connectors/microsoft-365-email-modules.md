@@ -285,7 +285,7 @@ Deze zoekmodule zoekt naar berichten op basis van specifieke criteria.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
+   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&rs=en-us&ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Order by]</td> 
@@ -331,7 +331,7 @@ Deze triggermodule start een scenario wanneer een nieuw e-mailbericht wordt verz
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Voer uw zoekopdracht in. De module keert berichten terug die deze vraag aanpassen. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
+   <td>Voer uw zoekopdracht in. De module keert berichten terug die deze vraag aanpassen. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&rs=en-us&ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 

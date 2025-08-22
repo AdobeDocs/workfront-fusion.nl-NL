@@ -84,7 +84,7 @@ De Adobe Campaign-connector gebruikt het volgende:
 
 >[!IMPORTANT]
 >
->We raden u ten zeerste aan een server-naar-server verbinding te maken. Adobe Campaign heeft hun API bijgewerkt zodat alleen server-naar-server verbindingen worden geaccepteerd. Als u met versie 8 van de Campagne of hoger verbindt, moet u **** een server-aan-server verbinding tot stand brengen.
+>We raden u ten zeerste aan een server-naar-server verbinding te maken. Adobe Campaign heeft hun API bijgewerkt zodat alleen server-naar-server verbindingen worden geaccepteerd. Als u met versie 8 van de Campagne of hoger verbindt, moet u **&#x200B;**&#x200B;een server-aan-server verbinding tot stand brengen.
 >
 >Voor meer informatie over de nieuwe verbindingsvereisten van de Campagne, zie [ Migratie van de technische exploitanten van de Campagne aan Adobe Developer Console ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) in de documentatie van de Campagne.
 

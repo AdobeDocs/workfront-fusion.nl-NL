@@ -210,7 +210,7 @@ De eigenschappen van een gegevensopslag omvatten de gegevensstructuur die de geg
 
 ### De inhoud van een gegevensopslagruimte bewerken
 
-1. Klik het **[!UICONTROL Data Store]** pictogram van de de opslagplaats van 1} Gegevens ![ in het linkernavigatievenster om het ](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data Store]
+1. Klik het **[!UICONTROL Data Store]** pictogram van de de opslagplaats van 1&rbrace; Gegevens ![ in het linkernavigatievenster om het ](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data Store]
 1. Klik op **[!UICONTROL Browse]** naast de gegevensopslagruimte die u wilt bewerken.
 1. (Optioneel) U kunt kolommen opnieuw ordenen door deze naar de gewenste locatie te slepen.
 1. (Optioneel) [!UICONTROL Edit] één cel door op het pictogram **[!UICONTROL Edit]** in die cel te klikken en vervolgens de gewenste waarde in te voeren.

@@ -348,7 +348,7 @@ Hiermee haalt u op basis van de zoekterm de gegevens van de bestanden en/of mapp
     <ul> 
      <li style="font-weight: bold;"> <p>[!UICONTROL Search within file names]</p> <p style="font-weight: normal;">Voer de bestandsnaam (inclusief de bestandsextensie) in wanneer de optie [!UICONTROL Search for exact term Search] is geselecteerd of voer het deel van de naam in wanneer de optie [!UICONTROL Search for names containing the searched term] is geselecteerd.</p> </li> 
      <li> <p style="font-weight: bold;">[!UICONTROL Fulltext search]</p> <p>Voer de zoekterm in om de bestandsnamen, beschrijvingen en inhoud te doorzoeken.</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Custom search query]</p> <p>Voer de zoekqueryterm [!DNL Google] in. Voor meer details gelieve te verwijzen naar [!DNL Google] de Documentatie van de Vraag van het Onderzoek van 0} <a href="https://developers.google.com/drive/api/v2/ref-search-terms">. </a> Voorbeeld: <code>fullText contains '"Hello world"'</code></p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Custom search query]</p> <p>Voer de zoekqueryterm [!DNL Google] in. Voor meer details gelieve te verwijzen naar [!DNL Google] de Documentatie van de Vraag van het Onderzoek van 0&rbrace; <a href="https://developers.google.com/drive/api/v2/ref-search-terms">. </a> Voorbeeld: <code>fullText contains '"Hello world"'</code></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

@@ -75,7 +75,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 ## Een module bijwerken naar een nieuwe versie
 
-1. Klik het **pictogram van de 1} pictogram van de module van de Verbetering** ![ op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
+1. Klik het **pictogram van de 1&rbrace; pictogram van de module van de Verbetering** ![ op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
    ![ pictogram van de Update ](assets/update-indicator.png)
 1. Klik **tonen me nieuwe modules**.
 1. Selecteer de nieuwe module die overeenkomt met de bestaande module.

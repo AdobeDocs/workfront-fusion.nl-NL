@@ -116,7 +116,7 @@ Omdat de eerste module is vervangen, moet de tweede module aan de nieuwe eerste 
 1. Ga naar de Workfront-omgeving waarmee Fusion verbinding maakt en voeg een probleem toe.
 1. Klik op **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenarioeditor.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
-1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan **&#x200B;**.
 
    Dit activeert het scenario.
 1. Klik in Workfront Fusion op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.

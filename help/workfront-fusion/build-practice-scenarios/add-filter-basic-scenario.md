@@ -110,7 +110,7 @@ Nu moeten `ID` , `Name` en `Project` zijn geselecteerd.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
 
    Beide kwesties zouden in de output van de eerste module moeten verschijnen, maar slechts zou de kwestie in het gespecificeerde project als input in de tweede module moeten verschijnen.
-1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan **&#x200B;**.
 
    Dit activeert het scenario.
 1. Klik in Workfront Fusion op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.

@@ -115,7 +115,7 @@ Begin manueel het scenario in de scenarioredacteur.
 >Om het volledige scenario te verhinderen lopen, kunt u:
 >
 >* Koppel de modules los na de module [!UICONTROL JSON] > [!UICONTROL Parse JSON] om te voorkomen dat de stroom verder gaat.
->  >   of
+>  &#x200B;>   of
 >* Klik met de rechtermuisknop op de module [!UICONTROL JSON] > [!UICONTROL Parse JSON] en kies **[!UICONTROL Run this module only]** in het contextmenu om alleen de module [!UICONTROL JSON] > [!UICONTROL Parse JSON] uit te voeren.
 
 Nadat [!UICONTROL JSON] > [!UICONTROL Parse JSON] wordt uitgevoerd, kan het informatie over zijn output aan alle verdere modules, met inbegrip van de module van de Iterator verstrekken. In het deelvenster Toewijzing in de setup van de iterator worden vervolgens de items weergegeven:

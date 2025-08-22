@@ -165,7 +165,7 @@ Voor meer informatie, zie [ Aantal opeenvolgende fouten ](/help/workfront-fusion
 >[!NOTE]
 >
 >Als een scenario begint met een onmiddellijke trigger en deze fout aantreft, wordt de instelling van [!UICONTROL Max number of consecutive errors] genegeerd en wordt het scenario onmiddellijk gedeactiveerd.
->>Voor meer informatie, zie [ Onmiddellijke trekkers ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers) in het overzicht van de artikelmodules.
+>&#x200B;>Voor meer informatie, zie [ Onmiddellijke trekkers ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers) in het overzicht van de artikelmodules.
 
 ## Inconsistentiefout
 
