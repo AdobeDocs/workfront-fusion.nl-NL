@@ -31,7 +31,7 @@ Workfront Fusion biedt ook functies die scenario&#39;s ondersteunen, zoals sjabl
 
 Wanneer u met Workfront Fusion begint te werken, zijn wellicht de volgende bronnen nuttig:
 
-* Voor de opleidingsmiddelen van de Fusie van Workfront, zie [ het Overzicht van de Opleiding van de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+* Voor de opleidingsmiddelen van de Fusie van Workfront, zie [ het Overzicht van de Opleiding van de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
 
 * Voor meer informatie over scenario&#39;s, zie [ Overzicht Scenario ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md).
