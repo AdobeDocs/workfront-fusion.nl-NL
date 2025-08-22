@@ -5,16 +5,16 @@ description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema
 author: Becky
 feature: Workfront Fusion
 exl-id: 77237a1b-2acd-4350-9cc0-ec43b8b08137
-source-git-commit: 40470e5d2183f690ad65f5e1170f78c37dee8603
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '923'
 ht-degree: 0%
 
 ---
 
 # [!DNL Workday] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Workday] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Workday] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -90,9 +90,9 @@ De Workday-connector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!DNL Workday] met [!DNL Workfront Fusion]
+## Verbinden [!DNL Workday] met Workfront Fusion
 
-1. Klik in een willekeurige [!DNL Workfront Fusion] -module op [!UICONTROL Add] naast het [!UICONTROL Connection] -veld
+1. Klik in een willekeurige Workfront Fusion-module op [!UICONTROL Add] naast het veld [!UICONTROL Connection]
 
 2. Vul de volgende velden in:
 
@@ -138,7 +138,7 @@ De Workday-connector gebruikt het volgende:
 
 ## [!DNL Workday] modules en hun velden
 
-Wanneer u [!DNL Workday] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Workday] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Workday] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Workday] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -170,7 +170,7 @@ Deze actiemodule maakt één record in [!DNL Workday] .
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Zie <a href="#Connect" class="MCXref xref" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met Workfront Fusion.</td>
+            <td>Voor instructies over het aansluiten van uw [!DNL Workday] rekening aan Workfront Fusion, zie <a href="#Connect" class="MCXref xref" > verbinden [!DNL Workday] met Workfront Fusion </a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record Type]</td>
@@ -199,7 +199,7 @@ Deze actiemodule verwijdert één record in [!DNL Workday] .
     <tbody>
         <tr>
             <td role="rowheader">[!UICONTROL Connection]</td>
-            <td>Zie <a href="#Connect" class="MCXref xref" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met [!DNL Workfront Fusion] .</td>
+            <td>Voor instructies over het aansluiten van uw [!DNL Workday] rekening aan Workfront Fusion, zie <a href="#Connect" class="MCXref xref" > verbinden [!DNL Workday] met Workfront Fusion </a>.</td>
         </tr>
         <tr>
             <td  role="rowheader">[!UICONTROL Record type]</td>
@@ -235,7 +235,7 @@ De module keert een statuscode, samen met de kopballen en het lichaam van de API
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Connection]</p> </td> 
-            <td>Zie <a href="#Connect" class="MCXref xref" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met [!DNL Workfront Fusion] .</td>
+            <td>Voor instructies over het aansluiten van uw [!DNL Workday] rekening aan Workfront Fusion, zie <a href="#Connect" class="MCXref xref" > verbinden [!DNL Workday] met Workfront Fusion </a>.</td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -336,7 +336,7 @@ Deze zoekmodule haalt een lijst met records van het opgegeven type op.
       <tbody>
           <tr>
               <td role="rowheader">[!UICONTROL Connection]</td>
-              <td>Zie <a href="#Connect" class="MCXref xref" > Verbinding maken [!DNL Workday] met [!DNL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Workday] -account met [!DNL Workfront Fusion] .</td>
+              <td>Voor instructies over het verbinden van uw [!DNL Workday] rekening met Workfront Fusion, zie <a href="#Connect" class="MCXref xref" > verbind [!DNL Workday] met Workfront Fusion </a></td>
           </tr>
           <tr>
               <td  role="rowheader">[!UICONTROL Record Type]</td>

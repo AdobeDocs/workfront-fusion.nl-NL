@@ -8,18 +8,18 @@ description: U kunt een gebruiker toevoegen aan de Adobe Admin Console en deze t
 author: Becky
 feature: Workfront Fusion
 exl-id: 7cb1c1a7-3c7a-459a-818f-d9cefcb9988b
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
 
 # Gebruikers aan Adobe Workfront Fusion toevoegen via de Adobe Admin Console
 
-U kunt een gebruiker aan [!DNL Adobe Admin Console] toevoegen en hen toewijzen aan [!DNL Adobe Workfront Fusion], of een bestaande gebruiker in [!DNL Adobe Admin Console] toewijzen aan [!DNL Workfront Fusion].
+U kunt een gebruiker aan [!DNL Adobe Admin Console] toevoegen en hen toewijzen aan Adobe Workfront Fusion, of een bestaande gebruiker in [!DNL Adobe Admin Console] toewijzen aan Workfront Fusion.
 
-Voor video beschrijvend [!DNL Workfront Fusion] in [!DNL Adobe Admin Console], met inbegrip van hoe te om gebruikers toe te voegen, zie [[!DNL Fusion]  op Adobe IMS ](https://video.tv.adobe.com/v/3412464/){target=_blank}.
+Voor een video die de Fusie van Workfront in [!DNL Adobe Admin Console] beschrijft, met inbegrip van hoe te om gebruikers toe te voegen, zie [[!DNL Fusion]  op Adobe IMS ](https://video.tv.adobe.com/v/3412464/){target=_blank}.
 
 
 
@@ -30,27 +30,27 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">Adobe Workfront-abonnement*</td> 
    <td> <p>[!UICONTROL Pro] of hoger</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td> 
+   <td role="rowheader">Adobe Workfront-licentie*</td> 
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidige vergunningsvereiste: geen Workfront Fusion-vergunningsvereiste.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het abonnement [!UICONTROL Select] of [!UICONTROL Prime] [!DNL Adobe Workfront] hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] Adobe Workfront-abonnement hebt, moet uw organisatie zowel Adobe Workfront Fusion als Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Workfront Fusion is opgenomen in het Workfront-plan van [!UICONTROL Ultimate] .</p>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet Adobe Workfront Fusion en Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr>
    <tr> 
@@ -60,9 +60,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   </tbody> 
 </table>
 
-&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw [!DNL Workfront] beheerder.
+&#42; om te weten te komen welk plan, vergunningstype, of toegang u hebt, contacteer uw beheerder van Workfront.
 
-&#42;&#42; voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+&#42;&#42; voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de vergunningen van de Fusie van Adobe Workfront ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 
 
@@ -77,17 +77,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -95,16 +95,16 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] -abonnement: uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] abonnement: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> 
-     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw organisatie zijn.</p>
-     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team zijn.</p>
+     <p>U moet een Workfront Fusion-beheerder zijn voor uw organisatie.</p>
+     <p>U moet een Workfront Fusion-beheerder zijn voor uw team.</p>
    </td> 
   </tr> 
    </td> 
@@ -114,25 +114,25 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
 
 ## Vereisten
 
-Voordat u [!DNL Admin Console] for [!DNL Workfront] gebruikt, ontvangt u een e-mail waarin u wordt uitgenodigd naar de console.
+Voordat u [!DNL Admin Console] for Workfront gebruikt, ontvangt u een e-mail met de uitnodiging aan de console.
 
 1. Als u [!DNL Adobe] nog niet eerder hebt gebruikt en u een e-mail hebt ontvangen waarin u wordt gemeld dat u nu beheerrechten hebt voor [!DNL Adobe] -software en -services voor uw organisatie, klikt u op de knop in de e-mail om een [!DNL Adobe] -account te maken en opent u [!DNL Admin Console] .
 
    of
 
-   Als u reeds een rekening van de Adobe hebt, ga naar de [[!DNL Adobe Admin Console]  pagina ](https://adminconsole.adobe.com).
+   Als u reeds een rekening van Adobe hebt, ga naar de [[!DNL Adobe Admin Console]  pagina ](https://adminconsole.adobe.com).
 
 
-## Een nieuwe gebruiker toevoegen aan de [!DNL Adobe Admin Console] en [!DNL Workfront Fusion]
+## Een nieuwe gebruiker toevoegen aan [!DNL Adobe Admin Console] en Workfront Fusion
 
-1. Van de [[!DNL Adobe Admin Console]  pagina ](https://adminconsole.adobe.com/), selecteer het **[!UICONTROL Products]** lusje in de hoogste navigatiebar, en selecteer dan de **[!DNL Workfront Fusion]** producttegel.
+1. Van de [[!DNL Adobe Admin Console]  pagina ](https://adminconsole.adobe.com/), selecteer het **[!UICONTROL Products]** lusje in de hoogste navigatiebar, en selecteer dan de **de Fusie van Workfront** producttegel.
 
    ![ Fusie in Admin Console ](assets/fusion-product-admin-console.png)
 
@@ -140,7 +140,7 @@ Voordat u [!DNL Admin Console] for [!DNL Workfront] gebruikt, ontvangt u een e-m
 
    ![ instantie van de Fusie in Admin Console ](assets/fusion-instances-admin-console.png)
 
-1. Klik in de lijst die wordt weergegeven met de tab **[!UICONTROL Product Profiles]** geselecteerd op de naam van de koppeling [!DNL Workfront Fusion] [!UICONTROL Product Profile] .
+1. Klik in de lijst die wordt weergegeven met het tabblad **[!UICONTROL Product Profiles]** geselecteerd op de naam van de Workfront Fusion [!UICONTROL Product Profile] -koppeling.
 
    >[!IMPORTANT]
    >
@@ -152,9 +152,9 @@ Voordat u [!DNL Admin Console] for [!DNL Workfront] gebruikt, ontvangt u een e-m
 
 1. Klik op **[!UICONTROL Save]**.
 
-   De gebruiker wordt gemaakt in [!DNL Workfront Fusion] .
+   De gebruiker wordt gemaakt in Workfront Fusion.
 
-1. (Optioneel) Ga door met [ Wijzig het toegangsniveau van een gebruiker in  [!DNL Workfront Fusion]](#change-a-users-access-level-in-workfront-fusion)
+1. (Optioneel) Ga door met [ Toegangsniveau van een gebruiker wijzigen in Workfront Fusion ](#change-a-users-access-level-in-workfront-fusion)
 
 ## Het toegangsniveau van een gebruiker wijzigen in Workfront Fusion
 
@@ -165,7 +165,7 @@ Voordat u [!DNL Admin Console] for [!DNL Workfront] gebruikt, ontvangt u een e-m
 
 Het geven van een gebruiker een Admin rol moet in [!DNL Adobe Admin Console] worden gedaan.
 
-1. Selecteer de tab **[!UICONTROL Admins]** op de pagina [!DNL Workfront Fusion] [!UICONTROL Product Profile] waaraan u de gebruiker hebt toegevoegd.
+1. Selecteer de tab [!UICONTROL Product Profile] op de Workfront Fusion **[!UICONTROL Admins]** -pagina waar u de gebruiker hebt toegevoegd.
 
 1. Klik op **[!UICONTROL Add Admin]**.
 
@@ -173,7 +173,7 @@ Het geven van een gebruiker een Admin rol moet in [!DNL Adobe Admin Console] wor
 
 1. Klik op **[!UICONTROL Save]**.
 
-   De gebruiker is nu Beheerder in [!DNL Workfront Fusion].
+   De gebruiker is nu Beheerder in Workfront Fusion.
 
 ### De rol van een gebruiker wijzigen in Lid, Accountant of App Developer
 
@@ -181,7 +181,7 @@ De rollen Lid, Accountant, en App Developer worden behandeld binnen Workfront Fu
 
 Voor instructies, zie [ Mening of geef gebruikersrollen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.md) uit.
 
-## Bestaande gebruikers toewijzen in de [!DNL Adobe Admin Console] aan [!DNL Workfront Fusion]
+## Bestaande gebruikers in de [!DNL Adobe Admin Console] toewijzen aan Workfront Fusion
 
 U kunt een bestaande gebruiker aan een team in Fusion toevoegen. Dit wordt afgehandeld in Fusion.
 

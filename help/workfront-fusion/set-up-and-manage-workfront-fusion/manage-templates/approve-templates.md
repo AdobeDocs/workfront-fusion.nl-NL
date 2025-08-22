@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: dafecd8b-96e5-46da-9ab6-15f0bc9b52a4
-source-git-commit: 23e9f383b25c7b3789c413e557b94418e48a636b
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -32,17 +32,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <col>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+      <td role="rowheader">Adobe Workfront-plan</td>
       <td><p>Alle</p></td>
     </tr>
     <tr data-mc-conditions="">
-      <td role="rowheader">[!DNL Adobe Workfront] licentie</td>
-      <td><p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p></td>
+      <td role="rowheader">Adobe Workfront-licentie</td>
+      <td><p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p></td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
+      <td role="rowheader">Adobe Workfront Fusion-licentie**</td>
       <td>
-        <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+        <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
         <p>of</p>
         <p>Verouderd: alle</p>
       </td>
@@ -52,11 +52,11 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
       <td>
         <p>Nieuw:</p>
         <ul>
-          <li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li>
-          <li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li>
+          <li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront Plan: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li>
+          <li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li>
         </ul>
         <p>of</p>
-        <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+        <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
       </td>
     </tr>
   </tbody>
@@ -65,11 +65,11 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 <!--
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).-->
+For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).-->
 
 +++
 
-## [!DNL Workfront Fusion] -sjablonen goedkeuren of afwijzen
+## Workfront Fusion-sjablonen goedkeuren of afwijzen
 
 Als u een sjabloon goedkeurt, wordt deze zichtbaar op het tabblad [!UICONTROL Public templates] en beschikbaar voor alle gebruikers.
 

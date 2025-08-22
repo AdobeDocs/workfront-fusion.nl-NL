@@ -4,16 +4,16 @@ description: Met de Adobe Lightroom-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3f29ab35-7a90-4afb-a283-4faaacec5b15
-source-git-commit: 420665071db63954bce14b2011c5ecdb97403fd1
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2725'
+source-wordcount: '2738'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Lightroom] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Adobe Lightroom] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Adobe Lightroom] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [ een scenario creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -98,7 +98,7 @@ Als u verbinding wilt maken met Adobe Lightroom, moet u eerst een OAuth-app conf
 
 1. Beginnen met het configureren van een OAuth Web App in de Adobe Admin Console.
 
-   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker [&#128279;](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation) in de de ontwikkelaarsdocumentatie van Adobe.
+   Voor instructies, zie {de Gids van de Implementatie van de Authentificatie van 0} Gebruiker [ in de de ontwikkelaarsdocumentatie van Adobe.](https://developer.adobe.com/developer-console/docs/guides/authentication/UserAuthentication/implementation)
 1. Wanneer het vormen van OAuth Web App, ga de volgende waarden in:
 
    <table style="table-layout:auto"> 
@@ -174,7 +174,7 @@ Verbinding maken voor uw [!DNL Adobe Lightroom] -modules:
 
 ## Adobe Lightroom-modules en hun velden
 
-Wanneer u [!DNL Adobe Lightroom] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Lightroom] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Adobe Lightroom] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Lightroom] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -199,7 +199,7 @@ Deze actiemodule haalt een versie-id van de Lightroom-server op, om aan te tonen
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Credentials]</td>
@@ -220,7 +220,7 @@ Deze actiemodule wint meta-gegevens van een catalogus in Adobe Lightroom terug. 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Credentials]</td>
@@ -252,7 +252,7 @@ Met deze actiemodule maakt en uploadt u een origineel bestand voor een element.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -297,7 +297,7 @@ In deze actiemodule wordt een nieuw element gemaakt met initiële metagegevens e
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -372,7 +372,7 @@ Deze handelingsmodule ondersteunt twee workflows: het uploaden van het externe X
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Content Length in Bytes]</td>
@@ -417,7 +417,7 @@ Deze actiemodule genereert asynchroon uitvoeringen voor een origineel bestand.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Rendition Type(s) (semi-colon separated)]</td>
@@ -456,7 +456,7 @@ Deze actiemodule wint informatie over één enkel middel in een catalogus terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -484,7 +484,7 @@ Met deze actiemodule haalt u het meest recente externe XMP-instellingsbestand vo
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -511,7 +511,7 @@ Deze actiemodule wint de recentste elementenvertoning van het gespecificeerde ty
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -544,7 +544,7 @@ Deze actiemodule wint activa terug die door de gebruiker worden bezeten waarvan 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -647,7 +647,7 @@ Deze actiemodule voegt een of meer elementen toe aan het opgegeven album. U kunt
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -705,7 +705,7 @@ Deze actiemodule maakt een nieuw album in Lightroom.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -815,7 +815,7 @@ Het verwijderde album moet zijn gemaakt door dezelfde clienttoepassing die het a
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -848,7 +848,7 @@ Deze actiemodule wint het gespecificeerde album terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -875,7 +875,7 @@ Deze actiemodule wint een lijst van activa in het gespecificeerde album terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -974,7 +974,7 @@ Deze actiemodule wint een lijst van albums in de gespecificeerde catalogus terug
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>
@@ -997,7 +997,7 @@ Deze actiemodule wint een lijst van albums in de gespecificeerde catalogus terug
     <tr>
       <td role="rowheader">[!UICONTROL Number of Albums to Return]</td>
       <td>
-        <p>Stel het maximumaantal elementen in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert. De standaardwaarde voor dit veld is 100. Deze module retourneert mogelijk meer albums dan deze limiet als meerdere albums aan de limietgrens dezelfde <code>name_after</code> -waarde hebben.</p>
+        <p>Stel het maximumaantal elementen in dat Workfront Fusion tijdens één uitvoeringscyclus retourneert. De standaardwaarde voor dit veld is 100. Deze module retourneert mogelijk meer albums dan deze limiet als meerdere albums aan de limietgrens dezelfde <code>name_after</code> -waarde hebben.</p>
       </td>
     </tr>
   </tbody>
@@ -1015,7 +1015,7 @@ Het bijgewerkte album moet zijn gemaakt door dezelfde clienttoepassing die het n
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > Verbinding maken met [!DNL Adobe Lightroom]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom] .</td>
+      <td>Zie [!DNL Adobe Lightroom] Verbinding maken met <a href="#create-a-connection-to-adobe-lightroom" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Lightroom]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Catalog ID]</td>

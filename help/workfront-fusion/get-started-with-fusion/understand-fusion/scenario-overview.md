@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: de81ad4c-27e5-4b6c-acf0-f01a8c85922e
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '703'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Vouw de volgende secties uit om voorbeeldscenario&#39;s en de bijbehorende uitle
 
 Met Workfront Fusion kunt u eenvoudige of complexe workflows in Workfront automatiseren, waardoor u tijd bespaart en ervoor zorgt dat het proces consistent wordt uitgevoerd.
 
-In dit voorbeeld wordt het scenario geactiveerd wanneer een opgegeven veld in een taak of probleem in [!DNL Workfront] verandert. Wanneer teweeggebracht, krijgt het scenario informatie in het verwante project en leidt tot een op maat gemaakte update voor een persoon die aan een specifieke rol op het project wordt toegewezen.
+In dit voorbeeld wordt het scenario geactiveerd wanneer een opgegeven veld in een taak of probleem in Workfront verandert. Wanneer teweeggebracht, krijgt het scenario informatie in het verwante project en leidt tot een op maat gemaakte update voor een persoon die aan een specifieke rol op het project wordt toegewezen.
 
 ![ voorbeeld van het Malplaatje ](assets/fusion-template-example.png)
 
@@ -86,9 +86,9 @@ In dit voorbeeld wordt het scenario geactiveerd wanneer een opgegeven veld in ee
 
 Workfront Fusion kan verbinding maken met andere toepassingen en webservices. U kunt gegevens uit andere toepassingen openen, importeren, bewerken of exporteren, en deze integreren met Workfront of met elkaar.
 
-Veel toepassingen hebben toegewezen [!DNL Workfront Fusion] -connectors. Als er geen specifieke connector is voor de toepassing waartoe u toegang wilt hebben, kunt u de HTTP- of SOAP-modules van Workfront Fusion gebruiken om verbinding te maken met de toepassing via de API.
+Veel toepassingen hebben speciale Workfront Fusion-connectors. Als er geen specifieke connector is voor de toepassing waartoe u toegang wilt hebben, kunt u de HTTP- of SOAP-modules van Workfront Fusion gebruiken om verbinding te maken met de toepassing via de API.
 
-In dit voorbeeld wordt het scenario geactiveerd wanneer een gebruiker aan een [!DNL Excel] -spreadsheet wordt toegevoegd. Het scenario controleert of de gebruiker zich in [!DNL Workfront] bevindt. Als dat niet het geval is, wordt de gebruiker in [!DNL Workfront] gemaakt en wordt de Workfront-gebruikersnaam weer aan het werkblad toegevoegd.
+In dit voorbeeld wordt het scenario geactiveerd wanneer een gebruiker aan een [!DNL Excel] -spreadsheet wordt toegevoegd. Het scenario controleert of de gebruiker in Workfront is. Als dat niet het geval is, wordt de gebruiker in Workfront gemaakt en wordt de Workfront-gebruikersnaam weer aan het werkblad toegevoegd.
 
 ![ het voorbeeld van de Integratie ](assets/fusion-integration-example.png)
 
@@ -97,7 +97,7 @@ Voor een lijst van specifieke schakelaars, zie [ toepassingen van de Fusie en hu
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Workfront Fusion] kan verbinding maken met vrijwel elke webservice. Als de app waarmee u wilt werken geen toegewezen [!DNL Workfront Fusion] -connector heeft, gebruikt u universele connectors om verbinding te maken met de app of service.
+>Adobe Workfront Fusion kan verbinding maken met vrijwel elke webservice. Als de app waarmee u wilt werken geen speciale Workfront Fusion-connector heeft, gebruikt u universele connectors om verbinding te maken met de app of service.
 >
 >Voor een lijst van universele schakelaars, zie [ Universele schakelaars ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)
 

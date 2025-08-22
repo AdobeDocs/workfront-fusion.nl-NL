@@ -1,19 +1,19 @@
 ---
 title: Trello-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Trello gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Trello gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5df5cd2b-ad4c-4a02-9d0c-7cee35232f93
-source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '4366'
+source-wordcount: '4533'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Trello] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!UICONTROL Trello] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Trello] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -89,13 +89,13 @@ De Trello-aansluiting gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!UICONTROL Trello] met [!DNL Workfront Fusion]
+## Verbinden [!UICONTROL Trello] met Workfront Fusion
 
-Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie [ een verbinding tot stand brengen  [!DNL Adobe Workfront Fusion]  - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie [ een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 ## [!UICONTROL Trello] modules en hun velden
 
-Wanneer u [!UICONTROL Trello] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Trello] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Trello] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Trello] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -121,7 +121,7 @@ In deze actiemodule wordt een door u opgegeven board gesloten (archieven) of opn
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board ID]</td> 
@@ -146,7 +146,7 @@ Deze actiemodule wijst een lid toe aan een raad die u specificeert.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board ID]</td> 
@@ -184,7 +184,7 @@ In deze actiemodule wordt een nieuw board met de geselecteerde instellingen gema
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name] </td> 
@@ -255,7 +255,7 @@ In deze actiemodule wordt een nieuw board met de geselecteerde instellingen gema
    <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
     <ul> 
      <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
-     <li><strong>[!UICONTROL Regular mode &#x200B;]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
+     <li><strong>[!UICONTROL Regular mode ]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -270,95 +270,95 @@ In deze actiemodule worden de instellingen van een bestaande board bewerkt.
 >[!SUCCESS]
 >
 ><table style="table-layout:auto">
-><col> 
-> <col> 
-> <tbody> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Connection] </td> 
->   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
->   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u met de module wilt maken. U kunt de kaart-id ophalen met behulp van een andere module, zoals de module Controlebord</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/watch-boards.png"> </p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL New name]</td> 
->   <td> <p> Voer een nieuwe naam voor het bord in of wijs deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL New description]</td> 
->   <td> <p> Voer een nieuwe beschrijving van het bord in of wijs deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
->   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u wilt bewerken in de module.  </p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Subscribe] </td> 
->   <td> <p>Selecteer een optie om op te geven of de gebruiker die eigenaar is van de verbinding die door deze module wordt gebruikt, is geabonneerd op de kaart.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
->   <td> <p>De raden hebben verschillende stem en commentaarregels voor elk toestemmingsniveau. Bijvoorbeeld: als uw board [!UICONTROL Private] is en u de regels voor stemmen en opmerkingen instelt als [!UICONTROL All] , ontvangt u een fout. </p> <p>Stemmen en opmerkingen zijn beperkt tot de volgende groepen voor elk machtigingsniveau:</p> 
->    <ul> 
->     <li><strong>[!UICONTROL Private]</strong>: 
->      Leden, leden en waarnemers</li> 
->     <li><strong>[!UICONTROL For organization]</strong>: 
->      Leden, leden en waarnemers, leden van de organisatie</li> 
->     <li><strong>[!UICONTROL Public]</strong>: 
->      Leden, leden en waarnemers, organisatieleden, alle</li> 
->    </ul> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
->   <td> <p>Selecteer een optie om aan te geven wie op dit bord kan stemmen. Zie het veld [!UICONTROL Permission level] voor stembeperkingen op machtigingsniveaus.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
->   <td> <p>Selecteer een optie om op te geven wie opmerkingen kan plaatsen op de kaarten voor dit bord. Zie het veld [!UICONTROL Permission level] voor opmerkingen over beperkingen op machtigingsniveaus.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Invitations] </td> 
->   <td> <p>Selecteer wie personen kan uitnodigen voor dit bord.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Self-join]</td> 
->   <td> <p> Selecteer of teamleden zich bij de raad van bestuur kunnen aansluiten of zij moeten worden uitgenodigd.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Card covers]</td> 
->   <td> <p> Selecteer of de kaartomslagen op dit bord zouden moeten worden getoond.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Background] </td> 
->   <td> <p>Selecteer de kleur van de achtergrond of de aangepaste achtergrond.</p> <p>Opmerking: aangepaste achtergronden zijn alleen beschikbaar voor abonnees van [!UICONTROL Trello Gold and Business Class] .</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Background ID]</td> 
->   <td> <p> Als u een aangepaste achtergrond wilt gebruiken in het veld [!UICONTROL Background] , voert u de id van de achtergrond die u wilt gebruiken in of wijst u deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
->   <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
->    <ul> 
->     <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
->     <li><strong>[!UICONTROL Regular mode]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
->    </ul> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Calendar feed enabled]</td> 
->   <td> <p> Selecteer of de kalenderfeed is ingeschakeld.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL &lt;Color> label name]</td> 
->   <td> <p> Wijs een naam toe aan het gewenste kleurlabel.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Archive] </td> 
->   <td> <p>Selecteer een optie om aan te geven of u het board wilt archiveren (sluiten). </p> </td> 
->  </tr> 
-> </tbody> 
-></table>
+<col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
+   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u met de module wilt maken. U kunt de kaart-id ophalen met behulp van een andere module, zoals de module Controlebord</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/watch-boards.png"> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td> <p> Voer een nieuwe naam voor het bord in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New description]</td> 
+   <td> <p> Voer een nieuwe beschrijving van het bord in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
+   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u wilt bewerken in de module.  </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subscribe] </td> 
+   <td> <p>Selecteer een optie om op te geven of de gebruiker die eigenaar is van de verbinding die door deze module wordt gebruikt, is geabonneerd op de kaart.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
+   <td> <p>De raden hebben verschillende stem en commentaarregels voor elk toestemmingsniveau. Bijvoorbeeld: als uw board [!UICONTROL Private] is en u de regels voor stemmen en opmerkingen instelt als [!UICONTROL All] , ontvangt u een fout. </p> <p>Stemmen en opmerkingen zijn beperkt tot de volgende groepen voor elk machtigingsniveau:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL Private]</strong>: 
+      Leden, leden en waarnemers</li> 
+     <li><strong>[!UICONTROL For organization]</strong>: 
+      Leden, leden en waarnemers, leden van de organisatie</li> 
+     <li><strong>[!UICONTROL Public]</strong>: 
+      Leden, leden en waarnemers, organisatieleden, alle</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
+   <td> <p>Selecteer een optie om aan te geven wie op dit bord kan stemmen. Zie het veld [!UICONTROL Permission level] voor stembeperkingen op machtigingsniveaus.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
+   <td> <p>Selecteer een optie om op te geven wie opmerkingen kan plaatsen op de kaarten voor dit bord. Zie het veld [!UICONTROL Permission level] voor opmerkingen over beperkingen op machtigingsniveaus.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Invitations] </td> 
+   <td> <p>Selecteer wie personen kan uitnodigen voor dit bord.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Self-join]</td> 
+   <td> <p> Selecteer of teamleden zich bij de raad van bestuur kunnen aansluiten of zij moeten worden uitgenodigd.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Card covers]</td> 
+   <td> <p> Selecteer of de kaartomslagen op dit bord zouden moeten worden getoond.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Background] </td> 
+   <td> <p>Selecteer de kleur van de achtergrond of de aangepaste achtergrond.</p> <p>Opmerking: aangepaste achtergronden zijn alleen beschikbaar voor abonnees van [!UICONTROL Trello Gold and Business Class] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Background ID]</td> 
+   <td> <p> Als u een aangepaste achtergrond wilt gebruiken in het veld [!UICONTROL Background] , voert u de id van de achtergrond die u wilt gebruiken in of wijst u deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
+   <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
+    <ul> 
+     <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
+     <li><strong>[!UICONTROL Regular mode]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Calendar feed enabled]</td> 
+   <td> <p> Selecteer of de kalenderfeed is ingeschakeld.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL <Color> label name]</td> 
+   <td> <p> Wijs een naam toe aan het gewenste kleurlabel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Archive] </td> 
+   <td> <p>Selecteer een optie om aan te geven of u het board wilt archiveren (sluiten). </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 +++
@@ -373,7 +373,7 @@ Deze actiemodule wint de details van een board terug.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
@@ -394,7 +394,7 @@ Deze zoekmodule haalt informatie op over een board dat u opgeeft.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query] </td> 
@@ -402,7 +402,7 @@ Deze zoekmodule haalt informatie op over een board dat u opgeeft.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned boards]</td> 
-   <td> <p> Voer het maximumaantal tekengebieden in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert. Deze waarde moet kleiner zijn dan of gelijk zijn aan 1000.</p>  </td> 
+   <td> <p> Voer het maximumaantal borden in dat Workfront Fusion gedurende één uitvoeringscyclus retourneert. Deze waarde moet kleiner zijn dan of gelijk zijn aan 1000.</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Partial] </p> </td> 
@@ -427,7 +427,7 @@ Deze actiemodule verwijdert een lid uit een raad.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board ID]</td> 
@@ -452,7 +452,7 @@ Deze triggermodule begint met een scenario wanneer een nieuw bord wordt toegevoe
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
@@ -475,7 +475,7 @@ Deze actiemodule maakt een lijst op een bord dat u opgeeft.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board ID]</td> 
@@ -512,7 +512,7 @@ Deze actiemodule bewerkt een bestaande lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List ID]</td> 
@@ -549,7 +549,7 @@ Deze actiemodule wint details over een specifieke lijst terug.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL List ID]</p> </td> 
@@ -570,7 +570,7 @@ Deze activeringsmodule wordt geactiveerd wanneer een kaart naar een specifieke l
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board]</td> 
@@ -601,7 +601,7 @@ Deze actiemodule voegt een bijlage toe aan de geselecteerde kaart.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter card ID]</td> 
@@ -634,7 +634,7 @@ Deze actiemodule archiveert of stuurt een kaart terug naar het bord.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Card ID]</td> 
@@ -659,7 +659,7 @@ Deze actiemodule maakt een kaart in een geselecteerde lijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a list ID]</td> 
@@ -731,7 +731,7 @@ In deze actiemodule wordt een bestaande kaart bewerkt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter Card ID]</td> 
@@ -800,7 +800,7 @@ Deze actiemodule haalt de gegevens van een geselecteerde kaart op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board ID]</td> 
@@ -829,7 +829,7 @@ Deze actiemodule retourneert kaarten die overeenkomen met de zoekquery.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Board] </td> 
@@ -855,7 +855,7 @@ Deze actiemodule retourneert kaarten die overeenkomen met de zoekquery.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned cards]</td> 
-   <td> <p> Voer het maximumaantal kaarten in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus mag retourneren of wijs het maximumaantal kaarten toe. Deze waarde moet kleiner zijn dan of gelijk zijn aan 1000.</p> </td> 
+   <td> <p> Voer het maximumaantal kaarten in dat Workfront Fusion tijdens één uitvoeringscyclus mag retourneren of wijs het maximumaantal kaarten toe. Deze waarde moet kleiner zijn dan of gelijk zijn aan 1000.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Partial] </td> 
@@ -880,7 +880,7 @@ Deze triggermodule start een scenario wanneer een nieuwe kaart wordt toegevoegd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watched object]</td> 
@@ -912,7 +912,7 @@ Deze actiemodule voegt het opgegeven lid toe aan de opgegeven kaart.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Enter card ID and member ID]</p> </td> 
@@ -943,7 +943,7 @@ Deze actiemodule haalt informatie op over [!UICONTROL Trello] leden.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query] </td> 
@@ -980,7 +980,7 @@ Deze actiemodule maakt een controlelijst op de geselecteerde kaart.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a card ID]</td> 
@@ -1017,7 +1017,7 @@ Deze actiemodule voegt een item toe aan een specifieke controlelijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter checklist ID]</td> 
@@ -1054,7 +1054,7 @@ Deze actiemodule bewerkt een bestaande controlelijst.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a Card ID and Checklist Item ID]</td> 
@@ -1097,7 +1097,7 @@ Deze actiemodule voegt een label toe aan een geselecteerde kaart.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter card ID]</td> 
@@ -1124,7 +1124,7 @@ Deze actiemodule voegt een opmerking toe aan een geselecteerde kaart.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a card ID]</td> 
@@ -1151,7 +1151,7 @@ Deze actiemodule voegt een opmerking toe aan een geselecteerde kaart.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Enter a card ID]</td> 
@@ -1163,7 +1163,7 @@ Deze actiemodule voegt een opmerking toe aan een geselecteerde kaart.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned comments]</td> 
-   <td> <p> Voer het maximumaantal opmerkingen in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert.</p> </td> 
+   <td> <p> Voer het maximumaantal opmerkingen in dat Workfront Fusion tijdens één uitvoeringscyclus retourneert.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Since] </td> 
@@ -1188,7 +1188,7 @@ Deze triggermodule start een scenario wanneer een opmerking wordt toegevoegd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!UICONTROL Trello] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL Adobe Workfront Fusion] - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Watched object]</td> 

@@ -4,16 +4,16 @@ description: De Adobe Workfront Fusion JSON-app biedt modules voor het verwerken
 author: Becky
 feature: Workfront Fusion
 exl-id: f8b281c5-bb63-4412-98c5-d82f45f8eafc
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1147'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL JSON] modules
 
-De app [!DNL Adobe Workfront Fusion] [!UICONTROL JSON] biedt modules voor het verwerken van gegevens in JSON-indeling, zodat [!DNL Adobe Workfront Fusion] verder kan werken met de gegevensinhoud of nieuwe JSON-inhoud kan maken.
+De Adobe Workfront Fusion [!UICONTROL JSON] -app biedt modules voor het verwerken van gegevens in JSON-indeling, zodat Adobe Workfront Fusion verder kan werken met de gegevensinhoud of nieuwe JSON-inhoud kan maken.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -65,11 +65,11 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ### Gegevensstructuur
 
-De gegevensstructuur beschrijft hoe de JSON-gegevens zijn georganiseerd en maakt het mogelijk om afzonderlijke JSON-items toe te wijzen aan andere modules in uw scenario. Als u de gegevensstructuur niet aanbiedt, kunt u de module handmatig uitvoeren en bouwt [!DNL Workfront Fusion] de structuur op basis van de beschikbare JSON:
+De gegevensstructuur beschrijft hoe de JSON-gegevens zijn georganiseerd en maakt het mogelijk om afzonderlijke JSON-items toe te wijzen aan andere modules in uw scenario. Als u de gegevensstructuur niet aanbiedt, kunt u de module handmatig uitvoeren en bouwt Workfront Fusion de structuur op basis van de beschikbare JSON:
 
 1. Voeg de module [!UICONTROL Parse JSON] toe aan een scenario.
 1. Voer in het veld **[!UICONTROL JSON String]** de JSON in waarvan u een gegevensstructuur wilt maken.
-1. Sluit nog geen andere modules aan op de module [!UICONTROL Parse JSON] . Omdat [!DNL Workfront Fusion] nog niet de structuur van de JSON-gegevens kent, is het nog niet mogelijk om gegevens van de module [!UICONTROL Parse JSON] toe te wijzen aan andere modules in uw scenario.
+1. Sluit nog geen andere modules aan op de module [!UICONTROL Parse JSON] . Omdat Workfront Fusion nog niet weet wat de structuur van de JSON-gegevens is, is het nog niet mogelijk om gegevens van de module [!UICONTROL Parse JSON] toe te wijzen aan andere modules in uw scenario.
 1. Voer het scenario handmatig uit. Hierdoor kan de module [!UICONTROL Parse JSON] de JSON-structuur identificeren vanuit de JSON die u hebt opgegeven.
 1. U kunt nu de volgende modules verbinden. De punten van de Parse JSON module zijn nu beschikbaar voor afbeelding.
 
@@ -121,7 +121,7 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 
 ## [!UICONTROL JSON] modules en hun velden
 
-Wanneer u [!DNL JSON] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende JSON-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL JSON] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende JSON-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 

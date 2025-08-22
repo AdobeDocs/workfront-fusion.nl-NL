@@ -4,16 +4,16 @@ description: Met de  [!DNL Adobe Workfront Fusion Adobe Creative Cloud]  modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 85607e4e-538a-427f-8a99-a0ab65a75ac2
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1223'
+source-wordcount: '1234'
 ht-degree: 0%
 
 ---
 
 # Adobe Creative Cloud-bibliotheekmodules
 
-Met de modules [!DNL Adobe Workfront Fusion] [!DNL Adobe Creative Cloud Libraries] kunt u een scenario starten wanneer een element of bibliotheek wordt gemaakt of bijgewerkt. U kunt ook elementen uploaden, ophalen, archiveren of een lijst maken of een aanroep naar de API van [!DNL Adobe Creative Cloud Libraries] maken.
+Met de Adobe Workfront Fusion [!DNL Adobe Creative Cloud Libraries] -modules kunt u een scenario starten wanneer een element of bibliotheek wordt gemaakt of bijgewerkt. U kunt ook elementen uploaden, ophalen, archiveren of een lijst maken of een aanroep naar de API van [!DNL Adobe Creative Cloud Libraries] maken.
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [ een scenario creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -91,7 +91,7 @@ De Adobe Creative Cloud Libraries-aansluiting gebruikt het volgende:
 
 ## [!UICONTROL Adobe Creative Cloud Libraries] modules en hun velden
 
-Wanneer u [!UICONTROL Adobe Creative Cloud Libraries] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Creative Cloud Libraries] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Adobe Creative Cloud Libraries] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Creative Cloud Libraries] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -115,7 +115,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 * [[!UICONTROL Upload an Element]](#upload-an-element)
 
-* [[!UICONTROL [Nieuw element controleren in bibliotheek]]](#watch-new-element-in-library)
+* [!UICONTROL [Nieuw element controleren in bibliotheek]](#watch-new-element-in-library)
 
 * [[!UICONTROL Watch Updated Elements]](#watch-updated-elements)
 

@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: fabbadce-5669-4363-834e-6d7428520f62
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '3554'
+source-wordcount: '3594'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!UICONTROL GitLab] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL GitLab] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 >[!NOTE]
 >
@@ -34,39 +34,39 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">Adobe Workfront-abonnement*</td>
   <td> <p>[!UICONTROL Pro] of hoger</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
+   <td role="rowheader">Adobe Workfront-licentie*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidige vergunningsvereiste: geen Workfront Fusion-vergunningsvereiste.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] Adobe Workfront-abonnement hebt, moet uw organisatie zowel Adobe Workfront Fusion als Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Workfront Fusion is opgenomen in het Workfront-plan van [!UICONTROL Ultimate] .</p>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet Adobe Workfront Fusion en Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
-## Verbinden [!DNL GitLab] met [!DNL Workfront Fusion] {#connect-gitlab-to-workfront-fusion}
+## Verbinden [!DNL GitLab] met Workfront Fusion {#connect-gitlab-to-workfront-fusion}
 
-1. Klik in een willekeurige [!DNL Workfront Fusion] [!DNL Gitlab] -module op **[!UICONTROL Add]** naast het verbindingsveld.
+1. Klik in een willekeurige Workfront Fusion [!DNL Gitlab] -module op **[!UICONTROL Add]** naast het verbindingsveld.
 1. Configureer de volgende velden:
 
    <table style="table-layout:auto"> 
@@ -94,7 +94,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ## [!DNL GitLab] modules en hun velden
 
-Wanneer u [!DNL GitLab] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL GitLab] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL GitLab] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL GitLab] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -253,7 +253,7 @@ Deze geplande trekkermodule begint een scenario wanneer een nieuw project wordt 
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL GitLab] rekening aan [!DNL Workfront] Fusion, zie <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref"> [!DNL GitLab] verbinden met [!DNL Workfront] Fusion </a> in dit artikel.</td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL GitLab] rekening aan Workfront Fusion, zie <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL GitLab] met Workfront Fusion </a> in dit artikel.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max. resultaten</td> 
@@ -274,7 +274,7 @@ Deze geplande triggermodule start een scenario wanneer een nieuwe vertakking wor
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL GitLab] rekening aan [!DNL Workfront] Fusion, zie <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref"> [!DNL GitLab] verbinden met [!DNL Workfront] Fusion </a> in dit artikel.</td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL GitLab] rekening aan Workfront Fusion, zie <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL GitLab] met Workfront Fusion </a> in dit artikel.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">Max. resultaten</td> 
@@ -364,7 +364,7 @@ Deze actiemodule annuleert één enkele bouwstijl van een project.
    <tbody> 
    <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL GitLab] rekening aan [!DNL Workfront] Fusion, zie <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref"> [!DNL GitLab] verbinden met [!DNL Workfront] Fusion </a> in dit artikel.</td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL GitLab] rekening aan Workfront Fusion, zie <a href="#connect-gitlab-to-workfront-fusion-connect-gitlab-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL GitLab] met Workfront Fusion </a> in dit artikel.</td> 
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
@@ -389,7 +389,7 @@ Deze actiemodule annuleert één enkele bouwstijl van een project.
    </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL SHA]</td> 
-   <td>Indien aanwezig, dan moet dit SHA de HEAD van de brontak aanpassen. Als deze niet overeenkomt, mislukt het samenvoegen.</td> 
+   <td>Indien aanwezig moet deze SHA overeenkomen met de HEAD van de bronvertakking. Als deze niet overeenkomt, mislukt het samenvoegen.</td> 
    </tr> 
    </tbody> 
 </table>
@@ -768,7 +768,7 @@ Voor informatie over gebieden, zie [ van de Lijst alle nota&#39;s van het fusiev
 
 Deze module krijgt een lijst van alle nota&#39;s voor één enkel fragment. Fragmentnotities zijn opmerkingen die gebruikers naar een fragment kunnen posten.
 
-Zie [? ](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in de [!DNL GitLab] documentatie voor informatie over velden.
+Zie [🔗 ](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in de [!DNL GitLab] documentatie voor informatie over velden.
 
 +++
 
@@ -889,7 +889,7 @@ Voor informatie over gebieden, zie [ het projectpijpleidingen van de Lijst ](htt
 
 Deze zoekmodule haalt een lijst op met opslagplaatstags uit een project, gesorteerd op naam in omgekeerde alfabetische volgorde.
 
-Voor informatie over gebieden, zie {de markeringen van de het projectbewaarplaats van de 0} Lijst [&#128279;](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie {de markeringen van de het projectbewaarplaats van de 0} Lijst [ in de ](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) documentatie.[!DNL GitLab]
 
 +++
 

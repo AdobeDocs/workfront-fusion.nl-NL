@@ -1,17 +1,17 @@
 ---
 title: Adobe Workfront Fusion-overzicht
-description: De rol van  [!DNL Adobe Workfront Fusion]  moet uw processen automatiseren zodat u zich op nieuwe taken kunt concentreren eerder dan het herhalen van de zelfde taken opnieuw en opnieuw. Het werkt door acties binnen en tussen apps en de diensten te verbinden om een scenario tot stand te brengen dat uw gegevens automatisch overbrengt en transformeert. Het scenario dat u voor gegevens in een app of service maakt, verwerkt die gegevens om het gewenste resultaat te verkrijgen.
+description: De rol van Adobe Workfront Fusion is om uw processen te automatiseren zodat u zich kunt concentreren op nieuwe taken in plaats van dezelfde taken steeds opnieuw uit te voeren. Het werkt door acties binnen en tussen apps en de diensten te verbinden om een scenario tot stand te brengen dat uw gegevens automatisch overbrengt en transformeert. Het scenario dat u voor gegevens in een app of service maakt, verwerkt die gegevens om het gewenste resultaat te verkrijgen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 49df566f-59e9-469c-9123-27d1e15069e4
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '363'
+source-wordcount: '369'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] overzicht
+# Adobe Workfront Fusion-overzicht
 
 De rol van Adobe Workfront Fusion is om uw processen te automatiseren zodat uw gebruikers niet zo veel tijd aan routinetaken hoeven door te brengen. Het werkt door acties binnen en tussen apps en de diensten te verbinden om een scenario tot stand te brengen dat uw gegevens automatisch overbrengt en transformeert. Het scenario dat u voor gegevens in een app of service maakt, verwerkt die gegevens om het gewenste resultaat te verkrijgen.
 
@@ -31,7 +31,7 @@ Workfront Fusion biedt ook functies die scenario&#39;s ondersteunen, zoals sjabl
 
 Wanneer u met Workfront Fusion begint te werken, zijn wellicht de volgende bronnen nuttig:
 
-* Voor de opleidingsmiddelen van de Fusie van Workfront, zie [ het Overzicht van de Opleiding van de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+* Voor de opleidingsmiddelen van de Fusie van Workfront, zie [ het Overzicht van de Opleiding van de Fusie van Workfront ](https://experienceleague.adobe.com/en/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
 
 * Voor meer informatie over scenario&#39;s, zie [ Overzicht Scenario ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md).

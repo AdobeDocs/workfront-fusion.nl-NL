@@ -4,9 +4,9 @@ description: De informatie in dit artikel kan handig zijn wanneer u scenario's b
 author: Becky
 feature: Workfront Fusion
 exl-id: 6a1d672d-0bd7-4a3a-b96d-6d8b4c97522d
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Hoewel er geen grens aan het aantal modules in een scenario is, kunnen meer dan 
 
 Voor meer informatie over modules, zie [ Overzicht van de Module ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md).
 
-## Kan [!DNL Workfront Fusion] werken met bestanden?
+## Kan Workfront Fusion werken met bestanden?
 
 ### Antwoord
 
@@ -47,7 +47,7 @@ Voor meer informatie bij het werken met dossiers in Fusion, zie [ een dossier tu
 
 Scenario&#39;s kunnen met intervallen volgens het programma lopen u, zoals elk uur of om de 5 minuten specificeert. Er zijn speciale triggers, ook wel &#39;instant triggers&#39; genoemd, die uw scenario direct kunnen starten nadat ze gegevens van een bepaalde service ontvangen. De fusie verwerkt de ontvangen gegevens onmiddellijk, zonder op de volgende geplande looppas te wachten.
 
-Voor meer informatie over het verschil tussen gepolled en onmiddellijke trekkers, zie &lbrace;de modules van de Trigger [&#128279;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodule.
+Voor meer informatie over het verschil tussen gepolled en onmiddellijke trekkers, zie {de modules van de Trigger [ in het overzicht van de artikelmodule.](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules)
 
 ## Wat is een operatie?
 
@@ -69,7 +69,7 @@ De overdracht van gegevens verwijst naar de hoeveelheid gegevens die door uw sce
 
 ### Antwoord
 
-Een verbinding is de koppeling tussen uw [!DNL Workfront Fusion] -account en de service van derden die u wilt gebruiken. De verbinding kan worden tot stand gebracht wanneer het uitgeven van een scenario.
+Een verbinding is de koppeling tussen uw Workfront Fusion-account en de service van derden die u wilt gebruiken. De verbinding kan worden tot stand gebracht wanneer het uitgeven van een scenario.
 
 Voor meer informatie, zie [ Overzicht van de Verbinding ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md).
 
@@ -81,7 +81,7 @@ Met een [!UICONTROL Aggregator] worden gegevens samengevoegd in één verzamelin
 
 Zie [[!UICONTROL Aggregator] module ](/help/workfront-fusion/references/modules/aggregator-module.md) voor meer informatie.
 
-## Wat gebeurt er als ik [!DNL Workfront Fusion] een e-mailbericht met meerdere bijlagen laat verwerken?
+## Wat gebeurt er als ik Workfront Fusion een e-mail laat verwerken die meer dan één bijlage bevat?
 
 ### Antwoord
 

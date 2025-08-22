@@ -4,16 +4,16 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: 7f167af0ba1becb603dd8d9f3767101e157a7bdf
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '4703'
+source-wordcount: '4716'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Adobe Photoshop] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Adobe Photoshop] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [ een scenario creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -163,7 +163,7 @@ Verbinding maken voor uw [!DNL Adobe Photoshop] -modules:
 
 ## [!DNL Adobe Photoshop] modules en hun velden
 
-Wanneer u [!DNL Adobe Photoshop] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Photoshop] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Adobe Photoshop] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Photoshop] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -198,7 +198,7 @@ In deze actiemodule worden diverse bewerkingen op document- en laagniveau toegep
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -327,7 +327,7 @@ Met deze handelingsmodule corrigeert u de opgegeven afbeelding automatisch.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -378,7 +378,7 @@ Deze actiemodule zet een bestand om in JPEG, PNG, PSD of TIFF.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -435,7 +435,7 @@ Deze actiemodule retourneert een PNG-bestand waarop een masker is toegepast om h
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -510,7 +510,7 @@ Deze actiemodule maakt een nieuwe PSD met optionele lagen en genereert uitvoerin
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -615,7 +615,7 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand. U kunt a
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -689,7 +689,7 @@ Om veelvoudige lagen uit te geven, gebruik [ tekstlagen ](#edit-text-layers) mod
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -768,7 +768,7 @@ Deze handelingsmodule voert Photoshop-handelingen uit met behulp van JSON-opdrac
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -844,7 +844,7 @@ Deze actiemodule voert Diepte vervagen op het geselecteerde bestand uit.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -901,7 +901,7 @@ Deze actiemodule voert een Photoshop-actie uit op de geselecteerde afbeelding.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -988,7 +988,7 @@ Deze actiemodule voert het Uitsnijden van het Product op het geselecteerde beeld
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -1063,7 +1063,7 @@ Deze actiemodule wint laaginformatie van het gespecificeerde dossier van PSD ter
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Input file storage]</td>
@@ -1096,7 +1096,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Photoshop API.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -1115,7 +1115,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Photoshop API.
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p>
+        <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p>
       </td>
     </tr>
     <tr>
@@ -1143,7 +1143,7 @@ Deze actiemodule identificeert het hoofdonderwerp van uw afbeelding en verwijder
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -1220,7 +1220,7 @@ Deze module gebruikt versie 2 van de API voor slimme objecten.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -1285,7 +1285,7 @@ In deze module wordt de oudere versie van slimme objecten gebruikt.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Input) Storage]</td>
@@ -1347,7 +1347,7 @@ Met deze actie wijzigt u de grootte van een afbeelding en gebruikt u dezelfde ho
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Storage]</td>
@@ -1417,7 +1417,7 @@ Met deze actiemodule voegt u een watermerk toe aan de geselecteerde afbeelding.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > Verbinding maken met [!DNL Adobe Photoshop]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop] .</td>
+      <td>Zie [!DNL Adobe Photoshop] Verbinding maken met <a href="#create-a-connection-to-adobe-photoshop" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Photoshop]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Base > Input) Storage]</td>

@@ -1,19 +1,19 @@
 ---
 title: Adobe Firefly-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL Adobe Firefly] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema's automatiseren die  [!DNL Adobe Firefly] gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 3b29ba3d-a769-4e97-b2c2-0b4eeed5b029
-source-git-commit: 6219cd4406c2ccf22b1e94e5d264722e640fe3e4
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2295'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Firefly] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Adobe Firefly] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Adobe Firefly] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [ een scenario creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -126,7 +126,7 @@ Verbinding maken voor uw [!DNL Adobe Firefly] -modules:
 
 ## [!DNL Adobe Firefly] modules en hun velden
 
-Wanneer u [!DNL Adobe Firefly] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Firefly] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Adobe Firefly] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Firefly] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -144,7 +144,7 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -199,7 +199,7 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Image > Source]</td> 
@@ -253,7 +253,7 @@ Deze module werkt met de Firefly API V3 Async. De vorige versie van deze module 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -336,7 +336,7 @@ Deze actiemodule combineert afbeeldingen die door Firefly zijn gegenereerd om ee
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Prompt]</td> 
@@ -387,7 +387,7 @@ Deze actiemodule genereert afbeeldingen die lijken op de bronafbeelding die u op
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Number of variations]</td> 
@@ -437,7 +437,7 @@ Voor specifieke beschikbare APIs, zie [ Adobe Firefly API ](https://developer.ad
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > Verbinding maken met [!DNL Adobe Firefly]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly] .</td>
+      <td>Zie [!DNL Adobe Firefly] Verbinding maken met <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Firefly]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -456,7 +456,7 @@ Voor specifieke beschikbare APIs, zie [ Adobe Firefly API ](https://developer.ad
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p>
+        <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p>
       </td>
     </tr>
     <tr>

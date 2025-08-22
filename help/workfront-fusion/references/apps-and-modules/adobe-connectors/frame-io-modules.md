@@ -1,12 +1,12 @@
 ---
-title: Frame.io (Verouderde) modules
-description: Het [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io] account.
+title: Frame.io (Verouderd) modules
+description: De  [!DNL Adobe Workfront Fusion Frame].io modules enable you to monitor, create, update, retrieve, or delete assets and comments in your [!DNL Frame.io]  rekening.
 author: Becky
 feature: Workfront Fusion
 exl-id: 121b145c-d04d-44b9-b673-ea2928e2346d
-source-git-commit: 31266e79d736cdb055bb0ad36a75ac61ce426ec2
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2205'
+source-wordcount: '2279'
 ht-degree: 0%
 
 ---
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->In dit artikel wordt de verouderde versie van de Frame.io-connector beschreven. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 3.
+>In dit artikel wordt de oudere versie van de connector Frame.io beschreven. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 3.
 >
->Zie Frame.io Bètaconnector[&#128279;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md) voor instructies over de nieuwe (bèta)versie van de Frame.io connector.
+>Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [ schakelaar van Frame.io Beta ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
 
-Met de [!DNL Adobe Workfront Fusion] [!DNL Frame.io] modules kunt u activa en opmerkingen in uw [!DNL Frame.io] account controleren, maken, bijwerken, ophalen of verwijderen.
+Met de Adobe Workfront Fusion [!DNL Frame.io] -modules kunt u elementen en opmerkingen in uw [!DNL Frame.io] -account controleren, maken, bijwerken, ophalen of verwijderen.
 
-Workfront biedt twee Frame.io connectoren, gebaseerd op de versie van Frame.io waarmee u verbinding maakt.
+Workfront biedt twee Frame.io-connectors, gebaseerd op de versie van Frame.io waarmee u verbinding maakt.
 
-| Connector | Frame.io versie |
+| Connector | Frame.io-versie |
 |---|---|
-| Frame.io (bèta) | V4 |
+| Frame.io (Beta) | V4 |
 | Frame.io (Verouderd) | V3 |
 
 Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [ schakelaar van Frame.io Beta ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
@@ -63,27 +63,27 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultiem Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>Of</p>
-   <p>Current: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
+   <p>of</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Zie [Toegangsvereisten in documentatie](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md) voor meer informatie over de informatie in deze tabel.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Zie licenties voor[&#128279;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md) informatie over [!DNL Adobe Workfront Fusion] licenties[!DNL Adobe Workfront Fusion] .
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
-## Voorwaarden
+## Vereisten
 
-Om modules te gebruiken [!DNL Frame.io] , moet u een [!DNL Frame.io] account hebben
+Als u [!DNL Frame.io] modules wilt gebruiken, moet u een [!DNL Frame.io] account hebben
 
 ## Frame.io API-informatie
 
-De Frame.io connector maakt gebruik van het volgende:
+De connector Frame.io gebruikt het volgende:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -114,30 +114,30 @@ U kunt verbinding maken met [!DNL Frame.io] via een API-token of met OAuth 2.0.
 
 ### Verbinding maken met [!DNL Frame.io] via een API-token
 
-Als u uw [!DNL Frame.io] -account wilt verbinden met [!DNL Workfront Fusion] via een API-token, moet u het API-token in uw [!DNL Frame.io] -account maken en dit in het dialoogvenster [!DNL Workfront Fusion] [!DNL Frame.io] [!UICONTROL Create a connection] invoegen.
+Als u uw [!DNL Frame.io] -account wilt verbinden met Workfront Fusion met behulp van een API-token, moet u het API-token maken in uw [!DNL Frame.io] -account en deze invoegen in het dialoogvenster Workfront Fusion [!DNL Frame.io] [!UICONTROL Create a connection] .
 
 1. Meld u aan bij uw [!DNL Frame.io] -account.
 1. Ga naar de pagina **[!UICONTROL Tokens]** in de [!DNL Frame.io] Developer.
 1. Klik op **[!UICONTROL New]**.
 1. Voer de naam van het token in, selecteer het bereik dat u wilt gebruiken en klik op **[!UICONTROL Create]** .
 1. Kopieer de opgegeven token.
-1. Ga naar [!DNL Workfront Fusion] en open het dialoogvenster [!DNL Frame.io] module **[!UICONTROL Create a connection]** .
-1. Selecteer in het **[!UICONTROL Connection type]** veld de optie **[!DNL Frame.io]**.
-1. Voer het token in dat je in stap 5 hebt gekopieerd naar het **[!UICONTROL Your [!DNL Frame.io] API Key]** veld
-1. Klik **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug te keren naar de module.
+1. Ga naar Workfront Fusion en open het dialoogvenster [!DNL Frame.io] van de module **[!UICONTROL Create a connection]** .
+1. Selecteer **[!UICONTROL Connection type]** in het veld **[!DNL Frame.io]** .
+1. Voer de token die u in stap 5 hebt gekopieerd in het veld **[!UICONTROL Your [!DNL Frame.io] API Key]** in
+1. Klik op **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug te keren naar de module.
 
-### Maak verbinding met [!DNL Frame.io] OAuth 2.0 PKCE
+### Verbinding maken met [!DNL Frame.io] via OAuth 2.0 PKCE
 
-U kunt een verbinding maken met [!DNL Frame.io] OAuth 2.0 PKCE met een optionele client-ID. Als u een client-ID wilt opnemen in uw verbinding, moet u een OAuth 2.0-app maken in uw [!DNL Frame.io] account.
+U kunt een verbinding met [!DNL Frame.io] tot stand brengen gebruikend OAuth 2.0 PKCE met een facultatieve identiteitskaart van de Cliënt. Als u een client-id wilt opnemen in uw verbinding, moet u een OAuth 2.0-app maken in uw [!DNL Frame.io] -account.
 
-* [Maak verbinding met [!DNL Frame.io] behulp van OAuth 2.0 PKCE (zonder client-ID)](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
-* [Maak verbinding met [!DNL Frame.io] behulp van OAuth 2.0 PKCE (met client-ID)](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
+* [Verbind met  [!DNL Frame.io]  gebruikend OAuth 2.0 PKCE (zonder identiteitskaart van de Cliënt)](#connect-to-frameio-using-using-oauth-20-pkce-without-client-id)
+* [Verbind met  [!DNL Frame.io]  gebruikend OAuth 2.0 PKCE (met identiteitskaart van de Cliënt)](#connect-to-frameio-using-using-oauth-20-pkce-with-client-id)
 
-#### Maak verbinding met [!DNL Frame.io] behulp van OAuth 2.0 PKCE (zonder client-ID)
+#### Verbinding maken met [!DNL Frame.io] via OAuth 2.0 PKCE (zonder client-id)
 
-1. Ga naar [!DNL Workfront Fusion] en open het dialoogvenster van **[!UICONTROL Create a connection]** de [!DNL Frame.io] module.
-1. Selecteer in het **[!UICONTROL Connection type]** veld de optie **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]**.
-1. Voer een naam in voor de nieuwe verbinding in het **[!UICONTROL Connection name]** veld.
+1. Ga naar Workfront Fusion en open het dialoogvenster [!DNL Frame.io] van de module **[!UICONTROL Create a connection]** .
+1. Selecteer **[!UICONTROL Connection type]** in het veld **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]** .
+1. Voer in het veld **[!UICONTROL Connection name]** een naam in voor de nieuwe verbinding.
 1. Klik op **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug te keren naar de module.
 
 #### Verbinding maken met [!DNL Frame.io] via OAuth 2.0 PKCE (met client-id)
@@ -150,24 +150,24 @@ U kunt een verbinding maken met [!DNL Frame.io] OAuth 2.0 PKCE met een optionele
    >
    >* Voer het volgende in als de omleidings-URI:
    >   
-   >     * **Noord- en Zuid-Amerika / APAC:**`https://app.workfrontfusion.com/oauth/cb/frame-io5`
+   >     * **Amerika/APAC**: `https://app.workfrontfusion.com/oauth/cb/frame-io5`
    >
-   >     * **EMEA:**`https://app-eu.workfrontfusion.com/oauth/cb/frame-io5`
+   >     * **EMEA**: `https://app-eu.workfrontfusion.com/oauth/cb/frame-io5`
    >
-   >* Schakel de PCKE-optie in.
+   >* Schakel de optie PCKE in.
 
 
 1. Kopieer de opgegeven `client_id` .
-1. Ga naar [!DNL Workfront Fusion] en open het dialoogvenster [!DNL Frame.io] module **[!UICONTROL Create a connection]** .
-1. Selecteer **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]** in het veld **[!UICONTROL Connection type]** .
+1. Ga naar Workfront Fusion en open het dialoogvenster [!DNL Frame.io] van de module **[!UICONTROL Create a connection]** .
+1. Selecteer **[!UICONTROL Connection type]** in het veld **[!UICONTROL [!DNL Frame.io] OAuth 2.0 PKCE]** .
 1. Voer in het veld **[!UICONTROL Connection name]** een naam in voor de nieuwe verbinding.
 1. Klik op **[!UICONTROL Show advanced settings]**.
 1. Voer de `client_id` die u in stap 2 naar het veld **[!UICONTROL Client ID]** hebt gekopieerd in.
 1. Klik op **[!UICONTROL Continue]** om de verbinding tot stand te brengen en terug te keren naar de module.
 
-## [!DNL Frame.io] modules en hun vakgebieden
+## [!DNL Frame.io] modules en hun velden
 
-Wanneer u [!DNL Frame.io] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Frame.io] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Frame.io] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Frame.io] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -176,9 +176,9 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Assets](#assets)
 * [Opmerkingen](#comments)
 * [Projecten](#projects)
-* [Ander](#other)
+* [Overige](#other)
 
-### Activa
+### Assets
 
 * [[!UICONTROL Create an Asset]](#create-an-asset)
 * [[!UICONTROL Delete an Asset]](#delete-an-asset)
@@ -191,7 +191,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### [!UICONTROL Create an Asset]
 
-Met deze actiemodule wordt een nieuw element gemaakt.
+Deze actiemodule maakt een nieuw element.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -199,7 +199,7 @@ Met deze actiemodule wordt een nieuw element gemaakt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">Verbinding [!DNL Frame.io] maken met [!DNL Frame.io][!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -256,7 +256,7 @@ Met deze actiemodule verwijdert u een opgegeven element.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -287,7 +287,7 @@ Deze actiemodule haalt elementdetails op.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -320,30 +320,30 @@ Deze zoekmodule haalt alle elementen in de opgegeven projectmap op.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">Verbinding [!DNL Frame.io] maken met [!DNL Frame.io][!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
-   <td> <p>Selecteer of wijs het team toe dat eigenaar is van het project dat de map bevat waaruit u middelen wilt ophalen.</p> </td> 
+   <td> <p>Selecteer of wijs het team toe dat het project bezit dat de omslag bevat u activa van wilt terugwinnen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID]</td> 
-   <td> <p> Selecteer het project dat de map bevat waaruit u middelen wilt ophalen.</p> </td> 
+   <td> <p> Selecteer het project dat de map bevat waarvan u elementen wilt ophalen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder ID] </td> 
-   <td> <p>Selecteer de map waaruit u items wilt weergeven.</p> </td> 
+   <td> <p>Selecteer de map waarvan u elementen wilt weergeven.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Voer het maximum aantal activa in of wijs het maximum aantal activa toe dat u wilt dat de module retourneert tijdens elke uitvoeringscyclus van scenario's.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal activa in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Update an Asset]
 
-Met deze actiemodule kunt u de naam, beschrijving of aangepaste velden van een bestaand item bijwerken.
+Met deze actiemodule kunt u de naam, beschrijving of aangepaste velden van een bestaand element bijwerken.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -351,23 +351,23 @@ Met deze actiemodule kunt u de naam, beschrijving of aangepaste velden van een b
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">Verbinding [!DNL Frame.io] maken met [!DNL Frame.io][!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
-   <td> <p>Selecteer of wijs het team toe dat eigenaar is van het project waarvoor u een item wilt bijwerken.</p> </td> 
+   <td> <p>Selecteer of wijs het team in kaart dat het project bezit dat u activa voor wilt bijwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID] </td> 
-   <td> <p>Selecteer het project of wijs de ID toe van het project waarvoor u een asset wilt bijwerken.</p> </td> 
+   <td> <p>Selecteer het project of wijs identiteitskaart van het project toe dat u activa voor wilt bijwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder ID] </td> 
-   <td> <p>Selecteer de map of wijs de ID toe van de map waarin u een asset wilt bijwerken.</p> </td> 
+   <td> <p>Selecteer de map of wijs de id toe van de map waarin u middelen wilt bijwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID] </td> 
-   <td> <p>Voer de ID in of wijs deze toe van het item dat u wilt bijwerken.</p> </td> 
+   <td> <p>Voer de id in van het element dat u wilt bijwerken of wijs deze toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name] </td> 
@@ -398,11 +398,11 @@ Als u een webhaak toevoegt, voert u de volgende informatie in.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">Verbinding [!DNL Frame.io] maken met [!DNL Frame.io][!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
-   <td> <p>Selecteer het team waarvoor deze webhook is gemaakt.</p> </td> 
+   <td> <p>Selecteer het team waarvoor deze webhaak is gemaakt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -425,7 +425,7 @@ Als u een webhaak toevoegt, voert u de volgende informatie in.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -438,9 +438,9 @@ Als u een webhaak toevoegt, voert u de volgende informatie in.
 
 Deze trekkermodule begint een scenario wanneer een nieuw middel voor het gespecificeerde team wordt gecreeerd.
 
-Omdat dit een directe trigger is, moet u een webhook selecteren of maken die de module wilt gebruiken.
+Omdat dit een directe trigger is, moet u een webhaak selecteren of maken die de module kan gebruiken.
 
-Als u een webhook toevoegt, voert u de volgende gegevens in.
+Als u een webhaak toevoegt, voert u de volgende informatie in.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -452,7 +452,7 @@ Als u een webhook toevoegt, voert u de volgende gegevens in.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -481,7 +481,7 @@ Deze actiemodule voegt een nieuwe opmerking of reactie toe aan het element.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type] </td> 
@@ -528,7 +528,7 @@ In deze actiemodule wordt een bestaande opmerking verwijderd.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID]</td> 
@@ -563,7 +563,7 @@ Deze actiemodule wint details van de gespecificeerde commentaar terug.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -598,7 +598,7 @@ Deze zoekmodule haalt alle opmerkingen van het opgegeven element op.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -614,18 +614,18 @@ Deze zoekmodule haalt alle opmerkingen van het opgegeven element op.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID] </td> 
-   <td> <p>Selecteer het item waarvoor u opmerkingen wilt weergeven.</p> </td> 
+   <td> <p>Selecteer het element waarvoor u opmerkingen wilt weergeven.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 
-   <td> <p>Voer het maximum aantal opmerkingen in of wijs het toe dat u wilt dat de module retourneert tijdens elke uitvoeringscyclus van het scenario.</p> </td> 
+   <td> <p>Ga of kaart het maximumaantal commentaren in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Update a Comment]
 
-Deze actiemodule bewerkt een bestaande opmerking.
+In deze actiemodule wordt een bestaande opmerking bewerkt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -633,11 +633,11 @@ Deze actiemodule bewerkt een bestaande opmerking.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref">Verbinding [!DNL Frame.io] maken met [!DNL Frame.io][!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding.</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
-   <td> <p>Selecteer of wijs het team toe dat eigenaar is van het project dat het item bevat waarop u een opmerking wilt bijwerken.</p> </td> 
+   <td> <p>Selecteer of wijs het team toe dat het project bezit dat de activa bevat u een commentaar op wilt bijwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Project ID] </td> 
@@ -645,11 +645,11 @@ Deze actiemodule bewerkt een bestaande opmerking.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder ID] </td> 
-   <td> <p>Selecteer de map met het item waarvoor u een opmerking wilt bijwerken.</p> </td> 
+   <td> <p>Selecteer de map met het element waarop u een opmerking wilt bijwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID] </td> 
-   <td> <p>Selecteer het item waarvoor u een opmerking wilt bijwerken.</p> </td> 
+   <td> <p>Selecteer het element waarop u een opmerking wilt bijwerken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Comment ID] </td> 
@@ -661,7 +661,7 @@ Deze actiemodule bewerkt een bestaande opmerking.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Timestamp] </td> 
-   <td> <p>Voer het framenummer in de video in waarnaar de reactie is gelinkt.</p> </td> 
+   <td> <p>Voer het framenummer in de video in waarnaar de opmerking is gekoppeld.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -684,18 +684,18 @@ Als u een webhaak toevoegt, voert u de volgende informatie in.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
-   <td> <p>Selecteer het team waarvoor deze webhook is gemaakt.</p> </td> 
+   <td> <p>Selecteer het team waarvoor deze webhaak is gemaakt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Watch New Comment]
 
-Deze triggermodule start een scenario wanneer een nieuwe opmerking of antwoord wordt gemaakt.
+Deze triggermodule start een scenario wanneer een nieuwe opmerking of een nieuw antwoord wordt gemaakt.
 
 Omdat dit een directe trigger is, moet u een webhaak selecteren of maken die de module kan gebruiken.
 
@@ -711,7 +711,7 @@ Als u een webhaak toevoegt, voert u de volgende informatie in.
   </tr> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -732,7 +732,7 @@ Deze onderzoeksmodule wint alle projecten voor het gespecificeerde team terug.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Team ID] </td> 
@@ -757,7 +757,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td>Zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Frame.io] met [!DNL Adobe Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Frame.io] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -769,7 +769,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p> </td> 
+   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String] </td> 

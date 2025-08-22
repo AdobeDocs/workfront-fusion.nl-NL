@@ -4,18 +4,18 @@ description: De  [!DNL Adobe Workfront Fusion Google Drive]  modules laten u toe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 788f4e1b-d774-45ad-a8be-b16922c1d5dc
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1672'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Drive] modules
 
-Met de modules [!DNL Adobe Workfront Fusion] [!DNL Google Drive] kunt u uw bestanden, mappen of gedeelde stations in uw [!DNL Google Drive] controleren, zoeken, maken, bijwerken, verwijderen en beheren.
+Met de Adobe Workfront Fusion [!DNL Google Drive] -modules kunt u uw bestanden, mappen of gedeelde stations in uw [!DNL Google Drive] controleren, zoeken, maken, bijwerken, verwijderen en beheren.
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u uw [!DNL Google Drive] -account verbinden met meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u uw [!DNL Google Drive] -account verbinden met meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -89,17 +89,17 @@ De Google Drive-aansluiting gebruikt het volgende:
 
 
 
-## Verbinding maken [!DNL Google Drive] met [!DNL Workfront Fusion]
+## Verbinding maken [!DNL Google Drive] met Workfront Fusion
 
 Als u [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker gebruikt, moet u een OAuth cliënt op [!DNL Google Cloud Platform] tot stand brengen om uw [!UICONTROL Client ID] en [!UICONTROL Client Secret] te verkrijgen.
 
-Voor geleidelijke instructies op hoe te om tot de cliënt OAuth (en verkrijg [!UICONTROL Client ID] en [!UICONTROL Client Secret]) te leiden, zie [  [!DNL Adobe Workfront Fusion]  verbinden  [!DNL Google Services]  gebruikend een cliënt van douaneOAuth ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
+Voor geleidelijke instructies op hoe te om de cliënt OAuth (en verkrijg [!UICONTROL Client ID] en [!UICONTROL Client Secret]) tot stand te brengen, zie [ de Fusie van Adobe Workfront van Connect aan  [!DNL Google Services]  gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
 
 Voor instructies over het aansluiten van uw [!DNL Google Drive] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 ## [!DNL Google Drive] modules en hun velden
 
-Wanneer u [!DNL Google Drive] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Drive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Google Drive] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Drive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -127,7 +127,7 @@ Deze triggermodule start een scènelijn wanneer een bestand in uw [!DNL Google D
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL What files to watch]</td> 
@@ -162,7 +162,7 @@ Deze triggermodule start een scènelijn wanneer een bestand in uw [!DNL Google D
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of downloaded files]</td> 
-   <td>Stel het maximumaantal resultaten in dat [!DNL Workfront Fusion] gedurende één cyclus downloadt (het aantal herhalingen per uitgevoerde scenario).</td> 
+   <td>Stel het maximumaantal resultaten in dat Workfront Fusion gedurende één cyclus zal downloaden (het aantal herhalingen per uitgevoerde scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,7 +177,7 @@ Deze triggermodule start een scenario wanneer een opmerking wordt toegevoegd aan
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File]</td> 
@@ -189,7 +189,7 @@ Deze triggermodule start een scenario wanneer een opmerking wordt toegevoegd aan
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned comments]</td> 
-   <td>Stel het maximumaantal opmerkingen in dat [!DNL Workfront Fusion] gedurende één cyclus retourneert (het aantal herhalingen per uitgevoerde scenario).</td> 
+   <td>Stel het maximumaantal opmerkingen in dat Workfront Fusion gedurende één cyclus retourneert (het aantal herhalingen per uitgevoerde scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -204,7 +204,7 @@ Deze triggermodule start een scenario wanneer een bestand wordt toegevoegd of ge
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection] </td>
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Select the folder to be watched]</td>
@@ -243,7 +243,7 @@ Deze triggermodule start een scenario wanneer een bestand wordt toegevoegd of ge
   </tr> 
   <tr> 
     <td>[!UICONTROL Maximum number of downloaded files]</td>
-    <td>Stel het maximumaantal resultaten in dat [!DNL Workfront Fusion] gedurende één cyclus downloadt (het aantal herhalingen per uitgevoerde scenario).</td>
+    <td>Stel het maximumaantal resultaten in dat Workfront Fusion gedurende één cyclus zal downloaden (het aantal herhalingen per uitgevoerde scenario).</td>
   </tr> 
  </tbody> 
 </table>
@@ -258,7 +258,7 @@ Triggers wanneer een nieuw dossier aan u wordt gedeeld, of een bestaand gedeeld 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Select the folder to be watched]</td> 
@@ -297,7 +297,7 @@ Triggers wanneer een nieuw dossier aan u wordt gedeeld, of een bestaand gedeeld 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of downloaded files]</td> 
-   <td>Stel het maximumaantal resultaten in dat [!DNL Workfront Fusion] gedurende één cyclus downloadt (het aantal herhalingen per uitgevoerde scenario).</td> 
+   <td>Stel het maximumaantal resultaten in dat Workfront Fusion gedurende één cyclus zal downloaden (het aantal herhalingen per uitgevoerde scenario).</td> 
   </tr> 
  </tbody> 
 </table>
@@ -324,7 +324,7 @@ Deze actiemodule kopieert een bestand naar de nieuwe locatie.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -359,7 +359,7 @@ Deze actiemodule maakt een map op de opgegeven locatie.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -394,7 +394,7 @@ Met deze actiemodule wordt een bestand of map permanent verwijderd.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -413,7 +413,7 @@ Deze actiemodule wint het dossier met gespecificeerde identiteitskaart terug.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Convert [!DNL Google Documents] bestanden om op te maken]</td> 
@@ -448,7 +448,7 @@ Deze actiemodule haalt de koppeling voor delen voor een bestand op in Google Dri
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -467,7 +467,7 @@ Met deze actiemodule verplaatst u een bestand of map naar de prullenbak.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL File ID]</td> 
@@ -486,7 +486,7 @@ Deze zoekmodule zoekt naar bestanden of mappen op basis van zoekcriteria.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -526,7 +526,7 @@ Deze zoekmodule zoekt naar bestanden of mappen op basis van zoekcriteria.
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned results]</td> 
-   <td>Stel het maximumaantal bestanden of mappen in dat [!DNL Workfront Fusion] tijdens één uitvoeringscyclus retourneert.</td> 
+   <td>Stel het maximumaantal bestanden of mappen in dat Workfront Fusion tijdens één uitvoeringscyclus retourneert.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -545,7 +545,7 @@ Deze actiemodule werkt de metagegevens of inhoud van een bestand bij.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Destination]</td> 
@@ -592,7 +592,7 @@ Uploadt een bestand naar uw [!DNL Google Drive] .
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Google Drive] met [!UICONTROL Workfront Fusion]</a> voor instructies over het verbinden van uw [!DNL Google Drive] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Google Drive] Verbinding maken <a href="#connecting-google-drive-to-workfront-fusion" class="MCXref xref"> met [!DNL Google Drive] voor instructies over het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion</p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Destination]</td> 

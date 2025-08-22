@@ -4,9 +4,9 @@ description: U kunt details van een specifieke scenario uitvoering, met inbegrip
 author: Becky
 feature: Workfront Fusion
 exl-id: 34dd9836-9a1b-4ce2-b24e-ae769888a52a
-source-git-commit: 62b09469c1d85fd2bd1f154cde339cc4a10fc34a
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -85,7 +85,7 @@ U kunt een uitvoering van de het scenariogeschiedenis van het scenario bekijken.
 
 1. Klik op het filter om de bundels weer te geven die door een filter zijn doorgegeven. Het getal bij het filter staat voor het aantal bundels dat door het filter is gegaan.
 1. Om naar een specifieke module of een gebeurtenis in het uitvoeringspaneel te zoeken, ga de onderzoekstermijn in de **de uitvoeringsgebeurtenissen van het Onderzoek** doos in. De resultaten worden weergegeven terwijl u typt.
-1. Om de onderzoeksresultaten van het uitvoerpaneel door status zoals Succes of Waarschuwing te beperken, klik de **dropdown van de Filter van de Status 0&rbrace; &lbrace;en selecteer de status.**
+1. Om de onderzoeksresultaten van het uitvoerpaneel door status zoals Succes of Waarschuwing te beperken, klik de **dropdown van de Filter van de Status 0} {en selecteer de status.**
 
 
 

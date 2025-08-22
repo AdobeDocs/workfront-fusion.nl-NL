@@ -1,12 +1,12 @@
 ---
 title: Scenario-uitvoering, cycli en fasen
-description: Dit artikel beschrijft gebeurtenissen die voorkomen terwijl een  [!DNL Adobe Workfront Fusion]  scenario, zoals initialisering, verrichtingen, begaat, en terugdraaiversies loopt.
+description: In dit artikel worden gebeurtenissen beschreven die plaatsvinden terwijl een Adobe Workfront Fusion-scenario wordt uitgevoerd, zoals initialisatie, bewerkingen, toezeggingen en terugdraaiversies.
 author: Becky
 feature: Workfront Fusion
 exl-id: abf41be5-df32-4eaf-b3f4-93ddf005bfe3
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
@@ -53,11 +53,11 @@ U kunt het maximum aantal cycli instellen in het deelvenster [!UICONTROL scenari
 Tijdens de exploitatiefase wordt een lees- of schrijfbewerking uitgevoerd:
 
 * Een lezingsverrichting bestaat uit het verkrijgen van gegevens van de dienst die dan door andere modules volgens een vooraf bepaald scenario wordt verwerkt. De module [!UICONTROL Workfront] > [!UICONTROL Watch records] retourneert bijvoorbeeld nieuwe bundels (records) die zijn gemaakt sinds de laatste uitvoering van het scenario.
-* Een schrijfbewerking bestaat uit het verzenden van gegevens naar een bepaalde dienst voor verdere verwerking. De module [!DNL Workfront] > [!UICONTROL Upload Document] uploadt bijvoorbeeld een bestand naar Workfront.
+* Een schrijfbewerking bestaat uit het verzenden van gegevens naar een bepaalde dienst voor verdere verwerking. Bijvoorbeeld, uploadt de Workfront > [!UICONTROL Upload Document] module een dossier aan Workfront.
 
 #### Vastleggen
 
-Als de verrichtingsfase succesvol is, begaat fase waarin alle die verrichtingen door de modules worden uitgevoerd worden begaan. Dit betekent dat [!DNL Workfront Fusion] informatie over het succes van de bewerkingsfase naar alle services stuurt die bij de bewerkingsfase zijn betrokken.
+Als de verrichtingsfase succesvol is, begaat fase waarin alle die verrichtingen door de modules worden uitgevoerd worden begaan. Dit betekent dat Workfront Fusion alle diensten die bij de exploitatiefase betrokken zijn, informatie stuurt over het succes ervan.
 
 ### Terugdraaien
 
@@ -65,7 +65,7 @@ Als een fout tijdens de verrichting voorkomt of fase op om het even welke module
 
 >[!IMPORTANT]
 >
->Alle [!DNL Workfront Fusion] -modules die rollback (ook wel transactie genoemd) ondersteunen, worden gemarkeerd met de ACID-tag.
+>Alle Workfront Fusion-modules die rollback (ook wel transactionality genoemd) ondersteunen, worden gemarkeerd met de ACID-tag.
 >
 >![ de modules van de Zuur ](assets/acid-modules.png)
 >

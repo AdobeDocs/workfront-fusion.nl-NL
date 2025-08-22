@@ -1,19 +1,19 @@
 ---
 title: E-mailmodules
-description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u uw E-mailrekening met veelvoudige derdetoepassingen en de diensten verbinden. Dit staat u toe om e-mails via IMAP te downloaden, e-mails via SMTP te verzenden, nieuwe ontwerpen te creëren, e-mails van één omslag naar een andere omslag te verplaatsen en te kopiëren, e-mails als gelezen of ongelezen te merken, en e-mails te schrappen.
+description: In een Adobe Workfront Fusion-scenario kunt u uw e-mailaccount verbinden met meerdere toepassingen en services van derden. Hierdoor kunt u e-mails downloaden via IMAP, e-mails verzenden via SMTP, nieuwe concepten maken, e-mails verplaatsen en kopiëren van de ene map naar de andere, e-mails markeren als gelezen of ongelezen en e-mails verwijderen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 28a04bad-d3ef-4f3a-be93-8b04761a75e4
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2023'
+source-wordcount: '2048'
 ht-degree: 0%
 
 ---
 
 # E-mailmodules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u uw e-mailaccount verbinden met meerdere toepassingen en services van derden. Hierdoor kunt u e-mails downloaden via IMAP, e-mails verzenden via SMTP, nieuwe concepten maken, e-mails verplaatsen en kopiëren van de ene map naar de andere, e-mails markeren als gelezen of ongelezen en e-mails verwijderen.
+In een Adobe Workfront Fusion-scenario kunt u uw e-mailaccount verbinden met meerdere toepassingen en services van derden. Hierdoor kunt u e-mails downloaden via IMAP, e-mails verzenden via SMTP, nieuwe concepten maken, e-mails verplaatsen en kopiëren van de ene map naar de andere, e-mails markeren als gelezen of ongelezen en e-mails verwijderen.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -100,7 +100,7 @@ Een zelfondertekend certificaat toevoegen:
 
 ## [!UICONTROL Email] modules en hun velden
 
-Wanneer u [!UICONTROL Email] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Email] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een bolde titel in een module wijst op een vereist gebied.
 
 Sommige e-mailvelden bevatten mogelijk al gegevens omdat u deze in een andere module hebt gebruikt in het scenario. Raadpleeg de documentatie bij de e-mail Help als u hierover informatie nodig hebt.
 
@@ -128,7 +128,7 @@ Deze triggermodule start een scenario wanneer een nieuwe e-mail wordt ontvangen 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder] </td> 
@@ -161,7 +161,7 @@ Deze triggermodule start een scenario wanneer een nieuwe e-mail wordt ontvangen 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
-   <td> <p> Voer het maximale aantal e-mailberichten in dat [!DNL Workfront Fusion] tijdens één cyclus van uitvoering van het scenario moet retourneren of toewijzen.</p> </td> 
+   <td> <p> Voer het maximale aantal e-mailberichten in dat Workfront Fusion tijdens één cyclus van uitvoering van het scenario moet retourneren of wijs het maximumaantal e-mails toe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -187,7 +187,7 @@ Deze actiemodule kopieert een e-mail of een concept naar een geselecteerde map.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source Folder]</td> 
@@ -214,7 +214,7 @@ Deze actiemodule maakt een nieuw concept en voegt dit toe aan een geselecteerde 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -251,7 +251,7 @@ Deze actiemodule maakt een nieuw concept en voegt dit toe aan een geselecteerde 
   </tr> 
   <!--<tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL From] </td> 
-   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, [!DNL Workfront Fusion] uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Enter or map the email address (and name, if needed) that appears in the [!UICONTROL From] field in the email. </p> <p>Important: Use the correct syntax: <code>name@email.com</code> or <code>"Name" name@email.com</code>.</p> <p>Note:  Normally, Workfront Fusion uses the email address that you entered when creating the connection as the sender address. If you enter any other email address, an error may occur when sending a message because your account may not have permission to send emails from a different address than your own. E.g. <code>test@mail.com</code> or "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>[!UICONTROL Sender]</p> </td> 
@@ -299,7 +299,7 @@ Deze actiemodule verwijdert een e-mail of een concept uit de geselecteerde map.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -326,7 +326,7 @@ Deze module retourneert e-mailberichten die voldoen aan de opgegeven criteria.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder] </td> 
@@ -371,11 +371,11 @@ Deze module retourneert e-mailberichten die voldoen aan de opgegeven criteria.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Email ID (UID)]</td> 
-   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail ophalen met de module [!UICONTROL &#x200B; Watch Email] of [!UICONTROL Search Email] van [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p> Voer de e-mailadres (UID) in van het e-mailbericht waarvan u de gegevens wilt ophalen.</p> <p>U kunt de UID van de e-mail krijgen door de module van Workfront Fusion [!UICONTROL  Watch Email] of [!UICONTROL Search Email] te gebruiken module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of results]</td> 
-   <td> <p> Het maximumaantal e-mailberichten [!DNL Workfront Fusion] moet worden geretourneerd tijdens de uitvoeringscyclus van één scenario.</p> </td> 
+   <td> <p> Het maximumaantal e-mailberichten dat Workfront Fusion mag retourneren tijdens de uitvoeringscyclus van één scenario.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 
@@ -394,7 +394,7 @@ Deze actiemodule markeert een e-mail of een concept in een geselecteerde map als
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -417,7 +417,7 @@ Hiermee markeert u een e-mail of concept in een geselecteerde map als ongelezen 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Folder]</td> 
@@ -440,7 +440,7 @@ Hiermee verplaatst u een gekozen e-mail of concept naar een geselecteerde map.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion] .</p> </td>
+   <td> <p>Zie [!UICONTROL Workfront Fusion] Uw e-mailadres verbinden met <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!UICONTROL Workfront Fusion]</a> .</p> </td>
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source Folder]</td> 
@@ -467,11 +467,11 @@ Hiermee verzendt u een nieuwe e-mail.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie <a href="#connect-your-email-to-workfront-fusion" class="MCXref xref"> Uw e-mailadres verbinden met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw e-mailaccount met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Save Message after Sending]</td> 
-   <td>Nadat het e-mailbericht is verzonden, wordt het opgeslagen in uw postvak. Schakel deze optie in als u e-mailberichten wilt opslaan die met [!DNL Workfront Fusion] naar de map <i>[!UICONTROL Sent mail]</i> of een andere map in uw postvak zijn verzonden. Bij sommige e-mailservices, zoals [!DNL Gmail] , worden verzonden berichten automatisch opgeslagen.</td> 
+   <td>Nadat het e-mailbericht is verzonden, wordt het opgeslagen in uw postvak. Schakel deze optie in als u e-mailberichten die met Workfront Fusion zijn verzonden, wilt opslaan in de map <i>[!UICONTROL Sent mail]</i> of in een andere map in uw postvak. Bij sommige e-mailservices, zoals [!DNL Gmail] , worden verzonden berichten automatisch opgeslagen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL To] </td> 
@@ -545,7 +545,7 @@ Hiermee verzendt u een nieuwe e-mail.
   </tr> 
 <tr data-mc-conditions=""> 
    <td role="rowheader">[!UICONTROL From] </td> 
-   <td> <p>Voer het e-mailadres (en de naam, indien nodig) dat in het veld [!UICONTROL From] in de e-mail wordt weergegeven in of wijs dit toe. </p> <p>Belangrijk: gebruik de juiste syntaxis: <code>name@email.com</code> of <code>"Name" name@email.com</code> .</p> <p>Opmerking: doorgaans gebruikt [!DNL Workfront Fusion] het e-mailadres dat u hebt ingevoerd bij het maken van de verbinding als het verzendadres. Als u een ander e-mailadres opgeeft, kan er een fout optreden bij het verzenden van een bericht omdat uw account geen toestemming heeft om e-mails van een ander adres te verzenden dan uw eigen adres. Bijvoorbeeld <code>test@mail.com</code> of "<code>John Bush" test@email.com</code>.</p> </td> 
+   <td> <p>Voer het e-mailadres (en de naam, indien nodig) dat in het veld [!UICONTROL From] in de e-mail wordt weergegeven in of wijs dit toe. </p> <p>Belangrijk: gebruik de juiste syntaxis: <code>name@email.com</code> of <code>"Name" name@email.com</code> .</p> <p>Opmerking: Workfront Fusion gebruikt doorgaans het e-mailadres dat u hebt ingevoerd bij het maken van de verbinding als het verzendadres. Als u een ander e-mailadres opgeeft, kan er een fout optreden bij het verzenden van een bericht omdat uw account geen toestemming heeft om e-mails van een ander adres te verzenden dan uw eigen adres. Bijvoorbeeld <code>test@mail.com</code> of "<code>John Bush" test@email.com</code>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -569,4 +569,4 @@ In de module E-mailiterator kunt u e-mailbijlagen afzonderlijk beheren. U kunt b
  </tbody> 
 </table>
 
-Voor meer informatie over iterators, zie {de module van de Teller 0} [&#128279;](/help/workfront-fusion/references/modules/iterator-module.md).
+Voor meer informatie over iterators, zie {de module van de Teller 0} [.](/help/workfront-fusion/references/modules/iterator-module.md)

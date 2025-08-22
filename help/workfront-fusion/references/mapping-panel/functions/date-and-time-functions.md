@@ -4,9 +4,9 @@ description: De volgende datum- en tijdfuncties zijn beschikbaar in het Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 92813dac-4bf0-4681-9b71-7bd2e92a89a4
-source-git-commit: 9249223c6fbe0360b11d41988fe8b9c35e45dbb8
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1803'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Deze functie retourneert een nieuwe datum met de seconden die in parameters word
 
 Geef een getal op tussen 0 en 59. Als het getal zich buiten dat bereik bevindt, retourneert de functie een seconde vanaf de vorige minuut (voor een negatief getal) of een volgende minuut (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u [!UICONTROL &#x200B; addSeconds] gebruikt, zoals hierboven beschreven in de sectie [ addSeconds (datum; aantal) ](#addseconds-date-number).
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u [!UICONTROL  addSeconds] gebruikt, zoals hierboven beschreven in de sectie [ addSeconds (datum; aantal) ](#addseconds-date-number).
 
 >[!BEGINSHADEBOX]
 
@@ -341,15 +341,15 @@ De functie `formatDate` retourneert een tekstrepresentatie van de opgegeven waar
 
 * `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
 
-  Returns 2018-10-01 09:32 AM
+  Keert 2018-10-01 09 :32 AM terug
 
 * `formatDate(1. Date created;DD.MM.YYYY HH:mm;UTC)`
 
-  Retourneert 01.10.2018 07:32
+  Retourneert 01.10.2018 07 :32
 
 * `formatDate(now;DD.MM.YYYY HH:mm)`
 
-  Retourneert 19.03.2019 15:30
+  Retourneert 19.03.2019 15 :30
 
 >[!ENDSHADEBOX]
 
@@ -459,7 +459,7 @@ Als er geen eenheid is opgegeven, retourneert de functie het verschil in millise
 
 #### Hoe wordt de n-de dag van de week in de maand berekend
 
-Deze sectie is aangepast voor [!DNL Workfront Fusion] op de [!DNL Exceljet] -webpagina waarin wordt uitgelegd hoe u de negende dag van de week in een maand kunt ophalen.
+Deze sectie is aangepast voor Workfront Fusion via de [!DNL Exceljet] -webpagina, waarin wordt uitgelegd hoe u de negende dag van de week in een maand kunt ophalen.
 
 Als u een datum wilt berekenen die overeenkomt met de n-de dag van de week in de maand (bijvoorbeeld, eerste dinsdag, derde vrijdag, enzovoort), kunt u de volgende formule gebruiken:
 

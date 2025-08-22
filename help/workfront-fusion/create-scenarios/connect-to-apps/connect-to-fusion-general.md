@@ -1,24 +1,24 @@
 ---
 title: Verbinding maken - Basisinstructies
-description: Vele  [!DNL Adobe Workfront Fusion]  schakelaars vereisen geen douaneconfiguratie wanneer het creëren van een verbinding. In dit artikel wordt het standaardproces voor het maken van verbindingen beschreven.
+description: Veel Adobe Workfront Fusion-connectors hebben geen aangepaste configuratie nodig wanneer u een verbinding maakt. In dit artikel wordt het standaardproces voor het maken van verbindingen beschreven.
 author: Becky
 feature: Workfront Fusion
 exl-id: e47ab4d9-6612-4d9a-a024-da508a8bbfb2
-source-git-commit: 6aec65919e79a9e9d950a11de53bfbb1051ca20b
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '533'
 ht-degree: 0%
 
 ---
 
 # Verbinding maken - Basisinstructies
 
-Veel [!DNL Adobe Workfront Fusion] -connectors vereisen geen aangepaste configuratie wanneer u een verbinding maakt. In dit artikel wordt het standaardproces voor het maken van verbindingen beschreven.
+Veel Adobe Workfront Fusion-connectors hebben geen aangepaste configuratie nodig wanneer u een verbinding maakt. In dit artikel wordt het standaardproces voor het maken van verbindingen beschreven.
 
 >[!NOTE]
 >
 >
->Als Adobe Workfront Fusion geen app aanbiedt voor de webservice die u in uw scenario wilt gebruiken, kunt u verbinding maken met de webservice via de modules [!DNL Workfront Fusion] HTTP en Webhooks, zoals in de volgende artikelen wordt uitgelegd:
+>Als Adobe Workfront Fusion geen app aanbiedt voor de webservice die u in uw scenario wilt gebruiken, kunt u verbinding maken met de webservice met de Workfront Fusion HTTP- en Webhooks-modules, zoals in de volgende artikelen wordt uitgelegd:
 >
 >* [ verbind de Fusie van Adobe Workfront met de Webdienst die API tokenvergunning gebruikt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-wf-web-service-uses-api-token-auth.md)
 >* [ vorm een webhaak voor een Webdienst zonder een schakelaar ](/help/workfront-fusion/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.md)
@@ -70,7 +70,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 Als u een verbinding met een bepaalde toepassing wilt maken, moet u zich in een module voor die toepassing bevinden. Als u bijvoorbeeld een verbinding met Workfront wilt maken, moet u zich in een Workfront-module bevinden.
 
-Een verbinding maken binnen een module [!DNL Workfront Fusion] :
+Verbinding maken in een Workfront Fusion-module:
 
 1. Klik in een willekeurige module voor de opgegeven toepassing op **[!UICONTROL Add]** naast het vak [!UICONTROL Connection] om het deelvenster **[!UICONTROL Create a connection]** te openen.
 1. (Optioneel) Wijzig de standaardinstelling **[!UICONTROL Connection name]** .
@@ -82,7 +82,7 @@ Een verbinding maken binnen een module [!DNL Workfront Fusion] :
 
 1. Klik op **[!UICONTROL Continue]**.
 1. Voer in het aanmeldingsvenster dat wordt weergegeven uw aanmeldingsgegevens in om u aan te melden bij de app als u dat nog niet hebt gedaan.
-1. (Voorwaardelijk) Als een knop **[!UICONTROL Allow]** wordt weergegeven, controleert u de handelingen die de aansluiting kan uitvoeren en klikt u op de knop om de app aan te sluiten op [!DNL Workfront Fusion] .
+1. (Voorwaardelijk) Als een knop **[!UICONTROL Allow]** wordt weergegeven, controleert u de acties die de aansluiting kan uitvoeren en klikt u op de knop om de toepassing te verbinden met Workfront Fusion.
 
    >[!NOTE]
    >

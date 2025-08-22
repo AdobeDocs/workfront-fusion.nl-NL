@@ -4,9 +4,9 @@ description: Een webhaak is een HTTP-aanroep die door een gebeurtenis wordt geac
 author: Becky
 feature: Workfront Fusion
 exl-id: 8e415378-e9c1-4b49-874b-6d38aba0c303
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1331'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -58,17 +58,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
-## Webhaak gebruiken in [!DNL Workfront Fusion]
+## Webhaak gebruiken in Workfront Fusion
 
 >[!NOTE]
 >
 >Als u een webhaak van derden (een uitgaande webhaak) wilt aanroepen, gebruikt u een van de HTTP-modules. Voor meer informatie, zie [ modules van HTTP ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors).
 
-Een webhaak gebruiken om een app te verbinden met [!DNL Workfront Fusion] :
+Een webhaak gebruiken om een toepassing te verbinden met Workfront Fusion:
 
 1. Voeg de **[!UICONTROL Webhooks]** > **[!UICONTROL Custom Webhook]** onmiddellijke trekkermodule aan uw scenario toe.
 
@@ -85,7 +85,7 @@ Nadat u een webhaak hebt gemaakt, wordt een unieke URL weergegeven. Dit is het a
 
 ### De gegevensstructuur van de webhaak configureren {#configure-the-webhook-s-data-structure}
 
-[!DNL Workfront Fusion] parseert voorbeeldgegevens die u naar het weergegeven adres verzendt om de gegevensstructuur van de binnenkomende lading te herkennen. U kunt de voorbeeldgegevens opgeven door een wijziging aan te brengen in de service of app die ervoor zorgt dat die service of toepassing de webhaak oproept. U kunt bijvoorbeeld een bestand verwijderen.
+Workfront Fusion parseert voorbeeldgegevens die u naar het weergegeven adres verzendt om de gegevensstructuur van de inkomende lading te herkennen. U kunt de voorbeeldgegevens opgeven door een wijziging aan te brengen in de service of app die ervoor zorgt dat die service of toepassing de webhaak oproept. U kunt bijvoorbeeld een bestand verwijderen.
 
 U kunt de voorbeeldgegevens ook verzenden via de module [!UICONTROL HTTP] > [!UICONTROL Make a request] :
 
@@ -148,11 +148,11 @@ Als een website gegevens ontvangt en er geen actief scenario is dat dat gegevens
 
 ## Ondersteunde binnenkomende gegevensindelingen
 
-[!DNL Workfront Fusion] ondersteunt 3 binnenkomende gegevensindelingen: [!UICONTROL Query String] , [!UICONTROL Form Data] en [!UICONTROL JSON] .
+Workfront Fusion ondersteunt 3 binnenkomende gegevensindelingen: [!UICONTROL Query String] , [!UICONTROL Form Data] en [!UICONTROL JSON] .
 
-[!DNL Workfront Fusion] valideert alle binnenkomende gegevens op basis van de geselecteerde gegevensstructuur. Afhankelijk van de instellingen van het scenario worden de gegevens vervolgens in de wachtrij opgeslagen voor verwerking of onmiddellijk verwerkt.
+Workfront Fusion valideert alle binnenkomende gegevens op basis van de geselecteerde gegevensstructuur. Afhankelijk van de instellingen van het scenario worden de gegevens vervolgens in de wachtrij opgeslagen voor verwerking of onmiddellijk verwerkt.
 
-Als een deel van de gegevens niet voor de validatie zorgt, retourneert [!DNL Workfront Fusion] een 400 HTTP-statuscode en wordt in de hoofdtekst van de HTTP-reactie aangegeven waarom de binnenkomende gegevens de validatiecontroles niet hebben doorstaan. Als de bevestiging van de inkomende gegevens slaagt, keert Workfront Fusion &quot;[!UICONTROL 200 Accepted]&quot;status terug.
+Als een deel van de gegevens de validatie niet doorgeeft, retourneert Workfront Fusion een 400 HTTP-statuscode en wordt in de hoofdtekst van de HTTP-respons aangegeven waarom de binnenkomende gegevens de validatiecontroles niet hebben doorstaan. Als de bevestiging van de inkomende gegevens slaagt, keert Workfront Fusion &quot;[!UICONTROL 200 Accepted]&quot;status terug.
 
 * [[!UICONTROL Query String]](#query-string)
 * [[!UICONTROL Form Data]](#form-data)
@@ -289,27 +289,27 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 >Configureer de module [!UICONTROL Webhook Response] als volgt:
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
->&gt;   <td> <p>2xx de statuscode van succesHTTP, b.v. 200</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
->&gt;   <td> <p>HTML-code</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong> Sleutel </strong>: Inhoud-type</li> 
->&gt;     <li><strong> Waarde </strong>: text/html</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
+&gt;   <td> <p>2xx de statuscode van succesHTTP, b.v. 200</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[!UICONTROL Body] </td> 
+&gt;   <td> <p>HTML-code</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong> Sleutel </strong>: Inhoud-type</li> 
+&gt;     <li><strong> Waarde </strong>: text/html</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![ de Kopballen van de Douane ](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
@@ -324,23 +324,23 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 >**Voorbeeld:** vorm de [!UICONTROL Webhook Response] module als volgt:
 >
 ><table style="table-layout:auto"> 
->&gt; <col> 
->&gt; <col> 
->&gt; <tbody> 
->&gt;  <tr> 
->&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
->&gt;   <td> <p>3xx HTTP-statuscode voor omleiding, bijvoorbeeld 303</p> </td> 
->&gt;  </tr> 
->&gt;  <tr> 
->&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
->&gt;   <td> 
->&gt;    <ul> 
->&gt;     <li><strong>[!UICONTROL Key]</strong>: Locatie</li> 
->&gt;     <li><strong>[!UICONTROL Value]</strong>: De URL waarnaar u wilt omleiden.</li> 
->&gt;    </ul> </td> 
->&gt;  </tr> 
->&gt; </tbody> 
->&gt;</table>
+&gt; <col> 
+&gt; <col> 
+&gt; <tbody> 
+&gt;  <tr> 
+&gt;   <td role="rowheader">[!UICONTROL Status] </td> 
+&gt;   <td> <p>3xx HTTP-statuscode voor omleiding, bijvoorbeeld 303</p> </td> 
+&gt;  </tr> 
+&gt;  <tr> 
+&gt;   <td role="rowheader"> <p>[!UICONTROL Custom headers]</p> </td> 
+&gt;   <td> 
+&gt;    <ul> 
+&gt;     <li><strong>[!UICONTROL Key]</strong>: Locatie</li> 
+&gt;     <li><strong>[!UICONTROL Value]</strong>: De URL waarnaar u wilt omleiden.</li> 
+&gt;    </ul> </td> 
+&gt;  </tr> 
+&gt; </tbody> 
+&gt;</table>
 >
 >![ reactie Webhaak ](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 

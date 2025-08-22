@@ -1,23 +1,23 @@
 ---
 title: Modules voor gegevensopslag
-description: Een  [!DNL Adobe Workfront Fusion]  gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario's opslaan, makend het mogelijk om gegevens tussen individuele scenario's of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
+description: Een gegevensopslag van de Fusie van Adobe Workfront, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario's opslaan, die het mogelijk maken om gegevens tussen individuele scenario's of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0338b822-b345-429e-850d-3978b692231d
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1028'
+source-wordcount: '1047'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Data store] modules
 
-Een [!DNL Adobe Workfront Fusion] gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario&#39;s opslaan, die het mogelijk maken om gegevens tussen individuele scenario&#39;s of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
+Een gegevensopslag van de Fusie van Adobe Workfront, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario&#39;s opslaan, die het mogelijk maken om gegevens tussen individuele scenario&#39;s of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
 
-Met de gegevensopslagmodules kunt u records toevoegen, vervangen, bijwerken, ophalen, verwijderen, zoeken of tellen in de [!DNL Adobe Workfront Fusion] -gegevensopslag.
+Met de gegevensopslagmodules kunt u records toevoegen, vervangen, bijwerken, ophalen, verwijderen, zoeken of tellen in uw Adobe Workfront Fusion-gegevensarchief.
 
-<!--For information on creating, editing, and troubleshooting data stores, see [Data Stores in [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/mapping-panel/data-types/)-->
+<!--For information on creating, editing, and troubleshooting data stores, see [Data Stores in Adobe Workfront Fusion](/help/workfront-fusion/references/mapping-panel/data-types/)-->
 
 Ga voor een video-introductie over gegevensopslag in Workfront Fusion naar:
 
@@ -60,7 +60,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -72,7 +72,7 @@ Voor informatie bij het creëren van gegevensopslag, zie [ gegevensopslag ](/hel
 
 ## [!UICONTROL Data store] modules en hun velden
 
-Wanneer u de modules van de Opslag van Gegevens vormt, [!DNL Workfront Fusion] toont de hieronder vermelde gebieden. Naast deze opties worden mogelijk extra gegevensopslagvelden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u Data Store-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Naast deze opties worden mogelijk extra gegevensopslagvelden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 U hoeft geen verbinding te maken om gegevensopslagruimten te gebruiken.
 
@@ -256,7 +256,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td> <p> Stel het maximale aantal zoekresultaten in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</p> </td> 
+   <td> <p> Stel het maximumaantal zoekresultaten in dat Workfront Fusion tijdens één uitvoeringscyclus retourneert.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Continue the execution of the route even if the module returns no results]</td> 

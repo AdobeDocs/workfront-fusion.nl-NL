@@ -1,19 +1,19 @@
 ---
 title: Gmail-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Gmail gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Gmail gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 62269eca-c3cf-42fe-a866-fb66d2363b8d
-source-git-commit: e14f49dbb7b57a7247a62a27205df1b6da11a259
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1580'
 ht-degree: 0%
 
 ---
 
 # [!DNL Gmail] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Gmail] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Gmail] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md). Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -64,16 +64,16 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 Als u [!DNL Gmail] -modules wilt gebruiken, moet u een [!DNL Gmail] -account hebben.
 
-## Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] {#connect-gmail-to-workfront-fusion}
+## Verbinden [!DNL Gmail] met Workfront Fusion {#connect-gmail-to-workfront-fusion}
 
-* [Verbind  [!DNL Gmail]  met  [!DNL Workfront Fusion]  gebruikend  [!DNL Google Workspace]](#connect-gmail-to-workfront-fusion-usinggoogle-workspace)
-* [Verbind  [!DNL Gmail]  met  [!DNL Workfront Fusion]  gebruikend  [!DNL gmail.com]  of  [!DNL googlemail].com](#connect-gmail-to-workfront-fusion-using-gmailcom-or-googlemailcom)
+* [Verbind  [!DNL Gmail]  met de Fusie van Workfront gebruikend  [!DNL Google Workspace]](#connect-gmail-to-workfront-fusion-usinggoogle-workspace)
+* [Verbind  [!DNL Gmail]  met de Fusie van Workfront gebruikend  [!DNL gmail.com]  of  [!DNL googlemail].com](#connect-gmail-to-workfront-fusion-using-gmailcom-or-googlemailcom)
 
-### Verbinden [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL &#x200B; Google Workspace]
+### Verbinding maken [!DNL Gmail] met Workfront Fusion via [!DNL  Google Workspace]
 
 Voor instructies over het verbinden van uw [!DNL Google Workspace] rekening met [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
 
-### Verbind [!DNL Gmail] met [!DNL Workfront Fusion] using [!DNL gmail.com] of [!DNL googlemail].com
+### Verbind [!DNL Gmail] met Workfront Fusion gebruikend [!DNL gmail.com] of [!DNL googlemail].com
 
 Als u [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker bent moet u een cliënt OAuth op [ creëren  [!DNL Google Cloud Platform] ](https://console.developers.google.com/projectselector2/apis/dashboard?supportedpurview=project) om a [!UICONTROL Client ID] en [!UICONTROL Client Secret] te verkrijgen.
 
@@ -81,7 +81,7 @@ Voor geleidelijke instructies op hoe te om de cliënt OAuth tot stand te brengen
 
 ## [!DNL Gmail] modules en hun velden
 
-Wanneer u [!DNL Gmail] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Gmail] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Gmail] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Gmail] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -107,7 +107,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -143,7 +143,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of results]</td> 
-   <td> <p> Stel het maximale aantal resultaten in waarmee [!DNL Workfront Fusion] gedurende één cyclus werkt.</p> </td> 
+   <td> <p> Stel het maximale aantal resultaten in waarmee Workfront Fusion gedurende één cyclus werkt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -178,7 +178,7 @@ De module retourneert de id van de e-mail en alle bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -211,7 +211,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -258,7 +258,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL [!DNL Gmail] Bericht-ID]</p> </td> 
@@ -289,7 +289,7 @@ De module retourneert de id van de e-mail en alle bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -316,7 +316,7 @@ De module retourneert de id van de e-mail en alle bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -343,7 +343,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL [!DNL Gmail] Bericht-ID]</td> 
@@ -378,7 +378,7 @@ De module retourneert de id van de e-mail en alle bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!UICONTROL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Gmail] Verbinding maken <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> met [!DNL Gmail] in dit artikel voor instructies voor het verbinden van uw [!UICONTROL Workfront Fusion]</a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Folder] </td> 
@@ -411,7 +411,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Gmail] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies voor het verbinden van uw [!DNL Gmail] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies bij het aansluiten van uw [!DNL Gmail] rekening aan Workfront Fusion, zie <a href="#connect-gmail-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Gmail] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL From]</td> 
@@ -450,7 +450,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 #### [!UICONTROL Iterate attachments]
 
-U kunt e-mailbijlagen doorlopen. Elke bijlage is een afzonderlijke bundel in de output van de module. Voor meer informatie, zie {de module van de Teller 0} [&#128279;](/help/workfront-fusion/references/modules/iterator-module.md).
+U kunt e-mailbijlagen doorlopen. Elke bijlage is een afzonderlijke bundel in de output van de module. Voor meer informatie, zie {de module van de Teller 0} [.](/help/workfront-fusion/references/modules/iterator-module.md)
 
 <table style="table-layout:auto"> 
  <col> 

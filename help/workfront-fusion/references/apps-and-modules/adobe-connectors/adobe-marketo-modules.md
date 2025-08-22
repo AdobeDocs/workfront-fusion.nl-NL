@@ -1,19 +1,19 @@
 ---
 title: Marketo-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL Marketo] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema's automatiseren die  [!DNL Marketo] gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
 author: Becky
 feature: Workfront Fusion
 exl-id: da417ac7-e532-45f7-86d9-3643b5f9f203
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1814'
+source-wordcount: '1880'
 ht-degree: 0%
 
 ---
 
 # [!DNL Marketo] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Marketo] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Marketo] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Ga voor een video-introductie over de Marketo-connector naar:
 
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -123,7 +123,7 @@ U kunt rechtstreeks vanuit een [!DNL Marketo] -module verbinding maken met uw [!
       <tr>
         <td role="rowheader">[!UICONTROL Account / Munchkin ID]</td>
         <td>
-          <p>Voer uw [!DNL Marketo] account of [!DNL Marketo] [!UICONTROL Munchkin] id in. Dit is het unieke gedeelte van de basis-URL of het eindpunt dat aan uw account is toegewezen en dat u gebruikt om via de [!UICONTROL REST] -API toegang te krijgen tot [!DNL Marketo] . Zie [Basis-URL] (https://developers.marketo.com/rest-api/base-url/) in de [!DNL Marketo] documentatie voor instructies over het zoeken naar deze URL.</p>
+          <p>Voer uw [!DNL Marketo] account of [!DNL Marketo] [!UICONTROL Munchkin] id in. Dit is het unieke gedeelte van de basis-URL of het eindpunt dat aan uw account is toegewezen en dat u gebruikt om via de [!DNL Marketo] -API toegang te krijgen tot [!UICONTROL REST] . Zie [Basis-URL] (https://developers.marketo.com/rest-api/base-url/) in de [!DNL Marketo] documentatie voor instructies over het zoeken naar deze URL.</p>
         </td>
       </tr>
       <tr>
@@ -141,7 +141,7 @@ U kunt rechtstreeks vanuit een [!DNL Marketo] -module verbinding maken met uw [!
 
 ## [!DNL Marketo] Modules en de bijbehorende velden
 
-Wanneer u [!DNL Marketo] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Marketo] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Marketo] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Marketo] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -185,15 +185,15 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
    <td> <p>Selecteer het type record dat u wilt maken.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Activity]</strong> </p> <p>Selecteer het type activiteit dat u wilt controleren. </p> <p>De module kijkt slechts voor nieuwe activiteiten.<br></p> </li> 
-     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0&rbrace; &lbrace;, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. <b> Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
-     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Op het </b> gebied van het Type van Gebeurtenis 0&rbrace; &lbrace;, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.<b></p> </li> 
+     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Op het <b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. </b> Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
+     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Op het <b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.</b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -230,7 +230,7 @@ Met deze actiemodule voegt u een of meer leads toe aan een lijst met de lead-id.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List ID]</td> 
@@ -253,7 +253,7 @@ Deze actiemodule maakt een kopie van een programma met de id van het bestaande p
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Existing Program ID]</td> 
@@ -280,7 +280,7 @@ Deze actiemodule maakt een nieuwe record in [!DNL Marketo]
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -337,7 +337,7 @@ Met deze actiemodule kunt u een aangepaste, geverifieerde aanroep van de [!DNL M
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -372,7 +372,7 @@ Deze actiemodule downloadt een bestand met de bestands-id.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL File ID]</td> 
@@ -391,7 +391,7 @@ Deze actiemodule leest informatie over een verslag door zijn identiteitskaart te
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -409,7 +409,7 @@ Deze actiemodule leest informatie over een verslag door zijn identiteitskaart te
    <td>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen. De velden zijn beschikbaar op basis van de geselecteerde [!UICONTROL Record Type] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL &lt;Object> ID]</td> 
+   <td role="rowheader">[!UICONTROL <Object> ID]</td> 
    <td>Voer de id in of wijs deze toe aan het object waarover u informatie wilt ophalen.</td> 
   </tr> 
  </tbody> 
@@ -425,7 +425,7 @@ Deze actiemodule verwijdert een of meer leads uit een lijst met behulp van de le
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL List ID]</td> 
@@ -448,7 +448,7 @@ Deze actiemodule plant een bestaande campagne voor een bepaalde datum.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Campaign ID]</td> 
@@ -471,7 +471,7 @@ Deze actiemodule werkt een bestaande record bij met behulp van de bijbehorende i
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -527,7 +527,7 @@ Deze actiemodule uploadt een nieuw bestand naar [!UICONTROL Marketo] .
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -559,7 +559,7 @@ Deze actiemodule wint alle verslagen van een specifiek type terug.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -595,7 +595,7 @@ Deze zoekmodule haalt een lijst op met records die voldoen aan specifieke zoekcr
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Marketo] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Marketo] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Marketo] rekening aan Workfront Fusion, zie <a href="#connect-marketo-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Marketo] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 

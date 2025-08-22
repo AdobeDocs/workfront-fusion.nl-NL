@@ -1,19 +1,19 @@
 ---
 title: Microsoft Dynamics 365 Financierings- en operationele modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die de Financiën en Verrichtingen van Microsoft Dynamics 365 gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema's automatiseren die Microsoft Dynamics 365 Financiën en Verrichtingen gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
 author: Becky
 feature: Workfront Fusion
 exl-id: 96f8d4f1-f97b-4da8-8d82-83cccb54ec68
-source-git-commit: 1ea2bf76b0fe6e0b0c7c3c894fbdede224d2cae2
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '943'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Dynamics 365 Finance and Operations modules]
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Microsoft Dynamics 365] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Microsoft Dynamics 365] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 >[!NOTE]
 >
@@ -98,7 +98,7 @@ Deze actiemodule leidt tot een nieuw entiteitspost in Microsoft Dynamics 365 Fin
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met [!DNL Workfront Fusion], zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
+    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met de Fusie van Workfront, zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
@@ -123,7 +123,7 @@ Deze actiemodule schrapt een entiteitpunt van de Financiën en Verrichtingen van
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met [!DNL Workfront Fusion], zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
+    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met de Fusie van Workfront, zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
@@ -146,7 +146,7 @@ Deze actiemodule maakt een douanevraag aan de de Financiën en API van Verrichti
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met [!DNL Workfront Fusion], zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
+    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met de Fusie van Workfront, zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -158,7 +158,7 @@ Deze actiemodule maakt een douanevraag aan de de Financiën en API van Verrichti
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object. Dit bepaalt het inhoudstype van het verzoek.</p> <p>Bijvoorbeeld:<code> {"Content-type":"application/json"}</code></p> <p>Opmerking: als u fouten krijgt en het moeilijk is om de oorsprong ervan te bepalen, kunt u overwegen koppen te wijzigen op basis van de documentatie van [!DNL Workfront] . Wanneer uw Aangepaste API-aanroep een HTTP-aanvraagfout van 422 retourneert, probeert u een header <code>"Content-Type":"text/plain"</code> te gebruiken.</p> </td> 
+   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object. Dit bepaalt het inhoudstype van het verzoek.</p> <p>Bijvoorbeeld:<code> {"Content-type":"application/json"}</code></p> <p>Opmerking: als u fouten krijgt en het moeilijk is om de oorsprong ervan te bepalen, kunt u overwegen koppen te wijzigen op basis van de documentatie van Workfront. Wanneer uw Aangepaste API-aanroep een HTTP-aanvraagfout van 422 retourneert, probeert u een header <code>"Content-Type":"text/plain"</code> te gebruiken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query string]</td> 
@@ -186,7 +186,7 @@ Deze actiemodule retourneert gegevens van een entiteitsitem. Het item wordt aang
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met [!DNL Workfront Fusion], zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
+    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met de Fusie van Workfront, zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
@@ -207,7 +207,7 @@ Deze actiemodule retourneert gegevens van een entiteitsitem. Het item wordt aang
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met [!DNL Workfront Fusion], zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
+    <td> <p>Voor instructies over het verbinden van Microsoft Dynamics 365 Financiën en Verrichtingen met de Fusie van Workfront, zie <a href="#create-a-connection" class="MCXref xref"> een verbinding </a> in dit artikel creëren.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Entity]</td>
@@ -234,7 +234,7 @@ Deze zoekmodule retourneert resultaten op basis van criteria die u opgeeft.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Workfront] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Workfront] -app met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het verbinden van uw Workfront app aan Workfront Fusion, zie <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref"> Workfront met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Entity]</td> 
@@ -268,7 +268,7 @@ This module lists all records for a given entity.  The item is identified by its
  <tbody> 
   <tr> 
     <td>[!UICONTROL Connection]</td>
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to Workfront Fusion, see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Record Type]</td>
@@ -291,15 +291,15 @@ This trigger module starts a scenario when a record of the given type is created
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to [!DNL Workfront Fusion], see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
+    <td> <p>For instructions about connecting Microsoft Dynamics 365 Finance and Operations to Workfront Fusion, see <a href="#create-a-connection" class="MCXref xref">Create a connection</a> in this article.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Select the type of [!DNL Workfront] record that you want the module to watch.</p> </td> 
+   <td> <p>Select the type of Workfront record that you want the module to watch.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to [!DNL Workfront] logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
+   <td> <p>Enter the field that you want to search by, the operator you want to use in your query, and the value that you are searching for in the field.</p> <p>Note: Do not use <code>username </code>in your search criteria. Including <code>username </code>in an API query to Workfront logs the user into Workfront, and the search will not be successful.</p> <p>Note: <code>In</code> and <code>NotIn</code>work with arrays. The inputs should be in array format.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 

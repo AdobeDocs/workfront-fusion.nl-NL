@@ -4,10 +4,10 @@ description: Een bewerking in Adobe Workfront Fusion is een taak die door een mo
 author: Becky
 feature: Workfront Fusion
 exl-id: c14e2bb2-1cce-48ff-8bea-acc9829d3cf2
-source-git-commit: 3470f7a9658ac4e6214c27f94f5b41821f2f8665
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '350'
-ht-degree: 0%
+source-wordcount: '353'
+ht-degree: 1%
 
 ---
 
@@ -29,9 +29,9 @@ Een bewerking in Adobe Workfront Fusion is een taak die door een module wordt ui
 
 ## Bedrijfslimieten
 
-Uw organisatie heeft mogelijk een limiet voor maandelijkse bewerkingen. Dit is gebaseerd op het [!DNL Workfront] -abonnement dat uw organisatie heeft aangeschaft. Het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement biedt onbeperkte bewerkingen.
+Uw organisatie heeft mogelijk een limiet voor maandelijkse bewerkingen. Dit is gebaseerd op het Workfront-abonnement dat uw organisatie heeft aangeschaft. Het [!UICONTROL Ultimate] Workfront-plan biedt onbeperkte bewerkingen.
 
-Als uw organisatie een maandelijkse limiet heeft, ontvangt u een melding wanneer uw organisatie de limiet bijna heeft bereikt. Als uw organisatie de limiet overschrijdt, neemt [!DNL Workfront] contact op met uw organisatie om ervoor te zorgen dat uw abonnement aan uw behoeften voldoet.
+Als uw organisatie een maandelijkse limiet heeft, ontvangt u een melding wanneer uw organisatie de limiet bijna heeft bereikt. Als uw organisatie de limiet overschrijdt, neemt Workfront contact op met uw organisatie om ervoor te zorgen dat uw abonnement aan uw behoeften voldoet.
 
 Workfront Fusion verzendt een melding wanneer uw organisatie de volgende percentages van de maandelijkse limiet van de organisatie bereikt:
 

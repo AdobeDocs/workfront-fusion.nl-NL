@@ -1,12 +1,12 @@
 ---
 title: Toetsen
-description: Keychain in  [!DNL Adobe Workfront Fusion]  zal u helpen om openbare en privé sleutels te beheren. Toetsen worden bijvoorbeeld gebruikt door de Encryptor-app voor het coderen of decoderen van PGP-berichten.
+description: De sleutelhanger in Adobe Workfront Fusion helpt u bij het beheren van openbare en persoonlijke sleutels. Toetsen worden bijvoorbeeld gebruikt door de Encryptor-app voor het coderen of decoderen van PGP-berichten.
 author: Becky
 feature: Workfront Fusion
 exl-id: b92e54ed-fa03-4af7-be7b-436907b2bff9
-source-git-commit: 3b9a6be135a485f369dbc642b1582545e53e4cae
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '171'
+source-wordcount: '176'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De openbare en privé sleutels worden gebruikt om gegevens te coderen en te decrypteren. De openbare sleutel kan worden verdeeld, en iedereen met de openbare sleutel kan gegevens coderen, maar slechts kan de privé sleutel het decrypteren. Op dezelfde manier kan een gebruiker met een persoonlijke sleutel gegevens coderen die iedereen met de openbare sleutel kan decoderen. In het gebied van Sleutels, kunt u sleutels bekijken en beheren die uw team bezit.
 
-## Toetsen gebruiken in [!DNL Workfront Fusion]
+## Toetsen gebruiken in Workfront Fusion
 
 Vergelijkbaar met verbindingen, worden de sleutels toegevoegd aan individuele modules, en zijn dan beschikbaar voor gebruik in andere modules.
 

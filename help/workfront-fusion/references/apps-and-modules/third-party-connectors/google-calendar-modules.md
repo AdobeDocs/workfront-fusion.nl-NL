@@ -1,19 +1,19 @@
 ---
 title: Google-kalendermodules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die de Kalender van Google gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebruikmaken van Google Calendar, en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e514204-cd8e-4f30-bbbb-b8fbe48fc670
-source-git-commit: 160e503adeca5404e18fd0cba9f475fee8510a48
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2315'
+source-wordcount: '2387'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Calendar] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!UICONTROL Google Calendar] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Google Calendar] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -28,35 +28,35 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">Adobe Workfront-abonnement*</td>
   <td> <p>[!UICONTROL Pro] of hoger</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
+   <td role="rowheader">Adobe Workfront-licentie*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidige vergunningsvereiste: geen Workfront Fusion-vergunningsvereiste.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] Adobe Workfront-abonnement hebt, moet uw organisatie zowel Adobe Workfront Fusion als Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Workfront Fusion is opgenomen in het Workfront-plan van [!UICONTROL Ultimate] .</p>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet Adobe Workfront Fusion en Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 ## Vereisten
 
@@ -87,7 +87,7 @@ De Google Calendar-aansluiting gebruikt het volgende:
 
 ## [!DNL Google Calendar] modules en hun velden
 
-Wanneer u [!DNL Google Calendar] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Calendar] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Google Calendar] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Calendar] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -115,7 +115,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar] </td> 
@@ -135,7 +135,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of events]</td> 
-   <td> <p> Stel het maximum aantal gebeurtenissen in waarmee [!DNL Workfront Fusion] werkt tijdens één cyclus (het aantal herhalingen per uitgevoerde scenario). Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. [!DNL Workfront Fusion] heeft hier geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
+   <td> <p> Stel het maximumaantal gebeurtenissen in waarmee Workfront Fusion tijdens één cyclus werkt (het aantal herhalingen per uitgevoerde scenario). Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. Workfront Fusion heeft daar geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -150,11 +150,11 @@ Deze triggermodule gebruikt een mailhaak om een e-mailadres te maken dat u kunt 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Mailhook] </td> 
-   <td> <p>Selecteer de brievenhaak die u voor deze module wilt gebruiken. Om een nieuwe brievenbus tot stand te brengen, voegt de klik <b> </b> toe en gaat de verbinding in u voor de brievenhaak wilt gebruiken.</p><p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+   <td> <p>Selecteer de brievenhaak die u voor deze module wilt gebruiken. Om een nieuwe brievenbus tot stand te brengen, voegt de klik <b> </b> toe en gaat de verbinding in u voor de brievenhaak wilt gebruiken.</p><p>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of events]</td> 
-   <td> <p> Stel het maximum aantal gebeurtenissen in waarmee [!DNL Workfront Fusion] werkt tijdens één cyclus (het aantal herhalingen per uitgevoerde scenario). Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. [!DNL Workfront Fusion] heeft hier geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
+   <td> <p> Stel het maximumaantal gebeurtenissen in waarmee Workfront Fusion tijdens één cyclus werkt (het aantal herhalingen per uitgevoerde scenario). Als de waarde te hoog is ingesteld, kan de verbinding aan de kant van de opgegeven service van derden (timeout) worden onderbroken. Workfront Fusion heeft daar geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -177,7 +177,7 @@ Deze actiemodule maakt een kalender die aan de account is gekoppeld.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Color] </td> 
@@ -218,7 +218,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Event name]</td> 
-   <td> <p> Voer een naam voor de gebeurtenis in of wijs een naam toe. </p> <p>Opmerking: als u [!UICONTROL Quick add] in het veld [!UICONTROL Create an event] hebt geselecteerd, kunt u de datum en tijd van de gebeurtenis opnemen en maakt [!DNL Workfront Fusion] de gebeurtenis voor die datum en tijd. Voorbeeld: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code> . Als u [!UICONTROL Quick add] hebt geselecteerd maar geen datum en tijd in de naam van de gebeurtenis hebt opgenomen, wordt de gebeurtenis gemaakt op basis van de huidige tijd en duurt deze een uur.</p> </td> 
+   <td> <p> Voer een naam voor de gebeurtenis in of wijs een naam toe. </p> <p>Opmerking: als u [!UICONTROL Quick add] in het veld [!UICONTROL Create an event] hebt geselecteerd, kunt u de datum en tijd van de gebeurtenis opnemen en maakt Workfront Fusion de gebeurtenis voor die datum en tijd. Voorbeeld: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code> . Als u [!UICONTROL Quick add] hebt geselecteerd maar geen datum en tijd in de naam van de gebeurtenis hebt opgenomen, wordt de gebeurtenis gemaakt op basis van de huidige tijd en duurt deze een uur.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL All day event]</td> 
@@ -296,7 +296,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar]</td> 
@@ -357,7 +357,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td>[!UICONTROL Mazimum number of returned events]</td> 
-   <td> <p>Stel het maximale aantal gebeurtenissen in dat [!DNL Workfront Fusion] retourneert tijdens één uitvoeringscyclus.</p> </td> 
+   <td> <p>Stel het maximumaantal gebeurtenissen in dat Workfront Fusion retourneert tijdens één uitvoeringscyclus.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -378,7 +378,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Google Calendar] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Adobe [!DNL Workfront Fusion] tot stand brengen - Basisinstructies </a></p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Google Calendar] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Calendar] </td> 
@@ -389,7 +389,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
    <td> <p>Voer de gebeurtenis-id in uit de eerder gemaakte gebeurtenis [!DNL Google Calendar] die u wilt bijwerken.</p> </td> 
   </tr>   <tr> 
    <td>[!UICONTROL Event name]</td> 
-   <td> <p> Voer een naam voor de gebeurtenis in of wijs een naam toe. </p> <p>Opmerking: als u [!UICONTROL Quick add] in het veld [!UICONTROL Create an event] hebt geselecteerd, kunt u de datum en tijd van de gebeurtenis opnemen en maakt [!DNL Workfront Fusion] de gebeurtenis voor die datum en tijd. Voorbeeld: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code> . Als u [!UICONTROL Quick add] hebt geselecteerd maar geen datum en tijd in de naam van de gebeurtenis hebt opgenomen, wordt de gebeurtenis gemaakt op basis van de huidige tijd en duurt deze een uur.</p> </td> 
+   <td> <p> Voer een naam voor de gebeurtenis in of wijs een naam toe. </p> <p>Opmerking: als u [!UICONTROL Quick add] in het veld [!UICONTROL Create an event] hebt geselecteerd, kunt u de datum en tijd van de gebeurtenis opnemen en maakt Workfront Fusion de gebeurtenis voor die datum en tijd. Voorbeeld: <code>Appointment at Capitol Hill on June 3rd 10am-10:25am</code> . Als u [!UICONTROL Quick add] hebt geselecteerd maar geen datum en tijd in de naam van de gebeurtenis hebt opgenomen, wordt de gebeurtenis gemaakt op basis van de huidige tijd en duurt deze een uur.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL All day event]</td> 
@@ -508,7 +508,7 @@ U kunt een scenario een gespecificeerde tijd vóór een gebeurtenis met de hulp 
    1. Klik op **[!UICONTROL Add a forwarding address].**
    1. Plak het e-mailadres van de gekopieerde e-mail, klik op &#x200B; **[!UICONTROL Next]**, bevestig door op **[!UICONTROL Proceed]** in het pop-upvenster te drukken en klik vervolgens op **[!UICONTROL OK]** .
 
-   1. Schakel in [!DNL Workfront Fusion] over naar het nieuwe scenario dat de uitvoering moet voltooien door het bevestigingsbericht te ontvangen.
+   1. Schakel in Workfront Fusion over naar het nieuwe scenario dat de uitvoering moet voltooien door het bevestigingsbericht te ontvangen.
    1. Klik de bel boven de module om de output van de module te inspecteren.
    1. Vouw het item `Text` uit en kopieer de bevestigingscode:
 
@@ -524,7 +524,7 @@ U kunt een scenario een gespecificeerde tijd vóór een gebeurtenis met de hulp 
    1. Selecteer **[!UICONTROL Forward it to]** en kies in de lijst het e-mailadres van de e-mail.
    1. Klik op **[!UICONTROL Create filter]** om het filter te maken.
 
-1. (Optioneel) Voeg in [!DNL Workfront Fusion] de module [!UICONTROL Text parser] > [!UICONTROL Match pattern] toe na de module [!UICONTROL Webhooks] > [!UICONTROL Custom mailhook] om de HTML-code van de e-mail te parseren voor alle informatie die u nodig hebt.
+1. (Optioneel) Voeg in Workfront Fusion de module [!UICONTROL Text parser] > [!UICONTROL Match pattern] toe na de module [!UICONTROL Webhooks] > [!UICONTROL Custom mailhook] om de HTML-code van de e-mail te parseren voor alle informatie die u nodig hebt.
 
    U kunt de module bijvoorbeeld als volgt configureren om de id van de gebeurtenis op te halen:
 

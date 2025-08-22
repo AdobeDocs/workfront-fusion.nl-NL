@@ -4,16 +4,16 @@ description: Een gegevensstructuur is een document waarin de indeling van de geg
 author: Becky
 feature: Workfront Fusion
 exl-id: 93abf8a5-a3a1-448e-834b-1cc81b88036b
-source-git-commit: 2a81e013845f8a0e2720292984c451501e6011a0
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '234'
 ht-degree: 0%
 
 ---
 
 # Gegevensstructuren
 
-Een gegevensstructuur is een document of patroon waarmee de indeling van de gegevens die worden verwerkt in [!DNL Adobe Workfront Fusion] in detail wordt beschreven. Gebaseerd op dit document, kan de scenario redacteur erachter komen welke module terugkeert of ontvangt welk soort gegevens. De documenten van de gegevensstructuur worden het meest meestal gebruikt voor het in series vervaardigen/ontleden van gegevensformaten zoals JSON, XML, CSV en anderen.
+Een gegevensstructuur is een document of patroon waarmee de indeling van de gegevens die in Adobe Workfront Fusion worden verwerkt, in detail wordt beschreven. Gebaseerd op dit document, kan de scenario redacteur erachter komen welke module terugkeert of ontvangt welk soort gegevens. De documenten van de gegevensstructuur worden het meest meestal gebruikt voor het in series vervaardigen/ontleden van gegevensformaten zoals JSON, XML, CSV en anderen.
 
 U kunt een gegevensstructuur maken door te klikken op de knop [!UICONTROL Create a new data structure] in de sectie [!UICONTROL Data structure overview] of in de instellingen van de module die de specificatie van de gegevensstructuur vereist.
 

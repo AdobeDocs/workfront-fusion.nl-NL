@@ -4,9 +4,9 @@ description: Met de SOAP-module kunt u verbinding maken met SOAP API's in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,13 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
 ## SOAP-module en de bijbehorende velden
 
-Wanneer u SOAP-modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer.  Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u SOAP-modules configureert, geeft Workfront Fusion de onderstaande velden weer.  Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -145,7 +145,7 @@ Dit voorbeeld bevat de verwijzingen `soapenc:Array` , `soapenc:arrayType` en `ws
 
 Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschillende fouten in de configuratie van de module veroorzaakt, kunt u in plaats daarvan de module Universal **[!UICONTROL HTTP]>[!UICONTROL Make a request]** gebruiken:
 
-1. Maak in [!DNL Workfront Fusion] een nieuw scenario.
+1. Maak een nieuw scenario in Workfront Fusion.
 1. Voeg de module **[!UICONTROL HTTP]>[!UICONTROL Make a request]** in het scenario in.
 1. Open de configuratie van de module en vul de volgende velden in:
 
@@ -185,7 +185,7 @@ Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschi
    <!--![Service](/help/workfront-fusion/references/apps-and-modules/assets/service-350x65.png)-->
 
 1. Kopieer de URL van het kenmerk `location` wanneer u deze hebt gevonden.
-1. Plak in [!DNL Workfront Fusion] de URL in het veld URL van de module HTTP.
+1. Plak in Workfront Fusion de URL in het veld URL van de HTTP-module.
 1. Open de [ Online [!UICONTROL SOAP] Cliënt ](https://wsdlbrowser.com/) in een nieuw venster/lusje van Webbrowser.
 1. Plak de URL van WSDL in het veld WSDL URL.
 1. Klik op **[!UICONTROL Browse]**.

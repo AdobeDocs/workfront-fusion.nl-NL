@@ -1,12 +1,12 @@
 ---
 title: HTTP > Een OAuth 2.0-aanvraagmodule maken
-description: Om een  [!DNL Adobe Workfront Fusion]  HTTP(S) verzoek aan servers te maken die een vergunning OAuth 2.0 vereisen, moet u eerst een verbinding OAuth tot stand brengen. [!DNL Adobe Workfront Fusion]  zorgt ervoor dat alle vraag die met deze verbinding wordt gemaakt de aangewezen vergunningskopballen heeft en automatisch bijbehorende tokens verfrist wanneer vereist.
+description: Als u een Adobe Workfront Fusion HTTP(S)-aanvraag wilt indienen bij servers die een OAuth 2.0-autorisatie vereisen, moet u eerst een OAuth-verbinding maken. Adobe Workfront Fusion zorgt ervoor dat alle vraag die met deze verbinding wordt gemaakt de aangewezen vergunningskopballen heeft en automatisch bijbehorende tokens verfrist wanneer vereist.
 author: Becky
 feature: Workfront Fusion
 exl-id: a302a1d4-fddf-4a71-adda-6b87ff7dba4b
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1981'
+source-wordcount: '2039'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] vereist een [!DNL Adobe Workfront Fusion] licentie naast een [!DNL Adobe Workfront] licentie.
+>Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
 
-Als u een [!DNL Adobe Workfront Fusion] HTTP(S)-aanvraag wilt indienen bij servers die een OAuth 2.0-verificatie vereisen, moet u eerst een OAuth-verbinding maken. [!DNL Adobe Workfront Fusion] zorgt ervoor dat alle vraag die met deze verbinding wordt gemaakt de aangewezen vergunningskopballen heeft en automatisch bijbehorende tokens verfrist wanneer vereist.
+Als u een Adobe Workfront Fusion HTTP(S)-aanvraag wilt indienen bij servers die een OAuth 2.0-autorisatie vereisen, moet u eerst een OAuth-verbinding maken. Adobe Workfront Fusion zorgt ervoor dat alle vraag die met deze verbinding wordt gemaakt de aangewezen vergunningskopballen heeft en automatisch bijbehorende tokens verfrist wanneer vereist.
 
-[!DNL Workfront Fusion] ondersteunt de volgende OAuth 2.0-verificatiestromen:
+Workfront Fusion ondersteunt de volgende OAuth 2.0-verificatiestromen:
 
 * Vergunningscode-stroom
 * Impliciete stroom
@@ -73,7 +73,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -85,7 +85,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 ### Algemene instructies voor het maken van een verbinding in de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]
 
-1. Maak een OAuth-client in de [!DNL target] -service waarmee [!DNL Adobe Workfront Fusion] moet communiceren. Deze optie is meestal te vinden in het gedeelte [!UICONTROL Developer] van de opgegeven service.
+1. Maak een OAuth-client in de [!DNL target] -service waarmee Adobe Workfront Fusion moet communiceren. Deze optie is meestal te vinden in het gedeelte [!UICONTROL Developer] van de opgegeven service.
 
    1. Wanneer u een client maakt, voert u de juiste URL in het veld `[!UICONTROL Redirect URL]` of `[!UICONTROL Callback URL]` in:
 
@@ -95,14 +95,14 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
    1. Nadat u de client hebt gemaakt, geeft de opgegeven service twee toetsen weer: `[!UICONTROL Client ID]` en `[!UICONTROL Client Secret]` . Sommige services roepen deze `[!UICONTROL App Key]` en `[!UICONTROL App Secret]` aan. Sla de sleutel en het geheim op een veilige locatie op, zodat u deze kunt opgeven wanneer u de verbinding maakt in Workfront Fusion.
 
-1. Zoek naar `[!UICONTROL Authorize URI]` en `[!UICONTROL Token URI]` in de API-documentatie van de opgegeven service. Dit zijn URL-adressen waarmee [!DNL Workfront Fusion] communiceert met de [!DNL target] -service. De adressen dienen voor vergunning OAuth.
+1. Zoek naar `[!UICONTROL Authorize URI]` en `[!UICONTROL Token URI]` in de API-documentatie van de opgegeven service. Dit zijn URL-adressen waarmee Workfront Fusion communiceert met de [!DNL target] -service. De adressen dienen voor vergunning OAuth.
 
    >[!NOTE]
    >
    >Als de service impliciete stroom gebruikt, hebt u alleen de `[!UICONTROL Authorize URI]` nodig.
 
-1. (Voorwaardelijk) als de doeldienst werkingsgebied (toegangsrechten) gebruikt, controleer hoe de dienst individueel werkingsgebied scheidt en zorg ervoor u de separator in de geavanceerde montages dienovereenkomstig plaatst. Als het scheidingsteken niet correct is ingesteld, kan de verbinding niet tot stand worden gebracht in [!DNL Workfront Fusion] en ontvangt u een ongeldige bereikfout.
-1. Nadat u de bovenstaande stappen hebt uitgevoerd, kunt u de OAuth-verbinding maken in [!DNL Workfront Fusion] . Voeg HTTP > van OAuth 2 aanvraagmodule aan uw scenario toe.
+1. (Voorwaardelijk) als de doeldienst werkingsgebied (toegangsrechten) gebruikt, controleer hoe de dienst individueel werkingsgebied scheidt en zorg ervoor u de separator in de geavanceerde montages dienovereenkomstig plaatst. Als het scheidingsteken niet correct is ingesteld, kan Workfront Fusion geen verbinding maken en ontvangt u een ongeldige bereikfout.
+1. Nadat u de bovenstaande stappen hebt uitgevoerd, kunt u de OAuth-verbinding maken in Workfront Fusion. Voeg HTTP > van OAuth 2 aanvraagmodule aan uw scenario toe.
 1. Klik in het veld Verbinding van de module op **[!UICONTROL Add]** .
 
 1. Vul de volgende velden in om een verbinding te maken:
@@ -137,7 +137,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Scope separator] </td> 
-      <td> <p>Selecteer door welk bereik de bovenstaande gegevens moeten worden gescheiden. U kunt deze informatie in de bepaalde de ontwikkelaar (API) documentatie van de dienst vinden.</p> <p>Waarschuwing: als het scheidingsteken niet correct is ingesteld, kan de verbinding niet tot stand worden gebracht in [!DNL Workfront Fusion] en ontvangt u een ongeldige bereikfout.</p> </td> 
+      <td> <p>Selecteer door welk bereik de bovenstaande gegevens moeten worden gescheiden. U kunt deze informatie in de bepaalde de ontwikkelaar (API) documentatie van de dienst vinden.</p> <p>Waarschuwing: als het scheidingsteken niet correct is ingesteld, kan Workfront Fusion geen verbinding maken en ontvangt u een ongeldige bereikfout.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Client ID] </td> 
@@ -193,7 +193,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
         <li><strong>[!UICONTROL client_id]</strong>: De client-id die u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</li> 
         <li><strong> client_geheime </strong>: Het geheim van de Cliënt u ontving toen het creëren van de rekening is automatisch inbegrepen in het verzoeklichaam</li> 
         <li><strong> code </strong>: De code die door het vergunningsverzoek is teruggekeerd</li> 
-       </ul> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] verzendt automatisch de opgegeven client-id en -geheim via de methode <code>[!UICONTROL client_secret_post]</code> . Daarom zijn deze parameters automatisch inbegrepen als deel van het symbolische verzoeklichaam. </p> <p>Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
+       </ul> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). Workfront Fusion verzendt automatisch de opgegeven client-id en -geheim via de methode <code>[!UICONTROL client_secret_post]</code> . Daarom zijn deze parameters automatisch inbegrepen als deel van het symbolische verzoeklichaam. </p> <p>Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Refresh token parameters]</p> </td> 
@@ -203,11 +203,11 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
         <li> <p><strong>[!UICONTROL refresh_token]</strong>: De meest recente vernieuwingstoken die door de dienst wordt verkregen u met verbindt</p> </li> 
         <li> <p><strong>[!UICONTROL client_id]</strong>: De client-id die u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</p> </li> 
         <li> <p><strong>[!UICONTROL client_secret]</strong>: Het clientgeheim dat u hebt ontvangen bij het maken van de account, wordt automatisch opgenomen in de aanvraaginstantie</p> </li> 
-       </ul> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] verzendt automatisch de opgegeven client-id en -geheim via de methode <code>[!UICONTROL client_secret_post]</code> . Daarom zijn deze parameters automatisch inbegrepen als deel van het symbolische verzoeklichaam. </p> <p>Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
+       </ul> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). Workfront Fusion verzendt automatisch de opgegeven client-id en -geheim via de methode <code>[!UICONTROL client_secret_post]</code> . Daarom zijn deze parameters automatisch inbegrepen als deel van het symbolische verzoeklichaam. </p> <p>Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Custom Headers]</p> </td> 
-      <td> <p>Geef aanvullende sleutels en waarden op die u in de koptekst van de stappen [!UICONTROL Token] en R [!UICONTROL efresh Token] wilt opnemen.</p> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). [!DNL Workfront Fusion] biedt niet automatisch ondersteuning voor de methode <code>[!UICONTROL client_secret_basic]</code> . Als de dienst die u verbindt om Cliënt te verwachten - identiteitskaart en Geheim om in één enkel koord worden gecombineerd en dan base64 die in de kopbal van de Vergunning wordt gecodeerd, dan zou u die kopbal en zeer belangrijke waarde hier moeten toevoegen.</p> <p> Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
+      <td> <p>Geef aanvullende sleutels en waarden op die u in de koptekst van de stappen [!UICONTROL Token] en R [!UICONTROL efresh Token] wilt opnemen.</p> <p>Opmerking:  <p>De norm OAuth 2.0 steunt minstens 2 methodes van cliëntauthentificatie tijdens deze stap (<code>[!UICONTROL client_secret_basic]</code> en <code>[!UICONTROL client_secret_post]</code>). Workfront Fusion biedt niet automatisch ondersteuning voor de methode <code>[!UICONTROL client_secret_basic]</code> . Als de dienst die u verbindt om Cliënt te verwachten - identiteitskaart en Geheim om in één enkel koord worden gecombineerd en dan base64 die in de kopbal van de Vergunning wordt gecodeerd, dan zou u die kopbal en zeer belangrijke waarde hier moeten toevoegen.</p> <p> Voor meer informatie over OAuth 2.0 authentificatie, zie <a href="https://tools.ietf.org/html/rfc6749"> het Kader van de Vergunning OAuth 2.0 </a>.</p> </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"> <p>[!UICONTROL Token placement]</p> </td> 
@@ -231,7 +231,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 In het volgende voorbeeld ziet u hoe u de aanvraagmodule [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0] gebruikt om verbinding te maken met [!DNL Google] .
 
-1. Zorg ervoor dat u een project, gevormde montages OAuth hebt gecreeerd, en uw geloofsbrieven zoals die in artikel [ worden beschreven verbind  [!DNL Adobe Workfront Fusion]  met  [!DNL Google Services]  gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md) geproduceerd.
+1. Zorg ervoor dat u een project, gevormde montages OAuth hebt gecreeerd, en uw geloofsbrieven zoals die in artikel [ worden beschreven Connect de Fusie van Adobe Workfront aan  [!DNL Google Services]  gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md) geproduceerd.
 1. Open de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]
 1. Klik in een willekeurige module op **[!UICONTROL Add]** naast het vak Verbinding.
 1. Voer de volgende waarden in:
@@ -294,9 +294,9 @@ In het volgende voorbeeld ziet u hoe u de aanvraagmodule [!UICONTROL HTTP] > [!U
 
 Nadat u een verbinding OAuth 2.0 hebt gevestigd, zet opstelling de module voort zoals gewenst. Alle toestemmingstokens worden automatisch inbegrepen in dit verzoek, en in een ander verzoek dat de zelfde verbinding gebruikt.
 
-Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] configureert, geeft Workfront Fusion de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
 ![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
@@ -376,7 +376,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Disable serialization of multiple same query string keys as arrays]</p> </td> 
-   <td> <p>Standaard handelt [!DNL Workfront Fusion] meerdere waarden af voor dezelfde URL-querytekenreeks-parametersleutel als arrays. <code>www.test.com?foo=bar&amp;foo=baz</code> wordt bijvoorbeeld omgezet in <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code> . Activeer deze optie om deze functie uit te schakelen. </p> </td> 
+   <td> <p>Workfront Fusion verwerkt standaard meerdere waarden voor dezelfde URL-queryparametersleutel als arrays. <code>www.test.com?foo=bar&amp;foo=baz</code> wordt bijvoorbeeld omgezet in <code>www.test.com?foo[0]=bar&amp;foo[1]=baz</code> . Activeer deze optie om deze functie uit te schakelen. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Request compressed content]</td> 
@@ -384,7 +384,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Use Mutual TLS]</td> 
-   <td> <p>Schakel deze optie in om Wederzijdse TLS te gebruiken in de HTTP-aanvraag.</p> <p>Voor meer informatie over Wederzijdse TLS, zie <a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md" class="MCXref xref"> Gebruik Wederzijdse TLS in de modules van HTTP in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Schakel deze optie in om Wederzijdse TLS te gebruiken in de HTTP-aanvraag.</p> <p>Voor meer informatie over Wederzijdse TLS, zie <a href="/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md" class="MCXref xref"> Gebruik Wederzijdse TLS in de modules van HTTP in de Fusie van Adobe Workfront </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>

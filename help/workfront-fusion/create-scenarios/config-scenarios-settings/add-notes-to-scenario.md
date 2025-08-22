@@ -5,9 +5,9 @@ description: Wij adviseren de facultatieve maar nuttige praktijk om nota's over 
 author: Becky
 feature: Workfront Fusion
 exl-id: 754601fa-b572-42c2-96a3-3c36a8ed2c56
-source-git-commit: 167aae7d490a231a7b4e220d0aefb22bbf733f65
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '142'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Wij adviseren de facultatieve maar nuttige praktijk om nota&#39;s aan uw scenario toe te voegen. De nota&#39;s zijn in bijlage aan individuele modules, en worden getoond in de scenarioredacteur. U kunt notities in- en uitschakelen en meerdere notities toevoegen aan een module.
 
-1. Klik met de rechtermuisknop op een module [!DNL Workfront] en klik vervolgens op **[!UICONTROL Add a note]** .
+1. Klik met de rechtermuisknop op een Workfront-module en klik vervolgens op **[!UICONTROL Add a note]** .
 1. In de nota die verschijnt, klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-note.png).
 1. Voer de tekst van de notitie in.
 1. Klik **Gedaan** om de nota te bewaren.

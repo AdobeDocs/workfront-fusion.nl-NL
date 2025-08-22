@@ -4,16 +4,16 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 44e6de2a-b2d3-410d-abc3-10facd258495
-source-git-commit: d76f199b766d6f18e371f2ce1107a96529afbfd1
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '499'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront Fusion] overzicht van organisaties en teams
+# Overzicht van Adobe Workfront Fusion-organisaties en -teams
 
-Met de functies Organisatie en Teams van [!DNL Adobe Workfront Fusion] kunnen bedrijven de toegang tot scenario&#39;s en andere functies in Fusion beheren.
+Met de functies van Adobe Workfront Fusion Organisation en Teams kunnen ondernemingen de toegang tot scenario&#39;s en andere functies in Fusion controleren.
 
 Een organisatie is de grootste entiteit in Adobe Workfront Fusion. Uw Fusion-organisatie kan bijvoorbeeld de Fusion-account voor uw hele bedrijf vertegenwoordigen.
 
@@ -23,7 +23,7 @@ Voor instructies bij het creëren van een team, zie [ een team ](/help/workfront
 
 ## Organisaties
 
-[!DNL Workfront Fusion] -gebruikers behoren tot een organisatie.
+Workfront Fusion-gebruikers behoren tot een organisatie.
 
 Gebruikers moeten aan een organisatie worden toegevoegd voordat ze aan een team worden toegevoegd.
 
@@ -33,7 +33,7 @@ Een gebruiker heeft een van de volgende rollen in een organisatie:
 
 * **[!UICONTROL Owner]**: De eigenaar heeft alle machtigingen die beschikbaar zijn in de organisatie.
 * **[!UICONTROL Admin]**: beheerders kunnen teams en gebruikers voor de organisatie maken en beheren en kunnen sjablonen goedkeuren.
-* **[!UICONTROL Member]**: leden kunnen [!DNL Workfront Fusion] gebruiken, maar kunnen geen organisatorische wijzigingen aanbrengen.
+* **[!UICONTROL Member]**: Leden kunnen Workfront Fusion gebruiken, maar kunnen geen organisatorische wijzigingen doorvoeren.
 * **[!UICONTROL Accountant]**: Accountants kunnen de licentiegegevens bekijken op het dashboard van de organisatie, maar kunnen geen handelingen uitvoeren.
 * **[!UICONTROL App Developer]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
@@ -53,7 +53,7 @@ Teams zijn groepen gebruikers die toegang tot specifieke bronnen delen. Deze mid
 
 >[!NOTE]
 >
->Omdat de teams middelen delen, is het soms nuttig voor een team om slechts één lid te hebben. Gebruikers in opleiding kunnen bijvoorbeeld verbindingen maken met hun individuele [!DNL Workfront] -accounts. Teamleden kunnen ook verbinding maken met de individuele [!DNL Workfront] -account. In dit geval adviseren wij dat de gebruiker het enige lid van een trainingsteam is.
+>Omdat de teams middelen delen, is het soms nuttig voor een team om slechts één lid te hebben. Gebruikers in opleiding kunnen bijvoorbeeld verbindingen maken met hun afzonderlijke Workfront-accounts. Teamleden kunnen ook verbinding maken met de afzonderlijke Workfront-account. In dit geval adviseren wij dat de gebruiker het enige lid van een trainingsteam is.
 
 Organisaties kunnen zo veel teams hebben als ze nodig hebben en gebruikers kunnen tot een of meer teams behoren.
 

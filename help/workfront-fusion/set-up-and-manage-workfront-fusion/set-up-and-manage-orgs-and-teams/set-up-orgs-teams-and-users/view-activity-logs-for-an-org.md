@@ -4,9 +4,9 @@ description: U kunt een logboek van activiteiten, zoals scenario verwezenlijking
 author: Becky
 feature: Workfront Fusion
 exl-id: 3cf851e3-50a1-4baa-8318-a24e1f467134
-source-git-commit: edeed099b26dae635889fd35de61d66a1ea1ffc1
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -26,17 +26,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+   <td role="rowheader">Adobe Workfront-plan</td>
    <td> <p>Nieuw: Ultimate</p> <p>of</p> <p>Huidig: Niet beschikbaar</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: Niet beschikbaar</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Niet beschikbaar</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -48,7 +48,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Deze functionaliteit is alleen beschikbaar voor organisaties met het Ultimate Workfront-plan, dat [!DNL Workfront Fusion] bevat. U hoeft geen product meer aan te schaffen.</p>
+   <p>Deze functionaliteit is alleen beschikbaar voor organisaties met het Ultimate Workfront-plan, dat Workfront Fusion omvat. U hoeft geen product meer aan te schaffen.</p>
    </td> 
   </tr>
  </tbody> 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -85,7 +85,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 1. Klik op de tab **[!UICONTROL Activity Logs]** boven in het scherm.
 
    De pagina Activiteitenlog wordt geopend.
-1. Klik **![ het pictogram van de Filter** Filter ](assets/filter-activity-log.png).
+1. Klik **** het pictogram van de Filter ![ Filter ](assets/filter-activity-log.png).
 1. Configureer een of meer van de volgende filters door in het veld te klikken.
 
    * **Datum van het Begin &amp; Datum van het Eind**: Selecteer data van de kalender, en (facultatief) ga tijden in.

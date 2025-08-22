@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 3c7c03a7-67ea-4673-90b0-7d0506d9fa10
-source-git-commit: 87b15e32338b798983adbf0016709752ee862567
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2692'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -86,7 +86,7 @@ De Salesforce-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td> &lbrace;{connection.instanceUrl}</td>
+   <td> {{connection.instanceUrl}</td>
   </tr> 
   <tr> 
    <td role="rowheader">API-versie</td> 
@@ -185,7 +185,7 @@ Deze triggermodule start een scenario wanneer een veld wordt bijgewerkt in [!DNL
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
@@ -214,7 +214,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type] </td> 
@@ -261,7 +261,7 @@ Voor deze module is extra installatie vereist. Er moet een Stroom zijn die voor 
 
 1. Specify name, description, Endpoint URL, and fields you want to include in the new outbound message, then click **[!UICONTROL Save]**.
 
-   The **[!UICONTROL Endpoint URL]** field contains the URL provided on the [!DNL Salesforce] [!UICONTROL Outbound Message] in [!DNL Workfront Fusion].
+   The **[!UICONTROL Endpoint URL]** field contains the URL provided on the [!DNL Salesforce] [!UICONTROL Outbound Message] in Workfront Fusion.
 
 1. Configure a scenario beginning with the [!UICONTROL Outbound Message] event. 
 
@@ -278,7 +278,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Webhook]</td> 
-   <td> <p>Selecteer de webhaak die u wilt gebruiken om uitgaande berichten te bekijken. Als u een webhaak wilt toevoegen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de naam en de verbinding van de webhaak in.</p> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
+   <td> <p>Selecteer de webhaak die u wilt gebruiken om uitgaande berichten te bekijken. Als u een webhaak wilt toevoegen, klikt u op <strong>[!UICONTROL Add]</strong> en voert u de naam en de verbinding van de webhaak in.</p> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies </a></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
@@ -317,7 +317,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Record Type] </p> </td> 
@@ -351,7 +351,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -417,7 +417,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
@@ -446,7 +446,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr>
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Type of Download]</td>
@@ -480,7 +480,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr>
     <td>[!UICONTROL Connection]</td>
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr>
     <td>[!UICONTROL Record Type]</td>
@@ -514,7 +514,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL ID]</td> 
@@ -546,7 +546,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Type of Upload]</td> 
@@ -577,7 +577,7 @@ Deze actiemodule uploadt één bestand naar Salesforce.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -617,7 +617,7 @@ Deze actiemodule wint alle verslagen terug die aan een bepaalde criteria voldoen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 
@@ -654,7 +654,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-   <td> <p>Voor instructies over het verbinden van uw [!DNL Salesforce] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-salesforce"> een verbinding aan Salesforce </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Search Type]</td> 

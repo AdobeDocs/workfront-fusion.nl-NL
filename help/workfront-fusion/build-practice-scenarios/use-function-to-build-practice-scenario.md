@@ -7,9 +7,9 @@ description: Leer hoe u een functie toevoegt om een tijdelijk item bij te werken
 author: Becky
 feature: Workfront Fusion
 exl-id: aa082ac8-48e8-4569-880e-024dd77feaa1
-source-git-commit: 8884aef2237ad358c774110b81ac17b9efb386d4
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -33,17 +33,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -51,9 +51,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] -abonnement: uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] abonnement: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
  </tbody> 
@@ -61,7 +61,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -75,7 +75,7 @@ U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een ba
 
 1. Open het scenario in de scenarioredacteur.
 1. Beweeg de cursor over de gedeeltelijke cirkel rechts van de sectie van de tweede module en klik vervolgens op **[!UICONTROL Add another module]** .
-1. Selecteer [!DNL Adobe Workfront] in de lijst met toepassingen en kies vervolgens de module **[!UICONTROL Update Record]** .
+1. Selecteer Adobe Workfront in de lijst met toepassingen en kies vervolgens de module **[!UICONTROL Update Record]** .
 1. Selecteer in het veld Id het ID-blok onder de module Object omzetten. Dit is identiteitskaart van het project dat output door die module was.
 
    ![ identiteitskaart van voorwerp van de Bekeerling ](assets/id-convert-object.png)
@@ -101,7 +101,7 @@ Wanneer dit scenario een verzoek in een project omzet, is de naam van het projec
    De invoer voor dit voorbeeld is de naam van de uitgave waaruit het project is geconverteerd.
 
 1. Plaats de cursor tussen de ronde haakjes, want dit is waar de invoer naartoe gaat.
-1. In het mappingpaneel, klik het **pictogram van de output van de Module 0&rbrace; &lbrace;.** ![ het outputpictogram van de Module ](assets/toolbar-icon-functions-you-map-from-other-modules.png)
+1. In het mappingpaneel, klik het **pictogram van de output van de Module 0} {.** ![ het outputpictogram van de Module ](assets/toolbar-icon-functions-you-map-from-other-modules.png)
 1. Selecteer het naamblok dat door de eerste module werd uitgevoerd.
 
    Het naamblok wordt weergegeven in de functie.
@@ -114,10 +114,10 @@ Wanneer dit scenario een verzoek in een project omzet, is de naam van het projec
 
 1. Test het scenario door **in werking te stellen eens** in de laag-linkerhoek van het scherm te klikken.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
-1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan **&#x200B;**.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
 
    Dit activeert het scenario. De actieve scenario&#39;s lopen volgens het programma dat in de trekkermodule wordt geplaatst.
-1. Klik in [!DNL Workfront Fusion] in de linkerbenedenhoek op **[!UICONTROL Save]** om de voortgang van het scenario op te slaan.
+1. Klik in Workfront Fusion op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.
 
    >[!IMPORTANT]
    >

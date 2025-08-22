@@ -1,19 +1,19 @@
 ---
 title: Tekstparser
-description: U kunt het parserhulpmiddel van de Tekst gebruiken om tekst voor gebruik in andere  [!DNL Adobe Workfront Fusion]  scenariomodules te ontleden. Voor de tekstparser is geen verbinding vereist.
+description: Met het gereedschap Tekstparser kunt u tekst parseren voor gebruik in andere Adobe Workfront Fusion-scenario-modules. Voor de tekstparser is geen verbinding vereist.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 885d714e-fc09-41a2-89dc-ebe29a355e43
-source-git-commit: 679a4f5c91625dfecf32e10904700bf75ea7a7cf
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Text parser]
 
-Met de [!UICONTROL Text parser tool] kunt u tekst parseren voor gebruik in andere [!DNL Adobe Workfront Fusion] -scenario-modules. Voor [!UICONTROL Text parser] is geen verbinding vereist.
+Met de [!UICONTROL Text parser tool] kunt u tekst parseren voor gebruik in andere Adobe Workfront Fusion-scenario-modules. Voor [!UICONTROL Text parser] is geen verbinding vereist.
 
 ## Toegangsvereisten
 
@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -73,7 +73,7 @@ De schakelaar van de parser van de Tekst gebruikt het volgende:
 
 ## [!UICONTROL Text parser] modules en hun velden
 
-Wanneer u [!UICONTROL Text parser] modules configureert, geeft [!DNL Adobe Workfront Fusion] de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Text parser] modules configureert, geeft Adobe Workfront Fusion de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 

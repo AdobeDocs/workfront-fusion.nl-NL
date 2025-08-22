@@ -1,19 +1,19 @@
 ---
 title: Adobe Campaign v7/v8-modules
-description: Met de  [!DNL Adobe Campaign]  modules, kunt u een  [!DNL Adobe Workfront Fusion]  scenario beginnen dat op gebeurtenissen in uw  [!DNL Adobe Campaign]  rekening wordt gebaseerd, overeenkomsten en andere verslagen tot stand brengen, lezen of bijwerken, onderzoek naar verslagen gebruikend criteria u plaatst, en documenten uploadt.
+description: Met de  [!DNL Adobe Campaign]  modules, kunt u een scenario beginnen van de Fusie van Adobe Workfront dat op gebeurtenissen in uw  [!DNL Adobe Campaign]  wordt gebaseerd rekening, overeenkomsten en andere verslagen tot stand brengen, lezen of bijwerken, onderzoek naar verslagen gebruikend criteria u plaatst, en documenten uploadt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9fdff26c-c7c0-4eb8-a36f-4aeaf432b333
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1097'
+source-wordcount: '1116'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Campaign] modules
 
-Met de [!DNL Adobe Campaign] -modules kunt u een [!DNL Adobe Workfront Fusion] -scenario starten op basis van gebeurtenissen in uw [!DNL Adobe Campaign v7/v8] -account, records maken, lezen of bijwerken, records zoeken aan de hand van criteria die u instelt en aangepaste API-aanroepen uitvoeren.
+Met de modules [!DNL Adobe Campaign] kunt u een Adobe Workfront Fusion-scenario starten op basis van gebeurtenissen in uw [!DNL Adobe Campaign v7/v8] -account, records maken, lezen of bijwerken, records zoeken aan de hand van criteria die u instelt en aangepaste API-aanroepen uitvoeren.
 
 ## Toegangsvereisten
 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -62,7 +62,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 
 U moet de Fusion IP-adressen toevoegen aan [!DNL Adobe Campaign] .
 
-* Voor instructies bij het toevoegen van IP adressen aan uw lijst van gewenste personen van de Campagne, zie [ Toevoegend IP adressen aan de lijst van gewenste personen ](https://experienceleague.adobe.com/nl/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in de documentatie van Adobe Campaign.
+* Voor instructies bij het toevoegen van IP adressen aan uw lijst van gewenste personen van de Campagne, zie [ Toevoegend IP adressen aan de lijst van gewenste personen ](https://experienceleague.adobe.com/en/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in de documentatie van Adobe Campaign.
 * Voor een lijst van IP adressen om aan de lijst van gewenste personen toe te voegen, zie [ IP Adressen voor Fusie in de lijst van gewenste personen van uw organisatie ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md) vormen.
 
 ## Adobe Campaign API-informatie
@@ -80,13 +80,13 @@ De Adobe Campaign-connector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!DNL Adobe Campaign] met [!DNL Adobe Workfront Fusion]
+## Verbinden [!DNL Adobe Campaign] met Adobe Workfront Fusion
 
 >[!IMPORTANT]
 >
->We raden u ten zeerste aan een server-naar-server verbinding te maken. Adobe Campaign heeft hun API bijgewerkt zodat alleen server-naar-server verbindingen worden geaccepteerd. Als u met versie 8 van de Campagne of hoger verbindt, moet u **&#x200B;**&#x200B;een server-aan-server verbinding tot stand brengen.
+>We raden u ten zeerste aan een server-naar-server verbinding te maken. Adobe Campaign heeft hun API bijgewerkt zodat alleen server-naar-server verbindingen worden geaccepteerd. Als u met versie 8 van de Campagne of hoger verbindt, moet u **** een server-aan-server verbinding tot stand brengen.
 >
->Voor meer informatie over de nieuwe verbindingsvereisten van de Campagne, zie [ Migratie van de technische exploitanten van de Campagne aan Adobe Developer Console ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html?lang=nl-NL) in de documentatie van de Campagne.
+>Voor meer informatie over de nieuwe verbindingsvereisten van de Campagne, zie [ Migratie van de technische exploitanten van de Campagne aan Adobe Developer Console ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html) in de documentatie van de Campagne.
 
 1. Klik in een willekeurige [!DNL Adobe Campaign] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Vul de volgende velden in:
@@ -134,7 +134,7 @@ De Adobe Campaign-connector gebruikt het volgende:
 
 ## [!DNL Adobe Campaign] modules en hun velden
 
-Wanneer u [!DNL Adobe Campaign] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Campaign] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Adobe Campaign] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Campaign] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -202,7 +202,7 @@ Deze actiemodule maakt een nieuwe record in [!DNL Adobe Campaign] .
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -229,7 +229,7 @@ Deze actiemodule verwijdert één record uit [!DNL Adobe Campaign] .
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -252,7 +252,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Campaign] API
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Action]</td>
@@ -269,7 +269,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Campaign] API
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] voegt automatisch de [!UICONTROL x-security] token-header toe.</p>
+        <p>Workfront Fusion voegt de [!UICONTROL x-security] token header automatisch toe.</p>
       </td>
     </tr>
     <tr>
@@ -283,7 +283,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Campaign] API
 
 Deze actiemodule voert een geselecteerde actie uit op een object in de [!DNL Adobe Campaign] API.
 
-Voor informatie over specifieke acties en gebieden, zie [[!DNL Adobe Campaign]  - API Documentatie ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=nl-NL).
+Voor informatie over specifieke acties en gebieden, zie [[!DNL Adobe Campaign]  - API Documentatie ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -291,7 +291,7 @@ Voor informatie over specifieke acties en gebieden, zie [[!DNL Adobe Campaign]  
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Action]</td> 
@@ -318,7 +318,7 @@ Deze actiemodule leest een record uit [!DNL Adobe Campaign] .
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -350,7 +350,7 @@ Deze actiemodule abonneert een gebruiker aan of unsubscribes een gebruiker van e
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Subscribe or unsubscribe]</td> 
@@ -377,7 +377,7 @@ Deze actiemodule werkt één record bij in [!DNL Adobe Campaign] .
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 
@@ -410,7 +410,7 @@ Deze zoekmodule retourneert records die op de opgegeven criteria zijn gebaseerd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td>
-   <td>Zie <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > Verbinding maken met [!DNL Adobe Campaign]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign] .</td> 
+   <td>Zie [!DNL Adobe Campaign] Verbinding maken met <a href="#connect-adobe-campaign-to-adobe-workfront-fusion" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Campaign]</a> .</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Resource]</td> 

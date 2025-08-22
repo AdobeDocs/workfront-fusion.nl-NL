@@ -1,12 +1,12 @@
 ---
 title: Adobe Workfront-planningsmodules
-description: Met de  [!DNL Adobe Workfront Planning]  modules, kunt u een  [!DNL Adobe Workfront Fusion]  scenario beginnen dat op gebeurtenissen in uw  [!DNL Adobe]  wordt gebaseerd de Plannende rekening van Workfront, overeenkomsten en andere verslagen tot stand brengen, lezen of bijwerken, onderzoek naar verslagen gebruikend criteria u plaatst, en documenten uploadt.
+description: Met de  [!DNL Adobe Workfront Planning]  modules, kunt u een scenario beginnen van de Fusie van Adobe Workfront dat op gebeurtenissen in uw  [!DNL Adobe]  wordt gebaseerd de Plannende rekening van Workfront, overeenkomsten en andere verslagen tot stand brengen, lezen of bijwerken, onderzoek naar verslagen gebruikend criteria u plaatst, en documenten uploadt.
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: 51bb87572f16f6194f6c37bbe52ea7f27050c303
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -87,7 +87,7 @@ De schakelaar van de Planning van Adobe Workfront gebruikt het volgende:
 
 ## Verbinding maken met [!DNL Adobe Workfront Planning] {#create-a-connection-to-adobe-workfront-planning}
 
-U kunt rechtstreeks vanuit een [!DNL Workfront Fusion] -module verbinding maken met uw [!DNL Workfront Planning] -account.
+U kunt rechtstreeks vanuit een Workfront Fusion-module verbinding maken met uw [!DNL Workfront Planning] -account.
 
 1. Klik in een willekeurige [!DNL Adobe Workfront Planning] -module op **[!UICONTROL Add]** naast het vak Verbinding.
 
@@ -164,7 +164,7 @@ Deze triggermodule start een scenario wanneer een record, recordtype of werkruim
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Object type]</td>
@@ -184,7 +184,7 @@ Deze triggermodule start een scenario wanneer een record, recordtype of werkruim
     </tr>
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Events filters]</p> </td> 
-      <td> <p>U kunt filters instellen om alleen te controleren op records die voldoen aan de criteria die u selecteert.</p> <p>Voer voor elk filter het veld in dat door het filter moet worden geëvalueerd, de operator en de waarde die door het filter moet worden toegestaan. U kunt meer dan één filter gebruiken door EN regels toe te voegen.</p> <p>Opmerking: u kunt filters in bestaande [!DNL Workfront] -webhaken niet bewerken. Als u verschillende filters wilt instellen voor [!DNL Workfront] -gebeurtenisabonnementen, verwijdert u de huidige webhaak en maakt u een nieuwe.</p> <p>Voor meer informatie over gebeurtenisfilters, zie <a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref"> de abonnementfilters van de Gebeurtenis in [!DNL Workfront] &gt; [!UICONTROL Watch Events] modules </a> in het de modulesartikel van Workfront.</p> </td> 
+      <td> <p>U kunt filters instellen om alleen te controleren op records die voldoen aan de criteria die u selecteert.</p> <p>Voer voor elk filter het veld in dat door het filter moet worden geëvalueerd, de operator en de waarde die door het filter moet worden toegestaan. U kunt meer dan één filter gebruiken door EN regels toe te voegen.</p> <p>Opmerking: u kunt filters niet bewerken in bestaande Workfront-websites. Als u verschillende filters wilt instellen voor Workfront-gebeurtenisabonnementen, verwijdert u de huidige webhaak en maakt u een nieuwe.</p> <p>Voor meer informatie over gebeurtenisfilters, zie {de filters van het 0} Abonnement van de Gebeurtenis in Workfront &gt; <a href="/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules" class="MCXref xref"> modules [!UICONTROL Watch Events] in het de moduleartikel van Workfront.</a></p> </td> 
      </tr> 
     <tr>
       <td role="rowheader">[!UICONTROL Objects to watch]</td>
@@ -218,7 +218,7 @@ Deze actiemodule schrapt één enkel verslagtype in de Planning van Workfront do
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -239,7 +239,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Workfront Plann
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -260,7 +260,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Workfront Plann
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p>
+        <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p>
       </td>
     </tr>
     <tr>
@@ -291,7 +291,7 @@ Deze actiemodule wint een lijst van verslagen terug die op criteria worden gebas
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -340,7 +340,7 @@ Met deze actie maakt u één record in Workfront Planning.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -368,7 +368,7 @@ Deze actiemodule schrapt het gespecificeerde verslag in de Planning van Workfron
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
      <tr>
       <td role="rowheader">
@@ -389,7 +389,7 @@ Deze actiemodule haalt één record op uit [!DNL Adobe Workfront Planning] , opg
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Record ID]</td>
@@ -408,7 +408,7 @@ Deze actiemodule wint alle verslagen van het gespecificeerde type terug.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
@@ -436,7 +436,7 @@ Deze actiemodule haalt een lijst met recordtypen op in een [!DNL Adobe Workfront
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Workspace]</td>
@@ -455,7 +455,7 @@ Deze actie werkt één enkel verslag in de Planning van Workfront bij.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td>Zie <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > Verbinding maken met [!DNL Adobe Workfront Planning]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning] .</td>
+      <td>Zie [!DNL Adobe Workfront Planning] Verbinding maken met <a href="#create-a-connection-to-adobe-workfront-planning" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe Workfront Planning]</a> .</td>
     </tr>
      <tr>
       <td role="rowheader">

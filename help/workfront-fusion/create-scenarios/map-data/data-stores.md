@@ -1,12 +1,12 @@
 ---
-title: Gegevensopslag in  [!DNL Adobe Workfront Fusion]
+title: Gegevensopslag in Adobe Workfront Fusion
 description: Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario's opslaan, die het mogelijk maken om gegevens tussen individuele scenario's of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8bfa3201-45db-49d7-985d-9c324acd56b6
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1215'
+source-wordcount: '1260'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een gegevensopslag, gelijkend op een gegevensbestand of een eenvoudige lijst, kan gegevens van scenario&#39;s opslaan, die het mogelijk maken om gegevens tussen individuele scenario&#39;s of scenario looppas over te brengen. U kunt een gegevensopslag gebruiken om nieuwe gegevens van diverse systemen tijdens synchronisatie op te slaan.
 
-Met de gegevensopslagmodules kunt u de volgende handelingen uitvoeren voor records in de [!DNL Adobe Workfront Fusion] gegevensopslag:
+Met de gegevensopslagmodules kunt u de volgende handelingen uitvoeren op records in uw Adobe Workfront Fusion-gegevensarchief:
 
 * Toevoegen
 * Vervangen
@@ -42,17 +42,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -60,9 +60,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] -abonnement: uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] abonnement: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
  </tbody> 
@@ -70,7 +70,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -87,7 +87,7 @@ Fusion-instanties op het Ultimate-pakket ontvangen:
 
 ### Abonnementen selecteren en Prime
 
-Fusion-instanties op de pakketten Select of Prime ontvangen:—>
+Fusion-instanties op de pakketten Select of Prime ontvangen :-->
 
 * 100 MB voor de eerste 500K verrichtingen.
 
@@ -97,27 +97,27 @@ Fusion-instanties op de pakketten Select of Prime ontvangen:—>
 
 Uw organisatie kan tot 50 gegevensopslag hebben. De gecombineerde grootte van deze gegevensopslag kan niet de totale grootte van de gegevensopslag van uw organisatie overschrijden.
 
-## Een gegevensopslag maken in [!DNL Workfront Fusion]
+## Een gegevenswinkel maken in Workfront Fusion
 
 * [De gegevensopslag instellen](#set-up-the-data-store)
 * [De gegevensstructuur instellen](#set-up-the-data-structure)
 
 ### De gegevensopslag instellen
 
-Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensopslag maken in [!DNL Workfront Fusion] .
+Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensopslag in Workfront Fusion maken.
 
 >[!NOTE]
 >
->Uw organisatie heeft een beperkt aantal beschikbare gegevensopslagruimten. Als u probeert meer gegevensopslagruimten te maken dan beschikbaar is, retourneert [!DNL Workfront] een [!UICONTROL Maximum stores reached] -fout.
+>Uw organisatie heeft een beperkt aantal beschikbare gegevensopslagruimten. Als u probeert meer gegevensopslagruimte te maken dan beschikbaar is, wordt een [!UICONTROL Maximum stores reached] -fout geretourneerd.
 >
 >Voor meer informatie, zie [ Maximale opslag bereikte fout ](#maximum-stores-reached-error) in dit artikel.
 
-1. Meld u aan bij uw [!DNL Workfront Fusion] -account.
+1. Meld u aan bij uw Workfront Fusion-account.
 1. Klik op **[!UICONTROL Data stores]** in het navigatievenster aan de linkerkant.
 1. Klik op **[!UICONTROL Add data store]** in de rechterbovenhoek van het scherm.
 1. Voer instellingen in voor de nieuwe gegevensopslag.
 
-   Een bolde titel op een gebied in een module [!DNL Workfront Fusion] wijst op een vereiste het plaatsen.
+   Een bolvormige titel op een veld in een Workfront Fusion-module geeft een vereiste instelling aan.
 
    <table style="table-layout:auto">
     <col> 
@@ -175,7 +175,7 @@ Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensops
           <p><code>&rbrace;</code> </p> 
           <p>De lege kolommen in de mening van de gegevensopslag:</p> 
           <p> <img src="assets/empty-columns-350x132.png" style="width: 350;height: 132;"> </p> 
-          <p>U kunt waarden handmatig toevoegen aan de gegevensopslag of met de modules voor gegevensopslag van [!DNL Workfront Fusion] .</p> 
+          <p>U kunt waarden handmatig toevoegen aan de gegevensopslag of met de Workfront Fusion-modules voor gegevensopslag.</p> 
          </div> </li> 
        </ul> </td> 
      </tr> 
@@ -188,7 +188,7 @@ Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensops
 
 ## Een bestaande gegevensopslag bewerken
 
-U kunt de eigenschappen en inhoud van een bestaande gegevensopslag bewerken in het [!UICONTROL Data stores] -gebied van [!DNL Workfront Fusion] .
+U kunt de eigenschappen en inhoud van een bestaande gegevensopslag bewerken in het gebied [!UICONTROL Data stores] van Workfront Fusion.
 
 * [De eigenschappen van een gegevensopslagruimte bewerken](#edit-the-properties-of-a-data-store)
 * [De inhoud van een gegevensopslagruimte bewerken](#edit-the-contents-of-a-data-store)
@@ -197,7 +197,7 @@ U kunt de eigenschappen en inhoud van een bestaande gegevensopslag bewerken in h
 
 De eigenschappen van een gegevensopslag omvatten de gegevensstructuur die de gegevensopslag gebruikt, evenals de grootte van de gegevensopslag.
 
-1. Klik **[!UICONTROL Data stores]** {het pictogram van de 1} opslag van Gegevens ![&#128279;](assets/data-store-icon.png) in het linkernavigatievenster om het [!UICONTROL Data stores] gebied te openen.
+1. Klik **[!UICONTROL Data stores]** {het pictogram van de 1} opslag van Gegevens ![ in het linkernavigatievenster om het ](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data stores]
 1. Klik **[!UICONTROL Edit]** ![ uitgeeft gegevensopslag ](assets/data-store-edit.png) naast de gegevensopslag die u wilt uitgeven.
 1. (Optioneel) Als u de gegevensstructuur die door deze gegevensopslag wordt gebruikt, wilt wijzigen in een andere bestaande gegevensstructuur, selecteert u deze in de vervolgkeuzelijst **[!UICONTROL Data structure]** .
 
@@ -210,7 +210,7 @@ De eigenschappen van een gegevensopslag omvatten de gegevensstructuur die de geg
 
 ### De inhoud van een gegevensopslagruimte bewerken
 
-1. Klik het **[!UICONTROL Data Store]** pictogram van de de opslagplaats van 1&rbrace; Gegevens ![&#128279;](assets/data-store-icon.png) in het linkernavigatievenster om het [!UICONTROL Data Store] gebied te openen.
+1. Klik het **[!UICONTROL Data Store]** pictogram van de de opslagplaats van 1} Gegevens ![ in het linkernavigatievenster om het ](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data Store]
 1. Klik op **[!UICONTROL Browse]** naast de gegevensopslagruimte die u wilt bewerken.
 1. (Optioneel) U kunt kolommen opnieuw ordenen door deze naar de gewenste locatie te slepen.
 1. (Optioneel) [!UICONTROL Edit] één cel door op het pictogram **[!UICONTROL Edit]** in die cel te klikken en vervolgens de gewenste waarde in te voeren.

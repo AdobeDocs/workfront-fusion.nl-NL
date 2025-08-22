@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion AWS]  S3 modules laten u verrichti
 author: Becky
 feature: Workfront Fusion
 exl-id: 6b2d9dd5-0b33-4297-aea0-aba26072b26a
-source-git-commit: d98d49cdca997caa2d1601d0163ae3f50e21ed66
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1304'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -72,7 +72,7 @@ De AWS S3-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://s3.&lbrace;{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.{{{parameters.region}}.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 
@@ -81,9 +81,9 @@ De AWS S3-connector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!DNL AWS] met [!DNL Workfront Fusion] {#connect-aws-to-workfront-fusion}
+## Verbinden [!DNL AWS] met Workfront Fusion {#connect-aws-to-workfront-fusion}
 
-Als u [!DNL AWS S3] wilt verbinden met [!DNL Workfront Fusion] , moet u uw [!DNL AWS] -account verbinden met [!DNL Workfront Fusion] . Hiervoor moet u eerst een API-gebruiker maken in [!DNL AWS] [!UICONTROL IAM] .
+Als u [!DNL AWS S3] wilt verbinden met Workfront Fusion, moet u uw [!DNL AWS] -account aansluiten op Workfront Fusion. Hiervoor moet u eerst een API-gebruiker maken in [!DNL AWS] [!UICONTROL IAM] .
 
 1. Meld u aan bij uw [!DNL AWS] [!UICONTROL IAM] -account.
 1. Navigeer naar **[!UICONTROL Identity and Access Management]** > **[!UICONTROL Access Management]** > **[!UICONTROL Users]** .
@@ -95,14 +95,14 @@ Als u [!DNL AWS S3] wilt verbinden met [!DNL Workfront Fusion] , moet u uw [!DNL
 1. Ga door de andere dialoogschermen te werk en klik vervolgens op **[!UICONTROL Create User]** .
 1. Kopieer de opgegeven **[!UICONTROL Access key ID]** en **[!UICONTROL Secret access key]** .
 
-1. Ga naar [!DNL Workfront Fusion] en open het dialoogvenster [!DNL AWS S3] module **[!UICONTROL Create a connection]** .
+1. Ga naar Workfront Fusion en open het dialoogvenster [!DNL AWS S3] van de module **[!UICONTROL Create a connection]** .
 1. Voer [!UICONTROL Access key ID] en [!UICONTROL Secret access key] in van stap 7 naar de respectievelijke velden en klik **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
 
 De verbinding is tot stand gebracht. U kunt doorgaan met het instellen van de module.
 
 ## [!DNL AWS S3] modules en hun velden
 
-Wanneer u [!DNL AWS S3] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL AWS S3] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL AWS S3] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL AWS S3] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -128,7 +128,7 @@ Deze actiemodule maakt een emmer in AWS.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL AWS] rekening aan Workfront Fusion, zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL AWS] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Name] </td> 
@@ -151,7 +151,7 @@ Deze actiemodule downloadt een bestand van een emmertje.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL AWS] rekening aan Workfront Fusion, zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL AWS] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
@@ -172,7 +172,7 @@ Deze actiemodule downloadt een bestand van een emmertje.
 
 Deze actiemodule maakt een aangepaste aanroep naar de AWS S3 API.
 
-Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html) voor een gedetailleerde beschrijving van de [!DNL Amazon S3] API.
+Zie [!DNL Amazon S3] API-introductie [[!DNL Amazon S3] [!UICONTROL REST] voor een gedetailleerde beschrijving van de ](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html) API.
 
 <table style="table-layout:auto">
  <col> 
@@ -180,7 +180,7 @@ Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazo
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL AWS] rekening aan Workfront Fusion, zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL AWS] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Region] </td> 
@@ -192,11 +192,11 @@ Zie [[!DNL Amazon S3] [!UICONTROL REST] API-introductie ](https://docs.aws.amazo
   </tr> 
   <tr> 
    <td>[!UICONTROL Method]</td> 
-   <td> <p>Selecteer de aanvraagmethode [!UICONTROL HTTP] die u nodig hebt om de API-aanroep te configureren. Zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">[!UICONTROL HTTP] Methoden aanvragen in [!DNL Adobe Workfront Fusion]</a> voor meer informatie.</p> </td> 
+   <td> <p>Selecteer de aanvraagmethode [!UICONTROL HTTP] die u nodig hebt om de API-aanroep te configureren. Zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref">[!UICONTROL HTTP] request methods in Adobe Workfront Fusion </a> voor meer informatie.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Headers]</td> 
-   <td> <p>Voeg een aanvraagkoptekst toe. Voor elke kopbal wilt u toevoegen, <b> toevoegen punt </b> en gaan de kopbal in. U kunt de volgende algemene aanvraagheaders gebruiken. Voor meer verzoekkopballen verwijs naar <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">[!DNL AWS S3] API Documentatie </a>.</p> <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p> 
+   <td> <p>Voeg een aanvraagkoptekst toe. Voor elke kopbal wilt u toevoegen, <b> toevoegen punt </b> en gaan de kopbal in. U kunt de volgende algemene aanvraagheaders gebruiken. Voor meer verzoekkopballen verwijs naar <a href="https://docs.aws.amazon.com/AmazonS3/latest/API/RESTCommonRequestHeaders.html">[!DNL AWS S3] API Documentatie </a>.</p> <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p> 
     <table style="table-layout:auto">
      <col> 
      <col> 
@@ -274,7 +274,7 @@ Deze actiemodule uploadt een bestand naar een AWS S3-emmertje.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL AWS] rekening aan Workfront Fusion, zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL AWS] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
@@ -310,7 +310,7 @@ Retourneert een lijst met bestanden van een opgegeven locatie.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL AWS] rekening aan Workfront Fusion, zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL AWS] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 
@@ -337,7 +337,7 @@ Retourneert een lijst met mappen van een opgegeven locatie.
  <tbody> 
   <tr> 
     <td role="rowheader">[!UICONTROL Connection] </td> 
-   <td> <p>Zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL AWS] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL AWS] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL AWS] rekening aan Workfront Fusion, zie <a href="#connect-aws-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL AWS] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Region] </td> 

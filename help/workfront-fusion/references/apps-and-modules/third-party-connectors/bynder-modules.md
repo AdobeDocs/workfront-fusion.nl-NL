@@ -1,19 +1,19 @@
 ---
 title: Byndermodules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die  [!DNL Bynder] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema's automatiseren die  [!DNL Bynder] gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0a45f8a7-12cc-41cc-9135-92f4779afac0
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1534'
+source-wordcount: '1602'
 ht-degree: 0%
 
 ---
 
 # [!DNL Bynder] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Bynder] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Bynder] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -91,12 +91,12 @@ De verbindingslijn Bynder gebruikt het volgende:
 >
 >Bynder gebruikt de code van de Toekenning van de Vergunning / vernieuw symbolische subsidietype. Dit is het enige subsidietype dat de schakelaar van de Bynder van de Fusie gebruikt.
 
-* [Creeer een verbinding aan  [!DNL Bynder]  van  [!DNL Workfront Fusion]](#create-a-connection-to-bynder-from-workfront-fusion)
+* [Creeer een verbinding aan  [!DNL Bynder]  van de Fusie van Workfront](#create-a-connection-to-bynder-from-workfront-fusion)
 * [Een [!UICONTROL Client ID] en [!UICONTROL Client Secret] in  [!DNL Bynder]  genereren (optioneel)](#generate-a-client-id-and-client-secret-in-bynder-optional)
 
-### Verbinding maken met [!DNL Bynder] van [!DNL Workfront Fusion]
+### Verbinding maken met [!DNL Bynder] vanuit Workfront Fusion
 
-U kunt rechtstreeks vanuit een [!DNL Bynder] -module een verbinding maken vanuit [!DNL Workfront Fusion] naar uw [!DNL Bynder] -account.
+U kunt vanuit Workfront Fusion rechtstreeks vanuit een [!DNL Bynder] -module verbinding maken met uw [!DNL Bynder] -account.
 
 1. Klik in een willekeurige [!DNL Bynder] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Selecteer het [!DNL Bynder] -domein waarmee u verbinding wilt maken.
@@ -124,7 +124,7 @@ Voor instructies voor het creëren van een app in [!DNL Bynder], zie [ Oauth 2.0
 
 ## [!DNL Bynder] modules en hun velden
 
-Wanneer u [!DNL Bynder] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Bynder] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Bynder] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Bynder] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -156,7 +156,7 @@ Deze actiemodule voegt een tag toe aan een of meer elementen
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tag ID]</td> 
@@ -179,7 +179,7 @@ Deze actiemodule voegt een of meer elementen toe aan een verzameling.
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Collection ID]</td> 
@@ -206,7 +206,7 @@ De module keert een statuscode, samen met de kopballen en het lichaam van de API
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -244,7 +244,7 @@ Deze actiemodule downloadt één element.
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
@@ -267,7 +267,7 @@ In deze actiemodule worden de metagegevens van een element gelezen.
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
@@ -290,7 +290,7 @@ Deze actiemodule verwijdert een tag uit een of meer elementen
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Tag ID]</td> 
@@ -313,7 +313,7 @@ Deze actiemodule verwijdert een of meer elementen uit een verzameling.
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Collection ID]</td> 
@@ -336,7 +336,7 @@ In deze actiemodule worden de metagegevens van een bestaand element bijgewerkt.
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
@@ -363,7 +363,7 @@ Deze actiemodule uploadt één element.
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Save as]</td> 
@@ -399,7 +399,7 @@ Deze zoekmodule haalt alle items van een bepaald type op.
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record Type]</td> 
@@ -431,7 +431,7 @@ Deze zoekmodule zoekt naar elementen op basis van criteria die u opgeeft.
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search criteria]</td> 
@@ -439,7 +439,7 @@ Deze zoekmodule zoekt naar elementen op basis van criteria die u opgeeft.
     <ul> 
      <li> <p><strong>[!UICONTROL Field]</strong> </p> <p>Selecteer het veld dat u in de zoekopdracht wilt gebruiken</p> </li> 
      <li> <p><strong>[!UICONTROL Logical Operator]</strong> </p> <p>Selecteer de operator die u in de zoekopdracht wilt gebruiken.</p> </li> 
-     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Voer de waarde in die u in het geselecteerde veld wilt zoeken of wijs deze toe. Het waardetype moet hetzelfde zijn als het gegevenstype van het geselecteerde veld. </p> <p>Voor meer informatie over gegevenstypes, zie {de gegevenstypes van 0} Punt </a>.<a href="/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md" class="MCXref xref"></p> </li> 
+     <li> <p><strong>[!UICONTROL Value]</strong> </p> <p>Voer de waarde in die u in het geselecteerde veld wilt zoeken of wijs deze toe. Het waardetype moet hetzelfde zijn als het gegevenstype van het geselecteerde veld. </p> <p>Voor meer informatie over gegevenstypes, zie {de gegevenstypes van 0} Punt <a href="/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md" class="MCXref xref">.</a></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -477,7 +477,7 @@ Deze triggermodule start een scenario wanneer een element wordt gemaakt of bijge
  <tbody> 
   <tr> 
     <td role="rowheader"> <p>[!UICONTROL Connection]</p> </td> 
-   <td> <p>Zie <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Bynder] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Bynder] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Bynder] Verbinding maken <a href="#connect-bynder-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Bynder] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
     <td role="rowheader">Het type Event</td>

@@ -1,19 +1,19 @@
 ---
 title: Verbindingen maken
-description: Een verbinding moet voldoen aan de vereisten die zijn ingesteld door de API van de app of webservice waarmee de verbinding wordt gemaakt. Daarom zijn de instructies voor het instellen van een verbinding afhankelijk van de app of webservice. Dit artikel kan u helpen van de instructies identificeren en de plaats bepalen om  [!DNL Adobe Workfront Fusion]  met uw gekozen app of Webdienst te verbinden.
+description: Een verbinding moet voldoen aan de vereisten die zijn ingesteld door de API van de app of webservice waarmee de verbinding wordt gemaakt. Daarom zijn de instructies voor het instellen van een verbinding afhankelijk van de app of webservice. Dit artikel kan u helpen bij het identificeren en zoeken van de instructies voor het verbinden van Adobe Workfront Fusion met uw gekozen app of webservice.
 author: Becky
 feature: Workfront Fusion
 exl-id: 281403a6-6f88-4976-8a10-1d0848ef9b35
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '522'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
 
 # Verbindingen maken
 
-Een verbinding moet voldoen aan de vereisten die zijn ingesteld door de API van de app of webservice waarmee de verbinding wordt gemaakt. Daarom zijn de instructies voor het instellen van een verbinding afhankelijk van de app of webservice. Met dit artikel kunt u de instructies identificeren en zoeken waarmee u [!DNL Adobe Workfront Fusion] kunt verbinden met de door u gekozen app of webservice.
+Een verbinding moet voldoen aan de vereisten die zijn ingesteld door de API van de app of webservice waarmee de verbinding wordt gemaakt. Daarom zijn de instructies voor het instellen van een verbinding afhankelijk van de app of webservice. Dit artikel kan u helpen bij het identificeren en zoeken van de instructies voor het verbinden van Adobe Workfront Fusion met uw gekozen app of webservice.
 
 ## Toegangsvereisten
 
@@ -60,7 +60,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 ## Verbinding maken met een app of webservice waarvoor geen configuratie is vereist
 
-In de meeste gevallen kunt u de module gebruiken om een verbinding te maken met weinig of geen extra informatie. [!DNL Workfront Fusion] handelt de verificatie automatisch af.
+In de meeste gevallen kunt u de module gebruiken om een verbinding te maken met weinig of geen extra informatie. Workfront Fusion handelt de verificatie automatisch af.
 
 Voor instructies bij het creëren van een verbinding zonder speciale overwegingen, zie [ een verbinding creëren - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
 
@@ -74,7 +74,7 @@ Voor specifieke instructies, zie [ het artikel voor de schakelaar ](/help/workfr
 
 ## Verbinding maken met een [!DNL Microsoft] -app of -webservice
 
-Met de meeste [!DNL Microsoft] -toepassingen in [!DNL Workfront Fusion] kunt u zonder extra informatie een verbinding maken.
+Met de meeste [!DNL Microsoft] -toepassingen in Workfront Fusion kunt u zonder extra informatie een verbinding maken.
 
 De volgende omstandigheden vereisen extra stappen bij het maken van een verbinding:
 
@@ -88,7 +88,7 @@ De volgende omstandigheden vereisen extra stappen bij het maken van een verbindi
 
 ## Verbinding maken met een [!DNL Google] -app of -webservice
 
-Het proces voor het maken van verbinding met [!DNL Google] -apps kan afwijken, afhankelijk van het type [!DNL Google] -account dat u gebruikt. Bovendien kunnen beveiligingsmaatregelen van [!DNL Google] extra configuratie vereisen wanneer u verbinding maakt met [!DNL Workfront Fusion] .
+Het proces voor het maken van verbinding met [!DNL Google] -apps kan afwijken, afhankelijk van het type [!DNL Google] -account dat u gebruikt. Bovendien kunnen beveiligingsmaatregelen van [!DNL Google] extra configuratie vereisen wanneer u verbinding maakt met Workfront Fusion.
 
 Zie voor meer informatie:
 
@@ -97,6 +97,6 @@ Zie voor meer informatie:
 
 ## Andere toepassingen waarvoor aanvullende configuratie vereist is
 
-Sommige apps en services volgen de basisconfiguratie voor [!DNL Workfront Fusion] -verbindingen niet. U vindt instructies voor het verbinden van deze apps in het artikel voor die app.
+Sommige apps en services volgen de basisconfiguratie voor Workfront Fusion-verbindingen niet. U vindt instructies voor het verbinden van deze apps in het artikel voor die app.
 
 Voor specifieke instructies, zie [ het artikel voor de schakelaar ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-third-party-applications).

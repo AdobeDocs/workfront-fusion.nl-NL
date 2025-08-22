@@ -4,16 +4,16 @@ description: Met de Adobe Workfront Fusion CSV-modules kunt u CSV-bestanden make
 author: Becky
 feature: Workfront Fusion
 exl-id: bc6d5ddc-93c3-437b-8537-5bece1351c1d
-source-git-commit: 5971b2210eaac8f8a75fd7a4aac5a9f7954d27ef
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # CSV
 
-Met de modules [!DNL Adobe Workfront Fusion] [!UICONTROL CSV] kunt u CSV-bestanden maken en CSV-tekst parseren op basis van een ontvangen tekstwaarde of een bestand.
+Met de Adobe Workfront Fusion [!UICONTROL CSV] -modules kunt u CSV-bestanden maken en CSV-tekst parseren op basis van een ontvangen tekstwaarde of een bestand.
 
 Omdat dit een transformator is, vereisen deze modules geen verbinding.
 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -140,7 +140,7 @@ De eenvoudige module [!DNL Create CSV] biedt een lijst met selectievakjes die ov
 
 Omdat het punt <code> Volledige Naam</code> is van het eenvoudige type Tekst, wordt het uitgevoerd zoals verwacht. Het punt <code> E-mails</code>, die van een complexe typeSerie van Inzamelingen is, wordt uitgevoerd als [ objectenVoorwerp ], dat is hoe de Inzamelingen en de Arrays aan tekst door gebrek worden omgezet.
 
-Voor meer informatie, zie {de gegevenstypes van 0} Punt [&#128279;](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
+Voor meer informatie, zie {de gegevenstypes van 0} Punt [.](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md)
 
 
 Inhoud van <code> e-mail uitvoeren </code>punt van de eerste inzameling van <code> E-mail []</code> in plaats daarvan moet U de module [!UICONTROL Create CSV (advanced)] gebruiken. Met deze module kunt u afzonderlijke kolommen van uw CSV-bestand definiëren en items toewijzen aan deze kolommen, inclusief de geneste kolommen.

@@ -4,16 +4,16 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1245'
+source-wordcount: '1259'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft Word Template] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Microsoft Word Templates] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Microsoft Word Templates] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -58,17 +58,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
 ## Vereisten
 
-Als u [!DNL Miscrosoft Word Templates] met [!DNL Adobe Workfront Fusion] wilt gebruiken, hebt u een [!DNL Office 365] -account nodig. U kunt er een maken op `www.office.com` .
+Als u [!DNL Miscrosoft Word Templates] wilt gebruiken met Adobe Workfront Fusion, hebt u een [!DNL Office 365] -account nodig. U kunt er een maken op `www.office.com` .
 
 
 
-## De service [!DNL Office] verbinden met [!DNL Workfront Fusion]
+## De [!DNL Office] -service verbinden met Workfront Fusion
 
 Voor instructies over het aansluiten van uw [!DNL Office] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
@@ -220,7 +220,7 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
 
 Deze aggregatormodule is handig als de gegevensinvoer uit afzonderlijke bundels bestaat. Met deze module, kunt u opstelling gemakkelijk de structuur die voor het gebied van de Waarde wordt vereist en het punten aan elk waardepunt in kaart brengen. In tegenstelling tot de module Een document invullen staat het veld Waarden in het veld Een document vullen met een batch gegevensmodule slechts één item met variabelen toe.
 
-U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door de *module van de Teller te gebruiken 0&rbrace; &lbrace;om de inhoud van de serie in een reeks bundels om te zetten.*
+U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door de *module van de Teller te gebruiken 0} {om de inhoud van de serie in een reeks bundels om te zetten.*
 
 De werkelijke waarden worden gemaakt en ingevuld voor elke binnenkomende bundel. De sjabloon wordt gemaakt nadat alle invoerbundels zijn verwerkt.
 

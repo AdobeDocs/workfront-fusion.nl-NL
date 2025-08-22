@@ -4,14 +4,14 @@ description: U kunt de Adobe Workfront Boards-connector gebruiken om uw processe
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: dcc5044d-8fdf-4a74-b664-e965e714ce92
-source-git-commit: 899fc717f5107433d6f1aea31c4d079243a85822
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2658'
+source-wordcount: '2719'
 ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] Modules van kamers
+# Adobe Workfront Boards-modules
 
 >[!NOTE]
 >
@@ -62,7 +62,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -139,7 +139,7 @@ Een Workfront Boards-verbinding maken:
 
 ## Modules van de Adobe Workfront Boards en hun velden
 
-Wanneer u Workfront Boards-modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen er extra velden in Workfront Boards worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u Workfront Boards-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er extra velden in Workfront Boards worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -171,7 +171,7 @@ In deze actiemodule wordt een item uit de controlelijst toegevoegd aan de opgege
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -194,7 +194,7 @@ Deze actiemodule voegt een subtaak aan een kaart in Boards toe. De kaart moet ee
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Parent card ID]</td> 
@@ -221,7 +221,7 @@ Met deze actiemodule maakt u een nieuwe kaart op een Workfront-kaart.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -248,7 +248,7 @@ Met deze actiemodule verplaatst u een kaart naar een andere kolom op hetzelfde b
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -279,7 +279,7 @@ Deze actiemodule wint informatie over een specifieke kaart terug.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -302,7 +302,7 @@ Deze actiemodule werkt informatie bij voor een kaart die u opgeeft.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -352,7 +352,7 @@ Deze actiemodule maakt een board in Workfront. U kunt opgeven welk type board u 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board name]</td> 
@@ -375,7 +375,7 @@ Deze actiemodule retourneert informatie over één board, zoals de kaarten, kolo
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -400,7 +400,7 @@ Deze actiemodule leidt tot een nieuwe kolom op de gespecificeerde raad.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -427,7 +427,7 @@ Deze zoekmodule geeft informatie over de kolom met de opgegeven naam.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -450,7 +450,7 @@ Deze actiemodule werkt de naam of de grens van WIP van de gespecificeerde kolom 
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -482,7 +482,7 @@ Deze actiemodule voegt een tag toe aan een kaart.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -509,7 +509,7 @@ Deze actiemodule maakt een nieuw label en wijst er een kleur aan toe.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Board ID]</td> 
@@ -541,7 +541,7 @@ Deze actiemodule heeft een opmerking gemaakt op de opgegeven kaart.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -564,7 +564,7 @@ Deze actiemodule wint de commentaren van de gespecificeerde kaart terug.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Card ID]</td> 
@@ -589,7 +589,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Workfront Boards API.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -609,7 +609,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Workfront Boards API.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een ingesloten JSON-grafiek </p> <p>Voorbeeld:</p><p>In dit voorbeeld wordt een kolomnaam bijgewerkt. U kunt <code>boardId</code> en <code>columnId</code> als GUIDs of hard coded of in kaart gebracht van een vorige module omvatten.<p><pre><br> "query": "mutation &lbrace; updateColumn(boardId: \"\", columnId: \"\", updateColumnInput: { name: \"\" }) { id name}"<br></pre><p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
+   <td> <p>Voeg de inhoud van de hoofdtekst voor de API-aanroep toe in de vorm van een ingesloten JSON-grafiek </p> <p>Voorbeeld:</p><p>In dit voorbeeld wordt een kolomnaam bijgewerkt. U kunt <code>boardId</code> en <code>columnId</code> als GUIDs of hard coded of in kaart gebracht van een vorige module omvatten.<p><pre><br> "query": "mutation { updateColumn(boardId: \"\", columnId: \"\", updateColumnInput: { name: \"\" }) { id name}"<br></pre><p>Opmerking:  <p>Wanneer u voorwaardelijke instructies gebruikt, zoals <code>if</code> in uw JSON, plaatst u de aanhalingstekens buiten de voorwaardelijke instructie.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -628,7 +628,7 @@ Deze handelingsmodule doet een aangepaste GraphQL-aanvraag voor de Workfront Boa
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het verbinden van uw [!DNL Workfront] app aan [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Borden van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
+      <td> <p>U kunt een bestaande Workfront-verbinding gebruiken om verbinding te maken met Workfront Boards of u kunt een specifieke Workfront Boards-verbinding gebruiken. </p><p>Voor instructies over het aansluiten van uw Workfront app aan de Fusie van Workfront, zie <a href="#create-a-connection-to-workfront-boards" class="MCXref xref"> een verbinding aan de Boards van Workfront </a> in dit artikel tot stand brengen.</p> </td> 
   </tr> 
    <tr> 
    <td role="rowheader">[!UICONTROL Method]</td> 

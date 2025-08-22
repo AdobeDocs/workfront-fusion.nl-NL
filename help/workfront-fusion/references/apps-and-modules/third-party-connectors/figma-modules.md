@@ -1,19 +1,19 @@
 ---
 title: Figuurmodules
-description: Met de  [!DNL Adobe Workfront Fusion]  modules van Figma, kunt u lijsten van commentaren, dossiers, dossierversies, of projecten terugwinnen. U kunt ook een opmerking plaatsen of een aanroep van de figma-API maken.
+description: Met de Adobe Workfront Fusion Figma-modules kunt u lijsten met opmerkingen, bestanden, bestandsversies of projecten ophalen. U kunt ook een opmerking plaatsen of een aanroep van de figma-API maken.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1220460b-1957-4dfc-b7c1-4c97b36ea061
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2280'
 ht-degree: 0%
 
 ---
 
 # [!DNL Figma] Modules
 
-Met de modules [!DNL Adobe Workfront Fusion] [!DNL Figma] kunt u lijsten met opmerkingen, bestanden, bestandsversies of projecten ophalen. U kunt ook een opmerking plaatsen of de [!DNL Figma] API aanroepen.
+Met de Adobe Workfront Fusion [!DNL Figma] -modules kunt u lijsten met opmerkingen, bestanden, bestandsversies of projecten ophalen. U kunt ook een opmerking plaatsen of de [!DNL Figma] API aanroepen.
 
 Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [ een scenario creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -140,7 +140,7 @@ Om een verbinding voor uw modules van Figma tot stand te brengen:
 
 ## [!DNL Figma] modules en hun velden
 
-Wanneer u [!DNL Figma] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Figma] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Figma] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Figma] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -174,7 +174,7 @@ In deze actiemodule wordt één opmerking uit een bestand verwijderd.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
       </td>
     </tr>
     <tr>
@@ -198,7 +198,7 @@ In deze zoekmodule worden alle opmerkingen weergegeven die aan één bestand in 
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
@@ -232,7 +232,7 @@ In deze actiemodule wordt een opmerking naar een figuurbestand gepost.
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     </tr>
     <tr>
       <td  role="rowheader">[!UICONTROL File ID]</td>
@@ -277,7 +277,7 @@ Met deze actiemodule haalt u één bestand of afbeelding op uit een figuurbiblio
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Object type]</td>
@@ -500,7 +500,7 @@ Deze zoekmodule retourneert de versiegeschiedenis van één bestand in [!UICONTR
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
       <td>
@@ -532,7 +532,7 @@ Deze zoekmodule retourneert een lijst met alle bestanden in het opgegeven projec
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL File ID]</td>
@@ -562,7 +562,7 @@ Deze onderzoeksmodule keert een lijst van alle projecten binnen het gespecificee
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Team ID]</td>
@@ -588,7 +588,7 @@ Deze actiemodule haalt één stijl of component, of een reeks stijlen of compone
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     </tr>
     <tr>
       <td role="rowheader">Object&gt; type</td>
@@ -643,7 +643,7 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan Figma AP
   <tbody>
     <tr>
       <td role="rowheader">[!UICONTROL Connection]</td>
-      <td> <p>Voor instructies over het verbinden van uw [!DNL Figma] rekening met [!DNL Workfront Fusion], zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
+      <td> <p>Voor instructies over het aansluiten van uw [!DNL Figma] rekening aan de Fusie van Workfront, zie <a href="#create-a-connection-to-figma" class="MCXref xref" data-mc-variable-override=""> een verbinding aan Figma </a> in dit artikel tot stand brengen.</p>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -661,7 +661,7 @@ Deze actiemodule laat u een douane voor authentiek verklaarde vraag aan Figma AP
       <td>
         <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
         <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] Hiermee voegt u de machtigingsheaders voor u toe.</p>
+        <p>Workfront Fusion voegt de machtigingsheaders voor u toe.</p>
       </td>
     </tr>
     <tr>

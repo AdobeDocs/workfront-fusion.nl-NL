@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 473dba8b-faa4-432f-9357-c2146e86b261
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '715'
 ht-degree: 0%
 
 ---
@@ -30,17 +30,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <col>
   <tbody>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront] plan</td>
+      <td role="rowheader">Adobe Workfront-plan</td>
       <td><p>Alle</p></td>
     </tr>
     <tr data-mc-conditions="">
-      <td role="rowheader">[!DNL Adobe Workfront] licentie</td>
-      <td><p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p></td>
+      <td role="rowheader">Adobe Workfront-licentie</td>
+      <td><p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p></td>
     </tr>
     <tr>
-      <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td>
+      <td role="rowheader">Adobe Workfront Fusion-licentie**</td>
       <td>
-        <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+        <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
         <p>of</p>
         <p>Verouderd: alle</p>
       </td>
@@ -50,11 +50,11 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
       <td>
         <p>Nieuw:</p>
         <ul>
-          <li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li>
-          <li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li>
+          <li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront Plan: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li>
+          <li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li>
         </ul>
         <p>of</p>
-        <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+        <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
       </td>
     </tr>
   </tbody>
@@ -63,11 +63,11 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 <!--
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Workfront Fusion] licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md). -->
+For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md). -->
 
 +++
 
-## [!DNL Workfront Fusion] sjablonen bewerken als beheerder
+## Workfront Fusion-sjablonen bewerken als beheerder
 
 1. Klik op **[!UICONTROL Administration]** in het navigatievenster aan de linkerkant om het [!UICONTROL Administration] -gebied te openen.
 1. Klik op **[!UICONTROL All Templates]** in het navigatievenster aan de linkerkant.
@@ -84,7 +84,7 @@ For information on [!DNL Adobe Workfront Fusion] licenses, see [[!DNL Adobe Work
 
    Om contextafhankelijke hulp aan de modules toe te voegen, zie [ Opstelling [!UICONTROL Wizard] functionaliteit ](#set-up-wizard-functionality) in dit artikel.
 
-   <!--For more information on building a scenario, see [Create a scenario in [!DNL Adobe Workfront Fusion]](../../../workfront-fusion/scenarios/create-a-scenario.md).-->
+   <!--For more information on building a scenario, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).-->
 
    >[!NOTE]
    >
@@ -105,7 +105,7 @@ Met [!DNL Workfront Fusion template] [!UICONTROL Wizard] kunt u toekomstige gebr
 1. Herhaal stap 2-4 voor elk veld waarvoor u informatie wilt opgeven.
 1. Klik op **[!UICONTROL OK]** om de wijzigingen op te slaan en de module te sluiten.
 
-Het publicatieproces is hetzelfde als in het geval van een standaardgebruiker. Voor informatie, zie [ Publish en deel malplaatjes ](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md) sectie voor meer details.
+Het publicatieproces is hetzelfde als in het geval van een standaardgebruiker. Voor informatie, zie [ publiceren en delen malplaatjes ](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md) sectie voor meer details.
 
 ## Sjabloonstatussen
 
@@ -125,7 +125,7 @@ U kunt de status ook controleren via de tab [!UICONTROL Team templates] . Als ee
 
 Sjablonen zonder pictogrammen hebben de status [!UICONTROL Private] . Ze worden niet gepubliceerd en zijn alleen zichtbaar voor het team.
 
-## De SVG-informatie van een sjabloon zoeken
+## SVG-gegevens van een sjabloon zoeken
 
 1. Klik op **[!UICONTROL Administration]** in het navigatievenster aan de linkerkant om het [!UICONTROL Administration] -gebied te openen.
 1. Klik op **[!UICONTROL Templates]** in het navigatievenster aan de linkerkant.
@@ -133,4 +133,4 @@ Sjablonen zonder pictogrammen hebben de status [!UICONTROL Private] . Ze worden 
 1. Klik **Opties** in de hoger-juiste hoek.
 1. Selecteer *Diagram van SVG*.
 
-Hier kunt u het diagram van de SVG en de code van de SVG bekijken.
+Hier kunt u het SVG-diagram en de SVG-code bekijken.

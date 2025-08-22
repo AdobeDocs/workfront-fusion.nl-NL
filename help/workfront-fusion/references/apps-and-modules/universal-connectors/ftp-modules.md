@@ -4,9 +4,9 @@ description: Met FTP-modules kunt u bestandswijzigingen in een geselecteerde map
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e14f778-ab8c-421f-a4b4-c57be66c7cad
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1177'
+source-wordcount: '1187'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -115,7 +115,7 @@ Als u FTP-modules wilt gebruiken, moet u over een account bij een FTP-service be
     </tr> 
     <tr> 
      <td> <p>[!UICONTROL Self-signed certificate]</p> </td> 
-     <td> <p>Klik op de knop <b>[!UICONTROL Extract]</b> om het dialoogvenster voor uploaden te openen.</p> <p>Upload het certificaat om het TLS te gebruiken met uw zelfondertekende certificaat. [!DNL Workfront Fusion] bewaart of bewaart geen gegevens u, zoals dossiers en wachtwoorden verstrekt. Bestand en wachtwoord worden alleen gebruikt om het certificaat te extraheren.</p> </td> 
+     <td> <p>Klik op de knop <b>[!UICONTROL Extract]</b> om het dialoogvenster voor uploaden te openen.</p> <p>Upload het certificaat om het TLS te gebruiken met uw zelfondertekende certificaat. Workfront Fusion bewaart of slaat geen gegevens op die u opgeeft, zoals bestanden en wachtwoorden. Bestand en wachtwoord worden alleen gebruikt om het certificaat te extraheren.</p> </td> 
     </tr> 
    </tbody> 
    </table>
@@ -147,7 +147,7 @@ Als u FTP-modules wilt gebruiken, moet u over een account bij een FTP-service be
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximum number of returned files] </td> 
-   <td> <p>Stel het maximale aantal resultaten in waarmee de module tijdens één cyclus moet werken. Als de waarde te hoog is ingesteld, kan de verbinding aan de zijkant van de FTP-server worden onderbroken. [!DNL Workfront Fusion] heeft hier geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
+   <td> <p>Stel het maximale aantal resultaten in waarmee de module tijdens één cyclus moet werken. Als de waarde te hoog is ingesteld, kan de verbinding aan de zijkant van de FTP-server worden onderbroken. Workfront Fusion heeft daar geen invloed op. Wij adviseren dat u een lagere waarde plaatst en of een hogere waarde voor het maximumaantal cycli bepaalt of het scenario vaker in werking stelt.</p> </td> 
   </tr> 
  </tbody> 
 </table>

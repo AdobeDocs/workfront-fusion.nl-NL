@@ -1,12 +1,12 @@
 ---
 title: Gegevenstypen item
-description: Uw  [!DNL Adobe Workfront Fusion]  scenario's kunnen de types van hieronder vermelde punten in een bundel bevatten.
+description: Uw Adobe Workfront Fusion-scenario's kunnen de hieronder vermelde objecttypen in een bundel bevatten.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3ad65959-5c19-4727-bc9d-4ff1d238ad8b
-source-git-commit: b7c511c51a2f27292cd0cb754673515e67c8a397
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '573'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt de hieronder vermelde objecttypen in een bundel opnemen.
 
-Voor informatie over welke types van punten [!DNL Workfront Fusion] voor omzetting tussen elkaar toestaat, zie [ Druk van het Type ](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
+Voor informatie over welke types van punten de Fusie van Workfront voor omzetting tussen elkaar toestaat, zie [ Druk van het Type ](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
 
 <table style="table-layout:auto">
  <col> 
@@ -23,11 +23,11 @@ Voor informatie over welke types van punten [!DNL Workfront Fusion] voor omzetti
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Tekst</p> </td> 
-   <td> <p>Het meest gangbare itemtype. Voor sommige tekstitems controleert [!DNL Adobe Workfront Fusion] of aan de maximum- of minimumlengte is voldaan of de indeling van het item is gevalideerd (e-mail, URL of bestandsnaam).</p> </td> 
+   <td> <p>Het meest gangbare itemtype. Voor sommige tekstitems controleert Adobe Workfront Fusion of aan de maximum- of minimumlengte is voldaan of de indeling van het item is gevalideerd (e-mail, URL of bestandsnaam).</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Getal</p> </td> 
-   <td> <p>Voor sommige numerieke items valideert [!DNL Workfront Fusion] mogelijk de invoer voor een opgegeven bereik (de minimaal of maximaal toegestane waarde).</p> </td> 
+   <td> <p>Voor sommige numerieke items kan Workfront Fusion de invoer voor een opgegeven bereik (de minimaal of maximaal toegestane waarde) valideren.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Boolean (Ja/Nee)</p> </td> 
@@ -43,7 +43,7 @@ Voor informatie over welke types van punten [!DNL Workfront Fusion] voor omzetti
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Buffer (binaire gegevens)</p> </td> 
-   <td> <p>Bestandsinhoud wordt meestal verzonden als inhoud van het type Buffer (afbeeldingsinhoud, videobestand en andere). In sommige gevallen worden tekstgegevens in dit type opgenomen (bijvoorbeeld een tekstbestand). [!DNL Workfront Fusion] kan tekstgegevens in binaire code automatisch omzetten in tekst en tekst in tekstgegevens in binaire code. Voor meer informatie, zie <a href="/help/workfront-fusion/create-scenarios/map-data/map-files.md" class="MCXref xref"> dossiers van de Kaart </a>.</p> </td> 
+   <td> <p>Bestandsinhoud wordt meestal verzonden als inhoud van het type Buffer (afbeeldingsinhoud, videobestand en andere). In sommige gevallen worden tekstgegevens in dit type opgenomen (bijvoorbeeld een tekstbestand). Workfront Fusion kan tekstgegevens in binaire code automatisch omzetten naar tekst en tekst naar tekstgegevens in binaire code. Voor meer informatie, zie <a href="/help/workfront-fusion/create-scenarios/map-data/map-files.md" class="MCXref xref"> dossiers van de Kaart </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Verzameling</p> </td> 
@@ -59,7 +59,7 @@ Voor informatie over welke types van punten [!DNL Workfront Fusion] voor omzetti
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Validatie</p> </td> 
-   <td> <p>[!DNL Workfront Fusion] kan validatie uitvoeren voor elk type item. Als een item de validatie niet doorgeeft, stopt de module de verwerking vanwege een gegevensfout. Voor meer informatie, zie <a href="/help/workfront-fusion/references/errors/error-processing.md" class="MCXref xref"> types van Fout </a>. </p> </td> 
+   <td> <p>Workfront Fusion kan validatie uitvoeren voor elk type item. Als een item de validatie niet doorgeeft, stopt de module de verwerking vanwege een gegevensfout. Voor meer informatie, zie <a href="/help/workfront-fusion/references/errors/error-processing.md" class="MCXref xref"> types van Fout </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>

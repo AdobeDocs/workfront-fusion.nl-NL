@@ -1,18 +1,18 @@
 ---
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Anaplan gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Anaplan gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1789'
 ht-degree: 0%
 
 ---
 
 # [!DNL Anaplan] Modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Anaplan] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Anaplan] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -57,7 +57,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adob
 Voordat u de [!DNL Anaplan] -connector kunt gebruiken, moet u controleren of aan de volgende voorwaarden is voldaan:
 
 * U moet een actieve [!UICONTROL Anaplan] account hebben.
-* U moet Workspaces, Models en andere [!DNL Anaplan] -objecten in uw [!UICONTROL Anaplan] -account configureren voordat [!DNL Workfront Fusion] met deze objecten kan communiceren.
+* U moet Workspaces, Models, en andere [!DNL Anaplan] voorwerpen in uw [!UICONTROL Anaplan] rekening vormen alvorens Workfront Fusion met hen kan interactie aangaan.
 
 ## API-informatie voor Anaplan
 
@@ -91,7 +91,7 @@ De Anaplan schakelaar gebruikt het volgende:
  </tbody> 
 </table>
 
-## Verbinden [!DNL Anaplan] met [!DNL Workfront Fusion] {#connect-anaplan-to-workfront-fusion}
+## Verbinden [!DNL Anaplan] met Workfront Fusion {#connect-anaplan-to-workfront-fusion}
 
 Verbinding maken voor uw [!DNL Anaplan] -modules:
 
@@ -159,7 +159,7 @@ Verbinding maken voor uw [!DNL Anaplan] -modules:
 
 ## [!DNL Anaplan] modules en hun velden
 
-Wanneer u [!DNL Anaplan] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Anaplan] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Anaplan] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Anaplan] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -185,7 +185,7 @@ Deze triggermodule start een scenario wanneer een record van het gekozen type wo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Type object dat moet worden gecontroleerd</td> 
@@ -221,7 +221,7 @@ Deze actiemodule voegt een nieuw punt aan een lijst in Anaplan toe.
 <table style="table-layout:auto">
     <tr>
         <td>[!UICONTROL Connection]</td>
-        <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td>
+        <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td>
     </tr>
     <tr>
         <td>[!UICONTROL Workspace ID]</td>
@@ -267,7 +267,7 @@ Met deze actiemodule verwijdert u een bestaande record.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID]</td> 
@@ -301,7 +301,7 @@ Deze actiemodule wint gegevens van Anaplan gebruikend de Definities van de Uitvo
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID]</td> 
@@ -329,7 +329,7 @@ Deze actiemodule importeert gegevens in Anaplan.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Workspace ID]</td> 
@@ -357,7 +357,7 @@ Met deze module kunt u een aangepaste API-aanroep naar de [!DNL Anaplan] API uit
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL URL]</p> </td> 
@@ -369,7 +369,7 @@ Met deze module kunt u een aangepaste API-aanroep naar de [!DNL Anaplan] API uit
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
-   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p> <p>[!DNL Workfront Fusion] voegt automatisch machtigingsheaders toe.</p> </td> 
+   <td> <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p> <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p> <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Query String] </td> 
@@ -395,7 +395,7 @@ Deze actiemodule leest één record.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -422,7 +422,7 @@ Met deze actiemodule kunt u een handeling importeren, exporteren, verwijderen of
      <tbody>
       <tr>
         <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Zie <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect Anaplan to Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td>
+        <td>Zie [!DNL Anaplan] in dit artikel voor instructies over het maken van een verbinding met <a href="#Connect" class="MCXref xref" >[!UICONTROL Connect Anaplan to Workfront Fusion]</a> .</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Workspace ID]</td>
@@ -485,7 +485,7 @@ Deze actiemodule werkt één record bij in [!UICONTROL Anaplan] .
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record type]</td> 
@@ -523,7 +523,7 @@ Deze actiemodule uploadt een bestaand bestand in Anaplan naar extra locaties in 
 <tbody>
 <tr>
 <td role="rowheader">[!UICONTROL Connection]</td>
-<td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td>
+<td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td>
 </tr>
 <tr>
 <td role="rowheader">[!UICONTROL Workspace ID]</td>
@@ -553,7 +553,7 @@ Deze zoekmodule retourneert alle toegankelijke records van het geselecteerde typ
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Anaplan] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Anaplan] .</td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Anaplan], zie <a href="#connect-anaplan-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Anaplan] met Workfront Fusion </a> in dit artikel.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Record types]</td> 

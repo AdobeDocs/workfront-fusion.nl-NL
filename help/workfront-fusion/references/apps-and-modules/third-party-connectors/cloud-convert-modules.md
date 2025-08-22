@@ -4,9 +4,9 @@ description: CloudConvert-modules
 author: Becky
 feature: Workfront Fusion
 exl-id: 52c4d18a-8bee-44d6-9a2c-cc9e157e1dde
-source-git-commit: 85cd8dbf70dff220f593fa669b447bf5df2a21a2
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '2497'
+source-wordcount: '2599'
 ht-degree: 0%
 
 ---
@@ -20,27 +20,27 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebrui
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">Adobe Workfront-abonnement*</td>
   <td> <p>[!UICONTROL Pro] of hoger</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie*</td>
+   <td role="rowheader">Adobe Workfront-licentie*</td>
    <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidige licentievereiste: geen [!DNL Workfront Fusion] licentievereiste.</p>
+   <p>Huidige vergunningsvereiste: geen Workfront Fusion-vergunningsvereiste.</p>
    <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL [!DNL Workfront Fusion] voor werkautomatisering en integratie] </p>
+   <p>Vereiste voor oudere licenties: [!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] [!DNL Adobe Workfront] -abonnement hebt, moet uw organisatie [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. [!DNL Workfront Fusion] wordt opgenomen in het [!UICONTROL Ultimate] [!DNL Workfront] -abonnement.</p>
+   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] Adobe Workfront-abonnement hebt, moet uw organisatie zowel Adobe Workfront Fusion als Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Workfront Fusion is opgenomen in het Workfront-plan van [!UICONTROL Ultimate] .</p>
    <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet [!DNL Adobe Workfront Fusion] en [!DNL Adobe Workfront] aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Vereiste verouderd product: uw organisatie moet Adobe Workfront Fusion en Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
    </td> 
   </tr> 
  </tbody> 
@@ -69,24 +69,24 @@ De CloudConvert-connector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!DNL CloudConvert] met [!DNL Workfront Fusion] {#connect-cloudconvert-to-workfront-fusion}
+## Verbinden [!DNL CloudConvert] met Workfront Fusion {#connect-cloudconvert-to-workfront-fusion}
 
-Als u uw [!DNL CloudConvert] -account wilt verbinden met [!DNL Workfront Fusion] , moet u de API-sleutel verkrijgen via uw [!DNL CloudConvert] -account.
+Als u uw [!DNL CloudConvert] -account wilt verbinden met Workfront Fusion, moet u de API-sleutel opvragen via uw [!DNL CloudConvert] -account.
 
 1. Meld u aan bij uw [!DNL CloudConvert] -account en open uw [!UICONTROL Dashboard] .
 1. Open de sectie **[!UICONTROL Authorization]>[!UICONTROL API Keys]** .
 1. Klik op **[!UICONTROL Create New API key]**.
 1. Voer de naam voor de API-sleutel in, schakel het bereik in dat u wilt gebruiken en klik op **[!UICONTROL Create]** .
 1. Kopieer het meegeleverde token en sla het op een veilige plaats op.
-1. Maak in [!DNL Workfront Fusion] een scenario en open het dialoogvenster [!DNL CloudConvert] module **[!UICONTROL Create a connection]** .
+1. Maak in Workfront Fusion een scenario en open het dialoogvenster [!DNL CloudConvert] van de module **[!UICONTROL Create a connection]** .
 
-   Voor instructies, zie [ een scenario in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md) creëren.
+   Voor instructies, zie [ een scenario in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md) creëren.
 
 1. Voer het token in dat u in stap 5 hebt opgeslagen en klik op **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
 
 ## [!DNL CloudConvert] modules en hun velden {#cloudconvert-modules-and-their-fields}
 
-Wanneer u [!DNL CloudConvert] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL CloudConvert] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL CloudConvert] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL CloudConvert] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -119,7 +119,7 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL URL]</td> 
@@ -158,11 +158,11 @@ Een bestand wordt omgezet in een geselecteerde uitvoerindeling.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input file]</td> 
-   <td>Selecteer of u een bestand wilt uploaden met [!DNL Workfront Fusion] of geef de URL op waaruit het bestand wordt geüpload.</td> 
+   <td>Selecteer of u een bestand wilt uploaden met Workfront Fusion of de URL wilt opgeven vanwaar het bestand wordt geüpload.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Upload a file]</td> 
@@ -213,7 +213,7 @@ Hiermee kunt u een of meer bestanden toevoegen aan het archief ZIP, RAR, 7Z, TAR
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Input Files]</p> </td> 
@@ -256,7 +256,7 @@ Voegt minstens twee bestanden samen tot één PDF. Als invoerbestanden geen PDF&
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Input Files]</p> </td> 
@@ -305,7 +305,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input File]</td> 
@@ -398,11 +398,11 @@ Deze module maakt een taak. Een taak kan een of meer taken zijn die in het veld 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Input Files]</td> 
-   <td> <p>Selecteer of u een bestand wilt uploaden met [!DNL Workfront Fusion] of geef de URL op vanwaar het bestand wordt geüpload.</p> </td> 
+   <td> <p>Selecteer of u een bestand wilt uploaden met Workfront Fusion of geef de URL op vanwaar het bestand wordt geüpload.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Upload a File]</td> 
@@ -452,7 +452,7 @@ Deze module verwijdert een taak, inclusief alle taken en gegevens.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Job ID]</td> 
@@ -471,7 +471,7 @@ Deze module haalt taakdetails op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Job ID]</td> 
@@ -490,7 +490,7 @@ Deze module haalt alle taken op die in uw account zijn uitgevoerd.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status] </td> 
@@ -523,7 +523,7 @@ Triggers worden geactiveerd wanneer een taak in uw account of taak wordt gemaakt
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Output Format] </td> 
@@ -562,7 +562,7 @@ Deze module annuleert een taak die een status van wachten of verwerking heeft.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -585,7 +585,7 @@ Een taak verwijderen, inclusief alle gegevens.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -604,7 +604,7 @@ Deze module wint dossier - naam en dossiergegevens van de gespecificeerde taak t
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -623,7 +623,7 @@ Deze module wint taakdetails terug.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -642,7 +642,7 @@ Deze module haalt alle taken in uw account op basis van filterinstellingen op.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Status] </td> 
@@ -673,7 +673,7 @@ Deze module leidt tot een nieuwe taak, die op de montages (lading) van een ander
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Task ID]</td> 
@@ -697,7 +697,7 @@ Hiermee worden geverifieerde accountgegevens over de huidige gebruiker opgehaald
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL CloudConvert] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL CloudConvert] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL CloudConvert] rekening aan Workfront Fusion, zie <a href="#connect-cloudconvert-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL CloudConvert] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
  </tbody> 
 </table>

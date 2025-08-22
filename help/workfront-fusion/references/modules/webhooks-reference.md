@@ -4,9 +4,9 @@ description: Veel services bieden websites voor het direct verzenden van melding
 author: Becky
 feature: Workfront Fusion
 exl-id: 5bfda2b2-dc1c-4ff6-9236-b480bfda2e58
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '852'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Wanneer u een onmiddellijke trekker vormt, wordt u ertoe aangezet om te selecter
 
 ![ Programma plaatsend ](assets/schedule-setting.png)
 
-Selecteer `Immediately` om het scenario onmiddellijk uit te voeren wanneer [!DNL Workfront Fusion] nieuwe gebeurtenissen van de service ontvangt. Deze gebeurtenissen worden onmiddellijk verzonden naar een rij, en dan verwerkt in het scenario één voor één, in de zelfde orde dat de gegevens worden ontvangen.
+Selecteer `Immediately` om het scenario onmiddellijk uit te voeren wanneer Workfront Fusion nieuwe gebeurtenissen van de service ontvangt. Deze gebeurtenissen worden onmiddellijk verzonden naar een rij, en dan verwerkt in het scenario één voor één, in de zelfde orde dat de gegevens worden ontvangen.
 
 Wanneer het scenario uitvoert, wordt de totale hoeveelheid hangende gebeurtenissen die in de rij wachten geteld, en het scenario voert zo vele cycli uit aangezien er gebeurtenissen in behandeling zijn, verwerkend één gebeurtenis per cyclus.
 
@@ -81,7 +81,7 @@ Een webhaak die langer dan 120 uur niet aan een scenario is toegewezen, wordt ve
 
 ### WebHaaklading
 
-In [!DNL Workfront Fusion] worden de payloads van de webhaak 30 dagen opgeslagen. Als u meer dan 30 dagen nadat de payload is gemaakt, toegang krijgt tot een webhaakpayload, treedt de fout op [!UICONTROL `Failed to read file from storage.`] .
+Workfront Fusion slaat de payloads op de webhaak gedurende 30 dagen op. Als u meer dan 30 dagen nadat de payload is gemaakt, toegang krijgt tot een webhaakpayload, treedt de fout op [!UICONTROL `Failed to read file from storage.`] .
 
 ### Foutafhandeling
 

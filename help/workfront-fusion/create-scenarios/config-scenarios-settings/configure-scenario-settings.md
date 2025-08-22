@@ -5,9 +5,9 @@ description: U kunt specifieke montages voor scenario's in het paneel van scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: 105e3d39-b0ef-4c22-901d-fb4f29e685a9
-source-git-commit: 273a07a28563a0eb3a3446937964e8dcef8a68d3
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1292'
 ht-degree: 0%
 
 ---
@@ -27,17 +27,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan</td> 
+   <td role="rowheader">Adobe Workfront-plan</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
-   <td> <p>Nieuw: [!UICONTROL Standard]</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
+   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -45,16 +45,16 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] Plan: Uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Overzicht: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront Plan: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
   <tr data-mc-conditions=""> 
    <td role="rowheader">Configuraties op toegangsniveau*</td> 
    <td> 
-     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw organisatie zijn.</p>
-     <p>U moet een [!DNL Workfront Fusion] beheerder voor uw team zijn.</p>
+     <p>U moet een Workfront Fusion-beheerder zijn voor uw organisatie.</p>
+     <p>U moet een Workfront Fusion-beheerder zijn voor uw team.</p>
    </td> 
   </tr> 
    </td> 
@@ -64,7 +64,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -96,8 +96,8 @@ Wanneer de opeenvolgende verwerking wordt toegelaten, zijn de parallelle uitvoer
 
 **Onvolledige Uitvoeringen**: Als de &quot;Onvolledige Uitvoeringen&quot;ook wordt toegelaten, als een fout tijdens de uitvoering van een scenario voorkomt, wordt het scenario gepauzeerd. Een van de volgende gebeurtenissen vindt dan plaats:
 
-* Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
-* Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
+* Als de Opeenvolgende verwerkingsoptie **** wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
+* Als de Opeenvolgende verwerkingsoptie **** gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
 
   Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
@@ -119,15 +119,15 @@ Zodra een scenario is uitgevoerd, kunt u door gebrek vertoningsinformatie tonen 
 
 ### [!UICONTROL Allow storing incomplete executions]
 
-Deze optie bepaalt hoe [!DNL Adobe Workfront Fusion] te werk gaat als er een fout optreedt tijdens de uitvoering van een scenario. Als deze optie is ingeschakeld, wordt het scenario gepauzeerd en naar de onvolledige uitvoermap verplaatst. Dit geeft u de mogelijkheid om de kwestie te bevestigen en verder uit te voeren van waar het scenario werd tegengehouden. Als deze optie is uitgeschakeld, stopt de uitvoering van het scenario en wordt een terugdraaifase gestart.
+Deze optie bepaalt hoe Adobe Workfront Fusion verder gaat als er een fout optreedt tijdens de uitvoering van een scenario. Als deze optie is ingeschakeld, wordt het scenario gepauzeerd en naar de onvolledige uitvoermap verplaatst. Dit geeft u de mogelijkheid om de kwestie te bevestigen en verder uit te voeren van waar het scenario werd tegengehouden. Als deze optie is uitgeschakeld, stopt de uitvoering van het scenario en wordt een terugdraaifase gestart.
 
 Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
 ### Gegevensverlies inschakelen
 
-Deze optie heeft te maken met het inschakelen van gegevensverlies als [!DNL Workfront Fusion] een bundel niet opslaat in de wachtrij met onvolledige uitvoeringen (bijvoorbeeld vanwege een gebrek aan vrije ruimte). Als deze optie is ingeschakeld, gaan de gegevens verloren om onderbrekingen in de uitvoering van het algemene scenario te voorkomen. Dit is nuttig voor scenario&#39;s waar de hoogste prioriteit is ononderbroken uitvoering en de inkomende onjuiste gegevens niet zo belangrijk zijn.
+Deze optie heeft te maken met het inschakelen van gegevensverlies als Workfront Fusion een bundel niet opslaat in de wachtrij van onvolledige uitvoeringen (bijvoorbeeld vanwege een gebrek aan vrije ruimte). Als deze optie is ingeschakeld, gaan de gegevens verloren om onderbrekingen in de uitvoering van het algemene scenario te voorkomen. Dit is nuttig voor scenario&#39;s waar de hoogste prioriteit is ononderbroken uitvoering en de inkomende onjuiste gegevens niet zo belangrijk zijn.
 
-Buiten dat, wanneer het uitvoeren van een scenario, kan een module soms een dossier ontmoeten dat groter is dan de maximaal toegestane grootte. In dit geval gaat [!DNL Workfront Fusion] verder volgens de instelling van de optie [!UICONTROL Enable data loss] en wordt een waarschuwingsbericht weergegeven.
+Buiten dat, wanneer het uitvoeren van een scenario, kan een module soms een dossier ontmoeten dat groter is dan de maximaal toegestane grootte. In dit geval gaat Workfront Fusion verder volgens de instelling van de optie [!UICONTROL Enable data loss] en wordt een waarschuwingsbericht weergegeven.
 
 Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
@@ -160,7 +160,7 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 
 >[!BEGINSHADEBOX]
 
-**Voorbeelden:** [!DNL Workfront] > [!UICONTROL Watch record] horloges voor nieuwe kwesties die binnen komen, en [!DNL Workfront] > [!UICONTROL Convert object] zet het nieuwe verzoek in een project om en wijst het het aangewezen malplaatje toe.
+**Voorbeelden:** Workfront > [!UICONTROL Watch record] horloges voor nieuwe kwesties die binnen komen, en Workfront > [!UICONTROL Convert object] zet het nieuwe verzoek in een project om en wijst het het aangewezen malplaatje toe.
 
 ![ montages van het Scenario ](assets/scenario-settings-ex-1-350x157.png)
 
@@ -171,7 +171,7 @@ Een instelling [!UICONTROL more cycles] wordt alleen toegepast wanneer u de uitv
 ![ Maximum aantal cycli ](assets/max-number-cycles-1-350x201.png)
 
 Het Max aantal cycli in de module Workfront > Watch records is ingesteld op `10` .
-Als 100 verzoeken worden voorgelegd aan [!DNL Workfront], en het Max aantal cyclusgebied wordt geplaatst aan 10, dan worden 90 dossiers verlaten onverwerkt na één scenario looppas. De volgende 10 dossiers worden verwerkt in de volgende geplande scenario uitvoering.
+Als 100 verzoeken worden voorgelegd aan Workfront, en het Max aantal cyclusgebied wordt geplaatst aan 10, dan worden 90 dossiers onverwerkt verlaten na één scenario looppas. De volgende 10 dossiers worden verwerkt in de volgende geplande scenario uitvoering.
 
 #### Max. aantal cycli is ingesteld op 10
 

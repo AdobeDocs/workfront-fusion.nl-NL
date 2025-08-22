@@ -4,9 +4,9 @@ description: Volg deze algemene workflow om een scenario te maken
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: 394f80a2d7c124bbd00e1a5b51ad3dc6e73a996b
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '772'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -34,8 +34,8 @@ Sneltoetsen
 
 ## Het scenario maken en een naam geven
 
-1. Meld u aan bij uw [!DNL Workfront Fusion] -account.
-1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![&#128279;](assets/scenarios-icon.png) in het linkerpaneel.
+1. Meld u aan bij uw Workfront Fusion-account.
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![ in het linkerpaneel.](assets/scenarios-icon.png)
 
    >[!NOTE]
    >
@@ -105,9 +105,9 @@ Het testen van uw scenario laat u toe om te bepalen als uw scenario zoals bedoel
 1. Nadat het scenario klaar is met draaien, klikt u op de bellen van de uitvoercontrole boven elke module om de invoer van informatie en de uitvoer van die module te zien.
 
    * Voor algemene informatie bij het lezen van de informatie van de scenariouitvoering, zie [ de uitvoeringsstroom van het scenario ](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md).
-   * Voor informatie over verwerkte bundels, zie [ uitvoering Scenario, cycli, en fasen in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
+   * Voor informatie over verwerkte bundels, zie [ uitvoering Scenario, cycli, en fasen in de Fusie van Adobe Workfront ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
 
-1. In [!DNL Workfront Fusion], klik **[!UICONTROL Save]** ![ sparen pictogram ](assets/save-icon.png) dichtbij de laag-linkerhoek om uw vooruitgang op het scenario te bewaren.
+1. In de Fusie van Workfront, klik **[!UICONTROL Save]** ![ sparen pictogram ](assets/save-icon.png) dichtbij de laag-linkerhoek om uw vooruitgang op het scenario te bewaren.
 
    >[!IMPORTANT]
    >

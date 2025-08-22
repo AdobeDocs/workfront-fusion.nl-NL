@@ -4,20 +4,20 @@ description: Dit artikel omvat informatie over de toegang en de toestemmingen va
 author: Becky
 feature: Workfront Fusion
 exl-id: 92f3bb09-0b66-45cd-84ef-88b2aa246be1
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
 
 # Organisatie- en teamrollen
 
-In dit artikel worden de toegang en functionaliteit beschreven die beschikbaar zijn voor de verschillende teams- en organisatiefuncties in [!DNL Workfront Fusion] .
+Dit artikel beschrijft de toegang en de functionaliteit beschikbaar aan de verschillende team en organisatierollen in Workfront Fusion.
 
 >[!NOTE]
 >
->Organisatierollen zijn gescheiden van teamrollen in [!DNL Workfront Fusion] . Voor meer informatie over organisatie en teamrollen, zie [ het overzicht van Organisaties en teams ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md).
+>De rollen van de organisatie zijn gescheiden van teamrollen in Workfront Fusion. Voor meer informatie over organisatie en teamrollen, zie [ het overzicht van Organisaties en teams ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md).
 
 ## Organisatiefuncties
 

@@ -4,9 +4,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: b14bed4d-3503-42cf-a8c3-618d3b2448b4
-source-git-commit: d504b5ebd649953395f804d7349f3c5a281eef68
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1512'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes** p
 
 Deze sjablonen automatiseren Workfront-processen en -workflows.
 
-### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} Workfront - Tijdlijn van project automatisch aanpassen wanneer taken vroeg worden voltooid
+### [!BADGE  Nieuw! ]{type=Informative} Workfront - Tijdlijn van project automatisch aanpassen wanneer taken vroeg worden voltooid
 
 <!--New June 10, 2025-->
 
@@ -33,13 +33,13 @@ Als uw team moeite heeft om vaart te houden omdat de projectchronologie niet dyn
 
 Deze Fusion-sjabloon automatiseert dat proces. Wanneer een taak vroeg wordt voltooid, worden alle afhankelijke (opvolger) taken automatisch opnieuw gepland om sneller te beginnen, waardoor uw team sneller kan bewegen en flexibel kan blijven.
 
-### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} HTTP>CSV>WF - Een lijst met gebeurtenissubs maken op domein en laag en exporteren naar CSV
+### [!BADGE  Nieuw! ]{type=Informative} HTTP>CSV>WF - Een lijst met gebeurtenissubs maken op domein en laag en exporteren naar CSV
 
 Download abonnementsgegevens voor gebeurtenissen, maak een CSV-bestand en upload het bestand naar Workfront.
 
 <!--New August 8, 2025-->
 
-### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} Workfront-kaarten - Gearchiveerde kaarten verwijderen uit aangewezen kolom (Op aanvraag)
+### [!BADGE  Nieuw! ]{type=Informative} Workfront-kaarten - Gearchiveerde kaarten verwijderen uit aangewezen kolom (Op aanvraag)
 
 <!--New March 12, 2025-->
 
@@ -117,7 +117,7 @@ Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met d
 
 Deze sjablonen automatiseren workflows die Workfront combineren met Workfront Proof.
 
-### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} Workfront > Workfront Proof - Change Proof user Role to Read Only and lock Proof after project closure
+### [!BADGE  Nieuw! ]{type=Informative} Workfront > Workfront Proof - Change Proof user Role to Read Only and lock Proof after project closure
 
 <!--New March 12, 2025-->
 
@@ -184,7 +184,7 @@ Met deze sjabloon kunt u zien of een SharePoint-map is gewijzigd.
 
 Deze sjablonen ondersteunen de integratie tussen Workfront en Anaplan en verwachten een specifieke configuratie in zowel Anaplan als Workfront. Zie de artikelen voor de afzonderlijke sjablonen voor informatie over deze sjablonen en de bijbehorende configuraties.
 
-Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront met Anaplan ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
+Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront met Anaplan ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
 
 >[!NOTE]
 >
@@ -192,19 +192,19 @@ Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront
 
 ### Workflows voor optimalisatie doorgeven
 
-* [ verzend  [!DNL Adobe Workfront]  projectupdates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
-* [ verzend  [!DNL Adobe Workfront]  uitgaven aan a  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
-* [ verzendt  [!DNL Adobe Workfront]  daadwerkelijke uren updates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
+* [ verzendt het projectupdates van Adobe Workfront naar een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
+* [ verzend de uitgaven van Adobe Workfront aan a  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
+* [ verzend de daadwerkelijke uren van Adobe Workfront updates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
 
 ### Workflows voor het koppelen van begrotingsaanvragen
 
-* [ creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  begrotingsverzoek ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
-* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  project ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
+* [ creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront begrotingsverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
+* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een project van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
 
 ### Workflows voor het koppelen van campagneaanvragen
 
-* [ creeer een  [!DNL Anaplan]  lijstitem van een  [!DNL Adobe Workfront]  campagneverzoek ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
-* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een  [!DNL Adobe Workfront]  campagneverzoek of campagneproject ](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects) toe
+* [ creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront campagneverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
+* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een de campagneverzoek of campagneproject van Adobe Workfront toe ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
 
 
 <!--[!BADGE New!]{type=Informative} -->

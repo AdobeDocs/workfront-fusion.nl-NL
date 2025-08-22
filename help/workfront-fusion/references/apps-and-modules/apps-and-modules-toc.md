@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: f169b9d918d42bbecd885aeec1505bd41088907b
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Met deze connectors kunt u verbinding maken met elke app of webservice met een o
 * [SOAP-module](/help/workfront-fusion/references/apps-and-modules/universal-connectors/soap-module.md)
 * [FTP-modules](/help/workfront-fusion/references/apps-and-modules/universal-connectors/ftp-modules.md)
 * [SFTP-modules](/help/workfront-fusion/references/apps-and-modules/universal-connectors/sftp.md)
-* [Wederzijdse TLS gebruiken in HTTP-modules in  [!DNL Adobe Workfront Fusion]](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
+* [Wederzijdse TLS gebruiken in HTTP-modules in Adobe Workfront Fusion](/help/workfront-fusion/references/apps-and-modules/universal-connectors/use-mtls-in-http-modules.md)
 
 ## Connectors voor Adobe-producten
 

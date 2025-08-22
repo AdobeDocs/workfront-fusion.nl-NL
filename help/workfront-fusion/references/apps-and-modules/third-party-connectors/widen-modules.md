@@ -1,20 +1,20 @@
 ---
 title: Breedte-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die [!UICONTROL Widen] gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Widen] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 draft: Probably
 feature: Workfront Fusion
 exl-id: 11376e58-a44b-4766-85dc-e2421b0112de
-source-git-commit: b5387e4ba84d67d6ea2472282c212e396ba93d4f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1380'
+source-wordcount: '1436'
 ht-degree: 0%
 
 ---
 
 # [!DNL Widen] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!UICONTROL Widen] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Widen] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -59,7 +59,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -86,7 +86,7 @@ De breedste connector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!DNL Widen] met [!DNL Workfront Fusion]  {#connect-widen-to-workfront-fusion}
+## Verbinden [!DNL Widen] met Workfront Fusion  {#connect-widen-to-workfront-fusion}
 
 U kunt rechtstreeks vanuit een [!DNL Widen] -module verbinding maken met uw [!DNL Widen] -account.
 
@@ -98,7 +98,7 @@ U kunt rechtstreeks vanuit een [!DNL Widen] -module verbinding maken met uw [!DN
 
 ## [!DNL Widen] modules en hun velden
 
-Wanneer u [!DNL Widen] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Widen] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Widen] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Widen] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -120,7 +120,7 @@ Deze triggermodule start een scenario wanneer een element wordt gemaakt of bijge
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Event type]</td> 
@@ -161,7 +161,7 @@ Deze actiemodule voegt een of meer elementen toe aan verzamelingen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Collections ID]</td> 
@@ -192,7 +192,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL API Version]</td> 
@@ -234,7 +234,7 @@ Deze actiemodule downloadt een middel van uw [!DNL Widen] account.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
@@ -253,7 +253,7 @@ Deze actiemodule wint een individueel middel door zijn unieke identiteitskaart t
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
@@ -280,7 +280,7 @@ Deze actiemodule verwijdert een of meer elementen uit verzamelingen.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
   <tr> 
@@ -310,7 +310,7 @@ In deze actiemodule worden de metagegevensvelden van een element bijgewerkt.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Asset ID]</td> 
@@ -341,7 +341,7 @@ Deze actiemodule uploadt een bestand naar uw [!DNL Widen] -account.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Upload Profile]</td> 
@@ -385,7 +385,7 @@ Deze actiemodule wint een lijst van activa binnen een inzameling terug.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Collection ID]</td> 
@@ -424,7 +424,7 @@ Deze zoekmodule haalt een lijst op met elementen die voldoen aan de specifieke z
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-  <td> <p>Zie <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Widen] met [!DNL Workfront Fusion] </a> in dit artikel voor instructies over het verbinden van uw [!DNL Widen] -account met [!DNL Workfront Fusion] .</p> </td> 
+  <td> <p>Zie [!DNL Widen] Verbinding maken <a href="#connect-widen-to-workfront-fusion" class="MCXref xref"> met Workfront Fusion [!DNL Widen] in dit artikel voor instructies over het verbinden van uw </a> -account met Workfront Fusion.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search query]</td> 

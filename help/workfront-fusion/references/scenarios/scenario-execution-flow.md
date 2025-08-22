@@ -5,9 +5,9 @@ description: In dit artikel wordt uitgelegd hoe een scenario wordt uitgevoerd en
 author: Becky
 feature: Workfront Fusion
 exl-id: bd4f05e2-df3c-4848-9a70-3df18ca4461b
-source-git-commit: 0ef6dde9566ca3b97c1c52d6055f0ce44f575cee
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,11 @@ Als de trekkermodule om het even welke bundels van gegevens terugkeert, gaan die
 
 Als de bundels correct door alle modules verwerken, is het scenario duidelijk als succes in de pagina van de scenariodetails.
 
-### Voorbeeld: [!UICONTROL [!DNL Workfront Fusion] for Work Automation]
+### Voorbeeld: [!UICONTROL Workfront Fusion for Work Automation]
 
 >[!BEGINSHADEBOX]
 
-**Voorbeeld:** In dit scenario dat voor inkomende verzoeken in [!DNL Workfront] kijkt en dan hen in [!DNL Workfront] projecten omzet, zouden de gegevens als volgt stromen:
+**Voorbeeld:** In dit scenario dat de horloges voor inkomende verzoeken in Workfront en dan hen in de projecten van Workfront omzet, zouden de gegevens als volgt stromen:
 
 De eerste stap van het scenario, die door de eerste module wordt uitgevoerd, moet op verzoeken letten. Elk verzoek dat het vindt wordt beschouwd als één bundel. Als de module zonder enige bundels loopt te vinden, beëindigt het scenario na de eerste module.
 
@@ -42,11 +42,11 @@ Als de eerste module een bundel terugkeert, gaat de bundel door de rest van het 
 
 >[!ENDSHADEBOX]
 
-### Voorbeeld: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration]
+### Voorbeeld: [!UICONTROL Workfront Fusion for Work Automation and Integration]
 
 >[!BEGINSHADEBOX]
 
-**Voorbeeld:** In dit scenario dat documenten van [!DNL Adobe Workfront] downloadt en hen naar een omslag in [!DNL Dropbox] verzendt, zouden de gegevens als volgt stromen:
+**Voorbeeld:** In dit scenario dat documenten van Adobe Workfront downloadt en hen naar een omslag in [!DNL Dropbox] verzendt, zouden de gegevens als volgt stromen:
 
 De eerste stap van het scenario, die door de eerste module wordt uitgevoerd, is op documenten in Workfront te letten. Elk document dat het vindt wordt beschouwd als één bundel. Als de module zonder enige bundels loopt te vinden, beëindigt het scenario na de eerste module.
 
@@ -95,7 +95,7 @@ Er kan een fout optreden tijdens het uitvoeren van het scenario. Bijvoorbeeld, a
 ## Bronnen
 
 * Voor meer informatie bij vestiging ziet een scenario, [ de scenarioredacteur ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md).
-* Voor meer informatie over de pagina van de scenario details, zie {de details van 0} Scenario [&#128279;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md).
+* Voor meer informatie over de pagina van de scenario details, zie {de details van 0} Scenario [.](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md)
 * Voor meer informatie bij het activeren van een scenario, zie [ een scenario ](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
 * Voor meer informatie bij het plannen van een scenario, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 * Voor meer informatie over modules, zie [ Overzicht van de Module ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md).

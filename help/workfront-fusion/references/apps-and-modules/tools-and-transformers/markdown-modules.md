@@ -1,19 +1,19 @@
 ---
 title: Markeringsmodules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u de modules van de Prijsverhoging gebruiken om Markering in HTML en HTML in Prijsverhoging om te zetten.
+description: In een Adobe Workfront Fusion-scenario kunt u de Markeringen gebruiken om Markdown om te zetten in HTML en HTML in Markdown.
 author: Becky
 feature: Workfront Fusion
 exl-id: f1134bbf-c244-4f52-8744-f97453b2ce8a
-source-git-commit: 7edfe4a7b19597ea6e56bb2ca3969d742dbaf999
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '271'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Markdown] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u de [!UICONTROL Markdown] -modules gebruiken om Markdown om te zetten in HTML en HTML in Markdown.
+In een Adobe Workfront Fusion-scenario kunt u de [!UICONTROL Markdown] -modules gebruiken om Markdown om te zetten in HTML en HTML in Markdown.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 

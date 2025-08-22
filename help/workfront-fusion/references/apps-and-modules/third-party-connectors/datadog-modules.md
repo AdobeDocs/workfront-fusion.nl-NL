@@ -1,19 +1,19 @@
 ---
 title: Datadog-modules
-description: In een  [!DNL Adobe Workfront Fusion]  scenario, kunt u werkschema's automatiseren die Datadog gebruiken, evenals het met veelvoudige derdetoepassingen en de diensten verbinden.
+description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema's automatiseren die Datadog gebruiken, evenals het verbinden met veelvoudige derdetoepassingen en de diensten.
 author: Becky
 feature: Workfront Fusion
 exl-id: c8c5f2e3-5af1-4957-bb6f-6c19c35102c5
-source-git-commit: 8a4e54a4c1783e4bc679778c6fcf21dcb4d3d537
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '850'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
 
 # [!DNL Datadog] modules
 
-In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Datadog] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
+In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Datadog] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
@@ -58,7 +58,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -81,11 +81,11 @@ De gegevenshondenconnector gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinden [!DNL Datadog] met [!DNL Workfront Fusion] {#connect-datadog-to-workfront-fusion}
+## Verbinden [!DNL Datadog] met Workfront Fusion {#connect-datadog-to-workfront-fusion}
 
 ### De API-sleutel en toepassingssleutel ophalen {#retrieve-your-api-key-and-application-key}
 
-Als u uw [!DNL Datadog] -account wilt verbinden met [!DNL Workfront Fusion] , moet u een API-sleutel en een toepassingssleutel ophalen van uw [!DNL Datadog] -account.
+Als u uw [!DNL Datadog] -account wilt verbinden met Workfront Fusion, moet u een API-sleutel en een toepassingssleutel ophalen van uw [!DNL Datadog] -account.
 
 1. Meld u aan bij uw [!DNL Datadog] -account.
 1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Integrations]** en klik vervolgens op **[!UICONTROL APIs]** .
@@ -96,9 +96,9 @@ Als u uw [!DNL Datadog] -account wilt verbinden met [!DNL Workfront Fusion] , mo
 1. Houd de muisaanwijzer boven de paarse balk om de toepassingstoets weer te geven.
 1. Kopieer de toepassingssleutel naar een veilige locatie.
 
-### Verbinding maken met [!DNL Datadog] in [!DNL Workfront Fusion]
+### Verbinding maken met [!DNL Datadog] in Workfront Fusion
 
-U kunt rechtstreeks vanuit een [!UICONTROL Datadog] -module verbinding maken met uw [!DNL Datadog] -account.
+U kunt rechtstreeks vanuit een [!DNL Datadog] -module verbinding maken met uw [!UICONTROL Datadog] -account.
 
 1. Klik in een willekeurige [!UICONTROL Datadog] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Vul de velden van de module als volgt in:
@@ -138,7 +138,7 @@ U kunt rechtstreeks vanuit een [!UICONTROL Datadog] -module verbinding maken met
 
 ## [!DNL Datadog] modules en hun velden
 
-Wanneer u [!DNL Datadog] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Datadog] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!DNL Datadog] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Datadog] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
@@ -159,7 +159,7 @@ Met deze actiemodule kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Datadog] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Datadog] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Datadog] rekening aan Workfront Fusion, zie <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Datadog] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Use Dedicated Domain]</td> 
@@ -217,7 +217,7 @@ De limiet voor gecomprimeerde ladingen is 3,2 megabyte (3200000) en 62 megabyte 
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td> <p>Zie <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref"> Verbinding maken [!DNL Datadog] met [!DNL Workfront Fusion]</a> in dit artikel voor instructies over het verbinden van uw [!DNL Datadog] -account met [!DNL Workfront Fusion] .</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!DNL Datadog] rekening aan Workfront Fusion, zie <a href="#connect-datadog-to-workfront-fusion" class="MCXref xref"> verbinden [!DNL Datadog] met Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 

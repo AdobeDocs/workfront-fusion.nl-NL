@@ -4,9 +4,9 @@ description: Een aggregatormodule is een type module dat is ontworpen om verschi
 author: Becky
 feature: Workfront Fusion
 exl-id: 93cde0d0-4013-463a-b19c-d58180632739
-source-git-commit: 3aa896867bd143c67157fb886fafa37eaee2bc00
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
@@ -26,17 +26,17 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] package</td> 
+    <td role="rowheader">Adobe Workfront-pakket</td> 
    <td> <p>Alle</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] licentie</td> 
+   <td role="rowheader">Adobe Workfront-licentie</td> 
    <td> Nieuw: Standaard<p>of</p><p>Huidig: Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie</td> 
    <td>
-   <p>Huidig: Geen [!DNL Workfront Fusion] vereiste licentie.</p>
+   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
    <p>of</p>
    <p>Verouderd: alle </p>
    </td> 
@@ -44,18 +44,18 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] [!DNL Workfront] -abonnement: uw organisatie moet het abonnement aanschaffen [!DNL Adobe Workfront Fusion] .</li><li>[!UICONTROL Ultimate] [!DNL Workfront] abonnement: [!DNL Workfront Fusion] is opgenomen.</li></ul>
+   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
    <p>of</p>
-   <p>Huidig: Uw organisatie moet [!DNL Adobe Workfront Fusion] aanschaffen.</p>
+   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
 
-Neem contact op met de [!DNL Workfront] -beheerder als u wilt weten welk abonnement, licentietype of toegang u hebt.
+Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -82,7 +82,7 @@ In de volgende afbeelding ziet u een standaard instelling van de module [!UICONT
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Target structure type]</p><p>(Alleen van toepassing op de module [!UICONTROL Array aggregator] .)</p> </td> 
-   <td> <p> De doelstructuur waar de gegevens worden geaggregeerd. Met de standaardoptie [!UICONTROL Custom] kunt u items kiezen die moeten worden samengevoegd in het item <code>Array </code> van de uitvoerbundel van [!UICONTROL Array aggregator]  :</p> <p> <img src="assets/output-bundle-array-item.png"> </p> <p>Nadat u meer modules na de [!UICONTROL Array aggregator] module aansluit, en aan de opstelling van de samenvoegersmodule terugkeert, bevat het [!UICONTROL Target] drop-down menu van het structuurtype alle volgende modules en hun gebieden die "Serie van Inzamelingen"type zijn. <p>In dit voorbeeld wordt het [!UICONTROL Attachments] veld van de module [!DNL Slack] &gt; [!UICONTROL Create a Message] weergegeven in het veld Array aggregator &gt; Doelstructuurtype. </p> <p> <img src="assets/array-aggregator-slack.png"> </p> </td> 
+   <td> <p> De doelstructuur waar de gegevens worden geaggregeerd. Met de standaardoptie [!UICONTROL Custom] kunt u items kiezen die moeten worden samengevoegd in het item [!UICONTROL Array aggregator] van de uitvoerbundel van <code>Array </code>  :</p> <p> <img src="assets/output-bundle-array-item.png"> </p> <p>Nadat u meer modules na de [!UICONTROL Array aggregator] module aansluit, en aan de opstelling van de samenvoegersmodule terugkeert, bevat het [!UICONTROL Target] drop-down menu van het structuurtype alle volgende modules en hun gebieden die "Serie van Inzamelingen"type zijn. <p>In dit voorbeeld wordt het [!UICONTROL Attachments] veld van de module [!DNL Slack] &gt; [!UICONTROL Create a Message] weergegeven in het veld Array aggregator &gt; Doelstructuurtype. </p> <p> <img src="assets/array-aggregator-slack.png"> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Aggregated fields]</td> 
@@ -113,7 +113,7 @@ In de volgende afbeelding ziet u een standaard instelling van de module [!UICONT
 
 In dit voorbeeldscenario wordt getoond hoe u alle e-mailbijlagen kunt comprimeren en de ZIP naar [!DNL Dropbox] kunt uploaden.
 
-![ het archiefvoorbeeld van de Dropbox ](assets/dropbox-archive.png)
+![ het archiefvoorbeeld van Dropbox ](assets/dropbox-archive.png)
 
 In het onderstaande scenario wordt getoond hoe u:
 

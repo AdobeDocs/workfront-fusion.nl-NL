@@ -1,19 +1,19 @@
 ---
 title: Fusion Performance Guardraals
-description: De automatisering van het werk vereist snelle verwerking, zodat wordt  [!DNL Adobe Workfront Fusion]  ontworpen voor hoge prestaties. Omdat de langlopende scenario's het tempo van uw werk kunnen vertragen, hebben wij  [!DNL Workfront Fusion]  met prestaties-bewarende begeleiding ontworpen die uitvoeringstijd, gegevensgrootte, en andere scenario parameters beperken. [!DNL Workfront Fusion]  de ontwerpers zouden zich van deze gidsen bewust moeten zijn en hen in hun ontwerppraktijken moeten opnemen.
+description: Voor werkautomatisering is snelle verwerking vereist, dus Adobe Workfront Fusion is ontworpen voor hoge prestaties. Omdat de langlopende scenario's het tempo van uw werk kunnen vertragen, hebben wij de Fusie van Workfront met prestaties-behoud garanties ontworpen die uitvoeringstijd, gegevensgrootte, en andere scenario parameters beperken. Workfront Fusion-ontwerpers dienen zich bewust te zijn van deze voorzorgsmaatregelen en deze op te nemen in hun ontwerppraktijken.
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: e036784fbf241c6d528f2020b7c368249e4f2133
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '1074'
+source-wordcount: '1095'
 ht-degree: 0%
 
 ---
 
 # Garanties voor Fusieprestaties
 
-Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront Fusion] is ontworpen voor hoge prestaties. Omdat de langlopende scenario&#39;s het tempo van uw werk kunnen vertragen, hebben wij [!DNL Workfront Fusion] met prestaties-bewarende garanties ontworpen die uitvoeringstijd, gegevensgrootte, en andere scenario parameters beperken. [!DNL Workfront Fusion] ontwerpers dienen zich bewust te zijn van deze instructies en deze op te nemen in hun ontwerppraktijken.
+Voor werkautomatisering is snelle verwerking vereist, dus Adobe Workfront Fusion is ontworpen voor hoge prestaties. Omdat de langlopende scenario&#39;s het tempo van uw werk kunnen vertragen, hebben wij de Fusie van Workfront met prestaties-behoud garanties ontworpen die uitvoeringstijd, gegevensgrootte, en andere scenario parameters beperken. Workfront Fusion-ontwerpers dienen zich bewust te zijn van deze voorzorgsmaatregelen en deze op te nemen in hun ontwerppraktijken.
 
 ## Browsers
 
@@ -21,17 +21,17 @@ Voor werkautomatisering is snelle verwerking vereist, dus [!DNL Adobe Workfront 
 
 ## Scenarios
 
-* De time-out van de standaardscenario-uitvoering is **40 minuten**. Wanneer de uitvoering deze time-out bereikt, onderbreekt [!DNL Workfront Fusion] de uitvoering van het scenario na de volgende cyclus of bewerking, afhankelijk van het scenario. Dit dwingt het scenario om kort na het bereiken van de limiet van 40 minuten te stoppen
+* De time-out van de standaardscenario-uitvoering is **40 minuten**. Wanneer de uitvoering deze time-out bereikt, onderbreekt Workfront Fusion de uitvoering van het scenario na de volgende cyclus of bewerking, afhankelijk van het scenario. Dit dwingt het scenario om kort na het bereiken van de limiet van 40 minuten te stoppen
 
   Het in de cache plaatsen van scenario&#39;s telt niet naar de uitvoeringstijd van het scenario. Een ouderscenario krijgt geen tijd terwijl het wachten op een kindscenario uit te voeren.
 * De maximumgrootte van een scenario blauwdruk is **5 MB**, maar wij adviseren het houden van scenario grootte onder **3 MB**.
 
   App-modules die gegevens met een groot aantal velden maken of bijwerken, kunnen zeer grote blauwdrukken veroorzaken.
 
-   * Wanneer u de app [!DNL Workfront] gebruikt, moet u alleen velden selecteren die nodig zijn voor het maken of bijwerken van gebruiksgevallen.
+   * Als u de Workfront-app gebruikt, moet u alleen de velden selecteren die nodig zijn voor het maken of bijwerken van gebruiksgevallen.
    * Wanneer u andere toepassingen gebruikt, gebruikt u aangepaste API-modules voor interactie met elk recordtype met een groot aantal velden.
 
-* Hoewel er geen plafond is voor het aantal modules in een scenario, hebben scenario&#39;s met meer dan 150 modules een negatief effect op de prestaties van uw [!DNL Workfront Fusion] systeem. Daarom adviseren wij het creëren van scenario&#39;s met meer dan 150 modules niet.
+* Hoewel er geen plafond is voor het aantal modules in een scenario, hebben scenario&#39;s met meer dan 150 modules een negatief effect op de prestaties van uw Workfront Fusion-systeem. Daarom adviseren wij het creëren van scenario&#39;s met meer dan 150 modules niet.
 
 ## Bewerkingen
 
@@ -60,7 +60,7 @@ Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/
 
 * De standaardmaximumgrootte van een lading is **5 MB**.
 * Webhooks zijn beperkt tot **100 verzoeken per seconde**. Wanneer deze limiet is bereikt, verzendt Workfront Fusion de status 429 ([!UICONTROL Too Many Requests]).
-* In [!DNL Workfront Fusion] worden de payloads van de webhaak 30 dagen opgeslagen. De toegang tot van een Web-haaklading meer dan 30 dagen nadat het werd ontvangen resulteert in de fout &quot;[!UICONTROL Failed to read file from storage.]&quot;
+* Workfront Fusion slaat de payloads op de webhaak gedurende 30 dagen op. De toegang tot van een Web-haaklading meer dan 30 dagen nadat het werd ontvangen resulteert in de fout &quot;[!UICONTROL Failed to read file from storage.]&quot;
 * Webhaken worden automatisch gedeactiveerd als een van de volgende twee situaties van toepassing is:
 
    * De webhaak is langer dan 5 dagen niet verbonden met een scenario

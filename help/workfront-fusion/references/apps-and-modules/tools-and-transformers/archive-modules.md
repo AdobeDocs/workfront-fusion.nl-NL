@@ -1,25 +1,25 @@
 ---
 title: Modules archiveren
-description: In a  [!DNL Adobe Workfront Fusion]  scenario, kunt u een archief, zoals een gecomprimeerd dossier, met veelvoudige derdetoepassingen en de diensten verbinden. U kunt bijvoorbeeld een scenario configureren dat
+description: In een Adobe Workfront Fusion-scenario kunt u een archief, zoals een gecomprimeerd bestand, verbinden met meerdere toepassingen en services van derden. U kunt bijvoorbeeld een scenario configureren dat
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b5ff3d5-601c-4119-ad70-3612ad5ba1ab
-source-git-commit: 640aae1f4b7563545d7f9aa3f801671aa3d45fca
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Archive] modules
 
-In een [!DNL Adobe Workfront Fusion] scenario, kunt u een archief, zoals een gecomprimeerd dossier, in uw scenario gebruiken, toestaand u om het in uw automatiseringen of integraties te gebruiken.
+In een Adobe Workfront Fusion-scenario kunt u een archief, zoals een gecomprimeerd bestand, in uw scenario gebruiken, zodat u het in uw automatisering of integratie kunt gebruiken.
 
 Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md). Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## [!UICONTROL Archive] modules en hun velden
 
-Wanneer u [!UICONTROL Archive] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Archive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
+Wanneer u [!UICONTROL Archive] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Archive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
 Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 

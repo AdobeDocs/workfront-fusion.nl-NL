@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion biedt twee verschillende licenties die bepal
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e2df1a0-c1f9-4833-b1c2-65efb3be9657
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '755'
+source-wordcount: '760'
 ht-degree: 0%
 
 ---
@@ -40,9 +40,9 @@ Neem contact op met uw Workfront Fusion-beheerder voor informatie over het type 
 
 #### Voordelen van Workfront Fusion for Work Automation
 
-Met een Workfront Fusion for Work Automation-licentie kunt u uw [!DNL Workfront] -workflows automatiseren. Met Workfront Fusion for Work Automation kunt u scenario&#39;s maken om de unieke werkprocessen van uw organisatie te automatiseren.
+Met een Workfront Fusion for Work Automation-licentie kunt u uw Workfront-workflows automatiseren. Met Workfront Fusion for Work Automation kunt u scenario&#39;s maken om de unieke werkprocessen van uw organisatie te automatiseren.
 
-Tot de voordelen van het automatiseren van uw [!DNL Workfront] -processen behoren:
+Tot de voordelen van het automatiseren van uw Workfront-processen behoren:
 
 * Automatisering gaat sneller en is minder vatbaar voor fouten.
 * Workflows die geen beslissingen vereisen of die beslissingen hebben, zijn gebaseerd op eenvoudige logica, zoals if/then, zijn goede kandidaten voor automatisering.
@@ -105,8 +105,8 @@ Voor een lijst van beschikbare specifieke schakelaars, zie [ toepassingen van de
 In het volgende voorbeeld wordt een workflow getoond die:
 
 1. Hiermee wordt een spreadsheet gecontroleerd voor nieuwe gebruikers
-1. Controleert of de gebruiker bestaat in [!DNL Workfront]
-1. Hiermee maakt u de gebruiker in [!DNL Workfront] als de gebruiker niet bestond
-1. Uploadt de [!DNL Workfront] -gebruikersnaam terug naar het werkblad.
+1. Controleert of de gebruiker in Workfront bestaat
+1. Hiermee wordt de gebruiker in Workfront gemaakt als de gebruiker niet bestaat
+1. Uploadt de Workfront-gebruikersnaam terug naar het werkblad.
 
 ![ scenario van de automatisering van het Voorbeeld ](assets/fusion-integration-example.png)

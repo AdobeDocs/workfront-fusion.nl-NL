@@ -4,16 +4,16 @@ description: Met Adobe Workfront Fusion Encryptor-modules kunt u alle tekstgegev
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b119efe-6762-445e-bbc7-c59437fd5060
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '845'
 ht-degree: 0%
 
 ---
 
 # Versleuteling
 
-[!DNL Adobe Workfront Fusion] [!UICONTROL Encryptor] -modules kunt u alle tekstgegevens versleutelen. Zij steunen momenteel berichtencryptie via AES256 en PGP ([!UICONTROL OpenPGP]).
+Met Adobe Workfront Fusion [!UICONTROL Encryptor] -modules kunt u tekstgegevens versleutelen. Zij steunen momenteel berichtencryptie via AES256 en PGP ([!UICONTROL OpenPGP]).
 
 Deze modules vereisen enige vertrouwdheid met encryptieprocessen.
 
@@ -54,7 +54,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over [!DNL Adobe Workfront Fusion] vergunningen, zie [[!DNL Adobe Workfront Fusion]  vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 

@@ -4,9 +4,9 @@ description: 'Adobe Workfront Fusion onderscheidt vijf typen modules: actiemodul
 author: Becky
 feature: Workfront Fusion
 exl-id: 4c8fe028-8425-426d-a006-f0c66871b3cd
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '887'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Scenario&#39;s kunnen een onbeperkt aantal actiemodules bevatten, hoewel grote a
 
 **Voorbeelden:**
 
-* **[!DNL Workfront]>[!UICONTROL Upload a file]** verzendt een bestand naar [!DNL Workfront] en retourneert de id ervan.
+* **Workfront >[!UICONTROL Upload a file]** verzendt een dossier naar Workfront en keert zijn herkenningsteken terug.
 * **[!UICONTROL Image]>[!UICONTROL Resize]** ontvangt een afbeelding, past deze aan de opgegeven afmetingen aan en geeft de gewijzigde afbeelding door aan de volgende actie.
 
 >[!ENDSHADEBOX]
@@ -80,7 +80,7 @@ Scenario&#39;s kunnen een onbeperkt aantal modules van het Onderzoek bevatten, h
 
 **Voorbeeld:**
 
-**[!DNL Workfront]>[!UICONTROL Read Related Records]** leest records die overeenkomen met de zoekquery die u opgeeft, in een bepaald bovenliggend object.
+**Workfront >[!UICONTROL Read Related Records]** leest verslagen die de onderzoeksvraag aanpassen u, in een bepaald oudervoorwerp specificeert.
 
 >[!ENDSHADEBOX]
 
@@ -94,7 +94,7 @@ Omdat de Trekkers scenario&#39;s veroorzaken om met uitvoering te beginnen, kunn
 
 Elk scenario kan slechts één trekker bevatten.
 
-[!DNL Workfront Fusion] gebruikt twee typen triggers: opiniepeilingtriggers en Instant-triggers.
+Workfront Fusion gebruikt twee typen triggers: opiniepeilingtriggers en Instant-triggers.
 
 ### Opiniepeilingtriggers
 
@@ -110,7 +110,7 @@ Voor meer informatie, zie [ kiezen waar een trekkermodule ](/help/workfront-fusi
 
 **Voorbeelden:**
 
-* **[!DNL Workfront]>[!UICONTROL Watch records]** retourneert records die pas zijn toegevoegd nadat het scenario voor het laatst is uitgevoerd.
+* **Workfront >[!UICONTROL Watch records]** keert verslagen terug die onlangs na de laatste tijd werden toegevoegd het scenario in werking gesteld.
 
 * **[!DNL Google Sheets]>[!UICONTROL Watch Rows]** retourneert nieuwe rijen die zijn toegevoegd na de laatste keer dat het scenario werd uitgevoerd.
 
@@ -118,7 +118,7 @@ Voor meer informatie, zie [ kiezen waar een trekkermodule ](/help/workfront-fusi
 
 ### Instant triggers
 
-Met instant-triggers kan een service [!DNL Workfront Fusion] direct na een wijziging op de hoogte stellen. Wij adviseren dat u een scenario plant dat een onmiddellijke trekker bevat om onmiddellijk te lopen.
+Met instant-triggers kan een service Workfront Fusion direct na een wijziging op de hoogte stellen. Wij adviseren dat u een scenario plant dat een onmiddellijke trekker bevat om onmiddellijk te lopen.
 
 Voor instructies, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 
@@ -128,7 +128,7 @@ Voor details op hoe de inkomende gegevens door een onmiddellijke trekker worden 
 
 **Voorbeelden:**
 
-* **[!DNL Workfront]>[!UICONTROL Watch Events]** geeft informatie wanneer een bepaald type gebeurtenis in Workfront plaatsvindt, zoals het maken van een taak.
+* **Workfront >[!UICONTROL Watch Events]** keert informatie terug wanneer een bepaald type van gebeurtenis in Workfront, zoals de verwezenlijking van een taak voorkomt.
 * **[!DNL Google Sheets]>[!UICONTROL Watch Changes]** geeft informatie wanneer een cel wordt bijgewerkt.
 
 >[!ENDSHADEBOX]
@@ -173,4 +173,4 @@ Scenario&#39;s kunnen een onbeperkt aantal iterators bevatten, hoewel grote aant
 
 >[!ENDSHADEBOX]
 
-Voor meer informatie, zie [&#128279;](/help/workfront-fusion/references/modules/iterator-module.md) de module van de Teller 0&rbrace; en [ Kaart een serie ](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md).
+Voor meer informatie, zie [ de module van de Teller 0} en ](/help/workfront-fusion/references/modules/iterator-module.md) Kaart een serie [.](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)
