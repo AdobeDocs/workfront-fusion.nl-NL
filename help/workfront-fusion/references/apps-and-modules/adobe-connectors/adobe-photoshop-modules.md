@@ -4,7 +4,7 @@ description: Met de Adobe Photoshop-modules kunt u een Adobe Workfront Fusion-sc
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0e41d1af-af69-4f9b-a5b3-479562254084
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 95d52f8227c8a40c0db165eea9d2877e60446de9
 workflow-type: tm+mt
 source-wordcount: '4716'
 ht-degree: 0%
@@ -276,7 +276,7 @@ In deze actiemodule worden diverse bewerkingen op document- en laagniveau toegep
       <td role="rowheader">
         <p>[!UICONTROL (Options) Layers]</p>
       </td>
-   <td> Voor elke laag die u wilt toevoegen, klikt u op Item toevoegen en vult u de laagdetails in. <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_applyPsdEdits/"> PSD uitgeven </a> in de documentatie van Adobe Photoshop toepassen.  </td> 
+   <td> Voor elke laag die u wilt toevoegen, klikt u op Item toevoegen en vult u de laagdetails in. <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/modifyDocumentAsync"> PSD uitgeven </a> in de documentatie van Adobe Photoshop toepassen.  </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Outputs]</td>
@@ -552,7 +552,7 @@ Deze actiemodule maakt een nieuwe PSD met optionele lagen en genereert uitvoerin
       <td role="rowheader">
         <p>[!UICONTROL (Options) Layers]</p>
       </td>
-   <td> Voor elke laag die u wilt toevoegen, klikt u op Item toevoegen en vult u de laagdetails in. <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_createPsd/"> PSD </a> in de documentatie van Adobe Photoshop creëren.  </td> 
+   <td> Voor elke laag die u wilt toevoegen, klikt u op Item toevoegen en vult u de laagdetails in. <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/createDocumentAsync"> PSD </a> in de documentatie van Adobe Photoshop creëren.  </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -599,7 +599,7 @@ Deze actiemodule maakt een nieuwe PSD met optionele lagen en genereert uitvoerin
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Other fields]</td>
       <td>
-        <p><p>Voor details over outputopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_createPsd/"> PSD </a> in de documentatie van Adobe Photoshop creëren.  </p>
+        <p><p>Voor details over outputopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/createDocumentAsync"> PSD </a> in de documentatie van Adobe Photoshop creëren.  </p>
       </td>
     </tr>
     </tbody>
@@ -649,7 +649,7 @@ In deze actiemodule worden tekstlagen bewerkt in een Photoshop-bestand. U kunt a
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Layers]</td>
-   <td> <p>Voor elke tekstlaag die u wilt uitgeven, <b> toevoegen punt </b> en ga de laagopties in.<p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_editText/"> tekst </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
+   <td> <p>Voor elke tekstlaag die u wilt uitgeven, <b> toevoegen punt </b> en ga de laagopties in.<p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/editTextLayerAsync"> tekst </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL (Output) Storage]</td>
       <td>
@@ -723,7 +723,7 @@ Om veelvoudige lagen uit te geven, gebruik [ tekstlagen ](#edit-text-layers) mod
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Layers]</td>
-   <td> <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_editText/"> tekstlaag </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
+   <td> <p>Voor details over laagopties, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/editTextLayerAsync"> tekstlaag </a> in de documentatie van Adobe Photoshop uitgeven.</p>  </td>     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Output file storage]</td>
       <td>
@@ -885,7 +885,7 @@ Deze actiemodule voert Diepte vervagen op het geselecteerde bestand uit.
    <tr>
       <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
-        <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_depthBlur/"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
+        <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/applyDepthBlurAsync"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
       </td>
     </tr>
   </tbody>
@@ -972,7 +972,7 @@ Deze actiemodule voert een Photoshop-actie uit op de geselecteerde afbeelding.
    <tr>
       <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
-        <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_depthBlur/"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
+        <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/applyDepthBlurAsync"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
       </td>
     </tr>
   </tbody>
@@ -1047,7 +1047,7 @@ Deze actiemodule voert het Uitsnijden van het Product op het geselecteerde beeld
    <tr>
       <td role="rowheader">[!UICONTROL Other fields]</td>
       <td>
-        <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_depthBlur/"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
+        <p>Voor details over andere opties van het Onduidelijke beeld van de Diepte, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/applyDepthBlurAsync"> Uitvoeren Vervaging van de Diepte </a> in de documentatie van Adobe Photoshop API.</p>
       </td>
     </tr>
   </tbody>
@@ -1238,7 +1238,7 @@ Deze module gebruikt versie 2 van de API voor slimme objecten.
       <td role="rowheader">
         <p>[!UICONTROL Layers]</p>
       </td>
-   <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de geavanceerde montages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
+   <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de geavanceerde montages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/replaceSmartObjectAsync"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
     </tr>
     <tr>
       <td role="rowheader">
@@ -1303,7 +1303,7 @@ In deze module wordt de oudere versie van slimme objecten gebruikt.
       <td role="rowheader">
         <p>[!UICONTROL Layers]</p>
       </td>
-   <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de geavanceerde montages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/photoshop_replaceSmartObject/"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
+   <td>Klik voor elke laag die u aan het slimme object wilt toevoegen op Item toevoegen en voer de naam of id van het object in, de bestandsservice waar het slimme object is opgeslagen en de URL of het pad van de laag.<p>Voor beschrijvingen van de geavanceerde montages op dit gebied, zie <a href="https://developer.adobe.com/firefly-services/docs/photoshop/api/#operation/replaceSmartObjectAsync"> een Slim Voorwerp </a> in de documentatie van Photoshop API vervangen </td> 
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL Outputs]</td>
