@@ -4,9 +4,9 @@ description: In een scenario van de Fusie van Adobe Workfront, kunt u werkschema
 author: Becky
 feature: Workfront Fusion
 exl-id: 92cac080-d8f6-4770-a6a6-8934538c978b
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 1e2a9fcfdfb15f1b254e7b4b32fc618b49de56e5
 workflow-type: tm+mt
-source-wordcount: '2028'
+source-wordcount: '2164'
 ht-degree: 0%
 
 ---
@@ -564,6 +564,24 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 * [[!UICONTROL List records]](#list-records)
 * [[!UICONTROL Search for records]](#search-for-records)
+
+>[!IMPORTANT]
+>
+>De zoekmodule die door de verouderde Jira-connector wordt gebruikt, kan de volgende fout opleveren:
+>
+>`[410] The requested API has been removed. Please migrate to the /rest/api/3/search/jql API. A full migration guideline is available at https://developer.atlassian.com/changelog/#CHANGE-2046`
+>
+>Dit is te wijten aan een afkeer aan de zijde van Jira.
+>
+>Als deze fout optreedt, kunt u de zoekmodule van de verouderde Jira-connector vervangen door de zoekmodule van de nieuwe connector. Met de nieuwe connector kunt u de gebruikte API-versie selecteren. Zorg ervoor dat u V3 selecteert wanneer u de verbinding maakt.
+>
+> ![ API versieoptie in nieuwe schakelaar van Jira ](/help/workfront-fusion/references/apps-and-modules/assets/jira-version-option.png)
+>
+>Let op:
+>
+>* Dit heeft alleen invloed op de module Zoeken. Op dit moment worden andere Jira API-eindpunten die door de Fusion-connector worden gebruikt, niet beïnvloed door deze afleiding.
+>
+>* Geografische rollout kan inconsistenties veroorzaken. Atlassian voert deze verandering regionaal uit, wat betekent sommige instanties van de Wolk van Jira nog kunnen oudere eindpunten tijdelijk steunen. Dit kan leiden tot inconsequent gedrag in verschillende omgevingen.
 
 #### [!UICONTROL List records]
 
