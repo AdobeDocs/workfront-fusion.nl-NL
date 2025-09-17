@@ -4,9 +4,9 @@ description: Met Adobe Workfront Fusion Devtool kunt u scenario's begrijpen en p
 author: Becky
 feature: Workfront Fusion
 exl-id: 34215370-27e3-4c28-8bd1-a16268900b86
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 71bd96915f21922d637433010acea9321ed476d5
 workflow-type: tm+mt
-source-wordcount: '1367'
+source-wordcount: '1398'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Met Adobe Workfront Fusion Devtool kunt u scenario&#39;s begrijpen en problemen 
 Ga voor een video-introductie en doorloop van het Fusion Devtool naar
 
 * [ het Hulpmiddel van de Ontwikkeling van de Fusie ](https://video.tv.adobe.com/v/3427031/){target=_blank}
-* [ Devtool walkthrough ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=nl-NL)
+* [ Devtool walkthrough ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## Toegangsvereisten
 
@@ -150,6 +150,12 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
    </table>
 
 ### Scenario-foutopsporing
+
+>[!NOTE]
+>
+>Om snel naar debugger van een scenario te gaan dat uit heeft geëist, kunt u **klikken krijgt details** in het foutenbericht in de moduleoutput.
+>
+>![ krijgt details in moduleoutput ](assets/go-to-debugger.png)
 
 Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschiedenis van de scenario looppas en laat u toe om modules door hun naam of identiteitskaart te zoeken.
 
