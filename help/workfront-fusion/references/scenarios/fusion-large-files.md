@@ -4,9 +4,9 @@ description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: a5a98d2e0b246d46389d4574e29f91c74f053472
+source-git-commit: 80cb3736d96d4b7c3226d78149842a80077e3551
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -64,9 +64,15 @@ Als u met grotere bestanden wilt werken, raden wij u aan de oudere module te ver
 
 ### Wat is de nieuwe maximale bestandsgrootte?
 
-Gebruikers kunnen nu bestanden verwerken die de vorige limiet van 1 GB overschrijden, wat de efficiëntie en productiviteit verhoogt.  Hoewel het platform afzonderlijke bestanden tot 15 GB voor één actie kan ondersteunen (zoals het uploaden van een bestand), zijn er andere factoren die van invloed zijn op de gegevensoverdracht. De maximale bestandsgrootte van één actie is uiteindelijk afhankelijk van de webservice waarmee Fusion verbinding maakt. Gegevensoverdracht is de totale verwerking voor één uitvoering. Dit betekent dat meerdere acties in één uitvoering bijdragen aan de totale gegevensoverdracht.
+Gebruikers kunnen nu bestanden verwerken die de vorige limiet van 1 GB overschrijden, wat de efficiëntie en productiviteit verhoogt.  Hoewel er geen gedefinieerde maximale bestandsgrootte is voor het Workfront Fusion-platform, zijn er andere factoren die het gebruik van grote bestanden kunnen beïnvloeden:
 
-Fusion verwerkt bestanden totdat de uitvoerlimiet van 40 minuten is bereikt. Het kan enige tijd duren om grote bestanden te uploaden, te downloaden of te verwerken in uw Fusion-scenario. Hoewel er geen limiet is voor de afzonderlijke bestandsgrootte, geldt er een limiet van 40 minuten voor de uitvoeringstijd van scenario&#39;s. Als grote bestanden ertoe leiden dat de uitvoering meer dan 40 minuten in beslag neemt, mislukt het scenario. De de uitvoeringstijd van het scenario kan ook door scenario grootte, moduleingewikkeldheid, en netwerksnelheid worden beïnvloed. Daarom adviseren wij dat u deze aspecten van uw scenario&#39;s wanneer het gebruiken van grote dossiers in overweging neemt.
+* **de groottebeperkingen van het Dossier van de dienst die de Fusie met** verbindt: Als de dienst dossiergrootte beperkt, verhelpt Workfront Fusion niet die beperking. De beperkingen van de bestandsgrootte zijn uiteindelijk afhankelijk van de webservice waarmee Fusion verbinding maakt.
+
+* **de uitvoeringstijd van het Scenario**: De verwerking van de fusie dossiers van om het even welke grootte tot de uitvoeringsgrens van 40 minuten wordt bereikt. Het kan enige tijd duren om grote bestanden te uploaden, te downloaden of te verwerken in uw Fusion-scenario. Als grote bestanden ertoe leiden dat de uitvoering meer dan 40 minuten in beslag neemt, mislukt het scenario. De de uitvoeringstijd van het scenario kan ook door scenario grootte, moduleingewikkeldheid, en netwerksnelheid worden beïnvloed. Daarom adviseren wij dat u deze aspecten van uw scenario&#39;s wanneer het gebruiken van grote dossiers in overweging neemt.
+
+>[!NOTE]
+>
+>We raden u aan de bestandsgrootte te beperken tot 15 GB.
 
 ### Hoe werkt de nieuwe bestandsoverdracht van Fusion?
 
@@ -92,7 +98,7 @@ Deze functie is al voltooid en geïmplementeerd voor productie.
 
 Het ontwerpen van een scenario om binnen de uitvoeringsgrens van 40 minuten te werken kan gecompliceerd lijken. Wij adviseren het volgende in mening te houden wanneer het ontwerpen van een scenario:
 
-* **begrijp uw bedrijfsvereisten voor uitvoeringstijd**: De het platformgrens van Fusion voor uitvoeringstijd is 40 minuten, maar de meeste bedrijfsprocesautomatiseringen worden verwacht om veel sneller uit te voeren. Bijvoorbeeld, gebruiker-in werking gestelde automatiseringen met resultaat-afhankelijke voortzetting zouden naar verwachting goed onder de 40 minieme grens voltooien.
+* **begrijp uw bedrijfsvereisten voor uitvoeringstijd**: De het platformgrens van Fusion voor uitvoeringstijd is 40 minuten, maar de meeste bedrijfsprocesautomatiseringen worden verwacht om veel sneller uit te voeren. Voorbeeld: van door de gebruiker geïnitieerde automatiseringen met resultaatafhankelijke voortzetting wordt verwacht dat deze goed onder de limiet van 40 minuten worden voltooid.
 * **overweeg uitvoeringstijd wanneer het ontwerpen van**: Wanneer het ontwerpen van uw scenario, is het essentieel om de tijd van de moduleuitvoering voor individuele dossieracties, zoals uploads en downloads te begrijpen. Deze kennis helpt u scenario&#39;s te plannen die veelvoudige dossieracties impliceren.  Om nauwkeurigheid in uw ontwerp te verzekeren, adviseren wij ronding van de uitvoeringstijd van de module tot een buffer.
 Als Fusion bijvoorbeeld een document in 144 seconden (2,4 minuten) downloadt, kunt u verwachten dat één uitvoering meerdere keren vergelijkbare handelingen kan uitvoeren. In dit voorbeeld duurt het uitvoeren van de module 144 seconden en u moet 3 minuten wachten voordat de module is gedownload. Als uw vereisten zowel een upload als een download omvatten, zou de verwachte uitvoeringstijd ongeveer 6 minuten zijn. Merk op dat de uitvoeringstijden van de Fusie beperkt zijn tot 40 minuten.
 

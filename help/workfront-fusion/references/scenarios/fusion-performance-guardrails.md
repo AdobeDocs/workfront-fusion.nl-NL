@@ -4,9 +4,9 @@ description: Voor werkautomatisering is snelle verwerking vereist, dus Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 80cb3736d96d4b7c3226d78149842a80077e3551
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1075'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus Adobe Workfront Fusion
 ## Bestanden
 
 * De totale verwerkingscapaciteit van de fusie voor dossiers is **1 GB**. De limiet is gebaseerd op de totale geheugenkosten. Elke operatie draagt aan die kosten bij. Als één bestand van 400 MB wordt gedownload en geüpload, kost de totale bestandscapaciteit 800 MB.
-* Organisaties op het Workfront Ultimate-plan hebben toegang tot meer dan 1 GB aan bestandsverwerking. Het Fusion-platform kan ondersteuning bieden voor afzonderlijke bestanden van maximaal 15 GB voor één actie (bijvoorbeeld uploadbestand), maar er zijn andere factoren die van invloed zijn op de gegevensoverdracht. De maximale bestandsgrootte van één actie is afhankelijk van de verbinding die Fusion voor webservices maakt. Gegevensoverdracht is de totale verwerking voor één uitvoering. Dit betekent dat meerdere acties in één uitvoering bijdragen aan de totale gegevensoverdracht. Fusion verwerkt bestanden totdat de uitvoerlimiet van 40 minuten is bereikt.
+* Organisaties op het Workfront Ultimate-plan hebben toegang tot meer dan 1 GB aan bestandsverwerking. Er zijn echter andere factoren die van invloed zijn op de gegevensoverdracht. De service waarmee Fusion verbinding maakt, kan de bestandsgrootte beperken. Dit zou van invloed zijn op bestanden die door die service worden verwerkt. Daarnaast kunnen grote bestanden de uitvoeringstijd van scenario&#39;s beïnvloeden. Fusion verwerkt bestanden totdat de uitvoerlimiet van 40 minuten is bereikt, waarna de uitvoering mislukt.
 * Als een bestand wordt gedownload met een module die grote bestanden ondersteunt en vervolgens wordt doorgegeven aan een module die geen grote bestanden ondersteunt, wordt het bestand niet verwerkt. Grote bestanden moeten tijdens de gehele workflow uitsluitend met ondersteunde modules worden afgehandeld.
 * De modules die geen grote dossiers steunen kunnen dossiers tot **200 MB** in grootte verwerken.
 
@@ -71,7 +71,7 @@ Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/
 ## Uitvoeringshistorie
 
 * De geschiedenislogboeken van de uitvoering zijn beperkt tot een grootte van **100 MB**. Als de uitvoeringsgeschiedenis deze grootte overschrijdt, slechts zal eerste 100 MB worden getoond.
-* Als een scenario veelvoudige gezamenlijke uitvoeringen heeft. er worden slechts 5 uitvoeringen weergegeven in het gedeelte Uitvoeringen van de pagina met de details van het scenario. Dit geldt zelfs wanneer meer dan vijf uitvoeringen worden uitgevoerd.
+* Als een scenario veelvoudige gezamenlijke uitvoeringen heeft, slechts 5 uitvoeringen tonen in het gebied van Uitvoeringen van de pagina van de scenariodetails. Dit geldt zelfs wanneer meer dan vijf uitvoeringen worden uitgevoerd.
 
 ## Onvolledige uitvoeringen
 
