@@ -5,9 +5,9 @@ description: Wij adviseren de facultatieve maar nuttige praktijk om nota's over 
 author: Becky
 feature: Workfront Fusion
 exl-id: 754601fa-b572-42c2-96a3-3c36a8ed2c56
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 7f4709920e52f6b8660370af83de1f11eecbf092
 workflow-type: tm+mt
-source-wordcount: '143'
+source-wordcount: '158'
 ht-degree: 0%
 
 ---
@@ -25,3 +25,7 @@ Wij adviseren de facultatieve maar nuttige praktijk om nota&#39;s aan uw scenari
    Nadat u een nota aan een scenario toevoegt, toont een blauwe puntenvertoningen op het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
 
 1. Om alle nota&#39;s te bekijken of te verbergen, klik het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png).
+
+   Wanneer notities zijn geopend, verschijnt er een cirkel rond het pictogram Notities.
+
+   ![ pictogram van Nota&#39;s met cirkel ](assets/notes-icon-with-circle.png)

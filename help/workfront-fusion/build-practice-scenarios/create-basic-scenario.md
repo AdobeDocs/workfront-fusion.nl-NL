@@ -7,9 +7,9 @@ description: Leer hoe u een eenvoudig automatiseringsscenario maakt met Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 7f4709920e52f6b8660370af83de1f11eecbf092
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1364'
 ht-degree: 0%
 
 ---
@@ -191,9 +191,9 @@ Voor dit scenario, zou een succesvolle test in het bepalen van het verzoek resul
 >
 >1. Sluit het **[!UICONTROL Notes]** -gebied.
 >
->     Nadat u een nota aan een scenario toevoegt, toont een oranje punt op het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
+>     Nadat u een nota aan een scenario toevoegt, toont een puntenvertoningen op het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
 >
->1. Klik het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) om uw nota&#39;s te bekijken.
+>1. Klik het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) om uw nota&#39;s te bekijken. Wanneer notities zijn geopend, verschijnt er een cirkel rond het pictogram Notities.
 >
 
 ## Het scenario activeren
