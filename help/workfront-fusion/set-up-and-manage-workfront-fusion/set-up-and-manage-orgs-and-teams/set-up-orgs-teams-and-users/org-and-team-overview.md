@@ -4,9 +4,9 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 44e6de2a-b2d3-410d-abc3-10facd258495
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4cd97fe2924150b9e7be140a25215f135b2788da
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '530'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Gebruikers moeten aan een organisatie worden toegevoegd voordat ze aan een team 
 Een gebruiker heeft een van de volgende rollen in een organisatie:
 
 * **[!UICONTROL Owner]**: De eigenaar heeft alle machtigingen die beschikbaar zijn in de organisatie.
-* **[!UICONTROL Admin]**: beheerders kunnen teams en gebruikers voor de organisatie maken en beheren en kunnen sjablonen goedkeuren.
+* **[!UICONTROL Admin]**: beheerders kunnen gebruikers op de Adobe Admin Console beheren als de organisatie is ingeschakeld voor Adobe Identity Management System (IMS) of als ze nieuwe gebruikers kunnen uitnodigen voor organisaties die zich niet op IMS bevinden. Ze kunnen ook sjablonen goedkeuren.
 * **[!UICONTROL Member]**: Leden kunnen Workfront Fusion gebruiken, maar kunnen geen organisatorische wijzigingen doorvoeren.
 * **[!UICONTROL Accountant]**: Accountants kunnen de licentiegegevens bekijken op het dashboard van de organisatie, maar kunnen geen handelingen uitvoeren.
 * **[!UICONTROL App Developer]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.

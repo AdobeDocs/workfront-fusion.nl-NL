@@ -4,9 +4,9 @@ description: Dit artikel omvat informatie over de toegang en de toestemmingen va
 author: Becky
 feature: Workfront Fusion
 exl-id: 92f3bb09-0b66-45cd-84ef-88b2aa246be1
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4cd97fe2924150b9e7be140a25215f135b2788da
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Dit artikel beschrijft de toegang en de functionaliteit beschikbaar aan de versc
   <tr> 
    <td> <p>Organisatiegebruikers beheren</p> </td> 
    <td>✓ </td> 
-   <td>✓</td> 
+   <td>✓<p>Gebruikers op Adobe Admin Console kunnen beheren als org zich op Adobe IMS bevindt. Kan gebruikers alleen uitnodigen naar andere organisaties.</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
