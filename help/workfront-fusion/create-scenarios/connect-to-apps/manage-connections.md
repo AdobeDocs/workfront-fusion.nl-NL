@@ -7,9 +7,9 @@ description: Voor de meeste toepassingen is het nodig een verbinding te maken wa
 author: Becky
 feature: Workfront Fusion
 exl-id: 26d7caad-8e12-4f04-ac7c-f71686c90ee6
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: d13312031955a697e10ddfcdc2e64dfe198b3dac
 workflow-type: tm+mt
-source-wordcount: '466'
+source-wordcount: '553'
 ht-degree: 0%
 
 ---
@@ -80,9 +80,10 @@ U kunt alle verbindingen van het gebied van Verbindingen beheren.
 1. (Facultatief) wijs een milieu en verbindingstype toe door het **Milieu** en **Type** dropdowns te klikken en een optie te selecteren.
 1. (Facultatief) om te bekijken welke toestemmingen aan de Fusie van Workfront voor de verbinding werden gegeven, klik het pictogram van de Mening ![ de verbindingstoestemmingen van de Mening ](assets/view-connection-permissions.png) voor die verbinding.
 1. (Optioneel) Als u de naam van een verbinding wilt wijzigen, markeert u de naam van de verbinding en typt u de nieuwe naam.
-1. (Facultatief) om een verbinding opnieuw toe te staan, klik **opnieuw machtigen**.
-1. (Facultatief) om een verbinding te schrappen, klik **Schrapping**, dan klik **Echt?**.
-1. (Facultatief) om te verifiëren dat de verbinding aan de dienst met succes werd gevestigd, klik **verifieer**.
+1. (Facultatief) om een verbinding opnieuw toe te staan, controleer checkbox naast de verbinding, dan klik **opnieuw machtigen** dichtbij de bodem van het scherm.
+1. (Facultatief) om een verbinding te schrappen, controleer checkbox naast de verbinding, klik **Schrapping** dichtbij de bodem van het scherm, dan klik **Echt?**.
+1. (Facultatief) om te verifiëren dat de verbinding aan de dienst met succes werd gevestigd, controleer checkbox naast de verbinding, dan klik **verifieer** dichtbij de bodem van het scherm.
+1. Om actieve scenario&#39;s te bekijken die deze verbinding gebruiken, controleer checkbox naast de verbinding, dan klik **Actieve Scenario&#39;s van de Opvanging**. U kunt een scenario in de Actieve lijst van scenario&#39;s dan klikken om naar dat scenario te gaan.
 
 ## Een verbinding vernieuwen
 
@@ -92,7 +93,7 @@ Een verbinding vernieuwen:
 
 1. Om het gebied van Verbindingen te openen, klik **het pictogram van Verbindingen** ![ Verbindingen ](assets/connections-icon.png) in de linkernavigatie.
 1. Zoek de verbinding die u wilt vernieuwen.
-1. Klik in de regel voor die verbinding op de knop **[!UICONTROL Reauthorize]** in het **[!UICONTROL Connections]** -gebied.
+1. In de lijn voor die verbinding, controleer checkbox naast de verbinding, dan klik **opnieuw machtigen** dichtbij de bodem van het scherm.
 
 ## Bronnen
 

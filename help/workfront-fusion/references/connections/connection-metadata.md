@@ -4,9 +4,9 @@ description: Fusion gebruikt metagegevens om belangrijke kenmerken van een verbi
 author: Becky
 feature: Workfront Fusion
 exl-id: b41fbe8c-30fa-49d0-8a24-3535642b97ae
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: d13312031955a697e10ddfcdc2e64dfe198b3dac
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -19,9 +19,11 @@ Verbindingsmetagegevens kunnen worden ingesteld wanneer u een nieuwe verbinding 
 
 ![ meta-gegevens van de Verbinding ](assets/connection-metadata-setup.png)
 
-Fusiegebruikers kunnen verbindingen weergeven en bewerken vanuit het gebied Verbindingen.
+Fusiegebruikers kunnen verbindingen weergeven en bewerken vanuit het gebied Verbindingen. U kunt het gebied van Verbindingen bereiken door Verbindingen in de linkernavigatie te klikken.
 
-![ meta-gegevens van de Verbinding in het gebied van Verbindingen ](assets/connections-area-metadata.png)
+![ het gebied van Verbindingen in linkernavigatie ](assets/connections-in-left-nav.png)
+
+<!--![Connection metadata in Connections area](assets/connections-area-metadata.png)-->
 
 ## Omgevingstype
 
@@ -35,7 +37,7 @@ De verbindingen van de fusie kunnen voor zowel de dienstrekeningen als persoonli
 
 Het verificatietype wordt, net als andere verbindingsmetagegevens, alleen ter informatie gebruikt. De gebruikers zijn verantwoordelijk voor nauwkeurig het plaatsen van dit attribuut, en het gebruiken van het correcte type van verbinding in een scenario.
 
-Voor meer informatie over authentificatietypen, te zien gelieve [ Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van de Authentificatie van de Adobe.
+Voor meer informatie over authentificatietypen, te zien gelieve [ Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van de Authentificatie van Adobe.
 
 ## Bronnen
 
