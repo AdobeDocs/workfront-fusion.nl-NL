@@ -17,11 +17,11 @@ Fusion gebruikt metagegevens om belangrijke kenmerken van een verbinding te iden
 
 Verbindingsmetagegevens kunnen worden ingesteld wanneer u een nieuwe verbinding maakt. Deze kenmerken bevinden zich in hetzelfde dialoogvenster dat wordt gebruikt voor het instellen van een verbinding:
 
-![ meta-gegevens van de Verbinding ](assets/connection-metadata-setup.png)
+![&#x200B; meta-gegevens van de Verbinding &#x200B;](assets/connection-metadata-setup.png)
 
 Fusiegebruikers kunnen verbindingen weergeven en bewerken vanuit het gebied Verbindingen. U kunt het gebied van Verbindingen bereiken door Verbindingen in de linkernavigatie te klikken.
 
-![ het gebied van Verbindingen in linkernavigatie ](assets/connections-in-left-nav.png)
+![&#x200B; het gebied van Verbindingen in linkernavigatie &#x200B;](assets/connections-in-left-nav.png)
 
 <!--![Connection metadata in Connections area](assets/connections-area-metadata.png)-->
 
@@ -37,8 +37,8 @@ De verbindingen van de fusie kunnen voor zowel de dienstrekeningen als persoonli
 
 Het verificatietype wordt, net als andere verbindingsmetagegevens, alleen ter informatie gebruikt. De gebruikers zijn verantwoordelijk voor nauwkeurig het plaatsen van dit attribuut, en het gebruiken van het correcte type van verbinding in een scenario.
 
-Voor meer informatie over authentificatietypen, te zien gelieve [ Authentificatie ](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van de Authentificatie van Adobe.
+Voor meer informatie over authentificatietypen, te zien gelieve [&#x200B; Authentificatie &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/) in de gids van de Authentificatie van Adobe.
 
 ## Bronnen
 
-* Voor instructies bij het beheren van verbindingsmeta-gegevens, zie [ verbindingen ](/help/workfront-fusion/create-scenarios/connect-to-apps/manage-connections.md) beheren.
+* Voor instructies bij het beheren van verbindingsmeta-gegevens, zie [&#x200B; verbindingen &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/manage-connections.md) beheren.
