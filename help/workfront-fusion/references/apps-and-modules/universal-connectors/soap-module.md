@@ -4,9 +4,9 @@ description: Met de SOAP-module kunt u verbinding maken met SOAP API's in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: dbcc04f8-8306-4a81-aed8-1ce0798e145f
-source-git-commit: 95d52f8227c8a40c0db165eea9d2877e60446de9
+source-git-commit: 29f9595d063e89e9cd393fecba07194d2e9008aa
 workflow-type: tm+mt
-source-wordcount: '583'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -185,7 +185,7 @@ Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschi
    <!--![Service](/help/workfront-fusion/references/apps-and-modules/assets/service-350x65.png)-->
 
 1. Kopieer de URL van het kenmerk `location` wanneer u deze hebt gevonden.
-1. Plak in Workfront Fusion de URL in het veld URL van de HTTP-module.
+1. In de Fusie van Workfront, kleef URL in het de inhoudsgebied van het Verzoek van de module van HTTP **** gebied.
 1. Geef waarden op voor de geselecteerde parameters door de vraagtekens te vervangen door werkelijke waarden.
 
    >[!NOTE]
