@@ -4,7 +4,7 @@ description: Met de Adobe Experience Manager Assets-connector voor Adobe Workfro
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 361e6c9c-1497-4f47-85bb-503619744968
-source-git-commit: d62a8bd4675c034581f6cf5f3a1e61c177de5ebc
+source-git-commit: 190c35629f1fc1e07eef4110f3f4f771af1065fb
 workflow-type: tm+mt
 source-wordcount: '3727'
 ht-degree: 0%
@@ -67,10 +67,10 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 * U moet een Adobe Experience Manager Assets-account hebben om deze modules te kunnen gebruiken.
 * U moet server-aan-server stroom in de console van Adobe Developer plaatsen.
 
-  Voor instructies bij vestiging server-aan-server stroom in de console van Adobe Developer, zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=nl-NL#the-server-to-server-flow).
+  Voor instructies bij vestiging server-aan-server stroom in de console van Adobe Developer, zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 * Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 
-  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [ in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
+  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst [ in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
 
 ## Adobe Experience Manager Assets API-informatie
 
@@ -118,11 +118,11 @@ Verbinding maken voor uw Adobe Experience Manager Assets-modules:
 >
 >* De informatie voor deze velden wordt gegenereerd als onderdeel van het instellen van server-naar-server flow op de Adobe Developer Console. U kunt deze waarden vinden in het JSON-bestand met servicereferenties dat is gegenereerd als onderdeel van die instelling.
 >
->   Voor instructies bij vestiging server-aan-server stroom op Adobe Developer Console, zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=nl-NL#the-server-to-server-flow).
+>   Voor instructies bij vestiging server-aan-server stroom op Adobe Developer Console, zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 >
 >* Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 >
->   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [ in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
+>   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst [ in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
 
 
 <table style="table-layout:auto"> 
@@ -164,8 +164,8 @@ Verbinding maken voor uw Adobe Experience Manager Assets-modules:
                   <td class="">Voer de id van uw organisatie in als u de gegevens handmatig invoert. Dit is het veld "org" in het JSON-bestand met clientreferenties.</td>
               </tr>
               <tr>
-                  <td role="rowheader">Metabereiken</td>
-                  <td>Voer de meta-bereiken in die in de server-aan-server opstelling worden geproduceerd.</td>
+                  <td role="rowheader">Meta-modellen</td>
+                  <td>Voer de Meta-modellen in die in de serverinstellingen worden gegenereerd.</td>
               </tr>
               <tr>
                   <td role="rowheader">Persoonlijke sleutel</td>
@@ -303,7 +303,7 @@ Deze actiemodule start het uploaden.
    <td> <p>Voor instructies over het verbinden van uw Adobe Experience Manager Assets rekening met Workfront Fusion, zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Adobe Experience Manager Assets met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Doel</td> 
+   <td role="rowheader">Bestemming</td> 
    <td> <p>Selecteer de map waarin u een bestand wilt uploaden.</p> </td> 
   </tr> 
   <tr> 
@@ -331,7 +331,7 @@ Deze actiemodule uploadt een middel naar uw Adobe Experience Manager Assets-acco
    <td> <p>Voor instructies over het verbinden van uw Adobe Experience Manager Assets rekening met Workfront Fusion, zie <a href="#connect-adobe-experience-manager-assets-to-workfront-fusion" class="MCXref xref"> Adobe Experience Manager Assets met Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Doel</td> 
+   <td role="rowheader">Bestemming</td> 
    <td> <p>Selecteer de map waarin u middelen wilt uploaden.</p> </td> 
   </tr> 
   <tr> 
@@ -773,7 +773,7 @@ Deze actiemodule uploadt een nieuw element door bestanden van de opgegeven URL&#
   </tr> 
   <tr> 
    <td role="rowheader">Vervaldatum</td> 
-   <td> <p>Voer de datum van de expertise voor het element in of wijs deze toe.</p><p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
+   <td> <p>Voer de vervaldatum voor het element in of wijs deze toe.</p><p>Voor een lijst van gesteunde datum en tijdformaten, zie <a href="/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md" class="MCXref xref"> Druk van het Type </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Aangepaste metagegevens</td> 
