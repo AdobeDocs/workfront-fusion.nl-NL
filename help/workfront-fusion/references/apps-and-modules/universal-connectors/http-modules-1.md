@@ -21,7 +21,7 @@ De juiste keuze van de module is afhankelijk van het verificatie-/verificatiemec
 >
 >Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
->Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
+>Voor meer informatie, zie [&#x200B; module van Adobe Authenticator &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
 Zie de volgende artikelen voor specifieke moduleinstructies:
 

@@ -32,37 +32,37 @@ Een scenario is gebouwd van verschillende elementen. Door de terminologie van de
 
 A **scenario** is een user-created reeks geautomatiseerde stappen, die worden gecreeerd om gegevens te bewegen en te manipuleren. De term &quot;scenario&quot; verwijst naar de gehele groep van verbonden stappen.
 
-![ Scenario ](assets/entire-scenario-scenario.png)
+![&#x200B; Scenario &#x200B;](assets/entire-scenario-scenario.png)
 
 ### Trigger
 
 Een scenario begint met a **trekker**. De trekkerstalen voor nieuwe en bijgewerkte gegevens, en beginnen het scenario wanneer bepaalde die voorwaarden in de module worden gevormd van toepassing zijn. Triggers kunnen worden gevormd om een scenario op een programma (opiniepeiling) te beginnen, of wanneer de gegevensveranderingen (onmiddellijk) voorkomen.
 
-![ Trekker ](assets/scenario-trigger.png)
+![&#x200B; Trekker &#x200B;](assets/scenario-trigger.png)
 
 ### Module
 
 De trekker wordt gevolgd door een aantal **modules**. Een module vertegenwoordigt één enkele stap in een scenario dat een specifieke actie uitvoert. De modules worden gevormd en samen geketend om scenario&#39;s tot stand te brengen.
 
-![ Module ](assets/scenario-module.png)
+![&#x200B; Module &#x200B;](assets/scenario-module.png)
 
 ### Route
 
 Een scenario kan in **routes** worden verdeeld. Een route is een sectie van het scenario dat voor een bepaalde bundel van gegevens kan of niet kan worden gebruikt. Routes worden opstelling gebruikend een routermodule en filters.
 
-![ Route ](assets/scenario-route.png)
+![&#x200B; Route &#x200B;](assets/scenario-route.png)
 
 ### Scenario-segment
 
 Een scenario segment is een sectie van een scenario dat uit een reeks aangrenzende modules bestaat die allen met de zelfde toepassing verbinden. Scenario-segmenten vertegenwoordigen vaak een korte workflow in de toepassing.
 
-![ segment Scenario ](assets/scenario-segment.png)
+![&#x200B; segment Scenario &#x200B;](assets/scenario-segment.png)
 
 ### Connector
 
 Een schakelaar is de reeks modules voor een bepaalde toepassing. Workfront Fusion biedt connectors aan voor veel gangbare werktoepassingen, zoals Workfront, Salesforce en Jira, en generieke connectors die voor elke webservice kunnen worden gebruikt.
 
-![ Schakelaars ](assets/scenario-connectors.png)
+![&#x200B; Schakelaars &#x200B;](assets/scenario-connectors.png)
 
 ## Voorbeelden
 
@@ -74,7 +74,7 @@ Met Workfront Fusion kunt u eenvoudige of complexe workflows in Workfront automa
 
 In dit voorbeeld wordt het scenario geactiveerd wanneer een opgegeven veld in een taak of probleem in Workfront verandert. Wanneer teweeggebracht, krijgt het scenario informatie in het verwante project en leidt tot een op maat gemaakte update voor een persoon die aan een specifieke rol op het project wordt toegewezen.
 
-![ voorbeeld van het Malplaatje ](assets/fusion-template-example.png)
+![&#x200B; voorbeeld van het Malplaatje &#x200B;](assets/fusion-template-example.png)
 
 +++
 
@@ -90,23 +90,23 @@ Veel toepassingen hebben speciale Workfront Fusion-connectors. Als er geen speci
 
 In dit voorbeeld wordt het scenario geactiveerd wanneer een gebruiker aan een [!DNL Excel] -spreadsheet wordt toegevoegd. Het scenario controleert of de gebruiker in Workfront is. Als dat niet het geval is, wordt de gebruiker in Workfront gemaakt en wordt de Workfront-gebruikersnaam weer aan het werkblad toegevoegd.
 
-![ het voorbeeld van de Integratie ](assets/fusion-integration-example.png)
+![&#x200B; het voorbeeld van de Integratie &#x200B;](assets/fusion-integration-example.png)
 
-Voor een lijst van specifieke schakelaars, zie [ toepassingen van de Fusie en hun moduleverwijzingen: artikelindex ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
+Voor een lijst van specifieke schakelaars, zie [&#x200B; toepassingen van de Fusie en hun moduleverwijzingen: artikelindex &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
 
 
 >[!IMPORTANT]
 >
 >Adobe Workfront Fusion kan verbinding maken met vrijwel elke webservice. Als de app waarmee u wilt werken geen speciale Workfront Fusion-connector heeft, kunt u universele connectors gebruiken om verbinding te maken met de app of service.
 >
->Voor een lijst van universele schakelaars, zie [ Universele schakelaars ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)
+>Voor een lijst van universele schakelaars, zie [&#x200B; Universele schakelaars &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)
 
 +++
 
 ## Verwijzingen
 
-* Voor een verklarende woordenlijst van termijnen die in de Fusie van Workfront worden gebruikt, zie [ verklarende woordenlijst van de Fusie van Adobe Workfront ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/fusion-glossary.md).
-* Beginnen bouwend een praktijkscenario, zie [ een basisscenario ](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) creëren.
+* Voor een verklarende woordenlijst van termijnen die in de Fusie van Workfront worden gebruikt, zie [&#x200B; verklarende woordenlijst van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/fusion-glossary.md).
+* Beginnen bouwend een praktijkscenario, zie [&#x200B; een basisscenario &#x200B;](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) creëren.
 * Raadpleeg de volgende artikelen voor informatie over het maken en beheren van scenario&#39;s:
    * [Scènes maken](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md)
    * [scenario&#39;s beheren](/help/workfront-fusion/manage-scenarios/manage-scenarios-toc.md)

@@ -17,7 +17,7 @@ Aangezien de toepassingen waarmee Workfront Fusion verbinding maakt, een nieuwe 
 
 Als u een groen pictogram van de module van de Verbetering op een module in een scenario ziet, heeft Workfront Fusion een nieuwe versie van die module vrijgegeven.
 
-![ pictogram van de Update ](assets/update-indicator-workfront.png)
+![&#x200B; pictogram van de Update &#x200B;](assets/update-indicator-workfront.png)
 
 U kunt de module bijwerken zonder een nieuw scenario te maken.
 
@@ -67,19 +67,19 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
 ## Een Workfront-module upgraden naar een nieuwe versie
 
-1. Klik het **pictogram van de 1} pictogram van de module van de Verbetering** ![ op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
-   ![ pictogram van de Update ](assets/update-indicator-workfront.png)
+1. Klik het **pictogram van de 1&rbrace; pictogram van de module van de Verbetering** ![&#x200B; op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
+   ![&#x200B; pictogram van de Update &#x200B;](assets/update-indicator-workfront.png)
 1. Kies een van de volgende opties:
 
-   * Om een nieuwe module te selecteren om deze module (in plaats van de bevordering van de module) te vervangen, klik **kies nieuw**, dan te werk zoals die in [ wordt beschreven een niet-Workfront module aan een nieuwe versie ](#upgrade-a-non-workfront-module-to-a-new-version) bevordert.
+   * Om een nieuwe module te selecteren om deze module (in plaats van de bevordering van de module) te vervangen, klik **kies nieuw**, dan te werk zoals die in [&#x200B; wordt beschreven een niet-Workfront module aan een nieuwe versie &#x200B;](#upgrade-a-non-workfront-module-to-a-new-version) bevordert.
    * Om slechts deze module te bevorderen, die moduleconfiguratie bewaren, klik **Verbetering**.
    * Om alle modules van Workfront in het scenario te bevorderen, klik **Verbetering allen**.
 
@@ -91,8 +91,8 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 ## Een niet-Workfront-module upgraden naar een nieuwe versie
 
-1. Klik het **pictogram van de 1} pictogram van de module van de Verbetering** ![ op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
-   ![ pictogram van de Update ](assets/update-indicator.png)
+1. Klik het **pictogram van de 1&rbrace; pictogram van de module van de Verbetering** ![&#x200B; op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
+   ![&#x200B; pictogram van de Update &#x200B;](assets/update-indicator.png)
 1. Klik **kiezen nieuw**.
 1. Selecteer de module die u de vorige module wilt vervangen.
 1. Vorm de module met de zelfde montages zoals de bestaande module.
