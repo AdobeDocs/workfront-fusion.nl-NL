@@ -1,21 +1,17 @@
 ---
 title: HTTP-modules
-description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie een Adobe Workfront Fusion-licentie.
+description: De schakelaar van HTTP verstrekt diverse modules voor mededeling die op het protocol van de Overdracht van de Hypertext (HTTP) wordt gebaseerd. HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina's en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 34dad92019ca855f40698d3f3795788698c1cece
 workflow-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '171'
 ht-degree: 0%
 
 ---
 
 # HTTP-modules
-
->[!NOTE]
->
->Adobe Workfront Fusion vereist naast een [!DNL Adobe Workfront license] ook een Adobe Workfront Fusion-licentie.
 
 De HTTP-toepassing biedt verschillende modules voor communicatie op basis van het HTTP-protocol (Hypertext Transfer Protocol). HTTP is de stichting van gegevensmededeling voor het World Wide Web. U kunt de modules gebruiken om Web-pagina&#39;s en dossiers te downloaden, Web-haken en API eindpunten te roepen, etc.
 

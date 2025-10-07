@@ -4,20 +4,20 @@ description: Aangezien de toepassingen waarmee Workfront Fusion verbinding maakt
 author: Becky
 feature: Workfront Fusion
 exl-id: b7f07fa5-9d81-48b3-b0ce-7a18b3b44508
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: d0d9d7cdad993ecceaa0abf0ac69e9a9abd78b69
 workflow-type: tm+mt
-source-wordcount: '303'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
-# Een module bijwerken naar een nieuwe versie
+# Een module upgraden naar een nieuwe versie
 
 Aangezien de toepassingen waarmee Workfront Fusion verbinding maakt, een nieuwe versie kunnen bijwerken of vrijgeven, is het soms nodig dat Fusion bijgewerkte modules voor die toepassingen vrijgeeft.
 
 Als u een groen pictogram van de module van de Verbetering op een module in een scenario ziet, heeft Workfront Fusion een nieuwe versie van die module vrijgegeven.
 
-![ pictogram van de Update ](assets/update-indicator.png)
+![ pictogram van de Update ](assets/update-indicator-workfront.png)
 
 U kunt de module bijwerken zonder een nieuw scenario te maken.
 
@@ -73,12 +73,29 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 +++
 
-## Een module bijwerken naar een nieuwe versie
+## Een Workfront-module upgraden naar een nieuwe versie
 
-1. Klik het **pictogram van de 1&rbrace; pictogram van de module van de Verbetering** ![ op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
+1. Klik het **pictogram van de 1} pictogram van de module van de Verbetering** ![ op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
+   ![ pictogram van de Update ](assets/update-indicator-workfront.png)
+1. Kies een van de volgende opties:
+
+   * Om een nieuwe module te selecteren om deze module (in plaats van de bevordering van de module) te vervangen, klik **kies nieuw**, dan te werk zoals die in [ wordt beschreven een niet-Workfront module aan een nieuwe versie ](#upgrade-a-non-workfront-module-to-a-new-version) bevordert.
+   * Om slechts deze module te bevorderen, die moduleconfiguratie bewaren, klik **Verbetering**.
+   * Om alle modules van Workfront in het scenario te bevorderen, klik **Verbetering allen**.
+
+1. Sla het scenario op.
+
+>[!NOTE]
+>
+>Als u de modules van Workfront hebt bevorderd, adviseren wij hen te openen en de moduleconfiguratie te controleren.
+
+## Een niet-Workfront-module upgraden naar een nieuwe versie
+
+1. Klik het **pictogram van de 1} pictogram van de module van de Verbetering** ![ op de module u aan een nieuwe versie wilt bevorderen.](assets/upgrade-icon.png)
    ![ pictogram van de Update ](assets/update-indicator.png)
-1. Klik **tonen me nieuwe modules**.
-1. Selecteer de nieuwe module die overeenkomt met de bestaande module.
+1. Klik **kiezen nieuw**.
+1. Selecteer de module die u de vorige module wilt vervangen.
 1. Vorm de module met de zelfde montages zoals de bestaande module.
 1. Verbind de nieuwe module met het scenario op de zelfde plaats zoals de bestaande module.
 1. Verwijder de oude module.
+1. Sla het scenario op.

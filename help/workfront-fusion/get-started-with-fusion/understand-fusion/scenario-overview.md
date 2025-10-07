@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: de81ad4c-27e5-4b6c-acf0-f01a8c85922e
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 34dad92019ca855f40698d3f3795788698c1cece
 workflow-type: tm+mt
-source-wordcount: '703'
+source-wordcount: '704'
 ht-degree: 0%
 
 ---
@@ -97,7 +97,7 @@ Voor een lijst van specifieke schakelaars, zie [ toepassingen van de Fusie en hu
 
 >[!IMPORTANT]
 >
->Adobe Workfront Fusion kan verbinding maken met vrijwel elke webservice. Als de app waarmee u wilt werken geen speciale Workfront Fusion-connector heeft, gebruikt u universele connectors om verbinding te maken met de app of service.
+>Adobe Workfront Fusion kan verbinding maken met vrijwel elke webservice. Als de app waarmee u wilt werken geen speciale Workfront Fusion-connector heeft, kunt u universele connectors gebruiken om verbinding te maken met de app of service.
 >
 >Voor een lijst van universele schakelaars, zie [ Universele schakelaars ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors)
 
