@@ -4,7 +4,7 @@ description: Met de Adobe Workfront FusionTemplates-functie kunt u bestaande sja
 author: Becky
 feature: Workfront Fusion
 exl-id: 560c20b7-155c-40db-9018-5a51b40d6fb0
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: ce2a41a9708bb0e611ab4056aac733d58d27d7a9
 workflow-type: tm+mt
 source-wordcount: '369'
 ht-degree: 0%
@@ -76,6 +76,6 @@ U moet een sjabloon maken voordat u deze kunt gebruiken.
 
 1. Wanneer u alle montages hebt gevormd die voor het malplaatje worden vereist, ontvangt u een bericht dat uw malplaatje klaar is te gaan, en de standaardscenario opties verschijnen bij de bodem van het scherm. U kunt nu doorgaan met het samenstellen van uw scenario.
 
-   Voor informatie bij de bouw van een scenario, zie [ werkstroom voor het creëren van een scenario ](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md).
+   Voor informatie bij het bouwen van een scenario, zie [ Werkschema voor het creëren van een scenario ](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md).
 
 1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png) om uw scenario te bewaren. Het scenario wordt opgeslagen in het gebied Scenario van Workfront Fusion.

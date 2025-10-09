@@ -4,9 +4,9 @@ description: De scenario redacteur staat u toe om scenario's in een visuele inte
 author: Becky
 feature: Workfront Fusion
 exl-id: 47ccecf0-751c-4026-96a9-329c33cb6801
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: ce2a41a9708bb0e611ab4056aac733d58d27d7a9
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -100,7 +100,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 | Scenario-instellingen | Het deelvenster met scenario-instellingen bevat geavanceerde instellingen voor het scenario. Voor meer informatie over de beschikbare montages, zie [ scenario montages ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen. |
 | Notities | Notities maken over het scenario. Andere gebruikers kunnen deze notities bekijken wanneer ze zich in het scenario bevinden. |
 | Automatisch uitlijnen | De modules in uw scenario automatisch uitlijnen. |
-| Uitleg stroom | Bekijk een animatie die toont hoe de gegevens door het scenario stromen. |
+| Uitleg stroom | Een animatie weergeven waarbij bewegende stippen aangeven hoe gegevens door het scenario lopen. |
 | Gereedschappen voor ontwikkelen | Met het gereedschap Ontwikkelen kunt u alle handmatige uitvoering van uw scenario controleren, alle uitgevoerde bewerkingen controleren en de details van elke uitgevoerde API-aanroep bekijken. U kunt zien welke module, verrichting, of enige reactie de fout veroorzaakte, en die kennis gebruiken om uw scenario te verfijnen. Voor meer informatie, zie [ zuivert een scenario ](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md). |
 | Meer | In het menu Meer kunt u blauwdrukken importeren of exporteren en het scenario terugzetten naar vorige versies. |
 
