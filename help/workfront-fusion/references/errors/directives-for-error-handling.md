@@ -56,7 +56,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over de Fusie van Adobe Workfront voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de vergunningen van de Fusie van Adobe Workfront ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de Fusie van Adobe Workfront voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de vergunningen van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -100,9 +100,9 @@ De volgende instructies voor foutafhandeling zijn beschikbaar in Workfront Fusio
 >* Instructies voor foutafhandeling kunnen niet worden gebruikt buiten een foutafhandelingsroute.
 >* Workfront Fusion biedt momenteel geen Throw-module waarmee u gemakkelijk voorwaardelijk fouten kunt genereren (genereren), hoewel een tijdelijke oplossing kan worden gebruikt om de functionaliteit ervan na te bootsen.
 >
->  Voor meer informatie, zie [ `throw` foutenwerkaround ](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md) vormen.
+>  Voor meer informatie, zie [&#x200B; `throw` foutenwerkaround &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md) vormen.
 
 ## Bronnen
 
-* Voor informatie bij het terugschroeven van prijzen en de fase van het Terugschroeven van prijzen, zie [ Terugdraaiing ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#rollback) in de uitvoering van het artikelScenario, cycli, en fasen.
-* Voor informatie over de fase van het Vastleggen, zie [ Vastleggen ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#commit) in de uitvoering van het artikelScenario, cycli, en fasen.
+* Voor informatie bij het terugschroeven van prijzen en de fase van het Terugschroeven van prijzen, zie [&#x200B; Terugdraaiing &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#rollback) in de uitvoering van het artikelScenario, cycli, en fasen.
+* Voor informatie over de fase van het Vastleggen, zie [&#x200B; Vastleggen &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#commit) in de uitvoering van het artikelScenario, cycli, en fasen.

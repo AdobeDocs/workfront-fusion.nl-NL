@@ -62,9 +62,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -75,10 +75,10 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 1. Klik overal op het scenario om de scenarioredacteur in te gaan.
 1. Klik op het tandwielpictogram links onder op de pagina.
 
-   ![ montages van het Scenario ](assets/scenario-settings-350x221.png)
+   ![&#x200B; montages van het Scenario &#x200B;](assets/scenario-settings-350x221.png)
 
    In het deelvenster [!UICONTROL Scenario settings] dat wordt weergegeven, kunt u verschillende geavanceerde instellingen voor het scenario configureren.
-1. Schakel indien nodig de Scenario-instellingen in of uit. Zie [ de montagesopties van het Scenario ](#scenario-settings-options) hieronder.
+1. Schakel indien nodig de Scenario-instellingen in of uit. Zie [&#x200B; de montagesopties van het Scenario &#x200B;](#scenario-settings-options) hieronder.
 
 ## Opties voor Scenario-instellingen
 
@@ -99,7 +99,7 @@ Wanneer de opeenvolgende verwerking wordt toegelaten, zijn de parallelle uitvoer
 * Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;wordt toegelaten, houdt de Fusie van Workfront op verwerkend de reeds bestaande opeenvolging tot alle onvolledige uitvoeringen worden opgelost.
 * Als de Opeenvolgende verwerkingsoptie **&#x200B;**&#x200B;gehandicapt is, blijft het scenario volgens zijn programma lopen, vergezeld van herhaalde pogingen om de onvolledige uitvoeringen opnieuw uit te voeren.
 
-  Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+  Voor meer informatie over onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
   >[!NOTE]
   >
@@ -107,7 +107,7 @@ Wanneer de opeenvolgende verwerking wordt toegelaten, zijn de parallelle uitvoer
   >
   >Als het gebruiksgeval voor uw scenario&#39;s geen opeenvolgende verwerking vereist, adviseren wij onbruikbaar makend de opeenvolgende verwerkingsoptie.
 
-  Voor meer informatie bij het plannen, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+  Voor meer informatie bij het plannen, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 
 ### Gegevens zijn vertrouwelijk
 
@@ -121,7 +121,7 @@ Zodra een scenario is uitgevoerd, kunt u door gebrek vertoningsinformatie tonen 
 
 Deze optie bepaalt hoe Adobe Workfront Fusion verder gaat als er een fout optreedt tijdens de uitvoering van een scenario. Als deze optie is ingeschakeld, wordt het scenario gepauzeerd en naar de onvolledige uitvoermap verplaatst. Dit geeft u de mogelijkheid om de kwestie te bevestigen en verder uit te voeren van waar het scenario werd tegengehouden. Als deze optie is uitgeschakeld, stopt de uitvoering van het scenario en wordt een terugdraaifase gestart.
 
-Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+Voor meer informatie over onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
 ### Gegevensverlies inschakelen
 
@@ -129,11 +129,11 @@ Deze optie heeft te maken met het inschakelen van gegevensverlies als Workfront 
 
 Buiten dat, wanneer het uitvoeren van een scenario, kan een module soms een dossier ontmoeten dat groter is dan de maximaal toegestane grootte. In dit geval gaat Workfront Fusion verder volgens de instelling van de optie [!UICONTROL Enable data loss] en wordt een waarschuwingsbericht weergegeven.
 
-Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+Voor meer informatie over onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
-Voor meer informatie over maximumdossiergrootte, zie [ de prestatiesgidsen van de Fusie ](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md#files).
+Voor meer informatie over maximumdossiergrootte, zie [&#x200B; de prestatiesgidsen van de Fusie &#x200B;](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md#files).
 
-Voor meer informatie over waarschuwingen, zie [ types van Fout ](/help/workfront-fusion/references/errors/error-processing.md).
+Voor meer informatie over waarschuwingen, zie [&#x200B; types van Fout &#x200B;](/help/workfront-fusion/references/errors/error-processing.md).
 
 ### [!UICONTROL Auto commit]
 
@@ -150,11 +150,11 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 
 * Als het scenario met een opiniepeilingtrigger begint, bepaalt het plaatsen het maximum aantal cycli die tijdens de uitvoering van het scenario worden toegestaan.
 
-  Voor meer informatie over opiniepeilingstrekkers, zie [ Opiniepeilende trekkers ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#polling-triggers) in het overzicht van de artikelmodule.
+  Voor meer informatie over opiniepeilingstrekkers, zie [&#x200B; Opiniepeilende trekkers &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#polling-triggers) in het overzicht van de artikelmodule.
 
 * Als het scenario met een onmiddellijke trekker begint, wordt het plaatsen genegeerd en alle hangende gebeurtenissen worden verwerkt tijdens één enkele scenariouitvoering, één gebeurtenis per één cyclus.
 
-  Voor meer informatie over onmiddellijke trekkers, zie [ Onmiddellijke trekkers ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers) in het overzicht van de artikelmodule.
+  Voor meer informatie over onmiddellijke trekkers, zie [&#x200B; Onmiddellijke trekkers &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers) in het overzicht van de artikelmodule.
 
 * Als het scenario niet met een trekker (instant/polling) begint, wordt het gespecificeerde maximumaantal cycli altijd uitgevoerd.
 
@@ -162,13 +162,13 @@ Het plaatsen van meer cycli kan nuttig zijn wanneer u verbindingsonderbreking aa
 
 **Voorbeelden:** Workfront > [!UICONTROL Watch record] horloges voor nieuwe kwesties die binnen komen, en Workfront > [!UICONTROL Convert object] zet het nieuwe verzoek in een project om en wijst het het aangewezen malplaatje toe.
 
-![ montages van het Scenario ](assets/scenario-settings-ex-1-350x157.png)
+![&#x200B; montages van het Scenario &#x200B;](assets/scenario-settings-ex-1-350x157.png)
 
 Een instelling [!UICONTROL more cycles] wordt alleen toegepast wanneer u de uitvoering van het scenario plant. Wanneer u de knop [!UICONTROL Run once] gebruikt, wordt rekening gehouden met de cyclusinstellingen.
 
 #### Max. aantal cycli is ingesteld op 1 (standaardwaarde)
 
-![ Maximum aantal cycli ](assets/max-number-cycles-1-350x201.png)
+![&#x200B; Maximum aantal cycli &#x200B;](assets/max-number-cycles-1-350x201.png)
 
 Het Max aantal cycli in de module Workfront > Watch records is ingesteld op `10` .
 Als 100 verzoeken worden voorgelegd aan Workfront, en het Max aantal cyclusgebied wordt geplaatst aan 10, dan worden 90 dossiers onverwerkt verlaten na één scenario looppas. De volgende 10 dossiers worden verwerkt in de volgende geplande scenario uitvoering.
@@ -183,7 +183,7 @@ Alle bestanden worden verwerkt binnen 1 scenario-uitvoering.
 
 U kunt de reeds in werking gestelde cycli in de details van het Scenario zien:
 
-![ het detail van het Scenario ](assets/scenario-detail-350x207.png)
+![&#x200B; het detail van het Scenario &#x200B;](assets/scenario-detail-350x207.png)
 
 Voor meer informatie over deze pagina, zie {de details van 0} Scenario [.](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md)
 
@@ -193,7 +193,7 @@ Voor meer informatie over deze pagina, zie {de details van 0} Scenario [.](/help
 
 Definieert het maximum aantal opeenvolgende uitvoeringspogingen voordat de uitvoering van een scenario wordt gedeactiveerd (exclusief `DataError` , `DuplicateDataError` , `ModuleTimeoutError` en `ConnectionError` ).
 
-Voor meer informatie over fouten, zie [ types van Fout ](/help/workfront-fusion/references/errors/error-processing.md).
+Voor meer informatie over fouten, zie [&#x200B; types van Fout &#x200B;](/help/workfront-fusion/references/errors/error-processing.md).
 
 >[!NOTE]
 >

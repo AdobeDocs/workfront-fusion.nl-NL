@@ -21,7 +21,7 @@ Het nieuwe Workfront Fusion-licentiemodel is gebaseerd op het aantal bewerkingen
 
 Als uw organisatie een Workfront Ultimate-plan heeft, wordt uw Fusion-exemplaar opgenomen in uw abonnement en wordt een onbeperkt aantal Fusion-bewerkingen per maand toegestaan. Als uw organisatie een Workfront Prime- of Select-abonnement heeft, kan Fusion worden aangeschaft en wordt de prijs gebaseerd op het aantal bewerkingen dat in een maand wordt uitgevoerd.
 
-Voor informatie over wat als verrichting onder het nieuwe verlenen van vergunningen model telt, zie [ Verrichtingen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md).
+Voor informatie over wat als verrichting onder het nieuwe verlenen van vergunningen model telt, zie [&#x200B; Verrichtingen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md).
 
 ## Connectorgebaseerd licentiemodel (Verouderd)
 
@@ -74,7 +74,7 @@ In het volgende voorbeeld wordt een workflow getoond die:
 1. Hiermee wordt informatie opgehaald over het object waaraan het veld is gekoppeld, inclusief aan wie het object is toegewezen
 1. Hiermee wordt een melding over de veldwijziging verzonden naar de gebruiker aan wie het object is toegewezen
 
-![ voorbeeld van de Automatisering ](assets/fusion-template-example.png)
+![&#x200B; voorbeeld van de Automatisering &#x200B;](assets/fusion-template-example.png)
 
 ### Workfront Fusion for Work Automation and Integration
 
@@ -94,7 +94,7 @@ De voordelen van een Workfront Fusion for Work Automation and Integration-licent
 
 #### Connectors en modules beschikbaar voor Workfront Fusion for Work Automation and Integration
 
-Voor een lijst van beschikbare specifieke schakelaars, zie [ toepassingen van de Fusie en hun moduleverwijzingen: artikelindex ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
+Voor een lijst van beschikbare specifieke schakelaars, zie [&#x200B; toepassingen van de Fusie en hun moduleverwijzingen: artikelindex &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
 
 >[!IMPORTANT]
 >
@@ -109,4 +109,4 @@ In het volgende voorbeeld wordt een workflow getoond die:
 1. Hiermee wordt de gebruiker in Workfront gemaakt als de gebruiker niet bestaat
 1. Uploadt de Workfront-gebruikersnaam terug naar het werkblad.
 
-![ scenario van de automatisering van het Voorbeeld ](assets/fusion-integration-example.png)
+![&#x200B; scenario van de automatisering van het Voorbeeld &#x200B;](assets/fusion-integration-example.png)

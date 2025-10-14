@@ -17,6 +17,6 @@ ht-degree: 0%
 
 * [Foutafhandeling toevoegen](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md)
 * [Filteren en nesten toevoegen aan foutafhandelingsroutes](/help/workfront-fusion/create-scenarios/config-error-handling/advanced-error-handling.md)
-* [Configureren ](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
-* [Configureren ](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
+* [Configureren &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md)
+* [Configureren &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/retry.md)
 * [Fouten oplossen die worden verwerkt door de Break-richtlijn](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md)

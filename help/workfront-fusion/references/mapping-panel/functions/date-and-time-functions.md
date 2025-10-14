@@ -139,7 +139,7 @@ Deze functie retourneert een nieuwe datum met de seconden die in parameters word
 
 Geef een getal op tussen 0 en 59. Als het getal zich buiten dat bereik bevindt, retourneert de functie een seconde vanaf de vorige minuut (voor een negatief getal) of een volgende minuut (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u [!UICONTROL &#x200B; addSeconds] gebruikt, zoals hierboven beschreven in de sectie [ addSeconds (datum; aantal) ](#addseconds-date-number).
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u [!UICONTROL &#x200B; addSeconds] gebruikt, zoals hierboven beschreven in de sectie [&#x200B; addSeconds (datum; aantal) &#x200B;](#addseconds-date-number).
 
 >[!BEGINSHADEBOX]
 
@@ -161,7 +161,7 @@ Deze functie retourneert een nieuwe datum met de minuten die in parameters zijn 
 
 Geef een getal op tussen 0 en 59. Als het getal zich buiten dat bereik bevindt, retourneert de functie een minuut vanaf het vorige uur (voor een negatief getal) of het volgende uur (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addMinutes, zoals hierboven beschreven in [ addMinutes (datum; aantal) ](#addminutes-date-number) gebruikt.
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addMinutes, zoals hierboven beschreven in [&#x200B; addMinutes (datum; aantal) &#x200B;](#addminutes-date-number) gebruikt.
 
 >[!BEGINSHADEBOX]
 
@@ -183,7 +183,7 @@ Deze functie retourneert een nieuwe datum met het uur dat in parameters is opgeg
 
 Geef een getal op tussen 0 en 23. Als het getal zich buiten dit bereik bevindt, retourneert de functie een uur vanaf de vorige dag (voor een negatief getal) of volgende dag (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addHours, zoals hierboven beschreven in [ addHours (datum; aantal) ](#addhours-date-number) gebruikt.
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addHours, zoals hierboven beschreven in [&#x200B; addHours (datum; aantal) &#x200B;](#addhours-date-number) gebruikt.
 
 >[!BEGINSHADEBOX]
 
@@ -205,7 +205,7 @@ Deze functie retourneert een nieuwe datum met de dag die in parameters wordt opg
 
 U kunt deze functie gebruiken om de dag van de week in te stellen, met zondag als 1 en zaterdag als 7. Als u een getal tussen 1 en 7 opgeeft, valt de resulterende datum binnen de huidige week (zondag tot zaterdag). Als het getal zich buiten dat bereik bevindt, retourneert de functie een dag vanaf de vorige week (voor een negatief getal) of volgende week (voor een positief getal).
 
-Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addDays gebruikt, zoals hierboven beschreven in [ addDays (datum; aantal) ](#adddays-date-number).
+Als u een aantal buiten de waaier moet specificeren, adviseren wij dat u addDays gebruikt, zoals hierboven beschreven in [&#x200B; addDays (datum; aantal) &#x200B;](#adddays-date-number).
 
 >[!BEGINSHADEBOX]
 
@@ -289,7 +289,7 @@ Gebruik deze functie wanneer u een Date-waarde hebt, zoals `12-10-2021 20:30` , 
 
 Dit is bijvoorbeeld handig wanneer u de datumnotatie van een app of webservice wilt wijzigen in die van een verbonden app of webservice in hetzelfde scenario.
 
-Voor meer informatie, zie Datum en Tekst in het artikel [ gegevenstypes van het Punt ](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
+Voor meer informatie, zie Datum en Tekst in het artikel [&#x200B; gegevenstypes van het Punt &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
 
 #### Parameters
 
@@ -323,7 +323,7 @@ Voor meer informatie, zie Datum en Tekst in het artikel [ gegevenstypes van het 
  </tbody> 
 </table>
 
-Wanneer een ander type is opgegeven, wordt typeafgedwongen. Voor meer informatie, zie [ Druk van het Type ](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
+Wanneer een ander type is opgegeven, wordt typeafgedwongen. Voor meer informatie, zie [&#x200B; Druk van het Type &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
 
 #### Retourwaarde en type
 
@@ -333,7 +333,7 @@ De functie `formatDate` retourneert een tekstrepresentatie van de opgegeven waar
 
 **Voorbeelden:** Scenario en timezone van het Web werden allebei geplaatst aan `Europe/Prague` in deze voorbeelden.
 
-![ de functievoorbeeld van de tijd van de Datum ](assets/date&time-functions-examples-350x61.png)
+![&#x200B; de functievoorbeeld van de tijd van de Datum &#x200B;](assets/date&time-functions-examples-350x61.png)
 
 * `formatDate(1. Date created;MM/DD/YYYY)`
 
@@ -355,11 +355,11 @@ De functie `formatDate` retourneert een tekstrepresentatie van de opgegeven waar
 
 ### [!UICONTROL parseDate (text; format; [timezone])]
 
-Gebruik deze functie wanneer u een tekstwaarde hebt die een datum vertegenwoordigt (zoals `12-10-2019 20:30` of `Aug 18, 2019 10:00 AM`) en u deze wilt omzetten (parseren) in een Date-waarde (een binaire machineleesbare representatie). Voor meer informatie, zie Datum en Tekst in het artikel [ gegevenstypes van het Punt ](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
+Gebruik deze functie wanneer u een tekstwaarde hebt die een datum vertegenwoordigt (zoals `12-10-2019 20:30` of `Aug 18, 2019 10:00 AM`) en u deze wilt omzetten (parseren) in een Date-waarde (een binaire machineleesbare representatie). Voor meer informatie, zie Datum en Tekst in het artikel [&#x200B; gegevenstypes van het Punt &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md).
 
 #### Parameters
 
-De tweede kolom geeft het verwachte type aan. Wanneer een ander type is opgegeven, wordt typeafgedwongen. Voor meer informatie, zie [ Druk van het Type ](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
+De tweede kolom geeft het verwachte type aan. Wanneer een ander type is opgegeven, wordt typeafgedwongen. Voor meer informatie, zie [&#x200B; Druk van het Type &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -391,7 +391,7 @@ De tweede kolom geeft het verwachte type aan. Wanneer een ander type is opgegeve
  </tbody> 
 </table>
 
-Wanneer een ander type is opgegeven, wordt typeafgedwongen. Voor meer informatie, zie [ Druk van het Type ](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
+Wanneer een ander type is opgegeven, wordt typeafgedwongen. Voor meer informatie, zie [&#x200B; Druk van het Type &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
 
 #### Retourwaarde en type
 
@@ -463,7 +463,7 @@ Deze sectie is aangepast voor Workfront Fusion via de [!DNL Exceljet] -webpagina
 
 Als u een datum wilt berekenen die overeenkomt met de n-de dag van de week in de maand (bijvoorbeeld, eerste dinsdag, derde vrijdag, enzovoort), kunt u de volgende formule gebruiken:
 
-![ berekent nde dag ](assets/date&time-functions-calc-nth-day-350x31.png)
+![&#x200B; berekent nde dag &#x200B;](assets/date&time-functions-calc-nth-day-350x31.png)
 
 ```
 {{addDays(setDate(1.date; 1); 1.n * 7 - formatDate(addDays(setDate(1.date; 1); "-" + 1.dow); "E"))}}
@@ -510,7 +510,7 @@ Als u bijvoorbeeld slechts één specifiek geval wilt berekenen, kunt u de items
 * `1.dow` = `3`
 * `1.date` = `now`
 
-![ de veranderlijke waarde van de Nde dag ](assets/nth-day-variable-value-350x33.png)
+![&#x200B; de veranderlijke waarde van de Nde dag &#x200B;](assets/nth-day-variable-value-350x33.png)
 
 #### Uitleg:
 
@@ -521,7 +521,7 @@ Als u bijvoorbeeld slechts één specifiek geval wilt berekenen, kunt u de items
 
 Een mogelijkheid is om de volgende expressie te gebruiken:
 
-![ berekent dagen tussen data ](assets/calculate-days-between-dates-350x68.png)
+![&#x200B; berekent dagen tussen data &#x200B;](assets/calculate-days-between-dates-350x68.png)
 
 ```
 {{round((2.value - 1.value) / 1000 / 60 / 60 / 24)}}
@@ -541,7 +541,7 @@ Wanneer u een datumwaaier, bijvoorbeeld in een onderzoeksmodule specificeert, al
 
 In de onderstaande formule wordt een manier getoond om de laatste dag van de voorgaande maand te berekenen:
 
-![ Laatste dag van vorige maand ](assets/last-day-prev-month.png)
+![&#x200B; Laatste dag van vorige maand &#x200B;](assets/last-day-prev-month.png)
 
 ```
 {{addDays(setDate(now; 1); -1)}}
@@ -553,7 +553,7 @@ In sommige gevallen moet u niet alleen de laatste dag van de maand berekenen, ma
 
 Deze formule toont één manier hoe te om laatste milliseconden van de vorige maand te berekenen:
 
-![ Laatste milliseconde van vorige maand ](assets/last-millisecond-prev-month-350x45.png)
+![&#x200B; Laatste milliseconde van vorige maand &#x200B;](assets/last-millisecond-prev-month-350x45.png)
 
 ```
 {{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD"; "UTC") - 1; "x")}}
@@ -561,7 +561,7 @@ Deze formule toont één manier hoe te om laatste milliseconden van de vorige ma
 
 Laat het UTC-argument weg als u het resultaat nodig hebt om de tijdzoneinstelling te gebruiken:
 
-![ laat UTC ](assets/omit-utc-argument-350x45.png) weg
+![&#x200B; laat UTC &#x200B;](assets/omit-utc-argument-350x45.png) weg
 
 `{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD") - 1; "x")}}`
 

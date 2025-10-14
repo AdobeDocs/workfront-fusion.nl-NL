@@ -16,7 +16,7 @@ Welkom bij de startpagina voor Adobe Workfront Fusion-producten en technische do
 ## Nieuwe functies
 
 * [Geen activiteit](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md)
-* [ Bekende Kwesties ](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/issues/fusion/workfrontfusion)
+* [&#x200B; Bekende Kwesties &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-known-issues/issues/fusion/workfrontfusion)
 
 ## Documentatie verkennen
 
@@ -54,9 +54,9 @@ Het zoeken naar documentatie kan efficiënter zijn met een paar strategische ben
 
 ### Secties voor leren en training verkennen
 
-* **Levende instructeur-geleide trainingszittingen** Adobe biedt levende drie-dag opleidingszittingen voor Fusion aan. Zie [ Verbindingen en Werkschema&#39;s in de Fusie van Adobe Workfront ](https://learning.adobe.com/courses/adobe_workfront/cours000000000098121.html) voor details en beschikbare zittingen beheren.
-* **de Materialen van de Opleiding**: Navigeer aan de [ Inleiding en technologiestrategie ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy) de opleidingspagina van de Fusie van Workfront om met een reeks lessen en oefeningen te beginnen die worden ontworpen om u beter te helpen begrijpen hoe te om Fusie het best te gebruiken.
+* **Levende instructeur-geleide trainingszittingen** Adobe biedt levende drie-dag opleidingszittingen voor Fusion aan. Zie [&#x200B; Verbindingen en Werkschema&#39;s in de Fusie van Adobe Workfront &#x200B;](https://learning.adobe.com/courses/adobe_workfront/cours000000000098121.html) voor details en beschikbare zittingen beheren.
+* **de Materialen van de Opleiding**: Navigeer aan de [&#x200B; Inleiding en technologiestrategie &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy) de opleidingspagina van de Fusie van Workfront om met een reeks lessen en oefeningen te beginnen die worden ontworpen om u beter te helpen begrijpen hoe te om Fusie het best te gebruiken.
 
 ### Antwoorden zoeken in communityforums
 
-* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer het posten in de [ Communautaire forums van de Fusie van Workfront ](https://experienceleaguecommunities.adobe.com/t5/workfront-fusion/ct-p/workfront-fusion-2) waar andere gebruikers en deskundigen hulp kunnen aanbieden.
+* **Vraag Vragen**: Als de documentatie uw vraag niet beantwoordt, probeer het posten in de [&#x200B; Communautaire forums van de Fusie van Workfront &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-fusion/ct-p/workfront-fusion-2) waar andere gebruikers en deskundigen hulp kunnen aanbieden.

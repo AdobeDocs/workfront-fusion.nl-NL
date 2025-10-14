@@ -106,7 +106,7 @@ Reguliere expressies (ingesloten in `/.../` ) kunnen worden gebruikt als zoekree
 
 **Voorbeeld:**
 
-![ vervangen ](assets/replace---1-350x31.png)
+![&#x200B; vervangen &#x200B;](assets/replace---1-350x31.png)
 
 Al deze getallen X X X X worden vervangen door X
 
@@ -121,11 +121,11 @@ De vervangende tekenreeks kan de volgende speciale vervangingspatronen bevatten:
 
 **Voorbeelden:**
 
-![ Veranderlijke waarde ](assets/variable-value-350x63.png)
+![&#x200B; Veranderlijke waarde &#x200B;](assets/variable-value-350x63.png)
 
 Retourneert: Telefoonnummer `+420777111222`
 
-![ Veranderlijke terugkeer ](assets/variable-value---2-350x55.png)
+![&#x200B; Veranderlijke terugkeer &#x200B;](assets/variable-value---2-350x55.png)
 
 Retourneert: Telefoonnummer: `+420777111222`
 
@@ -136,7 +136,7 @@ Retourneert: Telefoonnummer: `+420777111222`
 
 >[!ENDSHADEBOX]
 
-Voor meer informatie over regelmatige uitdrukkingen, zie [ syntactische parser van de Tekst ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md).
+Voor meer informatie over regelmatige uitdrukkingen, zie [&#x200B; syntactische parser van de Tekst &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md).
 
 ## [!UICONTROL trim (text)]
 

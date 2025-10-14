@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -62,8 +62,8 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 U moet de Fusion IP-adressen toevoegen aan [!DNL Adobe Campaign] .
 
-* Voor instructies bij het toevoegen van IP adressen aan uw lijst van gewenste personen van de Campagne, zie [ Toevoegend IP adressen aan de lijst van gewenste personen ](https://experienceleague.adobe.com/nl/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in de documentatie van Adobe Campaign.
-* Voor een lijst van IP adressen om aan de lijst van gewenste personen toe te voegen, zie [ IP Adressen voor Fusie in de lijst van gewenste personen van uw organisatie ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md) vormen.
+* Voor instructies bij het toevoegen van IP adressen aan uw lijst van gewenste personen van de Campagne, zie [&#x200B; Toevoegend IP adressen aan de lijst van gewenste personen &#x200B;](https://experienceleague.adobe.com/nl/docs/control-panel/using/sftp-management/ip-range-allow-listing#adding-ip-addresses-allow-list) in de documentatie van Adobe Campaign.
+* Voor een lijst van IP adressen om aan de lijst van gewenste personen toe te voegen, zie [&#x200B; IP Adressen voor Fusie in de lijst van gewenste personen van uw organisatie &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md) vormen.
 
 ## Adobe Campaign API-informatie
 
@@ -86,7 +86,7 @@ De Adobe Campaign-connector gebruikt het volgende:
 >
 >We raden u ten zeerste aan een server-naar-server verbinding te maken. Adobe Campaign heeft hun API bijgewerkt zodat alleen server-naar-server verbindingen worden geaccepteerd. Als u met versie 8 van de Campagne of hoger verbindt, moet u **&#x200B;**&#x200B;een server-aan-server verbinding tot stand brengen.
 >
->Voor meer informatie over de nieuwe verbindingsvereisten van de Campagne, zie [ Migratie van de technische exploitanten van de Campagne aan Adobe Developer Console ](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html?lang=nl-NL) in de documentatie van de Campagne.
+>Voor meer informatie over de nieuwe verbindingsvereisten van de Campagne, zie [&#x200B; Migratie van de technische exploitanten van de Campagne aan Adobe Developer Console &#x200B;](https://experienceleague.adobe.com/docs/campaign/technotes-ac/tn-new/ims-migration.html?lang=nl-NL) in de documentatie van de Campagne.
 
 1. Klik in een willekeurige [!DNL Adobe Campaign] -module op **[!UICONTROL Add]** naast het [!UICONTROL Connection] -veld.
 1. Vul de volgende velden in:
@@ -136,9 +136,9 @@ De Adobe Campaign-connector gebruikt het volgende:
 
 Wanneer u [!DNL Adobe Campaign] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Campaign] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 <!--* [Triggers](#triggers)-->
 * [Handelingen](#actions)
@@ -283,7 +283,7 @@ Deze module maakt een aangepaste API-aanroep naar de [!DNL Adobe Campaign] API
 
 Deze actiemodule voert een geselecteerde actie uit op een object in de [!DNL Adobe Campaign] API.
 
-Voor informatie over specifieke acties en gebieden, zie [[!DNL Adobe Campaign]  - API Documentatie ](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=nl-NL).
+Voor informatie over specifieke acties en gebieden, zie [[!DNL Adobe Campaign]  - API Documentatie &#x200B;](https://experienceleague.adobe.com/developer/campaign-api/api/p-14.html?lang=nl-NL).
 
 <table style="table-layout:auto"> 
  <col> 

@@ -52,7 +52,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 ## [!DNL Adobe Acrobat Sign] API-informatie
 
@@ -82,15 +82,15 @@ Nieuwe gebruikers van [!DNL Adobe Sign] moeten bepaalde beperkingen rond het bij
 
 [!DNL Adobe Sign] -overeenkomsten hebben een veld nodig om mee te werken. Er zijn enkele opties om dit te doen, maar de eenvoudigste en meest voorkomende is het uploaden van een tijdelijk document en het vervolgens toewijzen van dat document aan uw overeenkomst.
 
-![ de aanbevelingen van het Ondertekenen van Adobe ](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
+![&#x200B; de aanbevelingen van het Ondertekenen van Adobe &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/adobe-sign-recommendations-350x168.png)
 
 ## [!DNL Adobe Acrobat Sign] modules en hun velden
 
 Wanneer u [!DNL Adobe Acrobat Sign] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe Acrobat Sign] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -945,7 +945,7 @@ Upload een tijdelijk document. Een tijdelijk document is 7 dagen na het uploaden
 
 In de module [!UICONTROL Upload document] krijgt het document een [!DNL Adobe Acrobat Sign] -id waarnaar in latere modules kan worden verwezen. Wanneer de overeenkomst is gemaakt, wordt de id van het geüploade document opgenomen in het veld [!UICONTROL Files to send] .
 
-![ Voorbeeld van het Teken ](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-2-350x356.png)
+![&#x200B; Voorbeeld van het Teken &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/sign-example-2-350x356.png)
 
 +++
 

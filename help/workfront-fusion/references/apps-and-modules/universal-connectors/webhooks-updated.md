@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -66,7 +66,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 >[!NOTE]
 >
->Als u een webhaak van derden (een uitgaande webhaak) wilt aanroepen, gebruikt u een van de HTTP-modules. Voor meer informatie, zie [ modules van HTTP ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors).
+>Als u een webhaak van derden (een uitgaande webhaak) wilt aanroepen, gebruikt u een van de HTTP-modules. Voor meer informatie, zie [&#x200B; modules van HTTP &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors).
 
 Een webhaak gebruiken om een toepassing te verbinden met Workfront Fusion:
 
@@ -120,7 +120,7 @@ U kunt de voorbeeldgegevens ook verzenden via de module [!UICONTROL HTTP] > [!UI
     </tbody> 
    </table>
 
-   ![ Nieuwe het schermopstelling ](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
+   ![&#x200B; Nieuwe het schermopstelling &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/new-scenario-set-up-like-this-350x446.png)
 
 1. Open het scenario met de module [!UICONTROL Webhooks] in een afzonderlijk browsertabblad of venster.
 1. Klik in de module Webhooks op **[!UICONTROL Redetermine data structure]** .
@@ -132,7 +132,7 @@ U kunt de voorbeeldgegevens ook verzenden via de module [!UICONTROL HTTP] > [!UI
 
    Een &quot;[!UICONTROL Successfully determined]&quot;bericht betekent dat de module met succes de gegevensstructuur heeft bepaald.
 
-   ![ met succes bepaalde ](/help/workfront-fusion/references/apps-and-modules/assets/successfully-determined-350x175.png)
+   ![&#x200B; met succes bepaalde &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/successfully-determined-350x175.png)
 
 1. Klik op **[!UICONTROL OK]** om de gegevensstructuur op te slaan.
 
@@ -204,7 +204,7 @@ Workfront Fusion
 
 Als u bestanden wilt ontvangen die zijn gecodeerd met `multipart/form-data` , moet u een gegevensstructuur configureren met een `collection` tekstveld dat de geneste velden `name` , `mime` en `data` bevat. Het veld `name` is een `text` -type en bevat de naam van het geüploade bestand. `mime` is een `text` -type en bevat een bestand in de MIME-indeling. Het veld `data` is een `buffer` -type en bevat binaire gegevens voor het bestand dat wordt overgedragen.
 
-Voor meer informatie over formaat MIME, zie [ MIME modules ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md).
+Voor meer informatie over formaat MIME, zie [&#x200B; MIME modules &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md).
 
 ### [!UICONTROL JSON]
 
@@ -241,16 +241,16 @@ U kunt een bepaalde headerwaarde extraheren met de combinatie van `map()` - en `
 >
 >In het onderstaande voorbeeld ziet u een formule die de waarde van de header `authorization` extraheert uit de array `Headers[]` . De formule wordt gebruikt in een filter dat de geëxtraheerde waarde met de gegeven tekst vergelijkt om slechts webhooks over te gaan als er een gelijke is.
 >
->![ Opstelling een filter ](/help/workfront-fusion/references/apps-and-modules/assets/set-up-a-filter-350x169.png)
+>![&#x200B; Opstelling een filter &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/set-up-a-filter-350x169.png)
 >
->Voor verdere informatie bij het verkrijgen van het element van een serie met een bepaalde sleutel, zie [ een element van een serie met een bepaalde sleutel ](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md#map-an-arrays-element-with-a-given-key) in de artikelKaart een serie in kaart brengen.
+>Voor verdere informatie bij het verkrijgen van het element van een serie met een bepaalde sleutel, zie [&#x200B; een element van een serie met een bepaalde sleutel &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md#map-an-arrays-element-with-a-given-key) in de artikelKaart een serie in kaart brengen.
 
 ## Reageren op webhaken
 
 De standaardreactie op een webshaanroep is de tekst &quot;Geaccepteerd&quot;. De reactie wordt geretourneerd aan de toepassing die de webhaak heeft aangeroepen tijdens de uitvoering van de aangepaste module Webhaak.
 
-* [ Test de reactie op een webhaak ](#test-the-response-to-a-webhook)
-* [ het voorbeeld van de Reactie van HTML ](#html-response-example)
+* [&#x200B; Test de reactie op een webhaak &#x200B;](#test-the-response-to-a-webhook)
+* [&#x200B; het voorbeeld van de Reactie van HTML &#x200B;](#html-response-example)
 * [Voorbeeld van omleiding](#redirect-example)
 
 ### De reactie op een webhaak testen
@@ -276,7 +276,7 @@ De configuratie van de module bevat twee velden: [!UICONTROL Status] en [!UICONT
 
   >[!TIP]
   >
-  >We raden u aan de header `Content-Type` in te stellen op het corresponderende MIME-type: `text/plain` voor normale tekst, `text/html` voor HTML, `application/json` voor JSON, `application/xml` voor XML enzovoort. Voor meer informatie over types MIME, zie [ MIME modules ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md).
+  >We raden u aan de header `Content-Type` in te stellen op het corresponderende MIME-type: `text/plain` voor normale tekst, `text/html` voor HTML, `application/json` voor JSON, `application/xml` voor XML enzovoort. Voor meer informatie over types MIME, zie [&#x200B; MIME modules &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md).
 
 De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie niet beschikbaar is binnen die periode, retourneert Workfront Fusion de status &#39;200 Accepted&#39;.
 
@@ -311,11 +311,11 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 >&gt; </tbody> 
 >&gt;</table>
 >
->![ de Kopballen van de Douane ](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
+>![&#x200B; de Kopballen van de Douane &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/custom-headers-350x235.png)
 >
 >Hiermee wordt een HTML-reactie gegenereerd die in een webbrowser wordt weergegeven:
 >
->![ reactie HEML ](/help/workfront-fusion/references/apps-and-modules/assets/html-response-350x70.png)
+>![&#x200B; reactie HEML &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/html-response-350x70.png)
 
 ### Voorbeeld van omleiding
 
@@ -342,7 +342,7 @@ De time-out voor het verzenden van een reactie is 40 seconden. Als de reactie ni
 >&gt; </tbody> 
 >&gt;</table>
 >
->![ reactie Webhaak ](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
+>![&#x200B; reactie Webhaak &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/webhook-response-350x279.png)
 
 ## Webhaak-deactivering
 
@@ -360,6 +360,6 @@ gedeactiveerde webhaken worden automatisch verwijderd en niet geregistreerd als 
 
 Als sommige items ontbreken in het deelvenster Toewijzing tijdens het instellen van de modules na de module [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] , klikt u op de module **[!UICONTROL Webhooks]>[!UICONTROL Custom Webhook]** om de installatie te openen en klikt u op **[!UICONTROL Re-determine data structure]** :
 
-![ bepaalt gegevensstructuur ](/help/workfront-fusion/references/apps-and-modules/assets/redetermine-data-structure-btn-350x195.png) opnieuw
+![&#x200B; bepaalt gegevensstructuur &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/redetermine-data-structure-btn-350x195.png) opnieuw
 
-Dan volg de stappen die in de sectie [ worden beschreven vormen de de gegevensstructuur van de webhaak ](#configure-the-webhook-s-data-structure) in dit artikel.
+Dan volg de stappen die in de sectie [&#x200B; worden beschreven vormen de de gegevensstructuur van de webhaak &#x200B;](#configure-the-webhook-s-data-structure) in dit artikel.

@@ -58,7 +58,7 @@ De module Workfront > Document uploaden is gewijzigd voor het verwerken van grot
 
 Als u met grotere bestanden wilt werken, raden wij u aan de oudere module te vervangen door de nieuwe module Document uploaden. Met de nieuwe module Document uploaden voorkomt u time-outs en andere fouten.
 
-![ uploadt document ](assets/new-upload-document.png)
+![&#x200B; uploadt document &#x200B;](assets/new-upload-document.png)
 
 ## Veelgestelde vragen
 

@@ -25,11 +25,11 @@ Met de gegevensopslagmodules kunt u de volgende handelingen uitvoeren op records
 * Zoeken
 * Aantal
 
-Voor informatie bij het gebruiken van de modules van de gegevensopslag, zie [[!UICONTROL Data store] modules ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md).
+Voor informatie bij het gebruiken van de modules van de gegevensopslag, zie [[!UICONTROL Data store] modules &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md).
 
 Ga voor een video-introductie over gegevensopslag in Workfront Fusion naar:
 
-* [ de Opslag van Gegevens ](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [&#x200B; de Opslag van Gegevens &#x200B;](https://video.tv.adobe.com/v/3427029/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -68,9 +68,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -110,7 +110,7 @@ Voordat u een gegevensopslag in een module kunt gebruiken, moet u de gegevensops
 >
 >Uw organisatie heeft een beperkt aantal beschikbare gegevensopslagruimten. Als u probeert meer gegevensopslagruimte te maken dan beschikbaar is, wordt een [!UICONTROL Maximum stores reached] -fout geretourneerd.
 >
->Voor meer informatie, zie [ Maximale opslag bereikte fout ](#maximum-stores-reached-error) in dit artikel.
+>Voor meer informatie, zie [&#x200B; Maximale opslag bereikte fout &#x200B;](#maximum-stores-reached-error) in dit artikel.
 
 1. Meld u aan bij uw Workfront Fusion-account.
 1. Klik op **[!UICONTROL Data stores]** in het navigatievenster aan de linkerkant.
@@ -197,20 +197,20 @@ U kunt de eigenschappen en inhoud van een bestaande gegevensopslag bewerken in h
 
 De eigenschappen van een gegevensopslag omvatten de gegevensstructuur die de gegevensopslag gebruikt, evenals de grootte van de gegevensopslag.
 
-1. Klik **[!UICONTROL Data stores]** {het pictogram van de 1} opslag van Gegevens ![ in het linkernavigatievenster om het ](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data stores]
-1. Klik **[!UICONTROL Edit]** ![ uitgeeft gegevensopslag ](assets/data-store-edit.png) naast de gegevensopslag die u wilt uitgeven.
+1. Klik **[!UICONTROL Data stores]** {het pictogram van de 1} opslag van Gegevens ![&#x200B; in het linkernavigatievenster om het &#x200B;](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data stores]
+1. Klik **[!UICONTROL Edit]** ![&#x200B; uitgeeft gegevensopslag &#x200B;](assets/data-store-edit.png) naast de gegevensopslag die u wilt uitgeven.
 1. (Optioneel) Als u de gegevensstructuur die door deze gegevensopslag wordt gebruikt, wilt wijzigen in een andere bestaande gegevensstructuur, selecteert u deze in de vervolgkeuzelijst **[!UICONTROL Data structure]** .
 
    of
 
-   (Facultatief) als u de gegevensstructuur wilt veranderen die door deze gegevensopslag aan een volledig nieuwe gegevensstructuur wordt gebruikt, zie [ Opstelling de gegevensstructuur ](#set-up-the-data-structure) in dit artikel.
+   (Facultatief) als u de gegevensstructuur wilt veranderen die door deze gegevensopslag aan een volledig nieuwe gegevensstructuur wordt gebruikt, zie [&#x200B; Opstelling de gegevensstructuur &#x200B;](#set-up-the-data-structure) in dit artikel.
 
 1. (Optioneel) Wijzig de grootte van de gegevensopslagruimte door de nieuwe grootte in te voeren in het veld **[!UICONTROL Data storage size in MB]** .
 1. Klik op **[!UICONTROL Save]**.
 
 ### De inhoud van een gegevensopslagruimte bewerken
 
-1. Klik het **[!UICONTROL Data Store]** pictogram van de de opslagplaats van 1&rbrace; Gegevens ![ in het linkernavigatievenster om het ](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data Store]
+1. Klik het **[!UICONTROL Data Store]** pictogram van de de opslagplaats van 1&rbrace; Gegevens ![&#x200B; in het linkernavigatievenster om het &#x200B;](assets/data-store-icon.png) gebied te openen.[!UICONTROL Data Store]
 1. Klik op **[!UICONTROL Browse]** naast de gegevensopslagruimte die u wilt bewerken.
 1. (Optioneel) U kunt kolommen opnieuw ordenen door deze naar de gewenste locatie te slepen.
 1. (Optioneel) [!UICONTROL Edit] één cel door op het pictogram **[!UICONTROL Edit]** in die cel te klikken en vervolgens de gewenste waarde in te voeren.
@@ -231,12 +231,12 @@ Er is momenteel geen gereedschap waarmee u het herstellen van verloren gegevens 
 
 1. Onderzoek alle uitvoeringslogboeken van scenario&#39;s waar de punten aan de gegevensopslag werden opgenomen.
 
-   Voor meer informatie bij het onderzoeken van uitvoeringslogboeken, zie [ Mening de uitvoeringshistorie van een scenario ](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md).
+   Voor meer informatie bij het onderzoeken van uitvoeringslogboeken, zie [&#x200B; Mening de uitvoeringshistorie van een scenario &#x200B;](/help/workfront-fusion/manage-scenarios/view-scenario-execution-history.md).
 
 1. Kopieer de gegevens.
 1. Voeg de gegevens opnieuw in de gegevensopslag in.
 
-   Voor informatie bij het opnemen van gegevens in een gegevensopslag, zie [ de inhoud van een gegevensopslag ](#edit-the-contents-of-a-data-store) in dit artikel uitgeven.
+   Voor informatie bij het opnemen van gegevens in een gegevensopslag, zie [&#x200B; de inhoud van een gegevensopslag &#x200B;](#edit-the-contents-of-a-data-store) in dit artikel uitgeven.
 
 ### [!UICONTROL Out of space] fout
 
@@ -246,7 +246,7 @@ Er treedt een [!UICONTROL Out of Space] -fout op omdat aan uw eerder gemaakte ge
 
 1. Bewerk de bestaande gegevensopslagruimten om minder ruimte te gebruiken. Hierdoor komt er ruimte vrij voor uw nieuwe gegevensopslag.
 
-   Voor meer informatie, zie [ de eigenschappen van een gegevensopslag ](#edit-the-properties-of-a-data-store) in dit artikel uitgeven.
+   Voor meer informatie, zie [&#x200B; de eigenschappen van een gegevensopslag &#x200B;](#edit-the-properties-of-a-data-store) in dit artikel uitgeven.
 
 >[!NOTE]
 >

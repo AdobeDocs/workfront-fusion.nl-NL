@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -62,7 +62,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Adobe Workfront Fusion registreren.
 
-1. Begin registrerend een nieuwe toepassing zoals die in [ wordt beschreven Register een toepassing met het de identiteitsplatform van Microsoft ](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft.
+1. Begin registrerend een nieuwe toepassing zoals die in [&#x200B; wordt beschreven Register een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft.
 
    Als onderdeel van de registratie vereist Microsoft de volgende informatie:
 
@@ -85,7 +85,7 @@ Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Ad
 
 1. Een clientgeheim genereren. Noteer dit geheim.
 
-   Voor instructies, zie [ een toepassing met het de identiteitsplatform van Microsoft ](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft registreren.
+   Voor instructies, zie [&#x200B; een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft registreren.
 
    >[!IMPORTANT]
    >
@@ -93,7 +93,7 @@ Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Ad
 
 1. Configureer de machtigingen voor uw toepassing.
 
-   Voor details bij het bepalen van en het vormen van deze gebieden, zie de &quot;toestemmingen voor de Grafiek van Microsoft&quot;sectie in [ toegang zonder een gebruiker ](https://docs.microsoft.com/en-us/graph/auth-v2-service) in de documentatie van Microsoft krijgen.
+   Voor details bij het bepalen van en het vormen van deze gebieden, zie de &quot;toestemmingen voor de Grafiek van Microsoft&quot;sectie in [&#x200B; toegang zonder een gebruiker &#x200B;](https://docs.microsoft.com/en-us/graph/auth-v2-service) in de documentatie van Microsoft krijgen.
 
    <table style="table-layout:auto">
     <col> 
@@ -115,11 +115,11 @@ Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Ad
     </tbody> 
    </table>
 
-1. Ga aan [ verder vormen uw de Grafiek API verbinding van MS in de Fusie van Workfront ](#configure-your-ms-graph-api-connection-in-workfront-fusion).
+1. Ga aan [&#x200B; verder vormen uw de Grafiek API verbinding van MS in de Fusie van Workfront &#x200B;](#configure-your-ms-graph-api-connection-in-workfront-fusion).
 
 ## Uw MS Graph API-verbinding configureren in Workfront Fusion
 
-Nadat u de Fusie van Workfront zoals die in [ wordt besproken registreert de Fusie van Workfront in het Portaal van de Registratie van de Toepassing van Microsoft ](#register-workfront-fusion-in-the-microsoft-application-registration-portal), kunt u uw verbinding in HTTP vormen > maak een Oauth 2.0 verzoekmodule.
+Nadat u de Fusie van Workfront zoals die in [&#x200B; wordt besproken registreert de Fusie van Workfront in het Portaal van de Registratie van de Toepassing van Microsoft &#x200B;](#register-workfront-fusion-in-the-microsoft-application-registration-portal), kunt u uw verbinding in HTTP vormen > maak een Oauth 2.0 verzoekmodule.
 
 1. Voeg HTTP > een OAuth 2.0 vraagmodule aan uw scenario toe.
 1. Klik **toevoegen** naast het verbindingsgebied.

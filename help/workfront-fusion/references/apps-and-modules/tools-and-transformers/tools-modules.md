@@ -15,7 +15,7 @@ ht-degree: 0%
 
 De sectie [!DNL Adobe Workfront Fusion Tools] bevat verschillende nuttige modules die uw scenario kunnen verbeteren.
 
-[!UICONTROL Tools] modules zijn beschikbaar bij de lijst van apps, of van het [!UICONTROL Tools] pictogram van pictogram ![ Hulpmiddelen ](/help/workfront-fusion/references/apps-and-modules/assets/tools-icon-small.png) bij de bodem van het scherm.
+[!UICONTROL Tools] modules zijn beschikbaar bij de lijst van apps, of van het [!UICONTROL Tools] pictogram van pictogram ![&#x200B; Hulpmiddelen &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/tools-icon-small.png) bij de bodem van het scherm.
 
 ## Toegangsvereisten
 
@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -97,7 +97,7 @@ U kunt deze module, bijvoorbeeld, voor contacten of een andere lijst gebruiken d
 
 Deze module haalt waarden op die eerder door de module [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] zijn gemaakt.
 
-Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Multiple Variables] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ een module van de Router toevoegen en routes ](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
+Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Multiple Variables] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variable] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Multiple Variables] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [&#x200B; een module van de Router toevoegen en routes &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
 
 <table style="table-layout:auto">
     <tr>
@@ -120,7 +120,7 @@ Deze module kan variabelen lezen die overal in het scenario werden geplaatst, ze
 
 Deze module haalt een waarde op die eerder door de module [!UICONTROL Set Variable] of [!UICONTROL Set Multiple Variables] is gemaakt.
 
-Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Variable] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Variable] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [ een module van de Router toevoegen en routes ](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
+Deze module kan variabelen lezen die overal in het scenario werden geplaatst, zelfs als de variabele in een verschillende route werd geplaatst dan waar de [!UICONTROL Get Variable] module wordt gevestigd. De enige vereiste is dat de module [!UICONTROL Tools] > [!UICONTROL Set Variable] of [!UICONTROL Tools] > [!UICONTROL Set Multiple Variables] wordt uitgevoerd vóór de module [!UICONTROL Tools] > [!UICONTROL Get Variable] . Voor meer informatie over de orde waarin de modules worden uitgevoerd, zie [&#x200B; een module van de Router toevoegen en routes &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -161,14 +161,14 @@ Deze module kan worden gebruikt om een &quot;ronde robin&quot;taak van taken uit
 
 Het volgende scenario verzendt een e-mail naar de eerste ontvanger na elk oneven genummerd scenario in werking gesteld, en naar de tweede ontvanger na elk even genummerd scenario in werking gesteld.
 
-![ E-mail van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
+![&#x200B; E-mail van het Voorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/example-email.png)
 
 Dit scenario maken:
 
 1. Stel het veld **[!UICONTROL Reset a value]** van de module in op Nooit.
 1. Stel de route in voor oneven waarden. Stel het filter voor deze route in met de rekenkundige modulusfunctie die gelijk is aan `1` :
 
-   ![ Oneven aantallen ](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
+   ![&#x200B; Oneven aantallen &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/odd.png)
 
 **Nota**: Vergeet niet om de [!UICONTROL Equal to] exploitant van de standaard [!UICONTROL Text] exploitant in de [!UICONTROL Numeric] exploitant te veranderen.
 
@@ -256,7 +256,7 @@ Deze functie kan bijvoorbeeld nuttig zijn als u de belasting van de [!DNL target
 >
 ><!--For more information on data stores, see [Data Stores in Adobe Workfront Fusion]().-->
 >
->Voor meer informatie over specifieke modules van de gegevensopslag, zie [[!UICONTROL Data store] modules ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md).
+>Voor meer informatie over specifieke modules van de gegevensopslag, zie [[!UICONTROL Data store] modules &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/data-store-modules.md).
 
 ### Samenvoegapparatuur
 

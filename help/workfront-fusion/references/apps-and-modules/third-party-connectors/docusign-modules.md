@@ -16,9 +16,9 @@ ht-degree: 0%
 
 Met de Adobe Workfront Fusion [!DNL DocuSign] -modules kunt u de envelopstatus controleren en ophalen, enveloppen zoeken en ophalen, of een document downloaden en verzenden om u aan te melden bij uw [!DNL DocuSign] -account.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -57,9 +57,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -118,9 +118,9 @@ Verbinding maken voor uw [!DNL DocuSign] -modules:
 
 Wanneer u [!DNL DocuSign] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL DocuSign] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -450,13 +450,13 @@ De volgende API-aanroep retourneert enveloppen vanaf de opgegeven datum in uw [!
 
 Hiermee geeft u aan wanneer de aanvraag begint te controleren op statuswijzigingen voor enveloppen in de account.
 
-![ Opstelling van het Document van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-docusign-setup-350x770.png)
+![&#x200B; Opstelling van het Document van het Voorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/example-docusign-setup-350x770.png)
 
 Het resultaat is te vinden in de Uitvoer van de module onder Bundel > Body > Omhulsels.
 
 In ons voorbeeld werden 6 enveloppen geretourneerd:
 
-![ Voorbeeld documenteert output ](/help/workfront-fusion/references/apps-and-modules/assets/docusign-example-output-350x677.png)
+![&#x200B; Voorbeeld documenteert output &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/docusign-example-output-350x677.png)
 
 >[!ENDSHADEBOX]
 

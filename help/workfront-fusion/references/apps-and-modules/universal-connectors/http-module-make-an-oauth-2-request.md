@@ -26,13 +26,13 @@ Workfront Fusion ondersteunt de volgende OAuth 2.0-verificatiestromen:
 
 Andere stromen, zoals de Stroom van de Referenties van het Wachtwoord van de Eigenaar van het Middel en de Stroom van de Referenties van de Cliënt, worden niet automatisch gesteund door deze module.
 
-Voor meer informatie over OAuth 2.0 authentificatie, zie [ het Kader van de Vergunning OAuth 2.0 ](https://tools.ietf.org/html/rfc6749).
+Voor meer informatie over OAuth 2.0 authentificatie, zie [&#x200B; het Kader van de Vergunning OAuth 2.0 &#x200B;](https://tools.ietf.org/html/rfc6749).
 
 >[!NOTE]
 >
 >Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
->Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
+>Voor meer informatie, zie [&#x200B; module van Adobe Authenticator &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
 ## Toegangsvereisten
 
@@ -71,9 +71,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -225,13 +225,13 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
    </table>
 
 1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
-1. Ga aan [ te werk vormen doe een OAuth 2.0 verzoekmodule ](#configure-the-make-an-oauth-20-request-module).
+1. Ga aan [&#x200B; te werk vormen doe een OAuth 2.0 verzoekmodule &#x200B;](#configure-the-make-an-oauth-20-request-module).
 
 ### Instructies voor het maken van een verbinding met [!DNL Google] in het dialoogvenster [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request module]
 
 In het volgende voorbeeld ziet u hoe u de aanvraagmodule [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0] gebruikt om verbinding te maken met [!DNL Google] .
 
-1. Zorg ervoor dat u een project, gevormde montages OAuth hebt gecreeerd, en uw geloofsbrieven zoals die in artikel [ worden beschreven Connect de Fusie van Adobe Workfront aan  [!DNL Google Services]  gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md) geproduceerd.
+1. Zorg ervoor dat u een project, gevormde montages OAuth hebt gecreeerd, en uw geloofsbrieven zoals die in artikel [&#x200B; worden beschreven Connect de Fusie van Adobe Workfront aan  [!DNL Google Services]  gebruikend een douaneOAuth cliënt &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md) geproduceerd.
 1. Open de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request]
 1. Klik in een willekeurige module op **[!UICONTROL Add]** naast het vak Verbinding.
 1. Voer de volgende waarden in:
@@ -288,7 +288,7 @@ In het volgende voorbeeld ziet u hoe u de aanvraagmodule [!UICONTROL HTTP] > [!U
    </table>
 
 1. Klik op **[!UICONTROL Continue]** om verbindingsinstellingen op te slaan.
-1. Ga aan [ te werk vormen doe een OAuth 2.0 verzoekmodule ](#configure-the-make-an-oauth-20-request-module).
+1. Ga aan [&#x200B; te werk vormen doe een OAuth 2.0 verzoekmodule &#x200B;](#configure-the-make-an-oauth-20-request-module).
 
 ## Vorm Make een OAuth 2.0 verzoekmodule
 
@@ -296,9 +296,9 @@ Nadat u een verbinding OAuth 2.0 hebt gevestigd, zet opstelling de module voort 
 
 Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make an OAuth 2.0 request] configureert, geeft Workfront Fusion de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 <table style="table-layout:auto">  
  <col> 

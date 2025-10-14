@@ -19,9 +19,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u projecten maken en beheren in de Adobe Admin Console.
 
-Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [ een scenario creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Als u instructies bij het creëren van een scenario nodig hebt, zie de artikelen onder [&#x200B; een scenario creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -60,9 +60,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -81,7 +81,7 @@ U moet de API toevoegen aan uw project in de Adobe Developer Console.
 1. Voeg een naam voor de referentie toe.
 1. Klik **daarna**, dan klik **sparen gevormde API**.
 1. Noteer de opgegeven referenties die u gebruikt bij het configureren van de verbinding in Workfront Fusion.
-1. Ga verder [ van uw technische rekening een beheerder in Adobe Admin Console ](#make-your-technical-account-an-admin-in-the-adobe-admin-console) maken.
+1. Ga verder [&#x200B; van uw technische rekening een beheerder in Adobe Admin Console &#x200B;](#make-your-technical-account-an-admin-in-the-adobe-admin-console) maken.
 
 ### Een technisch account als beheerder instellen in de Adobe Admin Console
 
@@ -100,7 +100,7 @@ Selecteer op de Adobe Admin Console-pagina het tabblad Producten in de bovenste 
 
    De technische rekening wordt een beheerder gemaakt.
 
-1. Ga aan [ verder creeer de verbinding in de Fusie van Workfront ](#create-the-connection-in-workfront-fusion).
+1. Ga aan [&#x200B; verder creeer de verbinding in de Fusie van Workfront &#x200B;](#create-the-connection-in-workfront-fusion).
 
 ### Verbinding maken in Workfront Fusion
 
@@ -146,9 +146,9 @@ Verbinding maken voor uw [!DNL Adobe Storage] -modules:
 
 Wanneer u Adobe-gebruikersbeheermodules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er extra Adobe-gebruikersbeheervelden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [ESM-opslag](#esm-stores)
 * [Uitnodigingen](#invitations)

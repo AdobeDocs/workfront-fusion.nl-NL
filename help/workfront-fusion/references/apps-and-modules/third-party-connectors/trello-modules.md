@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Trello] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -91,15 +91,15 @@ De Trello-aansluiting gebruikt het volgende:
 
 ## Verbinden [!UICONTROL Trello] met Workfront Fusion
 
-Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie [ een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie [&#x200B; een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 ## [!UICONTROL Trello] modules en hun velden
 
 Wanneer u [!UICONTROL Trello] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Trello] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Borden](#boards)
 * [Lijsten](#lists)
@@ -929,7 +929,7 @@ Deze actiemodule voegt het opgegeven lid toe aan de opgegeven kaart.
 
 +++ **[!UICONTROL Assign a Member to a Board]**
 
-Zie &quot;[!UICONTROL Assign a Member to a Board]&quot;onder [ Boards ](#boards).
+Zie &quot;[!UICONTROL Assign a Member to a Board]&quot;onder [&#x200B; Boards &#x200B;](#boards).
 
 +++
 
@@ -964,7 +964,7 @@ Deze actiemodule haalt informatie op over [!UICONTROL Trello] leden.
 
 +++ **[!UICONTROL Unassign a Member from a Board]**
 
-Zie &quot;[!UICONTROL Unassign a Member from a Board]&quot;onder [ Boards ](#boards).
+Zie &quot;[!UICONTROL Unassign a Member from a Board]&quot;onder [&#x200B; Boards &#x200B;](#boards).
 
 +++
 
@@ -1219,7 +1219,7 @@ Deze triggermodule start een scenario wanneer een opmerking wordt toegevoegd.
 
 Als u een kaart wilt bewerken of een nieuwe opmerking wilt maken, moet u de id van de kaart of de bijbehorende snelkoppeling weten. U kunt deze informatie ophalen uit de uitvoer van de trigger [!UICONTROL New Card] . U kunt de snelkoppeling voor een kaart ook verkrijgen door de kaart te openen en op de knop [!UICONTROL Share] te klikken. De snelkoppeling vindt u in het vak [!UICONTROL Link to this card] aan het einde van de URL na `https://trello.com/c/` .
 
-![ Aandeel en meer ](/help/workfront-fusion/references/apps-and-modules/assets/share-and-more-350x575.png)
+![&#x200B; Aandeel en meer &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/share-and-more-350x575.png)
 
 ### Id&#39;s van andere objecten zoeken in [!DNL Trello]
 

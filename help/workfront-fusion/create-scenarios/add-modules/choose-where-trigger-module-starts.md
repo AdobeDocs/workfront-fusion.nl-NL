@@ -17,7 +17,7 @@ Met bepaalde triggermodules kunt u de eerste bundel selecteren waaruit u het oph
 
 U kunt ook opgeven of u alle bundels wilt ophalen of alleen de bundels vanaf een bepaalde datum.
 
-Voor meer informatie over trekkermodules, zie de sectie [ modules van de Trekker ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodule.
+Voor meer informatie over trekkermodules, zie de sectie [&#x200B; modules van de Trekker &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodule.
 
 ## Toegangsvereisten
 
@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -73,7 +73,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
    Klik het pictogram voor de trekkermodule met de rechtermuisknop aan, en selecteer **kiezen waar te beginnen**.
 
-   ![ kies waar te beginnen ](assets/choose-where-to-start.png)
+   ![&#x200B; kies waar te beginnen &#x200B;](assets/choose-where-to-start.png)
 
 1. Selecteer een optie in het vak **[!UICONTROL Choose where to start]** dat wordt weergegeven.
 

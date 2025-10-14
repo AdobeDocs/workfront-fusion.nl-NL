@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Wanneer u een malplaatje creeert, wordt uw malplaatje beschikbaar voor al uw teamleden. Als u het malplaatje met iemand buiten uw team wilt delen, moet u het eerst publiceren.
 
-Voor informatie bij het creëren van een malplaatje, zie [ een nieuw malplaatje ](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md) creëren.
+Voor informatie bij het creëren van een malplaatje, zie [&#x200B; een nieuw malplaatje &#x200B;](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md) creëren.
 
 ## Toegangsvereisten
 
@@ -54,9 +54,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 

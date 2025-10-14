@@ -21,9 +21,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 7 december 2020 zijn aangebracht.
 
-Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
 
-Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [&#x200B; pagina van de Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Jira Server-aansluiting en -modules nu beschikbaar
 

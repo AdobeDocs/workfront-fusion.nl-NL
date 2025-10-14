@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -64,13 +64,13 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 De opgeslagen sjabloon wordt automatisch gedeeld met uw teamleden. Als u het met gebruikers wilt delen die geen lid van uw team zijn, moet u het publiceren. U kunt het dan met een verbinding delen, of de beheerder vragen om het malplaatje openbaar te maken.
 
-Voor meer informatie, zie [ publiceren en delen  [!DNL Adobe Workfront Fusion templates]](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md).
+Voor meer informatie, zie [&#x200B; publiceren en delen  [!DNL Adobe Workfront Fusion templates]](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md).
 
 ## Hoe kan ik een openbare sjabloon bewerken of verwijderen?
 
 **Antwoord**:
 
-Zie [ Mening, geef, en schrap de malplaatjes van de Fusie van Adobe Workfront uit ](/help/workfront-fusion/create-and-manage-templates/view-edit-and-delete-fusion-templates.md).
+Zie [&#x200B; Mening, geef, en schrap de malplaatjes van de Fusie van Adobe Workfront uit &#x200B;](/help/workfront-fusion/create-and-manage-templates/view-edit-and-delete-fusion-templates.md).
 
 ## Ik kan geen openbare malplaatje vinden dat ik oorspronkelijk creeerde. Wat kan ik doen?
 

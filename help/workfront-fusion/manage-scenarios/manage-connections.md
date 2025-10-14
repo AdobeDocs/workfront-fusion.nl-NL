@@ -61,9 +61,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in de documentatie van Workfront ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in de documentatie van Workfront &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -77,14 +77,14 @@ U kunt alle verbindingen van het gebied van Verbindingen beheren.
 >
 >Als u een nieuw team wilt selecteren, klikt u op de vervolgkeuzepijl naast de teamnaam boven aan de pagina. Selecteer een nieuw team in de lijst.
 
-1. Om het gebied van Verbindingen te openen, klik het pictogram van Verbindingen ![ ](assets/connections-icon.png) in de linkernavigatie.
+1. Om het gebied van Verbindingen te openen, klik het pictogram van Verbindingen ![&#x200B; &#x200B;](assets/connections-icon.png) in de linkernavigatie.
 1. (Optioneel) Als u de omgeving of het type wilt opgeven, klikt u op de vervolgkeuzelijst Omgeving en Type en selecteert u een optie.
 
    >[!NOTE]
    >
    >Het milieu en het Type zijn slechts voor uw eigen gemak in het identificeren van verbindingen. Ze hebben geen invloed op de functionaliteit van de verbinding.
 
-1. (Facultatief) om te bekijken welke toestemmingen aan de Fusie van Workfront voor een verbinding werden gegeven, klik het pictogram van de Mening ![ de verbindingstoestemmingen van de Mening ](assets/view-connection-permissions.png) voor die verbinding.
+1. (Facultatief) om te bekijken welke toestemmingen aan de Fusie van Workfront voor een verbinding werden gegeven, klik het pictogram van de Mening ![&#x200B; de verbindingstoestemmingen van de Mening &#x200B;](assets/view-connection-permissions.png) voor die verbinding.
 1. (Optioneel) Als u de naam van een verbinding wilt wijzigen of bewerken, klikt u op de naam en brengt u de wijziging aan.
 1. (Facultatief) om een verbinding opnieuw toe te staan, klik **opnieuw machtigen** in de rij voor die verbinding.
 1. (Facultatief) om te verifiëren dat de verbinding aan de dienst werkte, klik **verifieer** in de rij voor die verbinding.
@@ -96,5 +96,5 @@ Workfront Fusion verkrijgt gewoonlijk voor onbepaalde tijd toegangsrechten tot e
 
 Een verbinding vernieuwen:
 
-1. Om het gebied van Verbindingen te openen, klik het pictogram van Verbindingen ![ ](assets/connections-icon.png) in de linkernavigatie.
+1. Om het gebied van Verbindingen te openen, klik het pictogram van Verbindingen ![&#x200B; &#x200B;](assets/connections-icon.png) in de linkernavigatie.
 1. (Facultatief) om een verbinding opnieuw toe te staan, klik **opnieuw machtigen** in de rij voor die verbinding.

@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Dropbox] of [!DNL Dropbox Business] gebruiken, en deze koppelen aan meerdere toepassingen en services van derden. Hierdoor kunt u activiteiten zoals het controleren, zoeken, ophalen, weergeven, maken en bewerken van bestanden en mappen in uw [!UICONTROL Dropbox] automatiseren.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -149,9 +149,9 @@ Verbinding maken voor uw [!DNL Dropbox] -modules:
 
 Wanneer u [!DNL Dropbox] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Dropbox] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggermodules](#trigger-modules)
 * [Modules voor het krijgen van  [!DNL Dropbox]  dossiers en omslagen](#modules-for-getting-dropbox-files-and-folders)
@@ -751,15 +751,15 @@ Als u de URL automatisch wilt wijzigen, kunt u de functie `replace()` twee keer 
 
 * www door dl vervangen
 
-  ![ vervang www met dl ](/help/workfront-fusion/references/apps-and-modules/assets/www-to-dl-350x32.png)
+  ![&#x200B; vervang www met dl &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/www-to-dl-350x32.png)
 
 * En om ?dl=0 te verwijderen
 
-  ![ verwijder DL ](/help/workfront-fusion/references/apps-and-modules/assets/remove-dl0-350x33.png)
+  ![&#x200B; verwijder DL &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/remove-dl0-350x33.png)
 
 U kunt dit in één stap doen door de volgende functies te combineren:
 
-![ vervang allebei ](/help/workfront-fusion/references/apps-and-modules/assets/replace-both-350x47.png)
+![&#x200B; vervang allebei &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/replace-both-350x47.png)
 
 U kunt het ook kopiëren en in het veld plakken. Vervang `1.url` door de URL.
 

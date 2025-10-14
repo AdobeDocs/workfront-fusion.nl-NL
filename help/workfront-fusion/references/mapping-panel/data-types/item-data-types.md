@@ -15,7 +15,7 @@ ht-degree: 0%
 
 U kunt de hieronder vermelde objecttypen in een bundel opnemen.
 
-Voor informatie over welke types van punten de Fusie van Workfront voor omzetting tussen elkaar toestaat, zie [ Druk van het Type ](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
+Voor informatie over welke types van punten de Fusie van Workfront voor omzetting tussen elkaar toestaat, zie [&#x200B; Druk van het Type &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/type-coercion.md).
 
 <table style="table-layout:auto">
  <col> 

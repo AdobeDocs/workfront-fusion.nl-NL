@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -63,13 +63,13 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 De algemene Iterator-module heeft één veld, het veld [!UICONTROL Array] . Dit veld bevat de array die moet worden omgezet of gesplitst in afzonderlijke bundels.
 
-![ de iterator van de opstelling ](assets/set-up-iterator.jpg)
+![&#x200B; de iterator van de opstelling &#x200B;](assets/set-up-iterator.jpg)
 
 Andere connectors kunnen iteratormodules omvatten specifiek voor die iterator. Deze bevatten een Source-moduleveld waarmee u de module kunt selecteren die de array uitvoert die u wilt herhalen.
 
-![ Gespecialiseerde iterators ](assets/specialized-iterators.jpg)
+![&#x200B; Gespecialiseerde iterators &#x200B;](assets/specialized-iterators.jpg)
 
-Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
+Voor meer informatie, zie [&#x200B; een module &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
 
 >[!BEGINSHADEBOX]
 
@@ -79,7 +79,7 @@ Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios
 
   E-mails kunnen een array met bijlagen bevatten. De [!UICONTROL Iterator] module na de eerste module laat het scenario toe om elke gehechtheid afzonderlijk te behandelen. De module [!UICONTROL Iterator] splitst de array van bijlagen in afzonderlijke bundels. Elke bundel, met één bijlage, wordt vervolgens één voor één opgeslagen in een geselecteerde [!DNL Dropbox] -map. Het veld [!UICONTROL Array] in de module Iterator moet de array `Attachments` bevatten.
 
-  ![ serie van Gehechtheid ](assets/attachments-array.jpg)
+  ![&#x200B; serie van Gehechtheid &#x200B;](assets/attachments-array.jpg)
 
 >[!ENDSHADEBOX]
 
@@ -90,7 +90,7 @@ Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios
 
 Wanneer een module [!UICONTROL Iterator] geen informatie heeft over de structuur van de items van de array, worden in het deelvenster Toewijzing in de modules die volgen op de module [!UICONTROL Iterator] alleen twee items weergegeven onder de module [!UICONTROL Iterator] : `Total number of bundles` en `Bundle order position` .
 
-![ het paneel van de Toewijzing toont niet ](assets/mapping-panel-doesnt-display.png)
+![&#x200B; het paneel van de Toewijzing toont niet &#x200B;](assets/mapping-panel-doesnt-display.png)
 
 Dit komt omdat elke module voor het verstrekken van informatie over punten verantwoordelijk is het output, zodat deze punten behoorlijk in het mappingpaneel in de verdere modules kunnen worden getoond. Het is echter mogelijk dat verschillende modules deze informatie in sommige gevallen niet kunnen verstrekken. [!UICONTROL JSON] > [!UICONTROL Parse JSON] of [!UICONTROL Webhooks] > [!UICONTROL Custom Webhook] modules met ontbrekende gegevensstructuur geven de informatie bijvoorbeeld niet op.
 
@@ -100,11 +100,11 @@ De oplossing is het scenario manueel uit te voeren. Hierdoor wordt de module ged
 
 Een scenario bevat bijvoorbeeld een module [!UICONTROL JSON] > [!UICONTROL Parse JSON] zonder gegevensstructuur.
 
-![ ontleed JSON ](assets/json-parse-json.png)
+![&#x200B; ontleed JSON &#x200B;](assets/json-parse-json.png)
 
 Een [!UICONTROL Iterator] -module die op deze JSON-module is aangesloten, kan de uitvoer van de module niet toewijzen aan het veld Array in het instellingenvenster van de [!UICONTROL Iterator] -module.
 
-![ verbindt iteratormodule ](assets/connect-iterator-module.png)
+![&#x200B; verbindt iteratormodule &#x200B;](assets/connect-iterator-module.png)
 
 Dit probleem oplossen:
 
@@ -120,8 +120,8 @@ Begin manueel het scenario in de scenarioredacteur.
 
 Nadat [!UICONTROL JSON] > [!UICONTROL Parse JSON] wordt uitgevoerd, kan het informatie over zijn output aan alle verdere modules, met inbegrip van de module van de Iterator verstrekken. In het deelvenster Toewijzing in de setup van de iterator worden vervolgens de items weergegeven:
 
-![ het paneelvertoningen van de Toewijzing punten ](assets/mapping-panel-displays-items.png)
+![&#x200B; het paneelvertoningen van de Toewijzing punten &#x200B;](assets/mapping-panel-displays-items.png)
 
 bovendien worden in het deelvenster Toewijzing in de modules die na de module [!UICONTROL Iterator] worden verbonden, de items weergegeven die zich in de array bevinden:
 
-![ Punten bevat in serie ](assets/items-contained-in-array.png)
+![&#x200B; Punten bevat in serie &#x200B;](assets/items-contained-in-array.png)

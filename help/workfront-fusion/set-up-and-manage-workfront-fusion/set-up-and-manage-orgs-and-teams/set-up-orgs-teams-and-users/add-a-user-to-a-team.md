@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Uw gebruikers worden toegewezen aan teams wanneer u hen creeert. Als een bestaande gebruiker aan een team moet worden toegevoegd, kunt u hen op de pagina van de Gebruikers van het team toevoegen.
 
-Om een gebruiker aan Fusie toe te voegen, zie [ gebruikers aan de Fusie van Adobe Workfront door Adobe Admin Console ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-fusion-users-admin-console.md) toevoegen.
+Om een gebruiker aan Fusie toe te voegen, zie [&#x200B; gebruikers aan de Fusie van Adobe Workfront door Adobe Admin Console &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-fusion-users-admin-console.md) toevoegen.
 
 Het toevoegen van een gebruiker aan een team wordt behandeld van de pagina voor dat team.
 

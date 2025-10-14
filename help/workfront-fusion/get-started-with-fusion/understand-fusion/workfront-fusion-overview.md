@@ -31,11 +31,11 @@ Workfront Fusion biedt ook functies die scenario&#39;s ondersteunen, zoals sjabl
 
 Wanneer u met Workfront Fusion begint te werken, zijn wellicht de volgende bronnen nuttig:
 
-* Voor de opleidingsmiddelen van de Fusie van Workfront, zie [ het Overzicht van de Opleiding van de Fusie van Workfront ](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
+* Voor de opleidingsmiddelen van de Fusie van Workfront, zie [&#x200B; het Overzicht van de Opleiding van de Fusie van Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront-learn/tutorials-workfront/fusion/welcome-to-workfront-fusion/introduction-and-tech-strategy).
 
 
-* Voor meer informatie over scenario&#39;s, zie [ Overzicht Scenario ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md).
+* Voor meer informatie over scenario&#39;s, zie [&#x200B; Overzicht Scenario &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/scenario-overview.md).
 
-* Voor overzichten van andere gebieden van Fusion, zie de artikelen onder [ Fusie begrijpen: artikelindex ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/understand-fusion-toc.md).
+* Voor overzichten van andere gebieden van Fusion, zie de artikelen onder [&#x200B; Fusie begrijpen: artikelindex &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/understand-fusion-toc.md).
 
-* Beginnen met het creëren van praktijkscenario&#39;s, zie [ de praktijkscenario&#39;s van de Bouwstijl: artikelindex ](/help/workfront-fusion/build-practice-scenarios/build-practice-scenarios-toc.md).
+* Beginnen met het creëren van praktijkscenario&#39;s, zie [&#x200B; de praktijkscenario&#39;s van de Bouwstijl: artikelindex &#x200B;](/help/workfront-fusion/build-practice-scenarios/build-practice-scenarios-toc.md).

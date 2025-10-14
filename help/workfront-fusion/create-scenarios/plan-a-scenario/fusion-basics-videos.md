@@ -17,19 +17,19 @@ Deze video&#39;s zijn beschikbaar om u te helpen vertrouwd te maken met enkele f
 
 ## Navigatie
 
-* [ de Fusie van Workfront op Adobe verenigde Shell ](https://video.tv.adobe.com/v/3412392/){target=_blank}
+* [&#x200B; de Fusie van Workfront op Adobe verenigde Shell &#x200B;](https://video.tv.adobe.com/v/3412392/){target=_blank}
 
 ## Basisbeginselen
 
-* [ Intro aan Webhooks ](https://video.tv.adobe.com/v/3427025/){target=_blank}
-* [ intermediaire Webhooks ](https://video.tv.adobe.com/v/3427030/){target=_blank}
-* [ de Opslag van Gegevens ](https://video.tv.adobe.com/v/3427029/){target=_blank}
-* [ het Hulpmiddel van de Ontwikkeling van de Fusie ](https://video.tv.adobe.com/v/3427031/){target=_blank}
-* [ Synchronizing Omslagen ](https://video.tv.adobe.com/v/3427033/){target=_blank}
+* [&#x200B; Intro aan Webhooks &#x200B;](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [&#x200B; intermediaire Webhooks &#x200B;](https://video.tv.adobe.com/v/3427030/){target=_blank}
+* [&#x200B; de Opslag van Gegevens &#x200B;](https://video.tv.adobe.com/v/3427029/){target=_blank}
+* [&#x200B; het Hulpmiddel van de Ontwikkeling van de Fusie &#x200B;](https://video.tv.adobe.com/v/3427031/){target=_blank}
+* [&#x200B; Synchronizing Omslagen &#x200B;](https://video.tv.adobe.com/v/3427033/){target=_blank}
 
 ## Aansluitingen
 
-* [ Marketo ](https://video.tv.adobe.com/v/3427026/){target=_blank}
-* [ Frame.io ](https://video.tv.adobe.com/v/3427032/){target=_blank}
-* [ Adobe Experience Manager Assets ](https://video.tv.adobe.com/v/3427034/){target=_blank}
-* [ Salesforce ](https://video.tv.adobe.com/v/3427027/){target=_blank}
+* [&#x200B; Marketo &#x200B;](https://video.tv.adobe.com/v/3427026/){target=_blank}
+* [&#x200B; Frame.io &#x200B;](https://video.tv.adobe.com/v/3427032/){target=_blank}
+* [&#x200B; Adobe Experience Manager Assets &#x200B;](https://video.tv.adobe.com/v/3427034/){target=_blank}
+* [&#x200B; Salesforce &#x200B;](https://video.tv.adobe.com/v/3427027/){target=_blank}

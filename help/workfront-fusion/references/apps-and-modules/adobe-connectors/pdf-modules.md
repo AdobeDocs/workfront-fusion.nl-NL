@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Met Adobe Workfront Fusion [!DNL Adobe PDF Services] kunt u gegevens uit een PDF-bestand extraheren of een nieuw PDF-bestand genereren op basis van gegevens die u opgeeft. Daarnaast kunt u verschillende bestandstypen converteren naar PDF&#39;s of naar andere bestandstypen. Met PDF Services kunt u ook metagegevens voor een PDF-bestand combineren, comprimeren of lezen, en wachtwoordbeveiliging voor het bestand instellen.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
-Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [ de Generatie API van het Document van Adobe ](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
+Voor informatie over API die voor de Diensten van PDF wordt gebruikt, zie [&#x200B; de Generatie API van het Document van Adobe &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk/doc-generation.html).
 
 ## Beveiligingsoverwegingen bij gebruik van [!DNL Adobe PDF Services]
 
@@ -66,9 +66,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -76,7 +76,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 Als u een OAuth Server-to-Server-verbinding wilt maken, moet u de Adobe PDF Services API in uw Adobe Developers Console toevoegen. Selecteer bij het toevoegen van de API de optie OAuth Server-to-Server.
 
-Voor instructies, zie [ API aan project toevoegen gebruikend OAuth de authentificatiereferenties van de Gebruiker ](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication) in de de ontwikkelaarsdocumentatie van Adobe.
+Voor instructies, zie [&#x200B; API aan project toevoegen gebruikend OAuth de authentificatiereferenties van de Gebruiker &#x200B;](https://developer.adobe.com/developer-console/docs/guides/services/services-add-api-oauth-user-authentication) in de de ontwikkelaarsdocumentatie van Adobe.
 
 ## API-informatie voor Adobe PDF Services
 
@@ -178,9 +178,9 @@ Verbinding maken voor uw [!DNL Adobe PDF Services] -modules:
 
 Wanneer u [!DNL PDF Services] configureert, geeft Workfront Fusion de onderstaande velden weer. Afhankelijk van factoren zoals uw toegangsniveau in de app of service, kunnen er naast deze velden mogelijk extra velden worden weergegeven. Een vetgedrukte titel in een module geeft een verplicht veld aan.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [[!UICONTROL Combine PDF files]](#combine-pdf-files)
 * [[!UICONTROL Compress PDF files]](#compress-pdf-files)
@@ -548,9 +548,9 @@ Met deze actiemodule kunt u gegevens uit een PDF-bestand extraheren. De module v
 
 De module [!UICONTROL Generate document] is een krachtige manier om een PDF te maken die door u geselecteerde gegevens bevat. U kunt het opmaken met behulp van een [!DNL Microsoft Word] -sjabloon of door gegevens in JSON-indeling op te geven.
 
-Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionaliteit, zie het [ Overzicht van de Generatie van het Document ](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in de [!DNL Adobe Document Services] documentatie.
+Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate document] functionaliteit, zie het [&#x200B; Overzicht van de Generatie van het Document &#x200B;](https://www.adobe.io/apis/documentcloud/dcsdk/docs.html) in de [!DNL Adobe Document Services] documentatie.
 
-* [ Gebruik de [!UICONTROL Generate document] module met a  [!DNL Microsoft Word]  malplaatje ](#use-the-generate-document-module-with-a-microsoft-word-template)
+* [&#x200B; Gebruik de [!UICONTROL Generate document] module met a  [!DNL Microsoft Word]  malplaatje &#x200B;](#use-the-generate-document-module-with-a-microsoft-word-template)
 * [De module [!UICONTROL Generate document] gebruiken met JSON](#use-the-generate-document-module-with-json)
 
 #### De module [!UICONTROL Generate document] gebruiken met een [!DNL Microsoft Word] -sjabloon
@@ -558,7 +558,7 @@ Voor meer informatie over de [!UICONTROL [!DNL Adobe PDF Services] Generate docu
 
 >[!NOTE]
 >
->Voor een bespreking van de malplaatjes van Microsoft Word, zie [ modules van het Malplaatje van Microsoft Word ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-word-templates-modules.md).
+>Voor een bespreking van de malplaatjes van Microsoft Word, zie [&#x200B; modules van het Malplaatje van Microsoft Word &#x200B;](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-word-templates-modules.md).
 >
 >U hoeft de Microsoft Word-sjabloonmodules niet te gebruiken om een Microsoft Word-sjabloon te gebruiken met de PDF Services Generate-documentmodule.
 

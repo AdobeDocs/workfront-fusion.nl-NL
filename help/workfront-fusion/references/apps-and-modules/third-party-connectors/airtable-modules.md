@@ -45,7 +45,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 ## Vereisten
 
@@ -90,12 +90,12 @@ De Airtable schakelaar gebruikt het volgende:
 
 ### Records
 
-* [ creeer een Verslag ](#create-a-record)
-* [ Schrap een Verslag ](#delete-a-record)
-* [ krijg een verslag ](#get-a-record)
-* [ Verslagen van het Onderzoek ](#search-records)
-* [ werk een Verslag ](#update-a-record) bij
-* [ Upsert een Verslag ](#upsert-a-record)
+* [&#x200B; creeer een Verslag &#x200B;](#create-a-record)
+* [&#x200B; Schrap een Verslag &#x200B;](#delete-a-record)
+* [&#x200B; krijg een verslag &#x200B;](#get-a-record)
+* [&#x200B; Verslagen van het Onderzoek &#x200B;](#search-records)
+* [&#x200B; werk een Verslag &#x200B;](#update-a-record) bij
+* [&#x200B; Upsert een Verslag &#x200B;](#upsert-a-record)
 * [Controleregisters](#watch-records)
 * [Reacties controleren](#watch-responses)
 * [Een API-aanroep maken](#make-an-api-call)

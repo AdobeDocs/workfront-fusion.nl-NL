@@ -64,9 +64,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -80,7 +80,7 @@ Een functie invoegen in een veld:
 1. Klik op het veld waar u een functie wilt invoegen.
 1. Selecteer in het deelvenster Toewijzing het tabblad met de functie die u wilt invoegen.
 
-   Voor informatie bij het in kaart brengen van paneellusjes, zie [ Overzicht van de Functie ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md)
+   Voor informatie bij het in kaart brengen van paneellusjes, zie [&#x200B; Overzicht van de Functie &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md)
    1. Klik op de naam van de functie.
 
       of
@@ -90,7 +90,7 @@ Een functie invoegen in een veld:
 
    Houd de muisaanwijzer boven de functie in het deelvenster Toewijzing voor een uitleg van functieparameters.
 
-   Voor meer informatie over functies en hun parameters, zie de artikelen onder [ Verwijzingen van de Functie: artikelindex ](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md).
+   Voor meer informatie over functies en hun parameters, zie de artikelen onder [&#x200B; Verwijzingen van de Functie: artikelindex &#x200B;](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md).
 
 1. Ga verder vormend de module, of klik **O.K.**.
 
@@ -105,7 +105,7 @@ Een functie invoegen in een veld:
 
 In dit voorbeeld beperkt de subtekenreeksfunctie de projectnaam tot 50 tekens.
 
-![ Beperking van de vergaderingslengte van het Voorbeeld ](assets/example-meet-length-restriction-350x184.png)
+![&#x200B; Beperking van de vergaderingslengte van het Voorbeeld &#x200B;](assets/example-meet-length-restriction-350x184.png)
 
 >[!ENDSHADEBOX]
 
@@ -119,7 +119,7 @@ U kunt functies binnen elkaar nesten.
 
 In dit voorbeeld beperkt de subtekenreeksfunctie de bijgesneden projectnaam tot 50 tekens.
 
-![ Bijgesneden naam ](assets/trimmed-name-under-50.png)
+![&#x200B; Bijgesneden naam &#x200B;](assets/trimmed-name-under-50.png)
 
 >[!ENDSHADEBOX]
 
@@ -150,9 +150,9 @@ Als Workfront Fusion geen functie heeft die u wilt gebruiken, maar die door [!DN
 
       U kunt de output van voorafgaande modules zoals gebruikelijk gebruiken.
 
-      ![ functies van de Bladen van Google van het Gebruik ](assets/exploit-google-sheet-functions-350x218.png)
+      ![&#x200B; functies van de Bladen van Google van het Gebruik &#x200B;](assets/exploit-google-sheet-functions-350x218.png)
 
 1. Voeg de module **[!UICONTROL Google Sheets]>[!UICONTROL Get a cell]** in om het berekende resultaat te verkrijgen.
 1. Vorm de module, gebruikend zelfde identiteitskaart van de Cel die u in stap 4 gebruikte.
 
-   ![ functies van de Bladen van Google van het Gebruik ](assets/exploit-google-sheet-functions-2-350x187.png)
+   ![&#x200B; functies van de Bladen van Google van het Gebruik &#x200B;](assets/exploit-google-sheet-functions-2-350x187.png)

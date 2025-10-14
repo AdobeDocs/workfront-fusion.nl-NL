@@ -15,15 +15,15 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u een archief, zoals een gecomprimeerd bestand, in uw scenario gebruiken, zodat u het in uw automatisering of integratie kunt gebruiken.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md). Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md). Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## [!UICONTROL Archive] modules en hun velden
 
 Wanneer u [!UICONTROL Archive] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Archive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Handelingen](#actions)
 * [Samenvoegapparatuur](#aggregators)
@@ -52,7 +52,7 @@ De module retourneert de id van het bestand en de bijbehorende velden, samen met
 
 **Voorbeeld:** krijg het dossier van het PIT van de bepaalde [!DNL Dropbox] omslag (bijvoorbeeld, Archives), haalt het uit gebruikend de [!UICONTROL Archive] module en verzendt geciteerde dossiers naar het gewenste e-mailadres als gehechtheid met [!UICONTROL Email] of [!DNL Gmail] module.
 
-![ Voorbeeld Dropbox ](/help/workfront-fusion/references/apps-and-modules/assets/example-dropbox-350x134.png)
+![&#x200B; Voorbeeld Dropbox &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/example-dropbox-350x134.png)
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 
 **Voorbeeld:** bekijk inkomende e-mails gebruikend [!DNL Gmail] > [!UICONTROL Watch emails] module. Als een e-mail wordt ontvangen, worden de bijlagen herhaald in afzonderlijke bundels, vervolgens naar het [!DNL ZIP] -bestand gearchiveerd en in de gedefinieerde Dropbox-map opgeslagen.
 
-![ Gmail van het Voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/example-gmail-350x102.png)
+![&#x200B; Gmail van het Voorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/example-gmail-350x102.png)
 
 >[!ENDSHADEBOX]
 

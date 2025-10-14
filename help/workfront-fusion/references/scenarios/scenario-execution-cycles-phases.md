@@ -28,7 +28,7 @@ Elke scenario-uitvoering begint met de initialisatiefase, gaat verder met ten mi
    * Vastleggen of terugdraaien
 * Voltooiing
 
-Op kleinere schaal volgt elke module ook deze fasen. De informatie over de modulefasen kan in de verwerkte bundelinformatie worden gevonden, die in de genummerde bel aan het hoogste recht van elke module wordt gevonden nadat het scenario in werking is gesteld. Voor meer informatie bij het lokaliseren van verwerkte bundelinformatie, zie [ Informatie over verwerkte bundels ](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md#information-about-processed-bundles) in de de uitvoeringsstroom van het artikelscenario.
+Op kleinere schaal volgt elke module ook deze fasen. De informatie over de modulefasen kan in de verwerkte bundelinformatie worden gevonden, die in de genummerde bel aan het hoogste recht van elke module wordt gevonden nadat het scenario in werking is gesteld. Voor meer informatie bij het lokaliseren van verwerkte bundelinformatie, zie [&#x200B; Informatie over verwerkte bundels &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md#information-about-processed-bundles) in de de uitvoeringsstroom van het artikelscenario.
 
 De informatie over de grotere scenario fasen kan in de uitvoeringsdetails worden gevonden.
 
@@ -67,7 +67,7 @@ Als een fout tijdens de verrichting voorkomt of fase op om het even welke module
 >
 >Alle Workfront Fusion-modules die rollback (ook wel transactionality genoemd) ondersteunen, worden gemarkeerd met de ACID-tag.
 >
->![ de modules van de Zuur ](assets/acid-modules.png)
+>![&#x200B; de modules van de Zuur &#x200B;](assets/acid-modules.png)
 >
 >Modules die niet met deze tag zijn gemarkeerd, kunnen niet worden teruggezet naar de oorspronkelijke status wanneer er fouten optreden in andere modules. Een typisch voorbeeld van een niet-ACID module is de [!UICONTROL Email] > [!UICONTROL Send an Email] actie. Nadat het e-mailbericht is verzonden, kunt u het verzenden niet meer ongedaan maken.
 
@@ -77,4 +77,4 @@ Tijdens de afwerkingsfase worden open verbindingen (bijvoorbeeld FTP-verbindinge
 
 ## Bronnen
 
-Voor meer informatie, zie [ scenario montages ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
+Voor meer informatie, zie [&#x200B; scenario montages &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.

@@ -17,7 +17,7 @@ Met de Adobe Authenticator-module kunt u verbinding maken met elke Adobe API via
 
 Het voordeel ten opzichte van de HTTP-modules is dat u een verbinding kunt maken, zoals in een specifieke app.
 
-Om een lijst van beschikbare Adobe APIs te zien, zie [ Adobe APIs ](https://developer.adobe.com/apis). U kunt mogelijk alleen de API&#39;s gebruiken waaraan u bent toegewezen.
+Om een lijst van beschikbare Adobe APIs te zien, zie [&#x200B; Adobe APIs &#x200B;](https://developer.adobe.com/apis). U kunt mogelijk alleen de API&#39;s gebruiken waaraan u bent toegewezen.
 
 ## Toegangsvereisten
 
@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -73,7 +73,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
      of
    * Voeg API aan een bestaand project toe.
 
-  Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [ een project ](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van Adobe creëren.
+  Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [&#x200B; een project &#x200B;](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van Adobe creëren.
 
 ## Adobe Authenticator API-informatie
 
@@ -100,7 +100,7 @@ U kunt afzonderlijke verbindingen aan afzonderlijke projecten tot stand brengen,
 >
 >Met de Adobe Authenticator-connector hebt u de keuze tussen het maken van een OAuth Server-to-server verbinding of een Service Account (JWT)-verbinding. Adobe heeft JWT-referenties vervangen. Deze zullen vanaf 1 januari 2025 niet meer werken. **daarom, adviseren wij hoogst creërend Verbindingen OAuth.**
 >
->Voor meer informatie over deze soorten verbindingen, zie [ Server aan de authentificatie van de Server ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van Adobe
+>Voor meer informatie over deze soorten verbindingen, zie [&#x200B; Server aan de authentificatie van de Server &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van Adobe
 
 Een verbinding maken:
 

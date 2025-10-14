@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Dit artikel verklaart hoe een scenario uitvoert en hoe de gegevens door het stromen, en hoe te om de gegevens te bekijken die door elke module worden verwerkt.
 
-Om te bekijken hoe de gegevens door een actief scenario stromen, zie [ gegevensstroom van de Mening in een lopend scenario ](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md).
+Om te bekijken hoe de gegevens door een actief scenario stromen, zie [&#x200B; gegevensstroom van de Mening in een lopend scenario &#x200B;](/help/workfront-fusion/manage-scenarios/view-scenario-data-flow.md).
 
 ## Uitvoeringsstroom van scenario
 
@@ -38,7 +38,7 @@ De eerste stap van het scenario, die door de eerste module wordt uitgevoerd, moe
 
 Als de eerste module een bundel terugkeert, gaat de bundel door de rest van het scenario. In dit voorbeeld, zou de bundel naar de tweede module gaan, die het verzoek in een project omzet.
 
-![ stroom van de Uitvoering van het scenario van Workfront ](assets/example-execution-flow-wf-only.png)
+![&#x200B; stroom van de Uitvoering van het scenario van Workfront &#x200B;](assets/example-execution-flow-wf-only.png)
 
 >[!ENDSHADEBOX]
 
@@ -52,7 +52,7 @@ De eerste stap van het scenario, die door de eerste module wordt uitgevoerd, is 
 
 Als een bundel is teruggekeerd, gaat de bundel door de rest van het scenario. In dit voorbeeld bestaat de rest van het scenario uit de tweede module, die de bundel naar de [!DNL Dropbox] -map uploadt.
 
-![ stroom van de Uitvoering van integratiescenario ](assets/example-execution-flow-wf-dropbox.png)
+![&#x200B; stroom van de Uitvoering van integratiescenario &#x200B;](assets/example-execution-flow-wf-dropbox.png)
 
 Als de eerste module meerdere bundels retourneert, wordt de eerste bundel geüpload naar [!DNL Dropbox] voordat de tweede bundel wordt geüpload. Vervolgens uploadt de tweede bundel, vervolgens de derde, enzovoort.
 
@@ -69,11 +69,11 @@ Voor elke module, gaat de bundel door een proces in vier stappen alvorens naar d
 
 >[!NOTE]
 >
->Het grotere scenario gaat ook door dit proces. Voor informatie over dit proces op het scenario niveau, zie [ uitvoering Scenario, cycli, en fasen ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
+>Het grotere scenario gaat ook door dit proces. Voor informatie over dit proces op het scenario niveau, zie [&#x200B; uitvoering Scenario, cycli, en fasen &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
 
 Nadat een scenario looppas volledig is, toont elke module een pictogram dat het aantal uitgevoerde verrichtingen toont. U kunt op dit pictogram klikken om de gedetailleerde informatie over de verwerkte bundels voor elke stap in het proces weer te geven. U kunt zien welke modulemontages werden gebruikt, en welke bundels door elke module werden teruggekeerd.
 
-![ Verwerkte bundels ](assets/Info-processed-bundles.png)
+![&#x200B; Verwerkte bundels &#x200B;](assets/Info-processed-bundles.png)
 
 In dit voorbeeld ontving de module inputinformatie zoals:
 
@@ -90,12 +90,12 @@ Als de module meer dan één probleem heeft gevonden, wordt de informatie voor e
 
 ## Fouten bij het uitvoeren van een scenario
 
-Er kan een fout optreden tijdens het uitvoeren van het scenario. Bijvoorbeeld, als u het malplaatje hebt geschrapt dat de module zal gebruiken om het nieuwe project tot stand te brengen, eindigt het scenario met een foutenmelding. Voor meer informatie over hoe te om fouten te behandelen, zie [ de types van Fout ](/help/workfront-fusion/references/errors/error-processing.md).
+Er kan een fout optreden tijdens het uitvoeren van het scenario. Bijvoorbeeld, als u het malplaatje hebt geschrapt dat de module zal gebruiken om het nieuwe project tot stand te brengen, eindigt het scenario met een foutenmelding. Voor meer informatie over hoe te om fouten te behandelen, zie [&#x200B; de types van Fout &#x200B;](/help/workfront-fusion/references/errors/error-processing.md).
 
 ## Bronnen
 
-* Voor meer informatie bij vestiging ziet een scenario, [ de scenarioredacteur ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md).
+* Voor meer informatie bij vestiging ziet een scenario, [&#x200B; de scenarioredacteur &#x200B;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md).
 * Voor meer informatie over de pagina van de scenario details, zie {de details van 0} Scenario [.](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-details.md)
-* Voor meer informatie bij het activeren van een scenario, zie [ een scenario ](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
-* Voor meer informatie bij het plannen van een scenario, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
-* Voor meer informatie over modules, zie [ Overzicht van de Module ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md).
+* Voor meer informatie bij het activeren van een scenario, zie [&#x200B; een scenario &#x200B;](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
+* Voor meer informatie bij het plannen van een scenario, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+* Voor meer informatie over modules, zie [&#x200B; Overzicht van de Module &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md).

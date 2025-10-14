@@ -19,7 +19,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP] > [!UICONTROL Make a request module] is
 >
 >Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
->Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
+>Voor meer informatie, zie [&#x200B; module van Adobe Authenticator &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
 ## Toegangsvereisten
 
@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -181,7 +181,7 @@ Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make a request] configureert
 
 **Voorbeeld:** Dit voorbeeld toont hoe te opstelling de module om een [!UICONTROL POST] verzoek met nuttige lading voor te leggen JSON:
 
-![ maak een verzoekvoorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/make-a-request-example-350x522.png)
+![&#x200B; maak een verzoekvoorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/make-a-request-example-350x522.png)
 
 We raden u niet aan JSON-stukjes te mengen met expressies en items rechtstreeks in het veld [!UICONTROL Request content] , omdat dit kan leiden tot een ongeldige JSON.
 

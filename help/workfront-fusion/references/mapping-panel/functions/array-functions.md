@@ -63,7 +63,7 @@ Retourneert een primitieve array met waarden van een complexe array. Deze functi
 
 >[!ENDSHADEBOX]
 
-Voor meer informatie, zie [ een serie of serieelement ](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md) in kaart brengen.
+Voor meer informatie, zie [&#x200B; een serie of serieelement &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md) in kaart brengen.
 
 ## schudden
 

@@ -18,7 +18,7 @@ ht-degree: 0%
 
 Met de functie Workfront Fusion-sjablonen kunt u bestaande sjablonen maken en gebruiken als beginpunt voor uw Workfront Fusion-scenario&#39;s. De malplaatjes vertegenwoordigen gemeenschappelijke gebruiksgevallen die u kunt vormen en wijzigen om aan de behoeften van uw organisatie en specifiek gebruiksgeval te voldoen.
 
-Voor een lijst van momenteel beschikbare malplaatjes van de Fusie, zie [ momenteel beschikbare malplaatjes van de Fusie van Adobe Workfront ](/help/workfront-fusion/create-and-manage-templates/currently-available-fusion-templates.md).
+Voor een lijst van momenteel beschikbare malplaatjes van de Fusie, zie [&#x200B; momenteel beschikbare malplaatjes van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/create-and-manage-templates/currently-available-fusion-templates.md).
 
 ## Toegangsvereisten
 
@@ -57,9 +57,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -67,7 +67,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 In het gebied van Malplaatjes, kunt u beschikbare malplaatjes, de toepassingen bekijken zij, en hun structuur omvatten. U kunt ook zoeken naar specifieke apps of namen en hoofdletters en kleine letters filteren.
 
-1. Klik **&#x200B;**&#x200B;pictogram van het Malplaatje 1&rbrace; ![ Malplaatjes ](assets/templates-icon.png) in de linkernavigatie.
+1. Klik **&#x200B;**&#x200B;pictogram van het Malplaatje 1&rbrace; ![&#x200B; Malplaatjes &#x200B;](assets/templates-icon.png) in de linkernavigatie.
 1. Klik op het tabblad Openbare sjablonen om openbaar beschikbare sjablonen weer te geven.
 
    of
@@ -104,7 +104,7 @@ In het gebied van Malplaatjes, kunt u beschikbare malplaatjes, de toepassingen b
 
    Beginnen creërend een scenario van een teammalplaatje, klik op het diagram, dan klik op de modules beginnen hen te vormen.
 
-Voor instructies bij het creëren van een scenario van een malplaatje, zie [ scenario&#39;s met malplaatjes ](/help/workfront-fusion/create-and-manage-templates/create-scenarios-with-fusion-templates.md) creëren.
+Voor instructies bij het creëren van een scenario van een malplaatje, zie [&#x200B; scenario&#39;s met malplaatjes &#x200B;](/help/workfront-fusion/create-and-manage-templates/create-scenarios-with-fusion-templates.md) creëren.
 
 
 
@@ -117,7 +117,7 @@ Voor instructies bij het creëren van een scenario van een malplaatje, zie [ sce
 
 U kunt alle sjablonen bewerken die beschikbaar zijn op het tabblad [!UICONTROL Team templates] .
 
-1. Klik het **[!UICONTROL Templates]** pictogram ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het menu van de zijnavigatie.
+1. Klik het **[!UICONTROL Templates]** pictogram ![&#x200B; pictogram van Malplaatjes &#x200B;](assets/templates-icon.png) in het menu van de zijnavigatie.
 1. Klik op de tab **[!UICONTROL Team templates]** .
 1. Klik op de tab **[!UICONTROL Private]** .
 1. Klik op de sjabloon die u wilt bewerken.
@@ -127,8 +127,8 @@ U kunt alle sjablonen bewerken die beschikbaar zijn op het tabblad [!UICONTROL T
 
    Klik op het sjabloondiagram.
 
-1. Breng wijzigingen aan in de sjabloon. U hebt toegang tot alle opties die beschikbaar waren toen u de sjabloon maakte. Om deze opties te zien, zie [ nieuwe malplaatjes ](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md) creëren.
-1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png).
+1. Breng wijzigingen aan in de sjabloon. U hebt toegang tot alle opties die beschikbaar waren toen u de sjabloon maakte. Om deze opties te zien, zie [&#x200B; nieuwe malplaatjes &#x200B;](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md) creëren.
+1. Klik het **[!UICONTROL Save]** pictogram ![&#x200B; sparen pictogram &#x200B;](assets/save-icon.png).
 
 >[!NOTE]
 >
@@ -140,7 +140,7 @@ U kunt alleen sjablonen verwijderen die nog niet zijn goedgekeurd. Neem contact 
 
 Nadat u een sjabloon hebt verwijderd, kan deze niet worden hersteld. De malplaatjes van het team zijn beschikbaar voor alle leden van uw team, zo alvorens een malplaatje te schrappen adviseren wij dat u met uw teams controleert om ervoor te zorgen dat het malplaatje niet nodig is.
 
-1. Klik het **[!UICONTROL Templates]** pictogram ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het menu van de zijnavigatie.
+1. Klik het **[!UICONTROL Templates]** pictogram ![&#x200B; pictogram van Malplaatjes &#x200B;](assets/templates-icon.png) in het menu van de zijnavigatie.
 1. Klik op de tab **[!UICONTROL Team templates]** .
 1. Klik op **[!UICONTROL Delete]** naast de sjabloonnaam
 

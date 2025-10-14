@@ -51,11 +51,11 @@ Het subtype Update bevat de volgende drie bewerkingen:
 
 * **Wis de inhoud van een gebied**. Deze bewerking vindt plaats wanneer de inhoud van het veld wordt geëvalueerd naar het trefwoord `erase` (niet te verwarren met `empty` ).
 
-  ![ Wis sleutelwoord ](assets/erase-content-of-field.png)
+  ![&#x200B; Wis sleutelwoord &#x200B;](assets/erase-content-of-field.png)
 
 * **verlaat de inhoud van een gebied onveranderd**. Deze bewerking vindt plaats wanneer het veld leeg blijft of wanneer de inhoud van het veld wordt geëvalueerd naar leeg (weergegeven als null in JSON).
 
-  ![ Lege bundel ](assets/leave-content-field-unchanged.png)
+  ![&#x200B; Lege bundel &#x200B;](assets/leave-content-field-unchanged.png)
 
 * **vervangt de inhoud van een gebied**. Deze operatie vindt plaats in alle andere gevallen dan de twee hierboven beschreven gevallen.
 
@@ -64,7 +64,7 @@ Het subtype Update bevat de volgende drie bewerkingen:
 >* Als u het trefwoord `erase` niet ziet in het deelvenster Toewijzing, is de module geen updatemodule of is deze niet bijgewerkt naar de meest recente specificaties voor de app.
 >* `Empty` wijzigt de inhoud van het veld niet. Als u het veld moet wissen, gebruikt u de volgende formule:
 >
->   ![ als leeg ](assets/formula-ifempty-name-erase.png)
+>   ![&#x200B; als leeg &#x200B;](assets/formula-ifempty-name-erase.png)
 >
 >* Het ongewijzigd laten van een veld wanneer de inhoud ervan als leeg wordt beschouwd, wordt momenteel niet ondersteund.
 
@@ -100,11 +100,11 @@ Workfront Fusion gebruikt twee typen triggers: opiniepeilingtriggers en Instant-
 
 De opiniepeilingen brengen regelmatig opiniepeilingen een bepaalde dienst zelfs als er geen verandering sinds de vorige scenario looppas is geweest. Wij adviseren dat u een scenario plant dat een opiniepeilingtrekker bevat om met regelmatige intervallen te lopen. Als er een verandering is die de configuratie van de trekker aanpast, keert de trekker bundels terug die informatie over de verandering bevatten. Als er geen verandering is die de configuratie aanpast, voert de trekker geen bundels uit.
 
-Voor instructies bij het plannen van een scenario, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+Voor instructies bij het plannen van een scenario, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 
 Met opiniepeilingtriggers kunt u de eerste bundel selecteren die wordt uitgevoerd via een deelvenster dat automatisch wordt weergegeven nadat u een trigger hebt opgeslagen of de triggerinstellingen hebt gewijzigd. Deze selectie heeft alleen invloed op de eerste uitvoering van de module. Nadat de module eenmaal is uitgevoerd, worden de volgende uitvoeringen alleen gecontroleerd op wijzigingen die zich na de meest recente uitvoering voordoen.
 
-Voor meer informatie, zie [ kiezen waar een trekkermodule ](/help/workfront-fusion/create-scenarios/add-modules/choose-where-trigger-module-starts.md) begint.
+Voor meer informatie, zie [&#x200B; kiezen waar een trekkermodule &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/choose-where-trigger-module-starts.md) begint.
 
 >[!BEGINSHADEBOX]
 
@@ -120,9 +120,9 @@ Voor meer informatie, zie [ kiezen waar een trekkermodule ](/help/workfront-fusi
 
 Met instant-triggers kan een service Workfront Fusion direct na een wijziging op de hoogte stellen. Wij adviseren dat u een scenario plant dat een onmiddellijke trekker bevat om onmiddellijk te lopen.
 
-Voor instructies, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+Voor instructies, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 
-Voor details op hoe de inkomende gegevens door een onmiddellijke trekker worden behandeld, zie [ Onmiddellijke trekkers (webhooks) ](/help/workfront-fusion/references/modules/webhooks-reference.md).
+Voor details op hoe de inkomende gegevens door een onmiddellijke trekker worden behandeld, zie [&#x200B; Onmiddellijke trekkers (webhooks) &#x200B;](/help/workfront-fusion/references/modules/webhooks-reference.md).
 
 >[!BEGINSHADEBOX]
 
@@ -153,7 +153,7 @@ Scenario&#39;s kunnen een onbeperkt aantal aggregators bevatten, hoewel grote aa
 
 >[!ENDSHADEBOX]
 
-Voor meer informatie, zie [ de module van de Samenvoegaar ](/help/workfront-fusion/references/modules/aggregator-module.md).
+Voor meer informatie, zie [&#x200B; de module van de Samenvoegaar &#x200B;](/help/workfront-fusion/references/modules/aggregator-module.md).
 
 ## Iteratoren
 
@@ -173,4 +173,4 @@ Scenario&#39;s kunnen een onbeperkt aantal iterators bevatten, hoewel grote aant
 
 >[!ENDSHADEBOX]
 
-Voor meer informatie, zie [ de module van de Teller 0&rbrace; en ](/help/workfront-fusion/references/modules/iterator-module.md) Kaart een serie [.](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)
+Voor meer informatie, zie [&#x200B; de module van de Teller 0&rbrace; en &#x200B;](/help/workfront-fusion/references/modules/iterator-module.md) Kaart een serie [.](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md)

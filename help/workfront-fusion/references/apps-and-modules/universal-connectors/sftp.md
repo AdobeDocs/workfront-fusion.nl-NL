@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -157,9 +157,9 @@ De SFTP-connector ondersteunt het volgende bij het maken van een verbinding:
 
 Wanneer u [!UICONTROL SFTP] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL SFTP] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### Triggers
 
@@ -235,7 +235,7 @@ Deze actiemodule maakt een nieuwe map op de opgegeven locatie.
 
 >[!NOTE]
 >
->Als de map al bestaat, genereert de module een fout. Als u de stroom zonder onderbreking wilt voortzetten, koppelt u een fouthandlerroute aan de module om de fout af te vangen en past u de instructie [!UICONTROL Resume] toe om de stroom voort te zetten. Voor informatie over het vastmaken van een route van de foutenmanager, zie [ de behandeling van de Fout in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md). Voor informatie over de route van de foutenmanager, zie [ Richtlijnen voor fout behandeling in de Fusie van Adobe Workfront ](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
+>Als de map al bestaat, genereert de module een fout. Als u de stroom zonder onderbreking wilt voortzetten, koppelt u een fouthandlerroute aan de module om de fout af te vangen en past u de instructie [!UICONTROL Resume] toe om de stroom voort te zetten. Voor informatie over het vastmaken van een route van de foutenmanager, zie [&#x200B; de behandeling van de Fout in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md). Voor informatie over de route van de foutenmanager, zie [&#x200B; Richtlijnen voor fout behandeling in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
 
 <table style="table-layout:auto"> 
  <col> 

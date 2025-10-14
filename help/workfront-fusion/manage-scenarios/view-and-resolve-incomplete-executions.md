@@ -19,7 +19,7 @@ In de map [!UICONTROL Incomplete executions] worden scenario-uitvoeringen opgesl
 >
 >Standaard is het opslaan van onvolledige uitvoeringen uitgeschakeld. Schakel de optie [!UICONTROL Allow storing incomplete executions] in de geavanceerde instellingen van het scenario in om deze optie in te schakelen.
 >
->Voor meer informatie over scenario montages, zie [ scenario montages ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
+>Voor meer informatie over scenario montages, zie [&#x200B; scenario montages &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
 
 ## Toegangsvereisten
 
@@ -67,9 +67,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -83,7 +83,7 @@ Als een module een fout tijdens zijn verrichting ontmoet, wordt een nieuwe onvol
 
 -->
 
-Voor meer informatie, zie [ Fouten resulterend in onvolledige uitvoeringen ](#errors-resulting-into-incomplete-executions) in dit artikel.
+Voor meer informatie, zie [&#x200B; Fouten resulterend in onvolledige uitvoeringen &#x200B;](#errors-resulting-into-incomplete-executions) in dit artikel.
 
 >[!NOTE]
 >
@@ -93,7 +93,7 @@ Voor meer informatie, zie [ Fouten resulterend in onvolledige uitvoeringen ](#er
 >
 >Teams zijn beperkt tot in totaal 500 MB voor alle onopgeloste onvolledige uitvoeringen.
 >
->Voor meer informatie, zie [ gegevensverlies ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#enable-data-loss) toelaten in artikel vormt scenario montages.
+>Voor meer informatie, zie [&#x200B; gegevensverlies &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#enable-data-loss) toelaten in artikel vormt scenario montages.
 
 
 ## Onvolledige uitvoeringen oplossen via het tabblad Onvolledige uitvoeringen
@@ -106,7 +106,7 @@ Wanneer een nieuwe onvolledige uitvoering wordt opgeslagen, kunt u deze als volg
 1. Open het logboek van de module waar alle verrichtingen van de module worden getoond.
 1. Zoek de mislukte bewerking en klik op **[!UICONTROL Resolve]** :
 
-   ![ Los knoop ](assets/resolve-btn-350x188.png) op
+   ![&#x200B; Los knoop &#x200B;](assets/resolve-btn-350x188.png) op
 
 
 
@@ -120,7 +120,7 @@ Als u het logboek van alle verrichtingen van de module wilt zien alvorens u prob
 1. Open het logboek van de module waar alle verrichtingen van de module worden getoond.
 1. Zoek de mislukte bewerking en klik op **[!UICONTROL Resolve]** :
 
-   ![ Los knoop ](assets/resolve-btn-350x188.png) op
+   ![&#x200B; Los knoop &#x200B;](assets/resolve-btn-350x188.png) op
 
 ## Opties in verband met onvolledige uitvoeringen
 
@@ -130,7 +130,7 @@ De volgende opties in het deelvenster [!UICONTROL Scenario settings] bepalen of 
 * Opeenvolgende verwerking
 * Gegevensverlies inschakelen
 
-Voor meer informatie over deze opties, zie [ scenario montages ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
+Voor meer informatie over deze opties, zie [&#x200B; scenario montages &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
 
 ## Fouten die tot onvolledige uitvoering leiden
 

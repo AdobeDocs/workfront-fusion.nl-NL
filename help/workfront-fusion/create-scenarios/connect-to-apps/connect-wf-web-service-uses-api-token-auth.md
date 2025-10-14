@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -66,10 +66,10 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 De procedure voor het verbinden van de service via een API-token is vergelijkbaar voor de meeste webservices.
 
-1. Creeer een toepassing op de website van de Webdienst, zoals verklaard in de sectie [ creeer een nieuwe toepassing en verkrijg het API teken ](#create-a-new-application-and-obtain-the-api-token) in dit artikel.
+1. Creeer een toepassing op de website van de Webdienst, zoals verklaard in de sectie [&#x200B; creeer een nieuwe toepassing en verkrijg het API teken &#x200B;](#create-a-new-application-and-obtain-the-api-token) in dit artikel.
 1. Haal de API-sleutel of API-token op.
 1. Voeg HTTP van Workfront Fusion > een module van het Verzoek aan uw scenario toe.
-1. Opstelling de module volgens de API van de Webdienst documentatie en het runnen van het scenario, zoals die in de sectie [ wordt verklaard Opstelling de module van HTTP ](#set-up-the-http-module) in dit artikel.
+1. Opstelling de module volgens de API van de Webdienst documentatie en het runnen van het scenario, zoals die in de sectie [&#x200B; wordt verklaard Opstelling de module van HTTP &#x200B;](#set-up-the-http-module) in dit artikel.
 
 >[!NOTE]
 >
@@ -181,11 +181,11 @@ Dit voorbeeld bevat de volgende informatie.
 
 Met de module Create JSON kunt u het opgeven van JSON eenvoudiger maken. U kunt hiermee ook dynamisch waarden definiëren.
 
-Voor meer informatie over de modules JSON, zie [ modules JSON ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/json-modules.md).
+Voor meer informatie over de modules JSON, zie [&#x200B; modules JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/json-modules.md).
 
 1. Voer de waarden in waarvan u JSON wilt maken of wijs deze toe.
 
-   ![ JSON waarden ](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
+   ![&#x200B; JSON waarden &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
 
 1. Sluit de JSON > JSON-module maken aan op HTTP > Een aanvraag maken.
 1. Wijs de JSON-tekenreeks van de module Create JSON toe aan het veld Request-inhoud in HTTP > Een aanvraag maken.

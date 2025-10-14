@@ -17,7 +17,7 @@ Dit artikel beschrijft de toegang en de functionaliteit beschikbaar aan de versc
 
 >[!NOTE]
 >
->De rollen van de organisatie zijn gescheiden van teamrollen in Workfront Fusion. Voor meer informatie over organisatie en teamrollen, zie [ het overzicht van Organisaties en teams ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md).
+>De rollen van de organisatie zijn gescheiden van teamrollen in Workfront Fusion. Voor meer informatie over organisatie en teamrollen, zie [&#x200B; het overzicht van Organisaties en teams &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.md).
 
 ## Organisatiefuncties
 

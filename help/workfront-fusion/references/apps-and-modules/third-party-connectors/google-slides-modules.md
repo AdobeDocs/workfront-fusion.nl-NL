@@ -56,9 +56,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -93,11 +93,11 @@ De aansluiting Google Slides gebruikt het volgende:
 
 Wanneer u [!DNL Google Slides] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Slides] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [ Presentatie ](#presentation)
+* [&#x200B; Presentatie &#x200B;](#presentation)
 * [Overige](#other)
 
 ### Presentatie
@@ -526,16 +526,16 @@ Voert een willekeurige geautoriseerde API-aanroep uit.
 
 **Voorbeeld:** Gebruikend een API vraag kunt u de presentatiedetails voor presentatieidentiteitskaart krijgen u bent ingegaan. U kunt de presentatie-id in de URL vinden wanneer u de presentatie opent in [!DNL Google Slides] .
 
-![ API vraagvoorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/api-call-350x13.png)
+![&#x200B; API vraagvoorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/api-call-350x13.png)
 
 De volgende API-aanroep retourneert de presentatiedetails:
 
-![ de details van de Presentatie ](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details.png)
+![&#x200B; de details van de Presentatie &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details.png)
 
 Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL presentationId] .
 
 In ons voorbeeld zijn de gevraagde presentatiegegevens geretourneerd:
 
-![ Presentatiedetails ](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details-2.png)
+![&#x200B; Presentatiedetails &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/presentation-details-2.png)
 
 >[!ENDSHADEBOX]

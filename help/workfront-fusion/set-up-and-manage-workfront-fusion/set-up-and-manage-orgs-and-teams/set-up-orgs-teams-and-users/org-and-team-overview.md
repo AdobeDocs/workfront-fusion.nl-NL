@@ -19,7 +19,7 @@ Een organisatie is de grootste entiteit in Adobe Workfront Fusion. Uw Fusion-org
 
 De teams zijn kleinere groepen binnen de organisatie, en delen de middelen van de Fusie zoals scenario&#39;s, verbindingen, en malplaatjes.
 
-Voor instructies bij het creëren van een team, zie [ een team ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/create-a-team.md) creëren.
+Voor instructies bij het creëren van een team, zie [&#x200B; een team &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/create-a-team.md) creëren.
 
 ## Organisaties
 
@@ -37,7 +37,7 @@ Een gebruiker heeft een van de volgende rollen in een organisatie:
 * **[!UICONTROL Accountant]**: Accountants kunnen de licentiegegevens bekijken op het dashboard van de organisatie, maar kunnen geen handelingen uitvoeren.
 * **[!UICONTROL App Developer]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
-Voor informatie over specifieke acties beschikbaar aan gebruikers in elke organisatierol, zie [ Organisatie en teamrollen ](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).
+Voor informatie over specifieke acties beschikbaar aan gebruikers in elke organisatierol, zie [&#x200B; Organisatie en teamrollen &#x200B;](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).
 
 ## Teams
 
@@ -69,4 +69,4 @@ Een gebruiker heeft één van de volgende rollen in elk van zijn teams:
 * **[!UICONTROL Team Operator]**: met de rol [!UICONTROL operator] kunnen gebruikers uitvoeringsgegevens zien en de status Actief van scenario&#39;s wijzigen.
 * **[!UICONTROL Team Restricted Member]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
-Voor informatie over specifieke acties beschikbaar aan gebruikers in elke teamrol, zie [ Organisatie en teamrollen ](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).
+Voor informatie over specifieke acties beschikbaar aan gebruikers in elke teamrol, zie [&#x200B; Organisatie en teamrollen &#x200B;](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).

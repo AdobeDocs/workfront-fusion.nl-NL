@@ -17,13 +17,13 @@ Een gegevensstructuur is een document of patroon waarmee de indeling van de gege
 
 U kunt een gegevensstructuur maken door te klikken op de knop [!UICONTROL Create a new data structure] in de sectie [!UICONTROL Data structure overview] of in de instellingen van de module die de specificatie van de gegevensstructuur vereist.
 
-De gesteunde gegevenstypes worden beschreven in het [ types van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md) artikel.
+De gesteunde gegevenstypes worden beschreven in het [&#x200B; types van Gegevens &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md) artikel.
 
 
 ## Gegevensstructuurgenerator
 
 U hoeft niet altijd gegevensstructuren te maken. Workfront Fusion kan gegevensstructuren genereren op basis van bestaande gegevens. U verstrekt een gegevenssteekproef, en dan leidt de generator automatisch tot een gegevensstructuur die op die gegevenssteekproef wordt gebaseerd. U kunt de gemaakte gegevensstructuur desgewenst handmatig wijzigen.
 
-Om een gegevensstructuur te produceren, zie [ Opstelling de gegevensstructuur ](/help/workfront-fusion/create-scenarios/map-data/data-stores.md#set-up-the-data-structure) in de opslag van artikelgegevens.
+Om een gegevensstructuur te produceren, zie [&#x200B; Opstelling de gegevensstructuur &#x200B;](/help/workfront-fusion/create-scenarios/map-data/data-stores.md#set-up-the-data-structure) in de opslag van artikelgegevens.
 
-![ de structuurgenerator van Gegevens ](assets/data-structure-generator-350x341.jpg)
+![&#x200B; de structuurgenerator van Gegevens &#x200B;](assets/data-structure-generator-350x341.jpg)

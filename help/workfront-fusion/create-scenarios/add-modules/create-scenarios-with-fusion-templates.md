@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -66,7 +66,7 @@ Openbare sjablonen zijn beschikbaar zonder voorwaarden.
 
 ## Een scenario maken op basis van een sjabloon
 
-1. Klik het **lusje ![ pictogram van Malplaatjes 1&rbrace; van Malplaatjes ](assets/templates-icon.png) in het linkernavigatievenster.**
+1. Klik het **lusje ![&#x200B; pictogram van Malplaatjes 1&rbrace; van Malplaatjes &#x200B;](assets/templates-icon.png) in het linkernavigatievenster.**
 1. Klik op het lusje dat het malplaatje bevat u wilt gebruiken (**Openbare malplaatjes** of **malplaatjes van het Team**).
 1. Zoek naar een specifieke malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik op de sjabloon die u wilt gebruiken om een scenario te maken.
@@ -84,6 +84,6 @@ Openbare sjablonen zijn beschikbaar zonder voorwaarden.
 
 1. Wanneer u alle montages hebt gevormd die voor het malplaatje worden vereist, ontvangt u een bericht dat uw malplaatje klaar is te gaan, en de standaardscenario opties verschijnen bij de bodem van het scherm. U kunt nu doorgaan met het samenstellen van uw scenario.
 
-1. Klik **sparen** pictogram ![ sparen pictogram ](assets/save-icon.png) dichtbij de bodem van het scherm om uw scenario te bewaren.
+1. Klik **sparen** pictogram ![&#x200B; sparen pictogram &#x200B;](assets/save-icon.png) dichtbij de bodem van het scherm om uw scenario te bewaren.
 
    Het scenario wordt opgeslagen in het gebied Scenario&#39;s van Workfront Fusion.

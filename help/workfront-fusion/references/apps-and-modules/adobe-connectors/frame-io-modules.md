@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >In dit artikel wordt de oudere versie van de connector Frame.io beschreven. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 3.
 >
->Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [ schakelaar van Frame.io Beta ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
+>Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [&#x200B; schakelaar van Frame.io Beta &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
 
 Met de Adobe Workfront Fusion [!DNL Frame.io] -modules kunt u elementen en opmerkingen in uw [!DNL Frame.io] -account controleren, maken, bijwerken, ophalen of verwijderen.
 
@@ -28,11 +28,11 @@ Workfront biedt twee Frame.io-connectors, gebaseerd op de versie van Frame.io wa
 | Frame.io (Beta) | V4 |
 | Frame.io (Verouderd) | V3 |
 
-Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [ schakelaar van Frame.io Beta ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
+Voor instructies op de nieuwe (bèta) versie van de schakelaar Frame.io, zie [&#x200B; schakelaar van Frame.io Beta &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules-new.md).
 
 Voor een videoinleiding aan de Schakelaar Frame.io, zie:
 
-* [ Frame.io ](https://video.tv.adobe.com/v/3427032/){target=_blank}
+* [&#x200B; Frame.io &#x200B;](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -71,9 +71,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -169,9 +169,9 @@ U kunt een verbinding met [!DNL Frame.io] tot stand brengen gebruikend OAuth 2.0
 
 Wanneer u [!DNL Frame.io] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Frame.io] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Assets](#assets)
 * [Opmerkingen](#comments)

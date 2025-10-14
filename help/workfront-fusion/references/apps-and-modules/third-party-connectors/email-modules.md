@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -85,7 +85,7 @@ De verbinding IMAP staat u toe om tot uw brievenbus ver toegang te hebben en ber
 1. Selecteer de **[!UICONTROL Email provider]** in de lijst. Selecteer Overige als uw e-mailprovider niet in de lijst voorkomt.
 1. Voer **[!UICONTROL User name]** en uw **[!UICONTROL Password]** in voor het e-mailaccount.
 1. (Voorwaardelijk) Als uw provider zich niet in de lijst bevindt, voert u uw **[!UICONTROL SMTP server]** en **[!UICONTROL Port]** in en geeft u op of u **[!UICONTROL Use a secure connection (TLS)]** wilt gebruiken. Om deze informatie te vinden, controleer de [!UICONTROL Help] sectie voor uw brievenbus. Neem contact op met uw e-mailprovider als deze gegevens niet beschikbaar zijn.
-1. Om een zelf-ondertekend certificaat te gebruiken, laat **toe verwerp onbevoegde certificaten** optie en upload uw zelf-ondertekend certificaat. Voor instructies, zie [ een zelf-ondertekend certificaat ](#upload-a-self-signed-certificate) uploaden
+1. Om een zelf-ondertekend certificaat te gebruiken, laat **toe verwerp onbevoegde certificaten** optie en upload uw zelf-ondertekend certificaat. Voor instructies, zie [&#x200B; een zelf-ondertekend certificaat &#x200B;](#upload-a-self-signed-certificate) uploaden
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
 #### Een zelfondertekend certificaat uploaden
@@ -104,9 +104,9 @@ Wanneer u [!UICONTROL Email] modules configureert, geeft Workfront Fusion de ond
 
 Sommige e-mailvelden bevatten mogelijk al gegevens omdat u deze in een andere module hebt gebruikt in het scenario. Raadpleeg de documentatie bij de e-mail Help als u hierover informatie nodig hebt.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >

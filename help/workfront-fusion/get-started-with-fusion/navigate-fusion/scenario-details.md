@@ -17,7 +17,7 @@ De pagina met de details van het scenario is de startpagina van een specifiek sc
 
 Het verleent u ook toegang tot de scenarioredacteur, waar u het scenario kunt uitgeven.
 
-Voor informatie over de redacteur van het scenario, zie [ de redacteur van het Scenario ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md)
+Voor informatie over de redacteur van het scenario, zie [&#x200B; de redacteur van het Scenario &#x200B;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md)
 
 ## Toegangsvereisten
 
@@ -65,9 +65,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -77,11 +77,11 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
    of
 
-   Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![ Uitgaan die pijl ](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
+   Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![&#x200B; Uitgaan die pijl &#x200B;](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
 
 1. Op de pagina die wordt weergegeven, kunt u de elementen bekijken die in de onderstaande tabel worden vermeld:
 
-   ![ het detail van het Scenario ](assets/scenario-detail-350x207.png)
+   ![&#x200B; het detail van het Scenario &#x200B;](assets/scenario-detail-350x207.png)
 
    <table style="table-layout:auto"> 
     <col> 

@@ -23,9 +23,9 @@ Momenteel, kunnen de fout behandelende richtlijnen niet buiten het werkingsgebie
 
 U kunt de volgende tijdelijke oplossing gebruiken om de foutfunctionaliteit van `throw` na te bootsen.
 
-Voor informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen in de Fusie van Adobe Workfront ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+Voor informatie over onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
-Voor informatie over fout behandelende richtlijnen, zie [ Richtlijnen voor fout behandeling in de Fusie van Adobe Workfront ](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
+Voor informatie over fout behandelende richtlijnen, zie [&#x200B; Richtlijnen voor fout behandeling in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
 
 ## Toegangsvereisten
 
@@ -64,9 +64,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -74,7 +74,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 Om een fout voorwaardelijk te werpen, kunt u een module vormen om het opzettelijk tijdens zijn verrichting te maken ontbreken. U kunt bijvoorbeeld de module [!UICONTROL JSON] > [!UICONTROL Parse JSON] gebruiken, die is geconfigureerd om optioneel een fout te genereren (`BundleValidationError` in dit geval):
 
-![ fout JSON ](assets/json-parse-json.png)
+![&#x200B; fout JSON &#x200B;](assets/json-parse-json.png)
 
 Vervolgens kunt u een van de foutafhandelingsinstructies aan de foutafhandelingsroute koppelen:
 
@@ -85,4 +85,4 @@ Vervolgens kunt u een van de foutafhandelingsinstructies aan de foutafhandelings
 
 In het volgende voorbeeld wordt het gebruik van de instructie [!DNL Rollback] getoond:
 
-![ de richtlijn van het Terugschroeven van prijzen ](assets/rollback-directive.png)
+![&#x200B; de richtlijn van het Terugschroeven van prijzen &#x200B;](assets/rollback-directive.png)

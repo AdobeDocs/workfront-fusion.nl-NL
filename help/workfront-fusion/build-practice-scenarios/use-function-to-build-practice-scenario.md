@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Het bijwerken van een Workfront-werkitem is een veelgebruikte manier om Workfront Fusion te gebruiken. In dit voorbeeld gebruikt u een functie om de naam van een project in hoofdletters te wijzigen.
 
-Fusion omvat vele soorten functies die u toestaan om voorwaardelijke logica op uw gegevens om te zetten en uit te voeren. Voor meer informatie bij het gebruiken van functies, zie [ Overzicht van de Functie ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md).
+Fusion omvat vele soorten functies die u toestaan om voorwaardelijke logica op uw gegevens om te zetten en uit te voeren. Voor meer informatie bij het gebruiken van functies, zie [&#x200B; Overzicht van de Functie &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md).
 
-Dit voorbeeld wijzigt het scenario dat in [ wordt gecreeerd leidt tot een basisscenario ](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md).
+Dit voorbeeld wijzigt het scenario dat in [&#x200B; wordt gecreeerd leidt tot een basisscenario &#x200B;](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md).
 
 ## Toegangsvereisten
 
@@ -59,15 +59,15 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
 ## Vereisten
 
-U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een basisscenario ](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) alvorens deze procedure te volgen.
+U moet het scenario tot stand brengen dat in [&#x200B; wordt beschreven leidt tot een basisscenario &#x200B;](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) alvorens deze procedure te volgen.
 
 ## Een functie gebruiken om een project bij te werken
 
@@ -78,13 +78,13 @@ U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een ba
 1. Selecteer Adobe Workfront in de lijst met toepassingen en kies vervolgens de module **[!UICONTROL Update Record]** .
 1. Selecteer in het veld Id het ID-blok onder de module Object omzetten. Dit is identiteitskaart van het project dat output door die module was.
 
-   ![ identiteitskaart van voorwerp van de Bekeerling ](assets/id-convert-object.png)
+   ![&#x200B; identiteitskaart van voorwerp van de Bekeerling &#x200B;](assets/id-convert-object.png)
 
 1. Selecteer Project in het veld Type record, omdat het object dat u wilt bijwerken een project is.
 1. Selecteer Naam in het gebied Selecteer velden voor kaart.
 
    Er wordt een naamveld geopend.
-1. Ga aan [ kaart de functie voor de naamupdate ](#map-the-function-for-the-name-update) verder.
+1. Ga aan [&#x200B; kaart de functie voor de naamupdate &#x200B;](#map-the-function-for-the-name-update) verder.
 
 ### De functie toewijzen voor de naamupdate
 
@@ -93,7 +93,7 @@ Wanneer dit scenario een verzoek in een project omzet, is de naam van het projec
 1. Klik het **gebied van de Naam**.
 
    Het deelvenster Toewijzing wordt geopend.
-1. In het mappingpaneel, klik het **Tekst en binaire functies** pictogram. ![ de functies van de Tekst pictogram ](assets/toolbar-icon-text&binary-functions.png)
+1. In het mappingpaneel, klik het **Tekst en binaire functies** pictogram. ![&#x200B; de functies van de Tekst pictogram &#x200B;](assets/toolbar-icon-text&binary-functions.png)
 1. Selecteer de functie **bovenaan**.
 
    De functie wordt weergegeven in het veld Naam, inclusief de opmaak voor de invoer die de functie verwacht.
@@ -101,12 +101,12 @@ Wanneer dit scenario een verzoek in een project omzet, is de naam van het projec
    De invoer voor dit voorbeeld is de naam van de uitgave waaruit het project is geconverteerd.
 
 1. Plaats de cursor tussen de ronde haakjes, want dit is waar de invoer naartoe gaat.
-1. In het mappingpaneel, klik het **pictogram van de output van de Module 0&rbrace; &lbrace;.** ![ het outputpictogram van de Module ](assets/toolbar-icon-functions-you-map-from-other-modules.png)
+1. In het mappingpaneel, klik het **pictogram van de output van de Module 0&rbrace; &lbrace;.** ![&#x200B; het outputpictogram van de Module &#x200B;](assets/toolbar-icon-functions-you-map-from-other-modules.png)
 1. Selecteer het naamblok dat door de eerste module werd uitgevoerd.
 
    Het naamblok wordt weergegeven in de functie.
 
-   ![ het blok van de Naam in functie ](assets/map-name.png)
+   ![&#x200B; het blok van de Naam in functie &#x200B;](assets/map-name.png)
 
 1. Klik **O.K.** om de modulemontages te bewaren.
 

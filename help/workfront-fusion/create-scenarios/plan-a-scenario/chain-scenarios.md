@@ -21,9 +21,9 @@ U kunt veelvoudige kindscenario&#39;s van een ouderscenario roepen, en u kunt ee
 
 Wanneer een ouderscenario op een kindscenario wacht om gegevens terug te keren, telt die tijd niet tegen de onderbreking van het ouderscenario. Bijvoorbeeld, roept een ouderscenario 5 kindscenario&#39;s, elk waarvan 10 minuten om vergt te lopen, voor een totaal van 50 minuten. De modules in het ouderscenario zelf vergen 15 minuten om te lopen. Het bovenliggende scenario heeft geen time-out, ook al is er in totaal 65 minuten verstreken, wat meer is dan de time-outlimiet van 40 minuten.
 
-Voor meer informatie over de prestatiesbegeleiding van Fusion, met inbegrip van onderbrekingen, zie [ de prestatiesgidsen van de Fusie ](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md).
+Voor meer informatie over de prestatiesbegeleiding van Fusion, met inbegrip van onderbrekingen, zie [&#x200B; de prestatiesgidsen van de Fusie &#x200B;](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md).
 
-Voor instructies bij het vormen van de modules van de Keten, zie [ modules van de Keten ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
+Voor instructies bij het vormen van de modules van de Keten, zie [&#x200B; modules van de Keten &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
 
 ## Bovenliggende en onderliggende scenario&#39;s
 
@@ -36,9 +36,9 @@ Het ouderscenario vereist een reactie van het kindscenario. De scenario&#39;s va
 
 Workfront Fusion gebruikt gegevensstructuren om informatie van het ouderscenario naar het kindscenario over te brengen. De gegevensstructuur wordt gevormd in het kindscenario. Wanneer het kindscenario van het ouderscenario wordt geselecteerd, verschijnen de gebieden voor de gegevensstructuur die als input van het kindscenario wordt gebruikt in het ouderscenario. U kunt waarden toewijzen aan deze velden, die worden doorgegeven aan het onderliggende scenario wanneer dit wordt geactiveerd.
 
-Voor informatie over de modules om in de ouder en kindscenario&#39;s te vormen, zie [ modules van de Keten ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
+Voor informatie over de modules om in de ouder en kindscenario&#39;s te vormen, zie [&#x200B; modules van de Keten &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
 
-Voor informatie over gegevensstructuren, zie [ structuren van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
+Voor informatie over gegevensstructuren, zie [&#x200B; structuren van Gegevens &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
 ## Gegevensstroom
 
@@ -70,7 +70,7 @@ U kunt uitvoeringshistorie voor geketende scenario&#39;s bekijken door de geschi
 
 Wij adviseren gebruikend **ga naar de knoop van het kindscenario** in Vraag een module van het kindscenario om snel naar het kindscenario te gaan, waar u zijn uitvoeringsgeschiedenis kunt bekijken. Het kindscenario opent in een ander browser venster, dat u toestaat om ouder en kindscenario&#39;s tezelfdertijd te zien.
 
-![ ga naar de knoop van het kindscenario ](assets/go-to-the-child-button.png)
+![&#x200B; ga naar de knoop van het kindscenario &#x200B;](assets/go-to-the-child-button.png)
 
 ## Fouten en onvolledige uitvoering
 

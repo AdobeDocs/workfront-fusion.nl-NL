@@ -67,9 +67,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -84,7 +84,7 @@ Een team maken:
 1. Klik in het navigatievenster links op **[!UICONTROL Org overview]**
 1. Selecteer de tab **[!UICONTROL Teams]** .
 1. Klik op **[!UICONTROL Add a new team]**.
-   ![ creeer een team ](assets/create-new-team-button.png)
+   ![&#x200B; creeer een team &#x200B;](assets/create-new-team-button.png)
 1. Ga een naam voor het nieuwe team in, en klik **toevoegen**.
 
 ## Een team bewerken

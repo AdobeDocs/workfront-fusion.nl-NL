@@ -50,9 +50,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -109,7 +109,7 @@ Doorgaans worden gegevens van een [!DNL Google] >spreadsheet getransformeerd naa
 
 1. Klik op de knop **[!UICONTROL Generator]** en plak het XML-voorbeeld in het veld [!UICONTROL Sample data] :
 
-   ![ het gegevensgebied van de Steekproef ](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
+   ![&#x200B; het gegevensgebied van de Steekproef &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -201,7 +201,7 @@ Een XML-bestand downloaden van een URL en de inhoud ervan parseren:
 
    **URL**: URL van het dossier van XML (b.v. `https://siftrss.com/f/rqLy05ayMBJ`)
 
-   ![ URL van het dossier van XML voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)
+   ![&#x200B; URL van het dossier van XML voorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)
 
 1. Klik **[!UICONTROL OK]** om de configuratie van de module te bewaren en te sluiten.
 1. Voeg [!UICONTROL XML] > [!UICONTROL Parse XML] -module toe, sluit deze aan na de module [!UICONTROL HTTP] > [!UICONTROL Get a file] en configureer deze als volgt:
@@ -251,7 +251,7 @@ Standaard plaatst de module [!UICONTROL XML] > [!UICONTROL Parse XML] kenmerken 
 
 wordt omgezet in deze bundel:
 
-![ XML die in bundel ](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png) wordt omgezet
+![&#x200B; XML die in bundel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png) wordt omgezet
 
 >[!ENDSHADEBOX]
 

@@ -61,9 +61,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -71,14 +71,14 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 ## De versiegeschiedenis van een scenario weergeven en beheren
 
-1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![ in het linkerpaneel, dan klik het scenario om het te openen.](assets/scenarios-icon.png)
-1. Klik het [!UICONTROL More] pictogram ![ Meer pictogram ](assets/more-icon.png) bij de bodem van het scherm, dan klik **[!UICONTROL Previous Versions]**.
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![&#x200B; in het linkerpaneel, dan klik het scenario om het te openen.](assets/scenarios-icon.png)
+1. Klik het [!UICONTROL More] pictogram ![&#x200B; Meer pictogram &#x200B;](assets/more-icon.png) bij de bodem van het scherm, dan klik **[!UICONTROL Previous Versions]**.
 
    Er wordt een lijst met vorige versies weergegeven.
-1. (Facultatief) om de versie anders te noemen, klik het Meer menu ![ Meer menu ](assets/more-icon-vertical.png) op de lijn voor die versie, uitgezocht **geeft** uit, en gaat een naam in het gebied in. Klik **sparen** om de nieuwe naam te bewaren.
+1. (Facultatief) om de versie anders te noemen, klik het Meer menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-vertical.png) op de lijn voor die versie, uitgezocht **geeft** uit, en gaat een naam in het gebied in. Klik **sparen** om de nieuwe naam te bewaren.
 
    We raden u aan een naam te geven die de wijzigingen beschrijft die voor deze versie zijn aangebracht.
-1. (Facultatief) om de blauwdruk voor een vorige versie te downloaden, klik het Meer menu ![ Meer menu ](assets/more-icon-vertical.png) op de lijn voor die versie, dan uitgezochte **Download**.
+1. (Facultatief) om de blauwdruk voor een vorige versie te downloaden, klik het Meer menu ![&#x200B; Meer menu &#x200B;](assets/more-icon-vertical.png) op de lijn voor die versie, dan uitgezochte **Download**.
 1. (Facultatief) om de versie te herstellen, **herstel** op de lijn voor die versie
 
 

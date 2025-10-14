@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -62,9 +62,9 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 Wanneer het coderen en het decrypteren via PGP, is het noodzakelijk om keychain te gebruiken en een privé of openbare sleutel (of allebei) tot stand te brengen.
 
-Voor meer informatie over openbare en privé sleutels, zie [ Verklarende woordenlijst van de Fusie van Adobe Workfront ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/fusion-glossary.md).
+Voor meer informatie over openbare en privé sleutels, zie [&#x200B; Verklarende woordenlijst van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/fusion-glossary.md).
 
-Voor meer informatie over sleutels, zie [ Sleutels ](/help/workfront-fusion/references/modules/keys.md).
+Voor meer informatie over sleutels, zie [&#x200B; Sleutels &#x200B;](/help/workfront-fusion/references/modules/keys.md).
 
 ## [!UICONTROL Encryptor] modules en hun velden
 

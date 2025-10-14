@@ -55,7 +55,7 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 
 Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -68,7 +68,7 @@ Wanneer een module [!UICONTROL Aggregator] wordt uitgevoerd, doet deze het volge
 
 In de volgende afbeelding ziet u een standaard instelling van de module [!UICONTROL Aggregator] :
 
-![ de aggregator van de Serie ](assets/array-aggregator.png)
+![&#x200B; de aggregator van de Serie &#x200B;](assets/array-aggregator.png)
 
 <table style="table-layout:auto">
  <col> 
@@ -113,7 +113,7 @@ In de volgende afbeelding ziet u een standaard instelling van de module [!UICONT
 
 In dit voorbeeldscenario wordt getoond hoe u alle e-mailbijlagen kunt comprimeren en de ZIP naar [!DNL Dropbox] kunt uploaden.
 
-![ het archiefvoorbeeld van Dropbox ](assets/dropbox-archive.png)
+![&#x200B; het archiefvoorbeeld van Dropbox &#x200B;](assets/dropbox-archive.png)
 
 In het onderstaande scenario wordt getoond hoe u:
 
@@ -129,4 +129,4 @@ In het onderstaande scenario wordt getoond hoe u:
 
 Hieronder ziet u een voorbeeldinstelling van de aggregator [!UICONTROL Archive] > [!UICONTROL Create an archive] :
 
-![ creeer een archief ](assets/archive-create-an-archive.png)
+![&#x200B; creeer een archief &#x200B;](assets/archive-create-an-archive.png)

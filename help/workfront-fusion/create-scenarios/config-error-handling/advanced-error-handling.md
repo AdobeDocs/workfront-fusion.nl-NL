@@ -52,9 +52,9 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -69,7 +69,7 @@ Er zijn twee soorten het filtreren die op een route van de foutenmanager kunnen 
 
 U kunt een filter gebruiken om te controleren welke fouten door de route van de foutenmanager worden behandeld. Op deze manier kunt u alleen bepaalde soorten fouten verwerken. Als een fout niet door de filter overgaat, zal het worden behandeld alsof er geen die route van de foutenmanager voor de bepaalde module wordt bepaald is.
 
-Deze filters worden geconfigureerd zoals elk ander filter in Fusion. Voor instructies, zie [ een filter aan een scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
+Deze filters worden geconfigureerd zoals elk ander filter in Fusion. Voor instructies, zie [&#x200B; een filter aan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
 
 ### Voeg een Router toe die door filters aan de foutenmanager wordt gevolgd
 
@@ -77,9 +77,9 @@ Het toevoegen van een Router aan een fout behandelende route staat u toe om vers
 
 Bijvoorbeeld, om één route te vormen om uit te voeren wanneer de fout een DataError is, kunt u opstelling een filter dat de gegevens toestaat om over te gaan als het in kaart gebrachte foutentype aan DataError gelijk is.
 
-![ filter DataError ](assets/filter-dataerror.png)
+![&#x200B; filter DataError &#x200B;](assets/filter-dataerror.png)
 
-Voor informatie over hoe de Fusie diverse gegevenstypes evalueert en verwerkt, zie [ types van Fout ](/help/workfront-fusion/references/errors/error-processing.md).
+Voor informatie over hoe de Fusie diverse gegevenstypes evalueert en verwerkt, zie [&#x200B; types van Fout &#x200B;](/help/workfront-fusion/references/errors/error-processing.md).
 
 ### Voorbeeld: foutafhandeling met filters
 
@@ -89,11 +89,11 @@ In dit voorbeeldscenario wordt getoond hoe deze filters werken voor foutafhandel
 
 Als u Dropbox > een mappenmodule maakt gebruikt en er al een map met dezelfde naam bestaat, genereert de module een DataError:
 
-![ Fout in Dropbox ](assets/dropbox.png)
+![&#x200B; Fout in Dropbox &#x200B;](assets/dropbox.png)
 
 Het volledige scenario werkt als volgt:
 
-![ scenario van Dropbox ](assets/dropbox-scenario.png)
+![&#x200B; scenario van Dropbox &#x200B;](assets/dropbox-scenario.png)
 
 1. De module Opties > Variabele instellen bevat de mapnaam
 1. Met HTTP > Een bestandsmodule ophalen haalt u het bestand op dat u naar de map wilt uploaden
@@ -111,19 +111,19 @@ Hieronder volgt een gedetailleerde uitleg van de route DataError.
 
 Om de bestaande omslag in uw verdere modules, zoals te gebruiken upload een dossier, moet u een route van de foutenmanager aan de module toevoegen en de omslagweg halen die in de module moet worden in kaart gebracht van de richtlijn van het Hervatten die volgt:
 
-![ voeg foutenmanager route ](assets/add-error-handler-route.png) toe
+![&#x200B; voeg foutenmanager route &#x200B;](assets/add-error-handler-route.png) toe
 
 Het filter op de eerste route wordt geplaatst om de bepaalde fout (DataError) slechts te behandelen die verschijnt wanneer een omslag met de zelfde naam reeds bestaat:
 
-![ Voorwaarde ](assets/condition.png)
+![&#x200B; Voorwaarde &#x200B;](assets/condition.png)
 
 Dropbox > Alle bestanden in een mapmodule weergeven is geconfigureerd om alle mappen in de doelmap te retourneren. Het volgende filter geeft alleen het filter door dat we oorspronkelijk probeerden te maken. (De mapnaam wordt opgeslagen in de map 33. Mapnaam, item.)
 
-![ Voorwaarde ](assets/condition2.png)
+![&#x200B; Voorwaarde &#x200B;](assets/condition2.png)
 
 De richtlijn van het Hervatten dan levert de weg van de Omslag als output voor de ontbroken module. De map-id is leeg gelaten omdat deze niet nodig is in de module Een bestand uploaden.
 
-![ controle van de Stroom ](assets/flow-control.png)
+![&#x200B; controle van de Stroom &#x200B;](assets/flow-control.png)
 
 >[!ENDSHADEBOX]
 
@@ -137,7 +137,7 @@ Voorbeeld:
 
 Een geneste fouthandlerroute met filters:
 
-![ Geneste fout behandelende route ](assets/nested-error-handling-route.png)
+![&#x200B; Geneste fout behandelende route &#x200B;](assets/nested-error-handling-route.png)
 
 In dit scenario, wordt de tweede route van de foutenmanager genest onder de eerste route van de foutenmanager.
 

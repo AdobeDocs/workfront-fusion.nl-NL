@@ -17,15 +17,15 @@ ht-degree: 0%
 Wij adviseren de facultatieve maar nuttige praktijk om nota&#39;s aan uw scenario toe te voegen. De nota&#39;s zijn in bijlage aan individuele modules, en worden getoond in de scenarioredacteur. U kunt notities in- en uitschakelen en meerdere notities toevoegen aan een module.
 
 1. Klik met de rechtermuisknop op een Workfront-module en klik vervolgens op **[!UICONTROL Add a note]** .
-1. In de nota die verschijnt, klik het Edit pictogram ![ uitgeven pictogram ](assets/edit-note.png).
+1. In de nota die verschijnt, klik het Edit pictogram ![&#x200B; uitgeven pictogram &#x200B;](assets/edit-note.png).
 1. Voer de tekst van de notitie in.
 1. Klik **Gedaan** om de nota te bewaren.
 1. Sleep de nota aan de gewenste plaats op de redacteur Scenario.
 
-   Nadat u een nota aan een scenario toevoegt, toont een blauwe puntenvertoningen op het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
+   Nadat u een nota aan een scenario toevoegt, toont een blauwe puntenvertoningen op het **[!UICONTROL Notes]** pictogram ![&#x200B; pictogram van Nota&#39;s met punt &#x200B;](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
 
-1. Om alle nota&#39;s te bekijken of te verbergen, klik het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png).
+1. Om alle nota&#39;s te bekijken of te verbergen, klik het **[!UICONTROL Notes]** pictogram ![&#x200B; pictogram van Nota&#39;s met punt &#x200B;](assets/notes-icon-w-dot.png).
 
    Wanneer notities zijn geopend, verschijnt er een cirkel rond het pictogram Notities.
 
-   ![ pictogram van Nota&#39;s met cirkel ](assets/notes-icon-with-circle.png)
+   ![&#x200B; pictogram van Nota&#39;s met cirkel &#x200B;](assets/notes-icon-with-circle.png)
