@@ -4,9 +4,9 @@ description: Voor werkautomatisering is snelle verwerking vereist, dus Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 80cb3736d96d4b7c3226d78149842a80077e3551
+source-git-commit: 3a05e5df36bf9b1aacd0611fdad0240c8c52368d
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus Adobe Workfront Fusion
 * Als een bestand wordt gedownload met een module die grote bestanden ondersteunt en vervolgens wordt doorgegeven aan een module die geen grote bestanden ondersteunt, wordt het bestand niet verwerkt. Grote bestanden moeten tijdens de gehele workflow uitsluitend met ondersteunde modules worden afgehandeld.
 * De modules die geen grote dossiers steunen kunnen dossiers tot **200 MB** in grootte verwerken.
 
-Voor meer informatie, zie [&#x200B; Werkend met grote dossiers &#x200B;](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
+Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
 
 ## Gebruik van servergeheugen
 
@@ -67,6 +67,7 @@ Voor meer informatie, zie [&#x200B; Werkend met grote dossiers &#x200B;](/help/w
    * De webhaak wordt alleen gebruikt in inactieve scenario&#39;s, die al meer dan 30 dagen inactief zijn.
 
 * gedeactiveerde webhaken worden automatisch verwijderd en niet geregistreerd als ze niet zijn aangesloten op scenario&#39;s en meer dan 30 dagen in de gedeactiveerde status zijn geweest.
+* De time-out voor een webhaakreactie is 5 minuten.
 
 ## Uitvoeringshistorie
 
