@@ -4,9 +4,9 @@ description: De volgende arrayfuncties zijn beschikbaar in het Adobe Workfront F
 author: Becky
 feature: Workfront Fusion
 exl-id: 16c3915c-add1-4aab-a0e1-75fc590c42a6
-source-git-commit: d141738a7e013ed817cb657b883fc5e1061e2165
+source-git-commit: 9b61a3b18df1f755cc7ccc28889564e4bcb6cda0
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '554'
 ht-degree: 0%
 
 ---
@@ -57,13 +57,13 @@ Retourneert een primitieve array met waarden van een complexe array. Deze functi
 
   Retourneert een primitieve array met e-mails
 
-* `map(Emails[];email;label;work;home)`
+* `map(Emails[];email;label;work)`
 
-  Retourneert een primitieve array met e-mails met een label dat gelijk is aan werk of privé
+  Retourneert een primitieve array met e-mails met een label dat gelijk is aan het werk
 
 >[!ENDSHADEBOX]
 
-Voor meer informatie, zie [&#x200B; een serie of serieelement &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md) in kaart brengen.
+Voor meer informatie, zie [ een serie of serieelement ](/help/workfront-fusion/create-scenarios/map-data/map-an-array.md) in kaart brengen.
 
 ## schudden
 
