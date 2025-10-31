@@ -264,7 +264,7 @@ De module retourneert alle standaardvelden die aan de record zijn gekoppeld, sam
 
 Nadat WebHaak wordt gecreeerd, kunt u het adres van het eindpunt bekijken dat de gebeurtenissen worden verzonden naar.
 
-Voor meer informatie, zie de sectie [&#x200B; Voorbeelden van de Payloads van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads) in het Abonnement API van de artikelgebeurtenis in de documentatie van Workfront.
+Voor meer informatie, zie de sectie [&#x200B; Voorbeelden van de Payloads van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads) in het Abonnement API van de artikelgebeurtenis in de documentatie van Workfront.
 
 Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
@@ -497,7 +497,7 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x
 >
 >   Als u gebruikers wilt oplossen die in een grote batch zijn toegevoegd, kunt u de batch met gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->   Voor instructies, zie [&#x200B; veelvoudige gebruikers beheren | Bulk CSV upload &#x200B;](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>   Voor instructies, zie [&#x200B; veelvoudige gebruikers beheren | Bulk CSV upload &#x200B;](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
 
 +++
 
@@ -750,7 +750,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
       </ul> <p>Selecteer <b>[!UICONTROL Other objects and endpoints]</b> voor alle andere recordtypen en zoek het recordtype op de alfabetische gesorteerde pagina's.</p> </li> 
      <li value="2"> <p>Zoek op de pagina van het juiste recordtype naar de handeling (Ctrl-F of Cmd-F).</p> </li> 
      <li value="3"> <p>Beschrijvingen weergeven voor beschikbare velden onder de geselecteerde handeling.</p> </li> 
-    </ol> <p>Opmerking:  <p>Als u een proefdruk maakt via de Workfront [!UICONTROL Misc Action] -module, kunt u het beste een proefdruk maken zonder geavanceerde opties en de proefdruk vervolgens bijwerken met de [!DNL Workfront Proof] SOAP API.</p><p>Voor meer informatie bij het creëren van een proef met Workfront API (die deze module gebruikt), zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref"> geavanceerde het proefdrukken opties wanneer het creëren van een proef door Adobe Workfront API </a> toevoegen</p> </p> </td> 
+    </ol> <p>Opmerking:  <p>Als u een proefdruk maakt via de Workfront [!UICONTROL Misc Action] -module, kunt u het beste een proefdruk maken zonder geavanceerde opties en de proefdruk vervolgens bijwerken met de [!DNL Workfront Proof] SOAP API.</p><p>Voor meer informatie bij het creëren van een proef met Workfront API (die deze module gebruikt), zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref"> geavanceerde het proefdrukken opties wanneer het creëren van een proef door Adobe Workfront API </a> toevoegen</p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
@@ -1028,7 +1028,7 @@ See a list of the Workfront object types for which you can use this module in [W
 
 Workfront heeft onlangs een nieuwe versie van zijn service voor gebeurtenisabonnementen uitgebracht. De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen. Deze actiemodule werkt de versie bij van de gebeurtenislading die voor dit scenario wordt gebruikt.
 
-Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
+Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
 
 Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [&#x200B; het Behouden van Uw Scenario&#39;s van de Fusie tijdens de Verbetering van de Abonnementen V2 van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
 
@@ -2356,7 +2356,7 @@ Wij adviseren dat u tweemaal controleert om ervoor te zorgen dit werkt zoals u h
 >
 >* Workfront heeft onlangs een nieuwe versie van zijn service voor gebeurtenisabonnementen uitgebracht. De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen. Deze actiemodule werkt de versie bij van de gebeurtenislading die voor dit scenario wordt gebruikt.
 >
->   Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
+>   Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
 >
 >   Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [ het Behouden van Uw Scenario&#39;s van de Fusie tijdens de V2 Verbetering van de Abonnementen van de Gebeurtenis (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182) ].
 
@@ -2408,7 +2408,7 @@ De volgende operatoren zijn beschikbaar in het filter Workfront > Watch-gebeurte
 >
 >Als er in een dag 100 problemen worden gemaakt, maar slechts twee ervan worden toegewezen aan Ana, wordt het scenario 100 keer uitgevoerd. 98 van de uitvoeringen zouden bij de filter ophouden, maar de trekkermodule verbruikt nog steeds gegevens en voert bewerkingen uit in alle uitvoeringen.
 
-Voor meer informatie over de gebeurtenisabonnementen van Workfront, zie [&#x200B; FAQs - de Abonnementen van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-faq).
+Voor meer informatie over de gebeurtenisabonnementen van Workfront, zie [&#x200B; FAQs - de Abonnementen van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-faq).
 
 Voor meer informatie over websites, zie [&#x200B; Onmiddellijke trekkers (webhooks) in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/references/modules/webhooks-reference.md)
 
