@@ -53,7 +53,7 @@ Organisaties kunnen zo veel teams hebben als ze nodig hebben en gebruikers kunne
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,7 +66,7 @@ Een team maken:
 1. Klik in het navigatievenster links op **[!UICONTROL Org overview]**
 1. Selecteer het tabblad **[!UICONTROL Teams]**. 
 1. Klik op **[!UICONTROL Add a new team]**.
-   ![ creeer een team ](assets/create-new-team-button.png)
+   ![&#x200B; creeer een team &#x200B;](assets/create-new-team-button.png)
 1. Ga een naam voor het nieuwe team in, en klik **toevoegen**.
 
 ## Een team bewerken

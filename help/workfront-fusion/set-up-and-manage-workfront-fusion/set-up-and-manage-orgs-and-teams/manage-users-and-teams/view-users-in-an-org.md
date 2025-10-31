@@ -47,7 +47,7 @@ U kunt een lijst met gebruikers in uw organisatie weergeven, sorteren en filtere
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,6 +58,6 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    De lijst Gebruikers wordt geopend.
 
-1. (Facultatief) om de lijst van Gebruikers door om het even welke kolom te sorteren, klik het **pictogram van de Soort** ![ voor die kolom.](assets/sort-icon.png)
-1. (Facultatief) om kolommen te verbergen of te tonen, klik het **pictogram van Kolommen** pictogram van Kolommen ![ dichtbij de hoger-juiste hoek van de lijst, dan toelaten of onbruikbaar maken kolommen.](assets/columns-icon.png)
+1. (Facultatief) om de lijst van Gebruikers door om het even welke kolom te sorteren, klik het **pictogram van de Soort** ![&#x200B; voor die kolom.](assets/sort-icon.png)
+1. (Facultatief) om kolommen te verbergen of te tonen, klik het **pictogram van Kolommen** pictogram van Kolommen ![&#x200B; dichtbij de hoger-juiste hoek van de lijst, dan toelaten of onbruikbaar maken kolommen.](assets/columns-icon.png)
 1. (Optioneel) Als u de lijst wilt filteren, typt u in de zoekbalk. De lijstfilters om slechts teams te omvatten die uw onderzoekstermijn omvatten.

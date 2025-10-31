@@ -40,7 +40,7 @@ Sommige modules kunnen bestanden verwerken. Deze modules kunnen een uitvoerbesta
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,7 +59,7 @@ U kunt deze naam en gegevens ook handmatig invoeren of toewijzen vanuit vorige m
 >
 >Als u een bestand vanaf een URL moet verwerken, raden we u aan het bestand met de module `HTTP > Get a File` te downloaden van de URL en het bestand vervolgens van de module `HTTP > Get a File` toe te wijzen aan het veld van de gewenste module in uw scenario.
 >
->![ dossier van de Kaart ](assets/map-source-file.png)
+>![&#x200B; dossier van de Kaart &#x200B;](assets/map-source-file.png)
 
 Een bestand toewijzen:
 
@@ -69,10 +69,10 @@ Een bestand toewijzen:
 1. In de doelmodule, die het doel is u aan in kaart brengt, bepaal de plaats van het **dossier van Source** gebied.
 1. Als u een bestandsuitvoer wilt toewijzen door een vorige module, selecteert u de module die het bestand uitvoert.
 
-   ![ Workfront downloaddocument ](assets/wf-download-document.png)
+   ![&#x200B; Workfront downloaddocument &#x200B;](assets/wf-download-document.png)
 
 1. Als u de naam en gegevens handmatig wilt toewijzen, selecteert u Kaart en voert u de naam en gegevens van het bestand in of wijst u deze toe.
 
-   ![ Gebruik de kaartoptie ](assets/use-the-map-option.png)
+   ![&#x200B; Gebruik de kaartoptie &#x200B;](assets/use-the-map-option.png)
 
 1. Ga verder vormend de module, of klik **O.K.**.

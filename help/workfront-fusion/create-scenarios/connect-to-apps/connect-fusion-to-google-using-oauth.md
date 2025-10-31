@@ -47,9 +47,9 @@ Met Adobe Workfront Fusion kunt u verbinding maken met Google Services via een a
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -69,7 +69,7 @@ Als u deze verbinding wilt maken, moet u een project maken en configureren op he
 >* Intern gebruik (Google Workspace-gebruikers die liever een aangepaste OAuth-client gebruiken)
 
 * [Een project maken op een Google Cloud-platform](#create-a-project-on-google-cloud-platform)
-* [ vorm OAuth toestemmingsmontages ](#configure-oauth-consent-settings)
+* [&#x200B; vorm OAuth toestemmingsmontages &#x200B;](#configure-oauth-consent-settings)
 * [OAuth-referenties maken](#create-oauth-credentials)
 * [Verbinding maken met Google in Workfront Fusion](#connect-to-google-in-workfront-fusion)
 
@@ -79,16 +79,16 @@ Een project maken op het Google Cloud-platform:
 
 1. Beginnen met het maken van een project op het Google Cloud Platform.
 
-   Voor instructies, zie [ tot een project van de Wolk van Google ](https://developers.google.com/workspace/guides/create-project) in de documentatie van Google leiden.
+   Voor instructies, zie [&#x200B; tot een project van de Wolk van Google &#x200B;](https://developers.google.com/workspace/guides/create-project) in de documentatie van Google leiden.
 1. Wanneer u API&#39;s inschakelt, moet u de Google Drive API en de API van alle Google-toepassingen die u wilt gebruiken (zoals de Google Sheets API) inschakelen.
 1. Voltooi het maken van het project.
-1. Ga aan de sectie [ verder vormen OAuth toestemmingsmontages ](#configure-oauth-consent-settings) in dit artikel.
+1. Ga aan de sectie [&#x200B; verder vormen OAuth toestemmingsmontages &#x200B;](#configure-oauth-consent-settings) in dit artikel.
 
 ### Instellingen voor OAuth-toestemming configureren
 
 1. Beginnen met het configureren van OAuth voor uw project
 
-   Voor instructies, zie [ het OAuth toestemmingsscherm vormen en werkingsgebied ](https://developers.google.com/workspace/guides/configure-oauth-consent) in de documentatie van Google kiezen.
+   Voor instructies, zie [&#x200B; het OAuth toestemmingsscherm vormen en werkingsgebied &#x200B;](https://developers.google.com/workspace/guides/configure-oauth-consent) in de documentatie van Google kiezen.
 1. Selecteer **Extern**, dan klik **creeer**.
 
    >[!NOTE]
@@ -149,13 +149,13 @@ Een project maken op het Google Cloud-platform:
    >
    >U hoeft het toestemmingsscherm en de aanvraag voor verificatie door Google niet in te dienen.
 
-1. Ga aan [ creëren OAuth Credentials ](#create-oauth-credentials) verder.
+1. Ga aan [&#x200B; creëren OAuth Credentials &#x200B;](#create-oauth-credentials) verder.
 
 ### OAuth-referenties maken
 
 1. Ga naar het maken van OAuth client ID-referenties.
 
-   Voor instructies, zie [ toegangsgeloofsbrieven ](https://developers.google.com/workspace/guides/create-credentials) in de documentatie van Google creëren.
+   Voor instructies, zie [&#x200B; toegangsgeloofsbrieven &#x200B;](https://developers.google.com/workspace/guides/create-credentials) in de documentatie van Google creëren.
 
    >[!NOTE]
    >
@@ -189,7 +189,7 @@ Een project maken op het Google Cloud-platform:
    De weergave Client ID en Client Secret.
 
 1. Kopieer de client-id en het clientgeheim naar een beveiligde locatie. U gebruikt ze om verbinding te maken met Workfront Fusion.
-1. Ga verder [ met Google in de Fusie van Workfront ](#connect-to-google-in-workfront-fusion) verbinden.
+1. Ga verder [&#x200B; met Google in de Fusie van Workfront &#x200B;](#connect-to-google-in-workfront-fusion) verbinden.
 
 ### Verbinding maken met Google in Workfront Fusion
 
@@ -203,7 +203,7 @@ Het proces om een verbinding aan Google tot stand te brengen verschilt afhankeli
 1. Zoek in Workfront Fusion de Google-module waarvoor u een verbinding moet maken.
 1. Klik **creeer een verbinding**, dan klik **tonen geavanceerde montages**.
 1. Vul de velden Verbindingsnaam, Omgeving en Type naar wens in.
-1. Ga identiteitskaart van de Cliënt in en Geheime cliënt u in [ wordt teruggewonnen creeert OAuth Credentials ](#create-oauth-credentials) op de respectieve gebieden, dan klik **verdergaan**.
+1. Ga identiteitskaart van de Cliënt in en Geheime cliënt u in [&#x200B; wordt teruggewonnen creeert OAuth Credentials &#x200B;](#create-oauth-credentials) op de respectieve gebieden, dan klik **verdergaan**.
 
 1. Meld u aan met uw Google-account.
 
@@ -212,14 +212,14 @@ Het proces om een verbinding aan Google tot stand te brengen verschilt afhankeli
 1. Klik **Geavanceerd**, dan klik **gaan naar de Fusie van Workfront (onveilig)** om toegang toe te staan gebruikend uw douaneOAuth cliënt.
 
 1. Klik **toestaan** om de toestemming van de Fusie van Workfront te verlenen.
-1. In het venster dat verschijnt, staat de klik **** opnieuw toe om uw keuzen te bevestigen.
+1. In het venster dat verschijnt, staat de klik **&#x200B;**&#x200B;opnieuw toe om uw keuzen te bevestigen.
 
    De verbinding met de gewenste Google-service met een aangepaste OAuth-client wordt tot stand gebracht.
 
 #### Verbinding maken met Google in de module HTTP > Een OAuth2.0-aanvraag maken {#connect-to-google-in-the-http--make-an-oauth20-request-module}
 
-Voor instructies bij het verbinden met Google in HTTP > maak een OAuth2.0 verzoekmodule, zie [ Instructies voor het creëren van een verbinding aan Google in HTTP > maak een OAuth 2.0 verzoekmodule ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module) in het artikel HTTP > maak een OAuth 2.0 verzoekmodule.
+Voor instructies bij het verbinden met Google in HTTP > maak een OAuth2.0 verzoekmodule, zie [&#x200B; Instructies voor het creëren van een verbinding aan Google in HTTP > maak een OAuth 2.0 verzoekmodule &#x200B;](/help/workfront-fusion/references/apps-and-modules/universal-connectors/http-module-make-an-oauth-2-request.md#instructions-for-creating-a-connection-to-google-in-the-http-make-an-oauth-20-request-module) in het artikel HTTP > maak een OAuth 2.0 verzoekmodule.
 
 ## Mogelijke foutenmelding:[ 403 Toegang niet Gevormde ]
 
-Als het foutbericht van `403 Access Not Configured` wordt weergegeven, moet u de bijbehorende API inschakelen in uw Google Cloud Platform. Om API toe te laten, volg de stappen in de sectie [ een project op het Platform van de Wolk van Google ](#create-a-project-on-google-cloud-platform) in dit artikel creëren.
+Als het foutbericht van `403 Access Not Configured` wordt weergegeven, moet u de bijbehorende API inschakelen in uw Google Cloud Platform. Om API toe te laten, volg de stappen in de sectie [&#x200B; een project op het Platform van de Wolk van Google &#x200B;](#create-a-project-on-google-cloud-platform) in dit artikel creëren.

@@ -17,7 +17,7 @@ Veel services bieden websites voor het direct verzenden van meldingen wanneer zi
 
 Binnenkomende webhaakgegevens worden altijd opgeslagen in de wachtrij, ongeacht hoe u de optie Gegevens hebt ingesteld, is vertrouwelijk in het deelvenster met scenario-instellingen. Nadat de gegevens in een scenario worden verwerkt, wordt het permanent geschrapt van de rij.
 
-Voor meer informatie over webhooks, zie [ Onmiddellijke trekkers (webhooks) ](/help/workfront-fusion/references/modules/webhooks-reference.md).
+Voor meer informatie over webhooks, zie [&#x200B; Onmiddellijke trekkers (webhooks) &#x200B;](/help/workfront-fusion/references/modules/webhooks-reference.md).
 
 ## Toegangsvereisten
 
@@ -44,7 +44,7 @@ Voor meer informatie over webhooks, zie [ Onmiddellijke trekkers (webhooks) ](/h
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,7 @@ Alle berichten van binnenkomende webhooks worden opgeslagen in de wachtrij van d
 
 Als een scenario momenteel een rij heeft, toont een banner in dat scenario:
 
-![ banner van de Rij ](assets/queue-banner.png)
+![&#x200B; banner van de Rij &#x200B;](assets/queue-banner.png)
 
 De wachtrij van een webhaak weergeven:
 
@@ -62,6 +62,6 @@ De wachtrij van een webhaak weergeven:
 1. Zoek de Webhaak waarvoor u de wachtrij wilt weergeven.
 1. Zoek het aantal gebeurtenissen op de knop Ontvangen gebeurtenissen.
 
-   ![ de rij van Webhaak ](assets/webhook-queue.png)
+   ![&#x200B; de rij van Webhaak &#x200B;](assets/webhook-queue.png)
 
 1. Klik op de knop om details over gebeurtenissen in de wachtrij weer te geven.

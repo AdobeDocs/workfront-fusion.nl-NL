@@ -44,7 +44,7 @@ De het Scoren Deskundige van het Scenario kan u helpen ervoor zorgen dat uw scen
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -53,14 +53,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waar u de Deskundige van het Scorebord van het Scenario wilt in werking stellen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik het Scorende Deskundige pictogram van het Scenario van het Scorebord van het pictogram ![ Scenario die deskundige ](assets/scoring-expert-icon.png) dichtbij de bodem van het scherm.
+1. Klik het Scorende Deskundige pictogram van het Scenario van het Scorebord van het pictogram ![&#x200B; Scenario die deskundige &#x200B;](assets/scoring-expert-icon.png) dichtbij de bodem van het scherm.
 
    Het deelvenster Scenario Scoring Expert wordt geopend.
 1. Klik **evalueren**.
 
 De Scenario Scoring Expert keert een score van 10 terug, en toont welke controles zijn overgegaan of ontbroken. Als een controle heeft ontbroken, geeft de Scorende Deskundige van het Scenario aanbevelingen voor hoe te om ervoor te zorgen dat het scenario aan deze controles voldoet.
 
-![ score Scenario ](assets/scenario-score.png)
+![&#x200B; score Scenario &#x200B;](assets/scenario-score.png)
 
 ## Scenario-scènecontroles
 
@@ -70,10 +70,10 @@ De Scenario Scoring Expert gebruikt de volgende controles:
 * Alle modules moeten geëtiketteerd zijn.
 * Het scenario moet op een geplaatst programma lopen.
 
-  Voor instructies, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+  Voor instructies, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 * De grootte van de scenario blauwdruk moet onder 5 MB zijn.
 
-  Voor meer informatie, zie [ de prestatiesgidsen van de Fusie ](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md#scenarios).
+  Voor meer informatie, zie [&#x200B; de prestatiesgidsen van de Fusie &#x200B;](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md#scenarios).
 * Als een Workfront-instant trigger wordt gebruikt, moet deze worden gefilterd.
 
-  Voor instructies, zie [ het abonnementfilters van de Gebeurtenis in Workfront > [!UICONTROL Watch Events] module ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules).
+  Voor instructies, zie [&#x200B; het abonnementfilters van de Gebeurtenis in Workfront > [!UICONTROL Watch Events] module &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#event-subscription-filters-in-the-workfront--watch-events-modules).

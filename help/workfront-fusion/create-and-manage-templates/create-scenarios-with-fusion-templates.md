@@ -40,7 +40,7 @@ U kunt Adobe Workfront Fusion-sjablonen gebruiken als beginpunt voor uw Workfron
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,7 +50,7 @@ U moet een sjabloon maken voordat u deze kunt gebruiken.
 
 ## Een scenario maken op basis van een sjabloon
 
-1. Klik het **[!UICONTROL Templates]** pictogram ![ pictogram van Malplaatjes ](assets/templates-icon.png) in het linkernavigatievenster.
+1. Klik het **[!UICONTROL Templates]** pictogram ![&#x200B; pictogram van Malplaatjes &#x200B;](assets/templates-icon.png) in het linkernavigatievenster.
 1. Klik het lusje dat het malplaatje bevat u (Openbare malplaatjes of de malplaatjes van het Team) wilt gebruiken.
 1. Klik op de sjabloon die u wilt gebruiken om een scenario te maken. U kunt het zoekvak in de rechterbovenhoek gebruiken om de sjabloon te zoeken op naam of naam van de toepassing die in de sjabloon is opgenomen.
 1. (Voorwaardelijk) Als u lid bent van meer dan één organisatie of team, selecteert u voor welke organisatie of team u uw scenario wilt maken en klikt u op **[!UICONTROL Continue]** .
@@ -62,6 +62,6 @@ U moet een sjabloon maken voordat u deze kunt gebruiken.
 
 1. Wanneer u alle montages hebt gevormd die voor het malplaatje worden vereist, ontvangt u een bericht dat uw malplaatje klaar is te gaan, en de standaardscenario opties verschijnen bij de bodem van het scherm. U kunt nu doorgaan met het samenstellen van uw scenario.
 
-   Voor informatie bij het bouwen van een scenario, zie [ Werkschema voor het creëren van een scenario ](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md).
+   Voor informatie bij het bouwen van een scenario, zie [&#x200B; Werkschema voor het creëren van een scenario &#x200B;](/help/workfront-fusion/create-scenarios/plan-a-scenario/create-a-scenario-workflow.md).
 
-1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png) om uw scenario te bewaren. Het scenario wordt opgeslagen in het gebied Scenario van Workfront Fusion.
+1. Klik het **[!UICONTROL Save]** pictogram ![&#x200B; sparen pictogram &#x200B;](assets/save-icon.png) om uw scenario te bewaren. Het scenario wordt opgeslagen in het gebied Scenario van Workfront Fusion.

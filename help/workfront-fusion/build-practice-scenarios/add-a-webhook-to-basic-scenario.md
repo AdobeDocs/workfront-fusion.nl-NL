@@ -20,7 +20,7 @@ Webhooks, ook wel &#39;instant triggers&#39; genoemd, zijn een specifiek type tr
 
 In dit voorbeeld, zult u een website toevoegen om een scenario te beginnen zodra om het even welke verzoeken aan een specifieke verzoekrij zijn voorgelegd. Het scenario zet dan die verzoeken in een project om.
 
-Dit voorbeeld wijzigt het scenario dat in [ wordt gecreeerd leidt tot een basisscenario ](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md).
+Dit voorbeeld wijzigt het scenario dat in [&#x200B; wordt gecreeerd leidt tot een basisscenario &#x200B;](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md).
 
 ## Toegangsvereisten
 
@@ -47,13 +47,13 @@ Dit voorbeeld wijzigt het scenario dat in [ wordt gecreeerd leidt tot een basiss
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een basisscenario ](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) alvorens deze procedure te volgen.
+U moet het scenario tot stand brengen dat in [&#x200B; wordt beschreven leidt tot een basisscenario &#x200B;](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) alvorens deze procedure te volgen.
 
 ## Webhaak toevoegen en configureren
 
@@ -92,7 +92,7 @@ U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een ba
 
    Het scenario moet worden uitgevoerd.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
-1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan **&#x200B;**.
 
    Dit activeert het scenario.
 1. Klik in Workfront Fusion op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.

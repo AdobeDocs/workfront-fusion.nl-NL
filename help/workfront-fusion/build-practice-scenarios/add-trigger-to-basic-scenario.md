@@ -22,7 +22,7 @@ De modules van de opiniepeiling controleren de dienst bij een vastgestelde tijdi
 
 In dit voorbeeld, zult u een trekkermodule toevoegen die om de 15 minuten in werking stelt en begint een scenario als om het even welke verzoeken aan een specifieke rij zijn voorgelegd. Het scenario zet dan die verzoeken in een project om.
 
-Dit voorbeeld wijzigt het scenario dat in [ wordt gecreeerd leidt tot een basisscenario ](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md).
+Dit voorbeeld wijzigt het scenario dat in [&#x200B; wordt gecreeerd leidt tot een basisscenario &#x200B;](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md).
 
 ## Toegangsvereisten
 
@@ -49,13 +49,13 @@ Dit voorbeeld wijzigt het scenario dat in [ wordt gecreeerd leidt tot een basiss
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Vereisten
 
-U moet het scenario tot stand brengen dat in [ wordt beschreven leidt tot een basisscenario ](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) alvorens deze procedure te volgen.
+U moet het scenario tot stand brengen dat in [&#x200B; wordt beschreven leidt tot een basisscenario &#x200B;](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md) alvorens deze procedure te volgen.
 
 ## De triggermodule toevoegen en configureren
 
@@ -102,7 +102,7 @@ Omdat de eerste module is vervangen, moet de tweede module aan de nieuwe eerste 
 1. Ga naar de Workfront-omgeving waarmee Fusion verbinding maakt en voeg een probleem toe.
 1. Klik op **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenarioeditor.
 1. Onderzoek de output om ervoor te zorgen dat het scenario zoals verwacht liep.
-1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan ****.
+1. Wanneer u wordt tevreden dat het scenario zoals verwacht werkt, klik **plannend** knevel in laag-linkervan het scherm aan **&#x200B;**.
 
    Dit activeert het scenario.
 1. Klik in Workfront Fusion op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.
@@ -113,4 +113,4 @@ Omdat de eerste module is vervangen, moet de tweede module aan de nieuwe eerste 
 
 ## Bronnen
 
-* Voor meer informatie over trekkermodules, zie [ modules van de Trekker ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodules.
+* Voor meer informatie over trekkermodules, zie [&#x200B; modules van de Trekker &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodules.

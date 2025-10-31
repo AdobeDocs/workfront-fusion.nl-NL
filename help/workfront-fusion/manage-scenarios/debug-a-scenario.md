@@ -21,8 +21,8 @@ Met Adobe Workfront Fusion Devtool kunt u scenario&#39;s begrijpen en problemen 
 
 Ga voor een video-introductie en doorloop van het Fusion Devtool naar
 
-* [ het Hulpmiddel van de Ontwikkeling van de Fusie ](https://video.tv.adobe.com/v/3427031/){target=_blank}
-* [ Devtool walkthrough ](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [&#x200B; het Hulpmiddel van de Ontwikkeling van de Fusie &#x200B;](https://video.tv.adobe.com/v/3427031/){target=_blank}
+* [&#x200B; Devtool walkthrough &#x200B;](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
 
 ## Toegangsvereisten
 
@@ -49,7 +49,7 @@ Ga voor een video-introductie en doorloop van het Fusion Devtool naar
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,13 +57,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Als u Fusion in Adobe verenigde Shell gebruikt, of aan de nieuwe ervaring van de Fusie bijgewerkt hebt, kunt u tot Devtool van de redacteur toegang hebben Scenario.
 
-1. Klik het **hulpmiddel van de Helper** ![ Hulpmiddelen ](assets/debugger-icon.png) pictogram dichtbij de bodem van het scherm.
+1. Klik het **hulpmiddel van de Helper** ![&#x200B; Hulpmiddelen &#x200B;](assets/debugger-icon.png) pictogram dichtbij de bodem van het scherm.
 
 Of:
 
 1. Ga naar de redacteur Scenario voor het scenario u wilt zuiveren.
 
-   Om van de redacteur van het Scenario de plaats te bepalen, zie [ de scenarioredacteur ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md).
+   Om van de redacteur van het Scenario de plaats te bepalen, zie [&#x200B; de scenarioredacteur &#x200B;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/scenario-editor.md).
 
 1. Klik met de rechtermuisknop in een leeg gebied van de pagina (niet in een module).
 1. Selecteer **Open Devtool**.
@@ -72,15 +72,15 @@ Of:
 
 Workfront Fusion Devtool bestaat uit drie hoofdsecties. Deze vindt u in het linkerdeelvenster van het venster Ontwikkelen.
 
-* [ Levende Stroom ](#live-stream)
-* [ Foutopsporing van het Scenario ](#scenario-debugger)
+* [&#x200B; Levende Stroom &#x200B;](#live-stream)
+* [&#x200B; Foutopsporing van het Scenario &#x200B;](#scenario-debugger)
 * [Gereedschappen](#tools)
 
 ### Live stream
 
 Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal in uw scenario op Uitvoeren klikt.
 
-1. Klik het **[!UICONTROL Live Stream]** pictogram ![ Actieve stroompictogram ](assets/live-stream-icon.png) om de Levende sectie van de Stream te openen.
+1. Klik het **[!UICONTROL Live Stream]** pictogram ![&#x200B; Actieve stroompictogram &#x200B;](assets/live-stream-icon.png) om de Levende sectie van de Stream te openen.
 1. Voer een van de volgende handelingen uit:
 
    <table style="table-layout:auto"> 
@@ -132,11 +132,11 @@ Met Live stream kunt u zien wat er op de achtergrond gebeurt wanneer u eenmaal i
 >
 >Om snel naar debugger van een scenario te gaan dat uit heeft geëist, kunt u **klikken krijgt details** in het foutenbericht in de moduleoutput.
 >
->![ krijgt details in moduleoutput ](assets/go-to-debugger.png)
+>![&#x200B; krijgt details in moduleoutput &#x200B;](assets/go-to-debugger.png)
 
 Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschiedenis van de scenario looppas en laat u toe om modules door hun naam of identiteitskaart te zoeken.
 
-1. Klik het **[!UICONTROL Scenario Debugger]** pictogram ![ Debugger pictogram ](assets/scenario-debugger-icon.png) om debugger van het Scenario te openen.
+1. Klik het **[!UICONTROL Scenario Debugger]** pictogram ![&#x200B; Debugger pictogram &#x200B;](assets/scenario-debugger-icon.png) om debugger van het Scenario te openen.
 1. (Optioneel) Voer de zoekterm (naam of module-id) in het zoekveld in.
 1. Klik op de modulenaam.
 1. Klik op de bewerking om de aanvraagdetails weer te geven.
@@ -145,23 +145,23 @@ Scenario Debugger is nuttig voor complexere scenario&#39;s. Het toont de geschie
 
 De Workfront Fusion Devtool beschikt over gereedschappen waarmee u uw scenario gemakkelijker kunt instellen.
 
-1. Klik het **[!UICONTROL Tools]** pictogram van de pictogramhulpmiddelen van de pictogram ![ Console ](assets/console-tools-icon.png) om de Hulpmiddelen te openen.
+1. Klik het **[!UICONTROL Tools]** pictogram van de pictogramhulpmiddelen van de pictogram ![&#x200B; Console &#x200B;](assets/console-tools-icon.png) om de Hulpmiddelen te openen.
 1. Selecteer het gewenste gereedschap
 1. Configureer de velden zoals hieronder wordt beschreven.
 1. Klik op **[!UICONTROL Run]**.
 
 Gereedschappen en de bijbehorende velden:
 
-* [ Focus een Module ](#focus-a-module)
-* [ vind Modules door Afbeelding ](#find-modules-by-mapping)
-* [ krijg Meta-gegevens van de App ](#get-app-metadata)
-* [ Toewijzing van het Exemplaar ](#copy-mapping)
-* [ de Filter van het Exemplaar ](#copy-filter)
-* [ Naam van de Module van het Exemplaar ](#copy-module-name)
-* [ Verbinding van het Wisselen ](#swap-connection)
-* [ Veranderlijke van het Wisselen ](#swap-variable)
-* [ Basis 64 ](#base-64)
-* [ Remap Source ](#remap-source)
+* [&#x200B; Focus een Module &#x200B;](#focus-a-module)
+* [&#x200B; vind Modules door Afbeelding &#x200B;](#find-modules-by-mapping)
+* [&#x200B; krijg Meta-gegevens van de App &#x200B;](#get-app-metadata)
+* [&#x200B; Toewijzing van het Exemplaar &#x200B;](#copy-mapping)
+* [&#x200B; de Filter van het Exemplaar &#x200B;](#copy-filter)
+* [&#x200B; Naam van de Module van het Exemplaar &#x200B;](#copy-module-name)
+* [&#x200B; Verbinding van het Wisselen &#x200B;](#swap-connection)
+* [&#x200B; Veranderlijke van het Wisselen &#x200B;](#swap-variable)
+* [&#x200B; Basis 64 &#x200B;](#base-64)
+* [&#x200B; Remap Source &#x200B;](#remap-source)
 
 #### [!UICONTROL Focus a Module]
 

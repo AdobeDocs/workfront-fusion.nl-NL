@@ -47,7 +47,7 @@ U kunt een filter tussen twee modules toevoegen en controleren of de bundels die
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++## Voorwaarden
 
@@ -58,7 +58,7 @@ U moet beide modules aan een scenario toevoegen alvorens u een filter tussen hen
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waaraan u een filter wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik het moersleutelpictogram ![ pictogram van de Sleutel ](assets/wrench-icon.png) tussen de modules waar u een filter wilt toevoegen en **Opstelling een filter** selecteren.
+1. Klik het moersleutelpictogram ![&#x200B; pictogram van de Sleutel &#x200B;](assets/wrench-icon.png) tussen de modules waar u een filter wilt toevoegen en **Opstelling een filter** selecteren.
 1. Voer in het vak dat wordt weergegeven een **[!UICONTROL Label]** voor het filter in.
 1. Definieer het filter **[!UICONTROL Condition]** .
 
@@ -67,11 +67,11 @@ U moet beide modules aan een scenario toevoegen alvorens u een filter tussen hen
    >[!TIP]
    >
    >U kunt waarden invoeren in filtervelden vanuit het deelvenster Toewijzing
-   >Voor meer informatie bij afbeelding, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+   >Voor meer informatie bij afbeelding, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
    Als u bijvoorbeeld wilt dat het filter bestanden doorgeeft in Adobe Workfront die eindigen met XML, typt u **[!UICONTROL File name]** in het eerste vak en.**[!UICONTROL xml]** in het tweede vak. In het vervolgkeuzemenu ertussen selecteert u **[!UICONTROL Ends with (case insensitive)]** . Dit filter wordt toegepast op binnenkomende bundels uit de eerste module (Workfront). Alleen pakketten met XML-bestanden worden doorgegeven aan de volgende module.
 
-   ![ Opstelling een filter ](assets/set-up-filter-box.png)
+   ![&#x200B; Opstelling een filter &#x200B;](assets/set-up-filter-box.png)
 
 1. Klik op **[!DNL OK]**.
 
@@ -83,18 +83,18 @@ Momenteel, omvat de scenario redacteur geen eigenschap voor het kopiëren van ee
 >
 >Als u de modules aan weerszijden van het filter kopieert, wordt het filter ook gekopieerd.
 >
->Voor meer informatie bij het kopiëren van modules, zie [ modules of scenario&#39;s van het Exemplaar in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/add-modules/copy-modules-or-scenarios.md).
+>Voor meer informatie bij het kopiëren van modules, zie [&#x200B; modules of scenario&#39;s van het Exemplaar in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/copy-modules-or-scenarios.md).
 
 Als u een filter wilt kopiëren zonder modules te kopiëren, kunt u het gereedschap Fusion Dev gebruiken
 
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waaraan u een filter wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Open Fusion DevTool door op het DevTool pictogram ![ te klikken DevTool pictogram ](assets/debugger-icon.png) dichtbij de bodem van het scherm.
+1. Open Fusion DevTool door op het DevTool pictogram ![&#x200B; te klikken DevTool pictogram &#x200B;](assets/debugger-icon.png) dichtbij de bodem van het scherm.
 
-   Als u niet het DevTool pictogram ziet, zie [ zuivert een scenario ](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md) voor instructies bij het openen van DevTool.
+   Als u niet het DevTool pictogram ziet, zie [&#x200B; zuivert een scenario &#x200B;](/help/workfront-fusion/manage-scenarios/debug-a-scenario.md) voor instructies bij het openen van DevTool.
 
-1. Klik het **[!UICONTROL Tools]** pictogram ![ DevTool hulpmiddelen ](assets/devtools-tools-icon.png) in de linkerzijbar.
+1. Klik het **[!UICONTROL Tools]** pictogram ![&#x200B; DevTool hulpmiddelen &#x200B;](assets/devtools-tools-icon.png) in de linkerzijbar.
 
 1. Klik op **[!UICONTROL Copy Filter]** en configureer het gereedschap **[!UICONTROL Copy Filter]** in het rechterdeelvenster:
 

@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Wanneer een fout door de instructie Break wordt afgehandeld, wordt een record gemaakt in de map Onvolledige uitvoeringen. Dit verslag slaat de staat van de scenariouitvoering, samen met gegevens van de vroegere modules op. De record verwijst naar de module waar de fout is opgetreden en bevat informatie over de gegevens die de module als invoer heeft ontvangen. Voor elke bundel gegevens die de fout veroorzaakt, wordt een afzonderlijke verslag gecreeerd.
 
-Voor meer informatie, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+Voor meer informatie, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
 ## Toegangsvereisten
 
@@ -42,7 +42,7 @@ Voor meer informatie, zie [ Mening en los onvolledige uitvoeringen ](/help/workf
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,7 +55,7 @@ U kunt het scenario ook vormen om een onvolledige uitvoering automatisch te verw
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waar u de tijdelijke oplossing wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik de **controle van de Stroom** pictogram ![ controle van de Stroom ](assets/flow-control-icon.png) en selecteer **Break**.
+1. Klik de **controle van de Stroom** pictogram ![&#x200B; controle van de Stroom &#x200B;](assets/flow-control-icon.png) en selecteer **Break**.
 1. Binnen de module van het Sluiten, laat [!UICONTROL **automatisch volledige uitvoerings**] optie toe.
 1. Op het **Aantal pogingen** gebied, ga of kaart het maximumaantal pogingen in dat u de module wilt de uitvoering opnieuw proberen
 
@@ -77,4 +77,4 @@ Er zijn sommige uitzonderingen op uitvoeringen die onder Onvolledige Uitvoeringe
 
 ## Bronnen
 
-Voor meer informatie, zie [ toestaan het opslaan van onvolledige uitvoeringen ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions) in artikel vormt scenario montages.
+Voor meer informatie, zie [&#x200B; toestaan het opslaan van onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions) in artikel vormt scenario montages.

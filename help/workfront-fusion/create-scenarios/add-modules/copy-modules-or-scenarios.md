@@ -40,7 +40,7 @@ U kunt modules, groepen modules, of volledige scenario&#39;s in de Fusie van Ado
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -89,7 +89,7 @@ Het klonen van een scenario leidt tot een exemplaar van het scenario, dat u dan 
 
       of
 
-      Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![ Uitgaan die pijl ](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
+      Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![&#x200B; Uitgaan die pijl &#x200B;](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
 
 1. Klik met de rechtermuisknop **[!UICONTROL Options]** rechtsboven op de pagina.
 1. Selecteer **[!UICONTROL Clone]**.
@@ -101,7 +101,7 @@ Het klonen van een scenario leidt tot een exemplaar van het scenario, dat u dan 
 
 Scenario-blauwdrukken vertegenwoordigen de rangschikking, toewijzing en veldwaarden van een bepaald scenario op een bepaald tijdstip. U kunt een scenario-blauwdruk naar een JSON-bestand op uw computer exporteren en het vervolgens importeren wanneer u een nieuw scenario maakt. Scenario&#39;s die uit een scenario-blauwdruk zijn geïmporteerd, kunnen worden bewerkt.
 
-Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts bepaalde modules van een scenario wilt kopiëren, zie [ een module of een groep modules ](#copy-a-module-or-a-group-of-modules) in dit artikel kopiëren.
+Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts bepaalde modules van een scenario wilt kopiëren, zie [&#x200B; een module of een groep modules &#x200B;](#copy-a-module-or-a-group-of-modules) in dit artikel kopiëren.
 
 ### Een scenario-blauwdruk exporteren
 
@@ -115,7 +115,7 @@ Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts be
 
 >[!NOTE]
 >
->Om de blauwdruk voor een vorige versie van een scenario uit te voeren, zie [ Mening en beheer scenario versies ](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
+>Om de blauwdruk voor een vorige versie van een scenario uit te voeren, zie [&#x200B; Mening en beheer scenario versies &#x200B;](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
 
 ### Een blauwdruk importeren
 
@@ -136,8 +136,8 @@ Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts be
 
 U kunt sjablonen maken als beginpunt voor uw Workfront Fusion-scenario&#39;s. Wanneer u een scenario van een malplaatje creeert, kunt u het scenario wijzigen zonder het malplaatje te wijzigen. Veldwaarden worden niet opgeslagen in sjablonen.
 
-Voor meer informatie bij het creëren van een scenario gebruikend een malplaatje, zie [ scenario&#39;s met malplaatjes ](/help/workfront-fusion/create-scenarios/add-modules/create-scenarios-with-fusion-templates.md) creëren.
+Voor meer informatie bij het creëren van een scenario gebruikend een malplaatje, zie [&#x200B; scenario&#39;s met malplaatjes &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/create-scenarios-with-fusion-templates.md) creëren.
 
 ## Problemen oplossen
 
-Als u kopieert en modules zoals die in [ wordt beschreven Kopieer een module of een groep modules ](#copy-a-module-or-a-group-of-modules) kleeft en niets wanneer u kleeft, controleer de de plaatsmontages van uw browser om ervoor te zorgen dat het kleven van het klembord wordt toegestaan.
+Als u kopieert en modules zoals die in [&#x200B; wordt beschreven Kopieer een module of een groep modules &#x200B;](#copy-a-module-or-a-group-of-modules) kleeft en niets wanneer u kleeft, controleer de de plaatsmontages van uw browser om ervoor te zorgen dat het kleven van het klembord wordt toegestaan.

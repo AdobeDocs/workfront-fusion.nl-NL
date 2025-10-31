@@ -19,7 +19,7 @@ In de map [!UICONTROL Incomplete executions] worden scenario-uitvoeringen opgesl
 >
 >Standaard is het opslaan van onvolledige uitvoeringen uitgeschakeld. Schakel de optie [!UICONTROL Allow storing incomplete executions] in de geavanceerde instellingen van het scenario in om deze optie in te schakelen.
 >
->Voor meer informatie over scenario montages, zie [ scenario montages ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
+>Voor meer informatie over scenario montages, zie [&#x200B; scenario montages &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
 
 ## Gemarkeerde voorvertoning voor volledig artikel {#highlighted-preview-article-level}
 
@@ -33,7 +33,7 @@ Als een module een fout tijdens zijn verrichting ontmoet, wordt een nieuwe onvol
 
 -->
 
-Voor meer informatie, zie [ Fouten resulterend in onvolledige uitvoeringen ](#errors-resulting-into-incomplete-executions) in dit artikel.
+Voor meer informatie, zie [&#x200B; Fouten resulterend in onvolledige uitvoeringen &#x200B;](#errors-resulting-into-incomplete-executions) in dit artikel.
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Voor meer informatie, zie [ Fouten resulterend in onvolledige uitvoeringen ](#er
 >
 >Teams zijn beperkt tot in totaal 500 MB voor alle onopgeloste onvolledige uitvoeringen.
 >
->Voor meer informatie, zie [ gegevensverlies ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#enable-data-loss) toelaten in artikel vormt scenario montages.
+>Voor meer informatie, zie [&#x200B; gegevensverlies &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#enable-data-loss) toelaten in artikel vormt scenario montages.
 
 
 ## Onvolledige uitvoeringen oplossen via het tabblad Onvolledige uitvoeringen
@@ -56,7 +56,7 @@ Wanneer een nieuwe onvolledige uitvoering wordt opgeslagen, kunt u deze als volg
 1. Open het logboek van de module waar alle verrichtingen van de module worden getoond.
 1. Zoek de mislukte bewerking en klik op **[!UICONTROL Resolve]** :
 
-   ![ Los knoop ](assets/resolve-btn-350x188.png) op
+   ![&#x200B; Los knoop &#x200B;](assets/resolve-btn-350x188.png) op
 
 
 
@@ -70,7 +70,7 @@ Als u het logboek van alle verrichtingen van de module wilt zien alvorens u prob
 1. Open het logboek van de module waar alle verrichtingen van de module worden getoond.
 1. Zoek de mislukte bewerking en klik op **[!UICONTROL Resolve]** :
 
-   ![ Los knoop ](assets/resolve-btn-350x188.png) op
+   ![&#x200B; Los knoop &#x200B;](assets/resolve-btn-350x188.png) op
 
 ## Opties in verband met onvolledige uitvoeringen
 
@@ -80,7 +80,7 @@ De volgende opties in het deelvenster [!UICONTROL Scenario settings] bepalen of 
 * Opeenvolgende verwerking
 * Gegevensverlies inschakelen
 
-Voor meer informatie over deze opties, zie [ scenario montages ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
+Voor meer informatie over deze opties, zie [&#x200B; scenario montages &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
 
 ## Fouten die tot onvolledige uitvoering leiden
 

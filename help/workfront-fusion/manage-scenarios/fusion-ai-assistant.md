@@ -40,7 +40,7 @@ AI Assistant kan informatie zoeken in Workfront-documentatie, zodat u niet naar 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -48,13 +48,13 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Adobe moet een ondertekende Adobe Gen AI-overeenkomst in het bestand hebben.
 
-Voor meer informatie bij het ondertekenen van de overeenkomst, zie [ de overeenkomst van Adobe Gen AI ](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht in de documentatie van Workfront ondertekenen.
+Voor meer informatie bij het ondertekenen van de overeenkomst, zie [&#x200B; de overeenkomst van Adobe Gen AI &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/basics/ai-assistant/ai-assistant-overview#sign-the-adobe-gen-ai-agreement) in het artikelAI Hulpoverzicht in de documentatie van Workfront ondertekenen.
 
 ## Informatie ophalen van AI Assistant
 
 Informatie of instructies ophalen uit de Workfront Fusion-documentatie met behulp van AI Assistant:
 
-1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![ dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
+1. Klik het **pictogram AI van de Medewerker** AI Medewerker pictogram ![&#x200B; dichtbij de hoger-juiste hoek van het scherm.](assets/ai-assistant-icon.png)
 1. Voer in het deelvenster AI-assistent de vraag in het tekstgebied onder aan het deelvenster in.
 
    AI Assistant kan enkele ogenblikken duren om de informatie te zoeken, afhankelijk van de grootte of complexiteit van de vraag. We raden eenvoudige aanwijzingen aan.

@@ -25,7 +25,7 @@ Teams zijn groepen gebruikers die toegang tot specifieke bronnen delen. Deze mid
 
 U kunt een lijst van de teams van uw organisatie bekijken, en de namen van de teams uitgeven.
 
-Om gebruikers aan teams toe te voegen, zie [ een gebruiker aan een team ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md) toevoegen.
+Om gebruikers aan teams toe te voegen, zie [&#x200B; een gebruiker aan een team &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -59,7 +59,7 @@ Om gebruikers aan teams toe te voegen, zie [ een gebruiker aan een team ](/help/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    De lijst Teams wordt geopend.
 
-1. (Facultatief) om de lijst van Teams door om het even welke kolom te sorteren, klik het **pictogram van de Soort** ![ voor die kolom.](assets/sort-icon.png)
-1. (Facultatief) om kolommen te verbergen of te tonen, klik het **pictogram van Kolommen** pictogram van Kolommen ![ dichtbij de hoger-juiste hoek van de lijst, dan toelaten of onbruikbaar maken kolommen.](assets/columns-icon.png)
+1. (Facultatief) om de lijst van Teams door om het even welke kolom te sorteren, klik het **pictogram van de Soort** ![&#x200B; voor die kolom.](assets/sort-icon.png)
+1. (Facultatief) om kolommen te verbergen of te tonen, klik het **pictogram van Kolommen** pictogram van Kolommen ![&#x200B; dichtbij de hoger-juiste hoek van de lijst, dan toelaten of onbruikbaar maken kolommen.](assets/columns-icon.png)
 1. (Optioneel) Als u de lijst wilt filteren, typt u in de zoekbalk. De lijstfilters om slechts teams te omvatten die uw onderzoekstermijn omvatten.
 1. (Facultatief) om een team anders te noemen, klik **uitgeven** in de lijn voor dat team, dan ga de nieuwe teamnaam in en klik **sparen**.
