@@ -4,9 +4,9 @@ description: U kunt geavanceerde technieken voor foutafhandeling toevoegen aan u
 author: Becky
 feature: Workfront Fusion
 exl-id: 745bfdc4-1327-4a28-a863-c217f15a7fc5
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '902'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,28 @@ U kunt geavanceerde technieken voor foutafhandeling toevoegen aan uw foutafhande
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Selecteer of Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -69,7 +55,7 @@ Er zijn twee soorten het filtreren die op een route van de foutenmanager kunnen 
 
 U kunt een filter gebruiken om te controleren welke fouten door de route van de foutenmanager worden behandeld. Op deze manier kunt u alleen bepaalde soorten fouten verwerken. Als een fout niet door de filter overgaat, zal het worden behandeld alsof er geen die route van de foutenmanager voor de bepaalde module wordt bepaald is.
 
-Deze filters worden geconfigureerd zoals elk ander filter in Fusion. Voor instructies, zie [&#x200B; een filter aan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
+Deze filters worden geconfigureerd zoals elk ander filter in Fusion. Voor instructies, zie [ een filter aan een scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
 
 ### Voeg een Router toe die door filters aan de foutenmanager wordt gevolgd
 
@@ -77,9 +63,9 @@ Het toevoegen van een Router aan een fout behandelende route staat u toe om vers
 
 Bijvoorbeeld, om één route te vormen om uit te voeren wanneer de fout een DataError is, kunt u opstelling een filter dat de gegevens toestaat om over te gaan als het in kaart gebrachte foutentype aan DataError gelijk is.
 
-![&#x200B; filter DataError &#x200B;](assets/filter-dataerror.png)
+![ filter DataError ](assets/filter-dataerror.png)
 
-Voor informatie over hoe de Fusie diverse gegevenstypes evalueert en verwerkt, zie [&#x200B; types van Fout &#x200B;](/help/workfront-fusion/references/errors/error-processing.md).
+Voor informatie over hoe de Fusie diverse gegevenstypes evalueert en verwerkt, zie [ types van Fout ](/help/workfront-fusion/references/errors/error-processing.md).
 
 ### Voorbeeld: foutafhandeling met filters
 
@@ -89,11 +75,11 @@ In dit voorbeeldscenario wordt getoond hoe deze filters werken voor foutafhandel
 
 Als u Dropbox > een mappenmodule maakt gebruikt en er al een map met dezelfde naam bestaat, genereert de module een DataError:
 
-![&#x200B; Fout in Dropbox &#x200B;](assets/dropbox.png)
+![ Fout in Dropbox ](assets/dropbox.png)
 
 Het volledige scenario werkt als volgt:
 
-![&#x200B; scenario van Dropbox &#x200B;](assets/dropbox-scenario.png)
+![ scenario van Dropbox ](assets/dropbox-scenario.png)
 
 1. De module Opties > Variabele instellen bevat de mapnaam
 1. Met HTTP > Een bestandsmodule ophalen haalt u het bestand op dat u naar de map wilt uploaden
@@ -103,7 +89,7 @@ De eerste route is voor een gespecificeerd type van fout genoemd `DataError`.
 
    1. Als een `DataError` wordt uitgevoerd en de foutgegevens door het filter worden doorgegeven, worden in Dropbox >Alle bestanden/submappen in een mappenmodule weergeven alle mappen in Dropbox weergegeven.
    1. Het volgende filter komt overeen met de mapnamen.
-   1. De **1&rbrace; richtlijn van het Hervatten &lbrace;specificeert omslagidentiteitskaart en omslagweg van de bestaande omslag, en de scenario uitvoering hervat van Dropbox > creeert een omslagmodule.** In plaats van een nieuwe map te maken, gebruikt Fusion echter de waarden van de aanwijzing Hervatten om naar de volgende module te gaan en het bestand in de bestaande map te uploaden.
+   1. De **1} richtlijn van het Hervatten {specificeert omslagidentiteitskaart en omslagweg van de bestaande omslag, en de scenario uitvoering hervat van Dropbox > creeert een omslagmodule.** In plaats van een nieuwe map te maken, gebruikt Fusion echter de waarden van de aanwijzing Hervatten om naar de volgende module te gaan en het bestand in de bestaande map te uploaden.
 
 1. De tweede route is voor alle andere fouten en beëindigt met de richtlijn van het Terugschroeven van prijzen, die in onmiddellijk het tegenhouden van het scenario resulteert
 
@@ -111,19 +97,19 @@ Hieronder volgt een gedetailleerde uitleg van de route DataError.
 
 Om de bestaande omslag in uw verdere modules, zoals te gebruiken upload een dossier, moet u een route van de foutenmanager aan de module toevoegen en de omslagweg halen die in de module moet worden in kaart gebracht van de richtlijn van het Hervatten die volgt:
 
-![&#x200B; voeg foutenmanager route &#x200B;](assets/add-error-handler-route.png) toe
+![ voeg foutenmanager route ](assets/add-error-handler-route.png) toe
 
 Het filter op de eerste route wordt geplaatst om de bepaalde fout (DataError) slechts te behandelen die verschijnt wanneer een omslag met de zelfde naam reeds bestaat:
 
-![&#x200B; Voorwaarde &#x200B;](assets/condition.png)
+![ Voorwaarde ](assets/condition.png)
 
 Dropbox > Alle bestanden in een mapmodule weergeven is geconfigureerd om alle mappen in de doelmap te retourneren. Het volgende filter geeft alleen het filter door dat we oorspronkelijk probeerden te maken. (De mapnaam wordt opgeslagen in de map 33. Mapnaam, item.)
 
-![&#x200B; Voorwaarde &#x200B;](assets/condition2.png)
+![ Voorwaarde ](assets/condition2.png)
 
 De richtlijn van het Hervatten dan levert de weg van de Omslag als output voor de ontbroken module. De map-id is leeg gelaten omdat deze niet nodig is in de module Een bestand uploaden.
 
-![&#x200B; controle van de Stroom &#x200B;](assets/flow-control.png)
+![ controle van de Stroom ](assets/flow-control.png)
 
 >[!ENDSHADEBOX]
 
@@ -137,7 +123,7 @@ Voorbeeld:
 
 Een geneste fouthandlerroute met filters:
 
-![&#x200B; Geneste fout behandelende route &#x200B;](assets/nested-error-handling-route.png)
+![ Geneste fout behandelende route ](assets/nested-error-handling-route.png)
 
 In dit scenario, wordt de tweede route van de foutenmanager genest onder de eerste route van de foutenmanager.
 

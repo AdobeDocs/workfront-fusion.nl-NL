@@ -4,9 +4,9 @@ description: Veel services bieden websites voor het direct verzenden van melding
 author: Becky
 feature: Workfront Fusion
 exl-id: 04aed0cb-e837-4c81-8eb1-113075d2ada8
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 42be02d6a59a5d7b8faccdcfe40e8b967153c6eb
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '330'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,11 @@ Veel services bieden websites voor het direct verzenden van meldingen wanneer zi
 
 Binnenkomende webhaakgegevens worden altijd opgeslagen in de wachtrij, ongeacht hoe u de optie Gegevens hebt ingesteld, is vertrouwelijk in het deelvenster met scenario-instellingen. Nadat de gegevens in een scenario worden verwerkt, wordt het permanent geschrapt van de rij.
 
-Voor meer informatie over webhooks, zie [&#x200B; Onmiddellijke trekkers (webhooks) &#x200B;](/help/workfront-fusion/references/modules/webhooks-reference.md).
+Voor meer informatie over webhooks, zie [ Onmiddellijke trekkers (webhooks) ](/help/workfront-fusion/references/modules/webhooks-reference.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -31,34 +29,22 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,7 +54,7 @@ Alle berichten van binnenkomende webhooks worden opgeslagen in de wachtrij van d
 
 Als een scenario momenteel een rij heeft, toont een banner in dat scenario:
 
-![&#x200B; banner van de Rij &#x200B;](assets/queue-banner.png)
+![ banner van de Rij ](assets/queue-banner.png)
 
 De wachtrij van een webhaak weergeven:
 
@@ -76,6 +62,6 @@ De wachtrij van een webhaak weergeven:
 1. Zoek de Webhaak waarvoor u de wachtrij wilt weergeven.
 1. Zoek het aantal gebeurtenissen op de knop Ontvangen gebeurtenissen.
 
-   ![&#x200B; de rij van Webhaak &#x200B;](assets/webhook-queue.png)
+   ![ de rij van Webhaak ](assets/webhook-queue.png)
 
 1. Klik op de knop om details over gebeurtenissen in de wachtrij weer te geven.

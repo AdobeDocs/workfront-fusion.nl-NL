@@ -4,9 +4,9 @@ description: Soms, is het nuttig om een falende module opnieuw uit te voeren als
 author: Becky
 feature: Workfront Fusion
 exl-id: 08e19a1a-7ca9-4c79-a165-f200048a5cda
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -21,42 +21,28 @@ Adobe Workfront Fusion biedt momenteel geen aanwijzing voor foutafhandeling van 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Selecteer of Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,7 +50,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x2
 
 Workfront Fusion biedt momenteel geen aanwijzing voor foutafhandeling van `retry` . Gebruik een van de volgende tijdelijke oplossingen om de functionaliteit voor opnieuw proberen na te bootsen.
 
-Voor instructies, zie [&#x200B; Richtlijnen voor fout behandeling &#x200B;](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
+Voor instructies, zie [ Richtlijnen voor fout behandeling ](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
 
 * [De instructie Break gebruiken](#use-the-break-directive)
 * [De module Repeater gebruiken](#use-the-repeater-module)
@@ -73,9 +59,9 @@ Voor instructies, zie [&#x200B; Richtlijnen voor fout behandeling &#x200B;](/hel
 
 Wanneer de instructie Break wordt uitgevoerd, wordt de status van de uitvoering van het scenario opgeslagen in de wachtrij met onvolledige uitvoeringen. Als dit gebeurt, kunt u de onvolledige uitvoering vervolgens handmatig oplossen.
 
-Voor instructies zie [&#x200B; fouten oplossen die door de richtlijn van het Onderbreking &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md) worden behandeld
+Voor instructies zie [ fouten oplossen die door de richtlijn van het Onderbreking ](/help/workfront-fusion/create-scenarios/config-error-handling/resolve-error-from-break-directive.md) worden behandeld
 
-Voor instructies bij het oplossen van onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+Voor instructies bij het oplossen van onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
 #### Nadelen
 
@@ -84,7 +70,7 @@ Voor instructies bij het oplossen van onvolledige uitvoeringen, zie [&#x200B; Me
 
   Als u wilt voorkomen dat het scenario opnieuw wordt uitgevoerd totdat de uitvoering in de map Onvolledige uitvoeringen is opgelost, schakelt u de optie &quot;[!UICONTROL Sequential processing]&quot; in [!UICONTROL Scenario settings] in.
 
-Voor meer informatie over onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
 ### De module Repeater gebruiken
 
@@ -95,16 +81,16 @@ De oplossing van de module Repeater is complexer, maar aanpasbaar.
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waar u de tijdelijke oplossing wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik de **controle van de Stroom** pictogram ![&#x200B; controle van de Stroom &#x200B;](assets/flow-control-icon.png) en selecteer **Repeater**.
+1. Klik de **controle van de Stroom** pictogram ![ controle van de Stroom ](assets/flow-control-icon.png) en selecteer **Repeater**.
 1. Stel in de module Repeater het veld **[!UICONTROL Repeats]** in op het maximumaantal keren dat het scenario opnieuw moet proberen.
 1. Koppel de module die mogelijk mislukt na de module **[!UICONTROL Repeater]** .
 1. Verbind een route van de foutenmanager aan de potentieel ontbrekende module.
 
-   Voor instructies, zie [&#x200B; fout behandeling &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md) toevoegen.
+   Voor instructies, zie [ fout behandeling ](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md) toevoegen.
 1. Voeg de module **[!UICONTROL Tools]>[!UICONTROL Sleep]** toe aan de fouthandlerroute en stel het veld **[!UICONTROL Delay]** ervan in op het aantal seconden tussen pogingen om het opnieuw uit te proberen.
 
 1. Voeg de aanwijzing **[!UICONTROL Ignore]** toe na de module **[!UICONTROL Tools]>[!UICONTROL Sleep]** .
-1. Ga aan [&#x200B; verder vormen de standaardroute &#x200B;](#configure-the-default-route).
+1. Ga aan [ verder vormen de standaardroute ](#configure-the-default-route).
 
 #### Vorm de standaardroute
 
@@ -124,13 +110,13 @@ De oplossing van de module Repeater is complexer, maar aanpasbaar.
 
 In dit voorbeeldscenario vertegenwoordigt de module [!UICONTROL HTTP] > [!UICONTROL Make a request] de module die mogelijk mislukt:
 
-![&#x200B; HTTP maakt een verzoek &#x200B;](assets/http-make-request.png)
+![ HTTP maakt een verzoek ](assets/http-make-request.png)
 
 >[!ENDSHADEBOX]
 
 Als het resultaat van de potentieel falende module te complex is om in een eenvoudige variabele worden opgeslagen, kunt u een gegevensopslag gebruiken om het resultaat op te slaan en terug te winnen. De gegevensopslag zou slechts één record bevatten. De sleutel van de record kan bijvoorbeeld `Result` zijn.
 
-Voor meer informatie over gegevensopslag, zie [&#x200B; de Opslag van Gegevens &#x200B;](/help/workfront-fusion/create-scenarios/map-data/data-stores.md).
+Voor meer informatie over gegevensopslag, zie [ de Opslag van Gegevens ](/help/workfront-fusion/create-scenarios/map-data/data-stores.md).
 
 #### Nadelen
 
@@ -139,5 +125,5 @@ Voor meer informatie over gegevensopslag, zie [&#x200B; de Opslag van Gegevens &
 
 ## Bronnen
 
-* Voor meer informatie over de modules van de Repeater en break instructies, zie [&#x200B; controle van de Stroom &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/flow-control.md).
-* Voor meer informatie over krijgen de Modules van de Variabele, zie [&#x200B; Hulpmiddelen &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md).
+* Voor meer informatie over de modules van de Repeater en break instructies, zie [ controle van de Stroom ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/flow-control.md).
+* Voor meer informatie over krijgen de Modules van de Variabele, zie [ Hulpmiddelen ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md).

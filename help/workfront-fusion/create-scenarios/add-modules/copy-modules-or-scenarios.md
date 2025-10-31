@@ -4,9 +4,9 @@ description: U kunt modules, groepen modules, of volledige scenario's in de Fusi
 author: Becky
 feature: Workfront Fusion
 exl-id: 5cece7d4-b2c7-4276-8a6f-f65bad799c7a
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: c83070a7c2d1d048000a4eace4aaede73c7ec49d
 workflow-type: tm+mt
-source-wordcount: '893'
+source-wordcount: '878'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,28 @@ U kunt modules, groepen modules, of volledige scenario&#39;s in de Fusie van Ado
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -86,7 +72,7 @@ Het kopiëren van een groep modules is vergelijkbaar met het kopiëren van één
    >
    >U kunt meer dan één module selecteren door [!UICONTROL shift] te houden en op de modules te klikken die u wilt kopiëren. Het kopiëren van een groep modules kopieert ook om het even welke verbindende lijnen, filters, of het verpletteren van logica tussen hen.
 
-1. Selecteer **[!UICONTROL Copy module]** .
+1. Selecteer **[!UICONTROL Copy module]**.
 1. Verplaats de curseur naar het gebied van het scenario waar u het exemplaar van het scenario wilt.
 1. Klik met de rechtermuisknop en selecteer **[!UICONTROL Paste]** .
 1. Sluit de geplakte modules aan op het scenario door deze naar de juiste locatie in het scenario te slepen.
@@ -103,10 +89,10 @@ Het klonen van een scenario leidt tot een exemplaar van het scenario, dat u dan 
 
       of
 
-      Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![&#x200B; Uitgaan die pijl &#x200B;](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
+      Als u aan het scenario in de scenario redacteur werkt, klik de linkerpijl ![ Uitgaan die pijl ](assets/exit-editing-arrow.png) dichtbij de upper-left hoek van het venster uitgeeft.
 
 1. Klik met de rechtermuisknop **[!UICONTROL Options]** rechtsboven op de pagina.
-1. Selecteer **[!UICONTROL Clone]** .
+1. Selecteer **[!UICONTROL Clone]**.
 1. (Optioneel) Voer een naam in voor het nieuwe scenario.
 1. (Optioneel) Schakel **[!UICONTROL Keep the states of any new modules the same as those being duplicated]** in om ervoor te zorgen dat het gekopieerde scenario ook informatie bevat over de meest recente records die door het oorspronkelijke scenario zijn verwerkt.
 1. Klik op **[!UICONTROL Save]** om het scenario te maken.
@@ -115,7 +101,7 @@ Het klonen van een scenario leidt tot een exemplaar van het scenario, dat u dan 
 
 Scenario-blauwdrukken vertegenwoordigen de rangschikking, toewijzing en veldwaarden van een bepaald scenario op een bepaald tijdstip. U kunt een scenario-blauwdruk naar een JSON-bestand op uw computer exporteren en het vervolgens importeren wanneer u een nieuw scenario maakt. Scenario&#39;s die uit een scenario-blauwdruk zijn geïmporteerd, kunnen worden bewerkt.
 
-Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts bepaalde modules van een scenario wilt kopiëren, zie [&#x200B; een module of een groep modules &#x200B;](#copy-a-module-or-a-group-of-modules) in dit artikel kopiëren.
+Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts bepaalde modules van een scenario wilt kopiëren, zie [ een module of een groep modules ](#copy-a-module-or-a-group-of-modules) in dit artikel kopiëren.
 
 ### Een scenario-blauwdruk exporteren
 
@@ -129,7 +115,7 @@ Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts be
 
 >[!NOTE]
 >
->Om de blauwdruk voor een vorige versie van een scenario uit te voeren, zie [&#x200B; Mening en beheer scenario versies &#x200B;](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
+>Om de blauwdruk voor een vorige versie van een scenario uit te voeren, zie [ Mening en beheer scenario versies ](/help/workfront-fusion/manage-scenarios/restore-a-scenario-version.md).
 
 ### Een blauwdruk importeren
 
@@ -150,8 +136,8 @@ Een scenario blauwdruk vertegenwoordigt het volledige scenario. Als u slechts be
 
 U kunt sjablonen maken als beginpunt voor uw Workfront Fusion-scenario&#39;s. Wanneer u een scenario van een malplaatje creeert, kunt u het scenario wijzigen zonder het malplaatje te wijzigen. Veldwaarden worden niet opgeslagen in sjablonen.
 
-Voor meer informatie bij het creëren van een scenario gebruikend een malplaatje, zie [&#x200B; scenario&#39;s met malplaatjes &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/create-scenarios-with-fusion-templates.md) creëren.
+Voor meer informatie bij het creëren van een scenario gebruikend een malplaatje, zie [ scenario&#39;s met malplaatjes ](/help/workfront-fusion/create-scenarios/add-modules/create-scenarios-with-fusion-templates.md) creëren.
 
 ## Problemen oplossen
 
-Als u kopieert en modules zoals die in [&#x200B; wordt beschreven Kopieer een module of een groep modules &#x200B;](#copy-a-module-or-a-group-of-modules) kleeft en niets wanneer u kleeft, controleer de de plaatsmontages van uw browser om ervoor te zorgen dat het kleven van het klembord wordt toegestaan.
+Als u kopieert en modules zoals die in [ wordt beschreven Kopieer een module of een groep modules ](#copy-a-module-or-a-group-of-modules) kleeft en niets wanneer u kleeft, controleer de de plaatsmontages van uw browser om ervoor te zorgen dat het kleven van het klembord wordt toegestaan.

@@ -4,9 +4,9 @@ description: Bij sommige services is het niet mogelijk om met integratieoplossin
 author: Becky
 feature: Workfront Fusion
 exl-id: 4a8ac816-52de-41e8-96d7-1c8cde2ebe32
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '958'
+source-wordcount: '983'
 ht-degree: 0%
 
 ---
@@ -23,42 +23,37 @@ In dit artikel wordt uitgelegd hoe u bijna elke webservice kunt verbinden met Wo
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): als u verbinding wilt maken met toepassingen buiten de Workfront-productreeks, hebt u Workfront Fusion for Work Automation and Integration nodig </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Selecteer of Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -66,10 +61,10 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x2
 
 De procedure voor het verbinden van de service via een API-token is vergelijkbaar voor de meeste webservices.
 
-1. Creeer een toepassing op de website van de Webdienst, zoals verklaard in de sectie [&#x200B; creeer een nieuwe toepassing en verkrijg het API teken &#x200B;](#create-a-new-application-and-obtain-the-api-token) in dit artikel.
+1. Creeer een toepassing op de website van de Webdienst, zoals verklaard in de sectie [ creeer een nieuwe toepassing en verkrijg het API teken ](#create-a-new-application-and-obtain-the-api-token) in dit artikel.
 1. Haal de API-sleutel of API-token op.
 1. Voeg HTTP van Workfront Fusion > een module van het Verzoek aan uw scenario toe.
-1. Opstelling de module volgens de API van de Webdienst documentatie en het runnen van het scenario, zoals die in de sectie [&#x200B; wordt verklaard Opstelling de module van HTTP &#x200B;](#set-up-the-http-module) in dit artikel.
+1. Opstelling de module volgens de API van de Webdienst documentatie en het runnen van het scenario, zoals die in de sectie [ wordt verklaard Opstelling de module van HTTP ](#set-up-the-http-module) in dit artikel.
 
 >[!NOTE]
 >
@@ -181,11 +176,11 @@ Dit voorbeeld bevat de volgende informatie.
 
 Met de module Create JSON kunt u het opgeven van JSON eenvoudiger maken. U kunt hiermee ook dynamisch waarden definiëren.
 
-Voor meer informatie over de modules JSON, zie [&#x200B; modules JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/json-modules.md).
+Voor meer informatie over de modules JSON, zie [ modules JSON ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/json-modules.md).
 
 1. Voer de waarden in waarvan u JSON wilt maken of wijs deze toe.
 
-   ![&#x200B; JSON waarden &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
+   ![ JSON waarden ](/help/workfront-fusion/create-scenarios/connect-to-apps/assets/json-values-350x288.png)
 
 1. Sluit de JSON > JSON-module maken aan op HTTP > Een aanvraag maken.
 1. Wijs de JSON-tekenreeks van de module Create JSON toe aan het veld Request-inhoud in HTTP > Een aanvraag maken.

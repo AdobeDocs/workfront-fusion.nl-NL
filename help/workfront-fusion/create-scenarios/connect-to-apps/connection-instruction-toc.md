@@ -4,9 +4,9 @@ description: Een verbinding moet voldoen aan de vereisten die zijn ingesteld doo
 author: Becky
 feature: Workfront Fusion
 exl-id: 281403a6-6f88-4976-8a10-1d0848ef9b35
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,37 @@ Een verbinding moet voldoen aan de vereisten die zijn ingesteld door de API van 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): als u verbinding wilt maken met toepassingen buiten de Workfront-productreeks, hebt u Workfront Fusion for Work Automation and Integration nodig </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Selecteer of Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -62,7 +57,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x2
 
 In de meeste gevallen kunt u de module gebruiken om een verbinding te maken met weinig of geen extra informatie. Workfront Fusion handelt de verificatie automatisch af.
 
-Voor instructies bij het creëren van een verbinding zonder speciale overwegingen, zie [&#x200B; een verbinding creëren - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
+Voor instructies bij het creëren van een verbinding zonder speciale overwegingen, zie [ een verbinding creëren - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
 
 ## Verbinding maken met een Adobe-app of -service
 
@@ -70,7 +65,7 @@ Als u verbinding wilt maken met een Adobe-app of -service, hebt u mogelijk infor
 
 U kunt de Adobe Authenticator-module ook gebruiken om verbinding te maken met elke Adobe API via één verbinding. Hierdoor kunt u gemakkelijker verbinding maken met Adobe-producten die nog geen speciale Fusion-connector hebben.
 
-Voor specifieke instructies, zie [&#x200B; het artikel voor de schakelaar &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-adobe-products).
+Voor specifieke instructies, zie [ het artikel voor de schakelaar ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-adobe-products).
 
 ## Verbinding maken met een [!DNL Microsoft] -app of -webservice
 
@@ -80,11 +75,11 @@ De volgende omstandigheden vereisen extra stappen bij het maken van een verbindi
 
 * Microsoft Dynamics 365-modules gebruiken.
 
-  Voor instructies, zie [&#x200B; Microsoft Dynamics 365 modules &#x200B;](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-dynamics-365-modules.md).
+  Voor instructies, zie [ Microsoft Dynamics 365 modules ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/microsoft-dynamics-365-modules.md).
 
 * Verbinding maken met de Microsoft Graph API via een HTTP-module
 
-  Voor instructies, zie [&#x200B; Vraag de REST API van de Grafiek van MS &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/call-the-ms-graph-rest-api.md).
+  Voor instructies, zie [ Vraag de REST API van de Grafiek van MS ](/help/workfront-fusion/create-scenarios/connect-to-apps/call-the-ms-graph-rest-api.md).
 
 ## Verbinding maken met een [!DNL Google] -app of -webservice
 
@@ -99,4 +94,4 @@ Zie voor meer informatie:
 
 Sommige apps en services volgen de basisconfiguratie voor Workfront Fusion-verbindingen niet. U vindt instructies voor het verbinden van deze apps in het artikel voor die app.
 
-Voor specifieke instructies, zie [&#x200B; het artikel voor de schakelaar &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-third-party-applications).
+Voor specifieke instructies, zie [ het artikel voor de schakelaar ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#connectors-for-third-party-applications).

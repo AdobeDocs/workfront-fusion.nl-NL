@@ -4,10 +4,10 @@ description: Roep de MS Graph REST API aan via de Adobe Workfront Fusion HTTP &>
 author: Becky
 feature: Workfront Fusion
 exl-id: f411c807-955d-44fe-98b1-3ebba3fe0861
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '679'
-ht-degree: 0%
+source-wordcount: '691'
+ht-degree: 1%
 
 ---
 
@@ -19,42 +19,37 @@ Veel Microsoft-webservices zijn toegankelijk via de Microsoft Graph API. U kunt 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Selecteer of Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -62,7 +57,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x2
 
 Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Adobe Workfront Fusion registreren.
 
-1. Begin registrerend een nieuwe toepassing zoals die in [&#x200B; wordt beschreven Register een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft.
+1. Begin registrerend een nieuwe toepassing zoals die in [ wordt beschreven Register een toepassing met het de identiteitsplatform van Microsoft ](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft.
 
    Als onderdeel van de registratie vereist Microsoft de volgende informatie:
 
@@ -85,7 +80,7 @@ Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Ad
 
 1. Een clientgeheim genereren. Noteer dit geheim.
 
-   Voor instructies, zie [&#x200B; een toepassing met het de identiteitsplatform van Microsoft &#x200B;](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft registreren.
+   Voor instructies, zie [ een toepassing met het de identiteitsplatform van Microsoft ](https://docs.microsoft.com/en-us/graph/auth-register-app-v2) in de documentatie van Microsoft registreren.
 
    >[!IMPORTANT]
    >
@@ -93,7 +88,7 @@ Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Ad
 
 1. Configureer de machtigingen voor uw toepassing.
 
-   Voor details bij het bepalen van en het vormen van deze gebieden, zie de &quot;toestemmingen voor de Grafiek van Microsoft&quot;sectie in [&#x200B; toegang zonder een gebruiker &#x200B;](https://docs.microsoft.com/en-us/graph/auth-v2-service) in de documentatie van Microsoft krijgen.
+   Voor details bij het bepalen van en het vormen van deze gebieden, zie de &quot;toestemmingen voor de Grafiek van Microsoft&quot;sectie in [ toegang zonder een gebruiker ](https://docs.microsoft.com/en-us/graph/auth-v2-service) in de documentatie van Microsoft krijgen.
 
    <table style="table-layout:auto">
     <col> 
@@ -101,7 +96,7 @@ Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Ad
     <tbody> 
      <tr> 
       <td role="rowheader">Welk type machtigingen vereist uw toepassing?</td> 
-      <td>Selecteer <code>Delegated permissions</code> .</td> 
+      <td>Selecteer <code>Delegated permissions</code>.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Machtigingen selecteren</td> 
@@ -115,11 +110,11 @@ Als u een verbinding met de Microsoft Graph REST API wilt maken, moet u eerst Ad
     </tbody> 
    </table>
 
-1. Ga aan [&#x200B; verder vormen uw de Grafiek API verbinding van MS in de Fusie van Workfront &#x200B;](#configure-your-ms-graph-api-connection-in-workfront-fusion).
+1. Ga aan [ verder vormen uw de Grafiek API verbinding van MS in de Fusie van Workfront ](#configure-your-ms-graph-api-connection-in-workfront-fusion).
 
 ## Uw MS Graph API-verbinding configureren in Workfront Fusion
 
-Nadat u de Fusie van Workfront zoals die in [&#x200B; wordt besproken registreert de Fusie van Workfront in het Portaal van de Registratie van de Toepassing van Microsoft &#x200B;](#register-workfront-fusion-in-the-microsoft-application-registration-portal), kunt u uw verbinding in HTTP vormen > maak een Oauth 2.0 verzoekmodule.
+Nadat u de Fusie van Workfront zoals die in [ wordt besproken registreert de Fusie van Workfront in het Portaal van de Registratie van de Toepassing van Microsoft ](#register-workfront-fusion-in-the-microsoft-application-registration-portal), kunt u uw verbinding in HTTP vormen > maak een Oauth 2.0 verzoekmodule.
 
 1. Voeg HTTP > een OAuth 2.0 vraagmodule aan uw scenario toe.
 1. Klik **toevoegen** naast het verbindingsgebied.
@@ -143,7 +138,7 @@ Nadat u de Fusie van Workfront zoals die in [&#x200B; wordt besproken registreer
      </tr> 
      <tr> 
       <td role="rowheader"> <p role="rowheader">Stroomtype</p> </td> 
-      <td>Selecteer <code>Authorization Code</code> . </td> 
+      <td>Selecteer <code>Authorization Code</code>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">URI toestaan</td> 
@@ -159,7 +154,7 @@ Nadat u de Fusie van Workfront zoals die in [&#x200B; wordt besproken registreer
      </tr> 
      <tr> 
       <td role="rowheader">Scheidingsteken bereik</td> 
-      <td>Selecteer <code>SPACE</code> . </td> 
+      <td>Selecteer <code>SPACE</code>. </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Client-id</td> 
@@ -202,4 +197,4 @@ Nadat u de Fusie van Workfront zoals die in [&#x200B; wordt besproken registreer
    </table>
 
 1. Klik **verdergaan**.
-1. In het venster dat verschijnt, keur **&#x200B;**&#x200B;goed om de verbinding te voltooien en op de module terug te komen.
+1. In het venster dat verschijnt, keur **** goed om de verbinding te voltooien en op de module terug te komen.

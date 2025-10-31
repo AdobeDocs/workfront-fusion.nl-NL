@@ -4,9 +4,9 @@ description: Google heeft beperkingen geïntroduceerd op de manier waarop gebrui
 author: Becky
 feature: Workfront Fusion
 exl-id: eac7ba26-664e-464c-b05c-8c2ebf407fb3
-source-git-commit: ec2388ab509e89aec71278210bc4ab6f55ed38fd
+source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
 workflow-type: tm+mt
-source-wordcount: '777'
+source-wordcount: '789'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,37 @@ Google heeft beperkingen geïntroduceerd op de manier waarop gebruikers hun API 
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-pakket 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Selecteer of Prime Workfront Plan: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront Plan: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -64,7 +59,7 @@ Google heeft vanaf 1 juni 2020 beperkingen ingevoerd voor het gebruik van de API
 
 Deze beperkingen gelden voor de toepassingen Gmail en Google Drive.
 
-Voor meer informatie over deze beperkingen, zie &quot;Aanvullende Vereisten voor Specifieke API Scopes&quot;in het [&#x200B; Google API het Beleid van de Gegevens van de Gebruiker van de Diensten &#x200B;](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes)
+Voor meer informatie over deze beperkingen, zie &quot;Aanvullende Vereisten voor Specifieke API Scopes&quot;in het [ Google API het Beleid van de Gegevens van de Gebruiker van de Diensten ](https://developers.google.com/terms/api-services-user-data-policy#additional_requirements_for_specific_api_scopes)
 
 Om toegang te krijgen tot beperkt bereik, moet de verbonden dienst (Adobe Workfront Fusion of elke andere dienst die de gegevens van de gebruiker via de API benadert) worden geverifieerd en moet een beoordelingsverklaring hebben om aan te tonen dat de dienst veilig en transparant is over hoe zij de gegevens gebruiken. Workfront Fusion voldoet aan alle Google-vereisten voor toegang tot beperkte bereikregels. De meeste verbonden services van derden in Workfront Fusion hebben echter geen beoordelingsverklaring en voldoen daarom niet aan de voorwaarden van Google. Daarom mag Workfront Fusion geen gegevens naar deze services verzenden.
 
@@ -82,11 +77,11 @@ Workfront Fusion maakt gebruik van de domeinbrede installatieuitzondering. Insta
 
 ### Google Workspace met een andere OAuth-client
 
-Google Workspace-gebruikers die liever hun eigen OAuth-client gebruiken in plaats van de Workfront Fusion OAuth-client, kunnen verbinding maken met Google Services via de aanpak voor intern gebruik. Deze optie is bedoeld voor geavanceerde gebruikers. Voor instructies, zie [&#x200B; Connect Adobe Workfront Fusion aan de Diensten van Google gebruikend een douaneOAuth cliënt &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
+Google Workspace-gebruikers die liever hun eigen OAuth-client gebruiken in plaats van de Workfront Fusion OAuth-client, kunnen verbinding maken met Google Services via de aanpak voor intern gebruik. Deze optie is bedoeld voor geavanceerde gebruikers. Voor instructies, zie [ Connect Adobe Workfront Fusion aan de Diensten van Google gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
 
 ### @gmail.com en @googlemail.com {#gmailcom-and-googlemailcom}
 
-Gebruikers die via @gmail.com of @googlemail.com toegang krijgen tot Google Services, kunnen verbinding maken met Google Services via de aanpak Persoonlijk gebruik. Deze optie is bedoeld voor geavanceerde gebruikers. Voor instructies, zie [&#x200B; Connect Adobe Workfront Fusion aan de Diensten van Google gebruikend een douaneOAuth cliënt &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
+Gebruikers die via @gmail.com of @googlemail.com toegang krijgen tot Google Services, kunnen verbinding maken met Google Services via de aanpak Persoonlijk gebruik. Deze optie is bedoeld voor geavanceerde gebruikers. Voor instructies, zie [ Connect Adobe Workfront Fusion aan de Diensten van Google gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
 
 ## Veelgestelde vragen
 
@@ -113,7 +108,7 @@ Deze nieuwe beperkingen gelden alleen als u Google Drive of Gmail integreert. Al
 
 * Maak een aangepaste OAuth-client. Deze optie is bedoeld voor geavanceerde gebruikers.
 
-  Voor instructies, zie [&#x200B; Connect Adobe Workfront Fusion aan de Diensten van Google gebruikend een douaneOAuth cliënt &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
+  Voor instructies, zie [ Connect Adobe Workfront Fusion aan de Diensten van Google gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
 
 Als u een andere service dan Google Drive of Gmail wilt integreren, zijn deze beperkingen niet van toepassing.
 

@@ -7,9 +7,9 @@ description: Voor de meeste toepassingen is het nodig een verbinding te maken wa
 author: Becky
 feature: Workfront Fusion
 exl-id: 26d7caad-8e12-4f04-ac7c-f71686c90ee6
-source-git-commit: bc1b025af534addf032519142148f6285f481784
+source-git-commit: 93d06cb917680f9cabc1bad6be0f9cd843449d07
 workflow-type: tm+mt
-source-wordcount: '554'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -20,13 +20,11 @@ Een verbinding vertegenwoordigt de vergunning en de toestemmingen die Fusion geb
 
 U kunt deze verbindingen in het gebied van Verbindingen beheren.
 
-Voor meer informatie over verbindingen, zie [&#x200B; Overzicht van de Verbinding &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md).
+Voor meer informatie over verbindingen, zie [ Overzicht van de Verbinding ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -34,34 +32,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: [!UICONTROL Work] of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): als u verbinding wilt maken met toepassingen buiten de Workfront-productreeks, hebt u Workfront Fusion for Work Automation and Integration nodig </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -75,10 +70,10 @@ U kunt alle verbindingen van het gebied van Verbindingen beheren.
 >
 >Om een nieuw team te selecteren, klik de teamnaam in de linkernavigatie en selecteer een nieuw team.
 
-1. Om het gebied van Verbindingen te openen, klik **het pictogram van Verbindingen** ![&#x200B; Verbindingen &#x200B;](assets/connections-icon.png) in de linkernavigatie.
+1. Om het gebied van Verbindingen te openen, klik **het pictogram van Verbindingen** ![ Verbindingen ](assets/connections-icon.png) in de linkernavigatie.
 1. Zoek de verbinding die u wilt beheren en voer vervolgens een of meer van de volgende stappen uit op de regel voor die verbinding.
 1. (Facultatief) wijs een milieu en verbindingstype toe door het **Milieu** en **Type** dropdowns te klikken en een optie te selecteren.
-1. (Facultatief) om te bekijken welke toestemmingen aan de Fusie van Workfront voor de verbinding werden gegeven, klik het pictogram van de Mening ![&#x200B; de verbindingstoestemmingen van de Mening &#x200B;](assets/view-connection-permissions.png) voor die verbinding.
+1. (Facultatief) om te bekijken welke toestemmingen aan de Fusie van Workfront voor de verbinding werden gegeven, klik het pictogram van de Mening ![ de verbindingstoestemmingen van de Mening ](assets/view-connection-permissions.png) voor die verbinding.
 1. (Optioneel) Als u de naam van een verbinding wilt wijzigen, markeert u de naam van de verbinding en typt u de nieuwe naam.
 1. (Facultatief) om een verbinding opnieuw toe te staan, controleer checkbox naast de verbinding, dan klik **opnieuw machtigen** dichtbij de bodem van het scherm.
 1. (Facultatief) om een verbinding te schrappen, controleer checkbox naast de verbinding, klik **Schrapping** dichtbij de bodem van het scherm, dan klik **Echt?**.
@@ -91,7 +86,7 @@ Workfront Fusion verkrijgt gewoonlijk voor onbepaalde tijd toegangsrechten tot e
 
 Een verbinding vernieuwen:
 
-1. Om het gebied van Verbindingen te openen, klik **het pictogram van Verbindingen** ![&#x200B; Verbindingen &#x200B;](assets/connections-icon.png) in de linkernavigatie.
+1. Om het gebied van Verbindingen te openen, klik **het pictogram van Verbindingen** ![ Verbindingen ](assets/connections-icon.png) in de linkernavigatie.
 1. Zoek de verbinding die u wilt vernieuwen.
 1. In de lijn voor die verbinding, controleer checkbox naast de verbinding, dan klik **opnieuw machtigen** dichtbij de bodem van het scherm.
 
