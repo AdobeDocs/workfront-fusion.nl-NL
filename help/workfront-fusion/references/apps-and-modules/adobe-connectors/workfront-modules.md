@@ -4,9 +4,9 @@ description: Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw p
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 93c27cf6-38b0-466c-87bb-926c4817eae7
-source-git-commit: d2c873ffec406ae343fbcc72246688dec0bd1eab
+source-git-commit: 6e2593c0f171bae278e86fed53492b8f64ae3d7e
 workflow-type: tm+mt
-source-wordcount: '6880'
+source-wordcount: '6830'
 ht-degree: 0%
 
 ---
@@ -24,19 +24,19 @@ ht-degree: 0%
 >* De nieuwe connector gebruiken bij het maken of bijwerken van een scenario.
 >* Bevorderend bestaande modules aan de nieuwe schakelaar.
 >
->Voor instructies bij de bevordering van bestaande modules, zie [&#x200B; Verbetering een module van Workfront aan een nieuwe versie &#x200B;](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md) in de artikelVerbetering een module aan een nieuwe versie.
+>De verouderde Workfront-connector gebruikt Workfront API versie 20, die volgens planning verouderd zal worden met de release 28.4 (april 2028). De modules in de erfenisschakelaar zullen blijven werken tot die tijd.
 >
->Voor informatie over waarom een nieuwe schakelaar soms noodzakelijk is, zie [&#x200B; Overzicht van APIs in Fusion &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/api-overview.md).
+>Voor instructies bij de bevordering van bestaande modules, zie [ Verbetering een module van Workfront aan een nieuwe versie ](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md) in de artikelVerbetering een module aan een nieuwe versie.
+>
+>Voor informatie over waarom een nieuwe schakelaar soms noodzakelijk is, zie [ Overzicht van APIs in Fusion ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/api-overview.md).
 
 Met de Adobe Workfront Fusion Adobe Workfront-connector kunt u uw processen in Workfront automatiseren. U kunt Workfront ook verbinden met andere toepassingen en services.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md). Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md). Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -44,43 +44,24 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
-
-
->[!NOTE]
->
->* Als uw organisatie het oudere licentiepakket gebruikt (op basis van connectors), moet deze beschikken over een Workfront Fusion for Work Automation and Integration-licentie om verbinding te maken met apps en services van derden. De Workfront-aansluiting telt niet mee voor het aantal actieve apps dat beschikbaar is voor uw organisatie. Alle scenario&#39;s, zelfs als ze alleen de Workfront-app gebruiken, tellen wel mee voor het totale aantal scenario&#39;s van uw organisatie.
-
-+++
-
-## Workfront verbinden met Workfront Fusion
++++## Verbind Workfront met Workfront Fusion 
 
 De Workfront-connector gebruikt OAuth 2.0 om verbinding te maken met Workfront.
 
@@ -207,18 +188,18 @@ U kunt rechtstreeks vanuit een Workfront Fusion-module een verbinding maken met 
 
 Wanneer u Workfront-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er aanvullende Workfront-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
 >* Als de meest actuele velden in een Workfront-module niet worden weergegeven, kan dit worden veroorzaakt door cacheproblemen. Wacht een uur en probeer het opnieuw.
 >* HTTP 429 statuscodes van Adobe Workfront moeten geen deactivaties veroorzaken, maar in plaats daarvan een korte uitvoeringspauze in het scenario teweegbrengen.
 
-* [&#x200B; Trekkers &#x200B;](#triggers)
-* [&#x200B; Acties &#x200B;](#actions)
+* [ Trekkers ](#triggers)
+* [ Acties ](#actions)
 * [Zoekopdrachten](#searches)
 
 ### Triggers
@@ -283,9 +264,9 @@ De module retourneert alle standaardvelden die aan de record zijn gekoppeld, sam
 
 Nadat WebHaak wordt gecreeerd, kunt u het adres van het eindpunt bekijken dat de gebeurtenissen worden verzonden naar.
 
-Voor meer informatie, zie de sectie [&#x200B; Voorbeelden van de Payloads van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads) in het Abonnement API van de artikelgebeurtenis in de documentatie van Workfront.
+Voor meer informatie, zie de sectie [ Voorbeelden van de Payloads van de Gebeurtenis ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-api#examples-of-event-payloads) in het Abonnement API van de artikelgebeurtenis in de documentatie van Workfront.
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 +++
 
@@ -322,7 +303,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 +++
 
@@ -375,7 +356,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 +++
 
@@ -424,7 +405,7 @@ Deze actiemodule maakt een van de volgende omzettingen:
    <td>Selecteer het object waarnaar u het wilt omzetten. Dit is het type dat het object na de conversie heeft.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Object> ID]</td> 
+   <td>[!UICONTROL <Object> ID]</td> 
    <td> <p>Voer de id van het object in. </p> <p>Opmerking: wanneer u de id van een object opgeeft, kunt u de naam van het object beginnen te typen en het vervolgens in de lijst selecteren. De module gaat dan aangewezen identiteitskaart in het gebied in.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
@@ -489,7 +470,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 >[!NOTE]
 >
@@ -516,7 +497,7 @@ Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x
 >
 >   Als u gebruikers wilt oplossen die in een grote batch zijn toegevoegd, kunt u de batch met gebruikers rechtstreeks aan de Adobe Admin Console toevoegen.
 >
->   Voor instructies, zie [&#x200B; veelvoudige gebruikers beheren | Bulk CSV upload &#x200B;](https://helpx.adobe.com/nl/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
+>   Voor instructies, zie [ veelvoudige gebruikers beheren | Bulk CSV upload ](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html) in de documentatie van Adobe.
 
 +++
 
@@ -628,7 +609,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 +++
 
@@ -669,7 +650,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 >[!NOTE]
 >
@@ -706,7 +687,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 +++
 
@@ -769,7 +750,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
       </ul> <p>Selecteer <b>[!UICONTROL Other objects and endpoints]</b> voor alle andere recordtypen en zoek het recordtype op de alfabetische gesorteerde pagina's.</p> </li> 
      <li value="2"> <p>Zoek op de pagina van het juiste recordtype naar de handeling (Ctrl-F of Cmd-F).</p> </li> 
      <li value="3"> <p>Beschrijvingen weergeven voor beschikbare velden onder de geselecteerde handeling.</p> </li> 
-    </ol> <p>Opmerking:  <p>Als u een proefdruk maakt via de Workfront [!UICONTROL Misc Action] -module, kunt u het beste een proefdruk maken zonder geavanceerde opties en de proefdruk vervolgens bijwerken met de [!DNL Workfront Proof] SOAP API.</p><p>Voor meer informatie bij het creëren van een proef met Workfront API (die deze module gebruikt), zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref"> geavanceerde het proefdrukken opties wanneer het creëren van een proef door Adobe Workfront API </a> toevoegen</p> </p> </td> 
+    </ol> <p>Opmerking:  <p>Als u een proefdruk maakt via de Workfront [!UICONTROL Misc Action] -module, kunt u het beste een proefdruk maken zonder geavanceerde opties en de proefdruk vervolgens bijwerken met de [!DNL Workfront Proof] SOAP API.</p><p>Voor meer informatie bij het creëren van een proef met Workfront API (die deze module gebruikt), zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/tips-troubleshooting-apis/api-create-proof-options-json" class="MCXref xref"> geavanceerde het proefdrukken opties wanneer het creëren van een proef door Adobe Workfront API </a> toevoegen</p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
@@ -778,7 +759,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 #### Handelingsopties
 
@@ -981,7 +962,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 +++
 
@@ -1047,9 +1028,9 @@ See a list of the Workfront object types for which you can use this module in [W
 
 Workfront heeft onlangs een nieuwe versie van zijn service voor gebeurtenisabonnementen uitgebracht. De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen. Deze actiemodule werkt de versie bij van de gebeurtenislading die voor dit scenario wordt gebruikt.
 
-Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
+Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [ het abonnementversioning van de Gebeurtenis ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
 
-Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [&#x200B; het Behouden van Uw Scenario&#39;s van de Fusie tijdens de Verbetering van de Abonnementen V2 van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
+Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [ het Behouden van Uw Scenario&#39;s van de Fusie tijdens de Verbetering van de Abonnementen V2 van de Gebeurtenis ](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
 
 <table style="table-layout:auto">
  <col> 
@@ -1109,7 +1090,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 >[!NOTE]
 >
@@ -1210,7 +1191,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
  </tbody> 
 </table>
 
-Zie een lijst van de objecten van Workfront types waarvoor u deze module in [&#x200B; objecten van Workfront beschikbaar voor elke module van Workfront &#x200B;](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
+Zie een lijst van de objecten van Workfront types waarvoor u deze module in [ objecten van Workfront beschikbaar voor elke module van Workfront ](#workfront-object-types-available-for-each-workfront-module) kunt gebruiken.
 
 +++
 
@@ -1365,7 +1346,7 @@ Als u deze module configureert, worden de volgende velden weergegeven.
 >[!IMPORTANT]
 >
 >Deze module is vervangen door de module Zoeken in records. Wij adviseren gebruikend die module in nieuwe scenario&#39;s.
->&#x200B;>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
+>>De bestaande scenario&#39;s die deze module gebruiken zullen blijven functioneren zoals verwacht. Deze module wordt in mei 2025 verwijderd uit de modulekiezer.
 
 Deze zoekmodule zoekt naar records in een object in Workfront die overeenkomen met de zoekquery die u opgeeft.
 
@@ -2375,7 +2356,7 @@ Wij adviseren dat u tweemaal controleert om ervoor te zorgen dit werkt zoals u h
 >
 >* Workfront heeft onlangs een nieuwe versie van zijn service voor gebeurtenisabonnementen uitgebracht. De nieuwe versie is geen wijziging in de Workfront API, maar een wijziging in de functionaliteit voor abonnementen voor gebeurtenissen. Deze actiemodule werkt de versie bij van de gebeurtenislading die voor dit scenario wordt gebruikt.
 >
->   Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
+>   Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [ het abonnementversioning van de Gebeurtenis ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
 >
 >   Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [ het Behouden van Uw Scenario&#39;s van de Fusie tijdens de V2 Verbetering van de Abonnementen van de Gebeurtenis (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182) ].
 
@@ -2415,7 +2396,7 @@ De volgende operatoren zijn beschikbaar in het filter Workfront > Watch-gebeurte
 >
 >Met het gebeurtenisfilter kunt u de webhaak zo instellen dat het scenario wordt geactiveerd wanneer een uitgave aan Ana wordt toegewezen wanneer de uitgave wordt gemaakt. Ana heeft de gebruikersnaam b378489d8f7cd3cee0539260720a84b7.
 >
->![&#x200B; de filter van de Gebeurtenis &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/event-filter-watch-events-350x277.png)
+>![ de filter van de Gebeurtenis ](/help/workfront-fusion/references/apps-and-modules/assets/event-filter-watch-events-350x277.png)
 >
 >Als 100 kwesties in een dag worden gecreeerd, maar slechts twee van hen worden toegewezen aan Ana, zou het scenario tweemaal uitvoeren.
 >
@@ -2423,12 +2404,12 @@ De volgende operatoren zijn beschikbaar in het filter Workfront > Watch-gebeurte
 >
 >Als u gebeurtenissen wilt filteren zodat alleen uitgaven worden verwerkt die aan Ana zijn toegewezen, kunt u een filter maken na de module [!UICONTROL Watch Events] .
 >
->![&#x200B; Zonder gebeurtenisfilter &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/watch-events-non-event-filter-350x206.png)
+>![ Zonder gebeurtenisfilter ](/help/workfront-fusion/references/apps-and-modules/assets/watch-events-non-event-filter-350x206.png)
 >
 >Als er in een dag 100 problemen worden gemaakt, maar slechts twee ervan worden toegewezen aan Ana, wordt het scenario 100 keer uitgevoerd. 98 van de uitvoeringen zouden bij de filter ophouden, maar de trekkermodule verbruikt nog steeds gegevens en voert bewerkingen uit in alle uitvoeringen.
 
-Voor meer informatie over de gebeurtenisabonnementen van Workfront, zie [&#x200B; FAQs - de Abonnementen van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-faq).
+Voor meer informatie over de gebeurtenisabonnementen van Workfront, zie [ FAQs - de Abonnementen van de Gebeurtenis ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-faq).
 
-Voor meer informatie over websites, zie [&#x200B; Onmiddellijke trekkers (webhooks) in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/references/modules/webhooks-reference.md)
+Voor meer informatie over websites, zie [ Onmiddellijke trekkers (webhooks) in de Fusie van Adobe Workfront ](/help/workfront-fusion/references/modules/webhooks-reference.md)
 
-Voor meer informatie over filters in scenario&#39;s, zie [&#x200B; een filter aan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
+Voor meer informatie over filters in scenario&#39;s, zie [ een filter aan een scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
