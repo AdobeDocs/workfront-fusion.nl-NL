@@ -19,7 +19,7 @@ Adobe Workfront Fusion [!UICONTROL HTTP] > [!UICONTROL Make a request module] is
 >
 >Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
->Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
+>Voor meer informatie, zie [&#x200B; module van Adobe Authenticator &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
 ## Toegangsvereisten
 
@@ -53,9 +53,9 @@ Adobe Workfront Fusion [!UICONTROL HTTP] > [!UICONTROL Make a request module] is
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -98,7 +98,7 @@ Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make a request] configureert
        <p>Voorbeeld van de resulterende HTTP-aanvraagindeling:</p> 
        <p><code>field1=value1&amp;field2=value2</code> </p> 
       </div> </li> 
-     <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL  Multipart/form-data] is een multipart HTTP- verzoek wordt gebruikt om dossiers en gegevens te verzenden die. Het wordt doorgaans gebruikt om bestanden naar de server te uploaden.</p> <p>Voeg velden toe die in de aanvraag moeten worden verzonden. Elk veld moet een sleutelwaardepaar bevatten.</p> 
+     <li> <p><strong>[!UICONTROL Multipart/form-data]</strong> </p> <p>[!UICONTROL &#x200B; Multipart/form-data] is een multipart HTTP- verzoek wordt gebruikt om dossiers en gegevens te verzenden die. Het wordt doorgaans gebruikt om bestanden naar de server te uploaden.</p> <p>Voeg velden toe die in de aanvraag moeten worden verzonden. Elk veld moet een sleutelwaardepaar bevatten.</p> 
       <ul> 
        <li> <p><strong>[!UICONTROL Text]</strong> </p> <p>Voer de sleutel en waarde in die binnen de aanvraaginstantie moeten worden verzonden.</p> </li> 
        <li> <p><strong>[!UICONTROL File]</strong> </p> <p>Voer de sleutel in en geef het bronbestand op dat u wilt verzenden in de hoofdtekst van de aanvraag.</p> <p>Wijs het bestand toe dat u vanuit de vorige module wilt uploaden (bijvoorbeeld [!UICONTROL HTTP] &gt; [!UICONTROL Get a File] of [!UICONTROL Google Drive] &gt; Een bestand downloaden) of voer de bestandsnaam en de bestandsgegevens handmatig in.</p> </li> 
@@ -178,7 +178,7 @@ Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make a request] configureert
 
 **Voorbeeld:** Dit voorbeeld toont hoe te opstelling de module om een [!UICONTROL POST] verzoek met nuttige lading voor te leggen JSON:
 
-![ maak een verzoekvoorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/make-a-request-example-350x522.png)
+![&#x200B; maak een verzoekvoorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/make-a-request-example-350x522.png)
 
 We raden u niet aan JSON-stukjes te mengen met expressies en items rechtstreeks in het veld [!UICONTROL Request content] , omdat dit kan leiden tot een ongeldige JSON.
 

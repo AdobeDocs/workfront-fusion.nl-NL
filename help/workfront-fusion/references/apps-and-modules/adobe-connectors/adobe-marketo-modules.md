@@ -17,11 +17,11 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL 
 
 Ga voor een video-introductie over de Marketo-connector naar:
 
-* [ Marketo ](https://video.tv.adobe.com/v/3427026/){target=_blank}
+* [&#x200B; Marketo &#x200B;](https://video.tv.adobe.com/v/3427026/){target=_blank}
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -55,9 +55,9 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -138,9 +138,9 @@ U kunt rechtstreeks vanuit een [!DNL Marketo] -module verbinding maken met uw [!
 
 Wanneer u [!DNL Marketo] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Marketo] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -187,8 +187,8 @@ Deze triggermodule start een scenario wanneer een record wordt gemaakt of bijgew
    <td> <p>Selecteer het type record dat u wilt maken.</p> 
     <ul> 
      <li> <p><strong>[!UICONTROL Activity]</strong> </p> <p>Selecteer het type activiteit dat u wilt controleren. </p> <p>De module kijkt slechts voor nieuwe activiteiten.<br></p> </li> 
-     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Op het <b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. </b> Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
-     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Op het <b> gebied van het Type van Gebeurtenis 0} {, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.</b></p> </li> 
+     <li> <p><strong>[!UICONTROL Lead]</strong> </p> <p>Op het <b> gebied van het Type van Gebeurtenis 0&rbrace; &lbrace;, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, zowel nieuwe als bijgewerkte verslagen, of specifieke gebiedsupdates wilt letten. </b> Als u bepaalde veldupdates wilt bekijken, selecteert u het veld dat de module moet controleren.</p> </li> 
+     <li> <p><strong>[!UICONTROL Program]</strong> </p> <p>Op het <b> gebied van het Type van Gebeurtenis 0&rbrace; &lbrace;, selecteer of u voor nieuwe verslagen, bijgewerkte verslagen, of zowel nieuwe als bijgewerkte verslagen wilt letten.</b></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -404,7 +404,7 @@ Deze actiemodule leest informatie over een verslag door zijn identiteitskaart te
    <td>Selecteer de informatie die u in de uitvoerbundel voor deze module wilt opnemen. De velden zijn beschikbaar op basis van de geselecteerde [!UICONTROL Record Type] .</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL <Object> ID]</td> 
+   <td role="rowheader">[!UICONTROL &lt;Object> ID]</td> 
    <td>Voer de id in of wijs deze toe aan het object waarover u informatie wilt ophalen.</td> 
   </tr> 
  </tbody> 

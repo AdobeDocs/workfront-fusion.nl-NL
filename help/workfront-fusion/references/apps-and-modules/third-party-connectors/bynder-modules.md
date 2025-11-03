@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Bynder] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -51,9 +51,9 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -97,7 +97,7 @@ U kunt vanuit Workfront Fusion rechtstreeks vanuit een [!DNL Bynder] -module ver
 1. Selecteer het [!DNL Bynder] -domein waarmee u verbinding wilt maken.
 1. (Optioneel) Klik op **[!UICONTROL Advanced settings]** en voer vervolgens de [!UICONTROL Client ID] en [!UICONTROL Client Secret] in.
 
-   Voor instructies bij het produceren van identiteitskaart van de Cliënt en Geheime cliënt, zie [ een identiteitskaart van de Cliënt en Geheime cliënt binnen  [!DNL Bynder]  (Facultatief) ](#generate-a-client-id-and-client-secret-in-bynder-optional) in dit artikel produceren.
+   Voor instructies bij het produceren van identiteitskaart van de Cliënt en Geheime cliënt, zie [&#x200B; een identiteitskaart van de Cliënt en Geheime cliënt binnen  [!DNL Bynder]  (Facultatief) &#x200B;](#generate-a-client-id-and-client-secret-in-bynder-optional) in dit artikel produceren.
 
 1. Voer in het venster [!UICONTROL login] uw gebruikersnaam (e-mailadres) en wachtwoord in.
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
@@ -106,7 +106,7 @@ U kunt vanuit Workfront Fusion rechtstreeks vanuit een [!DNL Bynder] -module ver
 
 Als u een verbinding wilt maken met de client-id en het clientgeheim, kunt u deze genereren via uw [!DNL Bynder] -account. De client-id en het clientgeheim worden gegenereerd wanneer u een app maakt in [!DNL Bynder] .
 
-Voor instructies voor het creëren van een app in [!DNL Bynder], zie [ Oauth 2.0 Apps ](https://developer-docs.bynder.com/api/authentication-oauth2-oauth-apps/) in de [!DNL Bynder] documentatie.
+Voor instructies voor het creëren van een app in [!DNL Bynder], zie [&#x200B; Oauth 2.0 Apps &#x200B;](https://developer-docs.bynder.com/api/authentication-oauth2-oauth-apps/) in de [!DNL Bynder] documentatie.
 
 >[!NOTE]
 >
@@ -121,9 +121,9 @@ Voor instructies voor het creëren van een app in [!DNL Bynder], zie [ Oauth 2.0
 
 Wanneer u [!DNL Bynder] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Bynder] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Handelingen](#actions)
 * [Zoekopdrachten](#searches)

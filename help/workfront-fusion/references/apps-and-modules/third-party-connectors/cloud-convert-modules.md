@@ -47,9 +47,9 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebrui
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -87,7 +87,7 @@ Als u uw [!DNL CloudConvert] -account wilt verbinden met Workfront Fusion, moet 
 1. Kopieer het meegeleverde token en sla het op een veilige plaats op.
 1. Maak in Workfront Fusion een scenario en open het dialoogvenster [!DNL CloudConvert] van de module **[!UICONTROL Create a connection]** .
 
-   Voor instructies, zie [ een scenario in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md) creëren.
+   Voor instructies, zie [&#x200B; een scenario in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md) creëren.
 
 1. Voer het token in dat u in stap 5 hebt opgeslagen en klik op **[!UICONTROL Continue]** om de verbinding tot stand te brengen.
 
@@ -95,21 +95,21 @@ Als u uw [!DNL CloudConvert] -account wilt verbinden met Workfront Fusion, moet 
 
 Wanneer u [!DNL CloudConvert] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL CloudConvert] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [ Gemeenschappelijke taken ](#common-tasks)
-* [ Banen ](#jobs)
-* [ Taken ](#tasks)
+* [&#x200B; Gemeenschappelijke taken &#x200B;](#common-tasks)
+* [&#x200B; Banen &#x200B;](#jobs)
+* [&#x200B; Taken &#x200B;](#tasks)
 * [Overige](#other)
 
 ### Algemene taken
 
-* [ Vang een Website ](#capture-a-website)
+* [&#x200B; Vang een Website &#x200B;](#capture-a-website)
 * [[!UICONTROL Convert a file]](#convert-a-file)
-* [ creeer een Archief ](#create-an-archive)
-* [ de Dossiers van de Fusie ](#merge-files)
+* [&#x200B; creeer een Archief &#x200B;](#create-an-archive)
+* [&#x200B; de Dossiers van de Fusie &#x200B;](#merge-files)
 * [Een bestand optimaliseren](#optimize-a-file)
 
 #### [!UICONTROL Capture a Website]
@@ -548,7 +548,7 @@ Triggers worden geactiveerd wanneer een taak in uw account of taak wordt gemaakt
 >* Als u met de Arrayaggregator werkt (u hebt bijvoorbeeld veel bestanden in verschillende indelingen die moeten worden omgezet), gebruikt u de optie **[!UICONTROL I don't know the input format]** in het dialoogvenster [!UICONTROL Add a task] . Anders wordt de fout geretourneerd.
 >* Taken in de taak koppelen (naam > invoer, naam > invoer,...):
 >
->  ![ het Verbinden naam over banen ](/help/workfront-fusion/references/apps-and-modules/assets/linking-name-across-jobs-350x808.png)>
+>  ![&#x200B; het Verbinden naam over banen &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/linking-name-across-jobs-350x808.png)>
 
 ### Taken
 
@@ -752,13 +752,13 @@ URL: `/v2/tasks`
 
 Methode: `GET`
 
-![ API voorbeeldinput ](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-input.png)
+![&#x200B; API voorbeeldinput &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-input.png)
 
 Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL data] .
 
 In ons voorbeeld werden 6 taken geretourneerd:
 
-![ API voorbeeldoutput ](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-output.png)
+![&#x200B; API voorbeeldoutput &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-api-example-output.png)
 
 ## Problemen oplossen {#troubleshooting}
 
@@ -803,7 +803,7 @@ Zie de volgende tabel voor mogelijke fouten en de bijbehorende oplossingen:
 >
 >**Voorbeeld:** Converterend een video van MOV in formaat MP4
 >
->1. Bezoek [ https://cloudconvert.com/video-converter](https://>cloudconvert.com/video-converter)
+>1. Bezoek [&#x200B; https://cloudconvert.com/video-converter](https://>cloudconvert.com/video-converter)
 >1. Klik op **[!UICONTROL Select File]** en kies het MOV-voorbeeldbestand.
 >1. Klik op de vervolgkeuzelijst naast **[!UICONTROL Convert to]** en kies **[!UICONTROL MP4]** .
 >
@@ -813,7 +813,7 @@ Zie de volgende tabel voor mogelijke fouten en de bijbehorende oplossingen:
 >1. Klik op **[!UICONTROL Download]** als de conversie is voltooid.
 >1. Controleer de omgezette video.
 >1. Herhaal stap 1 tot en met 8 totdat u de optimale conversie-instellingen voor stap 5 hebt gevonden.
->1. Bezoek [ https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
+>1. Bezoek [&#x200B; https://cloudconvert.com/api/v2/convert#convert-tasks](https://cloudconvert.com/api/v2/convert#convert-tasks)
 >1. Kies **[!UICONTROL mov]** voor het veld **[!UICONTROL input_format]** .
 >
 >1. Kies **[!UICONTROL mp4]** voor het veld **[!UICONTROL output_format]** .
@@ -824,6 +824,6 @@ Zie de volgende tabel voor mogelijke fouten en de bijbehorende oplossingen:
 >1. Open de instellingen van de module.
 >1. Configureer de module zoals hieronder wordt weergegeven:
 >
->   ![ CloudConvert voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-mp4-example.png)
+>   ![&#x200B; CloudConvert voorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/cloudconvert-mp4-example.png)
 >
 >1. Zorg ervoor dat u alle instellingen opneemt in het veld Conversie en motorspecifieke opties: zoek voor elke instelling in stap 5 de corresponderende parameter uit stap 13 en de bijbehorende waarde.

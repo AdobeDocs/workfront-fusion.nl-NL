@@ -47,15 +47,15 @@ U kunt Adobe Workfront Fusion gebruiken om verbinding te maken met [!UICONTROL M
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
 ## De [!DNL Microsoft SQL Server] -service verbinden met Workfront Fusion
 
-Voor instructies over het aansluiten van uw [!DNL Microsoft SQL Server] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Microsoft SQL Server] rekening aan [!UICONTROL Workfront Fusion], zie [&#x200B; een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ U kunt uw aangepaste logica rechtstreeks op uw databaseserver uitvoeren via opge
 
 Wanneer [!DNL Fusion] de verbinding met de [!DNL SQL server] bestemming vestigt, identificeert de [!DNL Fusion] gebruiker de Gastheer (de domeinnaam of het IP-adres waar de server wordt gehost) en de poort. [!DNL Fusion] kan verbinding maken met elke beschikbare host en poort.
 
-Voor informatie over specifieke IP adressen die door de Fusie van Workfront worden gebruikt, zie [ IP Adressen voor de toegang tot van de Fusie van Adobe Workfront ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)
+Voor informatie over specifieke IP adressen die door de Fusie van Workfront worden gebruikt, zie [&#x200B; IP Adressen voor de toegang tot van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-up-ip-addresses-for-fusion.md)
 
 Raadpleeg de documentatie van [!DNL Microsoft SQL Server] voor meer informatie over het maken van een opgeslagen procedure.
 
@@ -89,6 +89,6 @@ Als een andere module probeert om tot de zelfde gegevens toegang te hebben, moet
 
 Schakel Automatisch vastleggen in. Automatisch vastleggen voltooit (legt) elke transactie direct nadat de module is uitgevoerd.
 
-1. Klik het [!UICONTROL Scenario settings] pictogram van de de montagespictogram van het pictogram ![ Scenario ](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png) bij de bodem van het scherm.
+1. Klik het [!UICONTROL Scenario settings] pictogram van de de montagespictogram van het pictogram ![&#x200B; Scenario &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/scenario-settings-icon.png) bij de bodem van het scherm.
 1. Klik op het selectievakje **[!UICONTROL Auto commit]** .
 1. Klik op **[!UICONTROL OK]** om de scenario-instellingen op te slaan.

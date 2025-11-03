@@ -17,9 +17,9 @@ Met de Adobe Workfront Fusion [!DNL Google Forms] -modules kunt u reacties op uw
 
 Als u [!DNL Google Docs] wilt gebruiken met Adobe Workfront Fusion, hebt u een [!DNL Google] -account nodig. Als u nog geen [!DNL Google] -account hebt, kunt u er een maken op de pagina [!DNL Google] Account Help.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -53,9 +53,9 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -84,7 +84,7 @@ Als u met reacties op formulieren wilt werken, moet u eerst het werkblad met rea
 
 1. Open het formulier.
 1. Ga naar het tabblad **[!UICONTROL Responses]**.
-1. Klik het **[!UICONTROL Create Spreadsheet]** pictogram ![ pictogram van de Spreadsheet ](/help/workfront-fusion/references/apps-and-modules/assets/spreadsheet-icon.png).
+1. Klik het **[!UICONTROL Create Spreadsheet]** pictogram ![&#x200B; pictogram van de Spreadsheet &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/spreadsheet-icon.png).
 
 1. Selecteer of u een nieuw spreadsheet of een bestaand spreadsheet wilt creëren
 1. Klik op **[!UICONTROL Create]**.
@@ -93,9 +93,9 @@ Als u met reacties op formulieren wilt werken, moet u eerst het werkblad met rea
 
 Wanneer u [!DNL Google Forms] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Forms] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -328,7 +328,7 @@ Deze module retourneert antwoorden die voldoen aan de opgegeven criteria.
 
 #### [!UICONTROL Search Responses (Advanced)]
 
-Deze module voert een onderzoek uit gebruikend [[!DNL Google Charts Query Language] ](https://developers.google.com/chart/interactive/docs/querylanguage). Deze module retourneert geen rijnummer.
+Deze module voert een onderzoek uit gebruikend [[!DNL Google Charts Query Language] &#x200B;](https://developers.google.com/chart/interactive/docs/querylanguage). Deze module retourneert geen rijnummer.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

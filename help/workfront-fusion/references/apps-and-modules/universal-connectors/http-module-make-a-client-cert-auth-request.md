@@ -23,7 +23,7 @@ Met deze Adobe Workfront Fusion-module kunt u een HTTP-aanvraag configureren met
 >
 >Als u verbinding maakt met een Adobe-product dat momenteel geen speciale aansluiting heeft, raden we u aan de Adobe Authenticator-module te gebruiken.
 >
->Voor meer informatie, zie [ module van Adobe Authenticator ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
+>Voor meer informatie, zie [&#x200B; module van Adobe Authenticator &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md).
 
 ## Toegangsvereisten
 
@@ -57,9 +57,9 @@ Met deze Adobe Workfront Fusion-module kunt u een HTTP-aanvraag configureren met
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -67,9 +67,9 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 Wanneer u de module [!UICONTROL HTTP] > [!UICONTROL Make a Client Certificate Authorization request] configureert, geeft Adobe Workfront Fusion de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 <table style="table-layout:auto"> 
  <col> 

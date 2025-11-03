@@ -47,9 +47,9 @@ Met de [!DNL Adobe Workfront Fusion AWS] S3-modules kunt u bewerkingen op uw S3-
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -67,7 +67,7 @@ De AWS S3-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://s3.{{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.&lbrace;{{parameters.region}}.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 
@@ -99,9 +99,9 @@ De verbinding is tot stand gebracht. U kunt doorgaan met het instellen van de mo
 
 Wanneer u [!DNL AWS S3] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL AWS S3] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Handelingen](#actions)
 * [Zoekopdrachten](#searches)
@@ -167,7 +167,7 @@ Deze actiemodule downloadt een bestand van een emmertje.
 
 Deze actiemodule maakt een aangepaste aanroep naar de AWS S3 API.
 
-Zie [!DNL Amazon S3] API-introductie [[!DNL Amazon S3] [!UICONTROL REST] voor een gedetailleerde beschrijving van de ](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html) API.
+Zie [!DNL Amazon S3] API-introductie [[!DNL Amazon S3] [!UICONTROL REST] voor een gedetailleerde beschrijving van de &#x200B;](https://docs.aws.amazon.com/AmazonS3/latest/API/Welcome.html) API.
 
 <table style="table-layout:auto">
  <col> 

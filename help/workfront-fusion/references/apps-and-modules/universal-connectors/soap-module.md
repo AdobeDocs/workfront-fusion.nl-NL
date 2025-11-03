@@ -57,9 +57,9 @@ Deze actiemodule voert de opgegeven SOAP-handeling uit.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -67,9 +67,9 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de 
 
 Wanneer u SOAP-modules configureert, geeft Workfront Fusion de onderstaande velden weer.  Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### SOAP uitvoeren, actie
 
@@ -180,7 +180,7 @@ Als de module [!UICONTROL SOAP] weigert het WSDL-bestand te verwerken of verschi
    <!--![Service](/help/workfront-fusion/references/apps-and-modules/assets/service-350x65.png)-->
 
 1. Kopieer de URL van het kenmerk `location` wanneer u deze hebt gevonden.
-1. In de Fusie van Workfront, kleef URL in het de inhoudsgebied van het Verzoek van de module van HTTP **** gebied.
+1. In de Fusie van Workfront, kleef URL in het de inhoudsgebied van het Verzoek van de module van HTTP **&#x200B;**&#x200B;gebied.
 1. Geef waarden op voor de geselecteerde parameters door de vraagtekens te vervangen door werkelijke waarden.
 
    >[!NOTE]

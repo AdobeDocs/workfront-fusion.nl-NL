@@ -17,11 +17,11 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL 
 
 Ga voor een video-introductie over de Salesforce-connector naar:
 
-* [ Salesforce ](https://video.tv.adobe.com/v/3427027/){target=_blank}
+* [&#x200B; Salesforce &#x200B;](https://video.tv.adobe.com/v/3427027/){target=_blank}
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 >[!NOTE]
 >
@@ -61,9 +61,9 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -81,7 +81,7 @@ De Salesforce-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td> {{connection.instanceUrl}</td>
+   <td> &lbrace;{connection.instanceUrl}</td>
   </tr> 
   <tr> 
    <td role="rowheader">API-versie</td> 
@@ -160,8 +160,8 @@ Verbinding maken voor uw [!DNL Salesforce] -modules:
 
 ## [!DNL Salesforce] modules en hun velden
 
-* [ Trekkers ](#triggers)
-* [ Acties ](#actions)
+* [&#x200B; Trekkers &#x200B;](#triggers)
+* [&#x200B; Acties &#x200B;](#actions)
 * [Zoekopdrachten](#searches)
 
 ### Triggers
@@ -184,7 +184,7 @@ Deze triggermodule start een scenario wanneer een veld wordt bijgewerkt in [!DNL
   </tr> 
   <tr> 
    <td>[!UICONTROL Record Type] </td> 
-   <td> <p>Selecteer het type record dat het veld bevat waarop de module moet letten. Kies een recordtype waarvoor [!UICONTROL Field History] is ingeschakeld in [!DNL Salesforce] . Voor meer informatie, zie <a href="https://help.salesforce.com/s/articleView?id=xcloud.tracking_field_history.htm&amp;type=5"> het Volgen van de Geschiedenis van het Gebied </a> in de [!DNL Salesforce] documentatie. </p> </td> 
+   <td> <p>Selecteer het type record dat het veld bevat waarop de module moet letten. Kies een recordtype waarvoor [!UICONTROL Field History] is ingeschakeld in [!DNL Salesforce] . Voor meer informatie, zie <a href="https://help.salesforce.com/s/articleView?id=xcloud.tracking_field_history.htm&type=5"> het Volgen van de Geschiedenis van het Gebied </a> in de [!DNL Salesforce] documentatie. </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Field]</td> 
@@ -236,8 +236,8 @@ Deze trekkermodule voert een scenario uit wanneer iemand een bericht verzendt. D
 
 Voor deze module is extra installatie vereist. Er moet een Stroom zijn die voor uitgaande berichten wordt gevormd.
 
-* Voor instructies op Stromen in Salesforce, zie [ Taken met Stromen ](https://help.salesforce.com/s/articleView?id=platform.flow.htm) in de documentatie van Salesforce automatiseren.
-* Voor informatie bij het vormen van een uitgaand bericht in Salesforce, zie [ een Uitgaand Bericht van Uw Verslag-teweeggebrachte Stroom ](https://help.salesforce.com/s/articleView?id=release-notes.rn_automate_flow_builder_outbound_message.htm) in de documentatie van Salesforce verzenden
+* Voor instructies op Stromen in Salesforce, zie [&#x200B; Taken met Stromen &#x200B;](https://help.salesforce.com/s/articleView?id=platform.flow.htm) in de documentatie van Salesforce automatiseren.
+* Voor informatie bij het vormen van een uitgaand bericht in Salesforce, zie [&#x200B; een Uitgaand Bericht van Uw Verslag-teweeggebrachte Stroom &#x200B;](https://help.salesforce.com/s/articleView?id=release-notes.rn_automate_flow_builder_outbound_message.htm) in de documentatie van Salesforce verzenden
 
 <!--
 
@@ -392,7 +392,7 @@ Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module on
 
 In ons voorbeeld werden 6 gebruikers geretourneerd:
 
-![ Gelijken voor het onderzoek ](/help/workfront-fusion/references/apps-and-modules/assets/matches-of-the-search-350x573.png)
+![&#x200B; Gelijken voor het onderzoek &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/matches-of-the-search-350x573.png)
 
 >[!ENDSHADEBOX]
 
@@ -572,7 +572,7 @@ Deze actiemodule uploadt één bestand naar Salesforce.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
@@ -612,7 +612,7 @@ Deze actiemodule wint alle verslagen terug die aan een bepaalde criteria voldoen
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL  Adobe Workfront Fusion] - Basisinstructies </a></td> 
+   <td>Voor instructies over het aansluiten van uw [!DNL Salesforce] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding tot stand brengen [!DNL &#x200B; Adobe Workfront Fusion] - Basisinstructies </a></td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Type]</td> 

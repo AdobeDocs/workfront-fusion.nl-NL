@@ -42,7 +42,7 @@ Deze modules vereisen enige vertrouwdheid met encryptieprocessen.
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -52,9 +52,9 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 Wanneer het coderen en het decrypteren via PGP, is het noodzakelijk om keychain te gebruiken en een privé of openbare sleutel (of allebei) tot stand te brengen.
 
-Voor meer informatie over openbare en privé sleutels, zie [ Verklarende woordenlijst van de Fusie van Adobe Workfront ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/fusion-glossary.md).
+Voor meer informatie over openbare en privé sleutels, zie [&#x200B; Verklarende woordenlijst van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/fusion-glossary.md).
 
-Voor meer informatie over sleutels, zie [ Sleutels ](/help/workfront-fusion/references/modules/keys.md).
+Voor meer informatie over sleutels, zie [&#x200B; Sleutels &#x200B;](/help/workfront-fusion/references/modules/keys.md).
 
 ## [!UICONTROL Encryptor] modules en hun velden
 

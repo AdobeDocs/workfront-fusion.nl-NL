@@ -47,9 +47,9 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICO
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -82,7 +82,7 @@ De Microsoft Office 365 E-mailconnector gebruikt het volgende:
 
 ## De [!DNL Office 365 Email] -service verbinden met Workfront Fusion
 
-Voor instructies over het aansluiten van uw [!DNL Office 365 Email] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Office 365 Email] rekening aan [!UICONTROL Workfront Fusion], zie [&#x200B; een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -94,9 +94,9 @@ Voor instructies over het aansluiten van uw [!DNL Office 365 Email] rekening aan
 
 Wanneer u [!DNL Microsoft Office 365 Email] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Microsoft Office 365 Email] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Bericht](#message)
 * [Conceptbericht](#draft-message)
@@ -280,7 +280,7 @@ Deze zoekmodule zoekt naar berichten op basis van specifieke criteria.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
+   <td>Voer uw zoekopdracht in. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&rs=en-us&ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Order by]</td> 
@@ -326,7 +326,7 @@ Deze triggermodule start een scenario wanneer een nieuw e-mailbericht wordt verz
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Search]</td> 
-   <td>Voer uw zoekopdracht in. De module keert berichten terug die deze vraag aanpassen. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&amp;rs=en-us&amp;ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
+   <td>Voer uw zoekopdracht in. De module keert berichten terug die deze vraag aanpassen. Voor informatie over hoe te om een onderzoeksvraag te schrijven, zie het [!DNL Microsoft] steunartikel <a href="https://support.microsoft.com/en-us/office/search-mail-and-people-in-outlook-com-88108edf-028e-4306-b87e-7400bbb40aa7?ui=en-us&rs=en-us&ad=us"> Post van het Onderzoek en Mensen in [!DNL Outlook.com]</a>.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit] </td> 

@@ -40,7 +40,7 @@ Wanneer u een scenario creeert of uitgeeft, kunt u montages vormen om de manier 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -70,7 +70,7 @@ Met een module [!UICONTROL Repeater] kunt u een taak een bepaald aantal keren he
 
 Bijvoorbeeld, kon u een [!UICONTROL Repeater] module gebruiken om vijf e-mails met de onderwerpen &quot;Hello 1,&quot;Hello 2,&quot;te verzenden, etc., door de **[!UICONTROL Email]>[!UICONTROL Send me an email]** module aan de [!UICONTROL Repeater] module aan te sluiten.
 
-1. Klik het [!UICONTROL Flow Control] pictogram van de de controlepictogram van de Stroom ![ ](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif) bij de bodem van het scherm, dan klik **[!UICONTROL Repeater]** in het menu dat toont.
+1. Klik het [!UICONTROL Flow Control] pictogram van de de controlepictogram van de Stroom ![&#x200B; &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/flow-control-icon.gif) bij de bodem van het scherm, dan klik **[!UICONTROL Repeater]** in het menu dat toont.
 1. Klik op de module [!UICONTROL Repeater] en klik vervolgens op **[!UICONTROL Connect automatically]** in het vak dat wordt weergegeven.
 
    De module Repeater wordt geopend.
@@ -79,7 +79,7 @@ Bijvoorbeeld, kon u een [!UICONTROL Repeater] module gebruiken om vijf e-mails m
 
    In dit voorbeeld voert u 5 in.
 
-   ![ Repeater ](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
+   ![&#x200B; Repeater &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/repeater-2-350x207.png)
 
    De waarde van het item neemt in elke herhaling toe met de waarde die is opgegeven in het veld **[!UICONTROL Step]** . U kunt deze waarde weergeven door **[!UICONTROL Show advanced settings]** te selecteren. Dit getal is standaard 1.
 
@@ -90,7 +90,7 @@ Bijvoorbeeld, kon u een [!UICONTROL Repeater] module gebruiken om vijf e-mails m
 
    In ons e-mailvoorbeeld typt u Hello in het vak [!UICONTROL Subject] en wijst u vervolgens `i` toe vanuit de herhalingsmodule.
 
-   ![ Repeater ](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
+   ![&#x200B; Repeater &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/repeater-3-350x207.png)
 
 
 
@@ -106,15 +106,15 @@ Een [!UICONTROL Iterator] is een speciaal type module dat een array omzet in een
 
 ## Arrayaggregator
 
-Een arrayaggregator is een speciaal type module waarmee u verschillende bundels kunt samenvoegen tot één bundel. Voor meer informatie, zie [ de module van de Samenvoegaar ](/help/workfront-fusion/references/modules/aggregator-module.md).
+Een arrayaggregator is een speciaal type module waarmee u verschillende bundels kunt samenvoegen tot één bundel. Voor meer informatie, zie [&#x200B; de module van de Samenvoegaar &#x200B;](/help/workfront-fusion/references/modules/aggregator-module.md).
 
 ## [!UICONTROL Router]
 
-De [!UICONTROL Router] module staat u toe om uw stroom in verscheidene routes te vertakken en de gegevens binnen elke route verschillend te verwerken. Zodra een [!UICONTROL Router] module een bundel ontvangt, door:sturen het aan elke verbonden route in de orde de routes aan de [!UICONTROL Router] module in bijlage waren. Voor meer informatie, zie [ module van de Router in de Fusie van Adobe Workfront ](/help/workfront-fusion/create-scenarios/add-modules/router-module.md).
+De [!UICONTROL Router] module staat u toe om uw stroom in verscheidene routes te vertakken en de gegevens binnen elke route verschillend te verwerken. Zodra een [!UICONTROL Router] module een bundel ontvangt, door:sturen het aan elke verbonden route in de orde de routes aan de [!UICONTROL Router] module in bijlage waren. Voor meer informatie, zie [&#x200B; module van de Router in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/router-module.md).
 
 ## Richtlijnen
 
 Met de instructies voor foutafhandeling kunt u bepalen hoe het scenario reageert op fouten.
 
-Voor informatie over fout behandelende richtlijnen, zie [ Richtlijnen voor fout behandeling ](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
+Voor informatie over fout behandelende richtlijnen, zie [&#x200B; Richtlijnen voor fout behandeling &#x200B;](/help/workfront-fusion/references/errors/directives-for-error-handling.md).
 

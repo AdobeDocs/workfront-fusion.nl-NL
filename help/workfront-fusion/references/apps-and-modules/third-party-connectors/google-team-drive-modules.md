@@ -15,13 +15,13 @@ ht-degree: 0%
 
 Met de Adobe Workfront Fusion [!DNL Google Team Drive] -modules kunt u bestanden controleren, uploaden, bijwerken, kopiëren, verwijderen of ophalen en mappen maken in uw [!DNL Google Shared Drive] .
 
-Als u [!DNL Google Team Drive] wilt gebruiken met Adobe Workfront Fusion, hebt u een [!DNL Google Workspace] -account nodig. Als u geen hebt, kunt u a [!DNL Google Workspace] rekening bij [[!DNL Google Workspace]  creëren onderteken omhoog plaats ](https://workspace.google.com/business/signup/welcome).
+Als u [!DNL Google Team Drive] wilt gebruiken met Adobe Workfront Fusion, hebt u een [!DNL Google Workspace] -account nodig. Als u geen hebt, kunt u a [!DNL Google Workspace] rekening bij [[!DNL Google Workspace]  creëren onderteken omhoog plaats &#x200B;](https://workspace.google.com/business/signup/welcome).
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Google Team Drive] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -55,9 +55,9 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -71,9 +71,9 @@ Wanneer u [!DNL Google Team Drive] modules configureert, geeft Workfront Fusion 
 
 De gebieden van de moduledialoog die in **gewaagd** (in het scenario van de Fusie van Workfront, **niet** in dit documentatieartikel) worden getoond zijn verplicht.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### Triggers
 
@@ -347,7 +347,7 @@ Hiermee haalt u op basis van de zoekterm de gegevens van de bestanden en/of mapp
     <ul> 
      <li style="font-weight: bold;"> <p>[!UICONTROL Search within file names]</p> <p style="font-weight: normal;">Voer de bestandsnaam (inclusief de bestandsextensie) in wanneer de optie [!UICONTROL Search for exact term Search] is geselecteerd of voer het deel van de naam in wanneer de optie [!UICONTROL Search for names containing the searched term] is geselecteerd.</p> </li> 
      <li> <p style="font-weight: bold;">[!UICONTROL Fulltext search]</p> <p>Voer de zoekterm in om de bestandsnamen, beschrijvingen en inhoud te doorzoeken.</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Custom search query]</p> <p>Voer de zoekqueryterm [!DNL Google] in. Voor meer details gelieve te verwijzen naar [!DNL Google] de Documentatie van de Vraag van het Onderzoek van 0} <a href="https://developers.google.com/drive/api/v2/ref-search-terms">. </a> Voorbeeld: <code>fullText contains '"Hello world"'</code></p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Custom search query]</p> <p>Voer de zoekqueryterm [!DNL Google] in. Voor meer details gelieve te verwijzen naar [!DNL Google] de Documentatie van de Vraag van het Onderzoek van 0&rbrace; <a href="https://developers.google.com/drive/api/v2/ref-search-terms">. </a> Voorbeeld: <code>fullText contains '"Hello world"'</code></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 

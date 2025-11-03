@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Azure DevOps] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -51,9 +51,9 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -122,9 +122,9 @@ De Azure DevOps-connector gebruikt het volgende:
 
 Wanneer u [!DNL Azure DevOps] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Azure DevOps] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -185,7 +185,7 @@ De module geeft de object-id weer voor het nieuwe werkitem of de URL en statusco
        <li> <p><strong>[!UICONTROL Description]</strong>: Voer een beschrijving voor het nieuwe project in of wijs deze toe. </p> </li> 
        <li> <p><strong>[!UICONTROL Visibility]</strong>: Selecteer of u wilt dat uw project openbaar of privé is. De gebruikers moeten in uw organisatie worden ondertekend en moeten toegang tot het project hebben verleend om met een privé project in wisselwerking te staan. De openbare projecten zijn zichtbaar aan gebruikers die niet binnen aan uw organisatie worden ondertekend.</p> </li> 
        <li> <p><strong>[!UICONTROL Version control]</strong>: Selecteer of u het project [!DNL Git] of [!UICONTROL Team Foundation Version Control (TFCV)] wilt gebruiken voor versiebeheer.</p> </li> 
-       <li> <p><strong>[!UICONTROL Work item process]</strong>: Selecteer het werkproces dat u voor het project wilt gebruiken. De opties zijn [!UICONTROL Basic] , [!UICONTROL Scrum] , [!UICONTROL Capability Maturity Model Integration (CMMI)] en [!UICONTROL Agile] .</p> <p>Voor meer informatie over [!DNL Azure DevOps] processen, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&amp;tabs=basic-process"> Standaardprocessen en procesmalplaatjes </a> in de [!DNL Azure DevOps] Documentatie.</p> </li> 
+       <li> <p><strong>[!UICONTROL Work item process]</strong>: Selecteer het werkproces dat u voor het project wilt gebruiken. De opties zijn [!UICONTROL Basic] , [!UICONTROL Scrum] , [!UICONTROL Capability Maturity Model Integration (CMMI)] en [!UICONTROL Agile] .</p> <p>Voor meer informatie over [!DNL Azure DevOps] processen, zie <a href="https://docs.microsoft.com/en-us/azure/devops/boards/work-items/guidance/choose-process?view=azure-devops&tabs=basic-process"> Standaardprocessen en procesmalplaatjes </a> in de [!DNL Azure DevOps] Documentatie.</p> </li> 
       </ul> </li> 
      <li> <p><strong>[!UICONTROL Work item]</strong> </p> <p>Vul de volgende velden in:</p> 
       <ul> 

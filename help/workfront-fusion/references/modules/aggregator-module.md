@@ -40,7 +40,7 @@ Een aggregatormodule is een module die verschillende bundels gegevens samenvoegt
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++Overzicht van de module ## [!UICONTROL Aggregator]
 
@@ -51,7 +51,7 @@ Wanneer een module [!UICONTROL Aggregator] wordt uitgevoerd, doet deze het volge
 
 In de volgende afbeelding ziet u een standaard instelling van de module [!UICONTROL Aggregator] :
 
-![ de aggregator van de Serie ](assets/array-aggregator.png)
+![&#x200B; de aggregator van de Serie &#x200B;](assets/array-aggregator.png)
 
 <table style="table-layout:auto">
  <col> 
@@ -96,7 +96,7 @@ In de volgende afbeelding ziet u een standaard instelling van de module [!UICONT
 
 In dit voorbeeldscenario wordt getoond hoe u alle e-mailbijlagen kunt comprimeren en de ZIP naar [!DNL Dropbox] kunt uploaden.
 
-![ het archiefvoorbeeld van Dropbox ](assets/dropbox-archive.png)
+![&#x200B; het archiefvoorbeeld van Dropbox &#x200B;](assets/dropbox-archive.png)
 
 In het onderstaande scenario wordt getoond hoe u:
 
@@ -112,4 +112,4 @@ In het onderstaande scenario wordt getoond hoe u:
 
 Hieronder ziet u een voorbeeldinstelling van de aggregator [!UICONTROL Archive] > [!UICONTROL Create an archive] :
 
-![ creeer een archief ](assets/archive-create-an-archive.png)
+![&#x200B; creeer een archief &#x200B;](assets/archive-create-an-archive.png)
