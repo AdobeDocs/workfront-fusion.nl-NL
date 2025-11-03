@@ -4,9 +4,9 @@ description: Om  [!DNL Google Sheets]  met de Fusie van Adobe Workfront te gebru
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 80965570-2937-4ac8-97c0-54f7a813ec50
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '3543'
+source-wordcount: '3549'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,11 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Google Sheets] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies over het aansluiten van uw [!DNL Google Sheets] rekening aan de Fusie van Workfront, zie [&#x200B; een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Google Sheets] rekening aan de Fusie van Workfront, zie [ een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -29,34 +27,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -91,9 +86,9 @@ De Google Sheets-connector gebruikt het volgende:
 
 Wanneer u [!DNL Google Forms] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Sheets] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### Triggers
 
@@ -174,9 +169,9 @@ Met deze module voegt u een rij toe aan een vel.
 
 Wanneer u [!DNL Google Sheets] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Sheets] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -722,7 +717,7 @@ Als de fout `429: RESOURCE_EXHAUSTED` optreedt, hebt u de limiet van de API-snel
 
 De [!DNL Google Sheets] API heeft een grens van 500 verzoeken per 100 seconden per project, en 100 verzoeken per 100 seconden per gebruiker. Limieten voor lezen en schrijven worden afzonderlijk bijgehouden. Er is geen dagelijkse gebruikslimiet.
 
-Zie meer details in [&#x200B; developers.google.com/sheets/api/limits &#x200B;](https://developers.google.com/sheets/api/limits).
+Zie meer details in [ developers.google.com/sheets/api/limits ](https://developers.google.com/sheets/api/limits).
 
 ## Tips en trucs
 
@@ -737,17 +732,17 @@ Als u lege cellen wilt ophalen, gebruikt u de module [!UICONTROL Search Rows (Ad
 select * where E is null
 ```
 
-Hier is &quot;E&quot;de kolom, en &quot;is ongeldig&quot;is de voorwaarde. U kunt een geavanceerdere query maken met de Google-querytaal. Voor meer informatie, zie [&#x200B; Google Vraag Lang &#x200B;](https://developers.google.com/chart/interactive/docs/querylanguage) in de documentatie van Google.
+Hier is &quot;E&quot;de kolom, en &quot;is ongeldig&quot;is de voorwaarde. U kunt een geavanceerdere query maken met de Google-querytaal. Voor meer informatie, zie [ Google Vraag Lang ](https://developers.google.com/chart/interactive/docs/querylanguage) in de documentatie van Google.
 
 ### Voeg een knoop in een blad toe om een scenario in werking te stellen
 
-1. Voeg in Workfront Fusion de module **[!UICONTROL Webhook]** > **[!UICONTROL Custom webhooks]** in het scenario in en configureer deze. Voor instructies, zie [&#x200B; Webhooks &#x200B;](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md).
+1. Voeg in Workfront Fusion de module **[!UICONTROL Webhook]** > **[!UICONTROL Custom webhooks]** in het scenario in en configureer deze. Voor instructies, zie [ Webhooks ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md).
 
 1. Kopieer de URL van de website.
 1. Voer het scenario uit.
 1. Kies in Google Sheets **[!UICONTROL Insert]** > **[!UICONTROL Drawing]** ... in de hoofdmenubalk.
 
-1. In het [!UICONTROL Drawing] venster, klik het **[!UICONTROL Text box]** pictogram ![&#x200B; vakje van de Tekst &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png) dichtbij de bovenkant van het venster.
+1. In het [!UICONTROL Drawing] venster, klik het **[!UICONTROL Text box]** pictogram ![ vakje van de Tekst ](/help/workfront-fusion/references/apps-and-modules/assets/text-box.png) dichtbij de bovenkant van het venster.
 1. Ontwerp een knop en klik op de knop **[!UICONTROL Save and Close]** in de rechterbovenhoek:
 1. De knop wordt in uw werkblad geplaatst. Klik op de drie verticale stippen in de rechterbovenhoek van de knop:
 1. Kies **[!UICONTROL Assign script..].** in het menu.
@@ -775,11 +770,11 @@ Hier is &quot;E&quot;de kolom, en &quot;is ongeldig&quot;is de voorwaarde. U kun
 
 Als u een Date-waarde opslaat in een spreadsheet zonder opmaak, wordt deze waarde in het spreadsheet weergegeven als tekst in de ISO 8601-indeling. [!DNL Google Sheets] -formules of -functies die werken met datums die deze tekst niet begrijpen (bijvoorbeeld: formule `=A1+10` ), geven echter de volgende fout weer:
 
-![&#x200B; Fout &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/mceclip6-350x87.png)
+![ Fout ](/help/workfront-fusion/references/apps-and-modules/assets/mceclip6-350x87.png)
 
 Als u [!DNL Google Sheets] wilt helpen de datum te begrijpen, maakt u deze op met de functie `formatDate` . De juiste indeling die als het tweede argument aan de functie wordt doorgegeven, is afhankelijk van de landinstellingen van het werkblad.
 
-Zie [[!UICONTROL formatDate] (date; format; [timezone]) &#x200B;](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md#formatdate-date-format-timezone) in de functies Datum en tijd van het artikel voor meer informatie over deze functie.
+Zie [[!UICONTROL formatDate] (date; format; [timezone]) ](/help/workfront-fusion/references/mapping-panel/functions/date-and-time-functions.md#formatdate-date-format-timezone) in de functies Datum en tijd van het artikel voor meer informatie over deze functie.
 
 U kunt als volgt de juiste indeling bepalen:
 
@@ -787,7 +782,7 @@ U kunt als volgt de juiste indeling bepalen:
 
 1. Nadat u hebt gecontroleerd of de juiste landinstelling hebt ingesteld, bepaalt u de corresponderende datum- en tijdnotatie door **[!UICONTROL Format]** > **[!UICONTROL Number]** in het hoofdmenu te kiezen. De notatie wordt weergegeven naast de menuoptie Datum en tijd:
 
-1. Om het correcte formaat samen te stellen dat tot de [!UICONTROL formatDate()] functie zou moeten worden overgegaan, verwijs naar de lijst van [&#x200B; Tokens voor datum en tijd het formatteren &#x200B;](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md).
+1. Om het correcte formaat samen te stellen dat tot de [!UICONTROL formatDate()] functie zou moeten worden overgegaan, verwijs naar de lijst van [ Tokens voor datum en tijd het formatteren ](/help/workfront-fusion/references/mapping-panel/functions/tokens-for-date-and-time-formatting.md).
 
 >[!BEGINSHADEBOX]
 
@@ -795,13 +790,13 @@ U kunt als volgt de juiste indeling bepalen:
 
 Voor de `MM/DD/YYYY HH:mm:ss` -notatie (voor de landinstelling van de Verenigde Staten):
 
-![&#x200B; de tijdformule van de Landinstelling &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/locale-time-350x83.png)
+![ de tijdformule van de Landinstelling ](/help/workfront-fusion/references/apps-and-modules/assets/locale-time-350x83.png)
 
 >[!ENDSHADEBOX]
 
 ## [!DNL Google Sheets] -functies gebruiken
 
-Om een ingebouwde functie van Google Sheets te gebruiken, kunt u het exploiteren. Voor meer informatie, zie [&#x200B; functies van het 0&rbrace; Gebruik  [!DNL Google Sheets]  in het artikel Kaart een punt gebruikend functies.](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#use-google-sheets-functions)
+Om een ingebouwde functie van Google Sheets te gebruiken, kunt u het exploiteren. Voor meer informatie, zie [ functies van het 0} Gebruik  [!DNL Google Sheets]  in het artikel Kaart een punt gebruikend functies.](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md#use-google-sheets-functions)
 
 ## Voorkomen dat [!DNL Google Sheets] getallen wijzigt in datums
 

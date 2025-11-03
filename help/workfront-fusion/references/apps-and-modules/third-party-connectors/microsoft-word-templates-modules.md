@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: a5ba5634-226b-4886-a4f1-3a14948c1605
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '1259'
+source-wordcount: '1265'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Microsoft Word Templates] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -31,34 +29,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -70,7 +65,7 @@ Als u [!DNL Miscrosoft Word Templates] wilt gebruiken met Adobe Workfront Fusion
 
 ## De [!DNL Office] -service verbinden met Workfront Fusion
 
-Voor instructies over het aansluiten van uw [!DNL Office] rekening aan [!UICONTROL Workfront Fusion], zie [&#x200B; een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Office] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -84,18 +79,18 @@ Met een module [!DNL Microsoft Word Template] kunt u gegevens van meerdere webse
 
 U kunt bijvoorbeeld deze [!DNL Microsoft Word] -sjabloon gebruiken:
 
-![&#x200B; malplaatje van Word vóór &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)
+![ malplaatje van Word vóór ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-before-filled-350x62.png)
 
 Dit document maken:
 
-![&#x200B; Gevuld malplaatje van Word &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/word-template-exampled-filled-350x85.png)
+![ Gevuld malplaatje van Word ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-exampled-filled-350x85.png)
 
 ## Waardetags
 
 Een [!DNL Microsoft Word] -sjabloon is een regulier [!DNL Microsoft Word] -document (.docx-bestand) met speciale codes in de tekst die bepalen waar en hoe gegevens moeten worden samengevoegd of ingevuld. Er zijn drie typen tags:
 
-* [&#x200B; Eenvoudige waardetag &#x200B;](#simple-value-tag)
-* [&#x200B; markering van de Voorwaarde &#x200B;](#condition-tag)
+* [ Eenvoudige waardetag ](#simple-value-tag)
+* [ markering van de Voorwaarde ](#condition-tag)
 * [Tag herhalen](#loop-tag)
 
 ### Tag voor eenvoudige waarde {#simple-value-tag}
@@ -110,7 +105,7 @@ Een eenvoudige waardetag wordt eenvoudig vervangen door een overeenkomstige waar
 
 Hiervoor stelt u de module als volgt in:
 
-![&#x200B; het malplaatje van Word eenvoudige waarde &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/word-template-simple-value-350x286.png)
+![ het malplaatje van Word eenvoudige waarde ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-simple-value-350x286.png)
 
 ### Voorwaardetag {#condition-tag}
 
@@ -125,7 +120,7 @@ U kunt een voorwaardelabel gebruiken om tekst te laten omlopen die alleen moet w
 
 Hiervoor stelt u de module als volgt in:
 
-![&#x200B; voorwaardelijk malplaatje van Word &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/word-template-conditional-350x501.png)
+![ voorwaardelijk malplaatje van Word ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-conditional-350x501.png)
 
 In het document ziet het telefoonnummer er als volgt uit:
 
@@ -148,7 +143,7 @@ U kunt een sectie met tekst herhalen met een lustag, ook wel sectietag genoemd. 
 Hiervoor stelt u de module als volgt in:
 
 
-![&#x200B; Vul een document &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/word-template-fill-out-a-document-350x732.png)
+![ Vul een document ](/help/workfront-fusion/references/apps-and-modules/assets/word-template-fill-out-a-document-350x732.png)
 
 In de module wordt het volgende document gemaakt:
 
@@ -161,7 +156,7 @@ In de module wordt het volgende document gemaakt:
 
 Deze modules vereisen geen verbinding.
 
-* [&#x200B; Vul een document &#x200B;](#fill-out-a-document)
+* [ Vul een document ](#fill-out-a-document)
 * [Een document vullen met een batch gegevens](#fill-a-document-with-a-batch-of-data)
 
 ### [!UICONTROL Fill out a document] {#fill-out-a-document}
@@ -220,7 +215,7 @@ Met deze transformatormodule kunt u een document vullen met gegevens die u opgee
 
 Deze aggregatormodule is handig als de gegevensinvoer uit afzonderlijke bundels bestaat. Met deze module, kunt u opstelling gemakkelijk de structuur die voor het gebied van de Waarde wordt vereist en het punten aan elk waardepunt in kaart brengen. In tegenstelling tot de module Een document invullen staat het veld Waarden in het veld Een document vullen met een batch gegevensmodule slechts één item met variabelen toe.
 
-U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door de *module van de Teller te gebruiken 0&rbrace; &lbrace;om de inhoud van de serie in een reeks bundels om te zetten.*
+U kunt deze module ook gebruiken als uw gegevensingangen als serie komen, door de *module van de Teller te gebruiken 0} {om de inhoud van de serie in een reeks bundels om te zetten.*
 
 De werkelijke waarden worden gemaakt en ingevuld voor elke binnenkomende bundel. De sjabloon wordt gemaakt nadat alle invoerbundels zijn verwerkt.
 

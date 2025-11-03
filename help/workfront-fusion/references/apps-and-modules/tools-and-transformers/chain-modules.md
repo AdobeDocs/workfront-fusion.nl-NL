@@ -6,9 +6,9 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 21429f94-fe4c-4ccc-a8c0-d7573657fecc
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '634'
+source-wordcount: '619'
 ht-degree: 0%
 
 ---
@@ -19,14 +19,12 @@ Gebruikend de modules van de Keten, kunt u één scenario met een andere verbind
 
 <!--This article will be about the specific module configuration-->
 
-Voor instructies bij het plannen van ketende scenario&#39;s, zie [&#x200B; de veelvoudige scenario&#39;s van de Keten samen &#x200B;](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md).
+Voor instructies bij het plannen van ketende scenario&#39;s, zie [ de veelvoudige scenario&#39;s van de Keten samen ](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md).
 
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -34,34 +32,26 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Geen Workfront Fusion-licentievereiste</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## Ketenmodules en velden daarvan
 
@@ -79,7 +69,7 @@ Om de Receive gegevens van oudermodule te vormen:
 
    Om een nieuwe gegevensstructuur tot stand te brengen om als de inputgegevens van het scenario te gebruiken, **toe te voegen** naast het gebied van de gegevensstructuur en de gegevensstructuur tot stand te brengen.
 
-   Voor instructies bij het creëren van een gegevensstructuur, zie [&#x200B; structuren van Gegevens &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
+   Voor instructies bij het creëren van een gegevensstructuur, zie [ structuren van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
 1. Klik **O.K.** om de module te bewaren.
 
@@ -127,6 +117,6 @@ De module Responder toevoegen configureren:
 
    Om een nieuwe gegevensstructuur voor de gegevens tot stand te brengen, **voeg** naast het gebied van de gegevensstructuur toe en creeer de gegevensstructuur.
 
-   Voor instructies bij het creëren van een gegevensstructuur, zie [&#x200B; structuren van Gegevens &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
+   Voor instructies bij het creëren van een gegevensstructuur, zie [ structuren van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
 1. Klik **O.K.** om de module te bewaren.

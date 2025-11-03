@@ -4,9 +4,9 @@ description: Met de Adobe Workfront Fusion CSV-modules kunt u CSV-bestanden make
 author: Becky
 feature: Workfront Fusion
 exl-id: bc6d5ddc-93c3-437b-8537-5bece1351c1d
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '843'
+source-wordcount: '828'
 ht-degree: 0%
 
 ---
@@ -21,48 +21,38 @@ Omdat dit een transformator is, vereisen deze modules geen verbinding.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Geen Workfront Fusion-licentievereiste</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## [!UICONTROL Create CSV]
 
 Met de aggregator [!UICONTROL Create CSV] kunt u een CSV-tekst maken van ontvangen tekstwaarden.
 
-Voor meer informatie over aggregators, zie [&#x200B; de module van de Samenvoegaar &#x200B;](/help/workfront-fusion/references/modules/aggregator-module.md).
+Voor meer informatie over aggregators, zie [ de module van de Samenvoegaar ](/help/workfront-fusion/references/modules/aggregator-module.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -91,7 +81,7 @@ Voor meer informatie over aggregators, zie [&#x200B; de module van de Samenvoega
 
 Met de [!UICONTROL Create CSV (advanced)] -aggregator kunt u een CSV-tekst maken van ontvangen tekstwaarden. Er wordt een gegevensstructuur gebruikt die de CSV-kolommen in het resulterende CSV-bestand definieert. Zodra bepaald, verschijnen de kolommen als gebieden in de CSV moduleopstelling, en kunnen aan recentere module in het scenario worden in kaart gebracht.
 
-Voor meer informatie over aggregators, zie [&#x200B; de module van de Samenvoegaar &#x200B;](/help/workfront-fusion/references/modules/aggregator-module.md).
+Voor meer informatie over aggregators, zie [ de module van de Samenvoegaar ](/help/workfront-fusion/references/modules/aggregator-module.md).
 
 <table style="table-layout:auto">
  <col> 
@@ -126,7 +116,7 @@ Voor meer informatie over aggregators, zie [&#x200B; de module van de Samenvoega
 **Voorbeeld**:
 
 In dit voorbeeld wordt getoond hoe u Google-contactpersonen exporteert naar een CSV-bestand met twee kolommen met de naam Volledige naam en E-mail. De uitvoerbundel van de module [!UICONTROL Google Contacts] > [!UICONTROL Get contacts from a group] heeft de volgende structuur. De e-mailadressen worden opgeslagen in de <code>[!UICONTROL Emails[]]</code> punt, dat een serie van inzamelingen is, elke inzameling die twee punten bevat: <code> Etiket</code> en <code> E-mail</code>.
-![&#x200B; het Transformeren &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/transforming-350x546.png)
+![ het Transformeren ](/help/workfront-fusion/references/apps-and-modules/assets/transforming-350x546.png)
 
 De eenvoudige module [!DNL Create CSV] biedt een lijst met selectievakjes die overeenkomen met de items op hoofdniveau van een bundel. Als u <code> Volledige naam probeert te selecteren</code> en <code> E-mails</code> De module [!UICONTROL Create CSV] geeft de volgende uitvoer, die u mogelijk niet wilt gebruiken:
 
@@ -149,11 +139,11 @@ Inhoud van <code> e-mail uitvoeren </code>punt van de eerste inzameling van <cod
 1. Klik op de knop <strong>[!UICONTROL Add]</strong> naast het veld [!UICONTROL Data structure] om een nieuwe gegevensstructuur te maken.
 1. Voer een naam voor de gegevensstructuur in en klik op <strong>[!UICONTROL Add item]</strong> om de afzonderlijke kolommen toe te voegen. Als u twee kolommen wilt exporteren: &quot;Volledige naam&quot; en &quot;E-mail&quot;, ziet de resulterende gegevensstructuur er als volgt uit:
 
-   ![&#x200B; de output van Contactpersonen van Google &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/google-contacts-350x524.png)
+   ![ de output van Contactpersonen van Google ](/help/workfront-fusion/references/apps-and-modules/assets/google-contacts-350x524.png)
 
 1. Nadat u de gegevensstructuur hebt gedefinieerd, worden de velden voor elke kolom weergegeven in de configuratie van de module [!UICONTROL Create CSV (advanced)] , zodat u de items kunt toewijzen. Het eerste item uit de <code>[!UICONTROL Emails[]] halen</code> serie en kaart zijn punt <code> E-mail </code>in het veld/de kolom E-mail:
 
-   ![&#x200B; creeer CSV Geavanceerde module &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/create-csv-advanced-350x308.png)
+   ![ creeer CSV Geavanceerde module ](/help/workfront-fusion/references/apps-and-modules/assets/create-csv-advanced-350x308.png)
 
 1. Voer het scenario uit. Omdat het punt <code> E-mails [ ]: E-mail</code> toegewezen aan kolom &quot;E-mail&quot; is van het eenvoudige type Tekst, wordt het correct uitgevoerd.
 

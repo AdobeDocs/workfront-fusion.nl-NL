@@ -4,9 +4,9 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: fabbadce-5669-4363-834e-6d7428520f62
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '3594'
+source-wordcount: '3587'
 ht-degree: 0%
 
 ---
@@ -21,48 +21,47 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICO
 >
 >Dit artikel verwacht enige vertrouwdheid met API-documentatie en met [!DNL GitLab] functionaliteit in het algemeen.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-<table style="table-layout:auto"> 
+<table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-abonnement*</td>
-  <td> <p>[!UICONTROL Pro] of hoger</p> </td>
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Work]</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidige vergunningsvereiste: geen Workfront Fusion-vergunningsvereiste.</p>
-   <p>of</p>
-   <p>Vereiste voor oudere licenties: [!UICONTROL Workfront Fusion for Work Automation and Integration] </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Huidige productvereiste: als u het [!UICONTROL Select] - of [!UICONTROL Prime] Adobe Workfront-abonnement hebt, moet uw organisatie zowel Adobe Workfront Fusion als Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken. Workfront Fusion is opgenomen in het Workfront-plan van [!UICONTROL Ultimate] .</p>
-   <p>of</p>
-   <p>Vereiste verouderd product: uw organisatie moet Adobe Workfront Fusion en Adobe Workfront aanschaffen om de in dit artikel beschreven functionaliteit te kunnen gebruiken.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
-  </tr> 
+  </tr>
  </tbody> 
 </table>
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+
++++
 
 ## Verbinden [!DNL GitLab] met Workfront Fusion {#connect-gitlab-to-workfront-fusion}
 
@@ -96,9 +95,9 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x2
 
 Wanneer u [!DNL GitLab] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL GitLab] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### Triggers
 
@@ -323,7 +322,7 @@ Deze instant trigger-module start een scenario wanneer er een nieuwe opmerking w
 
 Deze geplande trekkermodule begint een scenario wanneer nieuw wordt toegevoegd. Wanneer geen filter wordt toegepast, wordt de trigger uitgevoerd wanneer een nieuw in behandeling zijnde taak wordt toegevoegd.
 
-Voor informatie over gebieden, zie [&#x200B; een lijst krijgen van te doen &#x200B;](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ een lijst krijgen van te doen ](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -350,7 +349,7 @@ Deze onmiddellijke trekkermodule begint een scenario wanneer een wikipagina word
 
 Deze actiemodule voegt ingediende wijzigingen samen met het opgegeven samenvoegverzoek.
 
-Voor informatie over gebieden, zie [&#x200B; samenvoegverzoek &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) in de [!DNL GitLab] documentatie goedkeuren.
+Voor informatie over gebieden, zie [ samenvoegverzoek ](https://docs.gitlab.com/ee/api/merge_requests.html#accept-mr) in de [!DNL GitLab] documentatie goedkeuren.
 
 +++
 
@@ -400,7 +399,7 @@ Deze actiemodule annuleert één enkele bouwstijl van een project.
 
 Deze actiemodule annuleert de bouwstijlen voor één enkele pijpleiding.
 
-Voor informatie over gebieden, zie [&#x200B; de banen van een pijpleiding &#x200B;](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) in de [!DNL GitLab] documentatie annuleren.
+Voor informatie over gebieden, zie [ de banen van een pijpleiding ](https://docs.gitlab.com/ee/api/pipelines.html#cancel-a-pipelines-jobs) in de [!DNL GitLab] documentatie annuleren.
 
 +++
 
@@ -408,7 +407,7 @@ Voor informatie over gebieden, zie [&#x200B; de banen van een pijpleiding &#x200
 
 Als een fusieverzoek wordt geplaatst om samen te voegen wanneer een pijpleiding slaagt, annuleert deze actiemodule die actie.
 
-Voor informatie over gebieden, zie [&#x200B; samenvoegen annuleren wanneer de pijpleiding &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html) in de [!DNL GitLab] documentatie slaagt.
+Voor informatie over gebieden, zie [ samenvoegen annuleren wanneer de pijpleiding ](https://docs.gitlab.com/ee/api/merge_requests.html) in de [!DNL GitLab] documentatie slaagt.
 
 +++
 
@@ -416,7 +415,7 @@ Voor informatie over gebieden, zie [&#x200B; samenvoegen annuleren wanneer de pi
 
 Deze actiemodule zoekt naar betrokkenheid bij een bepaalde vertakking.
 
-Voor informatie over gebieden, zie [&#x200B; Kers plukken a zich &#x200B;](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) in de [!DNL GitLab] documentatie begaan.
+Voor informatie over gebieden, zie [ Kers plukken a zich ](https://docs.gitlab.com/ee/api/commits.html#cherry-pick-a-commit) in de [!DNL GitLab] documentatie begaan.
 
 +++
 
@@ -424,7 +423,7 @@ Voor informatie over gebieden, zie [&#x200B; Kers plukken a zich &#x200B;](https
 
 Deze actiemodule leidt tot een nieuw etiket voor de bepaalde bewaarplaats.
 
-Voor informatie over gebieden, zie [&#x200B; een nieuw etiket &#x200B;](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ een nieuw etiket ](https://docs.gitlab.com/ee/api/labels.html#create-a-new-label) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -432,7 +431,7 @@ Voor informatie over gebieden, zie [&#x200B; een nieuw etiket &#x200B;](https://
 
 Deze actiemodule leidt tot een nieuwe pijpleiding voor het bepaalde project.
 
-Voor informatie over gebieden, zie [&#x200B; een nieuwe pijpleiding &#x200B;](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ een nieuwe pijpleiding ](https://docs.gitlab.com/ee/api/pipelines.html#create-a-new-pipeline) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -440,7 +439,7 @@ Voor informatie over gebieden, zie [&#x200B; een nieuwe pijpleiding &#x200B;](ht
 
 Met deze actiemodule voegt u releaseopmerkingen toe aan de bestaande it-tag.
 
-Voor informatie over gebieden, zie [&#x200B; een versie &#x200B;](https://docs.gitlab.com/ee/api/releases/#create-a-release) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ een versie ](https://docs.gitlab.com/ee/api/releases/#create-a-release) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -448,7 +447,7 @@ Voor informatie over gebieden, zie [&#x200B; een versie &#x200B;](https://docs.g
 
 Deze actiemodule maakt een nieuwe tag in de opslagplaats die naar de opgegeven ref verwijst.
 
-Voor informatie over gebieden, zie [&#x200B; een nieuwe markering &#x200B;](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ een nieuwe markering ](https://docs.gitlab.com/ee/api/tags.html#create-a-new-tag) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -456,7 +455,7 @@ Voor informatie over gebieden, zie [&#x200B; een nieuwe markering &#x200B;](http
 
 Deze actiemodule maakt een taak voor de huidige gebruiker met betrekking tot de geselecteerde uitgave. De huidige gebruiker is de gebruiker die door de geloofsbrieven op de verbinding wordt geïdentificeerd die voor deze module wordt gebruikt.
 
-Voor informatie over gebieden, zie [&#x200B; a creëren om &#x200B;](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) in de [!DNL GitLab] documentatie te doen.
+Voor informatie over gebieden, zie [ a creëren om ](https://docs.gitlab.com/ee/api/issues.html#create-a-todo) in de [!DNL GitLab] documentatie te doen.
 
 +++
 
@@ -464,7 +463,7 @@ Voor informatie over gebieden, zie [&#x200B; a creëren om &#x200B;](https://doc
 
 Deze actiemodule leidt tot een taak voor de huidige gebruiker op het geselecteerde fusieverzoek. De huidige gebruiker is de gebruiker die door de geloofsbrieven op de verbinding wordt geïdentificeerd die voor deze module wordt gebruikt.
 
-Voor informatie over gebieden, zie [&#x200B; a tot stand brengen &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ a tot stand brengen ](https://docs.gitlab.com/ee/api/merge_requests.html#create-a-todo) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -472,7 +471,7 @@ Voor informatie over gebieden, zie [&#x200B; a tot stand brengen &#x200B;](https
 
 Deze actiemodule leidt tot een nieuw fusieverzoek op een project.
 
-Voor informatie over gebieden, zie [&#x200B; Samenvoegingsverzoek &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ Samenvoegingsverzoek ](https://docs.gitlab.com/ee/api/merge_requests.html#create-mr) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -480,7 +479,7 @@ Voor informatie over gebieden, zie [&#x200B; Samenvoegingsverzoek &#x200B;](http
 
 Deze actiemodule maakt een nieuw bestand in de geselecteerde opslagplaats.
 
-Voor informatie over gebieden, zie [&#x200B; nieuw dossier in bewaarplaats &#x200B;](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ nieuw dossier in bewaarplaats ](https://docs.gitlab.com/ee/api/repository_files.html#create-new-file-in-repository) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -488,7 +487,7 @@ Voor informatie over gebieden, zie [&#x200B; nieuw dossier in bewaarplaats &#x20
 
 Deze actiemodule leidt tot een probleemnota voor één enkele projectkwestie.
 
-Voor informatie over gebieden, zie [&#x200B; nieuwe uitgevende nota &#x200B;](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ nieuwe uitgevende nota ](https://docs.gitlab.com/ee/api/notes.html#create-new-issue-note) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -496,7 +495,7 @@ Voor informatie over gebieden, zie [&#x200B; nieuwe uitgevende nota &#x200B;](ht
 
 Deze actiemodule leidt nota voor één enkel fusieverzoek.
 
-Voor informatie over gebieden, zie [&#x200B; nieuwe nota van het fusieverzoek &#x200B;](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ nieuwe nota van het fusieverzoek ](https://docs.gitlab.com/ee/api/notes.html#create-new-merge-request-note) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -504,7 +503,7 @@ Voor informatie over gebieden, zie [&#x200B; nieuwe nota van het fusieverzoek &#
 
 Deze actiemodule leidt tot een nieuwe mijlpaal voor een project.
 
-Voor informatie over gebieden, zie [&#x200B; nieuwe mijlpaal &#x200B;](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ nieuwe mijlpaal ](https://docs.gitlab.com/ee/api/milestones.html#create-new-milestone) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -512,7 +511,7 @@ Voor informatie over gebieden, zie [&#x200B; nieuwe mijlpaal &#x200B;](https://d
 
 Deze actiemodule maakt een nieuwe notitie voor één fragment. Fragmentnotities zijn opmerkingen die gebruikers naar een fragment kunnen posten.
 
-Voor informatie over gebieden, zie [&#x200B; nieuwe fragmentnota &#x200B;](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) in de [!DNL GitLab] documentatie creëren.
+Voor informatie over gebieden, zie [ nieuwe fragmentnota ](https://docs.gitlab.com/ee/api/notes.html#create-new-snippet-note) in de [!DNL GitLab] documentatie creëren.
 
 +++
 
@@ -520,7 +519,7 @@ Voor informatie over gebieden, zie [&#x200B; nieuwe fragmentnota &#x200B;](https
 
 Deze actiemodule leidt tot één enkele bewaarplaats tak.
 
-Voor informatie over gebieden, zie [&#x200B; tot de vertakking van de bewaarplaats &#x200B;](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) in de [!DNL GitLab] documentatie leiden.
+Voor informatie over gebieden, zie [ tot de vertakking van de bewaarplaats ](https://docs.gitlab.com/ee/api/branches.html#create-repository-branch) in de [!DNL GitLab] documentatie leiden.
 
 +++
 
@@ -528,7 +527,7 @@ Voor informatie over gebieden, zie [&#x200B; tot de vertakking van de bewaarplaa
 
 Deze actiemodule leidt tot een nieuwe bouwstijlvariabele.
 
-Voor informatie over gebieden, zie [&#x200B; veranderlijke &#x200B;](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) tot stand brengen in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ veranderlijke ](https://docs.gitlab.com/ee/api/project_level_variables.html#create-variable) tot stand brengen in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -536,7 +535,7 @@ Voor informatie over gebieden, zie [&#x200B; veranderlijke &#x200B;](https://doc
 
 Deze actiemodule is alleen voor beheerders en projecteigenaars. Het verwijdert het fusieverzoek in kwestie
 
-Voor informatie over gebieden, zie [&#x200B; een fusieverzoek &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) in de [!DNL GitLab] documentatie schrappen.
+Voor informatie over gebieden, zie [ een fusieverzoek ](https://docs.gitlab.com/ee/api/merge_requests.html#delete-a-merge-request) in de [!DNL GitLab] documentatie schrappen.
 
 +++
 
@@ -544,7 +543,7 @@ Voor informatie over gebieden, zie [&#x200B; een fusieverzoek &#x200B;](https://
 
 Deze actiemodule verwijdert een bestaand bestand uit de opslagplaats.
 
-Voor informatie over gebieden, zie [&#x200B; Bestaande dossier in bewaarplaats &#x200B;](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) in de [!DNL GitLab] documentatie schrappen.
+Voor informatie over gebieden, zie [ Bestaande dossier in bewaarplaats ](https://docs.gitlab.com/ee/api/repository_files.html#delete-existing-file-in-repository) in de [!DNL GitLab] documentatie schrappen.
 
 +++
 
@@ -552,7 +551,7 @@ Voor informatie over gebieden, zie [&#x200B; Bestaande dossier in bewaarplaats &
 
 Deze actiemodule verwijdert een vertakking uit de opslagplaats.
 
-Voor informatie over gebieden, zie [&#x200B; vertakking van de bewaarplaats van de Schrapping &#x200B;](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ vertakking van de bewaarplaats van de Schrapping ](https://docs.gitlab.com/ee/api/branches.html#delete-repository-branch) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -560,14 +559,14 @@ Voor informatie over gebieden, zie [&#x200B; vertakking van de bewaarplaats van 
 
 Deze actiemodule werkt een bestaand projectprobleem bij. Deze aanroep wordt ook gebruikt om een probleem als gesloten te markeren.
 
-Voor informatie over gebieden, zie [&#x200B; uitgeven kwestie &#x200B;](https://docs.gitlab.com/ee/api/issues.html#edit-issue) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ uitgeven kwestie ](https://docs.gitlab.com/ee/api/issues.html#edit-issue) in de [!DNL GitLab] documentatie.
 
 +++
 
 +++**[!UICONTROL Edit Milestone]**
 Deze actiemodule werkt een bestaande projectmijlpaal bij.
 
-Voor informatie over gebieden, zie [&#x200B; mijlpaal &#x200B;](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) in de [!DNL GitLab] documentatie uitgeven.
+Voor informatie over gebieden, zie [ mijlpaal ](https://docs.gitlab.com/ee/api/milestones.html#edit-milestone) in de [!DNL GitLab] documentatie uitgeven.
 
 +++
 
@@ -575,7 +574,7 @@ Voor informatie over gebieden, zie [&#x200B; mijlpaal &#x200B;](https://docs.git
 
 Deze actiemodule wist een bouwstijl van een project (verwijdert baanartefacten en baanlogboek).
 
-Voor informatie over gebieden, zie [&#x200B; een baan &#x200B;](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) in de [!DNL GitLab] documentatie wissen.
+Voor informatie over gebieden, zie [ een baan ](https://docs.gitlab.com/ee/api/jobs.html#erase-a-job) in de [!DNL GitLab] documentatie wissen.
 
 +++
 
@@ -583,7 +582,7 @@ Voor informatie over gebieden, zie [&#x200B; een baan &#x200B;](https://docs.git
 
 Deze onderzoeksmodule wint een lijst van te doen punten terug.
 
-Voor informatie over gebieden, zie [&#x200B; een lijst krijgen van te doen &#x200B;](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ een lijst krijgen van te doen ](https://docs.gitlab.com/ee/api/todos.html#get-a-list-of-todos) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -591,7 +590,7 @@ Voor informatie over gebieden, zie [&#x200B; een lijst krijgen van te doen &#x20
 
 Deze actiemodule wint één enkele baan van een project terug.
 
-Voor informatie over gebieden, zie [&#x200B; één enkele baan &#x200B;](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ één enkele baan ](https://docs.gitlab.com/ee/api/jobs.html#get-a-single-job) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -599,7 +598,7 @@ Voor informatie over gebieden, zie [&#x200B; één enkele baan &#x200B;](https:/
 
 Deze actiemodule haalt een specifieke opslagplaats op die wordt bepaald door de naam ervan.
 
-Voor informatie over gebieden, zie [&#x200B; één enkele bewaarplaatstag &#x200B;](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ één enkele bewaarplaatstag ](https://docs.gitlab.com/ee/api/tags.html#get-a-single-repository-tag) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -607,7 +606,7 @@ Voor informatie over gebieden, zie [&#x200B; één enkele bewaarplaatstag &#x200
 
 Deze actiemodule wint een specifieke plaatsing terug.
 
-Voor informatie over gebieden, zie [&#x200B; een specifieke plaatsing &#x200B;](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ een specifieke plaatsing ](https://docs.gitlab.com/ee/api/deployments.html#get-a-specific-deployment) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -615,7 +614,7 @@ Voor informatie over gebieden, zie [&#x200B; een specifieke plaatsing &#x200B;](
 
 Deze onderzoeksmodule wint alle kwesties terug die aan één enkele projectmijlpaal worden toegewezen.
 
-Voor informatie over gebieden, zie [&#x200B; alle kwesties krijgen die aan één enkele mijlpaal &#x200B;](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) in de [!DNL GitLab] documentatie worden toegewezen.
+Voor informatie over gebieden, zie [ alle kwesties krijgen die aan één enkele mijlpaal ](https://docs.gitlab.com/ee/api/milestones.html#get-all-issues-assigned-to-a-single-milestone) in de [!DNL GitLab] documentatie worden toegewezen.
 
 +++
 
@@ -623,7 +622,7 @@ Voor informatie over gebieden, zie [&#x200B; alle kwesties krijgen die aan één
 
 Deze actiemodule haalt informatie op over een bestand in de repository, zoals naam, grootte of inhoud.
 
-Voor informatie over gebieden, zie [&#x200B; krijgen dossier van bewaarplaats &#x200B;](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ krijgen dossier van bewaarplaats ](https://docs.gitlab.com/ee/api/repository_files.html#get-file-from-repository) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -631,7 +630,7 @@ Voor informatie over gebieden, zie [&#x200B; krijgen dossier van bewaarplaats &#
 
 Deze onderzoeksmodule wint de gebruikers van het project terug.
 
-Voor informatie over gebieden, zie [&#x200B; projectgebruikers &#x200B;](https://docs.gitlab.com/ee/api/projects.html#get-project-users) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ projectgebruikers ](https://docs.gitlab.com/ee/api/projects.html#get-project-users) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -664,7 +663,7 @@ Deze actiemodule wint probleemdetails op.
 
 Deze actiemodule wint één enkele nota voor een specifieke projectkwestie terug.
 
-Voor informatie over gebieden, zie [&#x200B; één enkele puntennota &#x200B;](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ één enkele puntennota ](https://docs.gitlab.com/ee/api/notes.html#get-single-issue-note) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -672,7 +671,7 @@ Voor informatie over gebieden, zie [&#x200B; één enkele puntennota &#x200B;](h
 
 Deze actiemodule wint informatie over één enkel fusieverzoek terug.
 
-Voor informatie over gebieden, zie [&#x200B; één enkel fusieverzoek &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ één enkel fusieverzoek ](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -680,7 +679,7 @@ Voor informatie over gebieden, zie [&#x200B; één enkel fusieverzoek &#x200B;](
 
 Deze zoekmodule haalt informatie op over de samenvoegaanvraag, inclusief de bestanden en wijzigingen.
 
-Voor informatie over gebieden, zie [&#x200B; krijgt enige veranderingen van het fusieverzoek &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ krijgt enige veranderingen van het fusieverzoek ](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-changes) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -688,7 +687,7 @@ Voor informatie over gebieden, zie [&#x200B; krijgt enige veranderingen van het 
 
 Deze actiemodule wint een lijst van de gehechtheid van het fusieverzoek terug.
 
-Voor informatie over gebieden, zie [&#x200B; krijgt enige fusieverzoek begaat &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ krijgt enige fusieverzoek begaat ](https://docs.gitlab.com/ee/api/merge_requests.html#get-single-mr-commits) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -696,7 +695,7 @@ Voor informatie over gebieden, zie [&#x200B; krijgt enige fusieverzoek begaat &#
 
 Deze actiemodule keert één enkele nota voor een bepaald fusieverzoek terug.
 
-Voor informatie over gebieden, zie [&#x200B; één enkele nota van het fusieverzoek &#x200B;](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ één enkele nota van het fusieverzoek ](https://docs.gitlab.com/ee/api/notes.html#get-single-merge-request-note) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -704,7 +703,7 @@ Voor informatie over gebieden, zie [&#x200B; één enkele nota van het fusieverz
 
 Deze actiemodule wint mijlpaal details terug.
 
-Voor informatie over gebieden, zie [&#x200B; enige mijlpaal &#x200B;](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ enige mijlpaal ](https://docs.gitlab.com/ee/api/milestones.html#get-single-milestone) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -712,7 +711,7 @@ Voor informatie over gebieden, zie [&#x200B; enige mijlpaal &#x200B;](https://do
 
 Deze actiemodule wint projectdetails terug.
 
-Voor informatie over gebieden, zie [&#x200B; één enkel project &#x200B;](https://docs.gitlab.com/ee/api/projects.html#get-single-project) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ één enkel project ](https://docs.gitlab.com/ee/api/projects.html#get-single-project) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -720,7 +719,7 @@ Voor informatie over gebieden, zie [&#x200B; één enkel project &#x200B;](https
 
 Deze actiemodule haalt de gegevens van de opslagplaats op.
 
-Voor informatie over gebieden, zie [&#x200B; enige bewaarplaats vertakking &#x200B;](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ enige bewaarplaats vertakking ](https://docs.gitlab.com/ee/api/branches.html#get-single-repository-branch) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -728,7 +727,7 @@ Voor informatie over gebieden, zie [&#x200B; enige bewaarplaats vertakking &#x20
 
 Deze module wint één enkele nota voor een bepaald fragment terug.
 
-Voor informatie over gebieden, zie [&#x200B; één enkele fragmentnota &#x200B;](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) in de [!DNL GitLab] documentatie krijgen.
+Voor informatie over gebieden, zie [ één enkele fragmentnota ](https://docs.gitlab.com/ee/api/notes.html#get-single-snippet-note) in de [!DNL GitLab] documentatie krijgen.
 
 +++
 
@@ -736,7 +735,7 @@ Voor informatie over gebieden, zie [&#x200B; één enkele fragmentnota &#x200B;]
 
 Deze onderzoeksmodule wint commentaren van terug van begaat in een project.
 
-Voor informatie over gebieden, zie [&#x200B; de commentaren van begaat &#x200B;](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de commentaren van begaat ](https://docs.gitlab.com/ee/api/commits.html#get-the-comments-of-a-commit) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -744,7 +743,7 @@ Voor informatie over gebieden, zie [&#x200B; de commentaren van begaat &#x200B;]
 
 Deze actiemodule krijgt diff van begaat in een project.
 
-Voor informatie over gebieden, zie [&#x200B; diff van krijgen &#x200B;](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) in de [!DNL GitLab] documentatie begaan.
+Voor informatie over gebieden, zie [ diff van krijgen ](https://docs.gitlab.com/ee/api/commits.html#get-the-diff-of-a-commit) in de [!DNL GitLab] documentatie begaan.
 
 +++
 
@@ -752,7 +751,7 @@ Voor informatie over gebieden, zie [&#x200B; diff van krijgen &#x200B;](https://
 
 Voorkomt dat artefacten worden verwijderd wanneer de vervaldatum wordt ingesteld.
 
-Voor informatie over gebieden, zie [&#x200B; artefacten &#x200B;](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) in de [!DNL GitLab] documentatie houden.
+Voor informatie over gebieden, zie [ artefacten ](https://docs.gitlab.com/ee/api/job_artifacts.html#keep-artifacts) in de [!DNL GitLab] documentatie houden.
 
 +++
 
@@ -760,7 +759,7 @@ Voor informatie over gebieden, zie [&#x200B; artefacten &#x200B;](https://docs.g
 
 Deze zoekmodule haalt een lijst op met alle notities voor één samenvoegaanvraag.
 
-Voor informatie over gebieden, zie [&#x200B; van de Lijst alle nota&#39;s van het fusieverzoek &#x200B;](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ van de Lijst alle nota&#39;s van het fusieverzoek ](https://docs.gitlab.com/ee/api/notes.html#list-all-merge-request-notes) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -768,7 +767,7 @@ Voor informatie over gebieden, zie [&#x200B; van de Lijst alle nota&#39;s van he
 
 Deze module krijgt een lijst van alle nota&#39;s voor één enkel fragment. Fragmentnotities zijn opmerkingen die gebruikers naar een fragment kunnen posten.
 
-Zie [🔗 &#x200B;](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in de [!DNL GitLab] documentatie voor informatie over velden.
+Zie [🔗 ](https://docs.gitlab.com/ee/api/notes.html#list-all-snippet-notes) in de [!DNL GitLab] documentatie voor informatie over velden.
 
 +++
 
@@ -801,7 +800,7 @@ Deze onderzoeksmodule keert een lijst van bouwstijlen voor specifiek terug begaa
 
 Deze zoekmodule retourneert alle uitgaven volgens de opgegeven filterinstellingen.
 
-Voor informatie over gebieden, zie [&#x200B; kwesties van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/issues.html#list-issues) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ kwesties van de Lijst ](https://docs.gitlab.com/ee/api/issues.html#list-issues) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -809,7 +808,7 @@ Voor informatie over gebieden, zie [&#x200B; kwesties van de Lijst &#x200B;](htt
 
 Deze zoekmodule haalt alle problemen op die zouden worden gesloten door de opgegeven samenvoegaanvraag samen te voegen.
 
-Voor informatie over gebieden, zie [&#x200B; de kwesties van de Lijst die op fusie &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) in de [!DNL GitLab] documentatie zullen sluiten.
+Voor informatie over gebieden, zie [ de kwesties van de Lijst die op fusie ](https://docs.gitlab.com/ee/api/merge_requests.html#list-issues-that-will-close-on-merge) in de [!DNL GitLab] documentatie zullen sluiten.
 
 +++
 
@@ -817,7 +816,7 @@ Voor informatie over gebieden, zie [&#x200B; de kwesties van de Lijst die op fus
 
 Deze onderzoeksmodule wint alle etiketten in het project terug.
 
-Voor informatie over gebieden, zie [&#x200B; de etiketten van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/labels.html#list-labels) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de etiketten van de Lijst ](https://docs.gitlab.com/ee/api/labels.html#list-labels) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -825,7 +824,7 @@ Voor informatie over gebieden, zie [&#x200B; de etiketten van de Lijst &#x200B;]
 
 Deze zoekmodule haalt alle samenvoegverzoeken op basis van de filterinstellingen op.
 
-Voor informatie over gebieden, zie [&#x200B; de fusieverzoeken van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de fusieverzoeken van de Lijst ](https://docs.gitlab.com/ee/api/merge_requests.html#list-merge-requests) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -833,7 +832,7 @@ Voor informatie over gebieden, zie [&#x200B; de fusieverzoeken van de Lijst &#x2
 
 Deze onderzoeksmodule wint projecten terug waar de voor authentiek verklaarde gebruiker als eigenaar wordt geplaatst.
 
-Voor informatie over gebieden, zie [&#x200B; gebruikersprojecten van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ gebruikersprojecten van de Lijst ](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -841,7 +840,7 @@ Voor informatie over gebieden, zie [&#x200B; gebruikersprojecten van de Lijst &#
 
 Deze onderzoeksmodule wint een lijst van bouwstijlen in een project terug.
 
-Voor informatie over gebieden, zie [&#x200B; het projectbanen van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ het projectbanen van de Lijst ](https://docs.gitlab.com/ee/api/jobs.html#list-project-jobs) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -849,7 +848,7 @@ Voor informatie over gebieden, zie [&#x200B; het projectbanen van de Lijst &#x20
 
 Deze onderzoeksmodule wint een lijst van plaatsingen in een project terug.
 
-Voor informatie over gebieden, zie [&#x200B; het projectplaatsingen van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ het projectplaatsingen van de Lijst ](https://docs.gitlab.com/ee/api/deployments.html#list-project-deployments) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -857,7 +856,7 @@ Voor informatie over gebieden, zie [&#x200B; het projectplaatsingen van de Lijst
 
 Deze zoekmodule haalt een lijst op met alle notities voor één enkele uitgave.
 
-Voor informatie over gebieden, zie [&#x200B; de nota&#39;s van de projectkwestie van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de nota&#39;s van de projectkwestie van de Lijst ](https://docs.gitlab.com/ee/api/notes.html#list-project-issue-notes) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -865,7 +864,7 @@ Voor informatie over gebieden, zie [&#x200B; de nota&#39;s van de projectkwestie
 
 Deze onderzoeksmodule keert alle kwesties in een gespecificeerd project terug.
 
-Voor informatie over gebieden, zie [&#x200B; de projectkwesties van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de projectkwesties van de Lijst ](https://docs.gitlab.com/ee/api/issues.html#list-project-issues) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -873,7 +872,7 @@ Voor informatie over gebieden, zie [&#x200B; de projectkwesties van de Lijst &#x
 
 Deze onderzoeksmodule wint alle mijlpalen in het project terug.
 
-Voor informatie over gebieden, zie [&#x200B; het projectmijlpalen van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ het projectmijlpalen van de Lijst ](https://docs.gitlab.com/ee/api/milestones.html#list-project-milestones) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -881,7 +880,7 @@ Voor informatie over gebieden, zie [&#x200B; het projectmijlpalen van de Lijst &
 
 Deze onderzoeksmodule wint alle pijpleidingen voor het project terug.
 
-Voor informatie over gebieden, zie [&#x200B; het projectpijpleidingen van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ het projectpijpleidingen van de Lijst ](https://docs.gitlab.com/ee/api/pipelines.html#list-project-pipelines) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -889,7 +888,7 @@ Voor informatie over gebieden, zie [&#x200B; het projectpijpleidingen van de Lij
 
 Deze zoekmodule haalt een lijst op met opslagplaatstags uit een project, gesorteerd op naam in omgekeerde alfabetische volgorde.
 
-Voor informatie over gebieden, zie {de markeringen van de het projectbewaarplaats van de 0} Lijst [&#x200B; in de &#x200B;](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) documentatie.[!DNL GitLab]
+Voor informatie over gebieden, zie {de markeringen van de het projectbewaarplaats van de 0} Lijst [ in de ](https://docs.gitlab.com/ee/api/tags.html#list-project-repository-tags) documentatie.[!DNL GitLab]
 
 +++
 
@@ -897,7 +896,7 @@ Voor informatie over gebieden, zie {de markeringen van de het projectbewaarplaat
 
 Deze onderzoeksmodule wint een lijst van de variabelen van een project terug.
 
-Voor informatie over gebieden, zie [&#x200B; het projectvariabelen van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ het projectvariabelen van de Lijst ](https://docs.gitlab.com/ee/api/project_level_variables.html#list-project-variables) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -905,7 +904,7 @@ Voor informatie over gebieden, zie [&#x200B; het projectvariabelen van de Lijst 
 
 Deze onderzoeksmodule wint alle projecten terug waarvan de voor authentiek verklaarde gebruiker een lid is.
 
-Voor informatie over gebieden, zie [&#x200B; een lijst maken van alle projecten &#x200B;](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ een lijst maken van alle projecten ](https://docs.gitlab.com/ee/api/projects.html#list-all-projects) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -913,7 +912,7 @@ Voor informatie over gebieden, zie [&#x200B; een lijst maken van alle projecten 
 
 Deze module zoekt naar vertakkingen in de opslagplaats op de zoekterm.
 
-Voor informatie over gebieden, zie [&#x200B; de vertakkingen van de bewaarplaats van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de vertakkingen van de bewaarplaats van de Lijst ](https://docs.gitlab.com/ee/api/branches.html#list-repository-branches) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -921,7 +920,7 @@ Voor informatie over gebieden, zie [&#x200B; de vertakkingen van de bewaarplaats
 
 Deze onderzoeksmodule wint een lijst van bewaarplaatsverplichtingen in een project terug.
 
-Voor informatie over gebieden, zie [&#x200B; de bewaarplaats van de Lijst begaat &#x200B;](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de bewaarplaats van de Lijst begaat ](https://docs.gitlab.com/ee/api/commits.html#list-repository-commits) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -929,7 +928,7 @@ Voor informatie over gebieden, zie [&#x200B; de bewaarplaats van de Lijst begaat
 
 Deze zoekmodule haalt een lijst met contribuanten in de repository op.
 
-Voor informatie over gebieden, zie [&#x200B; Medewerkers &#x200B;](https://docs.gitlab.com/ee/api/repositories.html#contributors) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ Medewerkers ](https://docs.gitlab.com/ee/api/repositories.html#contributors) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -937,7 +936,7 @@ Voor informatie over gebieden, zie [&#x200B; Medewerkers &#x200B;](https://docs.
 
 Deze zoekmodule haalt een lijst op met bestanden en mappen in de opslagplaats in een project.
 
-Voor informatie over gebieden, zie [&#x200B; de opbergboom van de Lijst &#x200B;](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de opbergboom van de Lijst ](https://docs.gitlab.com/ee/api/repositories.html#list-repository-tree) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -945,7 +944,7 @@ Voor informatie over gebieden, zie [&#x200B; de opbergboom van de Lijst &#x200B;
 
 Deze handelingsmodule markeert één enkel in afwachting om punt te doen dat door zijn identiteitskaart voor de huidige gebruiker zoals gedaan wordt gegeven.
 
-Voor informatie over gebieden, zie [&#x200B; Teken a om punt te doen zoals gedaan &#x200B;](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ Teken a om punt te doen zoals gedaan ](https://docs.gitlab.com/ee/api/todos.html#mark-a-todo-as-done) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -953,7 +952,7 @@ Voor informatie over gebieden, zie [&#x200B; Teken a om punt te doen zoals gedaa
 
 Wijzigt een bestaande notitie van een uitgave.
 
-Voor informatie over gebieden, zie [&#x200B; bestaande voorwaardennota &#x200B;](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) in de [!DNL GitLab] documentatie wijzigen.
+Voor informatie over gebieden, zie [ bestaande voorwaardennota ](https://docs.gitlab.com/ee/api/notes.html#modify-existing-issue-note) in de [!DNL GitLab] documentatie wijzigen.
 
 +++
 
@@ -961,7 +960,7 @@ Voor informatie over gebieden, zie [&#x200B; bestaande voorwaardennota &#x200B;]
 
 Hiermee wordt de bestaande notitie van een samenvoegaanvraag gewijzigd.
 
-Voor informatie over gebieden, zie [&#x200B; bestaande nota van het fusieverzoek &#x200B;](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) in de [!DNL GitLab] documentatie wijzigen.
+Voor informatie over gebieden, zie [ bestaande nota van het fusieverzoek ](https://docs.gitlab.com/ee/api/notes.html#modify-existing-merge-request-note) in de [!DNL GitLab] documentatie wijzigen.
 
 +++
 
@@ -969,7 +968,7 @@ Voor informatie over gebieden, zie [&#x200B; bestaande nota van het fusieverzoek
 
 Deze actiemodule wijzigt een bestaande notitie van een fragment.
 
-Voor informatie over gebieden, zie [&#x200B; bestaande fragmentnota wijzigen &#x200B;](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ bestaande fragmentnota wijzigen ](https://docs.gitlab.com/ee/api/notes.html#modify-existing-snippet-note) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -977,7 +976,7 @@ Voor informatie over gebieden, zie [&#x200B; bestaande fragmentnota wijzigen &#x
 
 Deze actiemodule leidt tot een nieuwe projectkwestie.
 
-Voor informatie over gebieden, zie [&#x200B; Nieuwe kwestie &#x200B;](https://www.integromat.com/en/help/app/gitlab) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ Nieuwe kwestie ](https://www.integromat.com/en/help/app/gitlab) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -985,7 +984,7 @@ Voor informatie over gebieden, zie [&#x200B; Nieuwe kwestie &#x200B;](https://ww
 
 Deze actiemodule activeert een handmatige handeling om een taak te starten.
 
-Voor informatie over gebieden, zie [&#x200B; Spel een baan &#x200B;](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ Spel een baan ](https://docs.gitlab.com/ee/api/jobs.html#play-a-job) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -993,7 +992,7 @@ Voor informatie over gebieden, zie [&#x200B; Spel een baan &#x200B;](https://doc
 
 Deze actiemodule voegt een opmerking toe aan een commit.
 
-Voor informatie over gebieden, zie [&#x200B; commentaarpost &#x200B;](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) in de [!DNL GitLab] documentatie begaan.
+Voor informatie over gebieden, zie [ commentaarpost ](https://docs.gitlab.com/ee/api/commits.html#post-comment-to-commit) in de [!DNL GitLab] documentatie begaan.
 
 +++
 
@@ -1001,7 +1000,7 @@ Voor informatie over gebieden, zie [&#x200B; commentaarpost &#x200B;](https://do
 
 Deze actiemodule verwijdert de variabele van een project.
 
-Voor informatie over gebieden, zie [&#x200B; veranderlijke &#x200B;](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) in de [!DNL GitLab] documentatie verwijderen.
+Voor informatie over gebieden, zie [ veranderlijke ](https://docs.gitlab.com/ee/api/project_level_variables.html#remove-variable) in de [!DNL GitLab] documentatie verwijderen.
 
 +++
 
@@ -1034,7 +1033,7 @@ Deze actiemodule probeert één enkele bouwstijl in begaat opnieuw.
 
 Deze actiemodule probeert ontbroken bouwt in een pijpleiding opnieuw.
 
-Voor informatie over gebieden, zie [&#x200B; banen in een pijpleiding &#x200B;](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) in de [!DNL GitLab] documentatie opnieuw proberen.
+Voor informatie over gebieden, zie [ banen in een pijpleiding ](https://docs.gitlab.com/ee/api/pipelines.html#retry-jobs-in-a-pipeline) in de [!DNL GitLab] documentatie opnieuw proberen.
 
 +++
 
@@ -1042,7 +1041,7 @@ Voor informatie over gebieden, zie [&#x200B; banen in een pijpleiding &#x200B;](
 
 Deze module wint details van de specifieke variabele van een project terug.
 
-Voor informatie over gebieden, zie [&#x200B; veranderlijke details &#x200B;](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) in de [!DNL GitLab] documentatie tonen.
+Voor informatie over gebieden, zie [ veranderlijke details ](https://docs.gitlab.com/ee/api/project_level_variables.html#show-variable-details) in de [!DNL GitLab] documentatie tonen.
 
 +++
 
@@ -1050,7 +1049,7 @@ Voor informatie over gebieden, zie [&#x200B; veranderlijke details &#x200B;](htt
 
 Deze actiemodule werkt een versie bij.
 
-Voor informatie over gebieden, zie [&#x200B; een versie &#x200B;](https://docs.gitlab.com/ee/api/releases/#update-a-release) in de [!DNL GitLab] documentatie bijwerken.
+Voor informatie over gebieden, zie [ een versie ](https://docs.gitlab.com/ee/api/releases/#update-a-release) in de [!DNL GitLab] documentatie bijwerken.
 
 +++
 
@@ -1058,7 +1057,7 @@ Voor informatie over gebieden, zie [&#x200B; een versie &#x200B;](https://docs.g
 
 Deze actiemodule werkt een bestaande samenvoegaanvraag bij. U kunt de doelvertakking, de titel veranderen, of zelfs MR sluiten.
 
-Voor informatie over gebieden, zie [&#x200B; de fusieverzoek van de Update &#x200B;](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ de fusieverzoek van de Update ](https://docs.gitlab.com/ee/api/merge_requests.html#update-mr) in de [!DNL GitLab] documentatie.
 
 +++
 
@@ -1066,6 +1065,6 @@ Voor informatie over gebieden, zie [&#x200B; de fusieverzoek van de Update &#x20
 
 Deze actiemodule werkt de variabele van een project bij.
 
-Voor informatie over gebieden, zie [&#x200B; veranderlijke Update &#x200B;](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) in de [!DNL GitLab] documentatie.
+Voor informatie over gebieden, zie [ veranderlijke Update ](https://docs.gitlab.com/ee/api/project_level_variables.html#update-variable) in de [!DNL GitLab] documentatie.
 
 +++

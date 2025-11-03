@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d32ebd-1807-495e-8aaf-27346056ec71
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
 workflow-type: tm+mt
-source-wordcount: '3176'
+source-wordcount: '3182'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Dit artikel beschrijft de nieuwe versie van de schakelaar Frame.io. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 4.
 >
->Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [&#x200B; schakelaar van de Verouderde ouder Frame.io &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
+>Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [ schakelaar van de Verouderde ouder Frame.io ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
 
 Met de Adobe Workfront Fusion [!DNL Frame.io] -modules kunt u elementen en opmerkingen in uw [!DNL Frame.io] -account controleren, maken, bijwerken, ophalen of verwijderen.
 
@@ -28,18 +28,16 @@ Workfront biedt twee Frame.io-connectors, gebaseerd op de versie van Frame.io wa
 | Frame.io | V4 |
 | Frame.io (Verouderd) | V3 |
 
-Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [&#x200B; schakelaar van de Verouderde ouder Frame.io &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
+Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [ schakelaar van de Verouderde ouder Frame.io ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
 
 
 Voor een videoinleiding aan de Schakelaar Frame.io, zie:
 
-* [&#x200B; Frame.io &#x200B;](https://video.tv.adobe.com/v/3427032/){target=_blank}
+* [ Frame.io ](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -47,34 +45,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -138,12 +133,12 @@ Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing 
 
 Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
 
-1. Open [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
 
    of
 
-   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [&#x200B; een leeg project &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
 
 1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
 1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
@@ -232,12 +227,12 @@ Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing 
 
 Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
 
-1. Open [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
 
    of
 
-   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [&#x200B; een leeg project &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
 
 1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
 1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
@@ -298,9 +293,9 @@ Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console p
 
 Wanneer u [!DNL Frame.io] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Frame.io] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Assets](#assets)
 * [Opmerkingen](#comments)

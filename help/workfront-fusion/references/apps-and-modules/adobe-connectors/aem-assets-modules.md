@@ -4,9 +4,9 @@ description: Met de Adobe Experience Manager Assets-connector voor Adobe Workfro
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 361e6c9c-1497-4f47-85bb-503619744968
-source-git-commit: 190c35629f1fc1e07eef4110f3f4f771af1065fb
+source-git-commit: d4bdc4005a3b7b22d64adc8ca1d20bcf534ddfd1
 workflow-type: tm+mt
-source-wordcount: '3727'
+source-wordcount: '3734'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,11 @@ Met de Adobe Experience Manager Assets-connector voor Adobe Workfront Fusion kun
 
 Ga voor een video-introductie over de Adobe Experience Manager Assets-connector naar:
 
-* [&#x200B; Adobe Experience Manager Assets &#x200B;](https://video.tv.adobe.com/v/3427034/){target=_blank}
+* [ Adobe Experience Manager Assets ](https://video.tv.adobe.com/v/3427034/){target=_blank}
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -31,34 +29,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: Workfront Fusion for Automation and Integration </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -67,10 +62,10 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x2
 * U moet een Adobe Experience Manager Assets-account hebben om deze modules te kunnen gebruiken.
 * U moet server-aan-server stroom in de console van Adobe Developer plaatsen.
 
-  Voor instructies bij vestiging server-aan-server stroom in de console van Adobe Developer, zie [&#x200B; Genererend de Tokens van de Toegang voor de Kant APIs van de Server &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=nl-NL#the-server-to-server-flow).
+  Voor instructies bij vestiging server-aan-server stroom in de console van Adobe Developer, zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 * Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 
-  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#x200B; in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
+  Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst [ in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
 
 ## Adobe Experience Manager Assets API-informatie
 
@@ -105,9 +100,9 @@ Verbinding maken voor uw Adobe Experience Manager Assets-modules:
 
 3. Vul de velden in voor het type verbinding dat u maakt.
 
-   Voor AEM Assets as a Cloud Service, zie [&#x200B; de verbinding voor AEM Assets as a Cloud Service &#x200B;](#configure-the-connection-for-aem-assets-as-a-cloud-service) vormen.
+   Voor AEM Assets as a Cloud Service, zie [ de verbinding voor AEM Assets as a Cloud Service ](#configure-the-connection-for-aem-assets-as-a-cloud-service) vormen.
 
-   Voor AEM Assets Basis (Adobe Managed Services), zie [&#x200B; de verbinding voor AEM Assets Basis &#x200B;](#configure-the-connection-for-aemassets-basic-adobe-managed-services) vormen.
+   Voor AEM Assets Basis (Adobe Managed Services), zie [ de verbinding voor AEM Assets Basis ](#configure-the-connection-for-aemassets-basic-adobe-managed-services) vormen.
 
 4. Klik **verdergaan** om de verbinding te bewaren en aan de module terug te keren.
 
@@ -118,11 +113,11 @@ Verbinding maken voor uw Adobe Experience Manager Assets-modules:
 >
 >* De informatie voor deze velden wordt gegenereerd als onderdeel van het instellen van server-naar-server flow op de Adobe Developer Console. U kunt deze waarden vinden in het JSON-bestand met servicereferenties dat is gegenereerd als onderdeel van die instelling.
 >
->   Voor instructies bij vestiging server-aan-server stroom op Adobe Developer Console, zie [&#x200B; Genererend de Tokens van de Toegang voor de Kant APIs van de Server &#x200B;](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html?lang=nl-NL#the-server-to-server-flow).
+>   Voor instructies bij vestiging server-aan-server stroom op Adobe Developer Console, zie [ Genererend de Tokens van de Toegang voor de Kant APIs van de Server ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/developing/generating-access-tokens-for-server-side-apis.html#the-server-to-server-flow).
 >
 >* Je technische Adobe Experience Manager-account moet schrijfmachtigingen hebben.
 >
->   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie &lbrace;de geloofsbrieven van de Dienst [&#x200B; in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/nl/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
+>   Voor instructies bij het toevoegen van schrijven toestemmingen aan uw technische rekening van Adobe Experience Manager, zie {de geloofsbrieven van de Dienst [ in de documentatie van Adobe Experience Manager.](https://experienceleague.adobe.com/en/docs/experience-manager-learn/getting-started-with-aem-headless/authentication/service-credentials)
 
 
 <table style="table-layout:auto"> 
@@ -211,9 +206,9 @@ Verbinding maken voor uw Adobe Experience Manager Assets-modules:
 
 Wanneer u Adobe Experience Manager Assets-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er aanvullende Adobe Experience Manager Assets-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Bestandsbewerkingen](#files-operations)
 * [Overige](#other)

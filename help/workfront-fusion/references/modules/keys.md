@@ -4,9 +4,9 @@ description: De sleutelhanger in Adobe Workfront Fusion helpt u bij het beheren 
 author: Becky
 feature: Workfront Fusion
 exl-id: b92e54ed-fa03-4af7-be7b-436907b2bff9
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 99621f57da1eb294834a0eacfe527dcf017408e9
 workflow-type: tm+mt
-source-wordcount: '176'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,35 @@ ht-degree: 0%
 # Toetsen
 
 De openbare en privé sleutels worden gebruikt om gegevens te coderen en te decrypteren. De openbare sleutel kan worden verdeeld, en iedereen met de openbare sleutel kan gegevens coderen, maar slechts kan de privé sleutel het decrypteren. Op dezelfde manier kan een gebruiker met een persoonlijke sleutel gegevens coderen die iedereen met de openbare sleutel kan decoderen. In het gebied van Sleutels, kunt u sleutels bekijken en beheren die uw team bezit.
+
+## Toegangsvereisten
+
++++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
+
+<table style="table-layout:auto">
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
+  </tr> 
+  <tr data-mc-conditions=""> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Product</td> 
+   <td>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
+   </td> 
+  </tr>
+ </tbody> 
+</table>
+
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+
++++
 
 ## Toetsen gebruiken in Workfront Fusion
 

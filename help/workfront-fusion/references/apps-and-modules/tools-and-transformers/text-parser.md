@@ -4,9 +4,9 @@ description: Met het gereedschap Tekstparser kunt u tekst parseren voor gebruik 
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 885d714e-fc09-41a2-89dc-ebe29a355e43
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1177'
 ht-degree: 0%
 
 ---
@@ -19,42 +19,32 @@ Met de [!UICONTROL Text parser tool] kunt u tekst parseren voor gebruik in ander
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
-   <td>
-   <p>Geen Workfront Fusion-licentievereiste</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
+
+
 
 ## API-informatie voor tekstparser
 
@@ -75,9 +65,9 @@ De schakelaar van de parser van de Tekst gebruikt het volgende:
 
 Wanneer u [!UICONTROL Text parser] modules configureert, geeft Adobe Workfront Fusion de onderstaande velden weer. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 ### Transformatoren
 
@@ -167,9 +157,9 @@ Een reguliere expressie is een reeks tekens waarin elk teken een metateken is me
 
 Een discussie over reguliere expressies valt buiten het toepassingsgebied van dit artikel. Wij adviseren de volgende middelen:
 
-* Voor de volledige lijst van metacharacters, zie [&#x200B; Reguliere uitdrukkingen &#x200B;](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) in MDN Web docs.
-* Voor een leerprogramma op hoe te om regelmatige uitdrukkingen tot stand te brengen, adviseren wij [&#x200B; RegexOne &#x200B;](https://regexone.com/).
-* Voor het experimenteren met regelmatige uitdrukkingen, adviseren wij de [&#x200B; Reguliere Uitdrukkingen 101 &#x200B;](https://regex101.com/) website. Selecteer de ECMAScript-FLAVOR (JavaScript) in het linkerdeelvenster.
+* Voor de volledige lijst van metacharacters, zie [ Reguliere uitdrukkingen ](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Regular_Expressions) in MDN Web docs.
+* Voor een leerprogramma op hoe te om regelmatige uitdrukkingen tot stand te brengen, adviseren wij [ RegexOne ](https://regexone.com/).
+* Voor het experimenteren met regelmatige uitdrukkingen, adviseren wij de [ Reguliere Uitdrukkingen 101 ](https://regex101.com/) website. Selecteer de ECMAScript-FLAVOR (JavaScript) in het linkerdeelvenster.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -249,7 +239,7 @@ Zoekt de ingevoerde tekst naar een opgegeven waarde of reguliere expressie en ve
 
 Het schrapen van gegevens, soms genoemd Webschrapping, gegevensextractie, of Web het oogsten, is het proces om gegevens van websites te verzamelen en het op te slaan in uw lokale gegevensbestand of spreadsheets. Als u gegevens van een website wilt verwijderen en u niet bekend bent met reguliere expressies, kunt u een gereedschap voor het verwijderen van gegevens gebruiken.
 
-Als het hulpmiddel van de gegevensschrapping REST API verstrekt, kunt u met het via onze universele [[!UICONTROL HTTP] modules &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors) en [&#x200B; Webhooks &#x200B;](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md) modules verbinden.
+Als het hulpmiddel van de gegevensschrapping REST API verstrekt, kunt u met het via onze universele [[!UICONTROL HTTP] modules ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors) en [ Webhooks ](/help/workfront-fusion/references/apps-and-modules/universal-connectors/webhooks-updated.md) modules verbinden.
 
 ## Problemen met tekstparsering
 
@@ -267,21 +257,21 @@ Deze reguliere expressie resulteert normaal gesproken in een volledige overeenko
 
 Het implementeren van deze expressie in uw tekstparser resulteert echter niet in een overeenkomst:
 
-![&#x200B; Geen gelijke &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-you-dont-get-a-match-350x365.png)
+![ Geen gelijke ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-you-dont-get-a-match-350x365.png)
 
 De reden hiervoor is dat &quot;i&quot;slechts het aantal gelijken per gelijke toont zodat in dit geval, hebben wij 2 gelijken, daarom nadat &quot;i&quot;er een numerieke waarde 1 en 2 is. Het gebruik hiervan is dat als u ooit gegevens via een filter moet aanpassen of doorgeven, alleen de tweede overeenkomende waarde kan worden opgegeven welke waarde wordt vertegenwoordigd door de numerieke waarde.
 
-![&#x200B; Gelijke &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-matches-350x355.png)
+![ Gelijke ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-matches-350x355.png)
 
 Als u de overeenkomende waarden wilt ophalen die u nodig hebt om haakjes toe te voegen aan het onderdeel dat u wilt parseren (bijvoorbeeld als u wilt extraheren uit &quot;filename.docx&quot; - alleen &quot;docx&quot;), moeten de haakjes volgens de regex-expressie die we in dit casescenario gebruiken, worden toegepast op \.(.+)
 
 Hierdoor wordt de DOCX vastgelegd, in een groep geplaatst en de &quot;.&quot; van het.
 
-![&#x200B; krijgt gelijken &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-get-matches-350x592.png)
+![ krijgt gelijken ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-get-matches-350x592.png)
 
 In de uitvoer die in de onderstaande afbeelding wordt weergegeven, komt de vastgelegde groep overeen met elk willekeurig teken (behalve regeleinde).
 
-![&#x200B; Output &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-output-350x389.png)
+![ Output ](/help/workfront-fusion/references/apps-and-modules/assets/text-parser-output-350x389.png)
 
 Een andere oplossing die ook regex opneemt, gebruikt de vervangingsfunctie
 

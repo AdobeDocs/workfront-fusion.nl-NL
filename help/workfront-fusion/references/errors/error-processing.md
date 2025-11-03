@@ -5,9 +5,9 @@ description: Soms kan een fout tijdens de uitvoering van een scenario voorkomen.
 author: Becky
 feature: Workfront Fusion
 exl-id: abf5f844-d13b-416e-a8b8-2d4ee1786262
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 99621f57da1eb294834a0eacfe527dcf017408e9
 workflow-type: tm+mt
-source-wordcount: '1195'
+source-wordcount: '1181'
 ht-degree: 0%
 
 ---
@@ -22,47 +22,30 @@ Adobe Workfront Fusion maakt onderscheid tussen verschillende basistypen fouten.
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
 
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
-
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-pakket</td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> Nieuw: Standaard<p>of</p><p>Huidig: Werk of hoger</p> </td> 
-  </tr> 
-  <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] licentie</td> 
-   <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten.</p>
-   <p>of</p>
-   <p>Verouderd: alle </p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>[!UICONTROL Select] of [!UICONTROL Prime] Workfront-abonnement: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>[!UICONTROL Ultimate] Workfront-abonnement: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Neem contact op met uw Workfront-beheerder om te weten te komen welk plan, licentietype of toegang u hebt.
-
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
-
-+++
-
-## Verbindingsfout
++++## Verbindingsfout 
 
 `ConnectionError`
 
@@ -73,10 +56,10 @@ Verbindingsfouten zijn een van de meest voorkomende fouten. Zij worden gewoonlij
 
    * Als deze optie is ingeschakeld, wordt de uitvoering van het scenario verplaatst naar de map [!UICONTROL Incomplete executions] waar Workfront Fusion herhaaldelijk probeert het scenario opnieuw uit te voeren met toenemende tijdsintervallen. Als alle pogingen mislukken, blijft de uitvoering in de map Onvolledige uitvoeringen staan, in afwachting van handmatige oplossing door de gebruiker.
 
-     Voor meer informatie over onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+     Voor meer informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
    * Als deze optie is uitgeschakeld, eindigt de uitvoering van het scenario met een fout gevolgd door een terugdraaifase. Vervolgens probeert Workfront Fusion herhaaldelijk het scenario opnieuw uit te voeren met toenemende tijdsintervallen. Als alle pogingen mislukken, deactiveert Workfront Fusion het scenario.
 
-  Voor meer informatie over toestaan het opslaan van onvolledige uitvoeringen die plaatsen, zie [&#x200B; toestaan het opslaan van onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions) in artikel vormt scenario montages.
+  Voor meer informatie over toestaan het opslaan van onvolledige uitvoeringen die plaatsen, zie [ toestaan het opslaan van onvolledige uitvoeringen ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions) in artikel vormt scenario montages.
 
 ### Tijdintervallen vergroten
 
@@ -114,7 +97,7 @@ Als u de optie [!UICONTROL Allow storing incomplete executions] niet hebt ingesc
 
 Als Workfront Fusion twee keer probeert dezelfde bundel in te voegen in een service die dubbele gegevens niet toestaat, wordt een dubbele gegevensfout gegenereerd. Als deze fout optreedt, gaat Workfront Fusion op dezelfde manier te werk als de gegevensfout.
 
-Voor meer informatie, zie [&#x200B; Fout van Gegevens &#x200B;](#data-error) in dit artikel.
+Voor meer informatie, zie [ Fout van Gegevens ](#data-error) in dit artikel.
 
 
 ## Fout: toegang tot token
@@ -131,7 +114,7 @@ Als deze fout optreedt, wordt de uitvoering van het scenario onmiddellijk gestop
 
 Als een door een bepaalde dienst vastgestelde grens wordt overschreden, wordt een fout van de tariefgrens geproduceerd. Als deze fout optreedt, gaat Workfront Fusion op dezelfde manier te werk als bij de verbindingsfout.
 
-Voor meer informatie, zie [&#x200B; Fout van de Verbinding &#x200B;](#connection-error) in dit artikel.
+Voor meer informatie, zie [ Fout van de Verbinding ](#connection-error) in dit artikel.
 
 ## Onvolledige gegevensfout
 
@@ -141,7 +124,7 @@ Een onvolledige gegevensfout treedt alleen op bij triggers. Deze fout wordt gege
 
 Als een scenario met `IncompleteDataError` eindigt, zal zijn verder gedrag van zijn het plaatsen van [!UICONTROL Max number of consecutive errors] afhangen.
 
-Voor meer informatie, zie [&#x200B; Aantal opeenvolgende fouten &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#number-of-consecutive-errors) in het artikel scenario montages vormt.
+Voor meer informatie, zie [ Aantal opeenvolgende fouten ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#number-of-consecutive-errors) in het artikel scenario montages vormt.
 
 >[!BEGINSHADEBOX]
 
@@ -159,13 +142,13 @@ Elke fout die tijdens de uitvoering van het scenario wordt weergegeven en niet e
 
 Als een scenario met `RuntimeError` eindigt, hangt zijn verdere gedrag van het [!UICONTROL Max number of consecutive errors] plaatsen af.
 
-Voor meer informatie, zie [&#x200B; Aantal opeenvolgende fouten &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#number-of-consecutive-errors) in het artikel scenario montages vormt.
+Voor meer informatie, zie [ Aantal opeenvolgende fouten ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#number-of-consecutive-errors) in het artikel scenario montages vormt.
 
 
 >[!NOTE]
 >
 >Als een scenario begint met een onmiddellijke trigger en deze fout aantreft, wordt de instelling van [!UICONTROL Max number of consecutive errors] genegeerd en wordt het scenario onmiddellijk gedeactiveerd.
->&#x200B;>Voor meer informatie, zie [&#x200B; Onmiddellijke trekkers &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers) in het overzicht van de artikelmodules.
+>>Voor meer informatie, zie [ Onmiddellijke trekkers ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#instant-triggers) in het overzicht van de artikelmodules.
 
 ## Inconsistentiefout
 
@@ -183,14 +166,14 @@ Er kan bijvoorbeeld een waarschuwing verschijnen wanneer de maximaal toegestane 
 
 ## Bronnen
 
-Voor meer informatie bij afbeelding, zie [&#x200B; Overzicht van de Afbeelding &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md).
+Voor meer informatie bij afbeelding, zie [ Overzicht van de Afbeelding ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md).
 
-Voor informatie over onvolledige uitvoeringen, zie [&#x200B; Mening en los onvolledige uitvoeringen &#x200B;](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
+Voor informatie over onvolledige uitvoeringen, zie [ Mening en los onvolledige uitvoeringen ](/help/workfront-fusion/manage-scenarios/view-and-resolve-incomplete-executions.md) op.
 
-Voor informatie over het paneel van de scenario montages, zie [&#x200B; scenario montages &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
+Voor informatie over het paneel van de scenario montages, zie [ scenario montages ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md) vormen.
 
-Voor informatie over programma&#39;s, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+Voor informatie over programma&#39;s, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 
-Voor informatie over scenario fasen, zie [&#x200B; uitvoering Scenario, cycli, en fasen &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
+Voor informatie over scenario fasen, zie [ uitvoering Scenario, cycli, en fasen ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
 
-Voor informatie over de Enable optie van het gegevensverlies, zie [&#x200B; gegevensverlies &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#enable-data-loss) in artikel toelaten vormt scenario montages.
+Voor informatie over de Enable optie van het gegevensverlies, zie [ gegevensverlies ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#enable-data-loss) in artikel toelaten vormt scenario montages.

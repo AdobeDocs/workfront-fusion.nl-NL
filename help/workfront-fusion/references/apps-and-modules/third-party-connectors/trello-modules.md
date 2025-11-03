@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 5df5cd2b-ad4c-4a02-9d0c-7cee35232f93
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
 workflow-type: tm+mt
-source-wordcount: '4533'
+source-wordcount: '4539'
 ht-degree: 0%
 
 ---
@@ -15,15 +15,13 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Trello] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
 +++ Breid uit om de toegangseisen voor de functionaliteit in dit artikel weer te geven.
-
-U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen gebruiken:
 
 <table style="table-layout:auto">
  <col> 
@@ -31,34 +29,31 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-pakket</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Elk Adobe Workfront Workflow-pakket en elk Adobe Workfront Automation and Integration-pakket</p><p>Workfront Ultimate</p><p>Workfront Prime en Select packages, met extra aanschaf van Workfront Fusion.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-licentie</td> 
-   <td> <p>Nieuw: Standaard</p><p>of</p><p>Huidig: Werk of hoger</p> </td> 
+   <td role="rowheader">Adobe Workfront-licenties</td> 
+   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront Fusion-licentie**</td> 
+   <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Huidig: Geen Workfront Fusion-licentievereisten</p>
-   <p>of</p>
-   <p>Verouderd: Workfront Fusion for Work Automation and Integration </p>
+   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
+   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Nieuw:</p> <ul><li>Select- of Prime Workfront-pakket: uw organisatie moet Adobe Workfront Fusion aanschaffen.</li><li>Ultimate Workfront-pakket: Workfront Fusion is inbegrepen.</li></ul>
-   <p>of</p>
-   <p>Huidig: Uw organisatie moet Adobe Workfront Fusion aanschaffen.</p>
+   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -91,15 +86,15 @@ De Trello-aansluiting gebruikt het volgende:
 
 ## Verbinden [!UICONTROL Trello] met Workfront Fusion
 
-Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie [&#x200B; een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie [ een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 ## [!UICONTROL Trello] modules en hun velden
 
 Wanneer u [!UICONTROL Trello] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!UICONTROL Trello] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Borden](#boards)
 * [Lijsten](#lists)
@@ -255,7 +250,7 @@ In deze actiemodule wordt een nieuw board met de geselecteerde instellingen gema
    <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
     <ul> 
      <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
-     <li><strong>[!UICONTROL Regular mode &#x200B;]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
+     <li><strong>[!UICONTROL Regular mode ]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -270,95 +265,95 @@ In deze actiemodule worden de instellingen van een bestaande board bewerkt.
 >[!SUCCESS]
 >
 ><table style="table-layout:auto">
-><col> 
-> <col> 
-> <tbody> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Connection] </td> 
->   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
->   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u met de module wilt maken. U kunt de kaart-id ophalen met behulp van een andere module, zoals de module Controlebord</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/watch-boards.png"> </p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL New name]</td> 
->   <td> <p> Voer een nieuwe naam voor het bord in of wijs deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL New description]</td> 
->   <td> <p> Voer een nieuwe beschrijving van het bord in of wijs deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
->   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u wilt bewerken in de module.  </p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Subscribe] </td> 
->   <td> <p>Selecteer een optie om op te geven of de gebruiker die eigenaar is van de verbinding die door deze module wordt gebruikt, is geabonneerd op de kaart.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
->   <td> <p>De raden hebben verschillende stem en commentaarregels voor elk toestemmingsniveau. Bijvoorbeeld: als uw board [!UICONTROL Private] is en u de regels voor stemmen en opmerkingen instelt als [!UICONTROL All] , ontvangt u een fout. </p> <p>Stemmen en opmerkingen zijn beperkt tot de volgende groepen voor elk machtigingsniveau:</p> 
->    <ul> 
->     <li><strong>[!UICONTROL Private]</strong>: 
->      Leden, leden en waarnemers</li> 
->     <li><strong>[!UICONTROL For organization]</strong>: 
->      Leden, leden en waarnemers, leden van de organisatie</li> 
->     <li><strong>[!UICONTROL Public]</strong>: 
->      Leden, leden en waarnemers, organisatieleden, alle</li> 
->    </ul> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
->   <td> <p>Selecteer een optie om aan te geven wie op dit bord kan stemmen. Zie het veld [!UICONTROL Permission level] voor stembeperkingen op machtigingsniveaus.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
->   <td> <p>Selecteer een optie om op te geven wie opmerkingen kan plaatsen op de kaarten voor dit bord. Zie het veld [!UICONTROL Permission level] voor opmerkingen over beperkingen op machtigingsniveaus.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Invitations] </td> 
->   <td> <p>Selecteer wie personen kan uitnodigen voor dit bord.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Self-join]</td> 
->   <td> <p> Selecteer of teamleden zich bij de raad van bestuur kunnen aansluiten of zij moeten worden uitgenodigd.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Card covers]</td> 
->   <td> <p> Selecteer of de kaartomslagen op dit bord zouden moeten worden getoond.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Background] </td> 
->   <td> <p>Selecteer de kleur van de achtergrond of de aangepaste achtergrond.</p> <p>Opmerking: aangepaste achtergronden zijn alleen beschikbaar voor abonnees van [!UICONTROL Trello Gold and Business Class] .</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Background ID]</td> 
->   <td> <p> Als u een aangepaste achtergrond wilt gebruiken in het veld [!UICONTROL Background] , voert u de id van de achtergrond die u wilt gebruiken in of wijst u deze toe.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
->   <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
->    <ul> 
->     <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
->     <li><strong>[!UICONTROL Regular mode]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
->    </ul> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Calendar feed enabled]</td> 
->   <td> <p> Selecteer of de kalenderfeed is ingeschakeld.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL &lt;Color> label name]</td> 
->   <td> <p> Wijs een naam toe aan het gewenste kleurlabel.</p> </td> 
->  </tr> 
->  <tr> 
->   <td role="rowheader">[!UICONTROL Archive] </td> 
->   <td> <p>Selecteer een optie om aan te geven of u het board wilt archiveren (sluiten). </p> </td> 
->  </tr> 
-> </tbody> 
-></table>
+<col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td> <p>Voor instructies over het aansluiten van uw [!UICONTROL Trello] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Board ID]</p> </td> 
+   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u met de module wilt maken. U kunt de kaart-id ophalen met behulp van een andere module, zoals de module Controlebord</p> <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/watch-boards.png"> </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New name]</td> 
+   <td> <p> Voer een nieuwe naam voor het bord in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL New description]</td> 
+   <td> <p> Voer een nieuwe beschrijving van het bord in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Organization ID]</p> </td> 
+   <td> <p>Voer de unieke [!UICONTROL Trello] -id in of wijs deze toe aan het bord dat u wilt bewerken in de module.  </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Subscribe] </td> 
+   <td> <p>Selecteer een optie om op te geven of de gebruiker die eigenaar is van de verbinding die door deze module wordt gebruikt, is geabonneerd op de kaart.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Permission level]</p> </td> 
+   <td> <p>De raden hebben verschillende stem en commentaarregels voor elk toestemmingsniveau. Bijvoorbeeld: als uw board [!UICONTROL Private] is en u de regels voor stemmen en opmerkingen instelt als [!UICONTROL All] , ontvangt u een fout. </p> <p>Stemmen en opmerkingen zijn beperkt tot de volgende groepen voor elk machtigingsniveau:</p> 
+    <ul> 
+     <li><strong>[!UICONTROL Private]</strong>: 
+      Leden, leden en waarnemers</li> 
+     <li><strong>[!UICONTROL For organization]</strong>: 
+      Leden, leden en waarnemers, leden van de organisatie</li> 
+     <li><strong>[!UICONTROL Public]</strong>: 
+      Leden, leden en waarnemers, organisatieleden, alle</li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Voting]</p> </td> 
+   <td> <p>Selecteer een optie om aan te geven wie op dit bord kan stemmen. Zie het veld [!UICONTROL Permission level] voor stembeperkingen op machtigingsniveaus.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Comments]</p> </td> 
+   <td> <p>Selecteer een optie om op te geven wie opmerkingen kan plaatsen op de kaarten voor dit bord. Zie het veld [!UICONTROL Permission level] voor opmerkingen over beperkingen op machtigingsniveaus.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Invitations] </td> 
+   <td> <p>Selecteer wie personen kan uitnodigen voor dit bord.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Self-join]</td> 
+   <td> <p> Selecteer of teamleden zich bij de raad van bestuur kunnen aansluiten of zij moeten worden uitgenodigd.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Card covers]</td> 
+   <td> <p> Selecteer of de kaartomslagen op dit bord zouden moeten worden getoond.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Background] </td> 
+   <td> <p>Selecteer de kleur van de achtergrond of de aangepaste achtergrond.</p> <p>Opmerking: aangepaste achtergronden zijn alleen beschikbaar voor abonnees van [!UICONTROL Trello Gold and Business Class] .</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Background ID]</td> 
+   <td> <p> Als u een aangepaste achtergrond wilt gebruiken in het veld [!UICONTROL Background] , voert u de id van de achtergrond die u wilt gebruiken in of wijst u deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>[!UICONTROL Card aging]</p> </td> 
+   <td> <p>Selecteer een optie tussen twee manieren voor kaartveroudering. </p> 
+    <ul> 
+     <li><strong>[!UICONTROL Pirate mode]</strong>: Kaarten scheuren, geel en kraken als een oude piratenkaart terwijl ze ouder worden.</li> 
+     <li><strong>[!UICONTROL Regular mode]</strong>: Kaarten worden steeds transparanter naarmate ze ouder worden. </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Calendar feed enabled]</td> 
+   <td> <p> Selecteer of de kalenderfeed is ingeschakeld.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL <Color> label name]</td> 
+   <td> <p> Wijs een naam toe aan het gewenste kleurlabel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Archive] </td> 
+   <td> <p>Selecteer een optie om aan te geven of u het board wilt archiveren (sluiten). </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
 
 
 +++
@@ -929,7 +924,7 @@ Deze actiemodule voegt het opgegeven lid toe aan de opgegeven kaart.
 
 +++ **[!UICONTROL Assign a Member to a Board]**
 
-Zie &quot;[!UICONTROL Assign a Member to a Board]&quot;onder [&#x200B; Boards &#x200B;](#boards).
+Zie &quot;[!UICONTROL Assign a Member to a Board]&quot;onder [ Boards ](#boards).
 
 +++
 
@@ -964,7 +959,7 @@ Deze actiemodule haalt informatie op over [!UICONTROL Trello] leden.
 
 +++ **[!UICONTROL Unassign a Member from a Board]**
 
-Zie &quot;[!UICONTROL Unassign a Member from a Board]&quot;onder [&#x200B; Boards &#x200B;](#boards).
+Zie &quot;[!UICONTROL Unassign a Member from a Board]&quot;onder [ Boards ](#boards).
 
 +++
 
@@ -1219,7 +1214,7 @@ Deze triggermodule start een scenario wanneer een opmerking wordt toegevoegd.
 
 Als u een kaart wilt bewerken of een nieuwe opmerking wilt maken, moet u de id van de kaart of de bijbehorende snelkoppeling weten. U kunt deze informatie ophalen uit de uitvoer van de trigger [!UICONTROL New Card] . U kunt de snelkoppeling voor een kaart ook verkrijgen door de kaart te openen en op de knop [!UICONTROL Share] te klikken. De snelkoppeling vindt u in het vak [!UICONTROL Link to this card] aan het einde van de URL na `https://trello.com/c/` .
 
-![&#x200B; Aandeel en meer &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/share-and-more-350x575.png)
+![ Aandeel en meer ](/help/workfront-fusion/references/apps-and-modules/assets/share-and-more-350x575.png)
 
 ### Id&#39;s van andere objecten zoeken in [!DNL Trello]
 
