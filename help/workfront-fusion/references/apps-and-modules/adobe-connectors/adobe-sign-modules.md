@@ -123,7 +123,7 @@ Deze triggermodule start een scenario wanneer een overeenkomst wordt gemaakt of 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Find text]</td> 
-   <td> <p>Voer termen in waarnaar u wilt zoeken. De module retourneert records die deze termen als veldwaarden bevatten.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van tekst"in <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks"> het Onderteken van Adobe Onderzoek werkt - hoe het </a> werkt.</p> </td> 
+   <td> <p>Voer termen in waarnaar u wilt zoeken. De module retourneert records die deze termen als veldwaarden bevatten.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van tekst"in <a href="https://helpx.adobe.com/nl/sign/using/adobesign-search-users-agreements.html#HowSearchWorks"> het Onderteken van Adobe Onderzoek werkt - hoe het </a> werkt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Maximum number of returned agreements]</td> 
@@ -972,7 +972,7 @@ Deze zoekmodule zoekt naar overeenkomsten op basis van criteria die u opgeeft.
     <ul> 
      <li> <p><b>[!UICONTROL Find text]</b> </p> <p>Typ de tekst die u wilt zoeken in de metagegevens van de overeenkomst. Elk woord wordt behandeld als een afzonderlijk tekstitem. </p> </li> 
      <li> <p><b>[!UICONTROL Find text in]</b> </p> <p>Selecteer de metagegevensvelden waarin u tekst wilt zoeken. Als u niets selecteert, zoeken de modules alle meta-gegevens.</p> </li> 
-    </ul> <p>De module retourneert elke overeenkomst die een van de ingevoerde tekst in een van de geselecteerde velden bevat. Voorbeeld: als u "Voorjaarscampagne" invoert en de opties Titel en Notitie selecteert, worden alle overeenkomsten geretourneerd met de woorden "Lente" of "Campagne" in Titel of Notitie.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van de tekst"in <a href="https://helpx.adobe.com/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign] Onderzoek - hoe het werkt </a>.</p> </td> 
+    </ul> <p>De module retourneert elke overeenkomst die een van de ingevoerde tekst in een van de geselecteerde velden bevat. Voorbeeld: als u "Voorjaarscampagne" invoert en de opties Titel en Notitie selecteert, worden alle overeenkomsten geretourneerd met de woorden "Lente" of "Campagne" in Titel of Notitie.</p> <p>Voor meer informatie bij het zoeken van gebieden in [!DNL Adobe Acrobat Sign], zie "hoe het zoeken van de tekst"in <a href="https://helpx.adobe.com/nl/sign/using/adobesign-search-users-agreements.html#HowSearchWorks">[!DNL Adobe Sign] Onderzoek - hoe het werkt </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Created date]</td> 
