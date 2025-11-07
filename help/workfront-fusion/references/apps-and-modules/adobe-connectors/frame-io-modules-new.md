@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d32ebd-1807-495e-8aaf-27346056ec71
-source-git-commit: b23255cb9585c58f025a0b2c99b824ecbf2c6879
+source-git-commit: 52dbf75ebb65a1de1a7a86619af4c7633e0cbe03
 workflow-type: tm+mt
-source-wordcount: '3178'
+source-wordcount: '3952'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Dit artikel beschrijft de nieuwe versie van de schakelaar Frame.io. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 4.
 >
->Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [&#x200B; schakelaar van de Verouderde ouder Frame.io &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
+>Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [ schakelaar van de Verouderde ouder Frame.io ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
 
 Met de Adobe Workfront Fusion [!DNL Frame.io] -modules kunt u elementen en opmerkingen in uw [!DNL Frame.io] -account controleren, maken, bijwerken, ophalen of verwijderen.
 
@@ -28,12 +28,12 @@ Workfront biedt twee Frame.io-connectors, gebaseerd op de versie van Frame.io wa
 | Frame.io | V4 |
 | Frame.io (Verouderd) | V3 |
 
-Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [&#x200B; schakelaar van de Verouderde ouder Frame.io &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
+Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [ schakelaar van de Verouderde ouder Frame.io ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
 
 
 Voor een videoinleiding aan de Schakelaar Frame.io, zie:
 
-* [&#x200B; Frame.io &#x200B;](https://video.tv.adobe.com/v/3427032/){target=_blank}
+* [ Frame.io ](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -67,9 +67,9 @@ Voor een videoinleiding aan de Schakelaar Frame.io, zie:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -133,12 +133,12 @@ Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing 
 
 Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
 
-1. Open [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
 
    of
 
-   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [&#x200B; een leeg project &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
 
 1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
 1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
@@ -227,12 +227,12 @@ Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing 
 
 Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
 
-1. Open [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
 
    of
 
-   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [&#x200B; een leeg project &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
 
 1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
 1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
@@ -293,9 +293,9 @@ Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console p
 
 Wanneer u [!DNL Frame.io] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Frame.io] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Assets](#assets)
 * [Opmerkingen](#comments)
@@ -303,6 +303,7 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Projecten](#projects)
 * [Aandelen](#shares)
 * [Werkruimten](#workspaces)
+* [Metagegevens](#metadata)
 * [Overige](#other)
 
 ### Assets
@@ -315,6 +316,61 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Nieuw element bekijken](#watch-new-asset)
 
 #### [!UICONTROL Create an asset] <!--different for v4-->
+
+Deze actiemodule maakt een nieuw element. U kunt een lokaal bestand uploaden of de URL opgeven voor een extern bestand waarmee het element wordt gemaakt.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Account ID] </td> 
+   <td> <p>Selecteer de account of wijs de id van de account toe die het project bevat waarvoor u middelen wilt maken.</p> </td> 
+  </tr> 
+ <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID] </td> 
+   <td> <p>Selecteer de werkruimte of wijs identiteitskaart van de werkruimte toe die het project bevat dat u activa voor wilt tot stand brengen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Project ID] </td> 
+   <td> <p>Selecteer het project of wijs identiteitskaart van het project toe dat u activa voor wilt tot stand brengen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Path] </td> 
+   <td> <p>Selecteer het pad waar u elementen wilt maken.</p> </td> 
+  </tr> 
+<!--  <tr> 
+   <td role="rowheader">[!UICONTROL File Name] </td> 
+   <td> <p>Enter the name of the file that you want to use for this asset.</p> </td> 
+  </tr> -->
+    <tr> 
+    <td role="rowheader">Tekst uploaden </td> 
+    <td> <p>Selecteer of u een middel van een lokaal dossier of een verre levensduur creeert.</p> </td> 
+   </tr>
+    <tr> 
+    <td role="rowheader">Bestandsgrootte </td> 
+    <td> <p>Als u een lokaal bestand uploadt, voert u de bestandsgrootte in bytes in of wijst u deze toe.</p> </td> 
+   </tr>
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source URL] </td> 
+   <td> <p>Als u het element maakt op basis van een extern bestand, voert u de URL in van het bestand dat u wilt uploaden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td>[!UICONTROL Source file]</td> 
+   <td> <p>Selecteer een bronbestand uit een vorige module of wijs de naam van het bronbestand toe.</p> </td> 
+  </tr> 
+<!--  <tr> 
+   <td role="rowheader">[!UICONTROL Media type] </td> 
+   <td> <p>Select the media type for this asset.</p> </td> 
+  </tr> -->
+  </tbody> 
+</table>
+
+#### [!UICONTROL Create an asset (Legacy)] <!--different for v4-->
 
 Deze actiemodule maakt een nieuw element.
 
@@ -967,6 +1023,183 @@ In deze module worden alle werkruimten in een account weergegeven.
    <td role="rowheader">[!UICONTROL Maximum number of returned workspaces] </td> 
    <td> <p>Het maximum aantal werkruimten invoeren of toewijzen
    u wilt de module tijdens elke cyclus van de scenariouitvoering terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Metagegevens
+
+* [Een veld op accountniveau maken](#create-an-account-level-field)
+* [Een veld op accountniveau verwijderen](#delete-an-account-level-field)
+* [Metagegevens ophalen](#get-metadata)
+* [Velden op accountniveau weergeven](#list-account-level-fields)
+* [Een velddefinitie op accountniveau bijwerken](#update-an-account-level-field-definition)
+* [Metagegevens in meerdere bestanden bijwerken](#update-metadata-across-multiple-files)
+
+#### Een veld op accountniveau maken
+
+Deze actiemodule leidt tot en vormt een nieuw gebied van de meta-gegevens van het rekeningsniveau.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Account ID] </td> 
+   <td> <p>Selecteer of wijs de rekening toe waar u de meta-gegevens wilt tot stand brengen.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">Veldtype </td> 
+   <td> <p>Selecteer het type metagegevensveld dat u wilt maken en configureer vervolgens de opties voor dat veld.</p> </td> 
+  </tr> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">Naam </td> 
+   <td> <p>Voer een naam in of wijs een naam toe aan het nieuwe veld.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Een veld op accountniveau verwijderen
+
+Deze actiemodule verwijdert één metagegevensveld op accountniveau.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Account ID] </td> 
+   <td> <p>Selecteer of wijs de rekening toe die het meta-gegevensgebied bevat u wilt schrappen.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">Velddefinitie-id </td> 
+   <td> <p>Voer de id in van het veld dat u wilt verwijderen of wijs deze toe. U kunt veld-id's vinden in de module Lijstaccountniveau.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Metagegevens ophalen
+
+Deze actiemodule wint de meta-gegevens voor een dossier in Frame.io terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Account ID] </td> 
+   <td> <p>Selecteer of wijs de rekening toe die dossier bevat u meta-gegevens voor wilt terugwinnen.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">Bestand-id </td> 
+   <td> <p>Voer de id in of wijs de id toe van het bestand waarvoor u metagegevens wilt ophalen.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">null tonen </td> 
+   <td> <p>Schakel deze optie in om velden met de waarde null op te nemen in de uitvoer.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Velden op accountniveau weergeven
+
+Deze module wint een lijst van de gegevensgebieden van rekeningsniveau voor de gespecificeerde rekening terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Account ID] </td> 
+   <td> <p>Selecteer of wijs de rekening toe die u van gebieden van wilt een lijst maken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Maximum number of returned agreements]</td> 
+   <td> <p>Ga of kaart het maximumaantal gebieden in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Een velddefinitie op accountniveau bijwerken
+
+In deze module wordt de definitie van één bestaand metagegevensveld bijgewerkt.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Account ID] </td> 
+   <td> <p>Selecteer of wijs de rekening toe waar u de meta-gegevens wilt tot stand brengen.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">Velddefinitie-id </td> 
+   <td> <p>Voer de id in van het veld dat u wilt bijwerken of wijs deze toe. U kunt veld-id's vinden in de module Lijstaccountniveau.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">Veldtype </td> 
+   <td> <p>Als u het veldtype van het veld wilt wijzigen, selecteert u het type metagegevensveld dat u wilt maken en configureert u vervolgens de opties voor dat veld.</p> </td> 
+  </tr> 
+  </tr> 
+   <tr> 
+   <td role="rowheader">Naam </td> 
+   <td> <p>Voer een nieuwe naam in of wijs een nieuwe naam toe aan het veld.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Metagegevens in meerdere bestanden bijwerken
+
+Deze module werkt meta-gegevensgebieden op één of meerdere dossiers met waarden bij u specificeert.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+    <td role="rowheader">[!UICONTROL Connection] </td> 
+   <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Account ID] </td> 
+   <td> <p>Selecteer of wijs de rekening toe die de dossiers bevat u meta-gegevens voor wilt bijwerken.</p> </td> 
+  </tr> 
+ <tr> 
+   <td role="rowheader">[!UICONTROL Workspace ID] </td> 
+   <td> <p>Selecteer de werkruimte of wijs identiteitskaart van de werkruimte toe die het project bevat dat u activa voor wilt tot stand brengen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Project ID] </td> 
+   <td> <p>Selecteer het project of wijs identiteitskaart van het project toe dat u activa voor wilt tot stand brengen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL File IDs] </td> 
+   <td> <p>Voor elk dossier dat u de meta-gegevens voor wilt bijwerken, <b> toevoegt punt </b> en gaat of kaart identiteitskaart van het dossier in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Values] </td> 
+   <td> <p>Voor elk gebied dat u de meta-gegevens voor wilt bijwerken, <b> toevoegt punt </b> en gaat identiteitskaart van de gebiedsdefinitie in of in kaart, en de waarde die u op dat gebied wilt zetten. Alle bestanden die in het veld Bestands-id's zijn opgegeven, worden met deze veldwaarde bijgewerkt.</p> </td> 
   </tr> 
  </tbody> 
 </table>
