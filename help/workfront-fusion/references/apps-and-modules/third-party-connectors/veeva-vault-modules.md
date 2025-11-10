@@ -3,10 +3,10 @@ title: Veeva Vault-modules
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 37cb18a2e13a494c4174514539c0c7e43cdee011
+source-git-commit: 4ba05a5f400ba1bdfb97586500baf741b555cd20
 workflow-type: tm+mt
-source-wordcount: '1660'
-ht-degree: 1%
+source-wordcount: '2324'
+ht-degree: 0%
 
 ---
 
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -50,9 +50,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -114,22 +114,27 @@ U kunt rechtstreeks vanuit een Veva Vault-module een verbinding maken met uw Vev
 
 Wanneer u Veeva Vault-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Naast deze opties kunnen extra Vève Vault-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+
+* [Document](#document)
+* [Object](#object)
+* [Overige](#other)
 
 ### Document
 
 * [Eén document maken](#create-a-single-document)
 * [Meerdere documenten maken](#create-multiple-documents)
 * [Eén document verwijderen](#delete-a-single-document)
+* [Een bestand downloaden](#download-file)
 * [Documenten exporteren](#export-documents)
 * [Eén document ophalen](#get-a-single-document)
 * [Gebruikersactie starten](#initiate-user-action)
 * [Documenten weergeven](#list-documents)
 * [Exportresultaten van document ophalen](#retrieve-document-export-results)
-* [Meerdere documenten bijwerken](#update-multiple-documents)
 * [Eén document bijwerken](#update-a-single-document)
+* [Meerdere documenten bijwerken](#update-multiple-documents)
 
 #### Eén document maken
 
@@ -196,6 +201,41 @@ Deze module verwijdert één document, binder of sjabloon.
   <tr> 
    <td role="rowheader"><p>Document-id / Binder-id / Sjabloonnaam</p> </td> 
    <td> <p>Selecteer de velden die u wilt verwijderen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Bestand downloaden
+
+Deze module downloadt een document, documentversie of sjabloon van Veeva Vault.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Type</p> </td> 
+   <td> <p>Selecteer of u een document of sjabloon wilt downloaden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Downloadtype</p> </td> 
+   <td> <p>Selecteer of u een document of documentversie wilt downloaden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Document-id / Sjabloonnaam</p> </td> 
+   <td> <p>Voer de id van het document of de naam van de sjabloon die u wilt downloaden in of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Document uitchecken</p> </td> 
+   <td> <p>Als u een document downloadt, schakelt u deze optie in om het document uit te checken voordat u het downloadt.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Versie</p> </td> 
+   <td> <p>Als u een documentversie downloadt, selecteert u de versie die u wilt downloaden.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -387,9 +427,106 @@ Deze module werkt één document, binder, of malplaatje bij.
 
 ### Object
 
+* [Eén objectrecord maken](#create-a-single-object-record)
+* [Eén objectrecord verwijderen](#delete-a-single-object-record)
+* [Eén object ophalen](#get-a-single-object)
+* [Objectrecords weergeven](#list-objects-records)
+* [Eén objectrecord bijwerken](#update-a-single-object-record)
 
+#### Eén objectrecord maken
 
-#### Objecten weergeven
+In deze module wordt één objectrecord gemaakt, gekopieerd of gekleurd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Type</p> </td> 
+   <td> <p>Selecteer of u een record wilt maken of kopiëren of dat u een record wilt diepte geven.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Migratiemodus</td> 
+   <td>Als u een record maakt of kopieert, schakelt u deze optie in om objectrecords te maken of bij te werken in een niet-initiële status en met minimale validatie, inactieve records te maken en standaard- en systeembeheerde velden in te stellen, zoals <code>createdby_v</code> .</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Geen triggers</td> 
+   <td>Als de waarde true is en de migratiemodus is ingeschakeld, slaat de module alle systeem-, standaard-, aangepaste SDK-triggers en Action Triggers over.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectnaam</td> 
+   <td>Voer de veldwaarde voor objectnaam__v in of wijs deze toe, bijvoorbeeld <code>product__v</code> , <code>country__v</code> of <code>custom_object__c</code> .</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record-id</td> 
+   <td>Als u een record diep kopieert, selecteert u de record die u wilt kopiëren.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Opnamevelden</td> 
+   <td>Als u een record diep kopieert, selecteert u de velden waarvoor u waarden wilt opgeven en geeft u die waarden op.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Eén objectrecord verwijderen
+
+In deze module wordt één objectrecord verwijderd of trapsgewijs verwijderd. Trapsgewijs verwijderen van een record verwijdert de record en alle onderliggende objecten.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Type</p> </td> 
+   <td> <p>Selecteer of u een record wilt verwijderen of een record trapsgewijs wilt verwijderen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectnaam</td> 
+   <td>Selecteer het object dat u wilt verwijderen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record-id</td> 
+   <td>Selecteer de id van de record die u wilt verwijderen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Externe id</td> 
+   <td>In plaats van Record-id kunt u deze door de gebruiker gedefinieerde externe id voor het document gebruiken.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Eén object ophalen
+
+Met deze module worden metagegevens opgehaald die zijn geconfigureerd op een specifieke objectrecord in uw Vault.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectnaam</td> 
+   <td>Selecteer het object waarvoor u metagegevens wilt ophalen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record-id</td> 
+   <td>Selecteer de id van de record waarvoor u metagegevens wilt ophalen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Objectrecords weergeven
 
 Met deze module haalt u alle vault-objecten op in de geverifieerde vault.
 
@@ -408,6 +545,55 @@ Met deze module haalt u alle vault-objecten op in de geverifieerde vault.
   <tr> 
    <td role="rowheader">Maximum aantal geretourneerde resultaten</td> 
    <td>Ga of kaart het maximumaantal verslagen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+<!--#### Update a single object record-->
+
+Deze module werkt velden in een bestaande objectrecord bij.
+
+In deze module wordt één objectrecord gemaakt, gekopieerd of gekleurd.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Type</p> </td> 
+   <td> <p>Selecteer of u een record wilt maken of kopiëren of dat u een record wilt diepte geven.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Migratiemodus</td> 
+   <td>Schakel deze optie in om objectrecords te maken of bij te werken in een niet-initiële status en met minimale validatie, inactieve records te maken en standaard- en systeembeheerde velden, zoals <code>createdby_v</code> , in te stellen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Geen triggers</td> 
+   <td>Als de migratiemodus is ingeschakeld, kunt u met deze optie alle systemen, standaard, aangepaste SDK-triggers en Action Triggers omzeilen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objectnaam</td> 
+   <td>Voer de veldwaarde voor objectnaam__v in of wijs deze toe, bijvoorbeeld <code>product__v</code> , <code>country__v</code> of <code>custom_object__c</code> .</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Record-id</td> 
+   <td>Selecteer de id van de record die u wilt bijwerken.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Staat</td> 
+   <td>Geef de levenscyclusstatus van de record op wanneer <code>X-VaultAPI-MigrationMode</code> is ingesteld op true.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Framelabel</td> 
+   <td>Geef het type levenscyclusstatus van de record op wanneer <code>X-VaultAPI-MigrationMode</code> is ingesteld op true. Gebruik de notatie <code>base:object_lifecycle:</code> gevolgd door het type objectstatus.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Opnamevelden</td> 
+   <td>Als u een record diep kopieert, selecteert u de velden waarvoor u waarden wilt opgeven en geeft u die waarden op.</td> 
   </tr> 
  </tbody> 
 </table>
