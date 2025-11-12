@@ -1,23 +1,33 @@
 ---
-title: Slack-modules
+title: Slack-modules (verouderd)
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Slack gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
 exl-id: c9c68a4c-f592-42d1-b15f-a525b9aa3944
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: c5c1f632ce5cc3b4f357118e7bdb8ec852bd91fb
 workflow-type: tm+mt
-source-wordcount: '1737'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
 
-# [!DNL Slack] modules
+# [!DNL Slack] modules (verouderd)
+
+<!--
+
+>[!IMPORTANT]
+>
+>This article describes modules available in the legacy Slack connector, which is no longer available. This article will be removed in the near future. 
+>
+>For information on the new Slack connector, released on November 14, 2025, see [[!DNL Slack] modules (Legacy)](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md).
+
+-->
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Slack] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -51,9 +61,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -71,7 +81,7 @@ De Slack-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>&lbrace;{fempty(parameters.domain, 'https://slack.com/api/')}</td> 
+   <td>{{fempty(parameters.domain, 'https://slack.com/api/')}</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 
@@ -84,9 +94,9 @@ De Slack-connector gebruikt het volgende:
 
 Wanneer u [!DNL Slack] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Slack] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Berichten](#messages)
 * [Gesprek](#channels)
