@@ -18,13 +18,13 @@ ht-degree: 0%
 >
 >Dit artikel beschrijft modules beschikbaar in de nieuwe schakelaar van Slack, die op 14 November 2025 wordt vrijgegeven.
 >
->Voor informatie over de verouderde schakelaar van Slack, zie [[!DNL Slack]  modules (Verouderd) ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md).
+>Voor informatie over de verouderde schakelaar van Slack, zie [[!DNL Slack]  modules (Verouderd) &#x200B;](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/slack-modules.md).
 
 In een [!DNL Adobe Workfront Fusion] -scenario kunt u workflows automatiseren die [!DNL Slack] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -58,9 +58,9 @@ Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -78,7 +78,7 @@ De Slack-connector gebruikt het volgende:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>{{fempty(parameters.domain, 'https://slack.com/api/')}</td> 
+   <td>&lbrace;{fempty(parameters.domain, 'https://slack.com/api/')}</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-tag</td> 
@@ -91,9 +91,9 @@ De Slack-connector gebruikt het volgende:
 
 Wanneer u [!DNL Slack] modules configureert, geeft [!DNL Workfront Fusion] de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Slack] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Berichten](#messages)
 * [Bestanden](#files)
@@ -481,7 +481,7 @@ Deze actiemodule maakt een tekstbestand.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Thread ID (timestamp)]</td> 
-   <td> <p>Als u het bestand als antwoord uploadt, voert u de tijdstempel in of wijst u deze toe aan het bericht waarop u wilt reageren.</p> <p>Nota: Tijdstempel kan worden teruggewonnen gebruikend een andere module, zoals de [!UICONTROL  Watch Private Channel] module.</p> </td> 
+   <td> <p>Als u het bestand als antwoord uploadt, voert u de tijdstempel in of wijst u deze toe aan het bericht waarop u wilt reageren.</p> <p>Nota: Tijdstempel kan worden teruggewonnen gebruikend een andere module, zoals de [!UICONTROL &#x200B; Watch Private Channel] module.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Initial comment]</td> 
