@@ -21,7 +21,7 @@ Gebruikend de modules van de Keten, kunt u één scenario met een andere verbind
 
 <!--This article will be about the specific module configuration-->
 
-Voor instructies bij het plannen van ketende scenario&#39;s, zie [ de veelvoudige scenario&#39;s van de Keten samen ](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md).
+Voor instructies bij het plannen van ketende scenario&#39;s, zie [&#x200B; de veelvoudige scenario&#39;s van de Keten samen &#x200B;](/help/workfront-fusion/create-scenarios/plan-a-scenario/chain-scenarios.md).
 
 
 ## Toegangsvereisten
@@ -49,7 +49,7 @@ Voor instructies bij het plannen van ketende scenario&#39;s, zie [ de veelvoudig
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,7 +71,7 @@ Om de Receive gegevens van oudermodule te vormen:
 
    Om een nieuwe gegevensstructuur tot stand te brengen om als de inputgegevens van het scenario te gebruiken, **toe te voegen** naast het gebied van de gegevensstructuur en de gegevensstructuur tot stand te brengen.
 
-   Voor instructies bij het creëren van een gegevensstructuur, zie [ structuren van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
+   Voor instructies bij het creëren van een gegevensstructuur, zie [&#x200B; structuren van Gegevens &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
 1. Klik **O.K.** om de module te bewaren.
 
@@ -119,6 +119,6 @@ De module Responder toevoegen configureren:
 
    Om een nieuwe gegevensstructuur voor de gegevens tot stand te brengen, **voeg** naast het gebied van de gegevensstructuur toe en creeer de gegevensstructuur.
 
-   Voor instructies bij het creëren van een gegevensstructuur, zie [ structuren van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
+   Voor instructies bij het creëren van een gegevensstructuur, zie [&#x200B; structuren van Gegevens &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
 1. Klik **O.K.** om de module te bewaren.
