@@ -4,9 +4,9 @@ description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: 80cb3736d96d4b7c3226d78149842a80077e3551
+source-git-commit: a68de976258d17631459f0951d28657fd0e0dcf6
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,8 @@ Momenteel, steunen de volgende schakelaars grote dossiers.
    * Proef downloaden
 * Adobe Authenticator
    * Aangepaste API-aanroep maken
+* Adobe Photoshop
+   * PSD-bewerkingen toepassen
 * SharePoint
    * Een bestand maken
    * Een bestand ophalen
@@ -58,7 +60,7 @@ De module Workfront > Document uploaden is gewijzigd voor het verwerken van grot
 
 Als u met grotere bestanden wilt werken, raden wij u aan de oudere module te vervangen door de nieuwe module Document uploaden. Met de nieuwe module Document uploaden voorkomt u time-outs en andere fouten.
 
-![&#x200B; uploadt document &#x200B;](assets/new-upload-document.png)
+![ uploadt document ](assets/new-upload-document.png)
 
 ## Veelgestelde vragen
 
