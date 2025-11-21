@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: 4648fd66281e3771bd1859969f7aa7627b1d3434
+source-git-commit: f23a089565c2cfb7d2d1321a7bf67ae14e336af3
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '447'
 ht-degree: 0%
 
 ---
@@ -54,6 +54,7 @@ Fusion biedt connectors voor veel Adobe-producten en -services.
 * [Adobe PDF Services-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/pdf-modules.md)
 * [Adobe Photoshop-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-photoshop-modules.md)
 * [Adobe Storage-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-storage-modules.md)
+* [Adobe-onderdelenmodules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-substance-modules.md)
 * [Adobe Target-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-target-modules.md)
 * [Adobe-gebruikersbeheermodules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-user-management-modules.md)
 * [Adobe Workfront-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md)
