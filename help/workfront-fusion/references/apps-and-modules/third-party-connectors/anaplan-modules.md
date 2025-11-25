@@ -1,11 +1,12 @@
 ---
+title: Anaplan Modules
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Anaplan gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 81c9b141-4e40-430f-99f1-c44b7a833bcd
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: b54a2ae43efb44ebd002357d7b2269f40523bc9f
 workflow-type: tm+mt
-source-wordcount: '1795'
+source-wordcount: '1797'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL Anaplan] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -50,9 +51,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -156,9 +157,9 @@ Verbinding maken voor uw [!DNL Anaplan] -modules:
 
 Wanneer u [!DNL Anaplan] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Anaplan] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
