@@ -3,9 +3,9 @@ title: Veeva Vault-modules
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 4ba05a5f400ba1bdfb97586500baf741b555cd20
+source-git-commit: 881e5ba39d1730b641085cf0d02137d18e443135
 workflow-type: tm+mt
-source-wordcount: '2324'
+source-wordcount: '2483'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -50,9 +50,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -64,7 +64,12 @@ Als u Veeva Vault-modules wilt gebruiken, hebt u een Veeva Vault-account nodig.
 
 U kunt rechtstreeks vanuit een Veva Vault-module een verbinding maken met uw Veva Vault-account.
 
+Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruiken of dat u OAuth2-verificatie wilt gebruiken.
+
+### Verbinding maken met Veeva Vault met een gebruikersnaam en wachtwoord
+
 1. In om het even welke module van VevaVault, voegt de klik **naast het gebied van de Verbinding toe.**
+1. Op het **type van Verbinding** gebied, uitgezochte `Veeva Username Password`.
 1. Vul de volgende velden in.
 
    <table style="table-layout:auto"> 
@@ -75,18 +80,6 @@ U kunt rechtstreeks vanuit een Veva Vault-module een verbinding maken met uw Vev
        <td role="rowheader">Verbindingsnaam</td> 
        <td> <p>Voer een naam in voor de verbinding.</p> </td> 
       </tr> 
-      <tr>
-        <td role="rowheader">Omgeving</td>
-        <td>
-          <p>Selecteer of u verbinding maakt met een productieomgeving of niet.</p>
-        </td>
-      </tr>
-      <tr>
-        <td role="rowheader">Type</td>
-        <td>
-          <p>Selecteer of u verbinding maakt met een serviceaccount of een persoonlijke account.</p>
-        </td>
-      </tr>
       <tr>
         <td role="rowheader">Gebruikersnaam</td>
         <td>
@@ -108,15 +101,67 @@ U kunt rechtstreeks vanuit een Veva Vault-module een verbinding maken met uw Vev
 
 1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
+### Verbinding maken met Veeva Vault met OAuth2-verificatie
+
+1. In om het even welke module van VevaVault, voegt de klik **naast het gebied van de Verbinding toe.**
+1. Op het **type van Verbinding** gebied, uitgezochte `Veeva Oauth 2`.
+1. Vul de volgende velden in.
+
+   <table style="table-layout:auto"> 
+     <col> 
+     <col> 
+     <tbody> 
+      <tr> 
+       <td role="rowheader">Verbindingsnaam</td> 
+       <td> <p>Voer een naam in voor de verbinding.</p> </td> 
+      </tr> 
+      <tr>
+        <td role="rowheader">Client-id</td>
+        <td>
+          <p>Voer de client-id in voor de Veeva Vault-toepassing die deze verbinding zal gebruiken.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Clientgeheim</td>
+        <td>
+          <p>Voer het clientgeheim in voor de Veeva Vault-toepassing die deze verbinding zal gebruiken.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Toepassingsgebied</td>
+        <td>
+          <p>Voer het bereik voor deze verbinding in.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Tenant-id</td>
+        <td>
+          <p>Voer de huurder-id voor deze verbinding in.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Profiel-id</td>
+        <td>
+          <p>Voer de id van uw OAuth2/Copen ID Connect-profiel in.</p>
+        </td>
+      </tr>
+      <tr> 
+       <td role="rowheader">Vault DNS</td> 
+       <td>Voer uw Veva Vault DNS (domeinnaam) in.</p><p>Als u de Veva Vault DNS wilt zoeken, bekijkt u de URL die u gebruikt om toegang te krijgen tot Veeva Vault.</p>In de URL <code>https://my-dns.veevavault.com</code> is de DNS bijvoorbeeld <code>my-dns</code> . U hoeft niet de volledige URL in te voeren.</td> 
+      </tr> 
+     </tbody> 
+    </table>
+
+1. Klik op **[!UICONTROL Continue]** om de verbinding te maken en terug te gaan naar de module.
 
 
 ## Veeva Vault-modules en hun velden
 
 Wanneer u Veeva Vault-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Naast deze opties kunnen extra Vève Vault-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Document](#document)
 * [Object](#object)
