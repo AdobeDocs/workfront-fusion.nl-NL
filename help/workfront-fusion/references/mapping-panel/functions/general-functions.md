@@ -45,7 +45,7 @@ Als u een if-instructie wilt maken die alleen een waarde retourneert wanneer twe
 
 Gebruik de operatoren `if` en `and` om `or` -instructies te combineren.
 
-![ en exploitant ](assets/and-in-if-statement.png)
+![&#x200B; en exploitant &#x200B;](assets/and-in-if-statement.png)
 
 >[!BEGINSHADEBOX]
 
