@@ -4,9 +4,9 @@ description: De volgende algemene functies zijn beschikbaar in het Adobe Workfro
 author: Becky
 feature: Workfront Fusion
 exl-id: 6d4b8801-aa7e-47d4-80b3-aceac10c073f
-source-git-commit: 295004ab7536b85124bc366d6832c08365338d08
+source-git-commit: f968b9141173725160cea36575ad4e02a09a5e3f
 workflow-type: tm+mt
-source-wordcount: '276'
+source-wordcount: '291'
 ht-degree: 0%
 
 ---
@@ -15,18 +15,20 @@ ht-degree: 0%
 
 ## Variabelen
 
-Er zijn twee algemene variabelen die u kunt gebruiken om details over een uitvoering te identificeren:
+U kunt deze algemene variabelen gebruiken om details over een uitvoering te identificeren:
 
-* `executionID`: the ID of this scenario execution
-* `triggerTimestamp`: The time at which this execution was triggered
+* `executionID`: de id van de uitvoering van dit scenario
+* `triggerTimestamp`: De tijd waarop deze uitvoering werd geactiveerd
+* `scenarioID`: de id van het scenario dat momenteel is geopend
+* `operationsConsumed`: het aantal bewerkingen dat op dat punt in het scenario wordt gebruikt.
 
 ## [!UICONTROL get (object or array; path)]
 
-Returns the value path of an object or array. To access nested objects, use dot notation. The first item in an array is index 1.
+Retourneert het waardepad van een object of array. Gebruik puntnotatie om geneste objecten te openen. Het eerste item in een array is index 1.
 
 >[!BEGINSHADEBOX]
 
-**Examples:**
+**Voorbeelden:**
 
 * `get( array ; 1 + 1 )`
 * `get( array ; 5.raw_name )`
@@ -37,13 +39,13 @@ Returns the value path of an object or array. To access nested objects, use dot 
 
 ## [!UICONTROL if (expression; value1; value2)]
 
-Returns the `value1` if the expression is evaluated to true; otherwise it returns the `value2`.
+Retourneert `value1` als de expressie wordt geëvalueerd op true; anders wordt de `value2` geretourneerd.
 
 Als u een if-instructie wilt maken die alleen een waarde retourneert wanneer twee of meer expressies worden geëvalueerd op true, gebruikt u het trefwoord `and` .
 
-Gebruik de operatoren `and` en `or` om `if` -instructies te combineren.
+Gebruik de operatoren `if` en `and` om `or` -instructies te combineren.
 
-![&#x200B; en exploitant &#x200B;](assets/and-in-if-statement.png)
+![ en exploitant ](assets/and-in-if-statement.png)
 
 >[!BEGINSHADEBOX]
 
@@ -55,23 +57,23 @@ Gebruik de operatoren `and` en `or` om `if` -instructies te combineren.
 
 * `if( 1 = 2 ; A ; B )`
 
-  Returns B
+  Retourneert B
 
 * `if( 1 = 2 and 1 = 2 ; A ; B )`
 
-  Returns B
+  Retourneert B
 
 >[!ENDSHADEBOX]
 
 ## [!UICONTROL ifempty (value1; value2)]
 
-Returns the `value1` if this value is not empty; otherwise it returns the `value2`.
+Retourneert de waarde `value1` als deze waarde niet leeg is; anders wordt de waarde `value2` geretourneerd.
 
 >[!BEGINSHADEBOX]
 
-**Examples:**
+**Voorbeelden:**
 
-* `ifempty(` `A` `;` `B` )
+* `ifempty(` `A` `;` `B`
 
   Retourneert A
 
@@ -87,31 +89,31 @@ Returns the `value1` if this value is not empty; otherwise it returns the `value
 
 ## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
 
-Evalueert één waarde (de expressie genoemd) met een lijst van waarden; retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde. To include an  `else` value, add it after the final expression or value.
+Evalueert één waarde (de expressie genoemd) met een lijst van waarden; retourneert het resultaat dat overeenkomt met de eerste overeenkomende waarde. Als u een `else` -waarde wilt opnemen, voegt u deze waarde toe na de laatste expressie of waarde.
 
 >[!BEGINSHADEBOX]
 
-**Examples:**
+**Voorbeelden:**
 
 * `switch( B ; A ; 1 ; B ; 2 ; C ; 3 )`
 
-  Returns 2
+  Retourneert 2
 
 * `switch( C ; A ; 1 ; B ; 2 ; C ; 3 )`
 
-  Returns 3
+  Retourneert 3
 
 * `switch( X ; A ; 1 ; B ; 2 ; C ; 3 ; 4 )`
 
-  Returns 4
+  Retourneert 4
 
-  In this function, 4 is the value to be returned if no expressions apply (the `else` value).
+  In deze functie is 4 de waarde die moet worden geretourneerd als er geen expressies van toepassing zijn (de `else` waarde).
 
 >[!ENDSHADEBOX]
 
 ## [!UICONTROL omit(object; key1; [key2; ...])]
 
-Omits the given keys of the object and returns the rest.
+Hiermee worden de opgegeven sleutels van het object weggelaten en wordt de rest geretourneerd.
 
 >[!BEGINSHADEBOX]
 
@@ -131,12 +133,12 @@ Hiermee worden alleen de opgegeven toetsen van het object geselecteerd.
 
 **Voorbeeld:**
 
-`pick(` User `;` password `;` email `)`
+`pick(` E-mail met het `;` wachtwoord `;` van de gebruiker `)`
 
-Returns a collection of only the user&#39;s password and email address.
+Retourneert alleen een verzameling van het wachtwoord en het e-mailadres van de gebruiker.
 
 >[!ENDSHADEBOX]
 
 ## mergeCollections(collection1; collection2)
 
-Merges two collections by combining their key-value pairs. If both collections contain the same key, the value from the second collection overwrites that value from the first collection.
+Voegt twee verzamelingen samen door hun sleutel-waarde paren te combineren. Als beide verzamelingen dezelfde sleutel bevatten, overschrijft de waarde van de tweede verzameling die waarde van de eerste verzameling.
