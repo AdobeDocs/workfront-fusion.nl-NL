@@ -4,9 +4,9 @@ description: Met de  [!DNL Adobe Workfront Planning]  modules, kunt u een scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
+source-git-commit: 30ddefa8519e6f2052308482137d0fa018676902
 workflow-type: tm+mt
-source-wordcount: '1445'
+source-wordcount: '1446'
 ht-degree: 0%
 
 ---
@@ -35,14 +35,16 @@ Met de [!DNL Adobe Workfront Planning] -modules kunt u een scenario activeren wa
    <td role="rowheader">Product</td> 
    <td>
    <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
-   </td> 
+   </td>
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-+++## Voorwaarden
++++
+
+s## Voorwaarden
 
 U moet het volgende hebben om tot de Planning van Workfront toegang te hebben:
 
@@ -122,10 +124,10 @@ U kunt rechtstreeks vanuit een Workfront Fusion-module verbinding maken met uw [
 
 Wanneer u Workfront-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er aanvullende Workfront-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -471,5 +473,5 @@ De volgende uitdrukking JSONata leidt tot een leesbare output van de vraag van d
 )
 ```
 
-Voor informatie bij het gebruiken van modules JSONata, zie [&#x200B; modules JSONata &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md).
+Voor informatie bij het gebruiken van modules JSONata, zie [ modules JSONata ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md).
 
