@@ -4,9 +4,9 @@ description: Volg deze algemene workflow om een scenario te maken
 author: Becky
 feature: Workfront Fusion
 exl-id: 49f8edd7-e29a-4ead-9134-a9f0d1cc244d
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: fc0b3b7ca4ec999c7a121d0564d36abff6f2d620
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -35,67 +35,67 @@ Sneltoetsen
 ## Het scenario maken en een naam geven
 
 1. Meld u aan bij uw Workfront Fusion-account.
-1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![&#x200B; in het linkerpaneel.](assets/scenarios-icon.png)
+1. Klik **[!UICONTROL Scenarios]** {het pictogram van 1} Scenario&#39;s ![ in het linkerpaneel.](assets/scenarios-icon.png)
 
    >[!NOTE]
    >
-   >Als u niet het linkernavigatievenster of zijn pictogrammen ziet, klik het pictogram van het Menu ![&#x200B; Menu &#x200B;](assets/main-menu-icon-left-nav.png).
+   >Als u niet het linkernavigatievenster of zijn pictogrammen ziet, klik het pictogram van het Menu ![ Menu ](assets/main-menu-icon-left-nav.png).
 
-1. (Facultatief) in het [!UICONTROL **paneel van Omslagen**], klik het **[!UICONTROL Add folder]** pictogram ![&#x200B; voeg omslagpictogram &#x200B;](assets/add-folder-icon.png) toe, dan typ een naam als &quot;scenario&#39;s van de Praktijk&quot;voor uw eerste omslag.
+1. (Facultatief) in het [!UICONTROL **paneel van Omslagen**], klik het **[!UICONTROL Add folder]** pictogram ![ voeg omslagpictogram ](assets/add-folder-icon.png) toe, dan typ een naam als &quot;scenario&#39;s van de Praktijk&quot;voor uw eerste omslag.
 
 1. (Optioneel) Open de map en klik vervolgens op **[!UICONTROL Create a new scenario]** rechtsboven op de pagina.
 
 1. Selecteer de naam van de tijdelijke aanduiding **[!UICONTROL New scenario]** in de linkerbovenhoek en typ een naam zoals &quot;Praktisch scenario 1&quot;.
 
-   ![&#x200B; Naam het scenario &#x200B;](assets/name-the-scenario.png)
+   ![ Naam het scenario ](assets/name-the-scenario.png)
 
-1. Ga met [&#x200B; verder verbind de eerste module &#x200B;](#2-connect-the-first-module) hieronder.
+1. Ga met [ verder verbind de eerste module ](#2-connect-the-first-module) hieronder.
 
 ## De eerste module toevoegen en configureren
 
 De eerste module voor uw scenario is een trekkermodule, die het scenario zal beginnen wanneer bepaalde voorwaarden worden voldaan aan.
 
-Voor instructies bij het toevoegen van de eerste module aan een scenario, zie [&#x200B; de eerste module aan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-basic.md#add-the-first-module-to-a-scenario) in het artikel toevoegen een module aan een scenario.
+Voor instructies bij het toevoegen van de eerste module aan een scenario, zie [ de eerste module aan een scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-basic.md#add-the-first-module-to-a-scenario) in het artikel toevoegen een module aan een scenario.
 
-Voor instructies bij het vormen van een module, zie [&#x200B; een module &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen
+Voor instructies bij het vormen van een module, zie [ een module ](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen
 
 ## Verbindingen maken
 
 Wanneer het vormen van een module, moet u ingaan of een verbinding tot stand brengen. De module gebruikt deze verbinding en de toestemmingen het bevat aan toegangsdatum in de toepassing.
 
-Voor basisinstructies op hoe te om een verbinding tot stand te brengen, zie [&#x200B; een verbinding tot stand brengen - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
+Voor basisinstructies op hoe te om een verbinding tot stand te brengen, zie [ een verbinding tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md).
 
-Voor specifieke gebruiksgevallen die Google, Microsoft, of toepassingen zonder specifieke schakelaars impliceren, zie de andere artikelen onder [&#x200B; verbinden met toepassingen: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-apps-toc.md).
+Voor specifieke gebruiksgevallen die Google, Microsoft, of toepassingen zonder specifieke schakelaars impliceren, zie de andere artikelen onder [ verbinden met toepassingen: artikelindex ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-apps-toc.md).
 
 ## Extra modules toevoegen en configureren
 
 Ga verder met het toevoegen en configureren van extra modules.
 
-Voor instructies op de manieren om modules toe te voegen, zie de artikelen die onder [&#x200B; worden vermeld modules toevoegen: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md).
+Voor instructies op de manieren om modules toe te voegen, zie de artikelen die onder [ worden vermeld modules toevoegen: artikelindex ](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md).
 
 ## Gegevens toewijzen tussen modules
 
 U kunt output van vorige modules als input in verdere modules gebruiken. U kunt bijvoorbeeld een Workfront-project maken in één module en een document uploaden naar die module in een volgende module.
 
-Voor instructies, zie de artikelen onder [&#x200B; gegevens van de Kaart: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-toc.md).
+Voor instructies, zie de artikelen onder [ gegevens van de Kaart: artikelindex ](/help/workfront-fusion/create-scenarios/map-data/map-data-toc.md).
 
 ## Vorm het verpletteren
 
 Het verpletteren staat het scenario toe om verschillende acties uit te voeren die op gegevenswaarden worden gebaseerd.
 
-Voor instructies, zie [&#x200B; een module van de Router toevoegen en routes &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
+Voor instructies, zie [ een module van de Router toevoegen en routes ](/help/workfront-fusion/create-scenarios/add-modules/router-module.md) vormen.
 
 ## Foutafhandeling configureren
 
 Met foutafhandeling kan het scenario worden hersteld op basis van fouten. U kunt selecteren hoe u het scenario in verschillende foutensituaties wilt reageren.
 
-Voor instructies, zie [&#x200B; fout behandeling &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md) toevoegen.
+Voor instructies, zie [ fout behandeling ](/help/workfront-fusion/create-scenarios/config-error-handling/error-handling.md) toevoegen.
 
 ## Scenario-instellingen configureren
 
 U kunt montages voor uw scenario als geheel vormen, zoals het plannen van een scenario, het maken van nota&#39;s, of het bepalen hoe het gegeven wordt opgeslagen.
 
-Voor instructies, zie de artikelen onder [&#x200B; scenario montages vormen: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/config-scenario-settings-toc.md).
+Voor instructies, zie de artikelen onder [ scenario montages vormen: artikelindex ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/config-scenario-settings-toc.md).
 
 ## Testen en herzien
 
@@ -104,10 +104,10 @@ Het testen van uw scenario laat u toe om te bepalen als uw scenario zoals bedoel
 1. Klik op **[!UICONTROL Run once]** in de linkerbenedenhoek van de scenarioeditor.
 1. Nadat het scenario klaar is met draaien, klikt u op de bellen van de uitvoercontrole boven elke module om de invoer van informatie en de uitvoer van die module te zien.
 
-   * Voor algemene informatie bij het lezen van de informatie van de scenariouitvoering, zie [&#x200B; de uitvoeringsstroom van het scenario &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md).
-   * Voor informatie over verwerkte bundels, zie [&#x200B; uitvoering Scenario, cycli, en fasen in de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
+   * Voor algemene informatie bij het lezen van de informatie van de scenariouitvoering, zie [ de uitvoeringsstroom van het scenario ](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md).
+   * Voor informatie over verwerkte bundels, zie [ uitvoering Scenario, cycli, en fasen in de Fusie van Adobe Workfront ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
 
-1. In de Fusie van Workfront, klik **[!UICONTROL Save]** ![&#x200B; sparen pictogram &#x200B;](assets/save-icon.png) dichtbij de laag-linkerhoek om uw vooruitgang op het scenario te bewaren.
+1. In de Fusie van Workfront, klik **[!UICONTROL Save]** ![ sparen pictogram ](assets/save-icon.png) dichtbij de laag-linkerhoek om uw vooruitgang op het scenario te bewaren.
 
    >[!IMPORTANT]
    >
@@ -117,9 +117,9 @@ Het testen van uw scenario laat u toe om te bepalen als uw scenario zoals bedoel
 
 Dit voorbeeldscenario heeft geen triggermodule. Als dit een scenario zou zijn zou u voor echte gegevens gebruiken het met een trekkermodule beginnen, en het laatste ding u zou doen is het activeren. Nadat u een scenario activeert, door gebrek, loopt het om de 15 minuten. U kunt dit veranderen door te bepalen wanneer en hoe vaak u het wilt lopen.
 
-Voor meer informatie over het activeren van scenario&#39;s, zie [&#x200B; een scenario &#x200B;](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
+Voor meer informatie over het activeren van scenario&#39;s, zie [ een scenario ](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
 
-Voor informatie over programma&#39;s, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+Voor informatie over programma&#39;s, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 
 ## Sneltoetsen voor Workfront Fusion-scenario
 
@@ -166,6 +166,11 @@ U kunt de volgende sneltoetsen gebruiken bij het maken of bewerken van een scena
    <td role="rowheader">[!UICONTROL Paste]</td> 
    <td>Ctrl+V</td> 
    <td>Cmd+V</span> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Search for modules]</td> 
+   <td>Ctrl+K</td> 
+   <td>Cmd+K</span> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Plak cURL in scenario om de module HTTP te maken</td> 
