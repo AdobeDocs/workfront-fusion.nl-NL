@@ -7,9 +7,9 @@ description: Leer hoe u een eenvoudig automatiseringsscenario maakt met Adobe Wo
 author: Becky
 feature: Workfront Fusion
 exl-id: 5284dee1-e890-4357-a28d-29e09ac02822
-source-git-commit: 93d06cb917680f9cabc1bad6be0f9cd843449d07
+source-git-commit: 6269db7454a63e80de3d770ab1012162d5080565
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -45,7 +45,7 @@ Dit voorbeeld doorloopt u het proces om een scenario tot stand te brengen dat na
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,12 +55,12 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. In het **gebied van Scenario&#39;s**, klik **creeer een nieuw scenario**.
 
-   Om van het gebied van Scenario&#39;s de plaats te bepalen, zie [&#x200B; Navigeren de Fusie van Workfront &#x200B;](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/navigate-workfront-fusion.md).
+   Om van het gebied van Scenario&#39;s de plaats te bepalen, zie [ Navigeren de Fusie van Workfront ](/help/workfront-fusion/get-started-with-fusion/navigate-fusion/navigate-workfront-fusion.md).
 
    De vertoningen van de scenario redacteur, die een lege module in het centrum bevatten.
 
 1. Selecteer de naam van de tijdelijke aanduiding **[!UICONTROL New scenario]** in de linkerbovenhoek en voer een naam in.
-1. Ga met [&#x200B; verder toevoegen en vormen de eerste module &#x200B;](#add-and-configure-the-first-module).
+1. Ga met [ verder toevoegen en vormen de eerste module ](#add-and-configure-the-first-module).
 
 ### De eerste module toevoegen en configureren
 
@@ -78,7 +78,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 1. Selecteer in het vak [!UICONTROL Connection] de Workfront-verbinding.
 
-   Als u geen verbinding van Workfront hebt, zie [&#x200B; een verbinding &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) creëren
+   Als u geen verbinding van Workfront hebt, zie [ een verbinding ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md) creëren
 1. Selecteer [!UICONTROL Record Type] in het vak **[!UICONTROL Issue]** . Dit plaatst de module aan onderzoek slechts kwesties, die verzoeken omvatten.
 
    U kunt **[!UICONTROL Issue]** in de lijst vinden als u begint het woord &quot;[!UICONTROL Issue]&quot; te typen.
@@ -108,9 +108,9 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De naam wordt net onder de module weergegeven. Hieronder bevat Workfront Fusion een korte beschrijving van het type actie dat door de module wordt uitgevoerd.
 
-   ![&#x200B; anders genoemd module &#x200B;](assets/module-renamed-wf.png)
+   ![ anders genoemd module ](assets/module-renamed-wf.png)
 
-1. Ga met [&#x200B; verder toevoegen en vormen de tweede module &#x200B;](#add-and-configure-the-second-module).
+1. Ga met [ verder toevoegen en vormen de tweede module ](#add-and-configure-the-second-module).
 
 ## De tweede module toevoegen en configureren
 
@@ -123,24 +123,24 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    De schakeloptie wordt blauw als deze is ingeschakeld. Hierdoor kunt u de taak-id uit de vorige module toewijzen.
 
-   ![&#x200B; Kaart knevel &#x200B;](assets/map-toggle.png)
+   ![ Kaart knevel ](assets/map-toggle.png)
 1. Klik op het veld **[!UICONTROL Task ID]** .
 
    Er wordt een deelvenster geopend waarin u kunt selecteren wat u wilt gebruiken als de id van de taak die u naar een project wilt converteren. Omdat u toewijzing hebt ingeschakeld, bevat het deelvenster uitvoer van eerdere modules. U hebt de id geselecteerd als uitvoer van de vorige module, zodat deze nu beschikbaar is in het deelvenster.
 
-   Dit deelvenster wordt het deelvenster Toewijzing genoemd. Voor meer informatie over het mappingpaneel, zie [&#x200B; Overzicht van de Toewijzing &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md).
+   Dit deelvenster wordt het deelvenster Toewijzing genoemd. Voor meer informatie over het mappingpaneel, zie [ Overzicht van de Toewijzing ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md).
 1. Selecteer **identiteitskaart** in het mappingpaneel.
 
    Er wordt een ID-blok weergegeven in het veld Id. Het toont het aantal van de module het van in kaart wordt gebracht, en het gebied dat in kaart wordt gebracht.
 
-   ![&#x200B; identiteitskaart van de Kaart &#x200B;](assets/map-id.png)
+   ![ identiteitskaart van de Kaart ](assets/map-id.png)
 
 1. Klik het **gebied van identiteitskaart van het Malplaatje**, beginnen de naam van het malplaatje van Workfront te typen u voor dit project wilt gebruiken, dan het selecteren wanneer het in de lijst verschijnt.
 1. Klik **[!UICONTROL OK]** om de moduleconfiguratie te bewaren.
 
 1. Klik met de rechtermuisknop op de module, klik op **[!UICONTROL Rename]** en typ een naam om te beschrijven wat de module moet doen (bijvoorbeeld &quot;Omzetten in project)&quot;. Klik vervolgens op **[!UICONTROL OK]** .
 
-1. Ga aan [&#x200B; Test het scenario &#x200B;](#test-the-scenario) verder.
+1. Ga aan [ Test het scenario ](#test-the-scenario) verder.
 
 ## Het scenario testen
 
@@ -155,14 +155,14 @@ Voor dit scenario, zou een succesvolle test in het bepalen van het verzoek resul
 
    Zie voor meer informatie over de gegevens in de inspectiepbellen:
 
-   * Voor algemene informatie, zie [&#x200B; de uitvoeringsstroom van het Scenario &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md).
-   * Voor informatie over verwerkte bundels, zie [&#x200B; uitvoering Scenario, cycli, en fasen &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
+   * Voor algemene informatie, zie [ de uitvoeringsstroom van het Scenario ](/help/workfront-fusion/references/scenarios/scenario-execution-flow.md).
+   * Voor informatie over verwerkte bundels, zie [ uitvoering Scenario, cycli, en fasen ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md).
 
 1. Klik in Workfront Fusion op **[!UICONTROL Save]** in de linkerbenedenhoek om de voortgang van het scenario op te slaan.
 
    >[!IMPORTANT]
    >
-   >Sla de bestanden vaak op terwijl u ze gebruikt en test een scenario.
+   >Sla de bestanden vaak op terwijl u ze gebruikt en test een scenario. Mogelijk moet u een nieuwe uitgave in uw Workfront-account maken om het scenario te activeren.
 
 >[!TIP]
 >
@@ -175,9 +175,9 @@ Voor dit scenario, zou een succesvolle test in het bepalen van het verzoek resul
 >
 >1. Sluit het **[!UICONTROL Notes]** -gebied.
 >
->     Nadat u een nota aan een scenario toevoegt, toont een puntenvertoningen op het **[!UICONTROL Notes]** pictogram ![&#x200B; pictogram van Nota&#39;s met punt &#x200B;](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
+>     Nadat u een nota aan een scenario toevoegt, toont een puntenvertoningen op het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) bij de bodem van de scenarioredacteur.
 >
->1. Klik het **[!UICONTROL Notes]** pictogram ![&#x200B; pictogram van Nota&#39;s met punt &#x200B;](assets/notes-icon-w-dot.png) om uw nota&#39;s te bekijken. Wanneer notities zijn geopend, verschijnt er een cirkel rond het pictogram Notities.
+>1. Klik het **[!UICONTROL Notes]** pictogram ![ pictogram van Nota&#39;s met punt ](assets/notes-icon-w-dot.png) om uw nota&#39;s te bekijken. Wanneer notities zijn geopend, verschijnt er een cirkel rond het pictogram Notities.
 >
 
 ## Het scenario activeren
@@ -186,13 +186,13 @@ De laatste stap in het creëren van een scenario is het activeren.
 
 Omdat dit scenario naar een specifieke kwestie zoekt, is er geen behoefte om het te activeren. Wanneer u een scenario activeert, wordt het uitgevoerd volgens een schema of wanneer een specifieke actie in een toepassing plaatsvindt. Nadat u een scenario activeert, door gebrek, loopt het om de 15 minuten. U kunt dit veranderen door te bepalen wanneer en hoe vaak u het wilt lopen.
 
-Voor meer informatie over het activeren van scenario&#39;s, zie [&#x200B; een scenario &#x200B;](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
+Voor meer informatie over het activeren van scenario&#39;s, zie [ een scenario ](/help/workfront-fusion/manage-scenarios/activate-deactivate-scenarios.md) activeren of deactiveren.
 
-Voor informatie over programma&#39;s, zie [&#x200B; Plan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
+Voor informatie over programma&#39;s, zie [ Plan een scenario ](/help/workfront-fusion/create-scenarios/config-scenarios-settings/schedule-a-scenario.md).
 
 ## Volgende stappen
 
-* [&#x200B; voeg een trekkermodule &#x200B;](/help/workfront-fusion/build-practice-scenarios/add-a-webhook-to-basic-scenario.md) toe om het scenario toe te staan om nieuwe verzoeken periodiek te zoeken en hen in projecten om te zetten.
-* [&#x200B; voeg een webhaak &#x200B;](/help/workfront-fusion/build-practice-scenarios/add-a-webhook-to-basic-scenario.md) toe om het scenario toe te staan om uit te voeren telkens als een verzoek is ingegaan.
-* [&#x200B; voeg een filter &#x200B;](/help/workfront-fusion/build-practice-scenarios/add-filter-basic-scenario.md) toe om ervoor te zorgen dat slechts bepaalde verzoeken in projecten worden omgezet.
-* [&#x200B; voeg een functie &#x200B;](/help/workfront-fusion/build-practice-scenarios/use-function-to-build-practice-scenario.md) toe die de naam van het nieuwe project aanpast.
+* [ voeg een trekkermodule ](/help/workfront-fusion/build-practice-scenarios/add-a-webhook-to-basic-scenario.md) toe om het scenario toe te staan om nieuwe verzoeken periodiek te zoeken en hen in projecten om te zetten.
+* [ voeg een webhaak ](/help/workfront-fusion/build-practice-scenarios/add-a-webhook-to-basic-scenario.md) toe om het scenario toe te staan om uit te voeren telkens als een verzoek is ingegaan.
+* [ voeg een filter ](/help/workfront-fusion/build-practice-scenarios/add-filter-basic-scenario.md) toe om ervoor te zorgen dat slechts bepaalde verzoeken in projecten worden omgezet.
+* [ voeg een functie ](/help/workfront-fusion/build-practice-scenarios/use-function-to-build-practice-scenario.md) toe die de naam van het nieuwe project aanpast.
