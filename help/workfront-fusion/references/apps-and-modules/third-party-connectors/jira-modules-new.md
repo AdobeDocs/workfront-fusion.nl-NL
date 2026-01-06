@@ -4,7 +4,7 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: b74a3618-c4a1-4965-a88d-1643bfab12db
-source-git-commit: 017341e045a703f5d6e933a6df860f4fc8c0649d
+source-git-commit: e65d868dc2165cbe800600f271f6b03d0a906cb4
 workflow-type: tm+mt
 source-wordcount: '2345'
 ht-degree: 0%
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Deze instructies gelden voor de nieuwe versie van de Jira-connector, die alleen Jira heet. Voor instructies over de erfenisJira Cloud en de schakelaars van de Server van Jira, zie [&#x200B; Jira softwaremodules &#x200B;](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-software-modules.md).
+>Deze instructies gelden voor de nieuwe versie van de Jira-connector, die alleen Jira heet. Voor instructies over de erfenisJira Cloud en de schakelaars van de Server van Jira, zie [ Jira softwaremodules ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-software-modules.md).
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die gebruikmaken van Jira en deze koppelen aan meerdere toepassingen en services van derden.
 
 De Jira-connector kan worden gebruikt voor zowel Jira Cloud- als Jira Data Server.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -57,9 +57,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -80,7 +80,7 @@ De procedure voor het maken van een verbinding met Jira is afhankelijk van het f
 Als u een OAuth2-verbinding met Jira wilt maken, moet u een toepassing maken in Jira voordat u de verbinding kunt configureren in Fusion.
 
 * [Een OAuth2-toepassing maken in Jira](#create-an-oauth2-application-in-jira)
-* [De OAutt2-verbinding in Fusion configureren](#configure-the-oauth2-connection-in-fusion)
+* [De OAuth2-verbinding in Fusion configureren](#configure-the-oauth2-connection-in-fusion)
 
 #### Een OAuth2-toepassing maken in Jira
 
@@ -88,14 +88,14 @@ Als u een OAuth2-verbinding met Jira wilt maken, moet u een toepassing maken in 
 >
 >U moet toegang hebben tot de Jira Developer Console om een OAuth2-toepassing te maken en configureren voor uw Jira-verbinding.
 
-1. Ga naar [&#x200B; Developer Console van Jira &#x200B;](https://developer.atlassian.com/console.myapps/).
-1. In het Mijn gebied van apps, creeer **&#x200B;**, dan uitgezochte **OAuth 2.0 integratie**.
+1. Ga naar [ Developer Console van Jira ](https://developer.atlassian.com/console.myapps/).
+1. In het Mijn gebied van apps, creeer ****, dan uitgezochte **OAuth 2.0 integratie**.
 1. Ga een naam voor de integratie in, ga met de ontwikkelaarstermijnen akkoord, en klik **creeer**.
 
    De toepassing wordt gecreeerd, en u wordt genomen aan het gebied van de toepassingsconfiguratie.
 1. Klik **Toestemmingen** in het linkernavigatievenster.
 1. In het gebied van Toestemmingen, bepaal de plaats van de **Jira API** lijn.
-1. Klik **toevoegen** in Jira API lijn, dan klik **&#x200B;**&#x200B;in de zelfde lijn verdergaan.
+1. Klik **toevoegen** in Jira API lijn, dan klik **** in de zelfde lijn verdergaan.
 1. Schakel het volgende bereik in:
 
    * Jira-uitgiftegegevens weergeven (`read:jira-work`)
@@ -115,7 +115,7 @@ Als u een OAuth2-verbinding met Jira wilt maken, moet u een toepassing maken in 
 1. In de linkernavigatie, klik **Montages**.
 1. (Facultatief) ga een beschrijving in het gebied van de Beschrijving in, en klik **sparen veranderingen** onder dat gebied.
 1. Kopieer de client-id en het clientgeheim van het gebied Instellingen naar een beveiligde locatie of laat deze pagina open terwijl u de verbinding configureert in Fusion.
-1. Ga aan [&#x200B; verder vormen de verbinding OAutt2 in Fusion &#x200B;](#configure-the-oauth2-connection-in-fusion)
+1. Ga aan [ verder vormen de verbinding OAutt2 in Fusion ](#configure-the-oauth2-connection-in-fusion)
 
 #### De OAuth2-verbinding in Fusion configureren
 
@@ -175,7 +175,7 @@ Het maken van een basisverbinding met Jira hangt af van het feit of u een verbin
 >[!IMPORTANT]
 >
 > Als u een basisverbinding met Jira Cloud wilt maken, hebt u een Jira API-token nodig.
->Voor instructies bij het verwerven van een teken van Jira API, zie [&#x200B; API tokens voor uw Atlassian rekening &#x200B;](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account) in de Atlassiaanse documentatie beheren.
+>Voor instructies bij het verwerven van een teken van Jira API, zie [ API tokens voor uw Atlassian rekening ](https://support.atlassian.com/atlassian-account/docs/manage-api-tokens-for-your-atlassian-account) in de Atlassiaanse documentatie beheren.
 
 
 1. In om het even welke module van Jira, voegt de klik **naast het gebied van de Verbinding toe.**
@@ -223,8 +223,8 @@ Het maken van een basisverbinding met Jira hangt af van het feit of u een verbin
 >[!IMPORTANT]
 >
 > Om een basisverbinding aan het Centrum van Gegevens van Jira tot stand te brengen, moet u een persoonlijk toegangstoken van Jira (PAT) hebben.
->Voor instructies bij het verwerven van een persoonlijk toegangstoken van Jira, zie [&#x200B; API tokens voor uw Atlassian rekening &#x200B;](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html) in de Atlassiaanse documentatie beheren.
->Voor overwegingen wanneer het creëren van het KLOPJE, zie [&#x200B; uw KLOPJE &#x200B;](#configure-your-pat) in dit artikel vormen.
+>Voor instructies bij het verwerven van een persoonlijk toegangstoken van Jira, zie [ API tokens voor uw Atlassian rekening ](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html) in de Atlassiaanse documentatie beheren.
+>Voor overwegingen wanneer het creëren van het KLOPJE, zie [ uw KLOPJE ](#configure-your-pat) in dit artikel vormen.
 
 1. In om het even welke module van Jira, voegt de klik **naast het gebied van de Verbinding toe.**
 1. Configureer de volgende velden:
@@ -266,7 +266,7 @@ Het maken van een basisverbinding met Jira hangt af van het feit of u een verbin
 
 Om een basisverbinding aan het Centrum van Gegevens van Jira tot stand te brengen, moet u een persoonlijk toegangstoken van Jira (PAT) hebben.
 
-Voor instructies bij het verwerven van een persoonlijk toegangstoken van Jira, zie [&#x200B; API tokens voor uw Atlassian rekening &#x200B;](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html) in de Atlassiaanse documentatie beheren.
+Voor instructies bij het verwerven van een persoonlijk toegangstoken van Jira, zie [ API tokens voor uw Atlassian rekening ](https://confluence.atlassian.com/enterprise/using-personal-access-tokens-1026032365.html) in de Atlassiaanse documentatie beheren.
 
 Mogelijk hebt u de volgende informatie nodig wanneer u uw PAT configureert
 
@@ -291,9 +291,9 @@ Als dit bestand niet bestaat, moet u het maken.
 
 Wanneer u Jira-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er aanvullende Jira-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -576,7 +576,7 @@ Deze actiemodule werkt een bestaand record bij, zoals een uitgave of project.
 >
 >Als deze fout optreedt, kunt u de zoekmodule van de verouderde Jira-connector vervangen door de zoekmodule van de nieuwe connector. Met de nieuwe connector kunt u de gebruikte API-versie selecteren. Zorg ervoor dat u V3 selecteert wanneer u de verbinding maakt.
 >
-> ![&#x200B; API versieoptie in nieuwe schakelaar van Jira &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/jira-version-option.png)
+> ![ API versieoptie in nieuwe schakelaar van Jira ](/help/workfront-fusion/references/apps-and-modules/assets/jira-version-option.png)
 >
 >Let op:
 >
