@@ -4,9 +4,9 @@ description: De  [!DNL Adobe Workfront Fusion Frame].io modules enable you to mo
 author: Becky
 feature: Workfront Fusion
 exl-id: 16d32ebd-1807-495e-8aaf-27346056ec71
-source-git-commit: 52dbf75ebb65a1de1a7a86619af4c7633e0cbe03
+source-git-commit: 3cb613c11500dfc94774783ee0b38e6f1768de20
 workflow-type: tm+mt
-source-wordcount: '3952'
+source-wordcount: '4082'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 >
 >Dit artikel beschrijft de nieuwe versie van de schakelaar Frame.io. Deze connector wordt gebruikt om verbinding te maken met Frame.io versie 4.
 >
->Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [&#x200B; schakelaar van de Verouderde ouder Frame.io &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
+>Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [ schakelaar van de Verouderde ouder Frame.io ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
 
 Met de Adobe Workfront Fusion [!DNL Frame.io] -modules kunt u elementen en opmerkingen in uw [!DNL Frame.io] -account controleren, maken, bijwerken, ophalen of verwijderen.
 
@@ -28,12 +28,12 @@ Workfront biedt twee Frame.io-connectors, gebaseerd op de versie van Frame.io wa
 | Frame.io | V4 |
 | Frame.io (Verouderd) | V3 |
 
-Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [&#x200B; schakelaar van de Verouderde ouder Frame.io &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
+Voor instructies op de erfenisversie van de schakelaar Frame.io, zie [ schakelaar van de Verouderde ouder Frame.io ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/frame-io-modules.md).
 
 
 Voor een videoinleiding aan de Schakelaar Frame.io, zie:
 
-* [&#x200B; Frame.io &#x200B;](https://video.tv.adobe.com/v/3427032/){target=_blank}
+* [ Frame.io ](https://video.tv.adobe.com/v/3427032/){target=_blank}
 
 ## Toegangsvereisten
 
@@ -67,9 +67,9 @@ Voor een videoinleiding aan de Schakelaar Frame.io, zie:
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -133,12 +133,12 @@ Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing 
 
 Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
 
-1. Open [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
 
    of
 
-   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [&#x200B; een leeg project &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
 
 1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
 1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
@@ -227,12 +227,12 @@ Als u een server-naar-server verbinding wilt maken, moet u eerst een toepassing 
 
 Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console project hebt, kunt u hen tot stand brengen.
 
-1. Open [&#x200B; Adobe Developer Console &#x200B;](https://developer.adobe.com/).
+1. Open [ Adobe Developer Console ](https://developer.adobe.com/).
 1. Selecteer een bestaand project in de Adobe Developer Console dat u voor deze verbinding wilt gebruiken
 
    of
 
-   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [&#x200B; een leeg project &#x200B;](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
+   Maak een nieuw project in de Adobe Developer Console. Voor instructies, zie [ een leeg project ](https://developer.adobe.com/developer-console/docs/guides/projects/projects-empty) creëren.
 
 1. Voor de het overzichtspagina van het Project of krijgen begonnen met uw nieuwe projectpagina, klik **API** toevoegen.
 1. Voor de pagina die opent, bepaal de plaats en klik **Frame.io API**.
@@ -293,9 +293,9 @@ Als u nog geen server-aan-server geloofsbrieven op een Adobe Developer Console p
 
 Wanneer u [!DNL Frame.io] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Frame.io] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Assets](#assets)
 * [Opmerkingen](#comments)
@@ -1207,6 +1207,7 @@ Deze module werkt meta-gegevensgebieden op één of meerdere dossiers met waarde
 ### Overige
 
 * [Een aangepaste API-aanroep maken](#make-a-custom-api-call)
+* [Gebeurtenissen bekijken](#watch-events)
 * [De metagegevenswaarde controleren is bijgewerkt](#watch-metadata-value-updated)
 
 
@@ -1247,6 +1248,48 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
  </tbody> 
 </table>
+
+#### Gebeurtenissen bekijken
+
+Deze instant triggermodule start een scenario wanneer de geselecteerde gebeurtenis plaatsvindt in Frame.io.
+
+U kunt een bestaande webhaak gebruiken of een nieuwe webhaak maken.
+
+Een nieuwe webhaak maken:
+
+1. Klik **toevoegen** naast het gebied van de Webhaak.
+1. Vul de volgende gegevens in:
+
+   <table style="table-layout:auto"> 
+    <col> 
+    <col> 
+    <tbody> 
+     <tr> 
+     <td role="rowheader">Webhaak-naam </td> 
+      <td> <p>Voer een naam in voor de nieuwe webhaak.</p> </td> 
+     </tr> 
+     <tr> 
+       <td role="rowheader">[!UICONTROL Connection] </td> 
+       <td>Voor instructies bij het creëren van een verbinding aan [!DNL Frame.io], zie <a href="#connect-frameio-to-adobe-workfront-fusion" class="MCXref xref"> verbinden [!DNL Frame.io] met Adobe Workfront Fusion </a> in dit artikel.</td> 
+     </tr> 
+     <tr> 
+     <td role="rowheader">[!UICONTROL Account ID] </td> 
+      <td> <p>Selecteer of wijs de rekening toe die de werkruimte bevat waar u gebeurtenissen wilt letten.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Workspace ID]</td> 
+      <td> <p>Voer de id in van de werkruimte waar u gebeurtenissen wilt bekijken.</p> </td> 
+     </tr> 
+     <tr> 
+      <td role="rowheader">[!UICONTROL Events]</td> 
+      <td> <p>Selecteer de gebeurtenissen die u deze module wilt activeren</p> </td> 
+     </tr> 
+    </tbody> 
+   </table>
+
+1. Klik **sparen** om webhaak te bewaren en aan de module terug te keren.
+1. Klik **O.K.** in de module van de Gebeurtenissen van het Controle om de configuratie te bewaren.
+
 
 #### De metagegevenswaarde controleren is bijgewerkt
 
