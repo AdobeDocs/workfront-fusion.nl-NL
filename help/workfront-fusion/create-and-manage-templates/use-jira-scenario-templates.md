@@ -48,7 +48,7 @@ Adobe Workfront Fusion biedt sjablonen die algemene workflows tussen Fusion en J
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,14 +58,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 * Je moet een technische rekening hebben op de Adobe Developer Console.
 
-  Voor informatie en instructies, zie [ Technische rekeningsopstelling ](https://developer.adobe.com/cloud-storage/guides/getting-started/technical-account-setup) in de documentatie van Adobe.
+  Voor informatie en instructies, zie [&#x200B; Technische rekeningsopstelling &#x200B;](https://developer.adobe.com/cloud-storage/guides/getting-started/technical-account-setup) in de documentatie van Adobe.
 * U moet de toestemmingen van de Beheerder van het Systeem op de technische rekening in het gebied van de Profielen van het Product van Adobe Admin Console toepassen.
 
-  Voor informatie en instructies, zie [ systeembeheerders in Workfront met Adobe Admin Console ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console#create-system-administrators-in-workfront-with-the-adobe-admin-console) creëren
+  Voor informatie en instructies, zie [&#x200B; systeembeheerders in Workfront met Adobe Admin Console &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console#create-system-administrators-in-workfront-with-the-adobe-admin-console) creëren
 
 ### Jira
 
-Als u (geadviseerde) vergunning OAuth2 voor Jira gebruikt, moet u opstelling een toepassing OAuth2 in [ https://developer.atlassian.com/console ](https://developer.atlassian.com/console). Voor informatie en instructies, zie [ een verbinding OAuth2 aan Jira ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md#create-an-oauth2-connection-to-jira) in de modules van artikelJira creëren.
+Als u (geadviseerde) vergunning OAuth2 voor Jira gebruikt, moet u opstelling een toepassing OAuth2 in [&#x200B; https://developer.atlassian.com/console &#x200B;](https://developer.atlassian.com/console). Voor informatie en instructies, zie [&#x200B; een verbinding OAuth2 aan Jira &#x200B;](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md#create-an-oauth2-connection-to-jira) in de modules van artikelJira creëren.
 
 <!--
 
@@ -103,7 +103,7 @@ Bij deze modules wordt uitgegaan van het volgende:
 | Notities | Opmerkingen | WF ↔ Jira | Bidirectionele kopie |
 | Document | Bijlage | WF → Jira | Als bijlagen bij het maken van uitgaven en opmerkingen bij nieuwe documenten na het maken. |
 
-\* Deze velden zijn geconfigureerd als onderdeel van deze integratie-instelling. Voor instructies, zie [ eerste vereisten in Workfront, Jira, en de Fusie van Workfront ](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#configure-prerequisites-in-workfront-jira-and-workfront-fusion) vormen.
+\* Deze velden zijn geconfigureerd als onderdeel van deze integratie-instelling. Voor instructies, zie [&#x200B; eerste vereisten in Workfront, Jira, en de Fusie van Workfront &#x200B;](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#configure-prerequisites-in-workfront-jira-and-workfront-fusion) vormen.
 
 ## Voorwaarden configureren in Workfront, Jira en Workfront Fusion
 
@@ -156,13 +156,13 @@ Als u deze modules wilt gebruiken, moet u het volgende maken in Workfront:
 
 1. In Workfront, creeer een gebruiker van de Integratie van het Systeem. Deze gebruiker wordt alleen gebruikt door Workfront Fusion en vertegenwoordigt geen menselijke gebruiker. Taken die aan deze gebruiker zijn toegewezen, activeren het scenario dat Workfront synchroniseert met Jira.
 
-   Voor instructies, zie [ gebruikers ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) in de documentatie van Workfront toevoegen.
+   Voor instructies, zie [&#x200B; gebruikers &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) in de documentatie van Workfront toevoegen.
 
 #### Een aangepast formulier maken in Workfront
 
 1. Maak in Workfront een aangepast formulier.
 
-   Voor instructies, zie [ een douaneformulier ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) in de documentatie van Workfront creëren.
+   Voor instructies, zie [&#x200B; een douaneformulier &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) in de documentatie van Workfront creëren.
 1. Noem de vorm &quot;**Velden JIRA**&quot;.
 1. Voeg de volgende velden toe aan het aangepaste formulier:
 
@@ -179,7 +179,7 @@ Als u deze modules wilt gebruiken, moet u het volgende maken in Workfront:
 >
 >We raden u aan dit formulier te beperken tot bewerkingen door andere gebruikers. U kunt dit bereiken door ervoor te zorgen dat gebruikers die aan het aangepaste formulier worden toegevoegd, alleen toegang tot de weergave hebben.
 >
->Voor instructies, zie [ een douanevorm ](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/manage-custom-forms/share-access-to-a-custom-form) in de documentatie van Workfront delen.
+>Voor instructies, zie [&#x200B; een douanevorm &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/manage-custom-forms/share-access-to-a-custom-form) in de documentatie van Workfront delen.
 
 ### Verbindingen configureren in Workfront Fusion
 
@@ -189,8 +189,8 @@ Wanneer het creëren van deze verbindingen, ben zeker om de geloofsbrieven van d
 
 Indien gewenst, kunt u deze verbindingen als deel van het vormen van de malplaatjes tot stand brengen.
 
-* Voor instructies bij het creëren van een verbinding aan Workfront, zie [ Workfront met de Fusie van Workfront ](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront verbinden.
-* Voor instructies bij het creëren van een verbinding aan Jira, zie [ Verbinding Jira aan de Fusie van Workfront ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md#connect-jira-to-workfront-fusion) in de modules van de artikelJira Software.
+* Voor instructies bij het creëren van een verbinding aan Workfront, zie [&#x200B; Workfront met de Fusie van Workfront &#x200B;](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/workfront-modules.md#connect-workfront-to-workfront-fusion) in de modules van artikelWorkfront verbinden.
+* Voor instructies bij het creëren van een verbinding aan Jira, zie [&#x200B; Verbinding Jira aan de Fusie van Workfront &#x200B;](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md#connect-jira-to-workfront-fusion) in de modules van de artikelJira Software.
 
 
 ## Scenarios
@@ -234,13 +234,13 @@ Als een Workfront-taak is toegewezen, is het probleem in Jira een taak. Als er e
 
 #### De triggermodule configureren
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Workfront aan Jira: Creeer JIRA kwestie van de taak van Workfront of geef taak** malplaatje uit.
 
    Er wordt een weergave van de sjabloon geopend met informatie en een animatie van de gegevensstroom.
 1. Voeg in de eerste module een webhaak toe.
-1. Selecteer de verbinding van Workfront die u in [ creeerde vormt verbindingen in de Fusie van Workfront ](#configure-connections-in-workfront-fusion).
+1. Selecteer de verbinding van Workfront die u in [&#x200B; creeerde vormt verbindingen in de Fusie van Workfront &#x200B;](#configure-connections-in-workfront-fusion).
 1. Op het **gebied van het Type van Verslag**, uitgezochte `Assignment`.
 1. Op het **gebied van de Staat**, uitgezochte `New state`.
 1. Vorm de filter met de volgende verrichtingen, gebruikend **en** optie:
@@ -253,14 +253,14 @@ Als een Workfront-taak is toegewezen, is het probleem in Jira een taak. Als er e
 
 1. Laat de **updates van de Uitsluiting toe die door deze verbinding** optie worden gemaakt.
 1. Op het **gebied van de Oorsprong van het Verslag**, uitgezochte Nieuwe slechts Verslag.
-1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **** om de trekkermodule te bewaren.
-1. Ga aan [ Connect malplaatjemodules aan Workfront en Jira ](#connect-template-modules-to-workfront-and-jira) verder
+1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **&#x200B;**&#x200B;om de trekkermodule te bewaren.
+1. Ga aan [&#x200B; Connect malplaatjemodules aan Workfront en Jira &#x200B;](#connect-template-modules-to-workfront-and-jira) verder
 
 #### Sjabloonmodules verbinden met Workfront en Jira
 
-1. In **elke** module van Workfront, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [ creeerde vormt verbindingen in de Fusie van Workfront ](#configure-connections-in-workfront-fusion), dan klik O.K. **** om de verbinding aan die module te bewaren.
-1. In **elke** module van Jira, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [ creeerde vormt verbindingen in de Fusie van Workfront ](#configure-connections-in-workfront-fusion), dan klik O.K. **** om de verbinding aan die module te bewaren.
-1. Ga aan [ bij Werk de Algemene module van Parameters ](#update-the-general-parameters-module).
+1. In **elke** module van Workfront, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [&#x200B; creeerde vormt verbindingen in de Fusie van Workfront &#x200B;](#configure-connections-in-workfront-fusion), dan klik O.K. **&#x200B;**&#x200B;om de verbinding aan die module te bewaren.
+1. In **elke** module van Jira, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [&#x200B; creeerde vormt verbindingen in de Fusie van Workfront &#x200B;](#configure-connections-in-workfront-fusion), dan klik O.K. **&#x200B;**&#x200B;om de verbinding aan die module te bewaren.
+1. Ga aan [&#x200B; bij Werk de Algemene module van Parameters &#x200B;](#update-the-general-parameters-module).
 
 #### De module Algemene parameters bijwerken
 
@@ -272,7 +272,7 @@ Als een Workfront-taak is toegewezen, is het probleem in Jira een taak. Als er e
    | JiraBaseURL | Voer de basis-URL in van de Jira-account waarmee u verbinding maakt. |
    | wfBaseURL | Voer de basis-URL in van de Workfront-account waarmee u verbinding maakt. |
 
-1. Ga aan [ aangepaste gebieden van de Kaart in Jira ](#map-custom-fields-in-jira) verder
+1. Ga aan [&#x200B; aangepaste gebieden van de Kaart in Jira &#x200B;](#map-custom-fields-in-jira) verder
 
 <!--#### Map custom fields in Jira. 
 
@@ -287,11 +287,11 @@ Dit scenario leidt tot een taak of een kwestie van Workfront wanneer een kwestie
 >[!NOTE]
 >
 >Voor dit scenario is een OAuth2-verbinding voor Jira vereist.
->Om OAuth2 vergunning voor Jira te gebruiken, moet u opstelling een toepassing OAuth2 in [ https://developer.atlassian.com/console ](https://developer.atlassian.com/console). Raadpleeg de documentatie bij Jira voor meer informatie en instructies.
+>Om OAuth2 vergunning voor Jira te gebruiken, moet u opstelling een toepassing OAuth2 in [&#x200B; https://developer.atlassian.com/console &#x200B;](https://developer.atlassian.com/console). Raadpleeg de documentatie bij Jira voor meer informatie en instructies.
 
 +++**breid aan meningsinstructies voor het vormen Scenario 2 uit: JIRA aan Workfront: Verzend updates over kwesties en commentaren terug naar Workfront van Jira**
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Deel 2: JIRA aan Workfront: Verzend updates over kwesties en commentaren terug naar Workfront van Jira** malplaatje.
 
@@ -299,17 +299,17 @@ Dit scenario leidt tot een taak of een kwestie van Workfront wanneer een kwestie
 1. Voeg in de eerste module een webhaak toe.
 1. Selecteer een verbinding die de geloofsbrieven voor de gebruiker van de Integratie van het Systeem gebruikt, of creeer een verbinding aan Jira met de geloofsbrieven van de Integratie van het Systeem.
 
-* Voor instructies bij het creëren van een verbinding aan Jira, zie [ Verbinding Jira aan de Fusie van Workfront ](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md#connect-jira-to-workfront-fusion) in de modules van de artikelJira Software.
+* Voor instructies bij het creëren van een verbinding aan Jira, zie [&#x200B; Verbinding Jira aan de Fusie van Workfront &#x200B;](/help/workfront-fusion/references/apps-and-modules/third-party-connectors/jira-modules-new.md#connect-jira-to-workfront-fusion) in de modules van de artikelJira Software.
 
 1. Het webhaakfilter configureren
 
-1. Ga aan [ verder vormen een webhaak in Jira ](#configure-a-webhook-in-jira)
+1. Ga aan [&#x200B; verder vormen een webhaak in Jira &#x200B;](#configure-a-webhook-in-jira)
 
 #### Webhaak configureren in Jira
 
 1. Maak een webhaak in Jira.
 
-   Voor instructies zie [ Webhooks ](https://developer.atlassian.com/server/jira/platform/webhooks/) in de documentatie van Jira.
+   Voor instructies zie [&#x200B; Webhooks &#x200B;](https://developer.atlassian.com/server/jira/platform/webhooks/) in de documentatie van Jira.
 
 1. Gebruik de volgende waarden wanneer u de webhaak configureert:
 
@@ -318,12 +318,12 @@ Dit scenario leidt tot een taak of een kwestie van Workfront wanneer een kwestie
    * **Commentaar**: gecreeerd, geschrapt
 
 
-1. Ga aan [ Connect malplaatjemodules aan Workfront en Jira (Module 2) ](#connect-template-modules-to-workfront-and-jira-module-2) verder
+1. Ga aan [&#x200B; Connect malplaatjemodules aan Workfront en Jira (Module 2) &#x200B;](#connect-template-modules-to-workfront-and-jira-module-2) verder
 
 #### Sjabloonmodules verbinden met Workfront en Jira (module 2)
 
-1. In **elke** module van Workfront, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [ creeerde vormt verbindingen in de Fusie van Workfront ](#configure-connections-in-workfront-fusion), dan klik O.K. **** om de verbinding aan die module te bewaren.
-1. In **elke** module van Jira, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [ creeerde vormt verbindingen in de Fusie van Workfront ](#configure-connections-in-workfront-fusion), dan klik O.K. **** om de verbinding aan die module te bewaren.
+1. In **elke** module van Workfront, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [&#x200B; creeerde vormt verbindingen in de Fusie van Workfront &#x200B;](#configure-connections-in-workfront-fusion), dan klik O.K. **&#x200B;**&#x200B;om de verbinding aan die module te bewaren.
+1. In **elke** module van Jira, op het gebied van de Verbinding, selecteer de verbinding van Workfront die u in [&#x200B; creeerde vormt verbindingen in de Fusie van Workfront &#x200B;](#configure-connections-in-workfront-fusion), dan klik O.K. **&#x200B;**&#x200B;om de verbinding aan die module te bewaren.
    <!--#### Map custom fields-->
 
 +++
@@ -332,7 +332,7 @@ Dit scenario leidt tot een taak of een kwestie van Workfront wanneer een kwestie
 
 +++**breid aan meningsinstructies voor het vormen Scenario 3 uit: De Veranderingen van WF-aan-Jira (Taken)**
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Deel 3: Workfront aan Jira: Veranderingen in de taak van Workfront aan JIRA uitgiftesjabloon**.
 
@@ -353,9 +353,9 @@ Dit scenario leidt tot een taak of een kwestie van Workfront wanneer een kwestie
    | DE: Jira Key | Exists |  |
 
 1. Laat de **updates van de Uitsluiting toe die door deze verbinding** optie worden gemaakt.
-1. Op het **gebied van de Oorsprong van het 0} Verslag, uitgezochte**.`Updated record only`
-1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **** om de trekkermodule te bewaren.
-1. In de **Reeks JIRA Variabelen** module, plaats de volgende variabelen, dan klik O.K. **** om de module te bewaren.
+1. Op het **gebied van de Oorsprong van het 0&rbrace; Verslag, uitgezochte**.`Updated record only`
+1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **&#x200B;**&#x200B;om de trekkermodule te bewaren.
+1. In de **Reeks JIRA Variabelen** module, plaats de volgende variabelen, dan klik O.K. **&#x200B;**&#x200B;om de module te bewaren.
 
    | Naam variabele | Waarde variabele |
    |---|---|
@@ -374,7 +374,7 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
 
 +++**breid zich aan meningsinstructies voor het vormen Scenario 4 uit: Workfront aan Jira: De veranderingen in de kwestie van Workfront aan JIRA**
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Scenario 4: De Veranderingen van WF-aan-Jira (Kwesties)** malplaatje.
 
@@ -395,9 +395,9 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
    | DE: Jira Key | Exists |  |
 
 1. Laat de **updates van de Uitsluiting toe die door deze verbinding** optie worden gemaakt.
-1. Op het **gebied van de Oorsprong van het 0} Verslag, uitgezochte**.`Updated record only`
-1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **** om de trekkermodule te bewaren.
-1. In de **Reeks JIRA Variabelen** module, plaats de volgende variabelen, dan klik O.K. **** om de module te bewaren.
+1. Op het **gebied van de Oorsprong van het 0&rbrace; Verslag, uitgezochte**.`Updated record only`
+1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **&#x200B;**&#x200B;om de trekkermodule te bewaren.
+1. In de **Reeks JIRA Variabelen** module, plaats de volgende variabelen, dan klik O.K. **&#x200B;**&#x200B;om de module te bewaren.
 
    | Naam variabele | Waarde variabele |
    |---|---|
@@ -414,7 +414,7 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
 
 +++**breid aan meningsinstructies voor het vormen Scenario 5 uit: Workfront aan Jira: Creeer commentaar in JIRA wanneer nieuwe nota over de taak of de kwestie van Workfront**
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Scenario 5: WF-aan-Jira Nieuwe nota&#39;s (Taken en Kwesties)** malplaatje.
 
@@ -432,9 +432,9 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
    | projectID <br> EN <br> OpTaskID | Gelijk <br><br> bestaat | Voer de id in van het project of de projecten die de webhaak moet bekijken. |
 
 1. Laat de **updates van de Uitsluiting toe die door deze verbinding** optie worden gemaakt.
-1. Op het **gebied van de Oorsprong van het 0} Verslag, uitgezochte**.`New record only`
-1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **** om de trekkermodule te bewaren.
-1. In de **Vastgestelde variabelen** module, plaats de volgende variabelen, dan klik O.K. **** om de module te bewaren.
+1. Op het **gebied van de Oorsprong van het 0&rbrace; Verslag, uitgezochte**.`New record only`
+1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **&#x200B;**&#x200B;om de trekkermodule te bewaren.
+1. In de **Vastgestelde variabelen** module, plaats de volgende variabelen, dan klik O.K. **&#x200B;**&#x200B;om de module te bewaren.
 
    | Naam variabele | Waarde variabele |
    |---|---|
@@ -451,7 +451,7 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
 
 +++**breid aan meningsinstructies voor het vormen Scenario 6 uit: Workfront aan Jira: Creeer commentaar in JIRA op geschrapte nota over de taak of de kwestie van Workfront**
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Scenario 6: WF-aan-Jira verwijdert nota&#39;s (Taken en Kwesties)** malplaatje.
 
@@ -469,9 +469,9 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
    | projectID <br> EN <br> OpTaskID | Gelijk <br><br> bestaat | Voer de id in van het project of de projecten die de webhaak moet bekijken. |
 
 1. Laat de **updates van de Uitsluiting toe die door deze verbinding** optie worden gemaakt.
-1. Op het **gebied van de Oorsprong van het 0} Verslag, uitgezochte**.`Deleted record only`
-1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **** om de trekkermodule te bewaren.
-1. In de tweede module, plaats de volgende variabelen, dan klik O.K. **** om de module te bewaren.
+1. Op het **gebied van de Oorsprong van het 0&rbrace; Verslag, uitgezochte**.`Deleted record only`
+1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **&#x200B;**&#x200B;om de trekkermodule te bewaren.
+1. In de tweede module, plaats de volgende variabelen, dan klik O.K. **&#x200B;**&#x200B;om de module te bewaren.
 
    | Naam variabele | Waarde variabele |
    |---|---|
@@ -488,7 +488,7 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
 
 +++**breid aan meningsinstructies voor het vormen Scenario 7 uit: Workfront aan Jira: Creeer commentaar in JIRA wanneer het nieuwe document op de taak of de kwestie van Workfront**
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Scenario 7: WF-aan-Jira Nieuwe Gehechtheid (Taken en Kwesties)** malplaatje.
 
@@ -513,8 +513,8 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
    | wfBaseURL | De basis-URL van de Workfront-account waarmee u verbinding maakt. |
 
 1. Laat de **updates van de Uitsluiting toe die door deze verbinding** optie worden gemaakt.
-1. Op het **gebied van de Oorsprong van het 0} Verslag, uitgezochte**.`New record only`
-1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **** om de trekkermodule te bewaren.
+1. Op het **gebied van de Oorsprong van het 0&rbrace; Verslag, uitgezochte**.`New record only`
+1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **&#x200B;**&#x200B;om de trekkermodule te bewaren.
 1. In **elke** module van Workfront, op het gebied van de Verbinding, selecteer de verbinding van Workfront die de geloofsbrieven van de Integratie van het Systeem gebruikt, dan klik O.K. **om de module te bewaren.**
 1. In **elke** module van Jira, op het gebied van de Verbinding, selecteer de verbinding van Jira die de geloofsbrieven van de Integratie van het Systeem gebruikt, dan klik O.K. **om de module te bewaren.**
 
@@ -524,7 +524,7 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
 
 +++**breid aan meningsinstructies voor het vormen Scenario 8 uit: Workfront aan Jira: Creeer commentaar in JIRA op geschrapt document op de taak of de kwestie van Workfront**
 
-1. Klik het **lusje** pictogram van Malplaatjes 1} van Malplaatjes ![ in het linkernavigatievenster.](assets/templates-icon.png)
+1. Klik het **lusje** pictogram van Malplaatjes 1&rbrace; van Malplaatjes ![&#x200B; in het linkernavigatievenster.](assets/templates-icon.png)
 1. Zoek naar het malplaatje door de onderzoeksbar dichtbij de upper-left hoek van het scherm te gebruiken. U kunt zoeken op sjabloonnaam of opgenomen toepassingen.
 1. Klik **Scenario 8: WF-aan-Jira verwijder Gehechtheid (Taken en Kwesties)** malplaatje.
 
@@ -550,8 +550,8 @@ In dit scenario worden updates van Workfront-problemen verzonden naar eerder ver
    | wfBaseURL | De basis-URL van de Workfront-account waarmee u verbinding maakt. |
 
 1. Laat de **updates van de Uitsluiting toe die door deze verbinding** optie worden gemaakt.
-1. Op het **gebied van de Oorsprong van het 0} Verslag, uitgezochte**.`Deleted record only`
-1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **** om de trekkermodule te bewaren.
+1. Op het **gebied van de Oorsprong van het 0&rbrace; Verslag, uitgezochte**.`Deleted record only`
+1. Klik **sparen** om Webhaak te bewaren, dan klik O.K. **&#x200B;**&#x200B;om de trekkermodule te bewaren.
 1. In **elke** module van Workfront, op het gebied van de Verbinding, selecteer de verbinding van Workfront die de geloofsbrieven van de Integratie van het Systeem gebruikt, dan klik O.K. **om de module te bewaren.**
 1. In **elke** module van Jira, op het gebied van de Verbinding, selecteer de verbinding van Jira die de geloofsbrieven van de Integratie van het Systeem gebruikt, dan klik O.K. **om de module te bewaren.**
 
