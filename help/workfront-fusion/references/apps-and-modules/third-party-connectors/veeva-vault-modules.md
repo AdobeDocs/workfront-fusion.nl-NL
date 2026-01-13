@@ -3,9 +3,9 @@ title: Veeva Vault-modules
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 881e5ba39d1730b641085cf0d02137d18e443135
+source-git-commit: b57ae36cf9225705c7f4923d7302b1749aa04d94
 workflow-type: tm+mt
-source-wordcount: '2483'
+source-wordcount: '2537'
 ht-degree: 0%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -50,9 +50,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -115,6 +115,26 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
        <td role="rowheader">Verbindingsnaam</td> 
        <td> <p>Voer een naam in voor de verbinding.</p> </td> 
       </tr> 
+      <tr> 
+       <td role="rowheader">Autorisatieserverancier</td> 
+       <td> <p>Selecteer de provider die u voor deze verificatie wilt gebruiken.</p> </td> 
+      </tr> 
+      <tr> 
+       <td role="rowheader">Pingel-host</td> 
+       <td> <p>Als u PingFederate gebruikt, ingaat pingelt gastheer.</p> </td> 
+      </tr> 
+      <tr>
+        <td role="rowheader">Toepassingsgebied</td>
+        <td>
+          <p>Voer het bereik voor deze verbinding in.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">Tenant-id</td>
+        <td>
+          <p>Als u Azure AD/Microsoft Entra ID voor uw leverancier van de vergunningsserver gebruikt, ga huurder identiteitskaart voor deze verbinding in.</p>
+        </td>
+      </tr>
       <tr>
         <td role="rowheader">Client-id</td>
         <td>
@@ -128,18 +148,6 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
         </td>
       </tr>
       <tr>
-        <td role="rowheader">Toepassingsgebied</td>
-        <td>
-          <p>Voer het bereik voor deze verbinding in.</p>
-        </td>
-      </tr>
-      <tr>
-        <td role="rowheader">Tenant-id</td>
-        <td>
-          <p>Voer de huurder-id voor deze verbinding in.</p>
-        </td>
-      </tr>
-      <tr>
         <td role="rowheader">Profiel-id</td>
         <td>
           <p>Voer de id van uw OAuth2/Copen ID Connect-profiel in.</p>
@@ -149,6 +157,12 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
        <td role="rowheader">Vault DNS</td> 
        <td>Voer uw Veva Vault DNS (domeinnaam) in.</p><p>Als u de Veva Vault DNS wilt zoeken, bekijkt u de URL die u gebruikt om toegang te krijgen tot Veeva Vault.</p>In de URL <code>https://my-dns.veevavault.com</code> is de DNS bijvoorbeeld <code>my-dns</code> . U hoeft niet de volledige URL in te voeren.</td> 
       </tr> 
+      <tr>
+        <td role="rowheader">Vervaltijd van de sessie in minuten</td>
+        <td>
+          <p>Voer de vervaltijd van de sessie in minuten in.</p>
+        </td>
+      </tr>
      </tbody> 
     </table>
 
@@ -159,9 +173,9 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
 
 Wanneer u Veeva Vault-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Naast deze opties kunnen extra Vève Vault-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Document](#document)
 * [Object](#object)
