@@ -4,9 +4,9 @@ description: Met de  [!DNL Adobe Workfront Planning]  modules, kunt u een scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: 30ddefa8519e6f2052308482137d0fa018676902
+source-git-commit: 86747ffc38fddde91352558277d40572d13ba2b0
 workflow-type: tm+mt
-source-wordcount: '1446'
+source-wordcount: '1846'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Met de [!DNL Adobe Workfront Planning] -modules kunt u een scenario activeren wa
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -71,63 +71,138 @@ De schakelaar van de Planning van Adobe Workfront gebruikt het volgende:
  </tbody> 
  </table>
 
-## Verbinding maken met [!DNL Adobe Workfront Planning] {#create-a-connection-to-adobe-workfront-planning}
+## Workfront-planning verbinden met Workfront Fusion
 
-U kunt rechtstreeks vanuit een Workfront Fusion-module verbinding maken met uw [!DNL Workfront Planning] -account.
+De Workfront-planningsconnector gebruikt OAuth 2.0 om verbinding te maken met Workfront Planning.
 
-1. Klik in een willekeurige [!DNL Adobe Workfront Planning] -module op **[!UICONTROL Add]** naast het vak Verbinding.
+U kunt rechtstreeks vanuit een Workfront Planning Fusion-module een verbinding maken met uw Workfront-planningsaccount.
 
+* [Verbinding maken met Workfront-planning met client-id en clientgeheim](#connect-to-workfront-planning-using-client-id-and-client-secret)
+* [Verbinding maken met Workfront-planning via een server-naar-server verbinding](#connect-to-workfront--planning-using-a-server-to-server-connection)
+
+### Verbinding maken met Workfront-planning met client-id en clientgeheim
+
+1. In om het even welke module van de Planning van Adobe Workfront, voegt de klik **naast het gebied van de Verbinding toe.**
 1. Vul de volgende velden in:
 
    <table style="table-layout:auto"> 
-      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
-      </col>
-      <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
-      </col>
-      <tbody>
-        <tr>
-          <td role="rowheader">[!UICONTROL Connection name]</td>
-          <td>
-            <p>Voer een naam in voor deze verbinding.</p>
-          </td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Environment]</td>
-          <td>Selecteer of u verbinding maakt met een productie- of niet-productieomgeving.</td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Type]</td>
-          <td>Geef op of u verbinding wilt maken met een serviceaccount of een persoonlijke account.</td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Client ID]<p>(Optioneel)</p></td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client ID] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .</td>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Client Secret]<p>(Optioneel)</p></td>
-          <td>Voer uw [!DNL Adobe] [!UICONTROL Client Secret] in. Dit vindt u in de sectie [!UICONTROL Credentials details] van [!DNL Adobe Developer Console] .
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Authentication URL]</td>
-          <td>Voer de URL in die uw instantie van Workfront gebruikt om deze verbinding te verifiëren. <p>De standaardwaarde is <code>https://oauth.my.workfront.com/integrations/oauth2</code> .</p>
-        </tr>
-        <tr>
-          <td role="rowheader">[!UICONTROL Host prefix]</td>
-          <td>Voer het hostvoorvoegsel in.<p>De standaardwaarde is <code>origin-</code> .</p>
-        </tr>
-      </tbody>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Selecteer <b> Adobe Workfront auth verbinding </b>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Voer een naam in voor de nieuwe verbinding.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Voer uw Workfront-client-id in. Dit is te vinden in het gebied van Toepassingen OAuth2 van het gebied van de Opstelling in Workfront. Open de specifieke toepassing waarmee u verbinding maakt om de client-id weer te geven.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Voer uw Workfront-clientgeheim in. Dit is te vinden in het gebied van Toepassingen OAuth2 van het gebied van de Opstelling in Workfront. Als u geen geheim van de Cliënt voor uw toepassing OAuth2 in Workfront hebt, kunt u een andere produceren. Raadpleeg de documentatie bij Workfront voor instructies.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Authentication URL]</td>
+        <td>Dit kan de standaardwaarde blijven of u kunt de URL van uw Workfront-instantie invoeren, gevolgd door <code>/integrations/oauth2</code> . <p>Voorbeeld: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td>In de meeste gevallen moet deze waarde <code>origin</code> zijn.
+      </tr>
+    </tbody>
     </table>
 
 1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+
+   Als u niet bij de Planning van Workfront wordt aangemeld, wordt u geleid aan een login scherm. Nadat u zich hebt aangemeld, kunt u de verbinding toestaan.
+
+>[!NOTE]
+>
+>* OAuth 2.0-verbindingen met de Workfront API zijn niet langer afhankelijk van API-sleutels.
+>* Als u een verbinding met een Workfront Sandbox-omgeving wilt maken, moet u in die omgeving een OAuth2-toepassing maken en vervolgens de client-id en het clientgeheim gebruiken die door die toepassing zijn gegenereerd in uw verbinding.
+
+### Verbinding maken met Workfront-planning via een server-naar-server verbinding
+
+1. In om het even welke module van de Planning van Adobe Workfront, voegt de klik **naast het gebied van de Verbinding toe.**
+1. Vul de volgende velden in:
+
+   <table style="table-layout:auto"> 
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column1">
+    </col>
+    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2">
+    </col>
+    <tbody>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection type]</td>
+        <td>
+          <p>Selecteer <b> Server-aan-Server verbinding van Adobe Workfront </b>.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Connection name]</td>
+        <td>
+          <p>Voer een naam in voor de nieuwe verbinding.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Instance name]</td>
+        <td>
+          <p>Voer de naam in van de instantie, ook wel bekend als uw domein.</p><p>Voorbeeld: als de URL <code>https://example.my.workfront.com</code> is, voert u <code>example</code> in.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Instance lane]</td>
+        <td>
+          <p>Voer het omgevingstype in waarmee deze verbinding verbinding verbinding maakt.</p><p>Voorbeeld: als de URL <code>https://example.my.workfront.com</code> is, voert u <code>my</code> in.</p>
+        </td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client ID]</td>
+        <td>Voer uw Workfront-client-id in. Dit is te vinden in het gebied van Toepassingen OAuth2 van het gebied van de Opstelling in Workfront. Open de specifieke toepassing waarmee u verbinding maakt om de client-id weer te geven.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Client Secret]</td>
+        <td>Voer uw Workfront-clientgeheim in. Dit is te vinden in het gebied van Toepassingen OAuth2 van het gebied van de Opstelling in Workfront. Als u geen geheim van de Cliënt voor uw toepassing OAuth2 in Workfront hebt, kunt u een andere produceren. Raadpleeg de documentatie bij Workfront voor instructies.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Scopes]</td>
+        <td>Voer het bereik in dat van toepassing is op deze verbinding.</td>
+      </tr>
+      <tr>
+        <td role="rowheader">[!UICONTROL Host prefix]</td>
+        <td>In de meeste gevallen moet deze waarde <code>origin</code> zijn.
+      </tr>
+    </tbody>
+    </table>
+
+1. Klik op **[!UICONTROL Continue]** om de verbinding op te slaan en terug te keren naar de module.
+
+   Als u niet bij de Planning van Workfront wordt aangemeld, wordt u geleid aan een login scherm. Nadat u zich hebt aangemeld, kunt u de verbinding toestaan.
+
+>[!NOTE]
+>
+>* OAuth 2.0-verbindingen met de Workfront API zijn niet langer afhankelijk van API-sleutels.
+>* Als u een verbinding met een Workfront Sandbox-omgeving wilt maken, moet u in die omgeving een OAuth2-toepassing maken en vervolgens de client-id en het clientgeheim gebruiken die door die toepassing zijn gegenereerd in uw verbinding.
+
 
 ## [!DNL Adobe Workfront Planning] modules en hun velden
 
 Wanneer u Workfront-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er aanvullende Workfront-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Handelingen](#actions)
@@ -473,5 +548,5 @@ De volgende uitdrukking JSONata leidt tot een leesbare output van de vraag van d
 )
 ```
 
-Voor informatie bij het gebruiken van modules JSONata, zie [&#x200B; modules JSONata &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md).
+Voor informatie bij het gebruiken van modules JSONata, zie [ modules JSONata ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md).
 
