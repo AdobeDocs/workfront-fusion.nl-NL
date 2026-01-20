@@ -4,9 +4,9 @@ description: De sleutelhanger in Adobe Workfront Fusion helpt u bij het beheren 
 author: Becky
 feature: Workfront Fusion
 exl-id: b92e54ed-fa03-4af7-be7b-436907b2bff9
-source-git-commit: 99621f57da1eb294834a0eacfe527dcf017408e9
+source-git-commit: 3ae274720ea2d7e4ee823a8467b750ad6f4d0c52
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '324'
 ht-degree: 0%
 
 ---
@@ -40,11 +40,11 @@ De openbare en privé sleutels worden gebruikt om gegevens te coderen en te decr
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
-## Toetsen gebruiken in Workfront Fusion
+## Een toets maken
 
 Vergelijkbaar met verbindingen, worden de sleutels toegevoegd aan individuele modules, en zijn dan beschikbaar voor gebruik in andere modules.
 
@@ -55,3 +55,11 @@ Vergelijkbaar met verbindingen, worden de sleutels toegevoegd aan individuele mo
    Klik **toevoegen** naast het zeer belangrijke gebied, dan ga een naam voor de sleutel en de sleutel zelf in, dan klik **creeer een sleutel**.
 
 Om bestaande sleutels te bekijken, klik het **Sleutels** gebied in de linkernavigatie.
+
+## Een toets bijwerken
+
+U kunt een bestaande sleutel bijwerken. Wanneer de sleutel wordt bijgewerkt, zullen alle scenario&#39;s die de sleutel gebruiken de bijgewerkte sleutel gebruiken.
+
+1. In Fusie, klik het pictogram van Sleutels ![ Sleutels ](assets/keys-icon.png) in de linkernavigatie.
+1. Selecteer de toets die u wilt bewerken en klik op Bewerken in de balk onder aan het scherm.
+1. Bewerk de toets naar wens.
