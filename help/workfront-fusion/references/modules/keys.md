@@ -40,7 +40,7 @@ De openbare en privé sleutels worden gebruikt om gegevens te coderen en te decr
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,6 +60,6 @@ Om bestaande sleutels te bekijken, klik het **Sleutels** gebied in de linkernavi
 
 U kunt een bestaande sleutel bijwerken. Wanneer de sleutel wordt bijgewerkt, zullen alle scenario&#39;s die de sleutel gebruiken de bijgewerkte sleutel gebruiken.
 
-1. In Fusie, klik het pictogram van Sleutels ![ Sleutels ](assets/keys-icon.png) in de linkernavigatie.
+1. In Fusie, klik het pictogram van Sleutels ![&#x200B; Sleutels &#x200B;](assets/keys-icon.png) in de linkernavigatie.
 1. Selecteer de toets die u wilt bewerken en klik op Bewerken in de balk onder aan het scherm.
 1. Bewerk de toets naar wens.
