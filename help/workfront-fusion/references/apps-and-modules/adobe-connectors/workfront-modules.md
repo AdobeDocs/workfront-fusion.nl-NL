@@ -1034,7 +1034,7 @@ Workfront heeft onlangs een nieuwe versie van zijn service voor gebeurtenisabonn
 
 Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
 
-Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [&#x200B; het Behouden van Uw Scenario&#39;s van de Fusie tijdens de Verbetering van de Abonnementen V2 van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182).
+Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [&#x200B; het Behouden van Uw Scenario&#39;s van de Fusie tijdens de Verbetering van de Abonnementen V2 van de Gebeurtenis &#x200B;](https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=nl).
 
 <table style="table-layout:auto">
  <col> 
@@ -2362,7 +2362,7 @@ Wij adviseren dat u tweemaal controleert om ervoor te zorgen dit werkt zoals u h
 >
 >   Voor meer informatie over de nieuwe versie van het gebeurtenisabonnement, zie [&#x200B; het abonnementversioning van de Gebeurtenis &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-api/event-subscriptions/event-subs-versioning) in de documentatie van Workfront
 >
->   Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [ het Behouden van Uw Scenario&#39;s van de Fusie tijdens de V2 Verbetering van de Abonnementen van de Gebeurtenis (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182) ].
+>   Voor middelen bij het bewaren van uw scenario&#39;s van de Fusie van Workfront tijdens de verbetering van het gebeurtenisabonnement, met inbegrip van een webinar opname, zie [ het Behouden van Uw Scenario&#39;s van de Fusie tijdens de V2 Verbetering van de Abonnementen van de Gebeurtenis (https://experienceleaguecommunities.adobe.com/t5/workfront-discussions/event-follow-up-preserving-your-fusion-scenarios-during-the/td-p/754182?profile.language=nl) ].
 
 De Workfront [!UICONTROL Watch Events] -module activeert scenario&#39;s op basis van een webhaak die een gebeurtenisabonnement maakt in de Workfront API. Het gebeurtenisabonnement is een gegevensset die bepaalt welke gebeurtenissen naar de webhaak worden verzonden. Als u bijvoorbeeld een module [!UICONTROL Watch Events] instelt die op problemen let, verzendt het gebeurtenisabonnement alleen gebeurtenissen die met problemen te maken hebben.
 
