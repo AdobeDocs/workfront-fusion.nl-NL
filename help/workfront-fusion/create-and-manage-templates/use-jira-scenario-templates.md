@@ -59,7 +59,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
   Voor informatie en instructies, zie [&#x200B; Technische rekeningsopstelling &#x200B;](https://developer.adobe.com/cloud-storage/guides/getting-started/technical-account-setup) in de documentatie van Adobe.
 * U moet de toestemmingen van de Beheerder van het Systeem op de technische rekening in het gebied van de Profielen van het Product van Adobe Admin Console toepassen.
 
-  Voor informatie en instructies, zie [&#x200B; systeembeheerders in Workfront met Adobe Admin Console &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console#create-system-administrators-in-workfront-with-the-adobe-admin-console) creëren
+  Voor informatie en instructies, zie [&#x200B; systeembeheerders in Workfront met Adobe Admin Console &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/create-manage-users/admin-console#create-system-administrators-in-workfront-with-the-adobe-admin-console) creëren
 
 ### Jira
 
@@ -154,13 +154,13 @@ Als u deze modules wilt gebruiken, moet u het volgende maken in Workfront:
 
 1. In Workfront, creeer een gebruiker van de Integratie van het Systeem. Deze gebruiker wordt alleen gebruikt door Workfront Fusion en vertegenwoordigt geen menselijke gebruiker. Taken die aan deze gebruiker zijn toegewezen, activeren het scenario dat Workfront synchroniseert met Jira.
 
-   Voor instructies, zie [&#x200B; gebruikers &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) in de documentatie van Workfront toevoegen.
+   Voor instructies, zie [&#x200B; gebruikers &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/create-manage-users/add-users) in de documentatie van Workfront toevoegen.
 
 #### Een aangepast formulier maken in Workfront
 
 1. Maak in Workfront een aangepast formulier.
 
-   Voor instructies, zie [&#x200B; een douaneformulier &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) in de documentatie van Workfront creëren.
+   Voor instructies, zie [&#x200B; een douaneformulier &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/customize/custom-forms/design-a-form/design-a-form) in de documentatie van Workfront creëren.
 1. Noem de vorm &quot;**Velden JIRA**&quot;.
 1. Voeg de volgende velden toe aan het aangepaste formulier:
 
@@ -177,7 +177,7 @@ Als u deze modules wilt gebruiken, moet u het volgende maken in Workfront:
 >
 >We raden u aan dit formulier te beperken tot bewerkingen door andere gebruikers. U kunt dit bereiken door ervoor te zorgen dat gebruikers die aan het aangepaste formulier worden toegevoegd, alleen toegang tot de weergave hebben.
 >
->Voor instructies, zie [&#x200B; een douanevorm &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/customize/custom-forms/manage-custom-forms/share-access-to-a-custom-form) in de documentatie van Workfront delen.
+>Voor instructies, zie [&#x200B; een douanevorm &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/customize/custom-forms/manage-custom-forms/share-access-to-a-custom-form) in de documentatie van Workfront delen.
 
 ### Verbindingen configureren in Workfront Fusion
 
