@@ -17,7 +17,7 @@ De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe Workfront Fus
 
 Uw team of organisatie kan andere team-gecreeerde malplaatjes beschikbaar hebben.
 
-Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes** pictogram van Malplaatjes ![ in het zijnavigatiemenu in Fusion.](assets/templates-icon.png)
+Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes** pictogram van Malplaatjes ![&#x200B; in het zijnavigatiemenu in Fusion.](assets/templates-icon.png)
 
 ## Workfront-sjablonen
 
@@ -33,7 +33,7 @@ Als uw team moeite heeft om vaart te houden omdat de projectchronologie niet dyn
 
 Deze Fusion-sjabloon automatiseert dat proces. Wanneer een taak vroeg wordt voltooid, worden alle afhankelijke (opvolger) taken automatisch opnieuw gepland om sneller te beginnen, waardoor uw team sneller kan bewegen en flexibel kan blijven.
 
-### [!BADGE  Nieuw! ]{type=Informative} HTTP>CSV>WF - Een lijst met gebeurtenissubs maken op domein en laag en exporteren naar CSV
+### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} HTTP>CSV>WF - Een lijst met gebeurtenissubs maken op domein en laag en exporteren naar CSV
 
 Download abonnementsgegevens voor gebeurtenissen, maak een CSV-bestand en upload het bestand naar Workfront.
 
@@ -184,7 +184,7 @@ Met deze sjabloon kunt u zien of een SharePoint-map is gewijzigd.
 
 Deze sjablonen ondersteunen de integratie tussen Workfront en Anaplan en verwachten een specifieke configuratie in zowel Anaplan als Workfront. Zie de artikelen voor de afzonderlijke sjablonen voor informatie over deze sjablonen en de bijbehorende configuraties.
 
-Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront met Anaplan ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
+Voor meer informatie over de integratie Workfront-Anaplan, zie [&#x200B; Adobe Workfront met Anaplan &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
 
 >[!NOTE]
 >
@@ -192,27 +192,27 @@ Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront
 
 ### Workflows voor optimalisatie doorgeven
 
-* [ verzendt het projectupdates van Adobe Workfront naar een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
-* [ verzend de uitgaven van Adobe Workfront aan a  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
-* [ verzend de daadwerkelijke uren van Adobe Workfront updates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
+* [&#x200B; verzendt het projectupdates van Adobe Workfront naar een  [!DNL Anaplan]  lijstitem &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
+* [&#x200B; verzend de uitgaven van Adobe Workfront aan a  [!DNL Anaplan]  lijstitem &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
+* [&#x200B; verzend de daadwerkelijke uren van Adobe Workfront updates aan een  [!DNL Anaplan]  lijstitem &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
 
 ### Workflows voor het koppelen van begrotingsaanvragen
 
-* [ creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront begrotingsverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
-* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een project van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
+* [&#x200B; creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront begrotingsverzoek &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
+* [&#x200B; pas een  [!DNL Anaplan]  begrotingstoewijzing op een project van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
 
 ### Workflows voor het koppelen van campagneaanvragen
 
-* [ creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront campagneverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
-* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een de campagneverzoek of campagneproject van Adobe Workfront toe ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
+* [&#x200B; creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront campagneverzoek &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
+* [&#x200B; pas een  [!DNL Anaplan]  begrotingstoewijzing op een de campagneverzoek of campagneproject van Adobe Workfront toe &#x200B;](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
 
 ## Workfront - Jira-sjablonen
 
 Deze sjablonen vertegenwoordigen veelvoorkomende workflows tussen Workfront en Jira.
 
-Voor gedetailleerde informatie over deze malplaatjes, zie [ malplaatjes van het Gebruik om de Fusie van Adobe Workfront en Jira ](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md) te verbinden.
+Voor gedetailleerde informatie over deze malplaatjes, zie [&#x200B; malplaatjes van het Gebruik om de Fusie van Adobe Workfront en Jira &#x200B;](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md) te verbinden.
 
-* [ Workfront aan Jira: Creeer JIRA kwestie van de taak van Workfront of geef taak ](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-1-workfront-to-jira-create-jira-issue-from-workfront-task-or-issue-assignment) uit
+* [&#x200B; Workfront aan Jira: Creeer JIRA kwestie van de taak van Workfront of geef taak &#x200B;](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-1-workfront-to-jira-create-jira-issue-from-workfront-task-or-issue-assignment) uit
 * [JIRA naar Workfront: JIRA naar Workfront: stuur updates over problemen en opmerkingen terug naar Workfront vanuit Jira](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-2-jira-to-workfront-send-updates-on-issues-and-comments-back-to-workfront-from-jira)
 * [Workfront naar Jira: Veranderingen in de Workfront-taak naar JIRA-kwestie](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-3-workfront-to-jira-changes-to-workfront-task-to-jira-issue)
 * [Workfront naar Jira: Wijzigingen in Workfront-kwestie naar JIRA-kwestie](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-4-workfront-to-jira-changes-to-workfront-issue-to-jira-issue)
