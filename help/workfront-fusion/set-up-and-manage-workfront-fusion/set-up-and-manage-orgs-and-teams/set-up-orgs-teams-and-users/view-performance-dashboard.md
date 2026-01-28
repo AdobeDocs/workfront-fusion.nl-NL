@@ -5,9 +5,9 @@ author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
-source-git-commit: 671773fa1baaac8e01e0f01546602a738e219fdf
+source-git-commit: 0b9f972a0d051db6771f5a54d8af57cdee8b0ce6
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Het dashboard van de Prestaties van de Fusie staat u toe om snel te zien welke s
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,6 +50,10 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 >[!NOTE]
 >
 >Metrische gegevens worden weergegeven per pool van workers. Als u een andere arbeidersgroep wilt weergeven, klikt u op het veld Pool in de linkerbovenhoek van het dashboard en selecteert u de groep waarvoor u metriek wilt weergeven.
+
+>[!NOTE]
+>
+>Organisaties kunnen een inrichtingsaanvraag indienen voor één extra arbeiderspool (in totaal 2).
 
 In het dashboard voor Fusieprestaties ziet u de volgende cijfers.
 
@@ -73,7 +77,7 @@ Deze grafiek toont uitvoeringen per scenario. Verschillende kleuren vertegenwoor
    Op alle grafieken wordt een lijn op dat punt in de tijd weergegeven en op elke grafiek wordt een venster weergegeven waarin de gegevens voor dat moment worden weergegeven.
 1. Om gegevens voor een specifiek scenario in de Uitvoeringen per scenario grafiek of de Duur van uitvoeringen grafiek te bekijken, klik op een bar van de kleur voor het scenario u gegevens voor wilt bekijken. Klik nogmaals op de grafiek om terug te keren naar de weergave waarin alle scenario&#39;s worden weergegeven.
 1. Om naar een specifiek scenario te gaan dat in de Uitvoeringen per scenario grafiek of de Duur van uitvoeringen grafiek wordt getoond, klik op een bar van de kleur voor het scenario met de rechtermuisknop aan, en selecteer **Open scenario in nieuw lusje**.
-1. Om een grafiek uit te breiden, klik **breid** pictogram ![&#x200B; pictogram &#x200B;](assets/expand-icon.png) bij de hoger-juiste hoek van die grafiek uit.
+1. Om een grafiek uit te breiden, klik **breid** pictogram ![ pictogram ](assets/expand-icon.png) bij de hoger-juiste hoek van die grafiek uit.
 1. Als u het tijdbereik van het dashboard wilt wijzigen, selecteert u het veld Tijdbereik in de rechterbovenhoek van het dashboard en vervolgens een nieuw tijdframe. De langste beschikbare tijd is 24 uur en de kortste is 15 minuten.
 1. Als u de diagrammen wilt vernieuwen, klikt u op het pictogram Vernieuwen in de rechterbovenhoek van het dashboard.
 1. Als u een andere arbeidersgroep wilt weergeven, klikt u op het veld Pool in de linkerbovenhoek van het dashboard en selecteert u vervolgens de groep die u wilt weergeven.
