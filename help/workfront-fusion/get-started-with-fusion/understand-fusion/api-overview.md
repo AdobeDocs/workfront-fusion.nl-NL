@@ -3,9 +3,9 @@ title: API-overzicht
 description: API's (Application Programming Interfaces) zijn een manier waarop toepassingen en services met elkaar kunnen communiceren. Fusion gebruikt API's om te communiceren met de toepassing waarmee u verbinding maakt. Elke toepassing heeft een aparte API.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b30aac8040cc0b6bcad92914b1c0997a8ddebdd5
+source-git-commit: 95cdc14b313a3f76d6feebabb59f72b4277ae9e4
 workflow-type: tm+mt
-source-wordcount: '431'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
@@ -18,17 +18,22 @@ API&#39;s (Application Programming Interfaces) zijn een manier waarop toepassing
 
 API&#39;s worden gemaakt en beheerd door de eigenaars van de toepassing. De Workfront API is bijvoorbeeld eigendom van het Workfront-team in Adobe en de Microsoft Graph API is eigendom van Microsoft. De eigenaar van de API bepaalt welke acties beschikbaar zijn via de API.
 
+>[!NOTE]
+>
+>Workfront Fusion heeft zijn eigen API die u kunt gebruiken om acties in Fusion te automatiseren, zoals het beheren van verbindingen, haken, scenario&#39;s, uitvoeringen, logboeken, en andere kernautomatiseringsmiddelen.
+>Voor documentatie over de Fusion API van Workfront zie [ de Fusie API van Workfront ](https://developer.adobe.com/workfront-fusion-apis/).
+
 ## Overwegingen
 
 Het feit dat API&#39;s door hun eigenaars en niet door Fusion worden gedefinieerd, leidt tot enkele belangrijke overwegingen:
 
 * **u kunt Fusion gebruiken om met om het even welke app of dienst te verbinden die openbare API** heeft, al dan niet biedt de Fusie een specifieke schakelaar aan die app of de dienst aan. U kunt de universele connectors van Fusion gebruiken om deze apps of services in uw scenario&#39;s te brengen.
 
-  Voor een lijst van universele schakelaars, zie [&#x200B; Universele schakelaars &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors).
+  Voor een lijst van universele schakelaars, zie [ Universele schakelaars ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors).
 
 * **de Veranderingen die in API van een toepassing door zijn eigenaar worden aangebracht kunnen de functionaliteit van de Fusie beïnvloeden.** Als de wijzigingen ernstig genoeg zijn, moet Fusion mogelijk modules of verbindingstypen bijwerken of in extreme gevallen een nieuwe connector voor de toepassing maken.
 
-  Voor meer informatie over deze extreme situaties, die als &quot;het breken veranderingen worden bekend,&quot;zie [&#x200B; het breken veranderingen &#x200B;](#breaking-changes) in dit artikel.
+  Voor meer informatie over deze extreme situaties, die als &quot;het breken veranderingen worden bekend,&quot;zie [ het breken veranderingen ](#breaking-changes) in dit artikel.
 
 
 ## Wijzigingen verbreken
@@ -43,4 +48,4 @@ Omdat uw scenario&#39;s van de Fusie met uw specifieke gegevens worden gevormd, 
 
 In veel gevallen, kunt u aan de nieuwe versie van een module bevorderen zonder het moeten die module aanpassen.
 
-Voor informatie en instructies bij de bevordering van een module, zie [&#x200B; Verbetering een module aan een nieuwe versie &#x200B;](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md).
+Voor informatie en instructies bij de bevordering van een module, zie [ Verbetering een module aan een nieuwe versie ](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md).
