@@ -22,7 +22,7 @@ API&#39;s worden gemaakt en beheerd door de eigenaars van de toepassing. De Work
 >
 >Workfront Fusion heeft een eigen API die u kunt gebruiken om handelingen in Fusion te automatiseren.
 >De API&#39;s worden incrementeel vrijgegeven en worden momenteel als experimenteel gemarkeerd. Het Fusion-team is bezig de API&#39;s actief te ontwikkelen en uit te breiden, en updates worden gepubliceerd zodra nieuwe functionaliteit beschikbaar wordt.
->Voor documentatie over de Fusion API van Workfront zie [ de Fusie API van Workfront ](https://developer.adobe.com/workfront-fusion-apis/).
+>Voor documentatie over de Fusion API van Workfront zie [&#x200B; de Fusie API van Workfront &#x200B;](https://developer.adobe.com/workfront-fusion-apis/).
 
 ## Overwegingen
 
@@ -30,11 +30,11 @@ Het feit dat API&#39;s door hun eigenaars en niet door Fusion worden gedefinieer
 
 * **u kunt Fusion gebruiken om met om het even welke app of dienst te verbinden die openbare API** heeft, al dan niet biedt de Fusie een specifieke schakelaar aan die app of de dienst aan. U kunt de universele connectors van Fusion gebruiken om deze apps of services in uw scenario&#39;s te brengen.
 
-  Voor een lijst van universele schakelaars, zie [ Universele schakelaars ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors).
+  Voor een lijst van universele schakelaars, zie [&#x200B; Universele schakelaars &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md#universal-connectors).
 
 * **de Veranderingen die in API van een toepassing door zijn eigenaar worden aangebracht kunnen de functionaliteit van de Fusie beïnvloeden.** Als de wijzigingen ernstig genoeg zijn, moet Fusion mogelijk modules of verbindingstypen bijwerken of in extreme gevallen een nieuwe connector voor de toepassing maken.
 
-  Voor meer informatie over deze extreme situaties, die als &quot;het breken veranderingen worden bekend,&quot;zie [ het breken veranderingen ](#breaking-changes) in dit artikel.
+  Voor meer informatie over deze extreme situaties, die als &quot;het breken veranderingen worden bekend,&quot;zie [&#x200B; het breken veranderingen &#x200B;](#breaking-changes) in dit artikel.
 
 
 ## Wijzigingen verbreken
@@ -49,4 +49,4 @@ Omdat uw scenario&#39;s van de Fusie met uw specifieke gegevens worden gevormd, 
 
 In veel gevallen, kunt u aan de nieuwe versie van een module bevorderen zonder het moeten die module aanpassen.
 
-Voor informatie en instructies bij de bevordering van een module, zie [ Verbetering een module aan een nieuwe versie ](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md).
+Voor informatie en instructies bij de bevordering van een module, zie [&#x200B; Verbetering een module aan een nieuwe versie &#x200B;](/help/workfront-fusion/manage-scenarios/update-module-to-new-version.md).
