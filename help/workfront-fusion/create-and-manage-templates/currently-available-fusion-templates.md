@@ -4,9 +4,9 @@ description: De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: b14bed4d-3503-42cf-a8c3-618d3b2448b4
-source-git-commit: 4ede5c7a75725a6540d6a8ff9cd056e6147d5c55
+source-git-commit: 08c0e6d779cea5ebb2b6ebbdb1dfd7fd659b18b0
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '2278'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ De volgende openbare sjablonen zijn momenteel beschikbaar in Adobe Workfront Fus
 
 Uw team of organisatie kan andere team-gecreeerde malplaatjes beschikbaar hebben.
 
-Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes** pictogram van Malplaatjes ![&#x200B; in het zijnavigatiemenu in Fusion.](assets/templates-icon.png)
+Om beschikbare malplaatjes te bekijken, klik het **pictogram van Malplaatjes** pictogram van Malplaatjes ![ in het zijnavigatiemenu in Fusion.](assets/templates-icon.png)
 
 ## Workfront-sjablonen
 
@@ -33,15 +33,11 @@ Als uw team moeite heeft om vaart te houden omdat de projectchronologie niet dyn
 
 Deze Fusion-sjabloon automatiseert dat proces. Wanneer een taak vroeg wordt voltooid, worden alle afhankelijke (opvolger) taken automatisch opnieuw gepland om sneller te beginnen, waardoor uw team sneller kan bewegen en flexibel kan blijven.
 
-### [!BADGE &#x200B; Nieuw! &#x200B;]{type=Informative} HTTP>CSV>WF - Een lijst met gebeurtenissubs maken op domein en laag en exporteren naar CSV
+### HTTP>CSV>WF - Lijst met gebeurtenissubs maken op domein en laag en exporteren naar CSV
 
 Download abonnementsgegevens voor gebeurtenissen, maak een CSV-bestand en upload het bestand naar Workfront.
 
-<!--New August 8, 2025-->
-
 ### Workfront Boards - Gearchiveerde kaarten verwijderen uit aangewezen kolom (Op aanvraag)
-
-<!--New March 12, 2025-->
 
 Verwijder Gearchiveerde kaarten uit een opgegeven kolom op een aangegeven bord als dat nodig is.
 
@@ -113,6 +109,52 @@ Deze malplaatje vangt een projectbasislijn op wekelijkse basis elke Maandag om 6
 
 Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met dit gemakkelijk te beheren malplaatje dat aangewezen gebruikers op malplaatjes in strijd met uw beleid op de hoogte brengt.
 
+### Workfront - Wijzigingen in aangepast formulier kopiëren van bronuitgave/verzoek naar het oplossen van project of taak
+
+Met deze sjabloon kunt u aangepaste formulierwijzigingen kopiëren van uitgaven/verzoeken naar het oplossen van projecten en/of taken.
+
+### Workfront - Batch-updateproject, -taak of geef aangepaste veldgegevens op
+
+Deze sjabloon gebruikt een CSV die u voorbereidt en in Workfront opgeeft om project, taak of aangepaste veldgegevens bij te werken. Zie de opmerkingen in de modules 1 en 2 voor overwegingen en beperkingen.
+
+### Workfront - Wijzig de projectstatus van planning in Huidig als een taak 100% voltooid is
+
+Deze automatisering werkt projectstatus van Planning aan Huidig bij als een taak 100% volledig is. Begint met een onderzoek en geadviseerd om eens per dag te lopen zodat kunnen de gebruikers nog projecten in een status van de Planning zonodig bijwerken.
+
+### Workfront - Zoek projectsjablonen die niet in de beleidstijd worden gebruikt en meld dit aan
+
+Eenmaal per maand, herzie uw projectmalplaatjes gebruikend uw eigen beleid met dit gemakkelijk te beheren malplaatje dat aangewezen gebruikers op malplaatjes in strijd met uw beleid op de hoogte brengt.
+
+### Workfront - Na toevoeging van nieuw document - Een vooraf ondertekende URL ophalen die wordt doorgegeven aan de eigenaar van het document
+
+Een vooraf ondertekende URL voor elk nieuw document ophalen als een gebruikersupdate
+
+### Workfront Event Subscription Monitoring (Daily) - Variabelen instellen
+
+Dit scenario malplaatje wordt op een dagelijkse basis wakker om een gezondheidscontrole op het Abonnement van de Gebeurtenis in mijn milieu van Workfront te doen. Hierbij wordt elk gebeurtenisabonnement geïdentificeerd dat in de laatste 24 uur is gedeactiveerd. Wanneer een geschikt gedeactiveerd gebeurtenisabonnement wordt gevonden, genereert het scenario een kwestie in een Workfront verzoekrij die de klant tijdens installatie van het scenario identificeert. Zij kunnen of een verpletterende regels of een team/gebruikersmiddel ook identificeren dat aan de kwestie moet worden toegewezen. We vertrouwen erop dat er een interne e-mail met nieuwe uitgave naar de ontvanger(s) wordt verzonden om de melding te genereren. Deze benadering zou in één enkel werkpunt voor elke deactivatie moeten resulteren.
+
+### Workfront - Volgnummer
+
+#### Workfront - Sequentiële nummeringsreeks: Aangepast formulier en veld voor object maken
+
+Met deze sjabloon maakt u een aangepast formulier en veld voor gebruik door de sjablonen Workfront - Sequentiële nummeringsreeks.
+
+#### Workfront - Sequentiële nummeringsreeks: portfolio&#39;s
+
+Deze sjabloon geeft de portefeuilles opeenvolgend een nummer. Hierbij wordt aangenomen dat u een aangepast formulier en veld hebt gemaakt met de Workfront - Sequentiële nummeringsreeks: Aangepast objectformulier en veldsjabloon maken, maar u kunt een bestaand formulier en veld gebruiken.
+
+#### Workfront - Sequentiële nummeringsreeks: Programma&#39;s
+
+Met deze sjabloon worden uw programma&#39;s opeenvolgend genummerd. Hierbij wordt aangenomen dat u een aangepast formulier en veld hebt gemaakt met de Workfront - Sequentiële nummeringsreeks: Aangepast objectformulier en veldsjabloon maken, maar u kunt een bestaand formulier en veld gebruiken.
+
+#### Workfront - Sequentiële nummeringsreeks: projecten
+
+In deze sjabloon worden uw projecten opeenvolgend genummerd. Hierbij wordt aangenomen dat u een aangepast formulier en veld hebt gemaakt met de Workfront - Sequentiële nummeringsreeks: Aangepast objectformulier en veldsjabloon maken, maar u kunt een bestaand formulier en veld gebruiken.
+
+#### Workfront - Sequentiële nummeringsreeks: problemen
+
+Deze sjabloon geeft een volgnummer aan uw uitgaven. Hierbij wordt aangenomen dat u een aangepast formulier en veld hebt gemaakt met de Workfront - Sequentiële nummeringsreeks: Aangepast objectformulier en veldsjabloon maken, maar u kunt een bestaand formulier en veld gebruiken.
+
 ## Workfront - Workfront Proof-sjablonen
 
 Deze sjablonen automatiseren workflows die Workfront combineren met Workfront Proof.
@@ -130,6 +172,14 @@ Wanneer een besluit wordt genomen over een bewijs dat rechtstreeks aan een proje
 ### Workfront Proof > Workfront - Taakupdate en Voltooiing (indien goedgekeurd) bij proefbesluit
 
 Wanneer individuele bewijzen aan individuele taken zijn gebonden, sluit dit scenario de bijbehorende taak wanneer een goedkeuringsbesluit over het bewijs wordt genomen. Indien goedgekeurd, voltooit het de taak en werkt het project bij.
+
+### Workfront > Workfront Proof - Nieuwe proef - Waarschuwen als de conceptversie van de conceptversie is uitgeschakeld
+
+Deze automatisering zoekt naar nieuwe documentversies (binnen een opgegeven portfolio) met een proefdruk. Als een fiatteur persoonlijke tijd in zijn profiel op de uiterste termijn heeft, verzendt het een bericht aan de eigenaar van het Bewijs en de eigenaar van het project.
+
+### Workfront > Workfront Proof - Verwijder (indien mogelijk) de opgegeven conceptcontroleur en voeg nieuwe fiatteur toe
+
+Deze automatisering vindt de proefdrukken van een fiatteur en voegt een nieuwe fiatteur toe. Indien mogelijk wordt de oorspronkelijke fiatteur uit het bewijs verwijderd. Er treden aanvullende acties op als de oorspronkelijke fiatteur de maker of eigenaar is. Lees notities in Module 1 voor meer informatie.
 
 ## HTTP - Workfront-sjablonen
 
@@ -184,7 +234,7 @@ Met deze sjabloon kunt u zien of een SharePoint-map is gewijzigd.
 
 Deze sjablonen ondersteunen de integratie tussen Workfront en Anaplan en verwachten een specifieke configuratie in zowel Anaplan als Workfront. Zie de artikelen voor de afzonderlijke sjablonen voor informatie over deze sjablonen en de bijbehorende configuraties.
 
-Voor meer informatie over de integratie Workfront-Anaplan, zie [&#x200B; Adobe Workfront met Anaplan &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
+Voor meer informatie over de integratie Workfront-Anaplan, zie [ Adobe Workfront met Anaplan ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/anaplan-integration) in de documentatie van Workfront.
 
 >[!NOTE]
 >
@@ -192,27 +242,27 @@ Voor meer informatie over de integratie Workfront-Anaplan, zie [&#x200B; Adobe W
 
 ### Workflows voor optimalisatie doorgeven
 
-* [&#x200B; verzendt het projectupdates van Adobe Workfront naar een  [!DNL Anaplan]  lijstitem &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
-* [&#x200B; verzend de uitgaven van Adobe Workfront aan a  [!DNL Anaplan]  lijstitem &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
-* [&#x200B; verzend de daadwerkelijke uren van Adobe Workfront updates aan een  [!DNL Anaplan]  lijstitem &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
+* [ verzendt het projectupdates van Adobe Workfront naar een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-updates-to-anaplan-list-item)
+* [ verzend de uitgaven van Adobe Workfront aan a  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item)
+* [ verzend de daadwerkelijke uren van Adobe Workfront updates aan een  [!DNL Anaplan]  lijstitem ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item)
 
 ### Workflows voor het koppelen van begrotingsaanvragen
 
-* [&#x200B; creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront begrotingsverzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
-* [&#x200B; pas een  [!DNL Anaplan]  begrotingstoewijzing op een project van Adobe Workfront &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
+* [ creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront begrotingsverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request)
+* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een project van Adobe Workfront ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects) toe
 
 ### Workflows voor het koppelen van campagneaanvragen
 
-* [&#x200B; creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront campagneverzoek &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
-* [&#x200B; pas een  [!DNL Anaplan]  begrotingstoewijzing op een de campagneverzoek of campagneproject van Adobe Workfront toe &#x200B;](https://experienceleague.adobe.com/nl/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
+* [ creeer een  [!DNL Anaplan]  lijstitem van een Adobe Workfront campagneverzoek ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request)
+* [ pas een  [!DNL Anaplan]  begrotingstoewijzing op een de campagneverzoek of campagneproject van Adobe Workfront toe ](https://experienceleague.adobe.com/en/docs/workfront/using/adobe-workfront-integrations/workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects)
 
 ## Workfront - Jira-sjablonen
 
 Deze sjablonen vertegenwoordigen veelvoorkomende workflows tussen Workfront en Jira.
 
-Voor gedetailleerde informatie over deze malplaatjes, zie [&#x200B; malplaatjes van het Gebruik om de Fusie van Adobe Workfront en Jira &#x200B;](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md) te verbinden.
+Voor gedetailleerde informatie over deze malplaatjes, zie [ malplaatjes van het Gebruik om de Fusie van Adobe Workfront en Jira ](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md) te verbinden.
 
-* [&#x200B; Workfront aan Jira: Creeer JIRA kwestie van de taak van Workfront of geef taak &#x200B;](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-1-workfront-to-jira-create-jira-issue-from-workfront-task-or-issue-assignment) uit
+* [ Workfront aan Jira: Creeer JIRA kwestie van de taak van Workfront of geef taak ](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-1-workfront-to-jira-create-jira-issue-from-workfront-task-or-issue-assignment) uit
 * [JIRA naar Workfront: JIRA naar Workfront: stuur updates over problemen en opmerkingen terug naar Workfront vanuit Jira](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-2-jira-to-workfront-send-updates-on-issues-and-comments-back-to-workfront-from-jira)
 * [Workfront naar Jira: Veranderingen in de Workfront-taak naar JIRA-kwestie](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-3-workfront-to-jira-changes-to-workfront-task-to-jira-issue)
 * [Workfront naar Jira: Wijzigingen in Workfront-kwestie naar JIRA-kwestie](/help/workfront-fusion/create-and-manage-templates/use-jira-scenario-templates.md#scenario-4-workfront-to-jira-changes-to-workfront-issue-to-jira-issue)
