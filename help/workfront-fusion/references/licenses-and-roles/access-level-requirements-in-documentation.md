@@ -34,7 +34,7 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <td role="rowheader">Adobe Workfront-pakket 
    <td> Adobe Workfront-pakketten verwijzen naar de reeks functies die uw organisatie heeft aangeschaft. De meeste Fusion-functionaliteit is beschikbaar in alle plannen, maar er zijn enkele uitzonderingen die alleen beschikbaar zijn voor organisaties met een Ultimate Workfront-pakket. 
    <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-pakket uw organisatie gebruikt, inclusief of uw organisatie zich onder het nieuwe of huidige pakketmodel bevindt.</li>
-   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan"> de cluster van uw organisatie en het plan van Workfront van uw organisatie </a> in de documentatie van Workfront bekijken.</li><li>Voor meer informatie over de nieuwe pakketten van Workfront, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
+   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan"> de cluster van uw organisatie en het plan van Workfront van uw organisatie </a> in de documentatie van Workfront bekijken.</li><li>Voor meer informatie over de nieuwe pakketten van Workfront, zie <a href="https://business.adobe.com/nl/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -43,9 +43,9 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <li>Neem contact op met uw Workfront-beheerder om te weten te komen welke licentie u hebt toegewezen.</li>
    <li>Adobe Workfront gaat over naar een nieuw prijs- en verpakkingsmodel. Voor informatie over licenties raadpleegt u:
    <ul>
-   <li>Nieuw: <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/access-levels/licenses-overview"> Nieuw vergunningsoverzicht </a></li>
-   <li>Huidig: <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/legacy-access-levels/wf-licenses"> Overzicht van Vergunningen </a></li></ul></li>
-   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.
+   <li>Nieuw: <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/access-levels/licenses-overview"> Nieuw vergunningsoverzicht </a></li>
+   <li>Huidig: <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/legacy-access-levels/wf-licenses"> Overzicht van Vergunningen </a></li></ul></li>
+   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.
    </ul>
       </p> </td> 
   </tr> 
