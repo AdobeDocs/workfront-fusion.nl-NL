@@ -18,7 +18,7 @@ In de Adobe Workfront Fusion-documentatie is een tabel opgenomen met uitleg over
 
 Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel afwezig is, zijn er geen vereisten van dat type voor die actie.
 
-Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. U kunt details en verbindingen aan informatie in [ vinden de sectie van de Vereisten van de Toegang ](#the-access-requirements-table) van dit artikel.
+Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. U kunt details en verbindingen aan informatie in [&#x200B; vinden de sectie van de Vereisten van de Toegang &#x200B;](#the-access-requirements-table) van dit artikel.
 
 >[!NOTE]
 >
