@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: b2e48618-cc55-429e-9bed-c62ba60a6249
-source-git-commit: bb7eb8d92b4ae62ccb9b8a8f1c4b800cc20dad18
+source-git-commit: 05c75c0e125a4f3f657049d7e57bbc94cc5e4d67
 workflow-type: tm+mt
-source-wordcount: '83'
+source-wordcount: '89'
 ht-degree: 0%
 
 ---
@@ -29,3 +29,4 @@ ht-degree: 0%
 * [AI Assistant in Workfront Fusion](/help/workfront-fusion/manage-scenarios/fusion-ai-assistant.md)
 * [De Scenario-score-expert uitvoeren](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
 * [Elementen van scenario&#39;s verwijderen](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
+* [De scenario&#39;s beheren vanuit het gebied Scenarios](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)

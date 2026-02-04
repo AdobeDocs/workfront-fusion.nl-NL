@@ -5,7 +5,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 823aa376-fbfe-4750-82dc-4f34224c1a48
-source-git-commit: fe503c27bc4e3beb5645f0efa7c2097297f19190
+source-git-commit: 05c75c0e125a4f3f657049d7e57bbc94cc5e4d67
 workflow-type: tm+mt
 source-wordcount: '618'
 ht-degree: 0%
@@ -18,7 +18,7 @@ In de Adobe Workfront Fusion-documentatie is een tabel opgenomen met uitleg over
 
 Als een rij van de lijst van de Vereisten van de Toegang in een bepaald artikel afwezig is, zijn er geen vereisten van dat type voor die actie.
 
-Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. U kunt details en verbindingen aan informatie in [&#x200B; vinden de sectie van de Vereisten van de Toegang &#x200B;](#the-access-requirements-table) van dit artikel.
+Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidig&quot;. Dit komt omdat Workfront overschakelt naar een nieuw prijsstellings- en verpakkingsmodel, waarbij sommige organisaties onder het nieuwe model opereren en andere nog steeds het huidige model gebruiken. Neem contact op met uw Workfront-beheerder om te weten welk model uw organisatie gebruikt. U kunt details en verbindingen aan informatie in [ vinden de sectie van de Vereisten van de Toegang ](#the-access-requirements-table) van dit artikel.
 
 >[!NOTE]
 >
@@ -34,7 +34,7 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <td role="rowheader">Adobe Workfront-pakket 
    <td> Adobe Workfront-pakketten verwijzen naar de reeks functies die uw organisatie heeft aangeschaft. De meeste Fusion-functionaliteit is beschikbaar in alle plannen, maar er zijn enkele uitzonderingen die alleen beschikbaar zijn voor organisaties met een Ultimate Workfront-pakket. 
    <ul><li>Neem contact op met uw Workfront-beheerder om te weten welk Adobe Workfront-pakket uw organisatie gebruikt, inclusief of uw organisatie zich onder het nieuwe of huidige pakketmodel bevindt.</li>
-   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan"> de cluster van uw organisatie en het plan van Workfront van uw organisatie </a> in de documentatie van Workfront bekijken.</li><li>Voor meer informatie over de nieuwe pakketten van Workfront, zie <a href="https://business.adobe.com/nl/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
+   <li>Voor instructies op hoe een beheerder van Workfront van het pakket van Workfront van uw organisatie kan de plaats bepalen, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan"> de cluster van uw organisatie en het plan van Workfront van uw organisatie </a> in de documentatie van Workfront bekijken.</li><li>Voor meer informatie over de nieuwe pakketten van Workfront, zie <a href="https://business.adobe.com/products/workfront/pricing.html"> Adobe Workfront tarifering en verpakking </a>.</li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-licentie</td> 
@@ -43,9 +43,9 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <li>Neem contact op met uw Workfront-beheerder om te weten te komen welke licentie u hebt toegewezen.</li>
    <li>Adobe Workfront gaat over naar een nieuw prijs- en verpakkingsmodel. Voor informatie over licenties raadpleegt u:
    <ul>
-   <li>Nieuw: <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/access-levels/licenses-overview"> Nieuw vergunningsoverzicht </a></li>
-   <li>Huidig: <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/add-users/legacy-access-levels/wf-licenses"> Overzicht van Vergunningen </a></li></ul></li>
-   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="https://experienceleague.adobe.com/nl/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.
+   <li>Nieuw: <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/access-levels/licenses-overview"> Nieuw vergunningsoverzicht </a></li>
+   <li>Huidig: <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/add-users/legacy-access-levels/wf-licenses"> Overzicht van Vergunningen </a></li></ul></li>
+   <li>Als u het juiste toegangsniveau hebt en nog steeds geen toegang hebt, vraag dan aan uw Workfront-beheerder of deze aanvullende beperkingen op uw toegangsniveau heeft ingesteld. Voor informatie over hoe een beheerder van Workfront uw toegangsniveau kan wijzigen, zie <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/get-started-administration/firewall-overview#view-your-organization-s-cluster-and-workfront-plan" class="MCXref xref"> tot douanetoegangsniveaus </a> leiden of wijzigen.
    </ul>
       </p> </td> 
   </tr> 
@@ -54,7 +54,8 @@ Sommige rijen bevatten informatie met de labels &quot;Nieuw&quot; en &quot;Huidi
    <td>In sommige gevallen moet Fusion naast Workfront worden aangeschaft. Als uw organisatie het Ultimate Workfront-pakket heeft, wordt Fusion opgenomen.
   <tr> 
    <td role="rowheader">Toegangsniveau</td> 
-   <td> Toegangsniveaus zijn sets rechten voor handelingen die u in Fusion kunt uitvoeren. Sommige handelingen kunnen bijvoorbeeld alleen door een Fusion Administrator worden uitgevoerd. 
+   <td> Toegangsniveaus zijn sets rechten voor handelingen die u in Fusion kunt uitvoeren. Sommige handelingen kunnen bijvoorbeeld alleen worden uitgevoerd door een Fusion Administrator. 
+   </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>Adobe Workfront Fusion heeft een apart licentiemodel dan Workfront. 
