@@ -4,7 +4,7 @@ description: In de volgende woordenlijst worden enkele algemene termen in Adobe 
 author: Becky
 feature: Workfront Fusion
 exl-id: 7f098ec2-8594-4e5d-9ce7-d1738a05f9a6
-source-git-commit: 190bfe5992fb21b789a7246c4ae732a5dc7672fa
+source-git-commit: c89536b6d3e6ca5f7e5048b8487a2d86bda3b213
 workflow-type: tm+mt
 source-wordcount: '920'
 ht-degree: 0%
@@ -70,7 +70,7 @@ In de volgende woordenlijst worden enkele algemene termen in Adobe Workfront Fus
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Items</p> </td> 
-   <td> <p>Een onderdeel van een bundel. Bundels kunnen uit meerdere items bestaan. Er zijn verschillende typen items: tekst, nummer, Boolean (ja/nee), datum, tijd, buffer (binaire gegevens), verzamelingen, menu, array en validatie.</p><p> Voor meer informatie, zie {de gegevenstypes van 0} Punt </a>.<a href="/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md" class="MCXref xref"></p> </td> 
+   <td> <p>Een onderdeel van een bundel. Bundels kunnen uit meerdere items bestaan. Er zijn verschillende typen items: tekst, nummer, Boolean (ja/nee), datum, tijd, buffer (binaire gegevens), verzamelingen, menu, array en validatie.</p><p> Voor meer informatie, zie {de gegevenstypes van 0} Punt <a href="/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md" class="MCXref xref">.</a></p> </td> 
   </tr>
   <tr> 
    <td role="rowheader"> <p>Iterator</p> </td> 
