@@ -4,7 +4,7 @@ description: Met bepaalde triggermodules kunt u de eerste bundel selecteren waar
 author: Becky
 feature: Workfront Fusion
 exl-id: 83628fa5-82e2-4f67-bfed-70a4c3c19f7f
-source-git-commit: c83070a7c2d1d048000a4eace4aaede73c7ec49d
+source-git-commit: a871a130a1ac023dcb4ce8da7241918da2431d3a
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -17,7 +17,7 @@ Met bepaalde triggermodules kunt u de eerste bundel selecteren waaruit u het oph
 
 U kunt ook opgeven of u alle bundels wilt ophalen of alleen de bundels vanaf een bepaalde datum.
 
-Voor meer informatie over trekkermodules, zie de sectie [&#x200B; modules van de Trekker &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodule.
+Voor meer informatie over trekkermodules, zie de sectie [ modules van de Trekker ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) in het overzicht van de artikelmodule.
 
 ## Toegangsvereisten
 
@@ -44,9 +44,11 @@ Voor meer informatie over trekkermodules, zie de sectie [&#x200B; modules van de
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-+++## Kies waar een triggermodule begint
++++
+
+## Kiezen waar een triggermodule begint
 
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waarin u wilt kiezen waar de trigger start.
@@ -57,7 +59,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
    Klik het pictogram voor de trekkermodule met de rechtermuisknop aan, en selecteer **kiezen waar te beginnen**.
 
-   ![&#x200B; kies waar te beginnen &#x200B;](assets/choose-where-to-start.png)
+   ![ kies waar te beginnen ](assets/choose-where-to-start.png)
 
 1. Selecteer een optie in het vak **[!UICONTROL Choose where to start]** dat wordt weergegeven.
 

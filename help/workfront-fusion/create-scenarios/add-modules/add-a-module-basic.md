@@ -4,7 +4,7 @@ description: Dit artikel beschrijft het basisproces om een module aan een scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: f3757468-3e11-4862-a83e-ed447805545b
-source-git-commit: c83070a7c2d1d048000a4eace4aaede73c7ec49d
+source-git-commit: a871a130a1ac023dcb4ce8da7241918da2431d3a
 workflow-type: tm+mt
 source-wordcount: '680'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Een scenario bestaat uit een reeks modules die aangeven hoe gegevens binnen een app moeten worden getransformeerd of moeten worden overgebracht tussen apps en webservices. U bouwt een module door modules toe te voegen en te vormen.
 
-Dit artikel beschrijft het basisproces om een module aan een scenario toe te voegen. Voor specifiekere instructies over manieren om een scenario toe te voegen, zie de andere artikelen onder [&#x200B; modules toevoegen: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md).
+Dit artikel beschrijft het basisproces om een module aan een scenario toe te voegen. Voor specifiekere instructies over manieren om een scenario toe te voegen, zie de andere artikelen onder [ modules toevoegen: artikelindex ](/help/workfront-fusion/create-scenarios/add-modules/add-modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -42,25 +42,27 @@ Dit artikel beschrijft het basisproces om een module aan een scenario toe te voe
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-+++## Voeg de eerste module aan een scenario toe
++++
+
+## Voeg de eerste module aan een scenario toe
 
 De eerste module van een scenario is gewoonlijk een trekkermodule.
 
-Voor meer informatie over trekkermodules, zie [&#x200B; modules van de Trekker &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) op het overzicht van de artikelmodule.
+Voor meer informatie over trekkermodules, zie [ modules van de Trekker ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/module-overview.md#trigger-modules) op het overzicht van de artikelmodule.
 
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Begin creërend een scenario door **te klikken creeer een nieuw scenario** in de hoger-juiste hoek van het scherm.
 
    De scenario redacteur opent, met een placeholder (vraagteken) module en de lijst van beschikbare schakelaars.
 
-   ![&#x200B; Placeholder module &#x200B;](assets/placeholder-module.png)
+   ![ Placeholder module ](assets/placeholder-module.png)
 
 1. Selecteer de schakelaar of de webhaak die dit scenario zal beginnen. U kunt de naam van de schakelaar in de onderzoeksbar van de lijst typen om de lijst te filtreren.
 1. Configureer de module.
 
-   Voor instructies bij het vormen van specifieke modules, zie het artikel voor de gekozen toepassingen, die in [&#x200B; worden vermeld de toepassingen van de Fusie en hun moduleverwijzingen: artikelindex &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
+   Voor instructies bij het vormen van specifieke modules, zie het artikel voor de gekozen toepassingen, die in [ worden vermeld de toepassingen van de Fusie en hun moduleverwijzingen: artikelindex ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
 
 >[!NOTE]
 >
@@ -77,7 +79,7 @@ Voor meer informatie over trekkermodules, zie [&#x200B; modules van de Trekker &
 1. (Facultatief) om een andere schakelaar te selecteren, **voeg een andere module** in de lijst toe, dan selecteer de schakelaar. U kunt de naam van de schakelaar in de onderzoeksbar van de lijst typen om de lijst te filtreren.
 1. Configureer de module.
 
-   Voor instructies bij het vormen van specifieke modules, zie het artikel voor de gekozen toepassingen, die in [&#x200B; worden vermeld de toepassingen van de Fusie en hun moduleverwijzingen: artikelindex &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
+   Voor instructies bij het vormen van specifieke modules, zie het artikel voor de gekozen toepassingen, die in [ worden vermeld de toepassingen van de Fusie en hun moduleverwijzingen: artikelindex ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
 
 ## Voeg een module tussen bestaande modules in een scenario in
 
@@ -91,7 +93,7 @@ De lijst van schakelaars opent, tonend om het even welke schakelaars die reeds i
 1. (Facultatief) om een andere schakelaar te selecteren, **voeg een andere module** in de lijst toe, dan selecteer de schakelaar. U kunt de naam van de schakelaar in de onderzoeksbar van de lijst typen om de lijst te filtreren.
 1. Configureer de module.
 
-   Voor instructies bij het vormen van specifieke modules, zie het artikel voor de gekozen toepassingen, die in [&#x200B; worden vermeld de toepassingen van de Fusie en hun moduleverwijzingen: artikelindex &#x200B;](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
+   Voor instructies bij het vormen van specifieke modules, zie het artikel voor de gekozen toepassingen, die in [ worden vermeld de toepassingen van de Fusie en hun moduleverwijzingen: artikelindex ](/help/workfront-fusion/references/apps-and-modules/apps-and-modules-toc.md).
 
 >[!NOTE]
 >
