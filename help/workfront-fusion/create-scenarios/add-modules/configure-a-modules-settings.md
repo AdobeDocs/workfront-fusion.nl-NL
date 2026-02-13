@@ -46,7 +46,7 @@ Voor de module Workfront > Upload document moet u bijvoorbeeld de record opgeven
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,14 +61,14 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
    Klik op de module die u wilt vormen.
 
-1. Indien vereist voor de module, creeer a **[!UICONTROL Connection]** aan uw geregistreerde gebruikersrekening voor die bepaalde dienst, zoals die in [ het overzicht van Verbindingen ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md) wordt beschreven.
+1. Indien vereist voor de module, creeer a **[!UICONTROL Connection]** aan uw geregistreerde gebruikersrekening voor die bepaalde dienst, zoals die in [&#x200B; het overzicht van Verbindingen &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/connection-overview.md) wordt beschreven.
 1. Typ in elk veld de juiste tekst.
 
    of
 
    Hiermee wijst u de uitvoer van een vorige module toe aan het veld.
 
-   Voor informatie bij afbeelding, zie [ Overzicht van de Afbeelding ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md).
+   Voor informatie bij afbeelding, zie [&#x200B; Overzicht van de Afbeelding &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/mapping-overview.md).
 
    Voor informatie over de verschillende types van puntgegevens kan de Fusie van Workfront erkennen (zoals datum, aantal, en tekst), zie {de gegevenstypes van 0} Punt [.](/help/workfront-fusion/references/mapping-panel/data-types/item-data-types.md)
 
