@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: b5c41aea9f259e309a769a66eaa627b0e1f136db
+source-git-commit: 3c726c1df589785719c0f141fbd5bc17194cc218
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '454'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,7 @@ Met deze connectors kunt u verbinding maken met elke app of webservice met een o
 
 Fusion biedt connectors voor veel Adobe-producten en -services.
 
+* [Adobe App Builder module](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-app-builder.md)
 * [Adobe Acrobat Sign-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-sign-modules.md)
 * [Adobe Authenticator-module](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-authenticator-modules.md)
 * [Adobe Campaign-modules](/help/workfront-fusion/references/apps-and-modules/adobe-connectors/adobe-campaign-classic-connector.md)

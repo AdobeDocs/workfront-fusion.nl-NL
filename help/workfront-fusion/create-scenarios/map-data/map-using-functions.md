@@ -1,22 +1,23 @@
 ---
-title: Items toewijzen met behulp van functies
+title: Items toewijzen met behulp van ingebouwde functies
 description: Wanneer u items toewijst, kunt u functies gebruiken om eenvoudige of complexe formules te maken.
 author: Becky
 feature: Workfront Fusion
 exl-id: b9d7643e-febf-42e2-9ddc-8ec8eba98e7a
-source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
+source-git-commit: 3c726c1df589785719c0f141fbd5bc17194cc218
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
-# Een item toewijzen met behulp van functies
+# Een item toewijzen met ingebouwde functies
 
-Wanneer u items toewijst, kunt u functies gebruiken om eenvoudige of complexe formules te maken. De beschikbare functies zijn vergelijkbaar met functies in Excel en in sommige programmeertalen:
+Workfront Fusion bevat ingebouwde functies waarmee u eenvoudige of complexe formules kunt maken. Deze functies hebben betrekking op een groot aantal gebruiksgevallen, waaronder functies voor arrays, tekenreeksen, getallen en gegevens uit vorige modules.
 
-* Ze evalueren algemene logica, wiskunde, tekst, datums en arrays.
-* U kunt hiermee voorwaardelijke logica en transformaties van itemwaarden uitvoeren, zoals het omzetten van tekst in hoofdletters, het bijsnijden van tekst, het omzetten van een datum in een andere notatie en nog veel meer.
+Daarnaast kunt u aangepaste functies maken die uw scenario&#39;s vervolgens kunnen gebruiken om gegevens te transformeren en te manipuleren.
+
+Voor informatie en instructies op douanefuncties, zie [ gegevens van de Kaart gebruikend douanefuncties ](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md).
 
 ## Toegangsvereisten
 
@@ -37,17 +38,24 @@ Wanneer u items toewijst, kunt u functies gebruiken om eenvoudige of complexe fo
   <tr> 
    <td role="rowheader">Product</td> 
    <td>
-   <p>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li></ul>
+   <p><ul><li>Als uw organisatie een Select- of Prime Workfront-pakket heeft dat geen Workfront Automation and Integration bevat, moet uw organisatie Adobe Workfront Fusion aanschaffen.</li><li>U moet een Adobe App Builder-licentie hebben om aangepaste functies te kunnen gebruiken.</ul>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
-## Functies invoegen in velden
+## Gegevens toewijzen met ingebouwde functies
+
+Wanneer u items toewijst, kunt u functies gebruiken om eenvoudige of complexe formules te maken. De beschikbare functies zijn vergelijkbaar met functies in Excel en in sommige programmeertalen:
+
+* Ze evalueren algemene logica, wiskunde, tekst, datums en arrays.
+* U kunt hiermee voorwaardelijke logica en transformaties van itemwaarden uitvoeren, zoals het omzetten van tekst in hoofdletters, het bijsnijden van tekst, het omzetten van een datum in een andere notatie en nog veel meer.
+
+### Functies invoegen in velden
 
 Een functie invoegen in een veld:
 
@@ -57,7 +65,7 @@ Een functie invoegen in een veld:
 1. Klik op het veld waar u een functie wilt invoegen.
 1. Selecteer in het deelvenster Toewijzing het tabblad met de functie die u wilt invoegen.
 
-   Voor informatie bij het in kaart brengen van paneellusjes, zie [&#x200B; Overzicht van de Functie &#x200B;](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md)
+   Voor informatie bij het in kaart brengen van paneellusjes, zie [ Overzicht van de Functie ](/help/workfront-fusion/get-started-with-fusion/understand-fusion/function-overview.md)
    1. Klik op de naam van de functie.
 
       of
@@ -67,7 +75,7 @@ Een functie invoegen in een veld:
 
    Houd de muisaanwijzer boven de functie in het deelvenster Toewijzing voor een uitleg van functieparameters.
 
-   Voor meer informatie over functies en hun parameters, zie de artikelen onder [&#x200B; Verwijzingen van de Functie: artikelindex &#x200B;](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md).
+   Voor meer informatie over functies en hun parameters, zie de artikelen onder [ Verwijzingen van de Functie: artikelindex ](/help/workfront-fusion/references/mapping-panel/functions/functions-toc.md).
 
 1. Ga verder vormend de module, of klik **O.K.**.
 
@@ -82,11 +90,11 @@ Een functie invoegen in een veld:
 
 In dit voorbeeld beperkt de subtekenreeksfunctie de projectnaam tot 50 tekens.
 
-![&#x200B; Beperking van de vergaderingslengte van het Voorbeeld &#x200B;](assets/example-meet-length-restriction-350x184.png)
+![ Beperking van de vergaderingslengte van het Voorbeeld ](assets/example-meet-length-restriction-350x184.png)
 
 >[!ENDSHADEBOX]
 
-## Nesten, functies
+### Nesten, functies
 
 U kunt functies binnen elkaar nesten.
 
@@ -96,7 +104,7 @@ U kunt functies binnen elkaar nesten.
 
 In dit voorbeeld beperkt de subtekenreeksfunctie de bijgesneden projectnaam tot 50 tekens.
 
-![&#x200B; Bijgesneden naam &#x200B;](assets/trimmed-name-under-50.png)
+![ Bijgesneden naam ](assets/trimmed-name-under-50.png)
 
 >[!ENDSHADEBOX]
 
@@ -112,7 +120,7 @@ Een functie nesten:
 1. Ga door met het configureren van de functie.
 1. Ga verder vormend de module, of klik **O.K.**.
 
-## [!DNL Google Sheets] -functies gebruiken
+### [!DNL Google Sheets] -functies gebruiken
 
 Als Workfront Fusion geen functie heeft die u wilt gebruiken, maar die door [!DNL Google Sheets] wordt aanbevolen, kunt u deze als volgt gebruiken:
 
@@ -127,9 +135,9 @@ Als Workfront Fusion geen functie heeft die u wilt gebruiken, maar die door [!DN
 
       U kunt de output van voorafgaande modules zoals gebruikelijk gebruiken.
 
-      ![&#x200B; functies van de Bladen van Google van het Gebruik &#x200B;](assets/exploit-google-sheet-functions-350x218.png)
+      ![ functies van de Bladen van Google van het Gebruik ](assets/exploit-google-sheet-functions-350x218.png)
 
 1. Voeg de module **[!UICONTROL Google Sheets]>[!UICONTROL Get a cell]** in om het berekende resultaat te verkrijgen.
 1. Vorm de module, gebruikend zelfde identiteitskaart van de Cel die u in stap 4 gebruikte.
 
-   ![&#x200B; functies van de Bladen van Google van het Gebruik &#x200B;](assets/exploit-google-sheet-functions-2-350x187.png)
+   ![ functies van de Bladen van Google van het Gebruik ](assets/exploit-google-sheet-functions-2-350x187.png)
