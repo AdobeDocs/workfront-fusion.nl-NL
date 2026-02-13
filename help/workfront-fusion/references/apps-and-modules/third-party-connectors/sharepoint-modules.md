@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 1a09aa86-5e0e-4347-b4cf-2b0a95e5b049
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: 2493ce7ccca599e30b44b62558573ce2a55b03e0
 workflow-type: tm+mt
-source-wordcount: '3375'
+source-wordcount: '3489'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Microsoft SharePoint Online gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -51,9 +51,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -92,7 +92,7 @@ De SharePoint-connector gebruikt het volgende:
 
 ### Microsoft SharePoint Online verbinden met Workfront Fusion via een [!DNL Microsoft] -account
 
-U kunt uw [!DNL Microsoft] -account gebruiken om een verbinding met Microsoft SharePoint Online te maken. Voor instructies over het aansluiten van uw [!DNL Sharepoint] rekening aan de Fusie van Workfront, zie [&#x200B; een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+U kunt uw [!DNL Microsoft] -account gebruiken om een verbinding met Microsoft SharePoint Online te maken. Voor instructies over het aansluiten van uw [!DNL Sharepoint] rekening aan de Fusie van Workfront, zie [ een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 ### Microsoft SharePoint Online met Workfront Fusion verbinden met behulp van geavanceerde instellingen
 
@@ -139,7 +139,7 @@ U kunt certificaatautorisatie gebruiken om verbinding te maken met SharePoint.
 >
 >Als u certificaatautorisatie wilt gebruiken, moet u eerst een app maken in Microsoft Entra en het certificaat daar uploaden.
 >
->Voor instructies, zie [&#x200B; hoe te om certificaatautoriteiten voor Microsoft te vormen Entra op certificaat-gebaseerde authentificatie &#x200B;](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-configure-certificate-authorities) in de documentatie van Microsoft.
+>Voor instructies, zie [ hoe te om certificaatautoriteiten voor Microsoft te vormen Entra op certificaat-gebaseerde authentificatie ](https://learn.microsoft.com/en-us/entra/identity/authentication/how-to-configure-certificate-authorities) in de documentatie van Microsoft.
 
 1. Klik in een willekeurige SharePoint-module op **[!UICONTROL Add]** in de buurt van het veld Verbinding om het vak **[!UICONTROL Create a connection]** te openen.
 1. Klik op **[!UICONTROL Show advanced settings]**.
@@ -200,9 +200,9 @@ U kunt certificaatautorisatie gebruiken om verbinding te maken met SharePoint.
 
 Wanneer u Microsoft SharePoint Online-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende Microsoft SharePoint Online-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Drive-item](#drive-item)
 * [Item](#item)
@@ -222,7 +222,37 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 
 #### Een bestand maken
 
-Deze module retourneert wijzigingen die zijn aangebracht in SharePoint.
+Deze module retourneert een bestand in SharePoint. Deze module heeft betere prestaties dan de module Een bestand maken (verouderd).
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Connection]</td> 
+   <td> <p>Voor instructies over het aansluiten van uw Microsoft SharePoint Online rekening aan Workfront Fusion, zie <a href="#connect-microsoft-sharepoint-online-to-workfront-fusion" class="MCXref xref" data-mc-variable-override=""> Microsoft SharePoint Online aan Workfront Fusion </a> in dit artikel verbinden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Enter Site, Drive, and Folder IDs]</td> 
+   <td> <p>Selecteer hoe u de locatie wilt identificeren van de map waarin u wijzigingen wilt ophalen.</p> 
+    <ul> 
+     <li> <p><strong>[!UICONTROL Enter manually]</strong> </p> <p>Voer de <strong>[!UICONTROL Site ID]</strong> , <strong>[!UICONTROL Drive ID]</strong> en <strong>[!UICONTROL Folder ID]</strong> van de locatie in waar u het bestand wilt maken of wijs deze toe.</p> </li> 
+     <li> <p><strong>[!UICONTROL Select from the list that you follow]</strong> </p> <p>Selecteer de locatie waar u het bestand wilt maken. </p> </li> 
+    </ul> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">[!UICONTROL Source file] </td>
+      <td><p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p></td>
+  </tr>  </tbody> 
+</table>
+
+
+
+#### Een bestand maken (verouderd)
+
+Deze module maakt een bestand in SharePoint.
+
+Voor betere prestaties, adviseren wij gebruikend [ een dossier ](#create-a-file) module creëren.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -242,7 +272,7 @@ Deze module retourneert wijzigingen die zijn aangebracht in SharePoint.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source file]</td> 
-      <p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p>
+      <td><p>Selecteer een bronbestand uit een vorige module of wijs de naam en gegevens van het bronbestand toe.</p></td>
   </tr>  </tbody> 
 </table>
 
