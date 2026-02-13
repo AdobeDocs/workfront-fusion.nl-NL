@@ -20,7 +20,7 @@ Aangepaste functies zijn, net als de meeste scenario-elementen, eigendom van tea
 
 Workfront Fusion bevat ook ingebouwde functies waarmee u eenvoudige of complexe formules kunt maken. Deze functies hebben betrekking op een groot aantal gebruiksgevallen, waaronder functies voor arrays, tekenreeksen, getallen en gegevens uit vorige modules.
 
-Voor informatie en instructies op ingebouwde functies, zie [ een punt in kaart brengen gebruikend ingebouwde functies ](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md).
+Voor informatie en instructies op ingebouwde functies, zie [&#x200B; een punt in kaart brengen gebruikend ingebouwde functies &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-using-functions.md).
 
 ## Toegangsvereisten
 
@@ -47,7 +47,7 @@ Voor informatie en instructies op ingebouwde functies, zie [ een punt in kaart b
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -65,7 +65,7 @@ Voordat u aangepaste functies kunt maken, moet u de runtimeomgeving initialisere
 >
 >Nadat de initialisatie is voltooid, kunnen alle gebruikers in het team waar de initialisatie is uitgevoerd functies maken en gebruiken.
 
-1. Klik het **pictogram van Functies** ![ ](assets/functions-icon.png) lusje van Functies in het linkerpaneel.
+1. Klik het **pictogram van Functies** ![&#x200B; &#x200B;](assets/functions-icon.png) lusje van Functies in het linkerpaneel.
 
    Als u nog niet uw runtime hebt gevormd, ziet u het bericht &quot;Runtime milieu niet gevormd.&quot;
 1. Klik **initialiseren runtime**.
@@ -85,7 +85,7 @@ Nadat de runtimeomgeving is geconfigureerd, kunt u beginnen met het maken van aa
 >   * Naam wijzigen
 >   * De standaardparameterwaarden weergeven
 
-1. Klik het **pictogram van Functies** ![ ](assets/functions-icon.png) lusje van Functies in het linkerpaneel.
+1. Klik het **pictogram van Functies** ![&#x200B; &#x200B;](assets/functions-icon.png) lusje van Functies in het linkerpaneel.
 1. Klik **toevoegen functie**.
 1. Voer een naam in voor de aangepaste functie.
 

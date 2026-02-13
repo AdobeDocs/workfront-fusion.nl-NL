@@ -41,7 +41,7 @@ Aangezien aangepaste functies werken via Adobe App Builder, moet uw organisatie 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -49,7 +49,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 De enige Adobe App Builder-module die momenteel beschikbaar is, is een handeling uitvoeren. Hiermee kunt u een eerder geconfigureerde aangepaste JavaScript-functie gebruiken.
 
-Voor instructies bij het vormen van een douanefunctie, zie [ gegevens van de Kaart gebruikend douanefuncties ](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md).
+Voor instructies bij het vormen van een douanefunctie, zie [&#x200B; gegevens van de Kaart gebruikend douanefuncties &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-using-custom-functions.md).
 
 ### Een handeling uitvoeren
 
