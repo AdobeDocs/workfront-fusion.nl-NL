@@ -4,7 +4,7 @@ description: Voor werkautomatisering is snelle verwerking vereist, dus Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: 086fef455017e19768969533ad63f39c34f962f4
+source-git-commit: c41cc27660b15824a560c770ace663739dccdfa2
 workflow-type: tm+mt
 source-wordcount: '1054'
 ht-degree: 0%
@@ -48,7 +48,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus Adobe Workfront Fusion
 * Als een bestand wordt gedownload met een module die grote bestanden ondersteunt en vervolgens wordt doorgegeven aan een module die geen grote bestanden ondersteunt, wordt het bestand niet verwerkt. Grote bestanden moeten tijdens de gehele workflow uitsluitend met ondersteunde modules worden afgehandeld.
 * De modules die geen grote dossiers steunen kunnen dossiers tot **200 MB** in grootte verwerken.
 
-Voor meer informatie, zie [&#x200B; Werkend met grote dossiers &#x200B;](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
+Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
 
 ## Gebruik van servergeheugen
 
@@ -76,7 +76,7 @@ Voor meer informatie, zie [&#x200B; Werkend met grote dossiers &#x200B;](/help/w
 
 ## Onvolledige uitvoeringen
 
-* De onvolledige uitvoeringen zijn beperkt tot een totale grootte van **11 GB** of **100 onvolledige uitvoeringen** per scenario, welke grens eerst wordt bereikt. Als een grens wordt bereikt, zullen niet meer onvolledige uitvoeringen voor dat scenario worden opgeslagen.
+* De onvolledige uitvoeringen zijn beperkt tot een totale grootte van **1 GB** of **onvolledige uitvoeringen** per scenario, welke grens eerst wordt bereikt. Als een grens wordt bereikt, zullen niet meer onvolledige uitvoeringen voor dat scenario worden opgeslagen.
 
 ## Opnieuw
 
