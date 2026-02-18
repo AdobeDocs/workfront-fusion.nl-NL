@@ -6,14 +6,14 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 748055ad-d305-4513-9a5c-9c970b74a96e
-source-git-commit: 5dfca593b17a234c80c807470026a7b192cbf7fa
+source-git-commit: 97abe6bf0ff7b10a139268f02f8a1a24f3e31b47
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
 
-# ModelContextProtocol (MCP) module
+# MCP de module van de Agent
 
 <!--SET UP REDIRECTS-->
 
@@ -22,6 +22,8 @@ ModelContextProtocol (MCP) is een manier om AI taalmodellen met andere toepassin
 U kunt bijvoorbeeld een MCP-server configureren om een AI-model te verbinden met Gmail. Wanneer u de vraag &quot;Geef me mijn laatste 5 e-mails van Gmail,&quot;verzendt kan het tot uw Gmail toegang hebben en de e-mails terugkeren.
 
 De module ModelContextProtocol (MCP) staat u toe om een gebruikersherinnering te verwerken gebruikend een taalmodel en servers MCP.
+
+Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [ een AI herinnering aan uw scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -48,21 +50,24 @@ De module ModelContextProtocol (MCP) staat u toe om een gebruikersherinnering te
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
+## Vereisten
 
-
-
+* U moet om het even welke servers hebben gevormd MCP die u van plan bent om te verbinden met.
+* U moet een LLM-sleutel hebben voor de geselecteerde LLM (Large Language Model).
 
 ## De module van het Context Protocol van het model en zijn gebieden
-
-Wanneer u de MCP module vormt, toont Adobe Workfront Fusion de hieronder vermelde gebieden. Een bolde titel in een module wijst op een vereist gebied.
 
 ### Prompt gebruiker verwerken
 
 Deze actiemodule verwerkt een herinnering, gebruikend het taalmodel en servers MCP u specificeert.
+
+>[!NOTE]
+>
+>Deze module moet een object retourneren. Er wordt geen uitvoer geretourneerd, zoals tekenreeksen of getallen.
 
 <table style="table-layout:auto"> 
  <col> 
