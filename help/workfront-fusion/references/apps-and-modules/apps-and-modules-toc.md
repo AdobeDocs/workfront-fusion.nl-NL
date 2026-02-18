@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: ca7f1012-97c8-49e0-aeb0-b63677878ff4
-source-git-commit: 3c726c1df589785719c0f141fbd5bc17194cc218
+source-git-commit: 6e483986a4297a18e34f8481aa2105f9474fb290
 workflow-type: tm+mt
-source-wordcount: '454'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -143,6 +143,7 @@ Deze modules staan u toe om acties op uw gegevens uit te voeren, maar vereisen g
 * [Lexische modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/lexical-modules.md)
 * [Markeringsmodules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/markdown-modules.md)
 * [Math, module](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/math-module.md)
+* [MCP-modules (Model Context Protocol)](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/model-context-protocol-mcp-connector.md)
 * [MIME-modules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/mime.md)
 * [Tekstparseermodules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/text-parser.md)
 * [Gereedschapsmodules](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/tools-modules.md)
