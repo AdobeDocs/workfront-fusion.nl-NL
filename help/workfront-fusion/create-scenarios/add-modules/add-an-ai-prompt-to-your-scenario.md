@@ -18,7 +18,7 @@ U kunt een AI herinnering in uw scenario omvatten gebruikend ModelContext Protoc
 >
 >Deze functionaliteit is los van de capaciteit om modules aan een scenario toe te voegen gebruikend AI.
 >
->Voor informatie bij het toevoegen van modules met AI, zie [ een scenario segment gebruikend AI ](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-with-ai.md) produceren.
+>Voor informatie bij het toevoegen van modules met AI, zie [&#x200B; een scenario segment gebruikend AI &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-with-ai.md) produceren.
 
 ## Overzicht van het modelcontextprotocol
 

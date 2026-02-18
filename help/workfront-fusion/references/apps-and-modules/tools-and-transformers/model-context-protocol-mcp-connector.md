@@ -23,7 +23,7 @@ U kunt bijvoorbeeld een MCP-server configureren om een AI-model te verbinden met
 
 De module ModelContextProtocol (MCP) staat u toe om een gebruikersherinnering te verwerken gebruikend een taalmodel en servers MCP.
 
-Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [ een AI herinnering aan uw scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md) toevoegen.
+Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [&#x200B; een AI herinnering aan uw scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [ een AI he
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
