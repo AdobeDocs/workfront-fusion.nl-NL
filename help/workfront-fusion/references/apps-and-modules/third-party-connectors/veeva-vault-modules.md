@@ -3,9 +3,10 @@ title: Veeva Vault-modules
 description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: b57ae36cf9225705c7f4923d7302b1749aa04d94
+exl-id: 2ef967b6-0a69-4801-8574-5f17c9ce991d
+source-git-commit: 323e7d10795991bbcb6c1439db0af90e4331e687
 workflow-type: tm+mt
-source-wordcount: '2537'
+source-wordcount: '3681'
 ht-degree: 0%
 
 ---
@@ -14,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -50,9 +51,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -117,16 +118,18 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
       </tr> 
       <tr> 
        <td role="rowheader">Autorisatieserverancier</td> 
-       <td> <p>Selecteer de provider die u voor deze verificatie wilt gebruiken.</p> </td> 
+       <td> <p>Selecteer de provider die u voor deze verificatie wilt gebruiken.</p> 
+       <p><b> NOTA:</b> Veeva Vault gebruikt Azure AD cliëntgeloofsbrieven wanneer Azure als Leverancier van de Server van de Vergunning wordt geselecteerd.</p>
+       </td> 
       </tr> 
       <tr> 
        <td role="rowheader">Pingel-host</td> 
        <td> <p>Als u PingFederate gebruikt, ingaat pingelt gastheer.</p> </td> 
       </tr> 
       <tr>
-        <td role="rowheader">Toepassingsgebied</td>
+        <td role="rowheader">Bereik</td>
         <td>
-          <p>Voer het bereik voor deze verbinding in.</p>
+          <p>Voer het bereik voor deze verbinding in. Het bereik moet worden opgemaakt als <code>{Application ID URI}/.default</code> . De toepassings-id-URI moet behoren tot de bron of toepassing die machtigingen toegankelijk maakt.</p>
         </td>
       </tr>
       <tr>
@@ -150,12 +153,12 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
       <tr>
         <td role="rowheader">Profiel-id</td>
         <td>
-          <p>Voer de id van uw OAuth2/Copen ID Connect-profiel in.</p>
+          <p>Voer de id in van uw OAuth2-/Open ID Connect-profiel.</p>
         </td>
       </tr>
       <tr> 
        <td role="rowheader">Vault DNS</td> 
-       <td>Voer uw Veva Vault DNS (domeinnaam) in.</p><p>Als u de Veva Vault DNS wilt zoeken, bekijkt u de URL die u gebruikt om toegang te krijgen tot Veeva Vault.</p>In de URL <code>https://my-dns.veevavault.com</code> is de DNS bijvoorbeeld <code>my-dns</code> . U hoeft niet de volledige URL in te voeren.</td> 
+       <td>Voer uw Veva Vault DNS (domeinnaam) in.</p><p>Als u de Veva Vault DNS wilt zoeken, bekijkt u de URL die u gebruikt om toegang te krijgen tot Veeva Vault.</p>In de URL <code>https://my-dns.veevavault.com</code> is de DNS bijvoorbeeld <code>my-dns.veevavault.com</code> . </td> 
       </tr> 
       <tr>
         <td role="rowheader">Vervaltijd van de sessie in minuten</td>
@@ -173,9 +176,9 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
 
 Wanneer u Veeva Vault-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Naast deze opties kunnen extra Vève Vault-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Document](#document)
 * [Object](#object)
@@ -184,15 +187,24 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 ### Document
 
 * [Eén document maken](#create-a-single-document)
+* [Eén documentrelatie maken](#create-a-single-document-relationship)
+* [Meerdere annotaties maken](#create-multiple-annotations)
 * [Meerdere documenten maken](#create-multiple-documents)
+* [Meerdere documentrelaties maken](#create-multiple-document-relationships)
 * [Eén document verwijderen](#delete-a-single-document)
+* [Eén documentrelatie verwijderen](#delete-a-single-document-relationship)
+* [Meerdere annotaties verwijderen](#delete-multiple-annotations)
+* [Meerdere documentrelaties verwijderen](#delete-multiple-document-relationships)
 * [Een bestand downloaden](#download-file)
 * [Documenten exporteren](#export-documents)
 * [Eén document ophalen](#get-a-single-document)
+* [Documentannotaties ophalen](#get-document-annotations)
+* [Documentrelaties ophalen](#get-document-relationships)
 * [Gebruikersactie starten](#initiate-user-action)
 * [Documenten weergeven](#list-documents)
 * [Exportresultaten van document ophalen](#retrieve-document-export-results)
 * [Eén document bijwerken](#update-a-single-document)
+* [Meerdere annotaties bijwerken](#update-multiple-annotations)
 * [Meerdere documenten bijwerken](#update-multiple-documents)
 
 #### Eén document maken
@@ -205,7 +217,7 @@ Deze module maakt één document, binder of sjabloon.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -218,6 +230,114 @@ Deze module maakt één document, binder of sjabloon.
  </tbody> 
 </table>
 
+#### Eén documentrelatie maken
+
+Deze actiemodule maakt een relatie tussen twee documenten
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Document-id</p> </td> 
+   <td> <p>Voer de id van het document in of wijs deze toe op de plaats waar de relatie moet beginnen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Versie</p> </td> 
+   <td> <p>Selecteer of wijs identiteitskaart van de versie toe die u een verhouding voor wilt tot stand brengen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Doeldocument-id</p> </td> 
+   <td> <p>Voer de id in van het document waarnaar de relatie verwijst.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Primaire doelversie</p> </td> 
+   <td> <p>Voer de hoofdversie van het doeldocument in. Dit is het getal voor het punt.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Kleine doelversie</p> </td> 
+   <td> <p>Voer de hoofdversie van het doeldocument in. Dit is het getal na het punt.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Relatietype</p> </td> 
+   <td> <p>Ga of kaart het type van verhouding in dat u wilt tot stand brengen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Meerdere annotaties maken
+
+Met deze actiemodule kunt u maximaal 500 annotaties maken.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Annotaties</p> </td> 
+   <td> <p>Voor elke aantekening wilt u toevoegen, <b> toevoegen punt </b> en vullen de gegevens die in <a href="#annotation-fields" class="MCXref xref"> worden beschreven de gebieden van de Annotatie </a> in dit artikel.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Annotatievelden
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Type aantekening </td> 
+   <td> <p>Selecteer het type aantekening dat u wilt maken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Type</p> </td> 
+   <td> <p>Typ of wijs het type markering toe dat u voor deze annotatie wilt gebruiken.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Paginanummer</p> </td> 
+   <td> <p>Voer het paginanummer in of wijs het toe waar deze annotatie moet worden weergegeven.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>X-coördinaat</p> </td> 
+   <td> <p>Voer de X-coördinaat van het markeerteken in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Y-coördinaat</p> </td> 
+   <td> <p>Voer de Y-coördinaat van het markeerteken in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Breedte</p> </td> 
+   <td> <p>Voer de breedte van het markeerteken in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Hoogte</p> </td> 
+   <td> <p>Voer de hoogte van het markeerteken in of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Stijl</p> </td> 
+   <td> <p>Ga of kaart de stijl van het plaatje in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Referentie</p> </td> 
+   <td> <p>Met een verwijzing kan de annotatie naar een externe bron verwijzen. Voor elke verwijzing die u aan de annotatie wilt toevoegen, <b> klikt toevoegt punt </b> en gaat het type van verwijzing, document versie identiteitskaart, en een annotatie in.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Velden selecteren</p> </td> 
+   <td> <p>Selecteer de velden waarvoor u waarden wilt opgeven en voer vervolgens de waarden in elk veld in. Beschikbare velden zijn afhankelijk van het type aantekening.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+
 #### Meerdere documenten maken
 
 Deze module maakt meerdere documenten of sjablonen met behulp van een CSV-bestand.
@@ -228,15 +348,79 @@ Deze module maakt meerdere documenten of sjablonen met behulp van een CSV-bestan
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
-   <td> <p>Selecteer of u sjablonen of documenten wilt maken</p> </td> 
+   <td> <p>Selecteer of u sjablonen of documenten wilt maken.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">  <p>Bestandsgegevens</p> </td> 
    <td> <p>Wijs het CSV-bestand toe dat wordt gebruikt om de documenten te maken.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Meerdere documentrelaties maken
+
+Deze actiemodule configureert meerdere documentrelaties.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Invoertype</p> </td> 
+   <td> <p>Selecteer het type invoer dat u opgeeft om deze relaties te maken.</p> <ul><li>CSV</li><li>JSON</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Bestandsgegevens</p> </td> 
+   <td> <p>Als u een CSV-bestand gebruikt, voert u de CSV-bestandsgegevens in of wijst u deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Relatiegegevens</p> </td> 
+   <td> <p>Als u JSON gebruikt, voor elke verhouding wilt u toevoegen, <b> toevoegen punt </b> en vullen de gegevens die in <a href="#relationship-fields" class="MCXref xref"> worden beschreven gebieden van de Verhouding </a> in dit artikel.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+##### Relatievelden
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Source-document-id </td> 
+   <td> <p>Voer de id van het document in of wijs deze toe op de plaats waar de relatie moet beginnen.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Source major-versie</p> </td> 
+   <td> <p>Voer de hoofdversie van het brondocument in. Dit is het getal voor het punt.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Kleine Source-versie</p> </td> 
+   <td> <p>Voer de hoofdversie van het brondocument in. Dit is het getal na het punt.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Doeldocument-id</p> </td> 
+   <td> <p>Voer de id in van het document waarnaar de relatie verwijst.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Primaire doelversie</p> </td> 
+   <td> <p>Voer de hoofdversie van het doeldocument in. Dit is het getal voor het punt.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Kleine doelversie</p> </td> 
+   <td> <p>Voer de hoofdversie van het doeldocument in. Dit is het getal na het punt.</p> </td> 
+  </tr> 
+   <tr> 
+   <td role="rowheader"> <p>Relatietype</p> </td> 
+   <td> <p>Ga of kaart het type van verhouding in dat u wilt tot stand brengen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -251,7 +435,7 @@ Deze module verwijdert één document, binder of sjabloon.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -259,7 +443,88 @@ Deze module verwijdert één document, binder of sjabloon.
   </tr> 
   <tr> 
    <td role="rowheader"><p>Document-id / Binder-id / Sjabloonnaam</p> </td> 
-   <td> <p>Selecteer de velden die u wilt verwijderen.</td> 
+   <td> <p>Selecteer het item dat u wilt verwijderen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Eén documentrelatie verwijderen
+
+Deze actiemodule verwijdert een relatie uit een document
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Document-id</p> </td> 
+   <td> <p>Voer de id van het brondocument in of wijs deze toe voor de relatie die u wilt verwijderen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Versie</p> </td> 
+   <td> <p>Selecteer of wijs identiteitskaart van de versie toe die u een verhouding voor wilt schrappen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Relatie-id</p> </td> 
+   <td> <p>Voer de id in van de relatie die u wilt verwijderen of wijs deze toe.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Meerdere annotaties verwijderen
+
+In deze actiemodule worden annotaties verwijderd. De gebruiker moet machtigingen hebben om annotaties te verwijderen in Veeva Vault. U kunt maximaal 500 annotaties verwijderen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Annotaties</p> </td> 
+   <td> <p>Voor elke aantekening wilt u schrappen, <b> toevoegen punt </b> klikken en de volgende gebieden ingaan.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>ID</p> </td> 
+   <td> <p>Voer de id in van de annotatie die u wilt verwijderen of wijs deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Document versie-id</p> </td> 
+   <td> <p>Voer het versienummer in of wijs het document toe dat de annotatie bevat die u wilt verwijderen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Meerdere documentrelaties verwijderen
+
+Deze actiemodule verwijdert relaties uit meerdere documenten
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Invoertype</p> </td> 
+   <td> <p>Selecteer het type invoer dat u opgeeft om deze relaties te verwijderen.</p> <ul><li>CSV</li><li>JSON</li></ul></td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Bestandsgegevens</p> </td> 
+   <td> <p>Als u een CSV-bestand gebruikt, voert u de CSV-bestandsgegevens in of wijst u deze toe.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Relatiegegevens</p> </td> 
+   <td> <p>Als u JSON gebruikt, voor elke verhouding wilt u toevoegen, <b> toevoegen punt </b> en ingaan relingsidentiteitskaart</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -274,7 +539,7 @@ Deze module downloadt een document, documentversie of sjabloon van Veeva Vault.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -309,7 +574,7 @@ Deze module exporteert documenten die u opgeeft, zoals bronnen, uitvoeringen en 
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -344,7 +609,7 @@ Deze module wint meta-gegevens voor één enkel document, binder, of malplaatje 
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -353,6 +618,60 @@ Deze module wint meta-gegevens voor één enkel document, binder, of malplaatje 
   <tr> 
    <td role="rowheader"><p>Document-id / Binder-id / Sjabloonnaam</p> </td> 
    <td> <p>Selecteer de velden waarvoor u gegevens wilt ophalen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Documentannotaties ophalen
+
+In deze module worden annotaties opgehaald uit een specifieke documentversie. U kunt alle annotaties ophalen of ervoor kiezen alleen bepaalde annotatietypen op te halen.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Document-id</p> </td> 
+   <td> <p>Selecteer of wijs het document toe waarvoor u annotaties wilt ophalen. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Versie</p> </td> 
+   <td> <p>Selecteer of wijs identiteitskaart van de versie toe die u annotaties voor wilt terugwinnen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Maximum aantal geretourneerde annotaties</td> 
+   <td>Ga of kaart het maximumaantal annotaties in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Documentrelaties ophalen
+
+Deze module wint alle verhoudingen voor een document terug.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Document-id</p> </td> 
+   <td> <p>Selecteer of wijs het document toe waarvoor u verhoudingen wilt terugwinnen. </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"><p>Versie</p> </td> 
+   <td> <p>Selecteer of wijs identiteitskaart van de versie toe die u verhoudingen voor wilt terugwinnen.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Maximum aantal geretourneerde relaties</td> 
+   <td>Ga of kaart het maximumaantal verhoudingen in u de module tijdens elke cyclus van de scenariouitvoering wilt terugkeren.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -367,7 +686,7 @@ In deze module worden handelingen gestart voor documenten en binder, zoals het v
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -382,7 +701,7 @@ In deze module worden handelingen gestart voor documenten en binder, zoals het v
    <td> <p>Selecteer het document of de binder waarop u de handeling wilt uitvoeren.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Handeling</p> </td> 
+   <td role="rowheader"><p>Actie</p> </td> 
    <td> <p>Selecteer de handeling die u wilt uitvoeren in het document of de map.</td> 
   </tr> 
  </tbody> 
@@ -398,7 +717,7 @@ In deze module worden alle documenten van het geselecteerde type weergegeven.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -421,11 +740,30 @@ Deze module retourneert de resultaten van een eerder aangevraagd document export
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Taak-id</p> </td> 
    <td> <p>Voer de id in van de taak waarvoor u resultaten wilt retourneren of wijs deze toe. </p> </td> 
+  </tr> 
+  </tbody> 
+</table>
+
+#### Meerdere annotaties bijwerken
+
+Deze actiemodule werkt maximaal 500 annotaties bij.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Annotaties</p> </td> 
+   <td> <p>Voor elke aantekening wilt u bijwerken, <b> toevoegen punt </b> en vullen de gegevens die in <a href="#annotation-fields" class="MCXref xref"> worden beschreven de gebieden van de Annotatie </a> in dit artikel.</p> </td> 
   </tr> 
   </tbody> 
 </table>
@@ -440,7 +778,7 @@ Deze module werkt veelvoudige documenten of malplaatjes bij gebruikend een Csv- 
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -463,7 +801,7 @@ Deze module werkt één document, binder, of malplaatje bij.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -502,7 +840,7 @@ In deze module wordt één objectrecord gemaakt, gekopieerd of gekleurd.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -541,7 +879,7 @@ In deze module wordt één objectrecord verwijderd of trapsgewijs verwijderd. Tr
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -572,7 +910,7 @@ Met deze module worden metagegevens opgehaald die zijn geconfigureerd op een spe
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objectnaam</td> 
@@ -595,7 +933,7 @@ Met deze module haalt u alle vault-objecten op in de geverifieerde vault.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Gelokaliseerde labels ophalen</p> </td> 
@@ -620,7 +958,7 @@ In deze module wordt één objectrecord gemaakt, gekopieerd of gekleurd.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -673,7 +1011,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Veva Vault-API.
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding</td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
@@ -711,7 +1049,7 @@ Deze module maakt een query met VQL (Vault Query Language).
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type</p> </td> 
@@ -734,7 +1072,7 @@ Deze module retourneert gegevens van audittrails
  <tbody> 
   <tr> 
    <td role="rowheader">Verbinding </td> 
-   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Type controle</p> </td> 
@@ -758,5 +1096,3 @@ Deze module retourneert gegevens van audittrails
   </tr> 
  </tbody> 
 </table>
-
-
