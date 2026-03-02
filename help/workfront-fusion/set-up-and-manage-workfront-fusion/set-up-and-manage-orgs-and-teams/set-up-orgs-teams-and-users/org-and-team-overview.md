@@ -4,9 +4,9 @@ description: Met de functies van Adobe Workfront Fusion Organisation en Teams ku
 author: Becky
 feature: Workfront Fusion
 exl-id: 44e6de2a-b2d3-410d-abc3-10facd258495
-source-git-commit: 4cd97fe2924150b9e7be140a25215f135b2788da
+source-git-commit: 9cb630b713f5fac90acff54fa2034e9d65dd1611
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -19,13 +19,25 @@ Een organisatie is de grootste entiteit in Adobe Workfront Fusion. Uw Fusion-org
 
 De teams zijn kleinere groepen binnen de organisatie, en delen de middelen van de Fusie zoals scenario&#39;s, verbindingen, en malplaatjes.
 
-Voor instructies bij het creëren van een team, zie [&#x200B; een team &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/create-a-team.md) creëren.
+Voor instructies bij het creëren van een team, zie [ een team ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/create-a-team.md) creëren.
 
 ## Organisaties
 
 Workfront Fusion-gebruikers behoren tot een organisatie.
 
 Gebruikers moeten aan een organisatie worden toegevoegd voordat ze aan een team worden toegevoegd.
+
+### Bronnen voor organisatie
+
+De volgende bronnen zijn van invloed op de gehele Fusion-organisatie en zijn daarom eigendom van en worden op organisatieniveau afgehandeld:
+
+* **de pools van de Arbeider:**: Een arbeiderspool is een hoeveelheid de verwerkingsmiddelen van de Fusie van Workfront gewijd aan een specifieke organisatie.
+
+  Voor meer informatie, zie {de pools van de Arbeider 0} [.](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/worker-pools.md)
+
+* **Verrichtingen**: Een verrichting in de Fusie van Adobe Workfront is een taak die door een module wordt uitgevoerd.
+
+  Voor meer informatie, zie [ Verrichtingen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md).
 
 ### Organisatiefuncties
 
@@ -37,7 +49,7 @@ Een gebruiker heeft een van de volgende rollen in een organisatie:
 * **[!UICONTROL Accountant]**: Accountants kunnen de licentiegegevens bekijken op het dashboard van de organisatie, maar kunnen geen handelingen uitvoeren.
 * **[!UICONTROL App Developer]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
-Voor informatie over specifieke acties beschikbaar aan gebruikers in elke organisatierol, zie [&#x200B; Organisatie en teamrollen &#x200B;](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).
+Voor informatie over specifieke acties beschikbaar aan gebruikers in elke organisatierol, zie [ Organisatie en teamrollen ](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).
 
 ## Teams
 
@@ -69,4 +81,4 @@ Een gebruiker heeft één van de volgende rollen in elk van zijn teams:
 * **[!UICONTROL Team Operator]**: met de rol [!UICONTROL operator] kunnen gebruikers uitvoeringsgegevens zien en de status Actief van scenario&#39;s wijzigen.
 * **[!UICONTROL Team Restricted Member]**: De functionaliteit voor deze rol is momenteel niet beschikbaar en wordt in de nabije toekomst beschikbaar gesteld. We raden u momenteel niet aan gebruikers aan deze rol toe te wijzen.
 
-Voor informatie over specifieke acties beschikbaar aan gebruikers in elke teamrol, zie [&#x200B; Organisatie en teamrollen &#x200B;](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).
+Voor informatie over specifieke acties beschikbaar aan gebruikers in elke teamrol, zie [ Organisatie en teamrollen ](/help/workfront-fusion/references/licenses-and-roles/organization-roles.md).
