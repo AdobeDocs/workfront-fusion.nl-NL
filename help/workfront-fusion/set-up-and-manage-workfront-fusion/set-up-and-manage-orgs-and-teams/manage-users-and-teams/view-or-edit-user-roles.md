@@ -4,7 +4,7 @@ description: Adobe Workfront Fusion-gebruikers in uw organisatie beheren
 author: Becky
 feature: Workfront Fusion
 exl-id: 32c221fa-856b-4921-9fa6-5e60f2aa08cd
-source-git-commit: f7c1d5b1de74cc0c59e3a00938bed14b489500db
+source-git-commit: 88d7a92a4b117d10ab114e32ab5e61f03bc5a846
 workflow-type: tm+mt
 source-wordcount: '376'
 ht-degree: 0%
@@ -52,7 +52,7 @@ Adobe Workfront Fusion-beheerders kunnen gebruikersrollen beheren in Workfront F
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,6 +63,24 @@ Adobe Workfront Fusion-beheerders kunnen gebruikersrollen voor een organisatie w
 1. Selecteer **[!UICONTROL All users]** in de linkernavigatie terwijl u bent aangemeld als Workfront Fusion-beheerder.
 1. Klik op **[!UICONTROL Details]** in de rij van de gebruiker die u wilt weergeven.
 1. (Optioneel) Als u de rol van de gebruiker in een organisatie wilt bijwerken, klikt u op de vervolgkeuzelijst in de kolom **[!DNL Role]** in de rij van de organisatie waar u de rol van de gebruiker wilt wijzigen en selecteert u vervolgens de nieuwe rol.
+
+<!--
+
+### Considerations when adding or changing organization Owners
+
+Your organization can have more than one Owner. 
+
+When assigning a user to or from an Owner role, consider the following. 
+
+* Only an Owner can assign the Owner role, or assign another role to a current Owner.
+* Only Admins can be upgraded to Owner.
+* If there is only one Owner, that Owner role cannot be changed or removed.
+* If there is only one Owner, that Owner cannot be deleted if there are other users in the organization.
+* When an Admin is assigned an Owner role, they automatically become Admin in all teams within the org.
+* When an Owner is assigned to another role, that user automatically becomes a Team Member in all teams.
+* When a new team is created, all Owners are automatically assigned as Team Admins.
+
+-->
 
 ## Gebruikersrollen voor een team weergeven of bewerken
 
