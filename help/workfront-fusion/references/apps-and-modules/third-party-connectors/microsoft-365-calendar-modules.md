@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: fdecf740-e735-4569-b1a2-7c25c751ba42
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: 413736673426c1a77dac9f15defa43d4348638b5
 workflow-type: tm+mt
-source-wordcount: '1648'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!DNL 
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -82,7 +82,7 @@ De schakelaar van de Kalender van Microsoft Office 365 gebruikt het volgende:
 
 ## De [!DNL Office 365 Calendar] -service verbinden met Workfront Fusion
 
-Voor instructies over het aansluiten van uw [!DNL Office 365 Calendar] rekening aan [!UICONTROL Workfront Fusion], zie [&#x200B; een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Office 365 Calendar] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
@@ -94,9 +94,9 @@ Voor instructies over het aansluiten van uw [!DNL Office 365 Calendar] rekening 
 
 Wanneer u [!DNL Microsoft Office 365 Calendar] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Microsoft Office 365 Calendar] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Gebeurtenis](#event)
 * [Kalender](#calendar)
@@ -557,7 +557,6 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Connection]</td> 
-   <td role="rowheader">[!UICONTROL Connection] </td> 
    <td> <p>Voor instructies over het aansluiten van uw [!DNL Office 365] rekening aan de Fusie van Workfront, zie <a href="/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override=""> een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies </a>.</p> </td> 
   </tr> 
   <tr> 
@@ -566,7 +565,7 @@ In deze module kunt u een aangepaste API-aanroep uitvoeren.
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!UICONTROL Method]</p> </td> 
-   td&gt; <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Headers]</td> 
