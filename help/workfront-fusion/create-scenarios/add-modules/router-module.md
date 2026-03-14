@@ -43,7 +43,7 @@ Routes worden opeenvolgend verwerkt, niet parallel. Een bundel wordt niet verzon
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,13 +56,13 @@ You must add a Router module before configuring routes.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
 1. In de scenario redacteur, klik op het juiste handvat van de module waarna wilt u de router toevoegen, dan selecteren **[!UICONTROL Flow Control]** > **Router** in de lijst van modules die toont.
 
-   ![ verbind de route ](assets/connect-the-router-350x108.png)
+   ![&#x200B; verbind de route &#x200B;](assets/connect-the-router-350x108.png)
 
    of
 
    Om de module van de Router tussen twee modules op te nemen, klik op het moersleutelpictogram onder de route die de twee modules verbindt en selecteer **[!UICONTROL Add a router]** van het menu.
 
-   ![ de router van het Tussenvoegsel ](assets/insert-router-350x191.png)
+   ![&#x200B; de router van het Tussenvoegsel &#x200B;](assets/insert-router-350x191.png)
 1. Voeg de eerste route aan de router toe door op het juiste handvat van de router te klikken en een module toe te voegen, gelijkend op het toevoegen van om het even welke module.
 1. Om een andere route toe te voegen, klik de routermodule. Er wordt een route weergegeven. Voeg modules aan deze route toe zoals gewenst.
 
@@ -72,7 +72,7 @@ You must add a Router module before configuring routes.
 
    of
 
-   Klik het auto-richten pictogram ![ auto-richt pictogram ](assets/auto-align.png).
+   Klik het auto-richten pictogram ![&#x200B; auto-richt pictogram &#x200B;](assets/auto-align.png).
 
    De routes worden geschikt in de orde zij uitvoeren. De hoogste route voert eerst uit.
 
@@ -88,17 +88,17 @@ You can put a filter on a route after the Router module to filter bundles. Only 
 
 Als de gegevens de filter van meer dan één route overgaan, worden de gegevens behandeld door beide routes. De hoogste route behandelt eerst de gegevens.
 
-De routers met filters tonen het pictogram van de filter ![ Filter ](assets/fusion-scenario-filter-icon.png) op het routeetiket.
+De routers met filters tonen het pictogram van de filter ![&#x200B; Filter &#x200B;](assets/fusion-scenario-filter-icon.png) op het routeetiket.
 
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waaraan u een filter wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik het moersleutelpictogram ![ Sleutel ](assets/wrench-icon.png) op de weg waar u een filter wilt plaatsen. Dit is de weg tussen de routermodule en de eerste module van de route.
+1. Klik het moersleutelpictogram ![&#x200B; Sleutel &#x200B;](assets/wrench-icon.png) op de weg waar u een filter wilt plaatsen. Dit is de weg tussen de routermodule en de eerste module van de route.
 1. Selecteer **Opstelling een filter.**
 1. Voeg een label toe in het labelveld van het deelvenster dat wordt weergegeven. Dit etiket toont in het scenario.
 1. Configureer filtervoorwaarden.
 
-   Voor meer informatie, zie [ een filter aan een scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
+   Voor meer informatie, zie [&#x200B; een filter aan een scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-a-filter-to-a-scenario.md) toevoegen.
 
 1. Klik op **[!UICONTROL OK]** om de filterinstelling op te slaan.
 
@@ -115,12 +115,12 @@ U kunt een terugvalroute in het filterpaneel toelaten.
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waar u een reserveroute wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik het moersleutelpictogram ![ Sleutel ](assets/wrench-icon.png) op de weg waar u een filter wilt plaatsen. Dit is de weg tussen de routermodule en de eerste module van de route.
+1. Klik het moersleutelpictogram ![&#x200B; Sleutel &#x200B;](assets/wrench-icon.png) op de weg waar u een filter wilt plaatsen. Dit is de weg tussen de routermodule en de eerste module van de route.
 1. Selecteer **Opstelling een filter.**
 1. Voeg een label toe in het labelveld van het deelvenster dat wordt weergegeven. Dit etiket toont in het scenario.
 1. Schakel het selectievakje voor de terugvalroute in.
 
-   ![ route van de Fallback ](assets/fallback-route-350x260.png)
+   ![&#x200B; route van de Fallback &#x200B;](assets/fallback-route-350x260.png)
 
 1. Klik op **[!UICONTROL OK]** om de filterinstelling op te slaan.
 
@@ -136,7 +136,7 @@ Een typisch gebruiksgeval van de reserveroute moet de stroom met één route voo
 
 In dit voorbeeld, wordt de eerste route gevormd met een filter. Dit vertegenwoordigt de component `if` .
 
-![ Opstelling een filter in route ](assets/set-up-a-filter-2-350x242.png)
+![&#x200B; Opstelling een filter in route &#x200B;](assets/set-up-a-filter-2-350x242.png)
 
 The second route is configured as a fallback route. Dit vertegenwoordigt de component `else` .
 
