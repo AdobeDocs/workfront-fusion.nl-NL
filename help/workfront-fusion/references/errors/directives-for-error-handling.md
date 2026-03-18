@@ -5,9 +5,9 @@ description: In dit artikel worden instructies beschreven die u kunt gebruiken v
 author: Becky
 feature: Workfront Fusion
 exl-id: d7b0141f-d99d-4ab7-a60f-ed552a76f05d
-source-git-commit: a871a130a1ac023dcb4ce8da7241918da2431d3a
+source-git-commit: bf2e689f7015b08a0cf773e990077a53144263b6
 workflow-type: tm+mt
-source-wordcount: '550'
+source-wordcount: '577'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Met instructies voor foutafhandeling kunt u kiezen wat er gebeurt wanneer er een
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,7 +55,7 @@ De volgende instructies voor foutafhandeling zijn beschikbaar in Workfront Fusio
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Terugdraaien</p> <p> <img src="assets/rollback.png"> </p> </td> 
-   <td> <ul><li><p>De uitvoering van het scenario wordt onmiddellijk gestopt.</li><li>Een terugdraaifase is begonnen op alle modules, in een poging om hen allen aan hun aanvankelijke staat terug te keren. </li><li>Latere modules worden niet verwerkt.</p></li><li> <p>In de meeste gevallen wordt het scenario gedeactiveerd na het aantal opeenvolgende fouten dat is opgegeven onder Scenario-instellingen. Voor meer informatie, zie <a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#number-of-consecutive-errors" class="MCXref xref"> Aantal opeenvolgende fouten </a>.</p> </li><li><p>De status van de uitvoering van het scenario is gemarkeerd als "Fout."</p></li></ul> <p><b> Nota </b>: Dit is het standaardgedrag als geen route van de foutenmanager aan de module in bijlage is en <a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions" class="MCXref xref"> toestaat het opslaan van onvolledige uitvoeringen </a> toestaat het opslaan van onvolledige uitvoeringen die onder [!UICONTROL Scenario settings] plaatsen wordt niet gecontroleerd.</p> </td> 
+   <td> <ul><li><p>De uitvoering van het scenario wordt onmiddellijk gestopt.</li><li>Een terugdraaifase is begonnen op alle modules, in een poging om hen allen aan hun aanvankelijke staat terug te keren. </li><li>Latere modules worden niet verwerkt.</p></li><li> <p>In de meeste gevallen wordt het scenario gedeactiveerd na het aantal opeenvolgende fouten dat is opgegeven onder Scenario-instellingen. Voor meer informatie, zie <a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#number-of-consecutive-errors" class="MCXref xref"> Aantal opeenvolgende fouten </a>.</p> </li><li><p>De status van de uitvoering van het scenario is gemarkeerd als "Fout."</p></li></ul> <p><b> Nota </b>: Dit is het standaardgedrag als geen route van de foutenmanager aan de module in bijlage is en <a href="/help/workfront-fusion/create-scenarios/config-scenarios-settings/configure-scenario-settings.md#allow-storing-incomplete-executions" class="MCXref xref"> toestaat het opslaan van onvolledige uitvoeringen </a> scenario het plaatsen wordt niet gecontroleerd.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Vastleggen</p> <p> <img src="assets/commit.png"> </p> </td> 
@@ -63,11 +63,11 @@ De volgende instructies voor foutafhandeling zijn beschikbaar in Workfront Fusio
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Hervatten</p> <p> <img src="assets/resume.png"> </p> </td> 
-   <td> <ul><li><p>Er wordt een vervangend uitvoerbestand opgegeven en geleverd aan de module die een fout aantreft.</p> </li><li><p>Vervolgens worden modules verwerkt.</p></li><li> <p>De status van de uitvoering van het scenario is gemarkeerd als "succes."</p></li></ul> </td> 
+   <td> <ul><li><p>Er wordt een vervangend uitvoerbestand opgegeven en geleverd aan de module die een fout aantreft.</p> </li><li><p>Vervolgens worden modules verwerkt.</p></li>Als de foutenmanager op een router is, gaat het scenario door de routes zoals verwacht.<li></li><li> <p>De status van de uitvoering van het scenario is gemarkeerd als "succes."</p></li></ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Negeren</p> <p> <img src="assets/ignore.png"> </p> </td> 
-   <td><ul><li> <p>De fout wordt genegeerd.</li><li> Latere modules worden niet verwerkt.</p> </li><li><p>Als er onverwerkte bundels zijn, gaat de uitvoering van het scenario normaal voort.</p> </li><li><p>De status van de uitvoering van het scenario is gemarkeerd als "succes."</p> </li></ul></td> 
+   <td><ul><li> <p>De fout wordt genegeerd.</li><li> Latere modules worden niet verwerkt.</p> </li><li><p>Als er onverwerkte bundels zijn, gaat de uitvoering van het scenario normaal voort.</p> </li><li>Als de foutenmanager op een router is, worden de verdere routes van die router overgeslagen.</li><li><p>De status van de uitvoering van het scenario is gemarkeerd als "succes."</p> </li></ul></td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Break</p> <p> <img src="assets/break.png"> </p> </td> 
@@ -85,9 +85,9 @@ De volgende instructies voor foutafhandeling zijn beschikbaar in Workfront Fusio
 >* Instructies voor foutafhandeling kunnen niet worden gebruikt buiten een foutafhandelingsroute.
 >* Workfront Fusion biedt momenteel geen Throw-module waarmee u gemakkelijk voorwaardelijk fouten kunt genereren (genereren), hoewel een tijdelijke oplossing kan worden gebruikt om de functionaliteit ervan na te bootsen.
 >
->  Voor meer informatie, zie [&#x200B; `throw` foutenwerkaround &#x200B;](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md) vormen.
+>  Voor meer informatie, zie [ `throw` foutenwerkaround ](/help/workfront-fusion/create-scenarios/config-error-handling/throw.md) vormen.
 
 ## Bronnen
 
-* Voor informatie bij het terugschroeven van prijzen en de fase van het Terugschroeven van prijzen, zie [&#x200B; Terugdraaiing &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#rollback) in de uitvoering van het artikelScenario, cycli, en fasen.
-* Voor informatie over de fase van het Vastleggen, zie [&#x200B; Vastleggen &#x200B;](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#commit) in de uitvoering van het artikelScenario, cycli, en fasen.
+* Voor informatie bij het terugschroeven van prijzen en de fase van het Terugschroeven van prijzen, zie [ Terugdraaiing ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#rollback) in de uitvoering van het artikelScenario, cycli, en fasen.
+* Voor informatie over de fase van het Vastleggen, zie [ Vastleggen ](/help/workfront-fusion/references/scenarios/scenario-execution-cycles-phases.md#commit) in de uitvoering van het artikelScenario, cycli, en fasen.
