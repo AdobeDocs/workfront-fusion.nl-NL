@@ -4,9 +4,9 @@ description: Met de Adobe Authenticator-module kunt u via één verbinding verbi
 author: Becky
 feature: Workfront Fusion
 exl-id: af4da661-eeee-4033-a2bb-a2196e446a3d
-source-git-commit: 1929bf897e9263ec551e93df776b96f419436715
+source-git-commit: 42ec34b1931eb9962569906d78c281bbef86a57e
 workflow-type: tm+mt
-source-wordcount: '1121'
+source-wordcount: '1363'
 ht-degree: 1%
 
 ---
@@ -17,7 +17,7 @@ Met de Adobe Authenticator-module kunt u verbinding maken met elke Adobe API via
 
 Het voordeel ten opzichte van de HTTP-modules is dat u een verbinding kunt maken, zoals in een specifieke app.
 
-Om een lijst van beschikbare Adobe APIs te zien, zie [&#x200B; Adobe APIs &#x200B;](https://developer.adobe.com/apis). U kunt mogelijk alleen de API&#39;s gebruiken waaraan u bent toegewezen.
+Om een lijst van beschikbare Adobe APIs te zien, zie [ Adobe APIs ](https://developer.adobe.com/apis). U kunt mogelijk alleen de API&#39;s gebruiken waaraan u bent toegewezen.
 
 ## Toegangsvereisten
 
@@ -51,9 +51,9 @@ Om een lijst van beschikbare Adobe APIs te zien, zie [&#x200B; Adobe APIs &#x200
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -68,7 +68,7 @@ Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x2
      of
    * Voeg API aan een bestaand project toe.
 
-  Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [&#x200B; een project &#x200B;](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van Adobe creëren.
+  Voor informatie bij het creëren van of het toevoegen van API aan een project op Adobe Developer Console, zie [ een project ](https://developer.adobe.com/dep/guides/dev-console/create-project/) in de documentatie van Adobe creëren.
 
 ## Adobe Authenticator API-informatie
 
@@ -95,7 +95,7 @@ U kunt afzonderlijke verbindingen aan afzonderlijke projecten tot stand brengen,
 >
 >Met de Adobe Authenticator-connector hebt u de keuze tussen het maken van een OAuth Server-to-server verbinding of een Service Account (JWT)-verbinding. Adobe heeft JWT-referenties vervangen. Deze zullen vanaf 1 januari 2025 niet meer werken. **daarom, adviseren wij hoogst creërend Verbindingen OAuth.**
 >
->Voor meer informatie over deze soorten verbindingen, zie [&#x200B; Server aan de authentificatie van de Server &#x200B;](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van Adobe
+>Voor meer informatie over deze soorten verbindingen, zie [ Server aan de authentificatie van de Server ](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in de documentatie van Adobe
 
 Een verbinding maken:
 
@@ -185,6 +185,7 @@ Een verbinding maken:
 
 * [Een aangepaste API-aanroep maken](#make-a-custom-api-call)
 * [Een aangepaste API-aanroep maken (verouderd)](#make-a-custom-api-call-legacy)
+* [Een aangepaste API-aanroep maken (opiniepeiling)](#make-a-custom-api-call-polling)
 
 ### Een aangepaste API-aanroep maken
 
@@ -307,5 +308,90 @@ Met deze actiemodule kunt u een aanroep naar elke Adobe API maken.
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"></p> 
      </div> </p> </td>     </tr>
+  </tbody>
+</table>
+
+### Een aangepaste API-aanroep maken (opiniepeiling)
+
+Deze module maakt een douanevraag, en omvat optie om de vraag herhaaldelijk uit te voeren tot een specifieke voorwaarde wordt voldaan aan of een bepaalde grens wordt bereikt.
+
+
+<table>
+  <col/>
+  <col/>
+  <tbody>
+    <tr>
+     <td role="rowheader">[!UICONTROL Connection]</td>
+     <td>Voor instructies bij het creëren van een verbinding aan de module van Adobe Authenticator, zie <a href="#create-a-connection" class="MCXref xref" > een verbinding </a> in dit artikel creëren.</td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Base URL]</p>
+      </td>
+      <td>
+        <p>Voer de basis-URL in van het API-punt waarmee u verbinding wilt maken.</p>
+      </td>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL URL]</p>
+      </td>
+      <td>
+        <p>Voer het pad in ten opzichte van de basis-URL.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">
+        <p>[!UICONTROL Method]</p>
+   <td> <p>Selecteer de HTTP- verzoekmethode u de API vraag moet vormen. Voor meer informatie, zie <a href="/help/workfront-fusion/references/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override=""> HTTP- verzoekmethodes </a>.</p> </td> 
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Headers]</td>
+      <td>
+        <p>Voeg de kopteksten van het verzoek toe in de vorm van een standaard JSON-object.</p>
+        <p>Bijvoorbeeld: <code>{"Content-type":"application/json"}</code></p>
+        <p>Workfront Fusion voegt automatisch machtigingsheaders toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Query String]  </td>
+      <td>
+        <p>Voer de queryreeks voor de aanvraag in.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Body Type]</td>
+   <td> Selecteer het hoofdtype voor deze API-aanvraag:
+   <ul>
+   <li>Ruw</li>
+   <li>application/x-www-form-urlencoded</li>
+   <li>multipart/form-data</li>
+   </ul>
+      </td>
+      </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Repeat Until]  </td>
+      <td>
+        <p>Vorm een voorwaardelijk filter dat bepaalt wanneer het opiniepeilen zou moeten ophouden. U kunt verwijzen naar reactiegegevens met puntnotatie (zoals <code>body.status</code> , <code>body.data.state</code> of <code>headers.status</code> ). De voorwaarde wordt na elke uitvoering geëvalueerd en de opiniepeiling gaat door tot de voorwaarde <code>true</code> oplevert. Tot de ondersteunde operatoren behoren: <code>Equal to</code>, <code>Not equal to</code>, <code>Exists</code> , <code>Does not exist</code></p><p>U kunt <code>body.status not equal completed</code> bijvoorbeeld zo instellen dat de polling behouden blijft totdat de API-reactie aangeeft dat het proces is voltooid.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Repeat Delay]  </td>
+      <td>
+        <p>Voer de vertraging tussen de uitvoeringen in seconden in of wijs deze toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Repeat Limit]  </td>
+      <td>
+        <p>Voer het maximale aantal keren in dat u de API-aanroep wilt uitvoeren of wijs dit toe.</p>
+      </td>
+    </tr>
+    <tr>
+      <td role="rowheader">[!UICONTROL Output Type]  </td>
+      <td>
+        <p>Selecteer het type gegevens dat de module moet uitvoeren. Als u geen type selecteert, selecteert de module automatisch een type.</p>
+      </td>
+    </tr>
   </tbody>
 </table>
