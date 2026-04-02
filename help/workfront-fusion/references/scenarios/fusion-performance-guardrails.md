@@ -4,9 +4,9 @@ description: Voor werkautomatisering is snelle verwerking vereist, dus Adobe Wor
 author: Becky
 feature: Workfront Fusion
 exl-id: d142a521-edbc-4d7b-b5cd-872a9d3d2e1c
-source-git-commit: c41cc27660b15824a560c770ace663739dccdfa2
+source-git-commit: d2bc26f26af530e3d770faba47d24e1d4f73b73d
 workflow-type: tm+mt
-source-wordcount: '1054'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus Adobe Workfront Fusion
 * Als een bestand wordt gedownload met een module die grote bestanden ondersteunt en vervolgens wordt doorgegeven aan een module die geen grote bestanden ondersteunt, wordt het bestand niet verwerkt. Grote bestanden moeten tijdens de gehele workflow uitsluitend met ondersteunde modules worden afgehandeld.
 * De modules die geen grote dossiers steunen kunnen dossiers tot **200 MB** in grootte verwerken.
 
-Voor meer informatie, zie [&#x200B; Werkend met grote dossiers &#x200B;](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
+Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
 
 ## Gebruik van servergeheugen
 
@@ -72,6 +72,7 @@ Voor meer informatie, zie [&#x200B; Werkend met grote dossiers &#x200B;](/help/w
 ## Uitvoeringshistorie
 
 * De geschiedenislogboeken van de uitvoering zijn beperkt tot een grootte van **100 MB**. Als de uitvoeringsgeschiedenis deze grootte overschrijdt, slechts zal eerste 100 MB worden getoond.
+* Als de invoer of uitvoer van één bewerking groter is dan 15 MB, wordt deze niet weergegeven in de uitvoeringsgeschiedenis.
 * Als een scenario veelvoudige gezamenlijke uitvoeringen heeft, slechts 5 uitvoeringen tonen in het gebied van Uitvoeringen van de pagina van de scenariodetails. Dit geldt zelfs wanneer meer dan vijf uitvoeringen worden uitgevoerd.
 
 ## Onvolledige uitvoeringen
