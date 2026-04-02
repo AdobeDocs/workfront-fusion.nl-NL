@@ -48,7 +48,7 @@ Voor werkautomatisering is snelle verwerking vereist, dus Adobe Workfront Fusion
 * Als een bestand wordt gedownload met een module die grote bestanden ondersteunt en vervolgens wordt doorgegeven aan een module die geen grote bestanden ondersteunt, wordt het bestand niet verwerkt. Grote bestanden moeten tijdens de gehele workflow uitsluitend met ondersteunde modules worden afgehandeld.
 * De modules die geen grote dossiers steunen kunnen dossiers tot **200 MB** in grootte verwerken.
 
-Voor meer informatie, zie [ Werkend met grote dossiers ](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
+Voor meer informatie, zie [&#x200B; Werkend met grote dossiers &#x200B;](/help/workfront-fusion/references/scenarios/fusion-large-files.md).
 
 ## Gebruik van servergeheugen
 
