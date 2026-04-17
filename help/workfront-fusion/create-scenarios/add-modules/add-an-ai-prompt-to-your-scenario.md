@@ -3,9 +3,10 @@ title: Een AI-prompt toevoegen aan uw scenario
 description: U kunt een AI herinnering in uw scenario omvatten dat met uw verbindt
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 09e8ca28c12990a699816671d07f85288d973bc7
+exl-id: d0ac0d0b-e3a0-46de-801d-e53c1c4d63ff
+source-git-commit: 3d957c219cdc5fed4fdf9b0649cab724fae21871
 workflow-type: tm+mt
-source-wordcount: '414'
+source-wordcount: '385'
 ht-degree: 0%
 
 ---
@@ -13,12 +14,6 @@ ht-degree: 0%
 # Een AI-prompt toevoegen aan uw scenario
 
 U kunt een AI herinnering in uw scenario omvatten gebruikend ModelContext Protocol (MCP) dat met grote taalmodellen (LLMs) wordt gecombineerd. Door deze in de module van de Agent te vormen MCP, kunt u kunstmatige intelligentie aan opstellingswerkschema&#39;s gebruiken die efficiënt, veilig, en flexibel zijn.
-
->[!NOTE]
->
->Deze functionaliteit is los van de capaciteit om modules aan een scenario toe te voegen gebruikend AI.
->
->Voor informatie bij het toevoegen van modules met AI, zie [&#x200B; een scenario segment gebruikend AI &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-a-module-with-ai.md) produceren.
 
 ## Overzicht van het modelcontextprotocol
 
