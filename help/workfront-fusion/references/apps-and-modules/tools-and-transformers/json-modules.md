@@ -4,7 +4,7 @@ description: De Adobe Workfront Fusion JSON-app biedt modules voor het verwerken
 author: Becky
 feature: Workfront Fusion
 exl-id: f8b281c5-bb63-4412-98c5-d82f45f8eafc
-source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
+source-git-commit: 6aad13e81c083754d7aad53dec103715bd6b8807
 workflow-type: tm+mt
 source-wordcount: '1122'
 ht-degree: 0%
@@ -40,7 +40,7 @@ De Adobe Workfront Fusion [!UICONTROL JSON] -app biedt modules voor het verwerke
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -48,7 +48,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 ## Overwegingen bij het parseren van JSON
 
-* [&#x200B; de structuur van Gegevens &#x200B;](#data-structure)
+* [ de structuur van Gegevens ](#data-structure)
 * [Verzameling versus array](#collection-vs-array)
 
 ### Gegevensstructuur
@@ -61,7 +61,7 @@ De gegevensstructuur beschrijft hoe de JSON-gegevens zijn georganiseerd en maakt
 1. Voer het scenario handmatig uit. Hierdoor kan de module [!UICONTROL Parse JSON] de JSON-structuur identificeren vanuit de JSON die u hebt opgegeven.
 1. U kunt nu de volgende modules verbinden. De punten van de Parse JSON module zijn nu beschikbaar voor afbeelding.
 
-Zie [&#x200B; Gegevensstructuren in [!UICONTROL Adobe Workfront Fusion]](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md) voor meer informatie.
+Zie [ Gegevensstructuren in [!UICONTROL Adobe Workfront Fusion]](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md) voor meer informatie.
 
 ### Verzameling versus array
 
@@ -79,7 +79,7 @@ Als het JSON-tekenreeksveld een verzameling `{ ... }` bevat, bestaat de uitvoer 
 ```
 
 
-![&#x200B; inzameling JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
+![ inzameling JSON ](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 ]
 ```
 
-![&#x200B; serie JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
+![ serie JSON ](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
 
 >[!ENDSHADEBOX]
 
@@ -111,13 +111,13 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 
 Wanneer u [!DNL JSON] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende JSON-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [&#x200B; zet JSON in XML &#x200B;](#convert-json-to-xml) om
-* [&#x200B; ontleed JSON &#x200B;](#parse-json)
-* [&#x200B; creeer JSON &#x200B;](#create-json)
+* [ zet JSON in XML ](#convert-json-to-xml) om
+* [ ontleed JSON ](#parse-json)
+* [ creeer JSON ](#create-json)
 * [Transform JSON](#transform-json)
 
 ### Samenvoegapparatuur
@@ -155,9 +155,9 @@ Deze aggregatormodule aggregeert de uitvoer van een vorige module naar JSON.
 
 ### Transformatoren
 
-* [&#x200B; zet JSON in XML &#x200B;](#convert-json-to-xml) om
-* [&#x200B; creeer JSON &#x200B;](#create-json)
-* [&#x200B; ontleed JSON &#x200B;](#parse-json)
+* [ zet JSON in XML ](#convert-json-to-xml) om
+* [ creeer JSON ](#create-json)
+* [ ontleed JSON ](#parse-json)
 * [Transform JSON](#transform-json)
 
 #### [!UICONTROL Convert JSON to XML]
@@ -238,7 +238,7 @@ Deze actiemodule transformeert een object naar een json-tekenreeks.
 
 **Voorbeeld:** het volgende voorbeeld toont hoe te om gegevensverslagen van [!DNL Google Sheets] aan formaat te transformeren JSON:
 
-1. Plaats de module [!DNL Google Sheets] > [!UICONTROL Select rows] in uw scenario om de gegevens op te halen. Stel de module in om rijen op te halen uit de [!DNL Google] -spreadsheet. Plaats de &#x200B; **[!UICONTROL Maximum number of returned rows]** aan een klein aantal, maar groter dan één voor het testen doeleinden (Voorbeeld, drie). Voer de module [!DNL Google Sheets] uit door er met de rechtermuisknop op te klikken en &quot;**[!UICONTROL Run this module only]**&quot; te kiezen. Controleer de uitvoer van de module.
+1. Plaats de module [!DNL Google Sheets] > [!UICONTROL Select rows] in uw scenario om de gegevens op te halen. Stel de module in om rijen op te halen uit de [!DNL Google] -spreadsheet. Stel de **[!UICONTROL Maximum number of returned rows]** in op een klein getal, maar groter dan één voor testdoeleinden (bijvoorbeeld drie). Voer de module [!DNL Google Sheets] uit door er met de rechtermuisknop op te klikken en &quot;**[!UICONTROL Run this module only]**&quot; te kiezen. Controleer de uitvoer van de module.
 
 1. Sluit de module [!UICONTROL Array Aggregator] aan na de module [!DNL Google Sheets] . Kies in de installatie van de module de module [!DNL Google Sheets] in het veld **[!UICONTROL Source node]** . Laat de andere velden op dit moment ongewijzigd.
 
@@ -281,7 +281,7 @@ Deze actiemodule transformeert een object naar een json-tekenreeks.
 
 ### Kan geen gegevens toewijzen uit de module [!UICONTROL Parse JSON]
 
-Controleer of de JSON-inhoud correct is toegewezen aan de module [!UICONTROL Parse JSON] en of de gegevensstructuur correct is gedefinieerd. Voor meer informatie, zie [&#x200B; het Transformeren gegevensverslagen aan JSON &#x200B;](#transforming-data-records-to-json) in dit artikel.
+Controleer of de JSON-inhoud correct is toegewezen aan de module [!UICONTROL Parse JSON] en of de gegevensstructuur correct is gedefinieerd. Voor meer informatie, zie [ het Transformeren gegevensverslagen aan JSON ](#transforming-data-records-to-json) in dit artikel.
 
 ### De module mislukt wanneer voorwaardelijke instructies in JSON worden gebruikt
 
@@ -291,6 +291,6 @@ Wanneer u voorwaardelijke instructies gebruikt, zoals `if` in uw JSON, plaatst u
 
 **Voorbeeld:**
 
-![&#x200B; Citaten in JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
+![ Citaten in JSON ](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
 
 >[!ENDSHADEBOX]

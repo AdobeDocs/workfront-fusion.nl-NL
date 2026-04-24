@@ -4,10 +4,10 @@ description: Met de XML-toepassing kunt u tekst met XML-opmaak parseren via XML 
 author: Becky
 feature: Workfront Fusion
 exl-id: ab323361-cd04-4dcc-ab02-0fb468334fdb
-source-git-commit: 4697ea1449f77ddb8648658990098b3b4bc58ad2
+source-git-commit: 6aad13e81c083754d7aad53dec103715bd6b8807
 workflow-type: tm+mt
 source-wordcount: '1283'
-ht-degree: 2%
+ht-degree: 3%
 
 ---
 
@@ -40,7 +40,7 @@ Met de app [!UICONTROL XML] kunt u tekst met XML-opmaak parseren via de module [
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,7 +91,7 @@ De module [!UICONTROL XML] > [!UICONTROL Create XML] zet een bundel om in tekst 
 
 Doorgaans worden gegevens van een [!DNL Google] >spreadsheet getransformeerd naar XML.
 
-1. Plaats de module [!DNL Google Sheets] > [!UICONTROL Select rows] in uw scenario om de gegevens op te halen. Stel de module in om rijen op te halen uit de [!DNL Google] -spreadsheet. Plaats de &#x200B; **[!UICONTROL Maximum number of returned rows]** aan een klein aantal, maar groter dan één voor het testen doeleinden (Voorbeeld, drie). Voer de module [!DNL Google Sheets] uit door er met de rechtermuisknop op te klikken en &quot;**[!UICONTROL Run this module only]**&quot; te kiezen. Controleer de uitvoer van de module.
+1. Plaats de module [!DNL Google Sheets] > [!UICONTROL Select rows] in uw scenario om de gegevens op te halen. Stel de module in om rijen op te halen uit de [!DNL Google] -spreadsheet. Stel de **[!UICONTROL Maximum number of returned rows]** in op een klein getal, maar groter dan één voor testdoeleinden (bijvoorbeeld drie). Voer de module [!DNL Google Sheets] uit door er met de rechtermuisknop op te klikken en &quot;**[!UICONTROL Run this module only]**&quot; te kiezen. Controleer de uitvoer van de module.
 1. Sluit de module [!UICONTROL Array Aggregator] aan na de module [!DNL Google Sheets] . Kies in de installatie van de module de module [!DNL Google Sheets] in het veld **[!UICONTROL Source node]** . Laat de andere velden op dit moment ongewijzigd.
 1. Sluit de module [!UICONTROL XML] > [!UICONTROL Create XML] aan na de module [!UICONTROL Array Aggregator] .
 
@@ -99,7 +99,7 @@ Doorgaans worden gegevens van een [!DNL Google] >spreadsheet getransformeerd naa
 
 1. Klik op de knop **[!UICONTROL Generator]** en plak het XML-voorbeeld in het veld [!UICONTROL Sample data] :
 
-   ![&#x200B; het gegevensgebied van de Steekproef &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
+   ![ het gegevensgebied van de Steekproef ](/help/workfront-fusion/references/apps-and-modules/assets/sample-data-field-350x146.png)
 
 1. Klik op **[!UICONTROL Save]**.
 
@@ -191,7 +191,7 @@ Een XML-bestand downloaden van een URL en de inhoud ervan parseren:
 
    **URL**: URL van het dossier van XML (b.v. `https://siftrss.com/f/rqLy05ayMBJ`)
 
-   ![&#x200B; URL van het dossier van XML voorbeeld &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)
+   ![ URL van het dossier van XML voorbeeld ](/help/workfront-fusion/references/apps-and-modules/assets/url-of-xml-file-350x184.png)
 
 1. Klik **[!UICONTROL OK]** om de configuratie van de module te bewaren en te sluiten.
 1. Voeg [!UICONTROL XML] > [!UICONTROL Parse XML] -module toe, sluit deze aan na de module [!UICONTROL HTTP] > [!UICONTROL Get a file] en configureer deze als volgt:
@@ -241,7 +241,7 @@ Standaard plaatst de module [!UICONTROL XML] > [!UICONTROL Parse XML] kenmerken 
 
 wordt omgezet in deze bundel:
 
-![&#x200B; XML die in bundel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png) wordt omgezet
+![ XML die in bundel ](/help/workfront-fusion/references/apps-and-modules/assets/xml-converted-to-bundle.png) wordt omgezet
 
 >[!ENDSHADEBOX]
 

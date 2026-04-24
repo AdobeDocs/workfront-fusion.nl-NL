@@ -4,7 +4,7 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 6e514204-cd8e-4f30-bbbb-b8fbe48fc670
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: 6aad13e81c083754d7aad53dec103715bd6b8807
 workflow-type: tm+mt
 source-wordcount: '2380'
 ht-degree: 0%
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die [!UICONTROL Google Calendar] gebruiken en deze koppelen aan meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -51,9 +51,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -88,13 +88,13 @@ De Google Calendar-aansluiting gebruikt het volgende:
 
 Wanneer u [!DNL Google Calendar] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Calendar] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 
 * [Triggers](#triggers)
-* [Handelingen](#actions)
+* [Acties](#actions)
 * [Iteratoren](#iterators)
 
 ### Triggers
@@ -158,7 +158,7 @@ Deze triggermodule gebruikt een mailhaak om een e-mailadres te maken dat u kunt 
  </tbody> 
 </table>
 
-### Handelingen
+### Acties
 
 * [Een kalender maken](#create-a-calendar)
 * [Een gebeurtenis maken](#create-an-event)
@@ -493,7 +493,7 @@ U kunt een scenario een gespecificeerde tijd vóór een gebeurtenis met de hulp 
 
 1. Met de module [!UICONTROL Google Calendar] > [!UICONTROL Update an event] kunt u een e-mailherinnering aan de gebeurtenis toevoegen:
 
-   ![&#x200B; het scenario van de Trekker vóór gebeurtenis &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/trigger-scen-before-event-350x209.png)
+   ![ het scenario van de Trekker vóór gebeurtenis ](/help/workfront-fusion/references/apps-and-modules/assets/trigger-scen-before-event-350x209.png)
 
 1. Creeer een nieuw scenario dat met [!UICONTROL Webhooks] > [!UICONTROL Custom mailhook] module begint.
 
@@ -505,21 +505,21 @@ U kunt een scenario een gespecificeerde tijd vóór een gebeurtenis met de hulp 
    1. Open uw **[!UICONTROL [!DNL Gmail] settings]**.
    1. Open de tab **[!UICONTROL Forwarding and POP/IMAP]** .
    1. Klik op **[!UICONTROL Add a forwarding address].**
-   1. Plak het e-mailadres van de gekopieerde e-mail, klik op &#x200B; **[!UICONTROL Next]**, bevestig door op **[!UICONTROL Proceed]** in het pop-upvenster te drukken en klik vervolgens op **[!UICONTROL OK]** .
+   1. Plak het e-mailadres van de gekopieerde e-mail, klik op **[!UICONTROL Next]** , bevestig door op **[!UICONTROL Proceed]** in het pop-upvenster te drukken en klik vervolgens op **[!UICONTROL OK]** .
 
    1. Schakel in Workfront Fusion over naar het nieuwe scenario dat de uitvoering moet voltooien door het bevestigingsbericht te ontvangen.
    1. Klik de bel boven de module om de output van de module te inspecteren.
    1. Vouw het item `Text` uit en kopieer de bevestigingscode:
 
-      ![&#x200B; Bevestigingscode &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/confirmation-code-350x252.png)
+      ![ Bevestigingscode ](/help/workfront-fusion/references/apps-and-modules/assets/confirmation-code-350x252.png)
 
-   1. Plak in Gmail de bevestigingscode in het bewerkingsvak en klik op &#x200B;**[!UICONTROL Verify]** :
+   1. Plak in Gmail de bevestigingscode in het bewerkingsvak en klik op **[!UICONTROL Verify]** :
 
-      ![&#x200B; de code van het Deeg &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/paste-code-350x46.png)
+      ![ de code van het Deeg ](/help/workfront-fusion/references/apps-and-modules/assets/paste-code-350x46.png)
 
    1. Open de tab **[!UICONTROL Filters and Blocked Addresses]** .
    1. Klik op **[!UICONTROL Create a new filter]**.
-   1. Stel een filter in voor alle e-mails die uit `     calendar-notification@google.com` komen en klik op &#x200B; **[!UICONTROL Create a filter]** :
+   1. Stel een filter in voor alle e-mails die uit `     calendar-notification@google.com` komen en klik op **[!UICONTROL Create a filter]** :
    1. Selecteer **[!UICONTROL Forward it to]** en kies in de lijst het e-mailadres van de e-mail.
    1. Klik op **[!UICONTROL Create filter]** om het filter te maken.
 

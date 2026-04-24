@@ -1,14 +1,14 @@
 ---
-title: Workfront Fusion release activity:&nbsp;Week van 25 april 2022
-description: Workfront Fusion release activity:&nbsp;Week van 25 april 2022
+title: 'Workfront Fusion release activity: Week van 25 april 2022'
+description: 'Workfront Fusion release activity: Week van 25 april 2022'
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: c1d5645f-9bca-4f04-b2e4-526530d9ecbd
-source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
+source-git-commit: bc4c5c047f4847b929c4b047be1897d8872709e9
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '157'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 25 april 2022 zijn aangebracht.
 
-Voor een lijst van alle recente veranderingen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
 
-Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [&#x200B; pagina van de Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Adobe Workfront Proof-connector nu beschikbaar voor gebruikers met een Workfront Fusion for Automation-licentie
 
