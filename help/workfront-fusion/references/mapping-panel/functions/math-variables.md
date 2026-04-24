@@ -23,7 +23,7 @@ Retourneert een pseudo-willekeurig getal met drijvende komma in het bereik [`0` 
 
 Gebruik de volgende formule om een geheel pseudo-willekeurig aantal in de waaier [`min`, `max`] (met inbegrip van zowel `min` als `max`) te produceren:
 
-![ Willekeurig ](assets/math-variable-random-350x61.png)
+![&#x200B; Willekeurig &#x200B;](assets/math-variable-random-350x61.png)
 
 ```
 floor(random * (1.max - 1.min + 1)) + 1.min
