@@ -44,7 +44,7 @@ U kunt ook een formule maken met een willekeurige combinatie van functies en toe
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,11 +67,11 @@ Uitvoeritems toewijzen aan de invoervelden van een module:
    Zoekresultaten bevatten de zoekterm en zijn niet hoofdlettergevoelig.
 1. Als u een waarde wilt selecteren die een element van een verzameling is, klikt u op de pijl naast die verzameling en selecteert u vervolgens het element wanneer dat wordt weergegeven.
 
-   ![ element van de Inzameling ](assets/collection-dropdown.png)
+   ![&#x200B; element van de Inzameling &#x200B;](assets/collection-dropdown.png)
 
 1. Klik op een item in het deelvenster Toewijzing om het in te voegen in het veld.
 
-Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
+Voor meer informatie, zie [&#x200B; een module &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
 
 
 ## Problemen oplossen

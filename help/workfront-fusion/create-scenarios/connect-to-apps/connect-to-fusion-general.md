@@ -20,8 +20,8 @@ Veel Adobe Workfront Fusion-connectors hebben geen aangepaste configuratie nodig
 >
 >Als Adobe Workfront Fusion geen app aanbiedt voor de webservice die u in uw scenario wilt gebruiken, kunt u verbinding maken met de webservice met de Workfront Fusion HTTP- en Webhooks-modules, zoals in de volgende artikelen wordt uitgelegd:
 >
->* [ verbind de Fusie van Adobe Workfront met de Webdienst die API tokenvergunning gebruikt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-wf-web-service-uses-api-token-auth.md)
->* [ vorm een webhaak voor een Webdienst zonder een schakelaar ](/help/workfront-fusion/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.md)
+>* [&#x200B; verbind de Fusie van Adobe Workfront met de Webdienst die API tokenvergunning gebruikt &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-wf-web-service-uses-api-token-auth.md)
+>* [&#x200B; vorm een webhaak voor een Webdienst zonder een schakelaar &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.md)
 
 ## Toegangsvereisten
 
@@ -55,9 +55,9 @@ Veel Adobe Workfront Fusion-connectors hebben geen aangepaste configuratie nodig
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 

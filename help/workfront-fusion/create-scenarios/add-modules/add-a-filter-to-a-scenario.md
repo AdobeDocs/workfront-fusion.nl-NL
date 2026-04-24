@@ -47,7 +47,7 @@ U kunt een filter tussen twee modules toevoegen en controleren of de bundels die
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,7 +60,7 @@ U moet beide modules aan een scenario toevoegen alvorens u een filter tussen hen
 1. Klik op de tab **[!UICONTROL Scenarios]** in het linkerdeelvenster.
 1. Selecteer het scenario waaraan u een filter wilt toevoegen.
 1. Klik overal op het scenario om de redacteur van het Scenario in te gaan.
-1. Klik het moersleutelpictogram ![ pictogram van de Sleutel ](assets/wrench-icon.png) tussen de modules waar u een filter wilt toevoegen en **Opstelling een filter** selecteren.
+1. Klik het moersleutelpictogram ![&#x200B; pictogram van de Sleutel &#x200B;](assets/wrench-icon.png) tussen de modules waar u een filter wilt toevoegen en **Opstelling een filter** selecteren.
 1. Voer in het vak dat wordt weergegeven een **[!UICONTROL Label]** voor het filter in.
 1. Definieer het filter **[!UICONTROL Condition]** .
 
@@ -69,11 +69,11 @@ U moet beide modules aan een scenario toevoegen alvorens u een filter tussen hen
    >[!TIP]
    >
    >U kunt waarden invoeren in filtervelden vanuit het deelvenster Toewijzing
-   >Voor meer informatie bij afbeelding, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+   >Voor meer informatie bij afbeelding, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
    Als u bijvoorbeeld wilt dat het filter bestanden doorgeeft in Adobe Workfront die eindigen met XML, typt u **[!UICONTROL File name]** in het eerste vak en . **[!UICONTROL xml]** in het tweede vak. In het vervolgkeuzemenu ertussen selecteert u **[!UICONTROL Ends with (case insensitive)]** . Dit filter wordt toegepast op binnenkomende bundels uit de eerste module (Workfront). Alleen pakketten met XML-bestanden worden doorgegeven aan de volgende module.
 
-   ![ Opstelling een filter ](assets/set-up-filter-box.png)
+   ![&#x200B; Opstelling een filter &#x200B;](assets/set-up-filter-box.png)
 
 1. Klik op **[!DNL OK]** .
 
@@ -87,8 +87,8 @@ U kunt een bestaand filter kopiëren en elders in het scenario plakken.
 1. Klik met de rechtermuisknop op de verbindende stippen tussen modules waar het filter zich bevindt.
 1. Selecteer **filter van het Exemplaar**.
 1. Klik met de rechtermuisknop op de verbindende stippen tussen modules waar u het filter wilt plakken.
-1. Selecteer **filter van 0} Deeg**
-1. (Facultatief) om de filter aan te passen, klik het filterpictogram of het etiket, en ga waarden in zoals die in [ worden beschreven een filter tussen twee modules ](#add-a-filter-between-two-modules) in dit artikel toevoegen.
+1. Selecteer **filter van 0&rbrace; Deeg**
+1. (Facultatief) om de filter aan te passen, klik het filterpictogram of het etiket, en ga waarden in zoals die in [&#x200B; worden beschreven een filter tussen twee modules &#x200B;](#add-a-filter-between-two-modules) in dit artikel toevoegen.
 
 
 
