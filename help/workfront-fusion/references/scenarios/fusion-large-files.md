@@ -4,7 +4,7 @@ description: Er is momenteel ondersteuning voor grote bestanden beschikbaar voor
 author: Becky
 feature: Workfront Fusion
 exl-id: 6df81943-e70c-42b3-aa44-d82343598a51
-source-git-commit: 2493ce7ccca599e30b44b62558573ce2a55b03e0
+source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
 workflow-type: tm+mt
 source-wordcount: '1052'
 ht-degree: 0%
@@ -61,7 +61,7 @@ De module Workfront > Document uploaden is gewijzigd voor het verwerken van grot
 
 Als u met grotere bestanden wilt werken, raden wij u aan de oudere module te vervangen door de nieuwe module Document uploaden. Met de nieuwe module Document uploaden voorkomt u time-outs en andere fouten.
 
-![&#x200B; uploadt document &#x200B;](assets/new-upload-document.png)
+![ uploadt document ](assets/new-upload-document.png)
 
 ## Veelgestelde vragen
 
@@ -142,14 +142,16 @@ The following connectors do **not** support large files.
 
 If a connector is not on this list, it does not support large files. For these connectors, Fusion's total processing capacity for files is **1 GB**. 
 
-This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.-->
+This limit is based on a total memory cost. Every operation contributes to that cost. If a single file of 400 MB is downloaded and uploaded then the total cost to the file capacity would be 800 MB.
+-->
 
 
 
 
 
 
-<!--## Connectors that support large files
+<!--
+## Connectors that support large files
 
 The following connectors support large files.
 

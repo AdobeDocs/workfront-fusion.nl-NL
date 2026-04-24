@@ -8,9 +8,8 @@ description: Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fu
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: 9d58abd0-1fe7-43c8-a1ea-2fadea738590
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '227'
 ht-degree: 0%
@@ -19,7 +18,7 @@ ht-degree: 0%
 
 # Workfront Fusion release activity: Week 7 november 2022
 
-**de rijoptimalisering van de 0&rbrace; Webhaak**
+**de rijoptimalisering van de 0} Webhaak**
 
 De wachtrij van Fusion voor webhaken is geoptimaliseerd met deze release. De service die webhooks accepteert, staat nu los van wachtrijen en andere processen. Door deze wijziging kan Fusion webhaakwachtrijen sneller en consistenter verwerken.
 

@@ -4,7 +4,7 @@ description: Adobe Workfront Fusion vereist naast een Adobe Workfront-licentie e
 author: Becky
 feature: Workfront Fusion
 exl-id: 3b445b50-5812-4ded-9788-f467991e0b52
-source-git-commit: a5a1f8f596b55b2f1eca9d7874b5885e435b2489
+source-git-commit: 805e3e0d194d0f73caa1455ea1dadf1d799bdc7a
 workflow-type: tm+mt
 source-wordcount: '1957'
 ht-degree: 0%
@@ -48,9 +48,9 @@ Met de [!DNL Airtable] -connector voor Adobe Workfront Fusion kunt u een scenari
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -99,12 +99,12 @@ De Airtable schakelaar gebruikt het volgende:
 
 ### Records
 
-* [&#x200B; creeer een Verslag &#x200B;](#create-a-record)
-* [&#x200B; Schrap een Verslag &#x200B;](#delete-a-record)
-* [&#x200B; krijg een verslag &#x200B;](#get-a-record)
-* [&#x200B; Verslagen van het Onderzoek &#x200B;](#search-records)
-* [&#x200B; werk een Verslag &#x200B;](#update-a-record) bij
-* [&#x200B; Upsert een Verslag &#x200B;](#upsert-a-record)
+* [ creeer een Verslag ](#create-a-record)
+* [ Schrap een Verslag ](#delete-a-record)
+* [ krijg een verslag ](#get-a-record)
+* [ Verslagen van het Onderzoek ](#search-records)
+* [ werk een Verslag ](#update-a-record) bij
+* [ Upsert een Verslag ](#upsert-a-record)
 * [Controleregisters](#watch-records)
 * [Reacties controleren](#watch-responses)
 * [Een API-aanroep maken](#make-an-api-call)
@@ -137,7 +137,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Opnemen</p> </td> 
-   <td> <p>Voer de waarden voor de nieuwe record in. Beschikbare velden zijn gebaseerd op de tabel die u hebt geselecteerd.</p> <!--<p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
+   <td> <p>Voer de waarden voor de nieuwe record in. Beschikbare velden zijn gebaseerd op de tabel die u hebt geselecteerd.</p> 
+   <!--
+   <p>For more information on field types, search for "Supported field types" in the Airtable documentation.</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>Multiple lines of text, which may contain "mention tokens", for example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -160,7 +162,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> --></td> 
+    </ul> 
+   -->
+   </td> 
   </tr> 
   <tr> 
    <td>Slimme koppelingen</td> 
@@ -304,7 +308,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Opnemen</p> </td> 
-   <td> <p>Voer de waarden voor de nieuwe record in. Welke velden beschikbaar zijn, is afhankelijk van de tabel die u hebt geselecteerd.</p> <!--<p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
+   <td> <p>Voer de waarden voor de nieuwe record in. Welke velden beschikbaar zijn, is afhankelijk van de tabel die u hebt geselecteerd.</p> 
+   <!--
+   <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -327,7 +333,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> --></td> 
+    </ul> 
+   -->
+   </td> 
   </tr> 
   <tr> 
    <td>Slimme koppelingen</td> 
@@ -368,7 +376,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
   </tr> 
   <tr> 
    <td> <p>Opnemen</p> </td> 
-   <td> <p>Voer de waarden voor de nieuwe record in. Welke velden beschikbaar zijn, is afhankelijk van de tabel die u hebt geselecteerd.</p> <!-- <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
+   <td> <p>Voer de waarden voor de nieuwe record in. Welke velden beschikbaar zijn, is afhankelijk van de tabel die u hebt geselecteerd.</p> 
+   <!-- 
+   <p>In order to delete the content of the field, use the erase function. </p>  <p>Field types (via airtable.com/api):</p> 
     <ul> 
      <li> <p><strong>Text</strong>: string</p> <p>A single line of text.</p> </li> 
      <li> <p><strong>Long text</strong>: string</p> <p>The string can contain multiple lines of text with "mention tokens." For example:</p><pre>&lt;airtable:mention id="menE1i9oBaGX3DseR"&gt;@Alex&lt;/airtable:mention&gt;</pre> </li> 
@@ -391,7 +401,9 @@ Als u deze module configureert, worden de volgende velden weergegeven.
      <li><strong>Lookup</strong>: Array of long text fields</li> 
      <li><strong>Autonumber</strong>: Automatically incremented unique counter for each record.</li> 
      <li> <p><strong>Barcode</strong>: The barcode object may contain the following two properties, both of which are optional.</p> <p>Barcode data (text)</p> <p>Barcode symbology, for example, "upce" or "code39" (type)</p> </li> 
-    </ul> --></td> 
+    </ul> 
+   -->
+   </td> 
   </tr> 
   <tr> 
    <td>Slimme koppelingen</td> 

@@ -6,7 +6,7 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 473dba8b-faa4-432f-9357-c2146e86b261
-source-git-commit: e0d9d76ab2cbd8bd277514a4291974af4fceba73
+source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
 workflow-type: tm+mt
 source-wordcount: '715'
 ht-degree: 0%
@@ -63,7 +63,8 @@ U moet de volgende toegang hebben om de functionaliteit in dit artikel te kunnen
 <!--
 For more detail about the information in this table, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
 
-For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md). -->
+For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion licenses](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+-->
 
 +++
 
@@ -73,16 +74,16 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
 1. Klik op **[!UICONTROL All Templates]** in het navigatievenster aan de linkerkant.
 1. Klik op **[!UICONTROL Detail]** rechts van de sjabloon die u wilt bewerken.
 1. (Facultatief) verander het malplaatje door **Opties** in de hoger-juiste hoek te klikken en **te selecteren anders noemen**.
-1. (Facultatief) om de taal van uw malplaatje te veranderen, klik **[!UICONTROL Create a new template]** ![&#x200B; de montagespictogram van het Scenario &#x200B;](assets/fusion-scenario-settings-icon.png), en selecteer de taal van de drop-down Taal.
+1. (Facultatief) om de taal van uw malplaatje te veranderen, klik **[!UICONTROL Create a new template]** ![ de montagespictogram van het Scenario ](assets/fusion-scenario-settings-icon.png), en selecteer de taal van de drop-down Taal.
 
    >[!IMPORTANT]
    >
    >De taalselectie komt overeen met de talen die beschikbaar zijn in de systeeminstellingen en heeft alleen betrekking op de naam van de openbare sjabloon en de beschrijving ervan. U kunt een sjabloontaal niet wijzigen nadat de sjabloon is opgeslagen.
 
-1. (Facultatief) om de malplaatjebeschrijving uit te geven, klik **[!UICONTROL Set up a template]** ![&#x200B; de montagespictogram van het Scenario &#x200B;](assets/fusion-scenario-settings-icon.png), en ga de beschrijving in.
+1. (Facultatief) om de malplaatjebeschrijving uit te geven, klik **[!UICONTROL Set up a template]** ![ de montagespictogram van het Scenario ](assets/fusion-scenario-settings-icon.png), en ga de beschrijving in.
 1. U kunt apps, modules en gereedschappen op dezelfde manier toevoegen of bewerken als bij het maken van een standaardscenario.
 
-   Om contextafhankelijke hulp aan de modules toe te voegen, zie [&#x200B; Opstelling [!UICONTROL Wizard] functionaliteit &#x200B;](#set-up-wizard-functionality) in dit artikel.
+   Om contextafhankelijke hulp aan de modules toe te voegen, zie [ Opstelling [!UICONTROL Wizard] functionaliteit ](#set-up-wizard-functionality) in dit artikel.
 
    <!--For more information on building a scenario, see [Create a scenario in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).-->
 
@@ -91,7 +92,7 @@ For information on Adobe Workfront Fusion licenses, see [Adobe Workfront Fusion 
    >Als uw malplaatje modules omvat die vereisen toevoegend de verbinding, geloofsbrieven, of andere privacy-gevoelige informatie, wordt deze informatie niet gedeeld met de malplaatjegebruikers.
 
 1. (Optioneel) Klik op **[!UICONTROL Run once]** om de sjabloon te testen.
-1. Klik het **[!UICONTROL Save]** pictogram ![&#x200B; sparen pictogram &#x200B;](assets/save-icon.png).
+1. Klik het **[!UICONTROL Save]** pictogram ![ sparen pictogram ](assets/save-icon.png).
 
 
 ## [!UICONTROL Wizard] -functionaliteit instellen
@@ -105,7 +106,7 @@ Met [!DNL Workfront Fusion template] [!UICONTROL Wizard] kunt u toekomstige gebr
 1. Herhaal stap 2-4 voor elk veld waarvoor u informatie wilt opgeven.
 1. Klik op **[!UICONTROL OK]** om de wijzigingen op te slaan en de module te sluiten.
 
-Het publicatieproces is hetzelfde als in het geval van een standaardgebruiker. Voor informatie, zie [&#x200B; publiceren en delen malplaatjes &#x200B;](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md) sectie voor meer details.
+Het publicatieproces is hetzelfde als in het geval van een standaardgebruiker. Voor informatie, zie [ publiceren en delen malplaatjes ](/help/workfront-fusion/create-and-manage-templates/publish-and-share-fusion-templates.md) sectie voor meer details.
 
 ## Sjabloonstatussen
 

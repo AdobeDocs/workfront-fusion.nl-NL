@@ -5,9 +5,8 @@ author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: f523c1eb-682a-45af-8945-a1815422fbea
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '172'
 ht-degree: 0%
@@ -18,13 +17,13 @@ ht-degree: 0%
 
 Deze pagina beschrijft alle verbeteringen die in Adobe Workfront Fusion in de week van 15 november 2021 zijn aangebracht.
 
-Voor een lijst van alle recente veranderingen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
 
-Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [&#x200B; pagina van de Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Nieuwe look en feel voor Adobe Workfront Fusion
 
-We hebben de look and feel van Workfront Fusion bijgewerkt om de vormgeving van andere producten van de Adobe beter te weerspiegelen. Deze verandering in het schonere blik staat een consistentere ervaring toe wanneer het werken over diverse producten van de Adobe.
+We hebben de look and feel van Workfront Fusion bijgewerkt om de blik en het gevoel van andere Adobe-producten beter te weerspiegelen. Deze verandering in het schonere uiterlijk maakt een consistentere ervaring mogelijk bij het werken in verschillende Adobe-producten.
 
 Deze upgrade biedt ook prestatieverbeteringen voor snellere navigatie.
 

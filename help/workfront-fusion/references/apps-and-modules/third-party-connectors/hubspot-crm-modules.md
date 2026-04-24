@@ -4,9 +4,9 @@ description: De modules van CRM van de Fusion HubSpot van Adobe Workfront laten 
 author: Becky
 feature: Workfront Fusion
 exl-id: b8a1bbcd-337e-4c92-a1a6-d6d4bab1f440
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: 27ff7374e5e2d6765a1bcbfae9d10fb8a8f77521
 workflow-type: tm+mt
-source-wordcount: '6644'
+source-wordcount: '6635'
 ht-degree: 0%
 
 ---
@@ -47,9 +47,9 @@ Met de Adobe Workfront Fusion [!DNL HubSpot CRM] -modules kunt u gebeurtenissen,
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -78,19 +78,19 @@ De schakelaar van CRM HubSpot gebruikt het volgende:
 
 ## Adobe Workfront Fusion verbinden met [!DNL HubSpot CRM]
 
-Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan de Fusie van Workfront, zie [&#x200B; een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL HubSpot CRM] rekening aan de Fusie van Workfront, zie [ een verbinding aan de Fusie van Adobe Workfront tot stand brengen - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 >[!NOTE]
 >
->Wanneer het vormen van een verbinding, selecteer het **verbindingstype van 0&rbrace; HubSpot CRM &lbrace;.** Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
+>Wanneer het vormen van een verbinding, selecteer het **verbindingstype van 0} HubSpot CRM {.** Het (Afgekeurde) type van HubSpot CRM steunt bestaande verbindingen, maar wij adviseren niet gebruikend het om nieuwe verbindingen tot stand te brengen.
 
 ## [!DNL HubSpot CRM] modules en hun velden
 
 Wanneer u [!DNL Hubspot CRM] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Hubspot CRM] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [CRM-objecten](#crm-objects)
 * [Records (Deals, Contacten, en Bedrijven)](#records-deals-contacts-and-companies)
@@ -105,9 +105,9 @@ Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken o
 * [Tickets](#tickets)
 * [Forms](#forms)
 * [Sociale media (uitzending)](#social-media-broadcast)
-* [&#x200B; Blogberichten &#x200B;](#blog-posts)
+* [ Blogberichten ](#blog-posts)
   <!--* [Workflows]()-->
-* [&#x200B; Abonnementen &#x200B;](#subscriptions)
+* [ Abonnementen ](#subscriptions)
   <!--* [Associations]()-->
 * [Overige](#other)
 
@@ -192,7 +192,7 @@ Deze activeringsmodule start een scenario wanneer een CRM-object wordt gemaakt o
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Filter by]</td> 
-   <td>U kunt een filter toevoegen om ervoor te zorgen dat het scenario slechts begint wanneer bepaalde voorwaarden worden voldaan.<ul><li><b>Query</b><p>Voer de query in waarop u wilt filteren.</li><li><b>Eigenschappen</b><p>Voor elk bezit dat u aan filterresultaten wilt gebruiken, <b> toevoegen punt </b> en ga de bezitsnaam, de exploitant, en bezitswaarde in.</td> 
+   <td>U kunt een filter toevoegen om ervoor te zorgen dat het scenario slechts begint wanneer bepaalde voorwaarden worden voldaan.<ul><li><b>Query</b><p>Voer de query in waarop u wilt filteren.</li><li><b>Properties</b><p>Voor elk bezit dat u aan filterresultaten wilt gebruiken, <b> toevoegen punt </b> en ga de bezitsnaam, de exploitant, en bezitswaarde in.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -1054,7 +1054,7 @@ Deze actiemodule verwijdert een betrokkenheid met de id.
 
 +++
 
-+++ **van het 0&rbrace; Horloge Afspraken**
++++ **van het 0} Horloge Afspraken**
 
 Deze triggermodule start een scenario wanneer een nieuwe betrokkenheid wordt gemaakt in een portal. Deze module retourneert alleen records die in de laatste 30 dagen zijn gemaakt, of de 10.000 records die het laatst zijn gemaakt.
 
@@ -1566,7 +1566,7 @@ Verwijdert een bestaand ticket met zijn id.
 
 <!-- List Tickets  Need to find a working connection-->
 
-&lt;!— Werk een Ticket bij die een werkende verbinding moet vinden—>
+<!-- Update a Ticket Need to find a working connection-->
 
 <!-- Watch Tickets Need to find a working connection-->
 
@@ -1980,20 +1980,19 @@ Deze onderzoeksmodule wint posten van een blog HubSpot terug.
 
 +++
 
-<!--+++**Workflows**>
+<!--
++++**Workflows**>
 
-<!--### Workflows May need connection
+### Workflows May need connection
 
 #### Add a Contact to a Workflow
 
 
 #### Remove a Contact from a Workflow
-
++++
 -->
 
-<!--+++-->
-
-### Abonnementen
+### Lidmaatschappen
 
 +++ **Update E-mailabonnement**
 
@@ -2061,9 +2060,11 @@ Deze triggermodule start een scenario wanneer een nieuw abonnement op de e-mailt
 
 <!--### Associations-->
 
-<!--#### Associate CRM Objects  May need connection
+<!--
+#### Associate CRM Objects  May need connection
 
-This action module associates two CRM objects.-->
+This action module associates two CRM objects.
+-->
 
 <!--#### Associate Multiple CRM Objects  May need connection-->
 
@@ -2079,7 +2080,9 @@ This action module associates two CRM objects.-->
 
 <!--#### List Associations for a CRM Object May need connection-->
 
-<!--+++-->
+<!--
++++
+-->
 
 ### Overige
 
@@ -2139,13 +2142,13 @@ Hiermee kunt u een aangepaste API-aanroep uitvoeren.
 >
 >**Methode**: `GET`
 >
->![&#x200B; Hubspot API configuratie &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-config.png)
+>![ Hubspot API configuratie ](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-config.png)
 >
 >Overeenkomsten met de zoekopdracht vindt u in de sectie Uitvoer van de module onder [!UICONTROL Bundle] > [!UICONTROL Body] > [!UICONTROL contacts] .
 >
 >In ons voorbeeld, zijn 3 contacten teruggekeerd:
 >
->![&#x200B; Uitvoer van hubspot API &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-output.png)
+>![ Uitvoer van hubspot API ](/help/workfront-fusion/references/apps-and-modules/assets/hubspot-api-output.png)
 
 +++
 

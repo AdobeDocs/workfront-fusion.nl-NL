@@ -4,7 +4,7 @@ description: De  [!DNL Adobe Workfront Fusion Google Drive]  modules laten u toe
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 788f4e1b-d774-45ad-a8be-b16922c1d5dc
-source-git-commit: 363df430b8cc3133961e77d3bd5934490440314c
+source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
 workflow-type: tm+mt
 source-wordcount: '1678'
 ht-degree: 0%
@@ -17,9 +17,9 @@ Met de Adobe Workfront Fusion [!DNL Google Drive] -modules kunt u uw bestanden, 
 
 In een Adobe Workfront Fusion-scenario kunt u uw [!DNL Google Drive] -account verbinden met meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md).
 
 ## Toegangsvereisten
 
@@ -53,9 +53,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -88,22 +88,22 @@ De Google Drive-aansluiting gebruikt het volgende:
 
 Als u [!DNL @gmail.com] of [!DNL @googlemail.com] gebruiker gebruikt, moet u een OAuth cliënt op [!DNL Google Cloud Platform] tot stand brengen om uw [!UICONTROL Client ID] en [!UICONTROL Client Secret] te verkrijgen.
 
-Voor geleidelijke instructies op hoe te om de cliënt OAuth (en verkrijg [!UICONTROL Client ID] en [!UICONTROL Client Secret]) tot stand te brengen, zie [&#x200B; de Fusie van Adobe Workfront van Connect aan  [!DNL Google Services]  gebruikend een douaneOAuth cliënt &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
+Voor geleidelijke instructies op hoe te om de cliënt OAuth (en verkrijg [!UICONTROL Client ID] en [!UICONTROL Client Secret]) tot stand te brengen, zie [ de Fusie van Adobe Workfront van Connect aan  [!DNL Google Services]  gebruikend een douaneOAuth cliënt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-fusion-to-google-using-oauth.md).
 
-Voor instructies over het aansluiten van uw [!DNL Google Drive] rekening aan [!UICONTROL Workfront Fusion], zie [&#x200B; een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
+Voor instructies over het aansluiten van uw [!DNL Google Drive] rekening aan [!UICONTROL Workfront Fusion], zie [ een verbinding tot stand brengen [!UICONTROL Adobe Workfront Fusion] - Basisinstructies ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-to-fusion-general.md)
 
 ## [!DNL Google Drive] modules en hun velden
 
 Wanneer u [!DNL Google Drive] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Google Drive] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 
 
 * [Triggers](#triggers)
-* [Handelingen](#actions)
+* [Acties](#actions)
 
 ### Triggers
 
@@ -297,7 +297,7 @@ Triggers wanneer een nieuw dossier aan u wordt gedeeld, of een bestaand gedeeld 
  </tbody> 
 </table>
 
-### Handelingen
+### Acties
 
 * [[!UICONTROL Copy a file]](#copy-a-file)
 * [[!UICONTROL Create a fFolder]](#create-a-folder)
@@ -625,7 +625,8 @@ Er zijn verschillende redenen waarom het uploaden of bijwerken van een bestand m
 * Het geüploade bestand is te groot en overschrijdt de maximale bestandsgrootte die is toegestaan voor uw [!DNL Google Drive] -abonnement of u hebt de opslaglimiet van [!DNL Google Drive] overschreden. U kunt uw opslagabonnement upgraden of bestaande bestanden verwijderen uit de service [!DNL Google Drive] .
 * De geselecteerde map waarnaar het bestand moet worden geüpload, bestaat niet meer. In dit geval stopt het scenario en moet u een andere doelmap in de module selecteren.
 
-<!-- Not present February 2025
+<!--
+Not present February 2025
 
 ## Search for files
 

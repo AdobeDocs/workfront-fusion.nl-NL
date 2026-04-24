@@ -8,9 +8,8 @@ description: Op deze pagina worden alle verbeteringen beschreven die in Adobe Wo
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
-hidefromtoc: true
 exl-id: 9a76a3d1-66b9-4fcd-848e-3d762e4af0f9
-source-git-commit: 77ec3c007ce7c49ff760145fafcd7f62b273a18f
+source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
 workflow-type: tm+mt
 source-wordcount: '336'
 ht-degree: 0%
@@ -21,17 +20,17 @@ ht-degree: 0%
 
 Op deze pagina worden alle verbeteringen beschreven die in Adobe Workfront Fusion in de week van 18 januari 2021 zijn aangebracht.
 
-Voor een lijst van alle recente veranderingen, zie [&#x200B; de versieactiviteit van de Fusie van Adobe Workfront &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
+Voor een lijst van alle recente veranderingen, zie [ de versieactiviteit van de Fusie van Adobe Workfront ](/help/workfront-fusion/fusion-product-releases/fusion-release-activity.md).
 
-Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [&#x200B; pagina van de Updates van het Onderhoud van Workfront &#x200B;](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=nl-NL) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
+Voor een lijst van recente insectenmoeilijke situaties in de Fusie van Workfront, zie de [ pagina van de Updates van het Onderhoud van Workfront ](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) en controleer om het even welke updates geëtiketteerd de Update van het Onderhoud van de Fusie van Workfront.
 
 ## Foutopsporingsscenario&#39;s met Workfront Fusion DevTool
 
 Om het voor u gemakkelijker te maken om uw scenario&#39;s te zuiveren, hebben wij een uitbreiding van Workfront Fusion 2.0 DevTool Chrome gecreeerd. Met deze uitbreiding, kunt u handlooppas van uw scenario controleren, alle uitgevoerde verrichtingen herzien, en details van elke API vraag zien. Het DevTool beschikt ook over gereedschappen waarmee u uw scenario kunt wijzigen zonder dat u modules of filters een voor een moet wijzigen.
 
-## Azure Active Directory-connector en nu beschikbare modules
+## Azure Active Directory-connector en modules nu beschikbaar
 
-U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Azure Active Directory-toepassingen. Met de Azure Actieve modules van de Folder, kunt u:
+U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Azure Active Directory-toepassingen. Met de modules van de Folder van Azure Actieve, kunt u:
 
 * Trigger een scenario wanneer een verslag wordt gecreeerd of bijgewerkt.
 * Records maken.
@@ -39,7 +38,7 @@ U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Azure Active 
 * Zoeken in records op basis van criteria die u opgeeft.
 * Voer een aangepaste API-aanroep uit.
 
-## Azure DevOps-connector en nu beschikbare modules
+## Azure DevOps-connector en -modules nu beschikbaar
 
 U kunt nu Workfront Fusion gebruiken om verbinding te maken met uw Azure DevOps-toepassingen. Met de Azure DevOps-modules kunt u:
 

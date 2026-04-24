@@ -4,7 +4,7 @@ description: Wanneer u een malplaatje creeert, wordt uw malplaatje beschikbaar v
 author: Becky
 feature: Workfront Fusion
 exl-id: 99a1227d-bff9-479f-b8b9-efcf7cea3708
-source-git-commit: 3a977d805c10fda7209b0634c6e32e818a980691
+source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
 workflow-type: tm+mt
 source-wordcount: '459'
 ht-degree: 0%
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Wanneer u een malplaatje creeert, wordt uw malplaatje beschikbaar voor al uw teamleden. Als u het malplaatje met iemand buiten uw team wilt delen, moet u het eerst publiceren.
 
-Voor informatie bij het creëren van een malplaatje, zie [&#x200B; een nieuw malplaatje &#x200B;](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md) creëren.
+Voor informatie bij het creëren van een malplaatje, zie [ een nieuw malplaatje ](/help/workfront-fusion/create-and-manage-templates/create-new-fusion-templates.md) creëren.
 
 ## Toegangsvereisten
 
@@ -42,7 +42,7 @@ Voor informatie bij het creëren van een malplaatje, zie [&#x200B; een nieuw mal
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,7 +93,8 @@ De volgende statussen zijn beschikbaar:
 * **[!UICONTROL Published]**: Deze sjabloon is alleen zichtbaar voor de sjabloonauteur en zijn team. U kunt gepubliceerde sjablonen ter goedkeuring verzenden en een deelbare koppeling kopiëren.
 * **[!UICONTROL Approved]**: Deze sjabloon is zichtbaar voor alle Workfront Fusion-gebruikers op het tabblad [!UICONTROL Public templates] . U kunt een deelbare koppeling kopiëren door op [!UICONTROL Options] in de rechterbovenhoek van het scherm te klikken.
 
-<!--You can also check the status from the [!UICONTROL Team templates] tab. If a template is published, it will have an icon to the right of the template name.
+<!--
+You can also check the status from the [!UICONTROL Team templates] tab. If a template is published, it will have an icon to the right of the template name.
 
 * **Eye icon**: The template is published, it is visible only for the team, and the approval request was not sent.
 * **Yellow checkmark icon**: The template is published, it is visible only for the team, and the approval request was sent.

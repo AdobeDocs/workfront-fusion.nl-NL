@@ -4,7 +4,7 @@ description: Met de  [!DNL Adobe Workfront Planning]  modules, kunt u een scenar
 author: Becky
 feature: Workfront Fusion
 exl-id: d1bc9e39-da49-4090-a106-14b52855bc8f
-source-git-commit: a58a6c25751eb10365508c06ab1571ce7652d0c8
+source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Met de [!DNL Adobe Workfront Planning] -modules kunt u een scenario activeren wa
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -199,10 +199,10 @@ U kunt rechtstreeks vanuit een Workfront Planning Fusion-module een verbinding m
 
 Wanneer u Workfront-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen er aanvullende Workfront-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Acties](#actions)
@@ -479,11 +479,14 @@ Deze actiemodule wint alle verslagen van het gespecificeerde type terug.
       <td role="rowheader">[!UICONTROL Record type]</td>
       <td>Selecteer het type record dat u wilt ophalen.</td>
     </tr>
-     <!--<tr>
+    <!--
+    <tr>
       <td role="rowheader">
         <p>[!UICONTROL Maximum number of returned records]</p>
       </td>
-      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td> -->
+      <td>Enter or map the maximum number of records you want the module to return during each scenario execution cycle.</td>
+    </tr>
+    -->
   </tbody>
 </table>
 
@@ -548,5 +551,5 @@ De volgende uitdrukking JSONata leidt tot een leesbare output van de vraag van d
 )
 ```
 
-Voor informatie bij het gebruiken van modules JSONata, zie [&#x200B; modules JSONata &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md).
+Voor informatie bij het gebruiken van modules JSONata, zie [ modules JSONata ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/jsonata-module.md).
 
