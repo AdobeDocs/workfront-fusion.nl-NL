@@ -4,9 +4,9 @@ description: Toewijzing is het proces om de output van een module, gestructureer
 author: Becky
 feature: Workfront Fusion
 exl-id: 1e3f7729-f48e-451e-a90b-d680c9e3bcbc
-source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
+source-git-commit: 8de3e365ff7ff91f4b29fb8a298f3b846de0a980
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ U kunt ook een formule maken met een willekeurige combinatie van functies en toe
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -44,7 +44,7 @@ U kunt ook een formule maken met een willekeurige combinatie van functies en toe
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -67,18 +67,18 @@ Uitvoeritems toewijzen aan de invoervelden van een module:
    Zoekresultaten bevatten de zoekterm en zijn niet hoofdlettergevoelig.
 1. Als u een waarde wilt selecteren die een element van een verzameling is, klikt u op de pijl naast die verzameling en selecteert u vervolgens het element wanneer dat wordt weergegeven.
 
-   ![&#x200B; element van de Inzameling &#x200B;](assets/collection-dropdown.png)
+   ![ element van de Inzameling ](assets/collection-dropdown.png)
 
 1. Klik op een item in het deelvenster Toewijzing om het in te voegen in het veld.
 
-Voor meer informatie, zie [&#x200B; een module &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
+Voor meer informatie, zie [ een module ](/help/workfront-fusion/create-scenarios/add-modules/configure-a-modules-settings.md) vormen.
 
 
 ## Problemen oplossen
 
 ### Probleem: ontbrekende items in het deelvenster Toewijzing
 
-In het deelvenster Toewijzing worden de uitvoeritems van vorige modules weergegeven. Soms ontbreken bepaalde items in dit deelvenster. U kunt de module in werking stellen die output in de scenarioredacteur mist, en het toewijzingspaneel kan die punten in recentere modules dan omvatten. De nauwkeurige procedure verschilt afhankelijk van het type van de module
+In het deelvenster Toewijzing worden de uitvoeritems van vorige modules weergegeven. Soms ontbreken bepaalde items in dit deelvenster. U kunt de module in werking stellen die output in de scenarioredacteur mist, en het toewijzingspaneel kan die punten in recentere modules dan omvatten. De nauwkeurige procedure verschilt afhankelijk van het type van de module.
 
 * [Instant trigger](#instant-trigger)
 * [Opiniepeilingtrigger](#polling-trigger)

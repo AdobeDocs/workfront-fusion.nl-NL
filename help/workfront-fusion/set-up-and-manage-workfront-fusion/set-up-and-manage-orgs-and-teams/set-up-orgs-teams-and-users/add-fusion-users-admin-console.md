@@ -8,9 +8,9 @@ description: U kunt een gebruiker toevoegen aan de Adobe Admin Console en deze t
 author: Becky
 feature: Workfront Fusion
 exl-id: 7cb1c1a7-3c7a-459a-818f-d9cefcb9988b
-source-git-commit: f7c1d5b1de74cc0c59e3a00938bed14b489500db
+source-git-commit: 6762806f17a0fc55531b647a84901b8ca572a997
 workflow-type: tm+mt
-source-wordcount: '578'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 U kunt een gebruiker aan [!DNL Adobe Admin Console] toevoegen en hen toewijzen aan Adobe Workfront Fusion, of een bestaande gebruiker in [!DNL Adobe Admin Console] toewijzen aan Workfront Fusion.
 
-Voor een video die de Fusie van Workfront in [!DNL Adobe Admin Console] beschrijft, met inbegrip van hoe te om gebruikers toe te voegen, zie [[!DNL Fusion]  op Adobe IMS &#x200B;](https://video.tv.adobe.com/v/3412464/){target=_blank}.
+Voor een video die de Fusie van Workfront in [!DNL Adobe Admin Console] beschrijft, met inbegrip van hoe te om gebruikers toe te voegen, zie [[!DNL Fusion]  op Adobe IMS ](https://video.tv.adobe.com/v/3412464/){target=_blank}.
 
 ## Toegangsvereisten
 
@@ -35,7 +35,7 @@ Voor een video die de Fusie van Workfront in [!DNL Adobe Admin Console] beschrij
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -58,7 +58,7 @@ Voor een video die de Fusie van Workfront in [!DNL Adobe Admin Console] beschrij
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -68,22 +68,22 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 Voordat u [!DNL Admin Console] for Workfront gebruikt, ontvangt u een e-mail met de uitnodiging aan de console.
 
-1. Als u [!DNL Adobe] nog niet eerder hebt gebruikt en u een e-mail hebt ontvangen waarin u wordt gemeld dat u nu beheerrechten hebt voor [!DNL Adobe] -software en -services voor uw organisatie, klikt u op de knop in de e-mail om een [!DNL Adobe] -account te maken en opent u [!DNL Admin Console] .
+* Als u [!DNL Adobe] nog niet eerder hebt gebruikt en u een e-mail hebt ontvangen waarin u wordt gemeld dat u nu beheerrechten hebt voor [!DNL Adobe] -software en -services voor uw organisatie, klikt u op de knop in de e-mail om een [!DNL Adobe] -account te maken en opent u [!DNL Admin Console] .
 
-   of
+  of
 
-   Als u reeds een rekening van Adobe hebt, ga naar de [[!DNL Adobe Admin Console]  pagina &#x200B;](https://adminconsole.adobe.com).
+  Als u reeds een rekening van Adobe hebt, ga naar de [[!DNL Adobe Admin Console]  pagina ](https://adminconsole.adobe.com).
 
 
 ## Een nieuwe gebruiker toevoegen aan [!DNL Adobe Admin Console] en Workfront Fusion
 
-1. Van de [[!DNL Adobe Admin Console]  pagina &#x200B;](https://adminconsole.adobe.com/), selecteer het **[!UICONTROL Products]** lusje in de hoogste navigatiebar, en selecteer dan de **de Fusie van Workfront** producttegel.
+1. Van de [[!DNL Adobe Admin Console]  pagina ](https://adminconsole.adobe.com/), selecteer het **[!UICONTROL Products]** lusje in de hoogste navigatiebar, en selecteer dan de **de Fusie van Workfront** producttegel.
 
-   ![&#x200B; Fusie in Admin Console &#x200B;](assets/fusion-product-admin-console.png)
+   ![ Fusie in Admin Console ](assets/fusion-product-admin-console.png)
 
 1. Selecteer in de lijst die wordt weergegeven de organisatie waaraan u een gebruiker wilt toevoegen.
 
-   ![&#x200B; instantie van de Fusie in Admin Console &#x200B;](assets/fusion-instances-admin-console.png)
+   ![ instantie van de Fusie in Admin Console ](assets/fusion-instances-admin-console.png)
 
 1. Klik in de lijst die wordt weergegeven met het tabblad **[!UICONTROL Product Profiles]** geselecteerd op de naam van de Workfront Fusion [!UICONTROL Product Profile] -koppeling.
 
@@ -95,11 +95,11 @@ Voordat u [!DNL Admin Console] for Workfront gebruikt, ontvangt u een e-mail met
 
 1. Voer in het vak **[!UICONTROL Add users to this product profile]** het e-mailadres of de naam in van de gebruiker die u wilt toevoegen en selecteer vervolgens de gebruiker in de lijst die wordt weergegeven.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
    De gebruiker wordt gemaakt in Workfront Fusion.
 
-1. (Optioneel) Ga door met [&#x200B; Toegangsniveau van een gebruiker wijzigen in Workfront Fusion &#x200B;](#change-a-users-access-level-in-workfront-fusion)
+1. (Optioneel) Ga door met [ Wijzig het toegangsniveau van een gebruiker in Workfront Fusion ](#change-a-users-access-level-in-workfront-fusion) .
 
 ## Het toegangsniveau van een gebruiker wijzigen in Workfront Fusion
 
@@ -110,13 +110,13 @@ Voordat u [!DNL Admin Console] for Workfront gebruikt, ontvangt u een e-mail met
 
 Het geven van een gebruiker een Admin rol moet in [!DNL Adobe Admin Console] worden gedaan.
 
-1. Selecteer de tab [!UICONTROL Product Profile] op de Workfront Fusion **[!UICONTROL Admins]** -pagina waar u de gebruiker hebt toegevoegd.
+1. Selecteer de tab **[!UICONTROL Admins]** op de Workfront Fusion [!UICONTROL Product Profile] -pagina waar u de gebruiker hebt toegevoegd.
 
-1. Klik op **[!UICONTROL Add Admin]**.
+1. Klik op **[!UICONTROL Add Admin]** .
 
 1. Voer in het vak **[!UICONTROL Add product profile administrators]** het e-mailadres of de naam in van de gebruiker die u als beheerder wilt instellen en selecteer vervolgens de gebruiker in de lijst die wordt weergegeven.
 
-1. Klik op **[!UICONTROL Save]**.
+1. Klik op **[!UICONTROL Save]** .
 
    De gebruiker is nu Beheerder in Workfront Fusion.
 
@@ -124,10 +124,10 @@ Het geven van een gebruiker een Admin rol moet in [!DNL Adobe Admin Console] wor
 
 De rollen Lid, Accountant, en App Developer worden behandeld binnen Workfront Fusion.
 
-Voor instructies, zie [&#x200B; Mening of geef gebruikersrollen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.md) uit.
+Voor instructies, zie [ Mening of geef gebruikersrollen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/view-or-edit-user-roles.md) uit.
 
 ## Bestaande gebruikers in de [!DNL Adobe Admin Console] toewijzen aan Workfront Fusion
 
 U kunt een bestaande gebruiker aan een team in Fusion toevoegen. Dit wordt afgehandeld in Fusion.
 
-Voor instructies, zie [&#x200B; een gebruiker aan een team &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md) toevoegen.
+Voor instructies, zie [ een gebruiker aan een team ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/add-a-user-to-a-team.md) toevoegen.

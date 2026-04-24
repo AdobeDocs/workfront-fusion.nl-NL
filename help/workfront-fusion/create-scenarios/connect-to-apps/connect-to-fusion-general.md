@@ -4,9 +4,9 @@ description: Veel Adobe Workfront Fusion-connectors hebben geen aangepaste confi
 author: Becky
 feature: Workfront Fusion
 exl-id: e47ab4d9-6612-4d9a-a024-da508a8bbfb2
-source-git-commit: b2ca63ca5af26ee79758798118817b55113b3bd0
+source-git-commit: bbd1ec27e52127c8814188612a1e8d5cfab0cd25
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,8 @@ Veel Adobe Workfront Fusion-connectors hebben geen aangepaste configuratie nodig
 >
 >Als Adobe Workfront Fusion geen app aanbiedt voor de webservice die u in uw scenario wilt gebruiken, kunt u verbinding maken met de webservice met de Workfront Fusion HTTP- en Webhooks-modules, zoals in de volgende artikelen wordt uitgelegd:
 >
->* [&#x200B; verbind de Fusie van Adobe Workfront met de Webdienst die API tokenvergunning gebruikt &#x200B;](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-wf-web-service-uses-api-token-auth.md)
->* [&#x200B; vorm een webhaak voor een Webdienst zonder een schakelaar &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.md)
+>* [ verbind de Fusie van Adobe Workfront met de Webdienst die API tokenvergunning gebruikt ](/help/workfront-fusion/create-scenarios/connect-to-apps/connect-wf-web-service-uses-api-token-auth.md)
+>* [ vorm een webhaak voor een Webdienst zonder een schakelaar ](/help/workfront-fusion/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.md)
 
 ## Toegangsvereisten
 
@@ -37,7 +37,7 @@ Veel Adobe Workfront Fusion-connectors hebben geen aangepaste configuratie nodig
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
@@ -55,9 +55,9 @@ Veel Adobe Workfront Fusion-connectors hebben geen aangepaste configuratie nodig
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -73,9 +73,9 @@ Verbinding maken in een Workfront Fusion-module:
 1. Selecteer in het veld Type of dit een service of een persoonlijke account is.
 1. (Voorwaardelijk) Als de toepassing geavanceerde verbindingsinstellingen nodig heeft, zoals een id, sleutel of [!UICONTROL secret] , voert u die gegevens in.
 
-   U moet mogelijk op **[!UICONTROL Show advanced settings]** klikken om de velden weer te geven waarin u dit soort informatie kunt invoeren.
+   Mogelijk moet u op **[!UICONTROL Show advanced settings]** klikken om de velden weer te geven waarin u dit soort informatie kunt invoeren.
 
-1. Klik op **[!UICONTROL Continue]**.
+1. Klik op **[!UICONTROL Continue]** .
 1. Voer in het aanmeldingsvenster dat wordt weergegeven uw aanmeldingsgegevens in om u aan te melden bij de app als u dat nog niet hebt gedaan.
 1. (Voorwaardelijk) Als een knop **[!UICONTROL Allow]** wordt weergegeven, controleert u de acties die de aansluiting kan uitvoeren en klikt u op de knop om de toepassing te verbinden met Workfront Fusion.
 

@@ -4,9 +4,9 @@ description: U kunt scenario's samen ketenen, toestaand één scenario om een an
 author: Becky
 feature: Workfront Fusion
 exl-id: def8d4c1-fc20-4b93-b1fd-be2f60300464
-source-git-commit: 34f24f26675fbdf0dd84223cbe8e2d1c3b1aa8cf
+source-git-commit: 0390bb875eb10278967d7d1c9cd61e5243e5f37e
 workflow-type: tm+mt
-source-wordcount: '1267'
+source-wordcount: '1266'
 ht-degree: 0%
 
 ---
@@ -23,9 +23,9 @@ U kunt veelvoudige kindscenario&#39;s van een ouderscenario roepen, en u kunt ee
 
 Wanneer een ouderscenario op een kindscenario wacht om gegevens terug te keren, telt die tijd niet tegen de onderbreking van het ouderscenario. Bijvoorbeeld, roept een ouderscenario 5 kindscenario&#39;s, elk waarvan 10 minuten om vergt te lopen, voor een totaal van 50 minuten. De modules in het ouderscenario zelf vergen 15 minuten om te lopen. Het bovenliggende scenario heeft geen time-out, ook al is er in totaal 65 minuten verstreken, wat meer is dan de time-outlimiet van 40 minuten.
 
-Voor meer informatie over de prestatiesbegeleiding van Fusion, met inbegrip van onderbrekingen, zie [&#x200B; de prestatiesgidsen van de Fusie &#x200B;](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md).
+Voor meer informatie over de prestatiesbegeleiding van Fusion, met inbegrip van onderbrekingen, zie [ de prestatiesgidsen van de Fusie ](/help/workfront-fusion/references/scenarios/fusion-performance-guardrails.md).
 
-Voor instructies bij het vormen van de modules van de Keten, zie [&#x200B; modules van de Keten &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
+Voor instructies bij het vormen van de modules van de Keten, zie [ modules van de Keten ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
 
 ## Bovenliggende en onderliggende scenario&#39;s
 
@@ -38,9 +38,9 @@ Het ouderscenario vereist een reactie van het kindscenario. De scenario&#39;s va
 
 Workfront Fusion gebruikt gegevensstructuren om informatie van het ouderscenario naar het kindscenario over te brengen. De gegevensstructuur wordt gevormd in het kindscenario. Wanneer het kindscenario van het ouderscenario wordt geselecteerd, verschijnen de gebieden voor de gegevensstructuur die als input van het kindscenario wordt gebruikt in het ouderscenario. U kunt waarden toewijzen aan deze velden, die worden doorgegeven aan het onderliggende scenario wanneer dit wordt geactiveerd.
 
-Voor informatie over de modules om in de ouder en kindscenario&#39;s te vormen, zie [&#x200B; modules van de Keten &#x200B;](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
+Voor informatie over de modules om in de ouder en kindscenario&#39;s te vormen, zie [ modules van de Keten ](/help/workfront-fusion/references/apps-and-modules/tools-and-transformers/chain-modules.md).
 
-Voor informatie over gegevensstructuren, zie [&#x200B; structuren van Gegevens &#x200B;](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
+Voor informatie over gegevensstructuren, zie [ structuren van Gegevens ](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md).
 
 ## Gegevensstroom
 
@@ -60,7 +60,7 @@ Overweeg de volgende voorbeelden gebruiksgevallen voor het ketenen van scenario&
 
 * **Fout die** behandelt: Het is gemeenschappelijk voor organisaties om de zelfde fout behandelende acties over veelvoudige scenario&#39;s, zoals een fout behandelende route te hebben die een foutenlogboek naar een gegevensopslag verzendt en tot een slack bericht leidt. U kunt een kindscenario met deze acties en ketting tot stand brengen dat scenario in fout behandelende routes in veelvoudige scenario&#39;s.
 
-* **Uitbreidende tijd**: U kunt het ketenen voor grote partijverrichtingen met lange lopende acties, zoals gebruiken wanneer u om dossiers uit te voeren en in te voeren. Deze bewerking duurt even als er veel bestanden zijn. Omdat de kindscenario&#39;s niet tegen de onderbreking van het ouderscenario tellen, kunt u uitvoeringstijd overschrijden door veelvoudige kindscenario&#39;s te gebruiken om de dossiers uit te voeren of in te voeren.
+* **Uitbreidende tijd**: U kunt het ketenen voor grote partijverrichtingen met lange lopende acties, zoals gebruiken wanneer u uitvoert en dossiers invoert. Deze bewerking duurt even als er veel bestanden zijn. Omdat de kindscenario&#39;s niet tegen de onderbreking van het ouderscenario tellen, kunt u uitvoeringstijd overschrijden door veelvoudige kindscenario&#39;s te gebruiken om de dossiers uit te voeren of in te voeren.
 
 * **die iterators** vervangt iterators met kindscenario&#39;s kan geheugengebruik, zoals in complexe verrichtingen in een herhaling verminderen die uit de fout van het Geheugen veroorzaakt. U kunt een afzonderlijk scenario voor de complexe verrichting tot stand brengen en de iterator met Vraag een module van het kindscenario vervangen
 
@@ -72,7 +72,7 @@ U kunt uitvoeringshistorie voor geketende scenario&#39;s bekijken door de geschi
 
 Wij adviseren gebruikend **ga naar de knoop van het kindscenario** in Vraag een module van het kindscenario om snel naar het kindscenario te gaan, waar u zijn uitvoeringsgeschiedenis kunt bekijken. Het kindscenario opent in een ander browser venster, dat u toestaat om ouder en kindscenario&#39;s tezelfdertijd te zien.
 
-![&#x200B; ga naar de knoop van het kindscenario &#x200B;](assets/go-to-the-child-button.png)
+![ ga naar de knoop van het kindscenario ](assets/go-to-the-child-button.png)
 
 ## Fouten en onvolledige uitvoering
 
@@ -103,7 +103,7 @@ Wanneer het ketenen van scenario&#39;s, volg deze praktijken om recursie te verm
 >* **wanneer een scenario recursie veroorzaakt, wordt het gedeactiveerd door het technische team van de Fusie om verdere prestatieskwesties te verhinderen.**
 >* Omdat de recursie een resultaat van scenario ontwerp is, moet u uw scenario&#39;s op een manier ontwerpen die ervoor zorgt dat het scenario geen acties omvat die het scenario teweegbrengen.
 >* U kunt een diagram van het verband tussen ouder en kindscenario&#39;s bekijken.
->   Voor instructies, zie [&#x200B; Mening geketende scenario verhoudingen &#x200B;](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md).
+>   Voor instructies, zie [ Mening geketende scenario verhoudingen ](/help/workfront-fusion/manage-scenarios/view-chained-scenario-relationships.md).
 
 ### Foutafhandeling gebruiken om een reactie te garanderen
 

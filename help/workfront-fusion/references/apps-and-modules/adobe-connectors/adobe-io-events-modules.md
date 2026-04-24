@@ -4,9 +4,9 @@ description: Met de Adobe I/O Events-modules kunt u een Adobe Workfront Fusion-s
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: b2229f3e-a2a7-4b07-8ead-a37d193c2ec7
-source-git-commit: 72abd9b5aa73d54edd73dc16f7695d2b01cc8624
+source-git-commit: bbd1ec27e52127c8814188612a1e8d5cfab0cd25
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1045'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Met de Adobe I/O Events-modules kunt u een Adobe Workfront Fusion-scenario start
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
@@ -47,9 +47,9 @@ Met de Adobe I/O Events-modules kunt u een Adobe Workfront Fusion-scenario start
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -152,17 +152,15 @@ Verbinding maken voor uw Adobe I/O Events-modules:
 
 Wanneer u [!DNL Adobe I/O Events] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende [!DNL Adobe I/O Events] -velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Triggers](#triggers)
 * [Acties](#actions)
 * [Zoekopdrachten](#searches)
 
 ### Triggers
-
-<!--Becky start here-->
 
 #### Een gebeurtenisregistratie maken
 
@@ -183,7 +181,7 @@ Een webhaak maken:
        </tr>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Zie [!DNL Adobe I/O Events] Verbinding maken met <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events]</a> .</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -229,7 +227,7 @@ Deze zoekmodule haalt de Adobe I/O Events-id&#39;s voor de opgegeven provider en
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Zie [!DNL Adobe I/O Events] Verbinding maken met <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events]</a> .</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -261,7 +259,7 @@ Deze actiemodule maakt een aangepaste API-aanroep naar de [!DNL Adobe I/O Events
   <tbody>
     <tr>
      <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Zie [!DNL Adobe I/O Events] Verbinding maken met <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events]</a> .</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -314,7 +312,7 @@ Deze zoekmodule haalt alle gebeurtenissen voor een registratie uit een journaal 
      <tbody>
        <tr>
          <td role="rowheader">[!UICONTROL Connection]</td>
-        <td>Zie [!DNL Adobe I/O Events] Verbinding maken met <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events]</a> .</td>
+        <td>Zie <a href="#create-a-connection-to-adobe-io-events" class="MCXref xref" > Verbinding maken met [!DNL Adobe I/O Events]</a> in dit artikel voor instructies over het maken van een verbinding met [!DNL Adobe I/O Events] .</td>
        </tr>
        <tr>
          <td role="rowheader">
@@ -358,7 +356,6 @@ Deze zoekmodule haalt alle gebeurtenissen voor een registratie uit een journaal 
        </tr>
      </tbody>
    </table>
-&lt;!—
 
 Gebeurtenissen bekijken
 

@@ -6,9 +6,9 @@ author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: aa570f28-7387-47c5-9968-e3554921b0f5
-source-git-commit: f7c1d5b1de74cc0c59e3a00938bed14b489500db
+source-git-commit: 6762806f17a0fc55531b647a84901b8ca572a997
 workflow-type: tm+mt
-source-wordcount: '479'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ U kunt een gebruiker alleen uit Adobe Workfront Fusion verwijderen en toegang to
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -48,7 +48,7 @@ U kunt een gebruiker alleen uit Adobe Workfront Fusion verwijderen en toegang to
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -56,7 +56,7 @@ Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van d
 
 U kunt een gebruiker uit Workfront Fusion verwijderen terwijl de andere Adobe-productmachtigingen intact blijven.
 
-Voor instructies, zie &quot;verwijder gebruikers en gebruikersgroepen uit een product&quot;in artikel [&#x200B; producten op Admin Console &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-products.html) leiden.
+Voor instructies, zie &quot;verwijder gebruikers en gebruikersgroepen uit een product&quot;in artikel [ producten op Admin Console ](https://helpx.adobe.com/enterprise/using/manage-products.html) leiden.
 
 ## Een gebruiker deactiveren in alle producten in de [!DNL Adobe Admin Console]
 
@@ -69,13 +69,12 @@ Een gebruiker wordt gedeactiveerd vanuit [!DNL Adobe Admin Console] wanneer een 
 * De gebruiker wordt verwijderd uit een productprofiel en niet toegewezen aan een ander productprofiel.
 * De gebruiker wordt verwijderd of gedeactiveerd in de organisatie die Workfront Fusion bevat.
 
-  Voor instructies, zie de sectie &quot;verwijder gebruikers&quot;in [&#x200B; individuele gebruikers beheren &#x200B;](https://helpx.adobe.com/nl/enterprise/using/manage-users-individually.html).
+  Voor instructies, zie de sectie &quot;verwijder gebruikers&quot;in [ individuele gebruikers beheren ](https://helpx.adobe.com/enterprise/using/manage-users-individually.html).
 
 In Workfront Fusion heeft de deactivering op een van de volgende manieren invloed op de gebruiker:
 
 * Als de gebruiker zich in slechts één organisatie bevindt, wordt de gebruiker gedeactiveerd.
 * Als de gebruiker in meer dan één organisatie is, wordt de gebruiker verwijderd uit de organisatie waarin de gebruiker op [!DNL Adobe Admin Console] werd gewijzigd.
-* Houd rekening met het volgende wanneer u een gebruiker verwijdert.
 
 ### Overwegingen bij het verwijderen van een gebruiker in Workfront Fusion
 

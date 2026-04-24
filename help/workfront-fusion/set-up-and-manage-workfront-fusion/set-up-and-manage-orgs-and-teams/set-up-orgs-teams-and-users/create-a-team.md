@@ -4,10 +4,10 @@ description: De teams zijn kleinere groepen binnen de organisatie, en delen de m
 author: Becky
 feature: Workfront Fusion
 exl-id: 511b5a9c-0b7f-4003-ad86-4bbe630674e0
-source-git-commit: f7c1d5b1de74cc0c59e3a00938bed14b489500db
+source-git-commit: 0390bb875eb10278967d7d1c9cd61e5243e5f37e
 workflow-type: tm+mt
 source-wordcount: '348'
-ht-degree: 2%
+ht-degree: 0%
 
 ---
 
@@ -35,7 +35,7 @@ Organisaties kunnen zo veel teams hebben als ze nodig hebben en gebruikers kunne
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -53,7 +53,7 @@ Organisaties kunnen zo veel teams hebben als ze nodig hebben en gebruikers kunne
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -63,18 +63,18 @@ Eigenaars en beheerders van organisaties kunnen teams maken. De teams worden gec
 
 Een team maken:
 
-1. Klik in het navigatievenster links op **[!UICONTROL Org overview]**
-1. Selecteer het tabblad **[!UICONTROL Teams]**. 
-1. Klik op **[!UICONTROL Add a new team]**.
-   ![&#x200B; creeer een team &#x200B;](assets/create-new-team-button.png)
+1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Org overview]** .
+1. Selecteer de tab **[!UICONTROL Teams]** .
+1. Klik op **[!UICONTROL Add a new team]** .
+   ![ creeer een team ](assets/create-new-team-button.png)
 1. Ga een naam voor het nieuwe team in, en klik **toevoegen**.
 
 ## Een team bewerken
 
 U kunt de naam van een team bewerken.
 
-1. Klik in het navigatievenster links op **[!UICONTROL Org overview]**
-1. Selecteer het tabblad **[!UICONTROL Teams]**. 
+1. Klik in het navigatievenster aan de linkerkant op **[!UICONTROL Org overview]** .
+1. Selecteer de tab **[!UICONTROL Teams]** .
 1. Bepaal de plaats van het team dat u de naam van wilt uitgeven, dan klik **uitgeven** in de lijn voor dat team.
 1. Ga een nieuwe naam voor het team in, dan klik **sparen**.
 
