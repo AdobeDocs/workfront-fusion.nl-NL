@@ -40,7 +40,7 @@ De Adobe Workfront Fusion [!UICONTROL JSON] -app biedt modules voor het verwerke
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -48,7 +48,7 @@ Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegan
 
 ## Overwegingen bij het parseren van JSON
 
-* [ de structuur van Gegevens ](#data-structure)
+* [&#x200B; de structuur van Gegevens &#x200B;](#data-structure)
 * [Verzameling versus array](#collection-vs-array)
 
 ### Gegevensstructuur
@@ -61,7 +61,7 @@ De gegevensstructuur beschrijft hoe de JSON-gegevens zijn georganiseerd en maakt
 1. Voer het scenario handmatig uit. Hierdoor kan de module [!UICONTROL Parse JSON] de JSON-structuur identificeren vanuit de JSON die u hebt opgegeven.
 1. U kunt nu de volgende modules verbinden. De punten van de Parse JSON module zijn nu beschikbaar voor afbeelding.
 
-Zie [ Gegevensstructuren in [!UICONTROL Adobe Workfront Fusion]](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md) voor meer informatie.
+Zie [&#x200B; Gegevensstructuren in [!UICONTROL Adobe Workfront Fusion]](/help/workfront-fusion/references/mapping-panel/data-types/data-structures.md) voor meer informatie.
 
 ### Verzameling versus array
 
@@ -79,7 +79,7 @@ Als het JSON-tekenreeksveld een verzameling `{ ... }` bevat, bestaat de uitvoer 
 ```
 
 
-![ inzameling JSON ](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
+![&#x200B; inzameling JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/json-collection.png)
 
 >[!ENDSHADEBOX]
 
@@ -103,7 +103,7 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 ]
 ```
 
-![ serie JSON ](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
+![&#x200B; serie JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/json-array.png)
 
 >[!ENDSHADEBOX]
 
@@ -111,13 +111,13 @@ Als het JSON-tekenreeksveld een array `[ ... ]` bevat, bestaat de uitvoer uit ee
 
 Wanneer u [!DNL JSON] modules configureert, geeft Workfront Fusion de onderstaande velden weer. Daarnaast kunnen aanvullende JSON-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
-* [ zet JSON in XML ](#convert-json-to-xml) om
-* [ ontleed JSON ](#parse-json)
-* [ creeer JSON ](#create-json)
+* [&#x200B; zet JSON in XML &#x200B;](#convert-json-to-xml) om
+* [&#x200B; ontleed JSON &#x200B;](#parse-json)
+* [&#x200B; creeer JSON &#x200B;](#create-json)
 * [Transform JSON](#transform-json)
 
 ### Samenvoegapparatuur
@@ -155,9 +155,9 @@ Deze aggregatormodule aggregeert de uitvoer van een vorige module naar JSON.
 
 ### Transformatoren
 
-* [ zet JSON in XML ](#convert-json-to-xml) om
-* [ creeer JSON ](#create-json)
-* [ ontleed JSON ](#parse-json)
+* [&#x200B; zet JSON in XML &#x200B;](#convert-json-to-xml) om
+* [&#x200B; creeer JSON &#x200B;](#create-json)
+* [&#x200B; ontleed JSON &#x200B;](#parse-json)
 * [Transform JSON](#transform-json)
 
 #### [!UICONTROL Convert JSON to XML]
@@ -281,7 +281,7 @@ Deze actiemodule transformeert een object naar een json-tekenreeks.
 
 ### Kan geen gegevens toewijzen uit de module [!UICONTROL Parse JSON]
 
-Controleer of de JSON-inhoud correct is toegewezen aan de module [!UICONTROL Parse JSON] en of de gegevensstructuur correct is gedefinieerd. Voor meer informatie, zie [ het Transformeren gegevensverslagen aan JSON ](#transforming-data-records-to-json) in dit artikel.
+Controleer of de JSON-inhoud correct is toegewezen aan de module [!UICONTROL Parse JSON] en of de gegevensstructuur correct is gedefinieerd. Voor meer informatie, zie [&#x200B; het Transformeren gegevensverslagen aan JSON &#x200B;](#transforming-data-records-to-json) in dit artikel.
 
 ### De module mislukt wanneer voorwaardelijke instructies in JSON worden gebruikt
 
@@ -291,6 +291,6 @@ Wanneer u voorwaardelijke instructies gebruikt, zoals `if` in uw JSON, plaatst u
 
 **Voorbeeld:**
 
-![ Citaten in JSON ](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
+![&#x200B; Citaten in JSON &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/quotes-in-json-350x120.png)
 
 >[!ENDSHADEBOX]
