@@ -4,8 +4,9 @@ description: De module ModelContextProtocol (MCP) staat u toe om een gebruikersh
 author: Becky
 feature: Workfront Fusion
 hide: true
+hidefromtoc: true
 exl-id: 748055ad-d305-4513-9a5c-9c970b74a96e
-source-git-commit: 80f2d078cd624424f23bd007e852f49643fec7f3
+source-git-commit: 0e8f73afb2ab60bb1b601abf3c4f3d611e97d125
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -22,7 +23,7 @@ U kunt bijvoorbeeld een MCP-server configureren om een AI-model te verbinden met
 
 De module ModelContextProtocol (MCP) staat u toe om een gebruikersherinnering te verwerken gebruikend een taalmodel en servers MCP.
 
-Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [&#x200B; een AI herinnering aan uw scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md) toevoegen.
+Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [ een AI herinnering aan uw scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -38,7 +39,7 @@ Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [&#x200B; e
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Product</td> 
@@ -49,7 +50,7 @@ Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [&#x200B; e
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
