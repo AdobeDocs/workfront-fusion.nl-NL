@@ -4,9 +4,9 @@ description: In een Adobe Workfront Fusion-scenario kunt u workflows automatiser
 author: Becky
 feature: Workfront Fusion
 exl-id: 2ef967b6-0a69-4801-8574-5f17c9ce991d
-source-git-commit: 323e7d10795991bbcb6c1439db0af90e4331e687
+source-git-commit: d64d894cfb0e1905c135cdf5ea39f11cd7a6e5f2
 workflow-type: tm+mt
-source-wordcount: '3681'
+source-wordcount: '4123'
 ht-degree: 0%
 
 ---
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 In een Adobe Workfront Fusion-scenario kunt u workflows automatiseren die Veeva Vault gebruiken en deze aansluiten op meerdere toepassingen en services van derden.
 
-Voor instructies bij het creëren van een scenario, zie de artikelen onder [&#x200B; scenario&#39;s creëren: artikelindex &#x200B;](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md).
+Voor instructies bij het creëren van een scenario, zie de artikelen onder [ scenario&#39;s creëren: artikelindex ](/help/workfront-fusion/create-scenarios/create-scenarios-toc.md) .
 
-Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikelindex &#x200B;](/help/workfront-fusion/references/modules/modules-toc.md).
+Voor informatie over modules, zie de artikelen onder [ Modules: artikelindex ](/help/workfront-fusion/references/modules/modules-toc.md) .
 
 ## Toegangsvereisten
 
@@ -33,13 +33,13 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Adobe Workfront-licenties</td> 
-   <td> <p>Standard</p><p>Werk of hoger</p> </td> 
+   <td> <p>Standaard</p><p>Werk of hoger</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront Fusion-licentie</td> 
    <td>
-   <p>Exploitatie gebaseerd: geen Workfront Fusion-licentievereisten</p>
-   <p>Connectorgebaseerde (verouderde): Workfront Fusion for Work Automation and Integration </p>
+   <p>Op bedrijfsbasis: Geen Workfront Fusion-licentievereiste</p>
+   <p>Op aansluiting gebaseerd (verouderd): Workfront Fusion for Work Automation and Integration </p>
    </td> 
   </tr> 
   <tr> 
@@ -51,9 +51,9 @@ Voor informatie over modules, zie de artikelen onder [&#x200B; Modules: artikeli
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
-Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [&#x200B; de Fusie van Adobe Workfront vergunningen &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
+Voor informatie over de vergunningen van de Fusie van Adobe Workfront, zie [ de Fusie van Adobe Workfront vergunningen ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md).
 
 +++
 
@@ -176,12 +176,15 @@ Wanneer u een verbinding maakt, kunt u opgeven of u een wachtwoord wilt gebruike
 
 Wanneer u Veeva Vault-modules configureert, geeft Workfront Fusion de onderstaande velden weer. Naast deze opties kunnen extra Vève Vault-velden worden weergegeven, afhankelijk van factoren zoals uw toegangsniveau in de app of service. Een bolde titel in een module wijst op een vereist gebied.
 
-Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [&#x200B; informatie van de Kaart van één module aan een andere &#x200B;](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
+Als u de kaartknoop boven een gebied of een functie ziet, kunt u het gebruiken om variabelen en functies voor dat gebied te plaatsen. Voor meer informatie, zie [ informatie van de Kaart van één module aan een andere ](/help/workfront-fusion/create-scenarios/map-data/map-data-from-one-to-another.md).
 
-![&#x200B; Kaart knevel &#x200B;](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
+![ Kaart knevel ](/help/workfront-fusion/references/apps-and-modules/assets/map-toggle-350x74.png)
 
 * [Document](#document)
 * [Object](#object)
+* [Extraheren van meerdere bestanden](#multi-file-extract)
+* [Meerdere bestanden laden](#multi-file-load)
+* [Bestanden stapelen](#file-staging)
 * [Overige](#other)
 
 ### Document
@@ -581,7 +584,7 @@ Deze module exporteert documenten die u opgeeft, zoals bronnen, uitvoeringen en 
    <td> <p>Selecteer of u een document, binder of sjabloon wilt verwijderen.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Bron</p> </td> 
+   <td role="rowheader"><p>Source</p> </td> 
    <td> <p>Schakel deze optie in om bronbestanden op te nemen in het exporteren.</p></td> 
   </tr> 
   <tr> 
@@ -995,6 +998,148 @@ In deze module wordt één objectrecord gemaakt, gekopieerd of gekleurd.
  </tbody> 
 </table>
 
+### Extraheren van meerdere bestanden
+
+* [Meerdere bestanden extraheren](#extract-multiple-files)
+* [Extractieresultaten ophalen](#retrieve-extract-results)
+
+#### Meerdere bestanden extraheren
+
+Deze actiemodule maakt een loader-taak om een of meer gegevensbestanden te extraheren.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Gegevensbestanden</td> 
+   <td>Voor elk dossier dat u wilt halen, <b> toevoegen punt </b> en ga het volgende in:
+   <ul>
+   <li>Objecttype</li>
+   <li>VQL-criteria (optioneel): Als u de gegevensset wilt filteren zodat alleen bestanden worden opgenomen die aan specifieke criteria voldoen, voert u de criteria in de vaultquery Lanugage (VQL) in.</li>
+   </ul>
+    </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Extractieresultaten ophalen
+
+Deze actiemodule wint resultaten van een gespecificeerd extractieverzoek terug.
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Taak-id</p> </td> 
+   <td> <p>Voer de taak in of wijs de taak toe waarvoor u de resultaten wilt ophalen. U kunt dit toewijzen in de module Gegevensbestanden extraheren.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Taak-id</td> 
+   <td> <p>Voer de taak in of wijs de taak toe waarvoor u resultaten wilt ophalen. U kunt dit toewijzen in de module Gegevensbestanden extraheren.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Meerdere bestanden laden
+
+* [Meerdere bestanden laden](#load-multiple-files)
+* [Logresultaten ophalen](#retrieve-log-results)
+
+#### Meerdere bestanden laden
+
+Deze module maakt een loader-taak en laadt een set gegevensbestanden.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Bestand</td> 
+   <td>Voer het bestandspad in of wijs het toe aan het CSV-bestand dat deze taak zal gebruiken.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Volgorde</td> 
+   <td>Voer de volgorde voor de bestandenlijst in of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Geen triggers</td> 
+   <td>Selecteer Ja om de triggers voor records of documenten te omzeilen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
+#### Logresultaten ophalen
+
+Deze actiemodule haalt een logboek van de resultaten van de lader baan op.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader"> <p>Taak-id</p> </td> 
+   <td> <p>Voer de taak in of wijs de taak toe waarvoor u de resultaten wilt ophalen. U kunt dit toewijzen via de module Gegevensbestanden laden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Taak-id</td> 
+   <td> <p>Voer de taak in of wijs de taak toe waarvoor u resultaten wilt ophalen. U kunt dit toewijzen via de module Gegevensbestanden laden.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Type</td> 
+   <td> <p>Selecteer of u geslaagde of mislukte taken wilt ophalen.</p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Bestanden stapelen
+
+#### Items op pad weergeven
+
+Deze module retourneert een lijst met bestanden en mappen voor het opgegeven pad.
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Verbinding </td> 
+   <td> <p>Voor instructies over het aansluiten van uw Veva Vault rekening aan Workfront Fusion, zie <a href="#connect-veeva-vault-to-workfront-fusion" class="MCXref xref"> Connect Veva Vault aan Workfront Fusion </a> in dit artikel.</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Uw thuismap kiezen</td> 
+   <td>Selecteer de thuismap waarvan u items wilt weergeven.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Volgorde</td> 
+   <td>Voer de volgorde voor de bestandenlijst in of wijs deze toe.</td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Geen triggers</td> 
+   <td>Selecteer Ja om de triggers voor records of documenten te omzeilen.</td> 
+  </tr> 
+ </tbody> 
+</table>
+
 ### Overige
 
 * [Een aangepaste API-aanroep maken](#make-a-custom-api-call)
@@ -1015,7 +1160,7 @@ Deze actiemodule maakt een aangepaste aanroep naar de Veva Vault-API.
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td>Voer een pad in dat relatief is ten opzichte van <code>baseurl/api/v</code> .  Bijvoorbeeld: <code>/objects/documents</code> . Neem <code>baseurl/api/v/</code> niet op, omdat het al is opgenomen.</td> 
+   <td>Voer een pad in dat relatief is ten opzichte van <code>baseurl/api/v</code> .  Bijvoorbeeld: <code>/objects/documents</code>. Neem <code>baseurl/api/v/</code> niet op, omdat het al is opgenomen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Methode</td> 
