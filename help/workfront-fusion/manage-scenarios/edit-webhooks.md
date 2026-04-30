@@ -46,9 +46,9 @@ U kunt webhaken bewerken vanuit een scenario of vanuit de lijst Webhooks.
 
 ### Webhaak bewerken in de lijst Webhaken
 
-1. In de linkernavigatie, uitgezochte **Webhooks** ![ pictogram Webhooks ](assets/webhooks-icon.png).
+1. In de linkernavigatie, uitgezochte **Webhooks** ![&#x200B; pictogram Webhooks &#x200B;](assets/webhooks-icon.png).
 1. Klik op het selectievakje naast de webhaak die u wilt bewerken.
-1. In de blauwe banner bij de bodem van het scherm, geeft de klik **** uit.
+1. In de blauwe banner bij de bodem van het scherm, geeft de klik **&#x200B;**&#x200B;uit.
 1. Breng de gewenste wijzigingen in de webhaak aan.
 1. Klik **sparen** om Webhaak te bewaren en aan de lijst van Webhaken terug te keren.
 
