@@ -2,9 +2,9 @@
 user-guide-title: Adobe Workfront Fusion-documentatie
 breadcrumb-title: Adobe Workfront Fusion
 user-guide-description: Gebruik de documenten, zelfstudies en aanvullende bronnen voor informatie over het implementeren en effectief gebruiken van Adobe Workfront Fusion in uw organisatie.
-source-git-commit: 97545ffb73017e147b73c32776ca890761c0f235
+source-git-commit: b13664750da1280aa2d6ac3c419271ea18cbe9fc
 workflow-type: tm+mt
-source-wordcount: '2356'
+source-wordcount: '2358'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 0%
    * Fusion-releases - 2026 {#fusion-releases-2026}
       * [Workfront Fusion-releaseactiviteit: Week van 27 april 2026](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-4-27.md)
       * [Workfront Fusion-releaseactiviteit: Week van 13 april 2026](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-4-13.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 30 maart 2026 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-30.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 23 maart 2026 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-23.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 16 maart 2026 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-16.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 30 maart 2026 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-30.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 23 maart 2026 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-23.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 16 maart 2026 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-16.md)
       * [Workfront Fusion-releaseactiviteit: Week van 9 maart 2026](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-9.md)
       * [Workfront Fusion-releaseactiviteit: 2 maart 2026](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-3-2.md)
       * [Workfront Fusion-releaseactiviteit: Week van 23 februari 2026](/help/workfront-fusion/fusion-product-releases/fusion-releases-2026/fusion-2026-2-23.md)
@@ -112,51 +112,51 @@ ht-degree: 0%
       * [Workfront Fusion-releaseactiviteit: Week van 17 oktober 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-oct-17-22.md)
       * [Workfront Fusion-releaseactiviteit: Week van 3 oktober 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-oct-3-22.md)
       * [Workfront Fusion-releaseactiviteit: Week van 26 september 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-sept-26-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 19 september 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-sept-19-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 11 juli 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-july-11-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 27 juni 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-jun-27-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 20 juni 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-jun-20-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 16 mei 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-may-16-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 19 september 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-sept-19-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 11 juli 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-july-11-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 27 juni 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-jun-27-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 20 juni 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-jun-20-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 16 mei 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-may-16-22.md)
       * [Workfront Fusion-releaseactiviteit: Week van 9 mei 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-may-9-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 25 april 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-apr-25-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 25 april 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-apr-25-22.md)
       * [Workfront Fusion-releaseactiviteit: Week van 18 april 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-apr-18-22.md)
       * [Workfront Fusion-releaseactiviteit: Week van 21 maart 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-mar-21-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 28 februari 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-feb-28-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 21 februari 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-feb-21-22.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 14 februari 2022 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-feb-14-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 28 februari 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-feb-28-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 21 februari 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-feb-21-22.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 14 februari 2022 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-feb-14-22.md)
       * [Workfront Fusion-releaseactiviteit: Week van 3 januari 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2022/fusion-jan-3-22.md)
    * Fusion-releases - 2021 {#fusion-releases-2021}
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 29 november 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-nov-29-21.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 15 november 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-nov-15-21.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 29 november 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-nov-29-21.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 15 november 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-nov-15-21.md)
       * [Workfront Fusion-releaseactiviteit: Week van 8 november 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-nov-8-21.md)
       * [Workfront Fusion-releaseactiviteit: Week van 4 oktober 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-oct-4-21.md)
       * [Workfront Fusion-releaseactiviteit: Week van 13 september 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-sept-13-21.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 30 augustus 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-aug-30-21.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 23 augustus 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-aug-23-21.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 30 augustus 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-aug-30-21.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 23 augustus 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-aug-23-21.md)
       * [Workfront Fusion-releaseactiviteit: Week van 2 augustus 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-aug-2.md)
       * [Workfront Fusion-releaseactiviteit: Week van 26 juli 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jul-26.md)
       * [Workfront Fusion-releaseactiviteit: Week van 28 juni 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jun-28.md)
       * [Workfront Fusion-releaseactiviteit: Week van 21 juni 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jun-21.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 17 mei 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-may-17.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 10 mei 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-may-10.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 17 mei 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-may-17.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 10 mei 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-may-10.md)
       * [Workfront Fusion-releaseactiviteit: Week van 3 mei 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-may-3.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 26 april 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-apr-26.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 19 april 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-apr-19.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 26 april 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-apr-26.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 19 april 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-apr-19.md)
       * [Workfront Fusion-releaseactiviteit: Week van 8 maart 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-mar-8.md)
       * [Workfront Fusion-releaseactiviteit: Week van 15 februari 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-feb-15.md)
       * [Workfront Fusion-releaseactiviteit: Week van 7 februari 2022](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-feb-7-21.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 1 februari 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-feb-1.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 25 januari 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jan-25.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 18 januari 2021 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jan-18.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 1 februari 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-feb-1.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 25 januari 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jan-25.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 18 januari 2021 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jan-18.md)
       * [Workfront Fusion-releaseactiviteit: Week van 11 januari 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jan-11.md)
       * [Workfront Fusion-releaseactiviteit: Week van 4 januari 2021](/help/workfront-fusion/fusion-product-releases/fusion-releases-2021/fusion-jan-4.md)
    * Fusion-releases - 2020 {#fusion-releases-2020}
       * [Workfront Fusion-releaseactiviteit: Week van 7 december 2020](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-dec-7.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 30 november 2020 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-nov-30.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 16 november 2020 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-nov-16.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 30 november 2020 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-nov-30.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 16 november 2020 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-nov-16.md)
       * [Workfront Fusion-releaseactiviteit: Week van 2 november 2020](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-nov-2.md)
       * [Workfront Fusion-releaseactiviteit: Week van 21 september 2020](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-sept-21.md)
-      * [&#x200B; Workfront Fusion-releaseactiviteit: Week van 24 augustus 2020 &#x200B;](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-aug-24.md)
+      * [ Workfront Fusion-releaseactiviteit: Week van 24 augustus 2020 ](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-aug-24.md)
       * [Workfront Fusion-releaseactiviteit: Week van 17 augustus 2020](/help/workfront-fusion/fusion-product-releases/fusion-releases-2020/fusion-aug-17.md)
 * Aan de slag met Workfront Fusion {#get-started-with-fusion}
    * [Aan de slag met Workfront Fusion](/help/workfront-fusion/get-started-with-fusion/get-started-fusion-toc.md)
@@ -182,8 +182,8 @@ ht-degree: 0%
    * Overschrijvingen van licenties en bewerkingen {#licensing-and-operations-overviews}
       * [Overschrijvingen van licenties en bewerkingen](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/licensing-operations-overviews.md)
       * [Adobe Workfront Fusion-licenties](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/license-automation-vs-integration.md)
-      * [&#x200B; Bewerkingen](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md)
-        [&#x200B; de pools van de Arbeider &#x200B;](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/worker-pools.md)
+      * [ Bewerkingen](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/operations-in-workfront-fusion.md)
+        [ de pools van de Arbeider ](/help/workfront-fusion/set-up-and-manage-workfront-fusion/licensing-operations-overview/worker-pools.md)
    * Organisaties en teams instellen en beheren {#set-up-and-manage-orgs-and-teams}
       * [Organisaties en teams instellen en beheren: artikelindex](/help/workfront-fusion/set-up-and-manage-workfront-fusion/set-up-and-manage-orgs-and-teams/set-up-and-manage-orgs-and-teams.md)
       * Organisaties en teams instellen {#set-up-orgs-teams-and-users}
@@ -275,6 +275,7 @@ ht-degree: 0%
    * [De Scenario-score-expert uitvoeren](/help/workfront-fusion/manage-scenarios/run-scenario-scoring.md)
    * [Elementen van scenario&#39;s verwijderen](/help/workfront-fusion/manage-scenarios/delete-scenario-elements.md)
    * [De scenario&#39;s beheren vanuit het gebied Scenarios](/help/workfront-fusion/manage-scenarios/manage-scenarios-from-list.md)
+   * [Webhaken bewerken](/help/workfront-fusion/manage-scenarios/edit-webhooks.md)
 * Praktische scenario&#39;s maken {#build-practice-scenarios}
    * [Praktische scenario&#39;s maken](/help/workfront-fusion/build-practice-scenarios/build-practice-scenarios-toc.md)
    * [Een basisscenario maken](/help/workfront-fusion/build-practice-scenarios/create-basic-scenario.md)
