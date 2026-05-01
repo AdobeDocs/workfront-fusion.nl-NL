@@ -6,7 +6,7 @@ feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 748055ad-d305-4513-9a5c-9c970b74a96e
-source-git-commit: 0e8f73afb2ab60bb1b601abf3c4f3d611e97d125
+source-git-commit: 44f4fc5de94898e817172a2a83f922776086549f
 workflow-type: tm+mt
 source-wordcount: '488'
 ht-degree: 0%
@@ -23,7 +23,7 @@ U kunt bijvoorbeeld een MCP-server configureren om een AI-model te verbinden met
 
 De module ModelContextProtocol (MCP) staat u toe om een gebruikersherinnering te verwerken gebruikend een taalmodel en servers MCP.
 
-Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [&#x200B; een AI herinnering aan uw scenario &#x200B;](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md) toevoegen.
+Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [ een AI herinnering aan uw scenario ](/help/workfront-fusion/create-scenarios/add-modules/add-an-ai-prompt-to-your-scenario.md) toevoegen.
 
 ## Toegangsvereisten
 
@@ -50,7 +50,7 @@ Voor meer informatie over MCP in de scenario&#39;s van de Fusie, zie [&#x200B; e
  </tbody> 
 </table>
 
-Voor meer detail over de informatie in deze lijst, zie [&#x200B; vereisten van de Toegang in documentatie &#x200B;](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
+Voor meer detail over de informatie in deze lijst, zie [ vereisten van de Toegang in documentatie ](/help/workfront-fusion/references/licenses-and-roles/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -77,11 +77,11 @@ Deze actiemodule verwerkt een herinnering, gebruikend het taalmodel en servers M
    <td>LLM-toets</td> 
    <td> Selecteer een bestaande sleutel LLM, of creeer nieuwe door <b> te klikken voeg </b> toe en ga de volgende informatie in: 
      <ul>
-       <li><b> Zeer belangrijke naam </b>: Ga een naam voor de nieuwe sleutel in.</li>
-       <li><b> LLM </b>: Selecteer het grote taalmodel dat deze sleutel met wordt geassocieerd.</li>
-       <li><b> Sleutel </b>: Ga of kaart uw API sleutel voor het geselecteerde model in.</li>
-       <li><b> Model </b>: Selecteer het model LLM dat de sleutel zal gebruiken.</li>
-       <li><b> Max Tokens </b>: Ga of kaart het maximumaantal tokens in dat LLM in zijn reactie kan produceren.<p>Een token is meestal gelijk aan vier tekens, of 0,75 van een woord in het Engels. 'Hello world' zou twee tokens gelijk maken, en 'Authentication' zou één aan twee tokens gelijk stellen.</li>
+       <li><b> Zeer belangrijke naam </b>: Voer een naam in voor de nieuwe toets.</li>
+       <li><b> LLM </b>: Selecteer het grote taalmodel waaraan deze sleutel is gekoppeld.</li>
+       <li><b> Sleutel </b>: Voer de API-sleutel voor het geselecteerde model in of wijs deze toe.</li>
+       <li><b> Model </b>: Selecteer het LLM-model dat de toets zal gebruiken.</li>
+       <li><b> Max Tokens </b>: Ga of kaart het maximumaantal tekenen in dat LLM in zijn reactie kan produceren.<p>Een token is meestal gelijk aan vier tekens, of 0,75 van een woord in het Engels. 'Hello world' zou twee tokens gelijk maken, en 'Authentication' zou één aan twee tokens gelijk stellen.</li>
       </ul>
     </td> 
   </tr> 
@@ -89,10 +89,10 @@ Deze actiemodule verwerkt een herinnering, gebruikend het taalmodel en servers M
    <td>MCP-servers</td> 
    <td> <p>Voor elke server MCP die u met wilt verbinden, <b> toevoegen </b> klikken en de volgende informatie ingaan: </p> 
      <ul>
-       <li><b> Verbinding </b>: Selecteer de verbinding die de Fusie zal gebruiken om met de server te verbinden MCP.</li>
+       <li><b> Verbinding </b>: Selecteer de verbinding die Fusion zal gebruiken om met de server te verbinden MCP.</li>
        <li><b> gastheer van de Server MCP </b>: Ga URL van de server MCP in.</li>
-       <li><b> Naam van de Server MCP </b>: Ga of kaart een naam voor deze server MCP in.</li>
-       <li><b> Kopballen </b>: Voeg om het even welke toepasselijke kopballen toe.</li>
+       <li><b> MCP de Naam van de Server </b>: Ga of kaart een naam voor deze server MCP in.</li>
+       <li><b> Kopballen </b>: Voeg de toepasselijke kopteksten toe.</li>
        <li><b> Type van Server MCP </b>: Selecteer het servertype.</li>
       </ul>
     </td> 
